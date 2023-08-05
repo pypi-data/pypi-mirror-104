@@ -1,0 +1,17 @@
+attrs>=19.3
+clldutils>=3.5
+pybtex
+tqdm
+xlrd
+
+[dev]
+flake8
+twine
+wheel
+
+[test]
+coverage>=4.2
+mock
+pytest-cov
+pytest-mock
+pytest>=5
