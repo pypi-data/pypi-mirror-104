@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: similaritytoolbox
+Version: 0.0.1
+Summary: Toolbox
+Home-page: https://pypi.org/project/similaritytoolbox
+Author: Andreas Horndahl
+Author-email: andreas.horndahl@arbetsformedlingen.se
+License: Apache 2.0
+Keywords: Similarity,BERT,transformer
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: transformers (==4.5.0)
+Requires-Dist: faiss-gpu (==1.7.0)
+
+# Similarity toolbox
+
+## Intro
+
+    Toolbox that can be used to find similar setences
+
+Tecnologies used
+    * Contrastive tension   https://github.com/FreddeFrallan/Contrastive-Tension
+    * Faiss                 https://github.com/facebookresearch/faiss
+    * (Transformers/BERT)
+
+## Version history
+
+0.0.1   Draft
+
+
+
+## Installation
+
+pip install similaritytoolbox
+
+
+
+## Usage
+
+    toolbox = SimilarityToolbox()
+    toolbox.add_sentence("kaka")
+    toolbox.print_similar("bulle",limit = 5)
+
+
+
+## Release
+
+    rm -Rf dist/
+    Step up version in setup.py
+    python3 setup.py sdist bdist_wheel
+    python3 -m twine upload dist/*
+    Username: horndahl
+
