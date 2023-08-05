@@ -1,0 +1,6 @@
+exec_wrapper/__init__.py,sha256=ofgp84l46T02dIW5Lh85jCPp0Q8Kj-zKUUfud0ZoWKI,2293
+exec_wrapper/_nt_launcher.exe,sha256=NS3xBCVAld35JVFNmb-1QRyVtThukMrwZVeXn4LhaEQ,96768
+exec_wrapper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exec_wrapper-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+exec_wrapper-0.1.0.dist-info/METADATA,sha256=giD4QmDq5meIKbhR70_4pOQdwVVY4MebDLGZquycSR4,890
+exec_wrapper-0.1.0.dist-info/RECORD,,
