@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+aio_cooker_client/__init__.py
+aio_cooker_client/client.py
+aio_cooker_client.egg-info/PKG-INFO
+aio_cooker_client.egg-info/SOURCES.txt
+aio_cooker_client.egg-info/dependency_links.txt
+aio_cooker_client.egg-info/requires.txt
+aio_cooker_client.egg-info/top_level.txt
