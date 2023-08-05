@@ -1,0 +1,11 @@
+kimimaro/__init__.py,sha256=V62kqVa9ez8_eesXmzoAb2-jt-7bmkLYYe-5H0mvISo,811
+kimimaro/intake.py,sha256=W2gvqN8GCRAlDZcvVsuVpF9SqYWDN0h5elvEPqmu5Zo,25511
+kimimaro/postprocess.py,sha256=l2iHu8FdwtCJhk07QJItxJkQ4zXSfySn_LOffg4QQww,19044
+kimimaro/skeletontricks.cp36-win_amd64.pyd,sha256=vCFGzN_d7d0Lbsz0mIKMoFrpGTR7ww7Ql3mDx9xK0pM,728576
+kimimaro/trace.py,sha256=xghFJdvRFcDTgjrSAqU4aB6RROTGtgHMdNyB5-n2CEU,12553
+kimimaro-2.1.1.dist-info/AUTHORS,sha256=ZoFVZWLkBQVEqYwyI9HTcInhCMbS0fx8WzwJaUGJTig,88
+kimimaro-2.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kimimaro-2.1.1.dist-info/METADATA,sha256=EUeKiJo8-zyPW1l7V4eJ1n8zw1v-sHjtffo2EHgzivw,42365
+kimimaro-2.1.1.dist-info/WHEEL,sha256=epucrC2yyYTysDCMzXuz8eGMTMKryzRfNOvMGdslbjc,101
+kimimaro-2.1.1.dist-info/top_level.txt,sha256=lU3wS4DgvXJ_-NCsEIB4S7COnJqtOoXtkcL8Zuu0B34,9
+kimimaro-2.1.1.dist-info/RECORD,,
