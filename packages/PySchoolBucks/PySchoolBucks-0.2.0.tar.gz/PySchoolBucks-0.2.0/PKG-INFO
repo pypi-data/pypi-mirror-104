@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PySchoolBucks
+Version: 0.2.0
+Summary: Python wrapper for the MySchoolBucks Pay API
+Home-page: https://github.com/AndrewLester/PySchoolBucks
+License: UNKNOWN
+Description: # PySchoolBucks
+        Python wrapper for the MySchoolBucks Pay API
+        ## Usage
+        ```python
+        from msb import MsbPayAPI, APIServer
+        
+        pay = MsbPayAPI('example-key', APIServer.PRODUCTION)
+        
+        # TODO: Do stuff with the pay object
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
