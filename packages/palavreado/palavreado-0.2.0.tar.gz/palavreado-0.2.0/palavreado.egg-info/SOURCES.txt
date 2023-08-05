@@ -1,0 +1,12 @@
+LICENSE.md
+setup.py
+palavreado/__init__.py
+palavreado/bracket_expansion.py
+palavreado/builder.py
+palavreado.egg-info/PKG-INFO
+palavreado.egg-info/SOURCES.txt
+palavreado.egg-info/dependency_links.txt
+palavreado.egg-info/requires.txt
+palavreado.egg-info/top_level.txt
+test/test_builder.py
+test/test_palavreado.py
