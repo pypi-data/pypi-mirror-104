@@ -1,0 +1,15 @@
+mypy_boto3_lakeformation/__init__.py,sha256=Y0Xu7CciqunW0GIY1Yftm8iXey9pPmdR5Ls2yIBLX3c,503
+mypy_boto3_lakeformation/__init__.pyi,sha256=YBrH84CGPwXKquI0yhYXhT_eEx6FvfeJ0n5RfJS7juA,502
+mypy_boto3_lakeformation/__main__.py,sha256=d60QoUjfTKGY08JsTziqC_lNPLxZH2ZHL9PvnHU_tlM,752
+mypy_boto3_lakeformation/client.py,sha256=Eu5wcH8dl6H6ifGNRrgvRLvDqmz7U8LxvANhqP4Cm9M,7492
+mypy_boto3_lakeformation/client.pyi,sha256=2FI4dAuQZfO5xxjFVXxrR7ywoOBfE5r0gcFNGTeJnxk,7473
+mypy_boto3_lakeformation/literals.py,sha256=VTBDSP_UMu9E9UP0-bDXEB7lUbYqutOSrAjC_IKnOG4,904
+mypy_boto3_lakeformation/literals.pyi,sha256=rqkMix0Sy4Zp2x4uZ1v7hGNfvdcH3o5LzD5IitNBjIg,902
+mypy_boto3_lakeformation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_lakeformation/type_defs.py,sha256=MXIXRlfdbNEiWTarBSrcLGCtC9nTJVLHXf98WeHmJe0,7028
+mypy_boto3_lakeformation/type_defs.pyi,sha256=ApJ5_raqTNya5rz5rBb2oJMSzFxe5Ll5N7DNj1Fxejo,7017
+mypy_boto3_lakeformation/version.py,sha256=R2WweRyAFXxmYQmyykm-oo3_45EwThOEn-1VimHAT7M,57
+mypy_boto3_lakeformation-1.17.61.0.dist-info/METADATA,sha256=1ENfwbf2SuBuBQyT2SehjSsP9-WIaxONlcZlmlLvLRA,7187
+mypy_boto3_lakeformation-1.17.61.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_lakeformation-1.17.61.0.dist-info/top_level.txt,sha256=tEmmZSeWA-X94iF8rcbDsaShxMQ0C64mw_ifaceYcow,25
+mypy_boto3_lakeformation-1.17.61.0.dist-info/RECORD,,
