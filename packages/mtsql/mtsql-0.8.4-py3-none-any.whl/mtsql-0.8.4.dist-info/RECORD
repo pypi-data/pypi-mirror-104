@@ -1,0 +1,10 @@
+mt/sql/__init__.py,sha256=v-8eLGIvn9b3CLS_N27RjKsCoZXXXZNJlkiaap1ot-Y,44
+mt/sql/base.py,sha256=BzGvdP4wyNfSSUHKgLwadj30J1C4hh-WXoqISVYcL3w,2667
+mt/sql/mysql.py,sha256=jTITFxXDZ4Ed2JSuvLXBYyn7dxkEoxpWdN8cP91-YLk,4502
+mt/sql/psql.py,sha256=SAcYt25B592pAe0xAgH8tbBUEWHbTNJo2RyxxxDyUj0,58533
+mt/sql/version.py,sha256=qpdJcqZ1G5CqNOg8i8ZPK0S1dvEiruHImH6U4XeASx8,201
+mtsql-0.8.4.dist-info/LICENSE,sha256=PojkRlQzTT5Eg6Nj03XoIVEefN3u8iiIFf1p4rqe_t4,1070
+mtsql-0.8.4.dist-info/METADATA,sha256=v5ay4PP3whCdAXByS1dneTjracVoAFTh2w8Ide-A_F8,606
+mtsql-0.8.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mtsql-0.8.4.dist-info/top_level.txt,sha256=WcqGFu9cV7iMZg09iam8eNxUvGpLSKKF2Iubf6SJVOo,3
+mtsql-0.8.4.dist-info/RECORD,,
