@@ -1,0 +1,16 @@
+pelican
+pelican-jinja-filters>=2.1.0
+
+[all]
+pip
+wheel
+setuptools>=18.0
+twine
+minchin.releaser>=0.4.2
+
+[build]
+pip
+wheel
+setuptools>=18.0
+twine
+minchin.releaser>=0.4.2
