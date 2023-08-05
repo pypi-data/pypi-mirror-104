@@ -1,0 +1,9 @@
+rki_covid19csv_parser/__init__.py,sha256=pr2FY4_c2Dh7rb8WrczifbWXkF7ytmRwCp6BEAKPbXc,52
+rki_covid19csv_parser/csv_parser.py,sha256=RIwiDEa33dYCUiNVauXsvzpnyCYzhia2yzJzBv_tk1w,19849
+rki_covid19csv_parser/data/Bundesland_id.csv,sha256=9cEt3imKaMlfvtAYiX5-ey6O0jkymPV8MZyVh-z9d68,352
+rki_covid19csv_parser/data/Landkreis_id.csv,sha256=BBuyNGg1Z8dhR6twhgkUzgaRg7yzt0Hlrn-Bkzhaq18,10163
+rki_covid19csv_parser-1.0.1.dist-info/LICENSE,sha256=P2zAomI5nwbNXYIkHyh4Zoh7B17wSq_5kOeZdJcS7Uk,11345
+rki_covid19csv_parser-1.0.1.dist-info/METADATA,sha256=tvKlLUOe0jzfhvRnjJLt8naAZvv7SUpaMJyLwbvixhU,3714
+rki_covid19csv_parser-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rki_covid19csv_parser-1.0.1.dist-info/top_level.txt,sha256=CCMG720FQPVl5Ybo4OMWVwR8I6If6-Kow7AHPTa7XmA,22
+rki_covid19csv_parser-1.0.1.dist-info/RECORD,,
