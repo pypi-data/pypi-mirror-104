@@ -1,0 +1,925 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMUs &#8212; skinematics 0.8.6 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="shortcut icon" href="_static/skinematics.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="misc" href="misc.html" />
+    <link rel="prev" title="scikit-kinematics - Documentation" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="misc.html" title="misc"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="scikit-kinematics - Documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">skinematics 0.8.6 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">IMUs</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="imus">
+<span id="inertial-label"></span><h1>IMUs<a class="headerlink" href="#imus" title="Permalink to this headline">¶</a></h1>
+<p>These routines facilitate the calculation of 3d movement kinematics for
+recordings from inertial measurement units (IMUs).</p>
+<p>They are implemented in an object oriented way. (Don’t worry if you have not
+used objects before, it won’t be a problem here!) All sensor implementations
+are based on the abstract base class “IMU_Base”. For each sensor, the
+corresponding method “get_data” has to be implemented, by sub-classing
+IMU_Base. Currently 5 sensor types are supported:</p>
+<ul class="simple">
+<li><p>XSens</p></li>
+<li><p>xio (original, and NGIMU)</p></li>
+<li><p>YEI</p></li>
+<li><p>polulu</p></li>
+<li><p>manual</p></li>
+</ul>
+<p>The last one is not a “real” sensor, but allows the creation of an
+IMU-object with your own IMU-data, without defining a new class.
+To create a sensor object, choose one of the existing sensor classes, as
+demonstrated in the example below. You have to provide at least the
+file-name of the file containing the sensor data. Optionally, you can also
+provide:</p>
+<ul>
+<li><p>R_init … initial orientation [default = np.eye(3)]</p></li>
+<li><p>pos_init … initial position [default = np.ones(3)]</p></li>
+<li><p>q_type … method to calculate orientation. The options are:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“analytical” [default] … analytical solution, using only acc and omega</p></li>
+<li><p>“kalman” … quaternion Kalman filter, using acc, omega, and mag</p></li>
+<li><p>“madgwick” … Madgwick algorithm, using acc, omega, and mag</p></li>
+<li><p>“mahony” … Mahony algorithm, using, acc and omega, and mag</p></li>
+<li><p>“None” … If you want to only read in the sensor data</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Data are read in, and by default the orientation is automatically calculated
+based on the parameter “q_type” and using the function _calc_orientation.</p>
+<div class="section" id="base-class-methods">
+<h2>Base-Class &amp; Methods<a class="headerlink" href="#base-class-methods" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imus.IMU_Base" title="imus.IMU_Base"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.IMU_Base</span></code></a>([in_file, q_type, R_init, …])</p></td>
+<td><p>Abstract BaseClass for working with working with inertial measurement units (IMUs) A concrete class must be instantiated, which implements “get_data”.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imus.IMU_Base.calc_position" title="imus.IMU_Base.calc_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.IMU_Base.calc_position</span></code></a>()</p></td>
+<td><p>Calculate the position, assuming that the orientation is already known.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imus.IMU_Base.get_data" title="imus.IMU_Base.get_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.IMU_Base.get_data</span></code></a>([in_file, in_data])</p></td>
+<td><p>Retrieve “rate”, “acc”, “omega”, “mag” from the input source and set the corresponding values of “self”.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imus.IMU_Base.set_qtype" title="imus.IMU_Base.set_qtype"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.IMU_Base.set_qtype</span></code></a>(type_value)</p></td>
+<td><p>Sets q_type, and automatically performs the relevant calculations.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="classes-and-functions-for-sensor-integration">
+<h2>Classes and Functions for Sensor-Integration<a class="headerlink" href="#classes-and-functions-for-sensor-integration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="#imus.analytical" title="imus.analytical"><code class="xref py py-func docutils literal notranslate"><span class="pre">imus.analytical()</span></code></a> … Calculate orientation and position analytically from angular velocity and linear acceleration</p></li>
+<li><p><a class="reference internal" href="#imus.kalman" title="imus.kalman"><code class="xref py py-func docutils literal notranslate"><span class="pre">imus.kalman()</span></code></a> … Calculate orientation from IMU-data using an Extended Kalman Filter</p></li>
+</ul>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#imus.Mahony" title="imus.Mahony"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.Mahony</span></code></a>([rate, Kp, Ki, Quaternion])</p></td>
+<td><p>Madgwick’s implementation of Mayhony’s AHRS algorithm</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#imus.Madgwick" title="imus.Madgwick"><code class="xref py py-obj docutils literal notranslate"><span class="pre">imus.Madgwick</span></code></a>([rate, Beta, Quaternion])</p></td>
+<td><p>Madgwick’s gradient descent filter.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="module-imus">
+<span id="details"></span><h2>Details<a class="headerlink" href="#module-imus" title="Permalink to this headline">¶</a></h2>
+<p>This file contains the abstract base class “IMU_Base” for analyzing movements
+recordings with inertial measurement units (IMUs), as well as functions and
+classes for the evaluation of IMU-data..</p>
+<p>The advantage of using an “abstract base class” is that it allows to write
+code that is independent of the IMU-sensor. All IMUs provide acceleration
+and angular velocities, and most of them also the direction of the local
+magnetic field. The specifics of each sensor are hidden in the sensor-object
+(specifically, in the “get_data” method which has to be implemented once
+for each sensor). Initialization of a sensor object includes a number of
+activities:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Reading in the data.</p></li>
+<li><p>Making acceleration, angular_velocity etc. accessible in a sensor-
+independent way</p></li>
+<li><p>Calculating duration, totalSamples, etc.</p></li>
+<li><p>Calculating orientation (expressed as “quat”), with the method
+specified in “q_type”</p></li>
+</ul>
+</div></blockquote>
+<dl class="py class">
+<dt id="imus.IMU_Base">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">imus.</span></code><code class="sig-name descname"><span class="pre">IMU_Base</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#IMU_Base"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.IMU_Base" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract BaseClass for working with working with inertial measurement units (IMUs)
+A concrete class must be instantiated, which implements “get_data”.
+(See example below.)</p>
+<dl class="py attribute">
+<dt id="imus.IMU_Base.acc">
+<code class="sig-name descname"><span class="pre">acc</span></code><a class="headerlink" href="#imus.IMU_Base.acc" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D linear acceleration [m/s**2]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.dataType">
+<code class="sig-name descname"><span class="pre">dataType</span></code><a class="headerlink" href="#imus.IMU_Base.dataType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Type of data (commonly float)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.duration">
+<code class="sig-name descname"><span class="pre">duration</span></code><a class="headerlink" href="#imus.IMU_Base.duration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Duration of recording [sec]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.mag">
+<code class="sig-name descname"><span class="pre">mag</span></code><a class="headerlink" href="#imus.IMU_Base.mag" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D orientation of local magnectic field</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.omega">
+<code class="sig-name descname"><span class="pre">omega</span></code><a class="headerlink" href="#imus.IMU_Base.omega" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D angular velocity [rad/s]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.pos">
+<code class="sig-name descname"><span class="pre">pos</span></code><a class="headerlink" href="#imus.IMU_Base.pos" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D position</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.pos_init">
+<code class="sig-name descname"><span class="pre">pos_init</span></code><a class="headerlink" href="#imus.IMU_Base.pos_init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initial position. default is np.ones(3)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>3-vector</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.quat">
+<code class="sig-name descname"><span class="pre">quat</span></code><a class="headerlink" href="#imus.IMU_Base.quat" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D orientation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx4 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.q_type">
+<code class="sig-name descname"><span class="pre">q_type</span></code><a class="headerlink" href="#imus.IMU_Base.q_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method of calculation for orientation quaternion</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.rate">
+<code class="sig-name descname"><span class="pre">rate</span></code><a class="headerlink" href="#imus.IMU_Base.rate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sampling rate [Hz]</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.R_init">
+<code class="sig-name descname"><span class="pre">R_init</span></code><a class="headerlink" href="#imus.IMU_Base.R_init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rotation matrix defining the initial orientation.
+Default is np.eye(3)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>3x3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.source">
+<code class="sig-name descname"><span class="pre">source</span></code><a class="headerlink" href="#imus.IMU_Base.source" title="Permalink to this definition">¶</a></dt>
+<dd><p>Name of data-file</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.totalSamples">
+<code class="sig-name descname"><span class="pre">totalSamples</span></code><a class="headerlink" href="#imus.IMU_Base.totalSamples" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of samples</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="imus.IMU_Base.vel">
+<code class="sig-name descname"><span class="pre">vel</span></code><a class="headerlink" href="#imus.IMU_Base.vel" title="Permalink to this definition">¶</a></dt>
+<dd><p>3D velocity</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Nx3 array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inFile</strong> (<em>string</em>) – path- and file-name of data file / input source</p></li>
+<li><p><strong>inData</strong> (<em>dictionary</em>) – <p>The following fields are required:</p>
+<dl class="simple">
+<dt>acc<span class="classifier">(N x 3) array</span></dt><dd><p>Linear acceleration [m/s^2], in the x-, y-, and z-direction</p>
+</dd>
+<dt>omega<span class="classifier">(N x 3) array</span></dt><dd><p>Angular velocity [rad/s], about the x-, y-, and z-axis</p>
+</dd>
+<dt>[mag]<span class="classifier">(N x 3) array (optional)</span></dt><dd><p>Local magnetic field, in the x-, y-, and z-direction</p>
+</dd>
+<dt>rate: float</dt><dd><p>sample rate [Hz]</p>
+</dd>
+</dl>
+</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Set the in-file, initial sensor orientation</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">in_file</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;tests/data/data_xsens.txt&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">initial_orientation</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],</span>
+<span class="gp">&gt;&gt;&gt; </span>                                <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span>
+<span class="gp">&gt;&gt;&gt; </span>                                <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">]])</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Choose a sensor</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">skinematics.sensors.xsens</span> <span class="kn">import</span> <span class="n">XSens</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">skinematics.sensors.manual</span> <span class="kn">import</span> <span class="n">MyOwnSensor</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Only read in the data</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">XSens</span><span class="p">(</span><span class="n">in_file</span><span class="p">,</span> <span class="n">q_type</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Read in and evaluate the data</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sensor</span> <span class="o">=</span> <span class="n">XSens</span><span class="p">(</span><span class="n">in_file</span><span class="o">=</span><span class="n">in_file</span><span class="p">,</span> <span class="n">R_init</span><span class="o">=</span><span class="n">initial_orientation</span><span class="p">)</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># By default, the orientation quaternion gets automatically calculated,</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1">#    using the option &quot;analytical&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">q_analytical</span> <span class="o">=</span> <span class="n">sensor</span><span class="o">.</span><span class="n">quat</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Automatic re-calculation of orientation if &quot;q_type&quot; is changed</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sensor</span><span class="o">.</span><span class="n">set_qtype</span><span class="p">(</span><span class="s1">&#39;madgwick&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">q_Madgwick</span> <span class="o">=</span> <span class="n">sensor</span><span class="o">.</span><span class="n">quat</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sensor</span><span class="o">.</span><span class="n">set_qtype</span><span class="p">(</span><span class="s1">&#39;kalman&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">q_Kalman</span> <span class="o">=</span> <span class="n">sensor</span><span class="o">.</span><span class="n">quat</span>
+<span class="go">&gt;&gt;&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c1"># Demonstrate how to fill up a sensor manually</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">in_data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;rate&#39;</span><span class="p">:</span><span class="n">sensor</span><span class="o">.</span><span class="n">rate</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s1">&#39;acc&#39;</span><span class="p">:</span> <span class="n">sensor</span><span class="o">.</span><span class="n">acc</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s1">&#39;omega&#39;</span><span class="p">:</span><span class="n">sensor</span><span class="o">.</span><span class="n">omega</span><span class="p">,</span>
+<span class="gp">&gt;&gt;&gt; </span>        <span class="s1">&#39;mag&#39;</span><span class="p">:</span><span class="n">sensor</span><span class="o">.</span><span class="n">mag</span><span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">my_sensor</span> <span class="o">=</span> <span class="n">MyOwnSensor</span><span class="p">(</span><span class="n">in_file</span><span class="o">=</span><span class="s1">&#39;My own 123 sensor.&#39;</span><span class="p">,</span> <span class="n">in_data</span><span class="o">=</span><span class="n">in_data</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="imus.IMU_Base.calc_position">
+<code class="sig-name descname"><span class="pre">calc_position</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#IMU_Base.calc_position"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.IMU_Base.calc_position" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the position, assuming that the orientation is already known.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imus.IMU_Base.get_data">
+<em class="property"><span class="pre">abstract</span> </em><code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#IMU_Base.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.IMU_Base.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retrieve “rate”, “acc”, “omega”, “mag” from the input source
+and set the corresponding values of “self”.
+With some sensors, “rate” has to be provided, and is taken from “in_data”.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="imus.IMU_Base.set_qtype">
+<code class="sig-name descname"><span class="pre">set_qtype</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">type_value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#IMU_Base.set_qtype"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.IMU_Base.set_qtype" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets q_type, and automatically performs the relevant calculations.
+q_type determines how the orientation is calculated.
+If “q_type” is “None”, no orientation gets calculated; otherwise,
+the orientation calculation is performed with
+“_calc_orientation”, using the option “q_type”.</p>
+<p>It has to be one of the following values:</p>
+<ul class="simple">
+<li><p>analytical</p></li>
+<li><p>kalman</p></li>
+<li><p>madgwick</p></li>
+<li><p>mahony</p></li>
+<li><p>None</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="imus.Madgwick">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">imus.</span></code><code class="sig-name descname"><span class="pre">Madgwick</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Beta</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Quaternion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">0]</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#Madgwick"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.Madgwick" title="Permalink to this definition">¶</a></dt>
+<dd><p>Madgwick’s gradient descent filter.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>rate</strong> (<em>double</em>) – sample rate [Hz]</p></li>
+<li><p><strong>Beta</strong> (<em>double</em>) – algorithm gain</p></li>
+<li><p><strong>Quaternion</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>N</em><em>,</em><em>4</em><em>)</em>) – output quaternion describing the Earth relative to the sensor</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="imus.Madgwick.Update">
+<code class="sig-name descname"><span class="pre">Update</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Gyroscope</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Accelerometer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Magnetometer</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#Madgwick.Update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.Madgwick.Update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the best quaternion to the given measurement values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>Gyroscope</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Angular velocity [rad/s]</p></li>
+<li><p><strong>Accelerometer</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Linear acceleration (Only the direction is used, so units don’t matter.)</p></li>
+<li><p><strong>Magnetometer</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Orientation of local magenetic field.
+(Again, only the direction is used, so units don’t matter.)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="imus.Mahony">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">imus.</span></code><code class="sig-name descname"><span class="pre">Mahony</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">256.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Kp</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Ki</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Quaternion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[1,</span> <span class="pre">0,</span> <span class="pre">0,</span> <span class="pre">0]</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#Mahony"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.Mahony" title="Permalink to this definition">¶</a></dt>
+<dd><p>Madgwick’s implementation of Mayhony’s AHRS algorithm</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>rate</strong> (<em>double</em>) – sample rate [Hz]</p></li>
+<li><p><strong>Kp</strong> (<em>algorithm proportional gain</em>) – </p></li>
+<li><p><strong>Ki</strong> (<em>algorithm integral gain</em>) – </p></li>
+<li><p><strong>Quaternion</strong> (<em>output quaternion describing the Earth relative to the sensor</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="imus.Mahony.Update">
+<code class="sig-name descname"><span class="pre">Update</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">Gyroscope</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Accelerometer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Magnetometer</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#Mahony.Update"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.Mahony.Update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the best quaternion to the given measurement values.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>Gyroscope</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Angular velocity [rad/s]</p></li>
+<li><p><strong>Accelerometer</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Linear acceleration (Only the direction is used, so units don’t
+matter.)</p></li>
+<li><p><strong>Magnetometer</strong> (<em>array</em><em>, </em><em>shape</em><em> (</em><em>,</em><em>3</em><em>)</em>) – Orientation of local magenetic field.
+(Again, only the direction is used, so units don’t matter.)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="imus.analytical">
+<code class="sig-prename descclassname"><span class="pre">imus.</span></code><code class="sig-name descname"><span class="pre">analytical</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">R_initialOrientation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">omega</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[0.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">0.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initialPosition</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">accMeasured</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[0.,</span> <span class="pre">0.,</span> <span class="pre">9.81],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">9.81],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">9.81],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">9.81],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">9.81]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rate</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#analytical"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.analytical" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reconstruct position and orientation with an analytical solution,
+from angular velocity and linear acceleration.
+Assumes a start in a stationary position. No compensation for drift.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>R_initialOrientation</strong> (<em>ndarray</em><em>(</em><em>3</em><em>,</em><em>3</em><em>)</em>) – Rotation matrix describing the initial orientation of the sensor,
+except a mis-orienation with respect to gravity</p></li>
+<li><p><strong>omega</strong> (<em>ndarray</em><em>(</em><em>N</em><em>,</em><em>3</em><em>)</em>) – Angular velocity, in [rad/s]</p></li>
+<li><p><strong>initialPosition</strong> (<em>ndarray</em><em>(</em><em>3</em><em>,</em><em>)</em>) – initial Position, in [m]</p></li>
+<li><p><strong>accMeasured</strong> (<em>ndarray</em><em>(</em><em>N</em><em>,</em><em>3</em><em>)</em>) – Linear acceleration, in [m/s^2]</p></li>
+<li><p><strong>rate</strong> (<em>float</em>) – sampling rate, in [Hz]</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>q</strong> (<em>ndarray(N,3)</em>) – Orientation, expressed as a quaternion vector</p></li>
+<li><p><strong>pos</strong> (<em>ndarray(N,3)</em>) – Position in space [m]</p></li>
+<li><p><strong>vel</strong> (<em>ndarray(N,3)</em>) – Velocity in space [m/s]</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">q1</span><span class="p">,</span> <span class="n">pos1</span> <span class="o">=</span> <span class="n">analytical</span><span class="p">(</span><span class="n">R_initialOrientation</span><span class="p">,</span> <span class="n">omega</span><span class="p">,</span> <span class="n">initialPosition</span><span class="p">,</span> <span class="n">acc</span><span class="p">,</span> <span class="n">rate</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="imus.kalman">
+<code class="sig-prename descclassname"><span class="pre">imus.</span></code><code class="sig-name descname"><span class="pre">kalman</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">acc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">omega</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">D</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.4,</span> <span class="pre">0.4,</span> <span class="pre">0.4]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tau</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[0.5,</span> <span class="pre">0.5,</span> <span class="pre">0.5]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Q_k</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_k</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/imus.html#kalman"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#imus.kalman" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calclulate the orientation from IMU magnetometer data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>rate</strong> (<em>float</em>) – sample rate [Hz]</p></li>
+<li><p><strong>acc</strong> (<em>(</em><em>N</em><em>,</em><em>3</em><em>) </em><em>ndarray</em>) – linear acceleration [m/sec^2]</p></li>
+<li><p><strong>omega</strong> (<em>(</em><em>N</em><em>,</em><em>3</em><em>) </em><em>ndarray</em>) – angular velocity [rad/sec]</p></li>
+<li><p><strong>mag</strong> (<em>(</em><em>N</em><em>,</em><em>3</em><em>) </em><em>ndarray</em>) – magnetic field orientation</p></li>
+<li><p><strong>D</strong> (<em>(</em><em>,</em><em>3</em><em>) </em><em>ndarray</em>) – noise variance, for x/y/z [rad^2/sec^2]
+parameter for tuning the filter; defaults from Yun et al.
+can also be entered as list</p></li>
+<li><p><strong>tau</strong> (<em>(</em><em>,</em><em>3</em><em>) </em><em>ndarray</em>) – time constant for the process model, for x/y/z [sec]
+parameter for tuning the filter; defaults from Yun et al.
+can also be entered as list</p></li>
+<li><p><strong>Q_k</strong> (<em>None</em><em>, or </em><em>(</em><em>7</em><em>,</em><em>7</em><em>) </em><em>ndarray</em>) – covariance matrix of process noises
+parameter for tuning the filter
+If set to “None”, the defaults from Yun et al. are taken!</p></li>
+<li><p><strong>R_k</strong> (<em>None</em><em>, or </em><em>(</em><em>7</em><em>,</em><em>7</em><em>) </em><em>ndarray</em>) – covariance matrix of measurement noises
+parameter for tuning the filter; defaults from Yun et al.
+If set to “None”, the defaults from Yun et al. are taken!</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>qOut</strong> – unit quaternion, describing the orientation relativ to the coordinate
+system spanned by the local magnetic field, and gravity</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>(N,4) ndarray</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<dl class="simple">
+<dt>Based on “Design, Implementation, and Experimental Results of a Quaternion-</dt><dd><p>Based Kalman Filter for Human Body Motion Tracking” Yun, X. and Bachman,
+E.R., IEEE TRANSACTIONS ON ROBOTICS, VOL. 22, 1216-1227 (2006)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="sub-classing-imu-base-for-your-own-sensor-type">
+<h2>Sub-classing IMU-Base for your own sensor type<a class="headerlink" href="#sub-classing-imu-base-for-your-own-sensor-type" title="Permalink to this headline">¶</a></h2>
+<p>If you have your own data format, you have to implement the corresponding
+“get_data” method. You can base it on:</p>
+<ul class="simple">
+<li><p>“xsens.py” … if all your data are in one file</p></li>
+<li><p>“polulu.py” … if you have to manually enter data not stored by your program</p></li>
+<li><p>“xio.py” … if your data are stored in multiple files</p></li>
+</ul>
+</div>
+<div class="section" id="existing-sensor-implementations">
+<h2>Existing Sensor Implementations<a class="headerlink" href="#existing-sensor-implementations" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-sensors.xio">
+<span id="xio"></span><h3>XIO<a class="headerlink" href="#module-sensors.xio" title="Permalink to this headline">¶</a></h3>
+<p>Import data saved with “x-IMU” sensors from x-io, through subclassing “IMU_Base”
+Note that the data are in two files:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>a data-file</p></li>
+<li><p>a reg-file</p></li>
+</ul>
+</div></blockquote>
+<p>More info about the sensor on <a class="reference external" href="http://x-io.co.uk">http://x-io.co.uk</a></p>
+<dl class="py class">
+<dt id="sensors.xio.XIO">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">sensors.xio.</span></code><code class="sig-name descname"><span class="pre">XIO</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio.html#XIO"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio.XIO" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concrete class based on abstract base class IMU_Base</p>
+<dl class="py method">
+<dt id="sensors.xio.XIO.get_data">
+<code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio.html#XIO.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio.XIO.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the sampling rate, as well as the recorded data,
+and assign them to the corresponding attributes of “self”.</p>
+<dl class="simple">
+<dt>Assigns the following properties</dt><dd><ul class="simple">
+<li><p>rate : rate</p></li>
+<li><p>acc : acceleration</p></li>
+<li><p>omega : angular_velocity</p></li>
+<li><p>mag : mag_field_direction</p></li>
+<li><p>packet_nr : packet_nr</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>in_selection</strong> (<em>string</em>) – Directory containing all the data-files, or
+filename of one file in that directory</p></li>
+<li><p><strong>in_data</strong> (<em>not used here</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="sensors.xio.read_datafile">
+<code class="sig-prename descclassname"><span class="pre">sensors.xio.</span></code><code class="sig-name descname"><span class="pre">read_datafile</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio.html#read_datafile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio.read_datafile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read data from an XIO “CalInertialAndMag”-file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>in_file</strong> (<em>string</em>) – Has to be the name of the “CalInertialAndMag”-file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p><strong>out_list</strong> – Contains the following parameters:</p>
+<ul class="simple">
+<li><p>acceleration</p></li>
+<li><p>angular_velocity</p></li>
+<li><p>mag_field_direction</p></li>
+<li><p>packet_nr</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="sensors.xio.read_ratefile">
+<code class="sig-prename descclassname"><span class="pre">sensors.xio.</span></code><code class="sig-name descname"><span class="pre">read_ratefile</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">reg_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio.html#read_ratefile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio.read_ratefile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read send-rates from an XIO sensor.
+“Disabled” channels have the “rate” set to “None”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>in_file</strong> (<em>string</em>) – Has to be the “Registers”-file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>rates</strong> – Contains the send-rates for the different “params”.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>directory</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-sensors.xio_ngimu">
+<span id="x-io-ngimu"></span><h2>x-io NGIMU<a class="headerlink" href="#module-sensors.xio_ngimu" title="Permalink to this headline">¶</a></h2>
+<p>Import data saved with “NGIMU” sensors from x-io, through subclassing “IMU_Base”
+Note that the data are in two files:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>a data-file</p></li>
+<li><p>a reg-file</p></li>
+</ul>
+</div></blockquote>
+<p>More info about the sensor on <a class="reference external" href="http://x-io.co.uk">http://x-io.co.uk</a></p>
+<dl class="py class">
+<dt id="sensors.xio_ngimu.NGIMU">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">sensors.xio_ngimu.</span></code><code class="sig-name descname"><span class="pre">NGIMU</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio_ngimu.html#NGIMU"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio_ngimu.NGIMU" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concrete class based on abstract base class IMU_Base</p>
+<dl class="py method">
+<dt id="sensors.xio_ngimu.NGIMU.get_data">
+<code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio_ngimu.html#NGIMU.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio_ngimu.NGIMU.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the sampling rate, as well as the recorded data,
+and assign them to the corresponding attributes of “self”.
+For the x-io.NGIMU, the data are stored in different files:</p>
+<ul class="simple">
+<li><p>“Settings.txt” : contains all the sensor-settings</p></li>
+<li><p>“sensors.csv” : contains the recorded sensor data</p></li>
+</ul>
+<dl class="simple">
+<dt>Assigns the following properties:</dt><dd><ul class="simple">
+<li><p>rate : rate</p></li>
+<li><p>acc : acceleration</p></li>
+<li><p>omega : angular_velocity</p></li>
+<li><p>mag : mag_field_direction</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>in_selection</strong> (<em>string</em>) – Directory containing all the data-files, or
+filename of one file in that directory</p></li>
+<li><p><strong>in_data</strong> (<em>not used here</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="sensors.xio_ngimu.read_datafile">
+<code class="sig-prename descclassname"><span class="pre">sensors.xio_ngimu.</span></code><code class="sig-name descname"><span class="pre">read_datafile</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio_ngimu.html#read_datafile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio_ngimu.read_datafile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read data from an XIO “CalInertialAndMag”-file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>in_file</strong> (<em>string</em>) – Has to be the name of the “sensors.csv”-file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p><strong>out_list</strong> – Contains the following parameters:</p>
+<ul class="simple">
+<li><p>time [s]</p></li>
+<li><p>acceleration [g]</p></li>
+<li><p>angular_velocity [deg/s]</p></li>
+<li><p>mag_field_direction [uT]</p></li>
+<li><p>barometer [hPa]</p></li>
+</ul>
+</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="sensors.xio_ngimu.read_ratefile">
+<code class="sig-prename descclassname"><span class="pre">sensors.xio_ngimu.</span></code><code class="sig-name descname"><span class="pre">read_ratefile</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">reg_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xio_ngimu.html#read_ratefile"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xio_ngimu.read_ratefile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read send-rates from an NGIMU sensor.
+“Disabled” channels have the “rate” set to “None”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>in_file</strong> (<em>string</em>) – Has to be the “Registers”-file.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>rates</strong> – Contains the send-rates for the following paramters:
+- sensors
+- magnitudes
+- quaternion
+- matrix
+- euler
+- linear
+- earth
+- altitude
+- temperature
+- humidity
+- battery
+- analogue
+- rssi</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>directory</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="section" id="module-sensors.xsens">
+<span id="xsens"></span><h3>XSens<a class="headerlink" href="#module-sensors.xsens" title="Permalink to this headline">¶</a></h3>
+<p>Import data saved with XSens-sensors, through subclassing “IMU_Base”</p>
+<dl class="py class">
+<dt id="sensors.xsens.XSens">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">sensors.xsens.</span></code><code class="sig-name descname"><span class="pre">XSens</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xsens.html#XSens"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xsens.XSens" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concrete class based on abstract base class IMU_Base</p>
+<dl class="py method">
+<dt id="sensors.xsens.XSens.get_data">
+<code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/xsens.html#XSens.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.xsens.XSens.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the sampling rate, as well as the recorded data,
+and assign them to the corresponding attributes of “self”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>in_file</strong> (<em>string</em>) – Filename of the data-file</p></li>
+<li><p><strong>in_data</strong> (<em>not used here</em>) – </p></li>
+<li><p><strong>Assigns</strong> – </p></li>
+<li><p><strong>-------</strong> – </p></li>
+<li><p><strong>rate</strong> (<em>-</em>) – </p></li>
+<li><p><strong>acc</strong> (<em>-</em>) – </p></li>
+<li><p><strong>omega</strong> (<em>-</em>) – </p></li>
+<li><p><strong>mag</strong> (<em>-</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-sensors.yei">
+<span id="yei"></span><h3>YEI<a class="headerlink" href="#module-sensors.yei" title="Permalink to this headline">¶</a></h3>
+<p>Import data saved with yei-sensors, through subclassing “IMU_Base”</p>
+<dl class="py class">
+<dt id="sensors.yei.YEI">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">sensors.yei.</span></code><code class="sig-name descname"><span class="pre">YEI</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/yei.html#YEI"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.yei.YEI" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concrete class based on abstract base class IMU_Base</p>
+<dl class="py method">
+<dt id="sensors.yei.YEI.get_data">
+<code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/yei.html#YEI.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.yei.YEI.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the sampling rate, as well as the recorded data,
+and assign them to the corresponding attributes of “self”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>in_file</strong> (<em>string</em>) – Filename of the data-file</p></li>
+<li><p><strong>in_data</strong> (<em>not used here</em>) – </p></li>
+<li><p><strong>Assigns</strong> – </p></li>
+<li><p><strong>-------</strong> – </p></li>
+<li><p><strong>rate</strong> (<em>-</em>) – </p></li>
+<li><p><strong>acc</strong> (<em>-</em>) – </p></li>
+<li><p><strong>omega</strong> (<em>-</em>) – </p></li>
+<li><p><strong>mag</strong> (<em>-</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-sensors.polulu">
+<span id="polulu"></span><h3>Polulu<a class="headerlink" href="#module-sensors.polulu" title="Permalink to this headline">¶</a></h3>
+<p>Import data saved with polulu-sensors, through subclassing “IMU_Base”</p>
+<p><a class="reference external" href="https://www.pololu.com/product/2738">https://www.pololu.com/product/2738</a>
+These are low-cost IMUS (&lt;20 US$), where acceleration/gyroscope data are not
+sampled at the same time as the magnetic field data (just over 100 Hz).
+As a result, the interpolated sampling rate has to be set by hand.</p>
+<dl class="py class">
+<dt id="sensors.polulu.Polulu">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">sensors.polulu.</span></code><code class="sig-name descname"><span class="pre">Polulu</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">q_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'analytical'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">R_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([[1.,</span> <span class="pre">0.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">1.,</span> <span class="pre">0.],</span> <span class="pre">[0.,</span> <span class="pre">0.,</span> <span class="pre">1.]])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calculate_position</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pos_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">array([0.,</span> <span class="pre">0.,</span> <span class="pre">0.])</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/polulu.html#Polulu"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.polulu.Polulu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concrete class based on abstract base class IMU_Base</p>
+<dl class="py method">
+<dt id="sensors.polulu.Polulu.get_data">
+<code class="sig-name descname"><span class="pre">get_data</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">in_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">in_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">125</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/sensors/polulu.html#Polulu.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#sensors.polulu.Polulu.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the sampling rate, as well as the recorded data,
+and assign them to the corresponding attributes of “self”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>in_file</strong> (<em>string</em>) – Filename of the data-file</p></li>
+<li><p><strong>in_data</strong> (<em>float</em>) – Sampling rate (has to be provided!!)</p></li>
+<li><p><strong>Assigns</strong> – </p></li>
+<li><p><strong>-------</strong> – </p></li>
+<li><p><strong>rate</strong> (<em>-</em>) – </p></li>
+<li><p><strong>acc</strong> (<em>-</em>) – </p></li>
+<li><p><strong>omega</strong> (<em>-</em>) – </p></li>
+<li><p><strong>mag</strong> (<em>-</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/skinematics.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">IMUs</a><ul>
+<li><a class="reference internal" href="#base-class-methods">Base-Class &amp; Methods</a></li>
+<li><a class="reference internal" href="#classes-and-functions-for-sensor-integration">Classes and Functions for Sensor-Integration</a></li>
+<li><a class="reference internal" href="#module-imus">Details</a></li>
+<li><a class="reference internal" href="#sub-classing-imu-base-for-your-own-sensor-type">Sub-classing IMU-Base for your own sensor type</a></li>
+<li><a class="reference internal" href="#existing-sensor-implementations">Existing Sensor Implementations</a><ul>
+<li><a class="reference internal" href="#module-sensors.xio">XIO</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-sensors.xio_ngimu">x-io NGIMU</a><ul>
+<li><a class="reference internal" href="#module-sensors.xsens">XSens</a></li>
+<li><a class="reference internal" href="#module-sensors.yei">YEI</a></li>
+<li><a class="reference internal" href="#module-sensors.polulu">Polulu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">scikit-kinematics - Documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="misc.html"
+                        title="next chapter">misc</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/imus.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="misc.html" title="misc"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="scikit-kinematics - Documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">skinematics 0.8.6 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">IMUs</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, thomas haslwanter.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.1.
+    </div>
+  </body>
+</html>
