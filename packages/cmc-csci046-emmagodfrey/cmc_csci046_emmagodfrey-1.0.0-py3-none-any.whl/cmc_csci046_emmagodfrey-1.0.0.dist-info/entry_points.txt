@@ -1,0 +1,3 @@
+[console_scripts]
+cmc_csci046_emmagodfrey = containers2.__main__:main
+
