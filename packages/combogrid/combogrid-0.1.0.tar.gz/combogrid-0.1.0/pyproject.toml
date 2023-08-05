@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "combogrid"
+version = "0.1.0"
+description = "Draw a grid of combo charts (each with a line and bars)"
+authors = ["Rahim Nathwani <rahim@encona.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/rahimnathwani/combogrid"
+repository = "https://github.com/rahimnathwani/combogrid"
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+matplotlib = "^3.4.1"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
