@@ -1,0 +1,3 @@
+namekox-webserver
+anyjson==0.3.3
+urllib3<2.0,>=1.8
