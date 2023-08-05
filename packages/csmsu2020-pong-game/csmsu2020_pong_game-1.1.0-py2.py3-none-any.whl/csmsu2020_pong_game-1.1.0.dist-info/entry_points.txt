@@ -1,0 +1,4 @@
+[console_scripts]
+csmsu2020_pong_game = client.__main__:main
+csmsu2020_pong_server = server.__main__:main
+
