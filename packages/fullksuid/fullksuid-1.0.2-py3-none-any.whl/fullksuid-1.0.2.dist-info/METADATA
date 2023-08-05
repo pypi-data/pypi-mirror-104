@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fullksuid
+Version: 1.0.2
+Summary: KSUID Implementation in python
+Home-page: https://github.com/cyberjacob/fullksuid
+Author: foxocube
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: netifaces
+Requires-Dist: pybase62
+
+UNKNOWN
+
+
