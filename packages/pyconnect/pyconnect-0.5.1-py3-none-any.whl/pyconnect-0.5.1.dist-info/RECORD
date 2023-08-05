@@ -1,0 +1,13 @@
+LICENSE,sha256=0hqEPr5A5sWH2ZeFVyfWS-Itnwj5vpRE0wC3FJOP8rw,1069
+README.md,sha256=TgL5ktTNzx2ZQBhX5FoGtVwlrFSPjX-iUWTIxgYVdtQ,1154
+pyproject.toml,sha256=Q6n3jMNRsjrRThyNOQwIhGI_1TKNgNOmQfC2SSsyPpY,1362
+pyconnect/__init__.py,sha256=O9-3ltgynvOxHv-q1T5FAF16_aQ7Y3GDSs-P1mACJVQ,268
+pyconnect/avroparser.py,sha256=lSeTcxTJUk078T4C3h3zDzYTa1rhOb16Y2Fjsf83yPI,4242
+pyconnect/config.py,sha256=OEDdWAz6Cq7wQk5s1GVAuahBP2TXxfCFm6qHzMZcUSA,22954
+pyconnect/core.py,sha256=31DVNHtQDEPKCicaptK_DgyOcJfnz9-Nc63QLfNEjAA,12512
+pyconnect/pyconnectsink.py,sha256=Lp5iujFnmv1tLIx3ZV_Tt6owgLa7yuamTI-4j6-5640,15723
+pyconnect/pyconnectsource.py,sha256=N32hPn7qdE7Gh4DtwXAostM07wzR-smZ3f4qf8vRDRI,10311
+pyconnect-0.5.1.dist-info/LICENSE,sha256=0hqEPr5A5sWH2ZeFVyfWS-Itnwj5vpRE0wC3FJOP8rw,1069
+pyconnect-0.5.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyconnect-0.5.1.dist-info/METADATA,sha256=IKPXwEet2QB-E3CID55TTf6z7DXpLc1nES64Wa12iP8,924
+pyconnect-0.5.1.dist-info/RECORD,,
