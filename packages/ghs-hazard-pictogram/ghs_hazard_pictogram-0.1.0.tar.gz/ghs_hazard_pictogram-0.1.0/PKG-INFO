@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ghs_hazard_pictogram
+Version: 0.1.0
+Summary: GHS hazard descriptions and pictograms.
+Home-page: https://github.com/fmeurou/ghs_hazard_pictograms
+Author: Frédéric MEUROU
+Author-email: fm@peabytes.me
+License: UNKNOWN
+Description: # GHS Hazard pictograms
+        
+        Based on [GHS_hazard_pictograms](https://en.wikipedia.org/wiki/GHS_hazard_pictograms) Wikipedia article
+        
+        # Install 
+        
+        pip install ghs_hazard_pictogram
+        
+        # Usage
+        
+        ```python
+        >>>from ghs_hazard_pictogram import Hazard
+        >>>Hazard.all() # List all hazards
+        >>>Hazard(code='class8') # Return hazard with code 'class8'
+        >>>Hazard.search('division') # Return hazard with attribute containing 'division' case insesitive
+        >>>Hazard(code='class8').get_pictogram() # returns full path to the svg file
+        ```
+        
+        # Licence
+        
+        This code is licenced under MIT, and the content is licenced under Creative Commons.
+        
+        # Bug or request
+        
+        Please create an issue on [Github](https://github.com/fmeurou/ghs_hazard_pictogram)
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
