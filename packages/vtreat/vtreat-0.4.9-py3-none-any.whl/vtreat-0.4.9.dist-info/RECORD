@@ -1,0 +1,12 @@
+vtreat/__init__.py,sha256=B7uf5jJclA5X4IkXM5B6RXrjlM5qEeiQ8ONRgnMypoA,2562
+vtreat/cross_plan.py,sha256=g6jL07XMT64T8bLeCYMUHHAUqqDADgxO4NjVNBxraeM,2854
+vtreat/stats_utils.py,sha256=_8cSL8WfDoOLwbr5LoTWIzljL5a9x9FytqJ4rHIQjWg,4560
+vtreat/transform.py,sha256=z_NAimwskxlQWCowcVz-uBZRdC_-6N7TCHARn6e6fo4,1080
+vtreat/util.py,sha256=awOQmvaYsFa7P_AG2vh9xpuNmjXTn0mahmK9woWUZgo,7650
+vtreat/vtreat_api.py,sha256=N0HJo91ULkVGhlMjo7cRe347vbJ8MPTEZAn9pOMIaPQ,24881
+vtreat/vtreat_impl.py,sha256=2jTyu_og02PG8cRsFAA8TDWrb83xzfh3SKHBqxyA9KI,42412
+vtreat-0.4.9.dist-info/LICENSE,sha256=kNHOgJg2caTt2FQt8TWowhEDIf3beKtIcQwFbaciOeQ,1494
+vtreat-0.4.9.dist-info/METADATA,sha256=t9xWodvTzDqL6hCMU6FMItoWI7XshfLY1pDp3lwFzi0,3482
+vtreat-0.4.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vtreat-0.4.9.dist-info/top_level.txt,sha256=65Yj_4b6S4Si8eJD4RDe_aU-JdmbaZVIXR709GrMro8,7
+vtreat-0.4.9.dist-info/RECORD,,
