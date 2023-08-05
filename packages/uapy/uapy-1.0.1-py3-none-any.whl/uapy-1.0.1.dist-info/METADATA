@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: uapy
+Version: 1.0.1
+Summary: Python wrapper for Linux UAPI ioctl
+Home-page: https://github.com/indigohedgehog/uapy
+Author: Andres Castillo
+Author-email: indigohedgehog@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/indigohedgehog/uapy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ctypes
+
+# uapy
+
+Python wrapper for Linux UAPI ioctl
+
+## Overview
+
+This project provides a Python wrapper for Linux Media Infrastructure userspace API ioctl requests.
+
+## Support
+
+Current milestone is Linux 5.8.0
+
+## API
+
+* v4l - Video for Linux version 2
+* dvb - Digital TV
+* rc - Remote Controller
+* mediactl - Media Controller
+* cec - Consumer Electronics Control
+
+## Example
+
+```python
+from uapy.v4l2.videodev import *
+
+cap = V4l2_Capability()
+res = fcntl.ioctl(vd1, Vidioc.QUERYCAP, cap)
+format = V4l2_Format()
+format.type = V4l2_Buf_Type.VIDEO_OUTPUT
+```
+
+## Install
+```console
+user@machine:~$ pip3 install uapy
+```
+
+
