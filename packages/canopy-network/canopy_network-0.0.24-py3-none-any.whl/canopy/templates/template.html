@@ -1,0 +1,67 @@
+$def with (about, resource)
+<!doctype html>
+<html class=dark>
+<head>
+<meta name=charset content=utf-8>
+<meta name=generator content=canopy>
+<meta name=viewport content="initial-scale=1.0,user-scalable=no,\
+maximum-scale=1,width=device-width">
+<title>
+$if "title" in resource:
+    $:resource.title&thinsp;&mdash;&thinsp;
+$about["name"][0]</title>
+<style>
+body {
+    font-size: 16px;
+    margin: 2.5em; }
+h1 {
+    font-size: 2.5em; }
+h1 a {
+    color: #000;
+    text-decoration: none; }
+#user {
+    text-align: right; }
+</style>
+$# <link rel=stylesheet href=/static/solarized.css>
+<script src=/static/canopy.js crossorigin=anonymous></script>
+<script>const _ = Canopy('$about["name"][0]')</script>
+$if "head" in resource:
+    $:resource.head()
+</head>
+<body>
+$if not getattr(tx.user, "is_authenticating", False):
+    <header>
+    $if "uid" in tx.user.session:
+        $if tx.user.is_owner:
+            $ action = "/auth/sign-out"
+        $else:
+            $ action = "/auth/visitors/sign-out"
+        <form id=user method=post action=$action>
+        <strong>$tx.user.session["name"]</strong>
+        <button>Sign Out</button>
+        </form>
+    $else:
+        <form id=user method=get action=/auth/visitors/sign-in>
+        <input type=text name=me placeholder="your website address">
+        <button>Sign In</button>
+        </form>
+    </header>
+    <nav>
+    <ul>
+    $if "title" in resource:
+        <li><a href=/>Home</a></li>
+    </ul>
+    <ul>
+        $if tx.user.is_owner:
+            <li><a href=/auth>Auth</a></li>
+            <li><a href=/pub>Content</a></li>
+            <li><a href=/sub>Following</a></li>
+            <li><a href=/hub>Followers</a></li>
+            <li><a href=/mentions>Mentions</a></li>
+    </ul>
+    </nav>
+$if "title" in resource:
+    <h1>$resource.title</h1>
+$:resource
+</body>
+</html>
