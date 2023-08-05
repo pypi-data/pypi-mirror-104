@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: deepsig-biocomp
+Version: 0.9
+Summary: DeepSig - Predictor of signal peptides in proteins based on deep learning
+Home-page: https://github.com/BolognaBiocomp/deepsig
+Author: Castrense Savojardo
+Author-email: savojard@biocomp.unibo.it
+License: GPLv3
+Project-URL: Bug Reports, https://github.com/BolognaBiocomp/deepsig/issues
+Project-URL: Source, https://github.com/BolognaBiocomp/deepsig
+Description: ## DeepSig - Predictor of signal peptides in proteins based on deep learning
+        
+        #### Publication
+        
+        Savojardo C., Martelli P.L., Fariselli P., Casadio R. [DeepSig: deep learning improves signal peptide detection in proteins](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btx818/4769493) *Bioinformatics* (2017) **34**(10): 1690-1696.
+        
+        #### Installation using pip
+        
+        First, install deepsig-biocomp package using pip:
+        ```
+        pip install deepsig-biocomp
+        ```
+        
+        Then, clone the deepsig repo from GitHub and export the DEEPSIG_ROOT directory:
+        ```
+        
+        git clone git@github.com:BolognaBiocomp/deepsig.git
+        cd deepsig
+        export DEEPSIG_ROOT=$(pwd)
+        
+        ```
+        
+        #### Usage
+        ```
+        $ deepsig -h
+        
+        usage: deepsig.py [-h] -f FASTA -o OUTF -k {euk,gramp,gramn} [-a CPU]
+        
+        DeepSig: Predictor of signal peptides in proteins
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -f FASTA, --fasta FASTA
+                                The input multi-FASTA file name
+          -o OUTF, --outf OUTF  The output tabular file
+          -k {euk,gramp,gramn}, --organism {euk,gramp,gramn}
+                                The organism the sequences belongs to
+        ```
+        
+        The program accepts three mandatory arguments:
+        - The full path of the input FASTA file containing protein sequences to be predicted;
+        - The kingdom the sequences belong to. You must specify "euk" for Eukaryotes, "gramp" for Gram-positive bacteria or "gramn" for Gram-negative bacteria;
+        - The output file where predictions will be stored.
+        
+        
+        Please, reports bugs to: castrense.savojardo2@unibo.it
+        
+Keywords: bioinformatics,annotation,bacteria,signal peptides
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta 
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
