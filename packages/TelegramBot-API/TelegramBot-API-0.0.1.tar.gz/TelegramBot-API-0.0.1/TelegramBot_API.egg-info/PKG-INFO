@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: TelegramBot-API
+Version: 0.0.1
+Summary: Simple Telegram Bot API
+Home-page: UNKNOWN
+Author: IHosseini
+Author-email: IHosseini@pm.me
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,telegram,bot,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows

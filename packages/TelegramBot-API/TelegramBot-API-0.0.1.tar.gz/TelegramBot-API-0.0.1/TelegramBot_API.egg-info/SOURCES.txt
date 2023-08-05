@@ -1,0 +1,8 @@
+setup.py
+TelegramBot/TelegramBot.py
+TelegramBot/__init__.py
+TelegramBot_API.egg-info/PKG-INFO
+TelegramBot_API.egg-info/SOURCES.txt
+TelegramBot_API.egg-info/dependency_links.txt
+TelegramBot_API.egg-info/requires.txt
+TelegramBot_API.egg-info/top_level.txt
