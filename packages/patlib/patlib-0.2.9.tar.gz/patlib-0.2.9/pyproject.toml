@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "patlib"
+version = "0.2.9"
+description = "A collection of tools."
+license = "MIT"
+authors = ["patricknraanes <patrick.n.raanes@gmail.com>"]
+
+readme = "README.md"
+
+#repository = "github..."
+#repository = "github..."
+#keywords = ["dict", "list"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+scipy      = {version="*",         optional=true}
+numpy      = {version="^1.20.1",   optional=true}
+# ... coz 1.20 has stubs
+matplotlib = {version="^3.4",      optional=true}
+# ... coz 3.4 has subxlabel
+
+
+# extras: mydev
+ipython        = {version="^7.20",    optional=true}
+# ... coz 7.19 was incompatible with Jedi 0.18
+pyqt5          = {version="!=5.15.3", optional=true}
+# ... coz 5.15.3 breaks pyplot on mac
+pre-commit     = {version="*",        optional=true}
+line_profiler  = {version="*",        optional=true}
+see            = {version="*",        optional=true}
+# pytest:
+pytest         = {version="*",        optional=true}
+pytest-sugar   = {version="*",        optional=true}
+pytest-clarity = {version="*",        optional=true}
+# debugging:
+ipdb           = {version="*",        optional=true}
+pudb           = {version="*",        optional=true}
+pysnooper      = {version="*",        optional=true}
+# Working pdb++ (ref pdbpp/issues/408).
+# Add to your local pyproject.toml (if not publishing to pypi) to use.
+# pdbpp = { git = "https://github.com/pdbpp/pdbpp.git", rev = "b62a338" }
+
+# extras: misc
+pyyaml   = {version="*", optional=true}
+toml     = {version="*", optional=true}
+tabulate = {version="*", optional=true}
+tqdm     = {version="*", optional=true}
+pandas   = {version="*", optional=true}
+
+# extras: pat
+# NB: This is a bad idea. Too hacky. Some issues (∃ probs more):
+# - Makes it difficult to keep track of dep
+# - Prevents PyPI publishing
+# - Prevents local pip installs
+#   (a separate issue from the fact that pip cannot install
+#   in editable/develop/-e model local projects defined via pyproject.toml)
+# mpl-tools = { path = "../../py/mpl-tools/", develop=true }
+# struct-tools = { path = "../../py/struct-tools/", develop=true }
+
+[tool.poetry.dev-dependencies]
+# NB: packages hereunder are not installed by having patlib as a dependency.
+
+[tool.poetry.extras]
+mydev = ["ipython", "pyqt5", "pre-commit", "line_profiler", "see",
+      "pytest", "pytest-sugar", "pytest-clarity",
+      "ipdb", "pudb", "pysnooper"]
+misc = ["pyyaml", "toml", "tabulate", "tqdm", "pandas"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
