@@ -1,0 +1,16 @@
+digitex_bot_framework/__init__.py,sha256=9u2NNJsBPIZK9saEPrnrxluD_XZZuXyYEBp6qz1xFbA,540
+digitex_bot_framework/bot.py,sha256=vUHBHmjkjSxsYEADhg_tKKzZV5iR-0oJMmFnUEFIvz8,2872
+digitex_bot_framework/currency_pair.py,sha256=34GsUYuvFJFOfo3XxrxtPXgOPTcXkb1gvVxrKSHXnLQ,1862
+digitex_bot_framework/enums.py,sha256=zJ6oTg0zj0EufTRgH1JDxP9JZnGfE4zaTiFp5L36310,1392
+digitex_bot_framework/market.py,sha256=r-jNHxFGF1q2jPYauXL7yVQxzOpUrapW5Fh2bQOjF-o,16396
+digitex_bot_framework/order.py,sha256=E7Fz2WQ01-0em14FGIli7rL9xDRPp9hG7gr_wXeF8pM,2952
+digitex_bot_framework/order_book.py,sha256=DqlYO8gClcwOEtye3g66w0sylcLygLRVh6TqEOzqB-E,878
+digitex_bot_framework/position.py,sha256=Za-rGvnTla7recqPwmChEYjgRaNYuA-TdnV1q1lvU_w,265
+digitex_bot_framework/tick.py,sha256=tTHRSlld9kml8LuPs3SrsYikf_R-W5S1awmSNgumbdM,138
+digitex_bot_framework/trade.py,sha256=kRJGKN5kh-QS0nOo1Bx3fw53RLtSFF7i2UwJjnv6O6g,51
+digitex_bot_framework/trader.py,sha256=yw6G5nybo6_DmB1U-kK_AZzGZfFhjdc--03P-c0dCl0,502
+digitex_bot_framework/util.py,sha256=TxxkIS39LXeCdKZGo-vcTwnHc4LtmnHIJSjOynH6KZk,3360
+digitex_bot_framework-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+digitex_bot_framework-1.0.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+digitex_bot_framework-1.0.2.dist-info/METADATA,sha256=pzPD_5cAJrD1y60R2qYQNNLOjrUPFoaX9_JhgZDT0nk,583
+digitex_bot_framework-1.0.2.dist-info/RECORD,,
