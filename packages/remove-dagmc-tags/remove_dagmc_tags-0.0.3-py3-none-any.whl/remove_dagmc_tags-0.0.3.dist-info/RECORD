@@ -1,0 +1,12 @@
+remove_dagmc_tags/__init__.py,sha256=d217ESiy7rNIIW0EoYO5bJS0bMCHw66CivmUALSQLaA,42
+remove_dagmc_tags/core.py,sha256=D7xpubEzjMTb-Veu7kFKcF4bh_m0DhXV_sePhTPhBQw,4550
+remove_dagmc_tags-0.0.3.data/scripts/remove-dagmc-tags,sha256=JZLCor9B6kkYpRioZX8hZ8KpHvwZdSFaUTgpk9PBGJ8,926
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_command_line_tool.py,sha256=p5UlS89zKeRh81InWcDEObI-qj7MdBfdTn6QpDMjBIQ,2209
+tests/test_python_api.py,sha256=3fYuCPI1VhCxDe2laJghTpzwgsC120XkglSwjfytpsU,5042
+remove_dagmc_tags-0.0.3.dist-info/LICENSE,sha256=lns64eJ3SWZydjxeAdeLRQmt6Z5N5xnBBtxirQ22azc,1074
+remove_dagmc_tags-0.0.3.dist-info/METADATA,sha256=2TwNrUl8pb-1x-UtC-zcL0QTJL0RxbOyu5HRKCtfdME,4356
+remove_dagmc_tags-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+remove_dagmc_tags-0.0.3.dist-info/top_level.txt,sha256=qxhDHPbfcdBtt7Bkd64TbuD53DBDi83B6MKv2Zg2LuY,24
+remove_dagmc_tags-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remove_dagmc_tags-0.0.3.dist-info/RECORD,,
