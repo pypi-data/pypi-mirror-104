@@ -1,0 +1,9 @@
+hypothesis_faker/__init__.py,sha256=Iz_1CIZWGS56ac0J7zUOT3C9k1isuRhHXZCTusN1mYQ,593
+hypothesis_faker/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypothesis_faker/providers/person.py,sha256=c7s5kQT6tJx5sMngYMfiEha63oLnqYNNNUgNcCLxZ7Y,2943
+hypothesis_faker/types.py,sha256=NfpI1hYy0UqNaOp1uUffpuvfjRld7Qkrm43pjHaN6uM,95
+hypothesis_faker/utilities.py,sha256=7Y4GHcOlJYxdy20MaESNwB1elUAywrOp1gK3Y3Fhx1M,1864
+hypothesis_faker-0.0.5.dist-info/LICENSE,sha256=VRKQsVNYJRNxtphGhSq6u9HQJXFm287HvEKJ9r6r7-c,1066
+hypothesis_faker-0.0.5.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+hypothesis_faker-0.0.5.dist-info/METADATA,sha256=6P0AK3sxwe0hCS6c-pNHpcq_RqdigwsoaKemG6Ri_IM,591
+hypothesis_faker-0.0.5.dist-info/RECORD,,
