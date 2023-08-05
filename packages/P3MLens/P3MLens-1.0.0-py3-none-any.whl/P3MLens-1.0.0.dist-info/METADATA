@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: P3MLens
+Version: 1.0.0
+Summary: An Accurate P3M Algorithm for Gravitational Lensing Studies in Simulations.
+Home-page: https://github.com/kunxusjtu/P3MLens
+Author: Kun Xu
+Author-email: kunxu.sjtu15@foxmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kunxusjtu/P3MLens/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: numba
+Requires-Dist: astropy
+
+# P3MLens
+An Accurate P3M Algorithm for Gravitational Lensing Studies in Simulations
+
+
