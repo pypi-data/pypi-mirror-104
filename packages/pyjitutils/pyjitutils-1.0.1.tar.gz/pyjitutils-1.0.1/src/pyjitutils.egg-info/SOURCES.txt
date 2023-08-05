@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/py_jitutils/__init__.py
+src/py_jitutils/jitutils.py
+src/pyjitutils.egg-info/PKG-INFO
+src/pyjitutils.egg-info/SOURCES.txt
+src/pyjitutils.egg-info/dependency_links.txt
+src/pyjitutils.egg-info/requires.txt
+src/pyjitutils.egg-info/top_level.txt

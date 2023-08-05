@@ -1,0 +1,89 @@
+# JitUtils
+
+Power By
+[![N|Solid](https://www.jitinnotech.com/wp-content/uploads/2018/05/cropped-jitinnotech-logo.png)](https://www.jitinnotech.com)
+
+## Description
+
+> Package นี้จัดทำมาเพื่อในการจัดการปัญหาในการแปลง Time stamp ให้อยู่ในรูปแบบ Date time ต่าง
+
+---
+
+## Features
+
+- รับค่า Timestamp
+- สามารถแปลง Datetime ในหลายรูปแบบต่างๆ
+- สามารถแปลง ค.ศ. ให้อยู่ในรูปแบบ พ.ศ. หรือ ฮ.ศ. ได้
+
+> A reference of all the legal format codes:
+
+| Directive | Description | Example |
+| ------ | ------ | ------ |
+| %a | Weekday, short version | Wed |
+| %A | Weekday, full version | Wednesday |
+| %w | Weekday as a number 0-6, 0 is Sunday | 3 |
+| %d | Day of month 01-31| 31 |
+| %b | Month name, short version | Dec |
+| %B | Month name, full version | December |
+| %m | Month as a number 01-12 | 12 |
+| %y | Year, short version, without century | 18 |
+| %Y | Year, full version | 2018 |
+| %H | Hour 00-23 | 17 |
+| %I | Hour 00-12 | 05 |
+| %p | AM/PM | PM |
+| %M | Minute 00-59 | 41 |
+| %S | Second 00-59 | 08 |
+| %f | Microsecond 000000-999999 | 548513 |
+| %z | UTC offset | +0100 |
+| %Z | Timezone | CST |
+| %j | Day number of year 001-366 | 365 |
+| %U | Week number of year, Sunday as the first day of week, 00-53 | 52 |
+| %W | Week number of year, Monday as the first day of week, 00-53 | 52 |
+| %c | Local version of date and time | Mon Dec 31 17:41:00 2018 |
+| %x | Local version of date | 12/31/18 |
+| %X | Local version of time | 17:41:00 |
+| %% | A % character | % |
+| %G | ISO 8601 year | 2018 |
+| %u | ISO 8601 weekday (1-7) | 1 | 
+| %V | ISO 8601 weeknumber (01-53) | 01|
+
+---
+
+## How to using (วิธีนำไปใช้งาน)
+
+```python
+from src import JitTimes
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+time_stamp = datetime.timestamp(datetime.now())
+print("time_stamp " + str(time_stamp))
+
+# แปลงค่า DateTime ตาม Default format
+jitTime = JitTimes(1617867109.1652)
+print(jitTime)
+
+jitTime2 = JitTimes(TS=time_stamp)
+print(jitTime2)
+
+# Time Zone
+# Test fail
+jitTime3 = JitTimes(TS=time_stamp, dt_format='%Y', tz_info=None)
+print(jitTime3.tzInfo())
+
+jitTime4 = JitTimes(TS=time_stamp, tz_info="Pacific/Kwajalein")
+print(jitTime4.tzInfo())
+print(datetime.timestamp(jitTime4.tzInfo()))
+
+# การแปลงค่า เป็น พ.ศ. / ฮ.ศ.
+j1 = JitTimes(TS=time_stamp, dt_format="%c", tz_info="America/Los_Angeles")
+print("ค.ศ. ", j1)
+
+j1 = JitTimes(TS=time_stamp, dt_format="%c", tz_info="America/Los_Angeles")
+print("พ.ศ.", j1.buddhistEra())
+
+j1 = JitTimes(TS=time_stamp, dt_format="%c", tz_info="America/Los_Angeles")
+print("ฮ.ศ. ", j1.hijriEra())
+
+```
+---
