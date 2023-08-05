@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mpltw/TaipeiSansTCBeta-Regular.ttf
+mpltw/__init__.py
+mpltw.egg-info/PKG-INFO
+mpltw.egg-info/SOURCES.txt
+mpltw.egg-info/dependency_links.txt
+mpltw.egg-info/requires.txt
+mpltw.egg-info/top_level.txt
