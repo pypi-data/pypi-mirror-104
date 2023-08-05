@@ -1,0 +1,3 @@
+[console_scripts]
+vigenere = vigenere.__main__:main
+
