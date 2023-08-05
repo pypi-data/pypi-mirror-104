@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: digitex-engine-client
+Version: 4.139.0
+Summary: UNKNOWN
+Home-page: https://github.com/DigitexOfficial/digitex-client-python
+Author: Sergey Bugaev, Pavel Yushchenko
+Author-email: Sergey Bugaev <bugaev@smartdec.com>, Pavel Yushchenko <pyushchenko@digitexfutures.com>
+Maintainer: Pavel Yushchenko <pyushchenko@digitexfutures.com>
+Maintainer-email: pyushchenko@digitexfutures.com
+License: GPL version 3, excluding DRM provisions
+Platform: UNKNOWN
+Requires-Dist: aioamqp
+Requires-Dist: aiohttp
+Requires-Dist: protobuf
+Requires-Dist: pytz
+
+UNKNOWN
+
+
