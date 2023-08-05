@@ -1,0 +1,1 @@
+mj_azure_iot_pnp_device

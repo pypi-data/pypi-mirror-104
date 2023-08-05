@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mj-azure-iot-pnp-device
+Version: 0.5
+Summary: Assist IoT Plug and Play Library for the Azure IoT Device SDK for Python
+Home-page: https://github.com/matsujirushi/mj-azure-iot-pnp-device
+Author: Takashi Matsuoka (matsujirushi)
+Author-email: matsujirushi@live.jp
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
