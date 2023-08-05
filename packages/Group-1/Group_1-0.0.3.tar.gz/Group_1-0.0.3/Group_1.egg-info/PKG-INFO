@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Group-1
+Version: 0.0.3
+Summary: A package for clustering
+Home-page: https://cseegit.essex.ac.uk/2020_ce903/ce903_team01/
+Author: Varun Dutt
+Author-email: varun9213@gmail.com
+License: UNKNOWN
+Description: # Group_1
+        
+        **Installation**
+        
+        `$pip install Group_1`
+        
+        **Installing the requirements**
+        
+        `pip install -r requirements_dev.txt`
+        
+        **Importing the library**
+        
+        `from Group_1.cluster import "name of the algorithm"`
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
