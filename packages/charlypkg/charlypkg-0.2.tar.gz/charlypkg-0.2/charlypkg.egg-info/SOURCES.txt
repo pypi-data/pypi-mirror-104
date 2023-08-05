@@ -1,0 +1,8 @@
+setup.py
+charlypkg/__init__.py
+charlypkg/functions.py
+charlypkg.egg-info/PKG-INFO
+charlypkg.egg-info/SOURCES.txt
+charlypkg.egg-info/dependency_links.txt
+charlypkg.egg-info/not-zip-safe
+charlypkg.egg-info/top_level.txt
