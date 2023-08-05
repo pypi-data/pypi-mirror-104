@@ -1,0 +1,3 @@
+[console_scripts]
+zapr-athena-client = athena_client:main
+
