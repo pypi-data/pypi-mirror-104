@@ -1,0 +1,3 @@
+[console_scripts]
+cov3rt = cov3rt.command_line:runApplication
+

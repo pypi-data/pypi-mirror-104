@@ -1,0 +1,6 @@
+psutil>=5.6.0
+scapy>=2.4.0
+npyscreen>=4.9
+
+[:platform_system == "Windows"]
+windows-curses>=1.0
