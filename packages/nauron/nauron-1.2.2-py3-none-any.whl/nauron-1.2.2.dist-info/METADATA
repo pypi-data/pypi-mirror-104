@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nauron
+Version: 1.2.2
+Summary: A Python library for creating distributed and scalable web services.
+Home-page: https://github.com/TartuNLP/nauron
+Author: University of Tartu
+Author-email: ping@tartunlp.ai
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flask
+Description-Content-Type: text/markdown
+Requires-Dist: pika (>=1.1.0)
+Requires-Dist: flask (>=1.1.2)
+Requires-Dist: flask-cors (>=3.0.9)
+Requires-Dist: dataclasses (>=0.7) ; python_version < "3.7.0"
+
+# Nauron
+
+Nauron is a Flask wrapper for Python designed to enable simple creation of distributed services. It was designed
+ with AI applications in mind to keep GPU-accelerated or otherwise resource-intensive functionality separate from the
+  API logic. 
+
+A Nauron-based API may have multiple services configured to it. Each service has one or more workers. The local
+ workers are simply instances of a Worker class. Remote workers are used when the communication with a Worker
+  class instance is done via a RabbitMQ message broker. When multiple identical instances are connected to the
+   message queue, the workload is automatically distributed between them.
+
+A detailed documentation of Nauron is coming soon.
+
