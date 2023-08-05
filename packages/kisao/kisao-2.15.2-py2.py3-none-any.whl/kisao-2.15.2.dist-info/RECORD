@@ -1,0 +1,13 @@
+kisao/__init__.py,sha256=kcJS3_hVoGuoaKGqNA9dfvyNPncTESnE9GSZMWvswEA,297
+kisao/_version.py,sha256=F3MmphqYurJYE1gF1jH4F10x8jrBOJnmYN4uaBTBWqw,23
+kisao/core.py,sha256=UoyVxuUy4K7oZ55hPhAZBj8ZTcY3CozHYy5Uix3Y16A,2240
+kisao/data_model.py,sha256=ETs6o59H9FSCiLPksyMa_chmgWZ4iPdGXduMfjJPOAU,3160
+kisao/exceptions.py,sha256=L6ModEUUNQO1Ikr619OAoO-PTpauNcM5KJVQATjBDYE,395
+kisao/kisao.owl,sha256=wY_FpjlC0FOJqv5v2jBiMIZUXQGKOturleGb9dwMPtU,982941
+kisao/utils.py,sha256=ql1vk8fYxI-Et66R1fgrRBpnEROJPAcVpWHgI_ekTN4,15268
+kisao/warnings.py,sha256=MQ_aS9PbHQyQlge8tH9yC67utgZdFfZCiE68jH-ZIUE,362
+kisao-2.15.2.dist-info/LICENSE,sha256=lSwfDgM4zr8DHQjMWCiWCwK229fG7sKPOvLmYbKxbvg,8672
+kisao-2.15.2.dist-info/METADATA,sha256=T47ITRDtvinlFe8bKzVKwQ3AQBCt4SvN93r9HFst_Yc,5386
+kisao-2.15.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+kisao-2.15.2.dist-info/top_level.txt,sha256=AGcfreecyptw-yXH39Wub9r0xB7HcXs6nbdmclNl_sU,6
+kisao-2.15.2.dist-info/RECORD,,
