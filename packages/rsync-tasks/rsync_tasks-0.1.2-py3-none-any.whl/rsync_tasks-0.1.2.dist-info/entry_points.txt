@@ -1,0 +1,3 @@
+[console_scripts]
+rsync-tasks = rsync_tasks.__main__:main
+

@@ -1,0 +1,13 @@
+rsync_tasks/__init__.py,sha256=kK0yaofQYZ7bvDFuvtS-TCoXqQyGSKiFyRqi10jg-2w,69
+rsync_tasks/__main__.py,sha256=4CC_Tyw-eY6per594Tz_EGYEUS0Ws_b0yhpLlaUc1FA,1313
+rsync_tasks/rsync_tasks.py,sha256=c-NmQYRDphk4VddgBrbrT0dvXLkYtj0DFrUDuqTHGe0,3488
+rsync_tasks/version.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+rsync_tasks/exceptions/__init__.py,sha256=vVfEA5Gg1mYZfk1W7URamEpzXIHYEk5RGP25z0e2cag,1150
+rsync_tasks/log/__init__.py,sha256=Vy7SI_kdAUbz44fBo-JaBcOj5R-KQevSXAa0VrqLGQQ,2053
+rsync_tasks/resources/config.schema.yaml,sha256=HmDn-0gm0z8PgpH09vy4i8UTKpKIjsa8e6hzpGCUtec,150
+rsync_tasks-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rsync_tasks-0.1.2.dist-info/METADATA,sha256=TQaBLdsP51yaOJ_hU2Lq_aDJ29L173f4xXgq0Smq8d8,661
+rsync_tasks-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rsync_tasks-0.1.2.dist-info/entry_points.txt,sha256=wAAYMAa_X7OHZOHvUzFxNx0bOzlGtrp3xzDTmUeSXwQ,59
+rsync_tasks-0.1.2.dist-info/top_level.txt,sha256=fywedm_SWqXucsCBy_7Ga-vCgiADiFfXbDLMdtLXfQ8,12
+rsync_tasks-0.1.2.dist-info/RECORD,,
