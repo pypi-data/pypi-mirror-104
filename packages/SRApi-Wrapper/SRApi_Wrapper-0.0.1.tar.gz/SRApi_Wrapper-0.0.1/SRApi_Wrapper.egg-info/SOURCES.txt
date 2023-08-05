@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+SRApi_Wrapper.egg-info/PKG-INFO
+SRApi_Wrapper.egg-info/SOURCES.txt
+SRApi_Wrapper.egg-info/dependency_links.txt
+SRApi_Wrapper.egg-info/requires.txt
+SRApi_Wrapper.egg-info/top_level.txt
+package-subfolder/__init__.py
