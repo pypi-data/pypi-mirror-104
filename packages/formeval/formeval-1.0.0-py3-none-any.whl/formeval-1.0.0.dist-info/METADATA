@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: formeval
+Version: 1.0.0
+Summary: language form evaluation in python
+Home-page: https://github.com/sudongqi/formeval.git
+Author: Dongqi Su
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Language Form Evaluation
+
+This package includes efficient pure python implementation of the following metrics:
+
+* [BLEU](https://www.aclweb.org/anthology/P02-1040.pdf) (in progress)
+* [CIDEr/CIDEr-D](https://arxiv.org/pdf/1411.5726.pdf)
+* [SPICE](https://arxiv.org/pdf/1607.08822.pdf) (in progress)
+
+## Dependencies
+
+* python3.6 +
+* nltk (optional)
+
+## Setup
+
+    pip install formeval
+
+optional setup
+
+    pip install nltk
+    python3 -c 'import nltk; nltk.download("wordnet")'
+
+## Example Data
+
+* [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)
+* [CommonGen](https://github.com/INK-USC/CommonGen)
+
+
+## Usage
+
+See [run_examples.py](https://github.com/sudongqi/lfeval/blob/main/run_examples.py)
+
