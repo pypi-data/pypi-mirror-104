@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+addheader/addheader.egg-info/PKG-INFO
+addheader/addheader.egg-info/SOURCES.txt
+addheader/addheader.egg-info/dependency_links.txt
+addheader/addheader.egg-info/entry_points.txt
+addheader/addheader.egg-info/top_level.txt
+addheader/tests/__init__.py
+addheader/tests/test_add.py
