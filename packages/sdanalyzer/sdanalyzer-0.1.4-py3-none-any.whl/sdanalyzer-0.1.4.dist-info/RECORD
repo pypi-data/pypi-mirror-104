@@ -1,0 +1,17 @@
+sdanalyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdanalyzer/app.py,sha256=0ZrVQJFPOvFi4AEx5ypYi9vf4TwOAStWg8nm_dtdKYY,6178
+sdanalyzer/forms.py,sha256=PP7fI__UT0lJqKvYe3xNhFLCXiSmeCSnqPFFKCbFWbA,308
+sdanalyzer/main.py,sha256=N9CqHrXcY33XXWe5B_h3U8PC9a0tSTGESaH1UI6beEs,10035
+sdanalyzer/utils.py,sha256=JMeYNy-hnXVyVH4hi7JSeoB6TpueaY7vjOsw_zjR13s,6297
+sdanalyzer/data/trusted_certs.csv,sha256=4gOz-gFGPZytA8GHlQhPjPy5j7Dluobe1XFhbDyiBa0,2059
+sdanalyzer/templates/apk_show.html,sha256=CHoBIraF6zOlABd35ubsZ1khYr5AyU9zM8w1SxLndGI,12709
+sdanalyzer/templates/index.html,sha256=IgA4_vy4emE_zYQn-RFuKOGsdDm8gxNFaiKCFWNF_9E,1219
+sdanalyzer/templates/layout.html,sha256=Q5C97bpbFe1ZHESBZjmyMsJ8gtoFx9ljRW5ooqEOZY4,3738
+sdanalyzer/templates/phones_new.html,sha256=aZVOJCi651lknDXZbeMG6bcnjIqAMle5v86GCNLXjJM,444
+sdanalyzer/templates/phones_show.html,sha256=X-GSWLtFSJu-oAQOb1BJKS7QJ5Ar-ZQahY7Z_dzsRu4,8546
+sdanalyzer-0.1.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sdanalyzer-0.1.4.dist-info/METADATA,sha256=cfdDA1Pw_PtGC7O9cP4D6D-7XDQwyu9fx7om7HibCQo,2132
+sdanalyzer-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sdanalyzer-0.1.4.dist-info/entry_points.txt,sha256=0PTAgXwt7jbamkcfETvcOzsZPEIPQkdjxPDdUjEaVIQ,53
+sdanalyzer-0.1.4.dist-info/top_level.txt,sha256=ppHsy07WiXmBySfVuZ9xREv2Qq1n9P5LJIYCweYeU5I,11
+sdanalyzer-0.1.4.dist-info/RECORD,,
