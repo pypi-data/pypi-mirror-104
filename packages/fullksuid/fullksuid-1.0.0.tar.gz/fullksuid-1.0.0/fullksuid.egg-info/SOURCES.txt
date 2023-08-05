@@ -1,0 +1,12 @@
+setup.py
+fullksuid/Id.py
+fullksuid/Instance.py
+fullksuid/Schemes.py
+fullksuid/__init__.py
+fullksuid/generator.py
+fullksuid/validation.py
+fullksuid.egg-info/PKG-INFO
+fullksuid.egg-info/SOURCES.txt
+fullksuid.egg-info/dependency_links.txt
+fullksuid.egg-info/requires.txt
+fullksuid.egg-info/top_level.txt
