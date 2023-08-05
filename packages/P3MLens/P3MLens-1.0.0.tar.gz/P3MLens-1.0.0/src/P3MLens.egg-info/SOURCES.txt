@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/P3MLens/Plane.py
+src/P3MLens/__init__.py
+src/P3MLens.egg-info/PKG-INFO
+src/P3MLens.egg-info/SOURCES.txt
+src/P3MLens.egg-info/dependency_links.txt
+src/P3MLens.egg-info/not-zip-safe
+src/P3MLens.egg-info/requires.txt
+src/P3MLens.egg-info/top_level.txt
