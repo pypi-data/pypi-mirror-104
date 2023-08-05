@@ -1,0 +1,10 @@
+funnelmap/__init__.py,sha256=aYoQxSF9LSJBXvTp1G6V73Irf-rTd7_Qa8ubSxO9dRc,160
+funnelmap/formats.py,sha256=X08kEEcAri2q0zZnEtnkkhX2Bw24SG270u72U5EnWLQ,2114
+funnelmap/funnel.py,sha256=FUA9k9YtTB6HegRWwxvLQuDDHaJdPiZt4WpgMat0bgU,5246
+funnelmap/reading.py,sha256=oo0X6OgJtNqUkbGURXmAF1SDMEit3i_rIo-0kBtf2dE,2654
+funnelmap/saving.py,sha256=2aJYoLO5W2fTXnOWE93FJqGiQ3OPHwIgdh3rYzzqqxo,6726
+funnelmap/records/.registry.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funnelmap-0.1.dist-info/METADATA,sha256=IW1TtVcFCiZFHb5H73vmNF-0dbb_G0lK8aSV80815RI,6876
+funnelmap-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+funnelmap-0.1.dist-info/top_level.txt,sha256=W8V5-klGikRCaCylowiZdDcbSkZ4kar1WZkFhoWlRTo,10
+funnelmap-0.1.dist-info/RECORD,,
