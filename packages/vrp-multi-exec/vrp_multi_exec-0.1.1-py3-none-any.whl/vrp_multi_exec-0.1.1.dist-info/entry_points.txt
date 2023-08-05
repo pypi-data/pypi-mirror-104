@@ -1,0 +1,3 @@
+[console_scripts]
+multi_exec=vrp_multi_exec.entry_points.multi_exec:cli
+
