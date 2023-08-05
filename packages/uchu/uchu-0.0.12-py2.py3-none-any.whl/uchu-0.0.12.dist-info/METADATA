@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: uchu
+Version: 0.0.12
+Summary: Sane interface to cloud services.
+Home-page: https://github.com/alvations/uchu
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: botocore
+
+UNKNOWN
+
+

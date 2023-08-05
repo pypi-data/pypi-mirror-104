@@ -1,0 +1,11 @@
+uchu/__init__.py,sha256=z1Whc2AX3ESJUWtrajdyE2qc99EYBfUK-h_jcY3IcOY,26
+uchu/aws/__init__.py,sha256=zeGukNU5d944R7Ejr5OU-NgGePJ7nPt-wOezNuw_Mrw,23
+uchu/aws/athena.py,sha256=w-R5OGcXnpOx0R0uv-KxkWGkaAP4_5RvVpkgjkisuhk,824
+uchu/aws/s3.py,sha256=tLKjoYhufGTfi0_lqox3-Uslm8NhOMSmO0RTM6rUZWk,2294
+uchu/do/__init__.py,sha256=riuZ5ECguxpr4bOhhO_VE4_245UtOYtPZ4SMMVWTFoA,33
+uchu/do/space.py,sha256=bG4Q4AyqyuvGAdRjk0Hqo96151SD1MBW5OsY56MM7dA,870
+uchu-0.0.12.dist-info/LICENSE,sha256=7-A6XjA7IWrSAIsQDaKsL75qo8pELyz7kxIn-Zb9Lr4,1066
+uchu-0.0.12.dist-info/METADATA,sha256=otuW1TP58NL7QtxvioJW6mrwSbH7UIyk27JAG1vfxm8,266
+uchu-0.0.12.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+uchu-0.0.12.dist-info/top_level.txt,sha256=QYjCZddG3ai2cf8Es0dcj0SkSlFWWwkdKQK0UxBLM4w,5
+uchu-0.0.12.dist-info/RECORD,,
