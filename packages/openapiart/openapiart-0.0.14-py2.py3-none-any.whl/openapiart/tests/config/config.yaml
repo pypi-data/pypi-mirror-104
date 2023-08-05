@@ -1,0 +1,55 @@
+components:
+  schemas:
+    Config:
+      x-include:
+      - '../common/common.yaml#/components/schemas/GlobalObject'
+      properties:
+        a:
+          type: string
+        b:
+          type: number
+        c:
+          type: integer
+        d:
+          type: array
+          items:
+            type: string
+            enum: [a, b, c]
+        e:
+          $ref: '#/components/schemas/Ref'
+        f:
+          $ref: '#/components/schemas/Ref.Choice'
+        g:
+          type: array
+          items:
+            $ref: '../common/common.yaml#/components/schemas/ListObject'
+
+    Ref:
+      x-include:
+      - '../common/common.yaml#/components/schemas/GlobalObject'
+      required: [e_a, e_b]
+      properties:
+        e_a:
+          type: number
+          format: float
+          default: 1.0
+        e_b:
+          type: number
+          format: double
+          default: 2.0
+
+    Ref.Choice:
+      x-include:
+      - '../common/common.yaml#/components/schemas/GlobalObject'
+      required: [choice]
+      properties:
+        choice:
+          type: string
+          enum: [f_a, f_b]
+        f_a:
+          type: string
+          default: 'f_a'
+        f_b:
+          type: number
+          format: double
+          default: 3.0
