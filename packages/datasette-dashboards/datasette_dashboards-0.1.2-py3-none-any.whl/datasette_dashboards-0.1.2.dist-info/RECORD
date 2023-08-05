@@ -1,0 +1,11 @@
+datasette_dashboards/__init__.py,sha256=uH_H8NJiB6szZjTSVnjlqd4IRQ6SfvG9ADKMAdRQAGU,2112
+datasette_dashboards/static/dashboards.css,sha256=6pDxWmROdAQdM3RnSuLbaj1vo04JCRJsM2PTShsz0xo,440
+datasette_dashboards/static/dashboards.js,sha256=ZgbZgojpCk7QOfbgohSCOXahVgVbvmV_BqEbXN2APtw,482
+datasette_dashboards/templates/dashboard_view.html,sha256=h2LaGiU6m7FVteWAaNql6eNLoMFBZxMYG8Xr4JklL3I,2487
+datasette_dashboards/templates/dashboards.html,sha256=K8pq3ppCJ81zQBYriwLc3yDiKBD81rtVIr5SC1aPljs,629
+datasette_dashboards-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_dashboards-0.1.2.dist-info/METADATA,sha256=uzG4WXzHuNc-i4VSlftwV_zoxeQBphiPRzfjuaCa0-I,6104
+datasette_dashboards-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+datasette_dashboards-0.1.2.dist-info/entry_points.txt,sha256=44aR00FuAX3Z6pXfqw7kwFdGNcn7R5WiPK2gE1K_D_E,47
+datasette_dashboards-0.1.2.dist-info/top_level.txt,sha256=34A6Qa7JmGKd5zfSjTwmreDVzLrCRj2UkLYI8sKJvTg,21
+datasette_dashboards-0.1.2.dist-info/RECORD,,
