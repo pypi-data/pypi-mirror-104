@@ -1,0 +1,11 @@
+buckup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buckup/bucket_creator.py,sha256=5lsRhYZs3UoXWXz9kVL71CCZJ39NzwB4C6m-99NKqbc,8977
+buckup/command_line.py,sha256=T_besiR45OD_-OSvr9EkIePcdvfwTs4JKpmHCg1Pj9M,8537
+buckup/exceptions.py,sha256=3uDTTLuDFJmQuUsx4OYlOi54KMQ67_SwSjcTr4VOspY,351
+buckup/utils.py,sha256=JHt02hyhTdgh-H7wJaGyfkwCUhDJuovYizZl80ABTk0,807
+buckup-0.1a4.dist-info/LICENSE,sha256=AN3Bbp0FWsBP3HtRIumRtHDT948EAhHaQz40oxj24IU,1494
+buckup-0.1a4.dist-info/METADATA,sha256=KlYT7vLc6TjMJPVnpzkwATA4z9ory-mF-y4cF8s3fEo,3779
+buckup-0.1a4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+buckup-0.1a4.dist-info/entry_points.txt,sha256=TZyVL3Y-gXFIuVVrwyn_U5ZnuUQSUmwUc5D3o62a6yQ,53
+buckup-0.1a4.dist-info/top_level.txt,sha256=5Hhuy_wKFnmvWwllG9yugzQOSvcdNsVa8PXQEGC2HdM,7
+buckup-0.1a4.dist-info/RECORD,,
