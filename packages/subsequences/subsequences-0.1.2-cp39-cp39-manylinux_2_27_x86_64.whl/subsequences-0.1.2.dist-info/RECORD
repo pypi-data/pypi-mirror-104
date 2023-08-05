@@ -1,0 +1,11 @@
+subsequences/__init__.py,sha256=b9SNGTQITlbSrqTLuMHPVUnGxfzcPaAQqw6lHGo0zJ8,164
+subsequences/subsequences.cpython-39-x86_64-linux-gnu.so,sha256=3HrpidZonNiafam_KQZGEG6ia4wc-ubDZ46PtjadAAA,1181256
+subsequences/subsequences.pxd,sha256=vPZ4iv1Me-Ys3nhZs2owXiMeixw-R4CDqO9r2HDiHy8,298
+subsequences/subsequences.py,sha256=zyU-W63pWY9MqsyupD5q1_uUujyoqGUTpvOrtcPQSF4,1342
+subsequences/substrings.cpython-39-x86_64-linux-gnu.so,sha256=51Sfv8sx0K_eeLFT0I4S3_A4zFLbO-y13hGtmitbHuM,1064472
+subsequences/substrings.pxd,sha256=lo1a_ZK6fBWT2MDpyOci28u9HcmXyux1LP9u6JFkvn0,158
+subsequences/substrings.py,sha256=rXGpBqi2KRgof1sSY-sM7Z5DKI8GDQ1vAGxHAHI3fhU,612
+subsequences-0.1.2.dist-info/LICENSE,sha256=PiCQE4VbmbE_sanMOrKYxBjMSE6Y2EzV2oCQjMPtAv4,1073
+subsequences-0.1.2.dist-info/WHEEL,sha256=JjIwXoo67Ks8OXbieD9Q3O0ftIMf2C8k4s5EOTbB4dI,103
+subsequences-0.1.2.dist-info/METADATA,sha256=vM39jUXcx5d23Fk7dan-abm0bFf455-BvZ2LqdJroYw,360
+subsequences-0.1.2.dist-info/RECORD,,
