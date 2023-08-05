@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aroay_cloudscraper
+Version: 1.2
+Summary: scrapy的一个下载中间件，绕过cloudflare检测
+Home-page: https://github.com/hwpchn/AroayCloudScraper.git
+Author: hwpchn
+Author-email: 13692839895@163.com
+License: UNKNOWN
+Description: 
+        # AroayCloudScraper
+        scrapy一个插件，绕过cloudflare检测，主要是封装 cloudscraper模块
+        
+        # 需setting设置
+        
+        ```
+        # 默认日志级别
+        AROAY_CLOUDSCRAPER_LOGGING_LEVEL = logging.DEBUG
+        
+        默认超时
+        AROAY_CLOUDSCRAPER_DOWNLOAD_TIMEOUT = 30
+        
+        # 默认延迟
+        AROAY_CLOUDSCRAPER_DELAY = 1
+        
+        #必须设置，否则报错
+        COMPRESSION_ENABLED = False
+        ```
+        
+        # 代理使用
+        
+        ```
+            def start_requests(self):
+                for page in range(1, 2):
+                    yield CloudScraperRequest(self.base_url, callback=self.parse_index, dont_filter=True, proxy={
+                        "http": "http://username:password@ip:port",
+                        "https": "http://username:password@ip:port",
+                    },cookies={"over18":"1"},timeout=5)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
