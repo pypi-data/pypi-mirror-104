@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: fedlearner-manylinux
+Version: 1.5.dev20210429
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Fedlearner Contributors
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (==41.0.0)
+Requires-Dist: tensorflow (==1.15.2)
+Requires-Dist: cityhash
+Requires-Dist: pylint (==2.4.4)
+Requires-Dist: jinja2
+Requires-Dist: grpcio-tools
+Requires-Dist: etcd3
+Requires-Dist: influxdb
+Requires-Dist: peewee
+Requires-Dist: apsw
+Requires-Dist: configparser
+Requires-Dist: prettytable
+Requires-Dist: kubernetes
+Requires-Dist: scipy
+Requires-Dist: gmpy2
+Requires-Dist: scikit-learn
+Requires-Dist: pycryptodomex
+Requires-Dist: rsa
+Requires-Dist: elasticsearch (==7.11.0)
+Requires-Dist: elasticsearch6
+Requires-Dist: guppy3
+Requires-Dist: tensorflow-io (==0.8.1)
+Requires-Dist: psutil
+Requires-Dist: sqlalchemy (==1.2.19)
+Requires-Dist: mysqlclient
+Requires-Dist: leveldb
+Requires-Dist: prison (==0.1.3)
+Requires-Dist: matplotlib
+
+# Fedlearner™
+Fedlearner is collaborative machine learning framework that enables joint modeling of data distributed between institutions.
+
+
+
+
+## Trademark Usage Policy
+
+Fedlearner welcomes everyone to build on or modify Fedlearner open source software for your own project.
+The license of the software doesn’t grant permission to use trademarks or product names in respect to the licensor.
+However, you may use the trademark or product name if,
+- You use a wordmark to refer to Fedlearner program, product or technology; 
+- You use a wordmark in text to indicate the compatibility of your project with Fedlearner project; 
+- You use a wordmark in text to indicate your project is built based on Fedlearner technology.
+
+If you would like to use the Fedlearner trademark,
+- to combine a trademark with your own brand, trademark, product, project, service or domain name; 
+- for any other commercial use;
+- as a verb or noun, rather than only as an adjective followed by the generic name/noun;
+- in a modified, abbreviated or altered form, or in the plural or possessive form; 
+please feel free to contact us for an express permission. 
+
+If you use a trademark in a way not set forth above, or for any illegal purpose with the program, the licensor reserves the right in its sole discretion to terminate or modify your permission to display or use a trademark and to take action against any use that does not conform to these terms and conditions, or violates applicable law.
+
+
+
