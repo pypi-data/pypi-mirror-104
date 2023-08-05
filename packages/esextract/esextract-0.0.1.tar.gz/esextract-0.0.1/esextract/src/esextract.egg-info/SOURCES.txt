@@ -1,0 +1,9 @@
+README.md
+setup.py
+esextract/src/esextract.egg-info/PKG-INFO
+esextract/src/esextract.egg-info/SOURCES.txt
+esextract/src/esextract.egg-info/dependency_links.txt
+esextract/src/esextract.egg-info/requires.txt
+esextract/src/esextract.egg-info/top_level.txt
+esextract/src/esextract.py
+esextract/src/esextract.egg-info/SOURCES.txt
