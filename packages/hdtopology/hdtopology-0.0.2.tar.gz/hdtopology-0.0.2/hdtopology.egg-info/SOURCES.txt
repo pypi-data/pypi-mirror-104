@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hdtopology/__init__.py
+hdtopology/hdtopology.py
+hdtopology.egg-info/PKG-INFO
+hdtopology.egg-info/SOURCES.txt
+hdtopology.egg-info/dependency_links.txt
+hdtopology.egg-info/requires.txt
+hdtopology.egg-info/top_level.txt
