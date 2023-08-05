@@ -1,0 +1,6 @@
+berkeleydb
+pandas>=1.1.4
+decorator
+
+[test]
+pytest
