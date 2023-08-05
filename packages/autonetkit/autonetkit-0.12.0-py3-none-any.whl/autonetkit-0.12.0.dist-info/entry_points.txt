@@ -1,0 +1,4 @@
+[console_scripts]
+ank_webserver = autonetkit.webserver:main
+autonetkit = autonetkit.console:main
+
