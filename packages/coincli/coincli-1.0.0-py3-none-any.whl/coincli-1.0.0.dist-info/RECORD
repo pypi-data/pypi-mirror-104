@@ -1,0 +1,10 @@
+coinbase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coinbase/auth.py,sha256=PuGVxS70Qnf6bMV8pwC6kOZjQBfOQAKK0wI1swTLAmI,749
+coinbase/cli.py,sha256=x6UE6z4UBOr6vfIONBHqmedVy5koVsqkbFF56K_kCGc,2562
+coinbase/const.py,sha256=ksk4kbRaXIwr8068djFF03NZMs7--5-QAjN8yv26X0E,657
+coinbase/mgmt.py,sha256=DS4-1W53QbhFgAfCycaLe0TsGS8aA6mlC0MUeVJ3p0E,1546
+coincli-1.0.0.dist-info/METADATA,sha256=h21svDVtyTq2eAMGKSM4DEirxthPq0VM_dOiNSBmC6w,540
+coincli-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+coincli-1.0.0.dist-info/entry_points.txt,sha256=q7SGA06UY256fUNbLPMISAuN3FPLMCGWA_tSB5EAmgw,67
+coincli-1.0.0.dist-info/top_level.txt,sha256=FqvpAFFmdtS4-fOxSmRS40U0UFmzzf6C3YI0Hfc3n80,9
+coincli-1.0.0.dist-info/RECORD,,
