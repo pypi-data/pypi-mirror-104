@@ -1,0 +1,32 @@
+include *.csv
+include *.py
+include *.sh
+include *.txt
+recursive-include build *.py
+recursive-include cis_1fluoro4propylcyclohexane *.pml
+recursive-include cis_1fluoro4propylcyclohexane *.pse
+recursive-include cis_1fluoro4propylcyclohexane *.xyz
+recursive-include cycloheptadecane_file_test *.xyz
+recursive-include cycloheptadecane_file_test2 *.xyz
+recursive-include cycloheptadecane_file_test3 *.xyz
+recursive-include cyclooctane_file_test *.xyz
+recursive-include cyclooctane_more_file_test *.xyz
+recursive-include dist *.whl
+recursive-include methylcyclooctane *.xyz
+recursive-include pentane_file_test *.mae
+recursive-include pentane_file_test *.xyz
+recursive-include pymol_dioxpane_files *.pml
+recursive-include venv *.csv
+recursive-include venv *.dat
+recursive-include venv *.dta
+recursive-include venv *.json
+recursive-include venv *.mat
+recursive-include venv *.npz
+recursive-include venv *.pkl
+recursive-include venv *.pth
+recursive-include venv *.py
+recursive-include venv *.r
+recursive-include venv *.so
+recursive-include venv *.txt
+recursive-include xyz_file_test *.pml
+recursive-include xyz_file_test *.xyz
