@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rsync-tasks
+Version: 0.1.4
+Summary: A simple configurable wrapper around rsync
+Home-page: https://github.com/RobertoBochet/rsync-tasks
+Author: Roberto Bochet
+Author-email: robertobochet@gmail.com
+License: gpl-3.0
+Keywords: rsync,wrapper,tool
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: yamale (~=3.0.4)
+Requires-Dist: PyYAML (~=5.3.1)
+
+UNKNOWN
+
+
