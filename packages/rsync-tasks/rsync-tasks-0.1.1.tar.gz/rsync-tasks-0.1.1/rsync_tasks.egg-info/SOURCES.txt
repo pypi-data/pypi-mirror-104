@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+rsync_tasks/__init__.py
+rsync_tasks/__main__.py
+rsync_tasks/rsync_tasks.py
+rsync_tasks/version.py
+rsync_tasks.egg-info/PKG-INFO
+rsync_tasks.egg-info/SOURCES.txt
+rsync_tasks.egg-info/dependency_links.txt
+rsync_tasks.egg-info/entry_points.txt
+rsync_tasks.egg-info/requires.txt
+rsync_tasks.egg-info/top_level.txt
+rsync_tasks/exceptions/__init__.py
+rsync_tasks/log/__init__.py
