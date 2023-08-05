@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+Messages.out
+SPheno.out
+scans*
+.ignore*
+dist
