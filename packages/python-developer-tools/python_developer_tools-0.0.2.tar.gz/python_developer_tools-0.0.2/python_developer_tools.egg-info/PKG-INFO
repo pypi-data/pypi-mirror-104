@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: python-developer-tools
+Version: 0.0.2
+Summary: zengxiaohui python tools
+Home-page: https://github.com/carlsummer/zengxh_py_tools
+Author: zengxiaohui
+Author-email: 2362651588@qq.com
+License: UNKNOWN
+Description: # zengxh_py_tools
+        python 开发过程中常用到的工具
+        
+        ### 生成发布软件包文件
+        ```shell script
+        python -m pip install --user --upgrade setuptools wheel
+        python setup.py sdist bdist_wheel
+        ```
+        
+        ### 将打包好的项目上传至PyPI
+        ```shell script
+        python -m pip install --user --upgrade twine
+        # upload to test PyPI
+        python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        # upload to real PyPI
+        python -m twine upload dist/*
+        ```
+        
+        ### 测试是否发布成功
+        ```shell script
+        # 在线安装测试版本
+        pip install -i https://test.pypi.org/simple/ zengxh_py_tools==0.0.2
+        # 在线安装正式版本
+        pip install -i https://pypi.org/simple/ zengxh_py_tools==0.0.2
+        pip install zengxh_py_tools==0.0.2
+        # 离线安装
+        pip install dist/zengxh_py_tools-0.0.1-py3-none-any.whl
+        pip uninstall zengxh_py_tools
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
