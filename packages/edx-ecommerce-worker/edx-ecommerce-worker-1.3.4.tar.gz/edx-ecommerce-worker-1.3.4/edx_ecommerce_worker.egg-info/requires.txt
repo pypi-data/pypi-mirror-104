@@ -1,0 +1,5 @@
+six
+edx-rest-api-client
+celery
+sailthru-client
+redis
