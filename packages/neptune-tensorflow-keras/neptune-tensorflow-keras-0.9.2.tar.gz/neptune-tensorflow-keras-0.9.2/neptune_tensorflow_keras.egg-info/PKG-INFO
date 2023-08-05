@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: neptune-tensorflow-keras
+Version: 0.9.2
+Summary: Neptune.ai tensorflow-keras integration library
+Home-page: https://github.com/neptune-ai/neptune-client
+Author: neptune.ai
+Author-email: contact@neptune.ai
+License: MIT License
+Description: # neptune-tensorflow-keras
+        
+        See [the official docs](https://docs.neptune.ai/integrations-and-supported-tools/model-training/tensorflow-keras).
+        
+        Minimal example:
+        
+        ```python
+        import tensorflow as tf
+        import neptune.new as neptune
+        from neptune.new.integrations.tensorflow_keras import NeptuneCallback
+        
+        run = neptune.init(project='common/tf-keras-integration', api_token='ANONYMOUS')
+        
+        mnist = tf.keras.datasets.mnist
+        (x_train, y_train),(x_test, y_test) = mnist.load_data()
+        x_train, x_test = x_train / 255.0, x_test / 255.0
+        
+        model = tf.keras.models.Sequential([
+          tf.keras.layers.Flatten(),
+          tf.keras.layers.Dense(256, activation=tf.keras.activations.relu),
+          tf.keras.layers.Dropout(0.5),
+          tf.keras.layers.Dense(10, activation=tf.keras.activations.softmax)
+        ])
+        
+        optimizer = tf.keras.optimizers.SGD(lr=0.005, momentum=0.4,)
+        
+        model.compile(optimizer=optimizer,
+                      loss='sparse_categorical_crossentropy',
+                      metrics=['accuracy'])
+        
+        neptune_cbk = NeptuneCallback(run=run, base_namespace='metrics')
+        model.fit(x_train, y_train,
+                  epochs=5,
+                  batch_size=64,
+                  callbacks=[neptune_cbk])
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: all
