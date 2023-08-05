@@ -1,0 +1,5 @@
+snakenv
+click
+termcolor2
+PyInquirer
+prettytable
