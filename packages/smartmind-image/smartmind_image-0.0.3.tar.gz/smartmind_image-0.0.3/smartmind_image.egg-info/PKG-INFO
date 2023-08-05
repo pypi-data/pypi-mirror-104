@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: smartmind-image
+Version: 0.0.3
+Summary: sample package
+Home-page: UNKNOWN
+Author: Sangdae Nam
+Author-email: nsd26534613@gmail.com
+License: UNKNOWN
+Description: Sample image quadtree
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
