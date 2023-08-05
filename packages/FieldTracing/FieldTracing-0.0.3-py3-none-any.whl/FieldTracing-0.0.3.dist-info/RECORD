@@ -1,0 +1,13 @@
+FieldTracing/_WithinBounds.py,sha256=bmEl6sykUXanJQuFZdttR2nS5VwtQEqDfbSoHwdLUSI,2028
+FieldTracing/__init__.py,sha256=Vq2wD3WhpWGQxqHjcUi0OquP1djnC6spx-D6Tmb22uk,61
+FieldTracing/Euler/EulerStep.py,sha256=67haLmZQDkvB3v6Lx-2ZPurge-_UnYfsI8J87iIUYgY,606
+FieldTracing/Euler/EulerTrace.py,sha256=X-Mfvw4llPvrYm0cUYYh_pQoylbq6umoMt7yaW5-TzM,3064
+FieldTracing/Euler/__init__.py,sha256=cjmAEfGZf4dTCCkVYWmRsPP8PHF-MlT_vrTaafOACDs,68
+FieldTracing/RK4/RK4Step.py,sha256=myFYxLGfmro9123LwH_48VPlB48ggNS97rS8NhmXgrE,777
+FieldTracing/RK4/RK4Trace.py,sha256=Wpl7eeXzbbkQJjBem8WwaiNywiytuF7I_xf-uQEyVfA,2989
+FieldTracing/RK4/__init__.py,sha256=r_IsQwepIVs77Pu3sQH8UxlZOcq7bc0A8832HbB0AH4,60
+FieldTracing-0.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FieldTracing-0.0.3.dist-info/METADATA,sha256=z5A25Eq5Jmz3kHpCb9i47tOn38OElYtS3ZbEo-8gx8I,3342
+FieldTracing-0.0.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+FieldTracing-0.0.3.dist-info/top_level.txt,sha256=SZKvONFndqr0t5Lz8V_zIlskoP2xKRDpbhn8uDKLdBI,13
+FieldTracing-0.0.3.dist-info/RECORD,,
