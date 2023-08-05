@@ -1,0 +1,7 @@
+acquisition_extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acquisition_extractor/decisions.py,sha256=GnPN6wIr2ajgIx4CABcV96MPmLfGz85DJ9RXKuIpnGg,1948
+acquisition_extractor/helpers.py,sha256=10WsRBEVoto7Ww2gaATaY5GPl7JQvYsDvWVzDVwxan8,3317
+acquisition_extractor/statutes.py,sha256=dcRuHjG86cwBqfz_-ubfpMBfXsFsg3_YxdOilRWW4ZQ,6421
+acquisition_extractor-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+acquisition_extractor-0.1.0.dist-info/METADATA,sha256=3ML6c6SHwAfEvxecDmvjXDL8EBZs6NDiYXt1T0lLAwU,440
+acquisition_extractor-0.1.0.dist-info/RECORD,,
