@@ -1,0 +1,6 @@
+bidict
+
+[tests]
+pytest>=4.4
+pytest-cov
+sybil
