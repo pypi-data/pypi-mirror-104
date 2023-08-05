@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cs253_demotry_pip
+Version: 1.0.1
+Summary: A demo peoject for CS253 presentation
+Home-page: https://demo_project.com/dummy.xml
+Author: Navya
+Author-email: navyaa@iitk.ac.in
+License: UNKNOWN
+Description: 
+        Enter Description of the project
+        
+        
+        Publishing py package for the first time
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

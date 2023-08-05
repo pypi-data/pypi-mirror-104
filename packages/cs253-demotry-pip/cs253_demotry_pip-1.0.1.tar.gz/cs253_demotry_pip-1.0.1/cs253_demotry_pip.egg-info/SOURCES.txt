@@ -1,0 +1,7 @@
+README.md
+setup.py
+cs253_demotry_pip.egg-info/PKG-INFO
+cs253_demotry_pip.egg-info/SOURCES.txt
+cs253_demotry_pip.egg-info/dependency_links.txt
+cs253_demotry_pip.egg-info/requires.txt
+cs253_demotry_pip.egg-info/top_level.txt
