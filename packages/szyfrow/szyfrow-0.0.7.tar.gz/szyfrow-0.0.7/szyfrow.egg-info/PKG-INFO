@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: szyfrow
+Version: 0.0.7
+Summary: Tools for using and breaking simple ciphers
+Home-page: https://github.com/NeilNjae/szyfrow
+Author: Neil Smith
+Author-email: neil.szyfrow@njae.me.uk
+License: UNKNOWN
+Project-URL: Documentation, https://neilnjae.github.io/szyfrow/szyfrow/index.html
+Description: # Szyfow ciphers
+        
+        Simple (mainly manual) ciphers, and routines for enciphering, deciphering, 
+        and breaking messages created with them.
+        
+        The ciphers implemented here are mostly ones that predate mechanical cipher
+        systems. The most complex cipher is the Enigma of World War II.
+        
+        Each cipher is presented with functions to encipher, decipher, and 
+        automatically break messages with that cipher.
+        
+        Most of the time, messages are broken by brute-force trying each possible key
+        and scoring the resulting deciphered message using a bag-of-words probability
+        measure (or a bag-of-bigrams, or a bag-of-trigrams).
+        
+        You can find more information on the ciphers and how they are implemented in
+        the [codes and ciphers area of my blog](https://work.njae.me.uk/tag/codes-and-ciphers/).
+        
+        Ciphers work on messages encoded with the 26 letters of the Latin alphabet,
+        without accents (the letters contained in the `string.ascii_letters` constant).
+        Most of the ciphers convert letters to lowercase, strip accents from letters,
+        and drop all other characters (such as spaces and punctuation).
+        
+        `szyfrow.support.text_prettify` contains functions to make the output easier
+        to read, such as automatically recovering word boundaries.
+        
+        The name comes from the Polish cipher bureau, the Biuro Szyfrów, who were 
+        breaking Enigma ciphers by hand before World War II.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
