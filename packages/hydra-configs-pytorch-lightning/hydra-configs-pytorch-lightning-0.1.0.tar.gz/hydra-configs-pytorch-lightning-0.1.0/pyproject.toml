@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "hydra-configs-pytorch-lightning"
+version = "0.1.0"
+description = "Hydra Lightning"
+authors = ["Rosario Scalise <rosario@cs.uw.edu>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/romesco/hydra-lightning"
+repository = "https://github.com/romesco/hydra-lightning"
+documentation = "https://github.com/romesco/README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+packages = [
+    { include = "hydra_configs", from = "hydra-configs-pytorch-lightning" },
+]
+
+[tool.poetry.urls]
+Changelog = "https://github.com/romesco/hydra-lightning/releases"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+pre-commit = "^2.8.2"
+pre-commit-hooks = "^3.3.0"
+flake8 = "^3.8.4"
+flake8-bugbear = "^20.1.4"
+pep8-naming = "^0.11.1"
+reorder-python-imports = "^2.3.6"
+Pygments = "^2.7.2"
+pytest = "^6.1.2"
+coverage = {extras = ["toml"], version = "^5.3"}
+pytorch-lightning = "^1.1.5"
+hydra-core = "^1.0.5"
+
+[tool.poetry.scripts]
+
+[tool.coverage.paths]
+source = ["hydra-configs-pytorch-lightning"]
+
+[tool.coverage.run]
+branch = true
+source = [
+    "hydra-configs-pytorch-lightning",
+    "hydra-configs-pytorch-lightning/hydra_configs"
+]
+omit = ["*site-packages*", "*tests*", "*setup.py"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
