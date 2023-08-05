@@ -1,0 +1,3 @@
+[console_scripts]
+namekox = namekox_core.cli.main:main
+
