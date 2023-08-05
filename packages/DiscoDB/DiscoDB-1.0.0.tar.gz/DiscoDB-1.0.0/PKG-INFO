@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: DiscoDB
+Version: 1.0.0
+Summary: Disco is minimalist password encoded database system made in python, that emphasizes simplicity and efficiency
+Home-page: https://github.com/argvsc47/DiscoDB
+Author: argvsc47
+Author-email: UNKNOWN
+License: gpl-3.0
+Download-URL: https://github.com/argvsc47/DiscoDB/archive/refs/tags/v_1.tar.gz
+Description: UNKNOWN
+Keywords: Disco,Database,light,secure
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
