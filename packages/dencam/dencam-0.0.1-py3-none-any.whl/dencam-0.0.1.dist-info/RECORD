@@ -1,0 +1,12 @@
+dencam/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+dencam/buttons.py,sha256=GrYa6CGyyyZLkGtJnofOhj296IAxaTWjGBZhmxAE9bg,3905
+dencam/gui.py,sha256=_VVAAUJuDQl4ic1G-4nu1CGbNg2IoXpW-fnpDDRKxz0,8402
+dencam/logs.py,sha256=BrZ9CuM8j2Zm0MPoqcMkp7gzxm2fCp6E2_0GkQVKxcs,701
+dencam/networking.py,sha256=QcRukJibTi2ajtEVKMq0m4A7ZBqQrSK5hVpyQyFaKCk,637
+dencam/recorder.py,sha256=frUiTIDC_x_BNw5Put-ozxIufH0Bqo-eNACZ79apuxc,6149
+dencam-0.0.1.dist-info/LICENSE,sha256=eNHFGJ_G7u-quNw_Kd6lbSmFAdkCc_IAJUXa5vec7jo,1109
+dencam-0.0.1.dist-info/METADATA,sha256=OUH5jipkaqorw-yG2o6cjrkDJoF8T_gBNy4qPNq-0fI,1236
+dencam-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dencam-0.0.1.dist-info/entry_points.txt,sha256=QABKBGHKyZbCnAPt8NjPXzJ1NECS6KOy-F6vKt1Hhvg,49
+dencam-0.0.1.dist-info/top_level.txt,sha256=XkKEz8namOEw-P2lOv0x-guSVbaWlcBGWTDmfGWxQKo,7
+dencam-0.0.1.dist-info/RECORD,,
