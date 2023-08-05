@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+funnelmap/__init__.py
+funnelmap/formats.py
+funnelmap/funnel.py
+funnelmap/reading.py
+funnelmap/saving.py
+funnelmap.egg-info/PKG-INFO
+funnelmap.egg-info/SOURCES.txt
+funnelmap.egg-info/dependency_links.txt
+funnelmap.egg-info/requires.txt
+funnelmap.egg-info/top_level.txt
+funnelmap/records/.registry.json
