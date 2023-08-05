@@ -1,0 +1,10 @@
+Flask_Migrate
+Flask
+itsdangerous
+Flask_Script
+Flask_WTF
+Flask_SQLAlchemy
+wtforms_json
+flask_socketio==4.3.2
+Flask_Cors
+Flask_sockets
