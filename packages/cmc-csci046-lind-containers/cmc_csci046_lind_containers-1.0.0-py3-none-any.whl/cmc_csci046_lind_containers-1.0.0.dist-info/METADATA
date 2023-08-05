@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: cmc-csci046-lind-containers
+Version: 1.0.0
+Summary: Containers project for CMC's CSCI046 class with Professor Izbicki. Includes implementation of Binary Tree, Binary Search Tree, AVL Tree, and Heap.
+Home-page: https://github.com/dustin-lind/containers-project
+Author: Dustin Lind
+Author-email: dlind22@cmc.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# containers
+
+Build status:
+
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-fibonacci/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-fibonacci)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-range/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-range)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-unicode/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-unicode)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-BinaryTree/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-BinaryTree)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-BST/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-BST)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-AVLTree/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-AVLTree)
+1. [![](https://github.com/dustin-lind/containers-project/workflows/tests-Heap/badge.svg)](https://github.com/dustin-lind/containers-project/actions?query=workflow%3Atests-Heap)
+
+
