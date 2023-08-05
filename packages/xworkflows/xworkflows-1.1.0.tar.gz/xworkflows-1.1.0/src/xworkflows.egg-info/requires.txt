@@ -1,0 +1,10 @@
+
+[dev]
+check_manifest
+flake8
+tox
+zest.releaser[recommended]
+
+[doc]
+Sphinx
+sphinx_rtd_theme
