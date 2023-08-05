@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+class Console:     
+    # valid entries only for numbers
+    @staticmethod    
+    def inputNumber(msg ,value):
+        while True:
+            var = input(msg + " " + value + " : ")
+            try:
+                var = int(var)
+                return var
+            except ValueError:    
+                print("invalid")                             
+    #valid entries only for letters     
+    @staticmethod
+    def inputString(msg,value):     
+        while True:
+            var = input(msg + " " + value + " : ")            
+            if Console.__charactersNotNumber(var) == False:                
+                return var
+            else:
+                print("invalid")                
+    #valid entries only for letters    
+    @staticmethod           
+    def inputDecimal(msg, value):
+        while True:
+            var = input(msg + " "+ value + " : ")
+            try:
+                var = float(var)
+                return var
+            except ValueError:
+                print("invalid")
+    #valid entries only for alphabetical      
+    @staticmethod
+    def inputAlpha(msg, value):
+        while True:
+            var = input(msg + " " + value)
+            if var.isalpha():
+                return var
+            else:
+                print("invalid")
+    @staticmethod           
+    def inputDigital(msg, value):
+        while True:
+            var = input(msg + " " + value)
+            if var.isdigit():
+                return var
+            else:
+                print("invalid")
+    @staticmethod             
+    def inputSpace(msg, value):         
+        while True:
+            var = input(msg + " " + value)
+            if var.isspace():
+                return var
+            else:
+                print("invalid")               
+                 
+    @staticmethod          
+    def __charactersNotNumber(cadena):
+        try:
+            float(cadena)
+            return True
+        except (TypeError, ValueError):
+            return False
+
+#num = Console.inputNumber("ingrese", "un numero ")           
+        
+    
