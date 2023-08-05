@@ -1,0 +1,97 @@
+{
+  "name": "mitosheet",
+  "version": "0.1.221",
+  "description": "The Mito Spreadsheet",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "widgets"
+  ],
+  "files": [
+    "lib/**/*.js",
+    "css/**/*.css"
+  ],
+  "homepage": "https://github.com/mito/mito",
+  "bugs": {
+    "url": "https://github.com/mito/mito/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Mito Sheet",
+    "email": "naterush1997@gmail.com"
+  },
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mito/mito"
+  },
+  "scripts": {
+    "build": "npm run build:lib",
+    "build:labextension": "npm run clean:labextension && mkdirp mitosheet/labextension && cd mitosheet/labextension && npm pack ../..",
+    "build:lib": "tsc --jsx \"react\"",
+    "build:all": "npm run build:labextension",
+    "clean": "npm run clean:lib",
+    "clean:lib": "rimraf lib",
+    "clean:labextension": "rimraf mitosheet/labextension",
+    "lint": "eslint src/ --ext .ts,.tsx --fix",
+    "lint:check": "eslint src/ --ext .ts,.tsx",
+    "prepack": "npm run build:lib",
+    "test:remote": "export LOCAL_TEST=\"False\"; testcafe chrome tests/",
+    "test:local": "export JUPYTER_LAB_LOCAL_TOKEN=`jupyter notebook list | sed -n 2p | cut -d' ' -f1 | cut -d'=' -f2` && export LOCAL_TEST=\"True\" && testcafe chrome tests/",
+    "test:local:noauth": "testcafe chrome tests/",
+    "test:ga:1": "testcafe chrome tests/1/",
+    "test:ga:2": "testcafe chrome tests/2/",
+    "test:ga:3": "testcafe chrome tests/3/",
+    "test:ga:4": "testcafe chrome tests/4/",
+    "test:ga:5": "testcafe chrome tests/5/",
+    "test:ga:6": "testcafe chrome tests/6/",
+    "watch:lib": "tsc -w",
+    "deploy:pypi": "python3 setup.py sdist bdist_wheel upload",
+    "deploy:all": "python3 deployment/deploy.py all",
+    "deploy:staging": "python3 deployment/deploy.py staging",
+    "deploy:app": "python3 deployment/deploy.py app"
+  },
+  "dependencies": {
+    "@jupyter-widgets/base": "^1.1.10 || ^2 || ^3",
+    "@jupyterlab/notebook": "^2.2.5",
+    "@types/analytics-node": "^3.1.3",
+    "@types/fscreen": "^1.0.1",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "ag-grid-community": "^24.0.0",
+    "ag-grid-react": "^24.0.0",
+    "fscreen": "^1.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-intercom": "^1.0.15"
+  },
+  "devDependencies": {
+    "@phosphor/application": "^1.6.0",
+    "@phosphor/widgets": "^1.6.0",
+    "@types/expect.js": "^0.3.29",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.6",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "acorn": "^7.2.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-office-addins": "^0.1.7",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "expect.js": "^0.3.1",
+    "fs-extra": "^7.0.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^5.2.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^2.6.2",
+    "testcafe": "^1.9.4",
+    "typescript": "^3.8.3"
+  },
+  "jupyterlab": {
+    "extension": "lib/plugin"
+  }
+}
