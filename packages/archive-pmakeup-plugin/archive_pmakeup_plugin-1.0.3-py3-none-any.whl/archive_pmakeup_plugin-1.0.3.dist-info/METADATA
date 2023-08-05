@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: archive-pmakeup-plugin
+Version: 1.0.3
+Summary: A Pmakeup plugin for handling zip and unzip operations
+Home-page: https://github.com/Koldar/pmakeup.git
+Author: Massimo Bono
+Author-email: massimobono1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: alabaster (>=0.7.12)
+
+UNKNOWN
+
+
