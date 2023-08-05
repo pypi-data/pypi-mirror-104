@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apigee-trace-apim
+Version: 0.0.1
+Summary: A package to provide apigee trace functionality
+Home-page: https://github.com/artronics/apigee-trace
+Author: NHS Digital APIM
+Author-email: apim@nhs.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/artronics/apigee-trace/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
