@@ -1,0 +1,4 @@
+aiodns
+aiohttp
+pop>=17.0
+requests
