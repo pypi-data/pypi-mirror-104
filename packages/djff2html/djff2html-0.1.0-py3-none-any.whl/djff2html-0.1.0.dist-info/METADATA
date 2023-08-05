@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: djff2html
+Version: 0.1.0
+Summary: Uses to convert `git log -p -- (single file)` to HTML.
+Home-page: https://github.com/20x48/djff2html
+Author: 20x48
+Author-email: the20x48@outlook.com
+License: UNKNOWN
+Project-URL: Github, https://github.com/20x48/djff2html
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# djff2html
+
+Interesting name, isn't it?
+
+Uses to convert `git log -p -- (single file)` to HTML.
+
+Install it via `pip`:
+
+    pip install djff2html
+
+No time (too lazy) to write a tutorial.
+
+See the source code, it should be simple enough to call the API.
+
