@@ -1,0 +1,8 @@
+pyparsing
+
+[command]
+watchdog
+typer
+
+[test]
+pytest
