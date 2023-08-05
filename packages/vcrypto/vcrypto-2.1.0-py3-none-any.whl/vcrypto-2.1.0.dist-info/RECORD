@@ -1,0 +1,9 @@
+vcrypto/__init__.py,sha256=hAE0-5K6A8ccOmUTJcwuuE2XnY1NRoG_tVZao7XCBfM,51
+vcrypto/defaults.py,sha256=u1lWA_0yjcy2fAEaSQqRoxOcsYIiAXRlkBff6hJLIrw,194
+vcrypto/encryption.py,sha256=l5auVhjF96XxXqLjVnnbnlOBhOrntKKygTwuDnTJuf0,2232
+vcrypto/utilities.py,sha256=UiPAM1RYGDeUS3EqJEQzHMQOx9mUN3yjIajAQvheDk4,4531
+vcrypto/vcrypto.py,sha256=GptUstqc0VXEGbdGEyviLCcMsUPz-DXCXtudmRiLFy0,2619
+vcrypto-2.1.0.dist-info/LICENSE.txt,sha256=i-Me9D8JHsREmx7y4jjQCWcvwwVVpRkzMb0JWk-oNqY,1083
+vcrypto-2.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vcrypto-2.1.0.dist-info/METADATA,sha256=stKLxmnivGnn1IMuyhbXh7-RBKuXzutCNg-NTArjQ7k,4735
+vcrypto-2.1.0.dist-info/RECORD,,
