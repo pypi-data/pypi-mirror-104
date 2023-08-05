@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "patlib"
+version = "0.2.8"
+description = "A collection of tools."
+license = "MIT"
+authors = ["patricknraanes <patrick.n.raanes@gmail.com>"]
+
+readme = "README.md"
+
+#repository = "github..."
+#repository = "github..."
+#keywords = ["dict", "list"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+# Minimal tools
+line_profiler = "*"
+ipython = "^7.20" # issues/12740
+see = "*"
+
+# Debugging
+ipdb = "*"
+pudb = "*"
+pysnooper = "*"
+# Working pdb++ (ref pdbpp/issues/408):
+# pdbpp = { git = "https://github.com/pdbpp/pdbpp.git", rev = "b62a338" }
+# Note: cannot uncomment, coz then cannot publish to pypi.
+
+# Newly added
+pre-commit = "*"
+pytest = "*"
+pytest-sugar = "*"
+pytest-clarity = "*"
+
+# math
+matplotlib = { version = "^3.4",      optional = true } # 3.4 has subxlabel
+pyqt5      = { version = "!=5.15.3",  optional = true } # 5.15.3 breaks pyplot on mac
+scipy      = { version = "*",         optional = true }
+numpy      = { version = "^1.20.1",   optional = true } # 1.20 has stubs
+
+# misc
+pyyaml   = { version = "*", optional = true }
+toml     = { version = "*", optional = true }
+tabulate = { version = "*", optional = true }
+tqdm     = { version = "*", optional = true }
+
+# pat
+#mpl-tools = { path = "../../py/mpl-tools/", develop=true }
+#struct-tools = { path = "../../py/struct-tools/", develop=true }
+# NB: this is a bad idea. Too hacky. Some issues (there's probably more):
+# - Makes it difficult to keep track of dep
+# - Prevents PyPI publishing
+# - Prevents local pip installs
+#   (a separate issue from the fact that pip cannot install
+#   in editable/develop/-e model local projects defined via pyproject.toml)
+
+#jupyter  = { version = "*", optional = true }
+
+[tool.poetry.dev-dependencies]
+pdbpp = { git = "https://github.com/pdbpp/pdbpp.git", rev = "b62a338" }
+
+#pre-commit = "*"
+
+[tool.poetry.extras]
+math = ["matplotlib", "pyqt5", "scipy", "numpy"]
+misc = ["pyyaml", "toml", "tabulate", "tqdm"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
