@@ -1,0 +1,12 @@
+TurkishPreprocessor/Preprocessor.py,sha256=IEkQd3-v1nX3LWSqlLKumkIt_R2f5fJfdyBsZ7uaD8M,9704
+TurkishPreprocessor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TurkishPreprocessor/Turkish_Lemmatizer/__init__.py,sha256=N6oT-Z5G900V-jJI3xAo4SjSrNoIYwlAT9CWXY2uJgc,32
+TurkishPreprocessor/Turkish_Lemmatizer/lemmatizer.py,sha256=UvpeM4IPF_Jn_ueg9Ph_FapXw-Uume_a6lY5PVhX83s,6883
+TurkishPreprocessor/Turkish_Lemmatizer/revisedDict.pkl,sha256=xD2-kjsF_mcsedTpZJTBQmPKKXbNTFtoPl2Mesm9Omw,1625225
+TurkishPreprocessor/Turkish_Lemmatizer/trainLexicon.py,sha256=Y7xAX737xAkt4mcAPJeJjQ0O1Q6nF5xQ2SndqFbX1Jg,9171
+TurkishPreprocessor-0.0.4.data/data/config/revisedDict.pkl,sha256=xD2-kjsF_mcsedTpZJTBQmPKKXbNTFtoPl2Mesm9Omw,1625225
+TurkishPreprocessor-0.0.4.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+TurkishPreprocessor-0.0.4.dist-info/METADATA,sha256=KaT0j7_1oBXANsD8a347mi9ZFQQy6IUg_wdPg-Z5RSA,680
+TurkishPreprocessor-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TurkishPreprocessor-0.0.4.dist-info/top_level.txt,sha256=3RUx7Abtcnu6xYm-cd9GbWFYMPUX1ZQXmxxecch0RJY,20
+TurkishPreprocessor-0.0.4.dist-info/RECORD,,
