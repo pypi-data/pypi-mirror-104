@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "summarize_dataframe"
+version = "0.1.0"
+description = "A package to provide summary data about pandas DataFrame"
+license = "MIT"
+authors = ["fbraza <fbraza@tutanota.com>"]
+keywords = ["pandas", "dataframe"]
+readme = "README.md"
+homepage = "https://github.com/fbraza/summarize_dataframe"
+repository = "https://github.com/fbraza/summarize_dataframe"
+include = [
+    "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pynvim = "^0.4.3"
+numpy = "^1.20.2"
+pandas = "^1.2.3"
+commitizen = "^2.17.0"
+pre-commit = "^2.12.0"
+black = "^21.4b1"
+flake8 = "^3.9.1"
+pylint = "^2.8.2"
+tox = "^3.23.0"
+tox-poetry-installer = {extras = ["poetry"], version = "^0.7.0"}
+tox-gh-actions = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "$version"
