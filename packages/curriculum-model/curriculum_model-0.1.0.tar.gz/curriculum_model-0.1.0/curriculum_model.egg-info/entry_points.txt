@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cm=curriculum_model.cli:cm
+    
