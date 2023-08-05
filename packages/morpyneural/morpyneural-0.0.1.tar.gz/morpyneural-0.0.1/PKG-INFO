@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: morpyneural
+Version: 0.0.1
+Summary: A small Neural Network
+Home-page: https://github.com/Morgiver/morpyneural
+Author: Morgiver
+Author-email: me@morgiver.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Morgiver/morpyneural/issues
+Description: # Neural Network
+        
+        A small Neural Network - Multilayer Perceptron made to learn how it works.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
