@@ -1,0 +1,17 @@
+README.md
+athena_client.py
+setup.py
+zapr/__init__.py
+zapr/aws/Athena.py
+zapr/aws/Glue.py
+zapr/aws/__init__.py
+zapr/aws/zaprs3client.py
+zapr/utils/Utils.py
+zapr/utils/__init__.py
+zapr/utils/reader.py
+zapr_athena_client.egg-info/PKG-INFO
+zapr_athena_client.egg-info/SOURCES.txt
+zapr_athena_client.egg-info/dependency_links.txt
+zapr_athena_client.egg-info/entry_points.txt
+zapr_athena_client.egg-info/requires.txt
+zapr_athena_client.egg-info/top_level.txt
