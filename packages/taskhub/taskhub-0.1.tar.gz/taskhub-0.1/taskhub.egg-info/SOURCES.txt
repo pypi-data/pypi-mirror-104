@@ -1,0 +1,6 @@
+setup.py
+taskhub.egg-info/PKG-INFO
+taskhub.egg-info/SOURCES.txt
+taskhub.egg-info/dependency_links.txt
+taskhub.egg-info/requires.txt
+taskhub.egg-info/top_level.txt
