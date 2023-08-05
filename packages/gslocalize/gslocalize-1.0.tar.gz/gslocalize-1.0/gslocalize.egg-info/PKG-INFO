@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gslocalize
+Version: 1.0
+Summary: Localize Xcode projects with Google Sheets
+Home-page: https://github.com/alexey-savchenko/gslocalize
+Author: OLEKSII SAVCHENKO
+Author-email: nahalem@ukr.net
+License: MIT
+Description: UNKNOWN
+Keywords: xcode,localization,localizable
+Platform: UNKNOWN

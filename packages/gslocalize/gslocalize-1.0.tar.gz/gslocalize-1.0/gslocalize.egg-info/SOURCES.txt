@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+gslocalize.egg-info/PKG-INFO
+gslocalize.egg-info/SOURCES.txt
+gslocalize.egg-info/dependency_links.txt
+gslocalize.egg-info/requires.txt
+gslocalize.egg-info/top_level.txt
