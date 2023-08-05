@@ -1,0 +1,9 @@
+zensols/nlp/__init__.py,sha256=yE0ogZqtA9f41tr1XKzMRZ2180ThGp-8zRXDTjcTiAM,130
+zensols/nlp/feature.py,sha256=jIWw0eoPok_YI6XEAYU3wOBzfeCN6SPWHTWgaYgVHH4,11628
+zensols/nlp/lang.py,sha256=p322DrjYuhL7B7tJFunPG2LSM_HVYFhZmNcqOIfcRzs,7635
+zensols/nlp/norm.py,sha256=Kd4X1zKLMSV0iMJhTOxEVib2mkqi5vf4RsooBLeybS0,10582
+zensols/nlp/stemmer.py,sha256=51LPX85jCuG_PBIO0VNVDtHHKc2dD4EVq2k-mjFsFIU,576
+zensols.nlp-0.0.14.dist-info/METADATA,sha256=BTTVV-0t9VkNk5huBvLobOvHcp477p5R6-mG46G04qo,3284
+zensols.nlp-0.0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zensols.nlp-0.0.14.dist-info/top_level.txt,sha256=NgD-P1jf-0xvfkWIxho1IVPkpl2JLBaIjIssgP_pkw8,12
+zensols.nlp-0.0.14.dist-info/RECORD,,
