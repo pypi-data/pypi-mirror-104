@@ -1,0 +1,6 @@
+# development requirements
+pytest
+requirements-parser<=0.2
+
+# also please install this package with
+# python setup.py install
