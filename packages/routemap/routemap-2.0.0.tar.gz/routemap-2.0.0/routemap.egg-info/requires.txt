@@ -1,0 +1,9 @@
+pyproj
+pyshp
+pandas
+six
+Pillow
+requests
+vincenty
+geographiclib
+scipy
