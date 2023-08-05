@@ -1,0 +1,10 @@
+clsz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clsz/clsz.py,sha256=geZqu4HEPc9mckeqG5E5hFPxdmX7Io5Yzd4CFZCVvhg,1379
+clsz/cluster.py,sha256=geZqu4HEPc9mckeqG5E5hFPxdmX7Io5Yzd4CFZCVvhg,1379
+clsz/metrics.py,sha256=tTaazqLZIhtHO7aAstA3HeNBbSNZOOIQFeWf7JrrAVc,1262
+clsz-0.2.0.dist-info/DESCRIPTION.rst,sha256=UI2tLUdz2NCsu_zAZ4Lvu4OWP4G4fBK4BUXCYJkEeJ4,105
+clsz-0.2.0.dist-info/METADATA,sha256=NeBgYxOBrGBnC6jScX_D_fyMhq-TF4qLZWsO2k1NQc8,792
+clsz-0.2.0.dist-info/RECORD,,
+clsz-0.2.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+clsz-0.2.0.dist-info/metadata.json,sha256=GQwLr62yIlG037dRaqpRCLB0JAYCB1MKLu8YMD_kLKc,811
+clsz-0.2.0.dist-info/top_level.txt,sha256=bpFtMn1R6BntaeY-l_vBUr-HbUeOJgo2HbW3243Jkr8,5
