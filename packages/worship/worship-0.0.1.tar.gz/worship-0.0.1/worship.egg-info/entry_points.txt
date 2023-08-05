@@ -1,0 +1,3 @@
+[console_scripts]
+psox = soxutils.entry:run
+

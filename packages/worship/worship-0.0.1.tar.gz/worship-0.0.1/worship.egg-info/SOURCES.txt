@@ -1,0 +1,12 @@
+README.md
+setup.py
+soxutils/__init__.py
+soxutils/draw.py
+soxutils/entry.py
+soxutils/frame.py
+worship.egg-info/PKG-INFO
+worship.egg-info/SOURCES.txt
+worship.egg-info/dependency_links.txt
+worship.egg-info/entry_points.txt
+worship.egg-info/requires.txt
+worship.egg-info/top_level.txt
