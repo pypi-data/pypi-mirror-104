@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ngl
+Version: 0.0.1
+Summary: A wrapper library for the C++ NGL library (http://www.ngraph.org/)
+Home-page: UNKNOWN
+Author: Shusen Liu, Peer-Timo Bremer
+Author-email: liu42@llnl.gov, bremer5@llnl.gov
+License: BSD-3
+Keywords: Empty Region Graph
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19)
+
+# ngl
+A python wrapper for the C++ neighborhood graph library NGL (http://www.ngraph.org/) for computing empty region graphs. Intended to be used with hdtopology library (https://github.com/LLNL/hdtopology) and NDDAV visualization system (https://github.com/LLNL/NDDAV.git).
+
+Released under LLNL-CODE-772013
+
+
