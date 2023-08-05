@@ -1,0 +1,8 @@
+flags: str()
+base_path_source: str(default="./")
+base_path_destination: str(default="./")
+tasks: list(include("task"))
+---
+task:
+  s: str()
+  d: str()
