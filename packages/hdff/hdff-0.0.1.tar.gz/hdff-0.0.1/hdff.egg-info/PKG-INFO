@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hdff
+Version: 0.0.1
+Summary: File Format Library for NDDAV System
+Home-page: https://github.com/LLNL/hdtopology
+Author: Shusen Liu, Peer-Timo Bremer
+Author-email: liu42@llnl.gov, bremer5@llnl.gov
+License: BSD-3
+Description: # hdff
+        The file format (HDFileFormat) library for the NDDAV (n-dimensional data analysis and visualization) system (https://github.com/LLNL/NDDAV.git).
+        
+        Released under LLNL-CODE-772013
+        
+Keywords: File Format,High-Dimensional Data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown

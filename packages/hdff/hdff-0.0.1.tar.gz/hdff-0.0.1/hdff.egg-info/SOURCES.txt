@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hdff/__init__.py
+hdff/hdff.py
+hdff.egg-info/PKG-INFO
+hdff.egg-info/SOURCES.txt
+hdff.egg-info/dependency_links.txt
+hdff.egg-info/top_level.txt
