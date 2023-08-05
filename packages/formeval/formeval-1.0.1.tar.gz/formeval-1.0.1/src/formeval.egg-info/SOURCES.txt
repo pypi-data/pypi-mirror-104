@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/formeval/__init__.py
+src/formeval/cider.py
+src/formeval/processor.py
+src/formeval/spice.py
+src/formeval/utils.py
+src/formeval.egg-info/PKG-INFO
+src/formeval.egg-info/SOURCES.txt
+src/formeval.egg-info/dependency_links.txt
+src/formeval.egg-info/requires.txt
+src/formeval.egg-info/top_level.txt
