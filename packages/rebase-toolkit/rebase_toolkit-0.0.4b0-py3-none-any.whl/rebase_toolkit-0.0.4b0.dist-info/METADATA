@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rebase-toolkit
+Version: 0.0.4b0
+Summary: Rebase Python toolkit
+Home-page: https://github.com/rebaseenergy/rebase-sdk
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: dill
+
+# Rebase Python Toolkit
+
+
