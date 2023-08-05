@@ -1,0 +1,9 @@
+traitlets
+tornado
+boto3
+joblib
+pandas
+numpy
+notebook
+nbformat
+asyncio
