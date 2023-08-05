@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_addict.py
+addicty/__init__.py
+addicty/addict.py
+addicty/yaml_checker.py
+addicty.egg-info/PKG-INFO
+addicty.egg-info/SOURCES.txt
+addicty.egg-info/dependency_links.txt
+addicty.egg-info/requires.txt
+addicty.egg-info/top_level.txt
