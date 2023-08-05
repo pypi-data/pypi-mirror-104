@@ -1,0 +1,111 @@
+# Decision Engine
+
+ - the integration of ostensibly disparate models of decision automation into
+   clear decision-centric interfaces.
+
+Several libraries exist with the isolated forms of the models we're using with
+interfaces that expect ...
+
+Our goal is to abstract that by one step to create an application-centric 
+toolset.
+
+The challenge this library attempts to solve is the integration of these 
+different sets of models all under the interface structure of optimizing.
+discrete actions in the real world.
+
+# Model To-Do:
+* gaussian thompson bandit ...
+* UCB ... (no multi-sample)
+* ... going to need some data generation infrastructure built
+
+
+Installation
+--------------------------------------------------------
+
+Installation can be 
+* of this repo as a package to allow usage of this repo into a different 
+  project
+* of a sufficient python environment to allow further development.
+
+done as a package to later be installed elsewhere or of 
+
+
+Leverage the python package functionality to do a minimal installation of the 
+models and surrounding piping as a stand-alone package.  Use this repo directly
+and set up a local to further develop this package.
+
+# Package Build and Install
+We use Python's `setuptools` to handle installation.
+You can build the wheel and install it elsewhere manually using:
+
+```shell
+# from within this repo's root:
+python setup.py bdist_wheel
+
+# from within your other project that you're installing this wheel into:
+pip install decision_engine-0.0.1-py3-none-any.whl
+```
+
+
+Or you can install it directly from Github usisng the library name
+`git+ssh://git@github.com/BellwethrInc/decision-engine.git` as you would
+install any other library through either a `pip install [x]` or including it
+directly in your `requirements.txt` file.
+
+Or if you prefer using `https` rather than ssh to connect to github, 
+`git+https://github.com/BellwethrInc/decision-engine.git` works as well.
+
+
+After we get proper releases set up, you'll be able to do 
+`git+ssh://git@github.com/BellwethrInc/decision-engine.git@v0.0.0#egg=decision_engine` 
+to specify a release as well.
+
+Coming soon: 
+* proper versioning
+* pypi-based install
+
+
+# As a Developer
+
+Within this repo's root, create a virtualenv (or your conda equivalent) and
+install the dependencies.
+
+```shell
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Models
+--------------------------------------------------------
+
+# Bandits
+While bandits are traditionally framed as a learner that dials in to the most
+rewarding action based on actual returns from the different actions sampled, 
+the state within a bandit at any given moment can be trivially re-built from 
+records of past treatments and responses.
+
+This results in two shapes of interfaces:
+1. A "model" that is trained on historical data, is its own object to be 
+  persisted, with the expectation that you'll keep training it as you use it
+  to make further decisions.
+1. A simple aggregation of historical data where the observed statistics also 
+  allows optimized selection of next actions.
+
+The bandit models included here have overlapping interfaces that allow the 
+first and/or the second pattern to be used.  For example, a model that was
+trained live using the first pattern would be identical to another model that
+was trained from scratch using the aggregated data that was fed to the first
+model.  Both the live-built and the rebult-from-historical-data models could
+then be used as live models for future decisions.
+
+## Batch
+Some training methods lend themselves nicely to pulling sets of next-actions
+while some don't.  (coming soon...)
+
+## Nonstationary
+ - coming soon.  default behavior decays on a per-sample.  However, our use
+   cases would more practicaly decay from timestamp.
+
+# Contextual Bandits
+ - coming soon
