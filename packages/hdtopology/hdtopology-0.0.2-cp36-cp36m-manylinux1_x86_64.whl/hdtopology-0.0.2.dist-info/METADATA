@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: hdtopology
+Version: 0.0.2
+Summary: Topological Data Analysis Library for NDDAV System
+Home-page: https://github.com/LLNL/hdtopology
+Author: Shusen Liu, Peer-Timo Bremer
+Author-email: liu42@llnl.gov, bremer5@llnl.gov
+License: BSD-3
+Keywords: Topological Data Analysis,High-Dimensional Data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.0)
+Requires-Dist: hdff
+Requires-Dist: ngl
+
+# hdtopology
+Topological data analysis library for NDDAV (n-dimensional data analysis and visualization) system (https://github.com/LLNL/NDDAV.git)
+
+#### Requirements:
+python3, swig3, numpy, cmake (3.12 or up), ANN (Approximate Nearest Neighbor, original repo: https://www.cs.umd.edu/~mount/ANN/, for compiling with CMake: https://github.com/dials/annlib)
+
+The hdtopology library also incorporated the core functionality of the NGL library (developed by Carlos Correa) for empty region graph computation, the full NGL code base can be access at: http://www.ngraph.org/
+
+
+#### Install
+1. Install (e.g., ```apt-get install libann-dev``` on linux, or ```port install ann``` on mac) or compile ANN library from source.
+
+2. Compile the hdtopology library and python wrapper:
+```console
+mkdir build
+cd build
+cmake .. -DENABLE_PYTHON=ON -DANN_INCLUDE_DIR=path/to/ann/include -DANN_LIBRARY=path/to/ann/libANN.a
+make install
+```
+
+Released under LLNL-CODE-772013
+
+
