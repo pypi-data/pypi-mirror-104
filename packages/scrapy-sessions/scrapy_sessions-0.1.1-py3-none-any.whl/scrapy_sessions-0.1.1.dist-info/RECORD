@@ -1,0 +1,9 @@
+scrapy_sessions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_sessions/cookies_middleware.py,sha256=O3whaD7dSVLCDpQmOnY1DOWMVElb8pkA5e0BpxE3XG4,6989
+scrapy_sessions/objects.py,sha256=eQ7fYFpY3sb9iVCYfe7OlhTPvS1JsgKRpckhmFZPfMw,4064
+scrapy_sessions/utils.py,sha256=XErmDQBY32q3p6ZUCv24-XbOPb53QqY79eym5pos1wA,684
+scrapy_sessions-0.1.1.dist-info/LICENSE,sha256=70FkNIsJi-2R8g1esoC6HbljcqjFjHTO4pB6XispZDw,3650
+scrapy_sessions-0.1.1.dist-info/METADATA,sha256=s0OmblqMMH3syvjiCMiVvhiSEU3-thqEPRPPpfH-fng,709
+scrapy_sessions-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scrapy_sessions-0.1.1.dist-info/top_level.txt,sha256=OOxwzr1jjOVuDghmL0GYixKivy6LMuX2KldDXoocqrs,16
+scrapy_sessions-0.1.1.dist-info/RECORD,,
