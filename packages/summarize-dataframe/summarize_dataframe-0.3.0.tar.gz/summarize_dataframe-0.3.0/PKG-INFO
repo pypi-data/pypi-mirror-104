@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: summarize-dataframe
+Version: 0.3.0
+Summary: A package to provide summary data about pandas DataFrame
+Home-page: https://github.com/fbraza/summarize_dataframe
+License: MIT
+Keywords: pandas,dataframe
+Author: fbraza
+Author-email: fbraza@tutanota.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/fbraza/summarize_dataframe
+Description-Content-Type: text/markdown
+
+# Summarize dataframe
+
+## Feature
+
+This python library permits to get some statistic about your pandas DataFrame. It returns the number of rows and columns
+and the frequency of each datatype present in the DataFrame
+
+## Usage
+
+To install the package, run:
+
+```bash
+pip install summarize-dataframe
+```
+
+It has been tested for Python `3.7`, `3.8` and `3.9`
+
+## Developers
+
+To run the tests:
+
+install first [poetry]() and run:
+
+```bash
+poetry install
+```
+
+Next run:
+
+```
+poetry run pytest
+```
+
+or:
+
+```bash
+tox
+```
+
+## About
+
+Faouzi Braza
+
