@@ -1,0 +1,15 @@
+genpyi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genpyi/__main__.py,sha256=6AFrn-MDD9AHhU91v4a9EWuAyxwhxh8mjvIOpVBwkSQ,65
+genpyi/_compat.py,sha256=oGBKiPV98esoBBNaxU6IGc6VA32ivLWT2F7Ec-4dMMo,906
+genpyi/_typing.py,sha256=wiI63BES5NtZvR3iNHWBvm7hZWu2Pk3aiRzxbXbo4ow,162
+genpyi/cli.py,sha256=RQg1I8fz9db6_wp4rTIS8MhgB7zbxvcyiHUD4L1CuZo,5548
+genpyi/converter.py,sha256=WHjw8UpJ7sx-ZybcxyB6FOuxAM7k76ZIN6e-oq87lt0,6459
+genpyi/generator.py,sha256=nsvSf9ZT3Ju9VgjjRv59ljcThGPs2eLMQado6YNQZOk,5386
+genpyi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genpyi/stub_element.py,sha256=4_7jkStYqeTD2C_Exzy3et-CB5xo2mEYFH1v1aaJAcU,6613
+genpyi-0.1.0.dist-info/LICENSE,sha256=mOKXYr8BIXLQPQppGkcc-6fRvXaz4Tn39lw_-IB5tBg,10774
+genpyi-0.1.0.dist-info/METADATA,sha256=X1wFTKUuzffbvVulxMB1xrvNvH_dNzacF4gKCxiUKcs,4352
+genpyi-0.1.0.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+genpyi-0.1.0.dist-info/entry_points.txt,sha256=k9nvsC45dho2Mb-HNyOSZnfKBP5ASGKjTNBtPz1dOGA,43
+genpyi-0.1.0.dist-info/top_level.txt,sha256=ULIEJjBAUcFMBmtsmrNdmQrB2uNsCWL5dx8NGOVeweg,7
+genpyi-0.1.0.dist-info/RECORD,,

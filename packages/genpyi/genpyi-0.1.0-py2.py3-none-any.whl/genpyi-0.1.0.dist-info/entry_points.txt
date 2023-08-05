@@ -1,0 +1,3 @@
+[console_scripts]
+genpyi = genpyi.cli:cli
+
