@@ -1,0 +1,15 @@
+README.md
+setup.py
+chebxroots/__init__.py
+chebxroots/chebcoeffs.py
+chebxroots/chebxroots.py
+chebxroots/clenshaw.py
+chebxroots/convert_to_powers.py
+chebxroots/degree_doubling.py
+chebxroots/plotxroots.py
+chebxroots/prefs.py
+chebxroots.egg-info/PKG-INFO
+chebxroots.egg-info/SOURCES.txt
+chebxroots.egg-info/dependency_links.txt
+chebxroots.egg-info/requires.txt
+chebxroots.egg-info/top_level.txt
