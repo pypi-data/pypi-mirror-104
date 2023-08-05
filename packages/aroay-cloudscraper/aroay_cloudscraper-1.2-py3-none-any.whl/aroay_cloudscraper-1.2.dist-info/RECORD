@@ -1,0 +1,10 @@
+aroay_cloudscraper/__init__.py,sha256=glYMkuOXOk7L45fdoRUX7OY_V8JwJbxP1owykqCAaXY,41
+aroay_cloudscraper/__version__.py,sha256=vCTVq7A7u9Xw6u8eqcO1lOex-OjRojsdvDI7LSiOgac,74
+aroay_cloudscraper/downloadermiddlewares.py,sha256=ba4-CTKQ8ZsX3KkOUiruYrQdHndkKmu8DN57YP5fg6o,9001
+aroay_cloudscraper/request.py,sha256=xfZ1GhYAhGF84UUdDb-BXyyDppUR2Ac3Z6A5Tvaf9Q8,1451
+aroay_cloudscraper/settings.py,sha256=8n4ITnah8wNbOpw_5OBMJ3PHGvMh5AOVDxiq63VdR7Q,211
+aroay_cloudscraper-1.2.dist-info/LICENSE,sha256=n3GvMw9O9d9DHHY08-Ih2UKX6LGs-csUJXUV9KzCQrA,1063
+aroay_cloudscraper-1.2.dist-info/METADATA,sha256=0DNXcPV9s9qdHyjoFIvA0xE1LaoD5FkXVJIZiljTBNo,1203
+aroay_cloudscraper-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aroay_cloudscraper-1.2.dist-info/top_level.txt,sha256=7bwM6O5l5_bZ7trBHqkAqhKlW2cQINxUZEODZRO9zJ8,19
+aroay_cloudscraper-1.2.dist-info/RECORD,,
