@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+didkit/__init__.py
+didkit/libdidkit.so
+didkit/tests.py
+didkit.egg-info/PKG-INFO
+didkit.egg-info/SOURCES.txt
+didkit.egg-info/dependency_links.txt
+didkit.egg-info/top_level.txt
