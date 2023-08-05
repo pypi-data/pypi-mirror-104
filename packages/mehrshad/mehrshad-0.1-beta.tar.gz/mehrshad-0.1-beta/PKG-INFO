@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: mehrshad
+Version: 0.1-beta
+Summary: a python package that make your code easier!
+Home-page: https://github.com/mehrshaad/mehrshad-pypi
+Author: Mehrshad Dadashzadeh
+Author-email: mehrdadashzadeh1379@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/mehrshaad/mehrshad-pypi/archive/refs/tags/v0.1-beta.tar.gz
+Description: UNKNOWN
+Keywords: json,excel,pygame,mehrshad
+Platform: UNKNOWN
