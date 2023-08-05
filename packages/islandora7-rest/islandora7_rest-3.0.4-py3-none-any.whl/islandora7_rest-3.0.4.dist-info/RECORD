@@ -1,0 +1,10 @@
+islandora7_rest/IslandoraClient.py,sha256=jFZOtlbZy1yiEg71IKiuw8iGW7e5prd8tUurvw140r0,15025
+islandora7_rest/__init__.py,sha256=vYV2Q1g8e7THKgaHngoMZ7q_jkusriccgkVkDcOvY60,121
+islandora7_rest/config.py,sha256=iaguCA6AHYRcd1qe2nsG6stuMGg31IFGDZHPbximK7I,682
+islandora7_rest/ku/IslandoraClientKU.py,sha256=XhV8um7tZc0aMlhbRCd1GvwvPQKu4S_rsqDtuv-8Cu4,1343
+islandora7_rest/ku/__init__.py,sha256=IANRQRnK_ek-1kc6xT1GQbANc6UmKWXhTi1hsmzV5rU,49
+islandora7_rest-3.0.4.dist-info/LICENSE.txt,sha256=YVhZm9OfyMckvhIggfdjvhSt5zqiJZZveYb73NVVFc0,1469
+islandora7_rest-3.0.4.dist-info/METADATA,sha256=esHE-fX23_njj-pt1WRvEq9nrWhzwktoR3ulifmtg9w,1857
+islandora7_rest-3.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+islandora7_rest-3.0.4.dist-info/top_level.txt,sha256=APUVg27IITtf5yc-MvWv3vUSeiBOU5E1j4nnMVo5hQM,16
+islandora7_rest-3.0.4.dist-info/RECORD,,
