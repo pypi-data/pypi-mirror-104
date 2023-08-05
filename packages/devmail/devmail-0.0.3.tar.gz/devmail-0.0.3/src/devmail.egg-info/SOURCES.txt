@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/devmail/__init__.py
+src/devmail/_devmail.py
+src/devmail.egg-info/PKG-INFO
+src/devmail.egg-info/SOURCES.txt
+src/devmail.egg-info/dependency_links.txt
+src/devmail.egg-info/requires.txt
+src/devmail.egg-info/top_level.txt
