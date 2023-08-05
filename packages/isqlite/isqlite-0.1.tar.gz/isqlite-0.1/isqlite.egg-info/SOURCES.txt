@@ -1,0 +1,10 @@
+README.md
+setup.py
+isqlite/__init__.py
+isqlite/_core.py
+isqlite/columns.py
+isqlite/query.py
+isqlite.egg-info/PKG-INFO
+isqlite.egg-info/SOURCES.txt
+isqlite.egg-info/dependency_links.txt
+isqlite.egg-info/top_level.txt
