@@ -1,0 +1,196 @@
+This is TeX, Version 3.14159265 (TeX Live 2019/Debian) (preloaded format=tex 2020.5.29)  24 JUN 2020 17:05
+**tmpCJIWsu
+(./tmpCJIWsu.tex)
+*\scrollmode
+
+
+*\raiseerror%
+! Undefined control sequence.
+<*> \raiseerror
+               %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+*\def\PyX{P\kern-.3em\lower.5ex\hbox{Y}\kern-.18em X}%
+
+*\gdef\PyXBoxHAlign{0}%
+
+*\newbox\PyXBox%
+\PyXBox=\box16
+
+*\newbox\PyXBoxHAligned%
+\PyXBoxHAligned=\box17
+
+*\newdimen\PyXDimenHAlignLT%
+\PyXDimenHAlignLT=\dimen16
+
+*\newdimen\PyXDimenHAlignRT%
+\PyXDimenHAlignRT=\dimen17
+
+*\gdef\PyXFlushHAlign{0}%
+
+*\def\PyXragged{%
+
+*\leftskip=0pt plus \PyXFlushHAlign fil%
+
+*\rightskip=0pt plus 1fil%
+
+*\advance\rightskip0pt plus -\PyXFlushHAlign fil%
+
+*\parfillskip=0pt%
+
+*\pretolerance=9999%
+
+*\tolerance=9999%
+
+*\parindent=0pt%
+
+*\hyphenpenalty=9999%
+
+*\exhyphenpenalty=9999}%
+
+*\newbox\PyXBoxVBox%
+\PyXBoxVBox=\box18
+
+*\newdimen\PyXDimenVBox%
+\PyXDimenVBox=\dimen18
+
+*\newbox\PyXBoxVAlign%
+\PyXBoxVAlign=\box19
+
+*\newdimen\PyXDimenVAlign%
+\PyXDimenVAlign=\dimen19
+
+*\newdimen\PyXDimenVShift%
+\PyXDimenVShift=\dimen20
+
+*\long\def\ProcessPyXBox#1#2{%
+
+*\setbox\PyXBox=\hbox{{#1}}%
+
+*\PyXDimenHAlignLT=\PyXBoxHAlign\wd\PyXBox%
+
+*\PyXDimenHAlignRT=\wd\PyXBox%
+
+*\advance\PyXDimenHAlignRT by -\PyXDimenHAlignLT%
+
+*\gdef\PyXBoxHAlign{0}%
+
+*\immediate\write16{PyXBox:page=#2,lt=\the\PyXDimenHAlignLT,rt=\the\PyXDimenHAl
+ignRT,ht=\the\ht\PyXBox,dp=\the\dp\PyXBox:}%
+
+*\setbox\PyXBoxHAligned=\hbox{\kern-\PyXDimenHAlignLT\box\PyXBox}%
+
+*\ht\PyXBoxHAligned0pt%
+
+*{\count0=80\count1=121\count2=88\count3=#2\shipout\box\PyXBoxHAligned}}%
+
+*\def\PyXInput#1{\immediate\write16{PyXInputMarker:executeid=#1:}}%
+
+*\def\PyXMarker#1{\hskip0pt\special{PyX:marker #1}}%%
+
+*\PyXInput{1}%
+PyXInputMarker:executeid=1:
+
+*% This automatically generated file is part of PyX (http://pyx.sourceforge.net
+/).
+
+*% \latexstylename="10pt"
+
+*% \latexclassname="article"
+
+*% \latexclassopt="10pt"
+
+*% \latexinit=""
+
+*\def\tiny{\font\pyxfont=cmr5\pyxfont\font\pyxfonttfa=cmr5\textfont0=\pyxfonttf
+a\font\pyxfontsfa=cmr5\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr5\scriptscri
+ptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi5\textfont1=\pyxfonttfb\font\pyxfontsf
+b=cmmi5\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi5\scriptscriptfont1=\pyxfo
+ntssfb\font\pyxfonttfc=cmsy5\textfont2=\pyxfonttfc\font\pyxfontsfc=cmsy5\script
+font2=\pyxfontsfc\font\pyxfontssfc=cmsy5\scriptscriptfont2=\pyxfontssfc\font\py
+xfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scriptfont3=\pyxfo
+ntsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\scriptsize{\font\pyxfont=cmr7\pyxfont\font\pyxfonttfa=cmr7\textfont0=\pyx
+fonttfa\font\pyxfontsfa=cmr5\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr5\scri
+ptscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi7\textfont1=\pyxfonttfb\font\pyx
+fontsfb=cmmi5\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi5\scriptscriptfont1=
+\pyxfontssfb\font\pyxfonttfc=cmsy7\textfont2=\pyxfonttfc\font\pyxfontsfc=cmsy5\
+scriptfont2=\pyxfontsfc\font\pyxfontssfc=cmsy5\scriptscriptfont2=\pyxfontssfc\f
+ont\pyxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scriptfont3=
+\pyxfontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\footnotesize{\font\pyxfont=cmr8\pyxfont\font\pyxfonttfa=cmr8\textfont0=\p
+yxfonttfa\font\pyxfontsfa=cmr6\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr5\sc
+riptscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi8\textfont1=\pyxfonttfb\font\p
+yxfontsfb=cmmi6\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi5\scriptscriptfont
+1=\pyxfontssfb\font\pyxfonttfc=cmsy8\textfont2=\pyxfonttfc\font\pyxfontsfc=cmsy
+6\scriptfont2=\pyxfontsfc\font\pyxfontssfc=cmsy5\scriptscriptfont2=\pyxfontssfc
+\font\pyxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scriptfont
+3=\pyxfontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\small{\font\pyxfont=cmr9\pyxfont\font\pyxfonttfa=cmr9\textfont0=\pyxfontt
+fa\font\pyxfontsfa=cmr6\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr5\scriptscr
+iptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi9\textfont1=\pyxfonttfb\font\pyxfonts
+fb=cmmi6\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi5\scriptscriptfont1=\pyxf
+ontssfb\font\pyxfonttfc=cmsy9\textfont2=\pyxfonttfc\font\pyxfontsfc=cmsy6\scrip
+tfont2=\pyxfontsfc\font\pyxfontssfc=cmsy5\scriptscriptfont2=\pyxfontssfc\font\p
+yxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scriptfont3=\pyxf
+ontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\normalsize{\font\pyxfont=cmr10\pyxfont\font\pyxfonttfa=cmr10\textfont0=\p
+yxfonttfa\font\pyxfontsfa=cmr7\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr5\sc
+riptscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi10\textfont1=\pyxfonttfb\font\
+pyxfontsfb=cmmi7\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi5\scriptscriptfon
+t1=\pyxfontssfb\font\pyxfonttfc=cmsy10\textfont2=\pyxfonttfc\font\pyxfontsfc=cm
+sy7\scriptfont2=\pyxfontsfc\font\pyxfontssfc=cmsy5\scriptscriptfont2=\pyxfontss
+fc\font\pyxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scriptfo
+nt3=\pyxfontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\large{\font\pyxfont=cmr12\pyxfont\font\pyxfonttfa=cmr12\textfont0=\pyxfon
+ttfa\font\pyxfontsfa=cmr8\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr6\scripts
+criptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi12\textfont1=\pyxfonttfb\font\pyxfo
+ntsfb=cmmi8\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi6\scriptscriptfont1=\p
+yxfontssfb\font\pyxfonttfc=cmsy10 at 12.0pt\textfont2=\pyxfonttfc\font\pyxfonts
+fc=cmsy8\scriptfont2=\pyxfontsfc\font\pyxfontssfc=cmsy6\scriptscriptfont2=\pyxf
+ontssfc\font\pyxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scr
+iptfont3=\pyxfontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\Large{\font\pyxfont=cmr12 at 14.4pt\pyxfont\font\pyxfonttfa=cmr12 at 14.4
+pt\textfont0=\pyxfonttfa\font\pyxfontsfa=cmr10\scriptfont0=\pyxfontsfa\font\pyx
+fontssfa=cmr7\scriptscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi12 at 14.4pt\t
+extfont1=\pyxfonttfb\font\pyxfontsfb=cmmi10\scriptfont1=\pyxfontsfb\font\pyxfon
+tssfb=cmmi7\scriptscriptfont1=\pyxfontssfb\font\pyxfonttfc=cmsy10 at 14.4pt\tex
+tfont2=\pyxfonttfc\font\pyxfontsfc=cmsy10\scriptfont2=\pyxfontsfc\font\pyxfonts
+sfc=cmsy7\scriptscriptfont2=\pyxfontssfc\font\pyxfonttfd=cmex10\textfont3=\pyxf
+onttfd\font\pyxfontsfd=cmex10\scriptfont3=\pyxfontsfd\font\pyxfontssfd=cmex10\s
+criptscriptfont3=\pyxfontssfd}
+
+*\def\LARGE{\font\pyxfont=cmr17\pyxfont\font\pyxfonttfa=cmr17\textfont0=\pyxfon
+ttfa\font\pyxfontsfa=cmr12\scriptfont0=\pyxfontsfa\font\pyxfontssfa=cmr10\scrip
+tscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi12 at 17.28pt\textfont1=\pyxfontt
+fb\font\pyxfontsfb=cmmi12\scriptfont1=\pyxfontsfb\font\pyxfontssfb=cmmi10\scrip
+tscriptfont1=\pyxfontssfb\font\pyxfonttfc=cmsy10 at 17.28pt\textfont2=\pyxfontt
+fc\font\pyxfontsfc=cmsy10 at 12.0pt\scriptfont2=\pyxfontsfc\font\pyxfontssfc=cm
+sy10\scriptscriptfont2=\pyxfontssfc\font\pyxfonttfd=cmex10\textfont3=\pyxfonttf
+d\font\pyxfontsfd=cmex10\scriptfont3=\pyxfontsfd\font\pyxfontssfd=cmex10\script
+scriptfont3=\pyxfontssfd}
+
+*\def\huge{\font\pyxfont=cmr17 at 20.74pt\pyxfont\font\pyxfonttfa=cmr17 at 20.7
+4pt\textfont0=\pyxfonttfa\font\pyxfontsfa=cmr12 at 14.4pt\scriptfont0=\pyxfonts
+fa\font\pyxfontssfa=cmr12\scriptscriptfont0=\pyxfontssfa\font\pyxfonttfb=cmmi12
+ at 20.74pt\textfont1=\pyxfonttfb\font\pyxfontsfb=cmmi12 at 14.4pt\scriptfont1=
+\pyxfontsfb\font\pyxfontssfb=cmmi12\scriptscriptfont1=\pyxfontssfb\font\pyxfont
+tfc=cmsy10 at 20.74pt\textfont2=\pyxfonttfc\font\pyxfontsfc=cmsy10 at 14.4pt\sc
+riptfont2=\pyxfontsfc\font\pyxfontssfc=cmsy10 at 12.0pt\scriptscriptfont2=\pyxf
+ontssfc\font\pyxfonttfd=cmex10\textfont3=\pyxfonttfd\font\pyxfontsfd=cmex10\scr
+iptfont3=\pyxfontsfd\font\pyxfontssfd=cmex10\scriptscriptfont3=\pyxfontssfd}
+
+*\def\Huge{\font\pyxfont=cmr17 at 24.88pt\pyxfont\font\pyxfonttfa=cmr17 at 24.8
+8pt\textfont0=\pyxfonttfa\font\pyxfontsfa=cmr17 at 20.74pt\scriptfont0=\pyxfont
+sfa\font\pyxfontssfa=cmr17\scriptsc
