@@ -1,0 +1,4 @@
+requests>=1.6
+setuptools-git-versioning
+websocket-client==0.57.0
+elytica-pysher==1.0.7
