@@ -1,0 +1,13 @@
+Change Log
+
+===============
+
+
+0.0.4
+-------------
+-  will install tensorflow and keras for you
+
+0.0.5
+---------------
+- you can use your version of tensorflow and keras which you have
+
