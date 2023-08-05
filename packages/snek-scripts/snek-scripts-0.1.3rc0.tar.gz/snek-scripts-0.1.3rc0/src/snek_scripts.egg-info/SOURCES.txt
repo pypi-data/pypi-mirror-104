@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/snek_scripts/__init__.py
+src/snek_scripts/cryptography.py
+src/snek_scripts/encoder.py
+src/snek_scripts/fracarith.py
+src/snek_scripts/misc.py
+src/snek_scripts/strlist.py
+src/snek_scripts.egg-info/PKG-INFO
+src/snek_scripts.egg-info/SOURCES.txt
+src/snek_scripts.egg-info/dependency_links.txt
+src/snek_scripts.egg-info/top_level.txt
