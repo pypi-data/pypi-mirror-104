@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: incipyt
+Version: 0.0.1
+Summary: Incipyt is a command-line tool that bootstraps a python project.
+Author-email: Not at Name <julien@drlazor.be>
+Maintainer-email: Not at Name <julien@drlazor.be>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Requires-Dist: click
+Requires-Dist: build ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: flake8!=3.9.1 ; extra == "dev"
+Requires-Dist: flakehell ; extra == "dev"
+Requires-Dist: flake8-bandit ; extra == "dev"
+Requires-Dist: flake8-bugbear ; extra == "dev"
+Requires-Dist: flake8-builtins ; extra == "dev"
+Requires-Dist: flake8-comprehensions ; extra == "dev"
+Requires-Dist: flake8-docstrings ; extra == "dev"
+Requires-Dist: flake8-simplify ; extra == "dev"
+Requires-Dist: flake8-use-fstring ; extra == "dev"
+Requires-Dist: pep8-naming ; extra == "dev"
+Requires-Dist: m2r ; extra == "doc"
+Requires-Dist: sphinxcontrib-apidoc ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: pytest-coverage ; extra == "test"
+Requires-Dist: pytest-html ; extra == "test"
+Project-URL: documentation, https://github.com/NotANameServer/incipyt/wiki
+Project-URL: homepage, https://pypi.org/incipyt
+Project-URL: repository, https://github.com/NotANameServer/incipyt
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# pip-init
+cargo-new like tool for python
+
