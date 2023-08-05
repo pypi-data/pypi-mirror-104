@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: difoss-pyutil
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: https://github.com/difosschan/difoss-pyutil
+Author: DifossChan
+License: Apache License Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0

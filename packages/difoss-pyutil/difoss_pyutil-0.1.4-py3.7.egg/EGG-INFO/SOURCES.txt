@@ -1,0 +1,15 @@
+setup.py
+difoss_pyutil/__init__.py
+difoss_pyutil/__main__.py
+difoss_pyutil/dir_util.py
+difoss_pyutil/file_recorder.py
+difoss_pyutil/git.py
+difoss_pyutil/go_mod.py
+difoss_pyutil/log.py
+difoss_pyutil/util.py
+difoss_pyutil.egg-info/PKG-INFO
+difoss_pyutil.egg-info/SOURCES.txt
+difoss_pyutil.egg-info/dependency_links.txt
+difoss_pyutil.egg-info/entry_points.txt
+difoss_pyutil.egg-info/requires.txt
+difoss_pyutil.egg-info/top_level.txt

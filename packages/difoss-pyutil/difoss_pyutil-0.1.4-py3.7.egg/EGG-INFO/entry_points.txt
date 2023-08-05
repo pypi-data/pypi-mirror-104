@@ -1,0 +1,3 @@
+[console_scripts]
+df.cmd = difoss_pyutil.__main__:main
+
