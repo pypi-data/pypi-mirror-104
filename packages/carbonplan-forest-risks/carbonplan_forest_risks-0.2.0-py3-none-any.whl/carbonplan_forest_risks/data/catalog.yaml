@@ -1,0 +1,99 @@
+plugins:
+  source:
+    - module: intake_xarray
+
+sources:
+  biomass:
+    metadata:
+      title: Modeled biomass
+      summary: Model results of biomass from historical and future climate simulations.
+      description: |
+        We developed a statistical model relating forest stand age to biomass, in order
+        to project future biomass under assumptions of historical growth trends. The results
+        exist for the historical period as well as three future scenarios of the 21st century,
+        each representing means of a six-member GCM ensemble.
+      tags: [forests]
+      type: application/zarr
+      license: Creative Commons Attribution 4.0 International
+      providers:
+        - name: CarbonPlan
+          description: |
+            CarbonPlan is a registered non-profit public benefit corporation working on
+            the science and data of carbon removal.
+          url: https://carbonplan.org
+    driver: zarr
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-forests/risks/results/web/biomass.zarr'
+      consolidated: True
+
+  insects:
+    metadata:
+      title: Modeled insect effect
+      summary: Model results of insect effect.
+      description: |
+        We fit a statistical model predicting insect-driven mortality as a function of climatic variables.
+        Given the large prevalence of zeros in our mortality data, we modeled mortality using a “hurdle”
+        model that jointly predicts the probability of a non-zero value and, if a non-zero value is
+        present, its value (Cragg, 1971). The results exist for the historical period. *Note: the results
+        are a work in progress and we expect them to change.
+      tags: [forests]
+      type: application/zarr
+      license: Creative Commons Attribution 4.0 International
+      providers:
+        - name: CarbonPlan
+          description: |
+            CarbonPlan is a registered non-profit public benefit corporation working on
+            the science and data of carbon removal.
+          url: https://carbonplan.org
+    driver: zarr
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-forests/risks/results/web/insects.zarr'
+      consolidated: True
+
+  drought:
+    metadata:
+      title: Modeled drought effect
+      summary: Model results of drought effect.
+      description: |
+        We fit a statistical model predicting drought-driven mortality as a function of climatic variables.
+        Given the large prevalence of zeros in our mortality data, we modeled mortality using a “hurdle”
+        model that jointly predicts the probability of a non-zero value and, if a non-zero value is
+        present, its value (Cragg, 1971). The results exist for the historical period. *Note: the results
+        are a work in progress and we expect them to change.
+      tags: [forests]
+      type: application/zarr
+      license: Creative Commons Attribution 4.0 International
+      providers:
+        - name: CarbonPlan
+          description: |
+            CarbonPlan is a registered non-profit public benefit corporation working on
+            the science and data of carbon removal.
+          url: https://carbonplan.org
+    driver: zarr
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-forests/risks/results/web/drought.zarr'
+      consolidated: True
+
+  fire:
+    metadata:
+      title: Modeled fire risk
+      summary: Model results of fire risk from historical and future climate simulations.
+      description: |
+        We developed a statistical model relating the probability of very large fires to climatic
+        variables. Our work is inspired by and builds on that of Barbero et al. (2014). Many of
+        the methods are similar, though updated with more recent data (through 2018 rather than
+        2010). The results exist for the historical period as well as three future scenarios of the
+        21st century, each representing means of a six-member GCM ensemble.
+      tags: [forests]
+      type: application/zarr
+      license: Creative Commons Attribution 4.0 International
+      providers:
+        - name: CarbonPlan
+          description: |
+            CarbonPlan is a registered non-profit public benefit corporation working on
+            the science and data of carbon removal.
+          url: https://carbonplan.org
+    driver: zarr
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-forests/risks/results/web/fire.zarr'
+      consolidated: True
