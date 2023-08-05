@@ -1,0 +1,5 @@
+ymw16.cpython-39-darwin.so
+pygedm/density.cpython-36m-darwin.so
+pygedm/density.cpython-39-darwin.so
+pygedm/dmdsm.cpython-36m-darwin.so
+pygedm/dmdsm.cpython-39-darwin.so
