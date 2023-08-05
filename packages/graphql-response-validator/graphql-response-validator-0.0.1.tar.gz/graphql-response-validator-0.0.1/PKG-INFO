@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: graphql-response-validator
+Version: 0.0.1
+Summary: A tool for validating GraphQL responses against their respective queries
+Home-page: https://github.com/schemathesis/graphql-response-validator
+License: MIT
+Keywords: graphql,validation,testing
+Author: Dmitry Dygalo
+Author-email: dadygalo@gmail.com
+Maintainer: Dmitry Dygalo
+Maintainer-email: dadygalo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Testing
+Project-URL: Documentation, https://graphql-response-validator.readthedocs.io/en/stable/
+Project-URL: Repository, https://github.com/schemathesis/graphql-response-validator
+Description-Content-Type: text/x-rst
+
+graphql-response-validator
+==========================
+
+|Build| |Coverage| |Version| |Python versions| |License|
+
+A tool for validating GraphQL responses against their respective queries.
+
+This package is work-in-progress.
+
+.. |Build| image:: https://github.com/schemathesis/graphql-response-validator/workflows/build/badge.svg
+   :target: https://github.com/schemathesis/graphql-response-validator/actions
+.. |Coverage| image:: https://codecov.io/gh/schemathesis/graphql-response-validator/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/schemathesis/graphql-response-validator/branch/main
+   :alt: codecov.io status for main branch
+.. |Version| image:: https://img.shields.io/pypi/v/graphql-response-validator.svg
+   :target: https://pypi.org/project/graphql-response-validator/
+.. |Python versions| image:: https://img.shields.io/pypi/pyversions/graphql-response-validator.svg
+   :target: https://pypi.org/project/graphql-response-validator/
+.. |License| image:: https://img.shields.io/pypi/l/graphql-response-validator.svg
+   :target: https://opensource.org/licenses/MIT
+
