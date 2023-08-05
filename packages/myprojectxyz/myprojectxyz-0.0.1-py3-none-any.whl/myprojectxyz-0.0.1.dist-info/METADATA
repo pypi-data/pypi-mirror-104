@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: myprojectxyz
+Version: 0.0.1
+Summary: My fabulous new project
+Home-page: http://bla.blubb.de
+Author: Matthias Baer
+Author-email: matthias.r.baer@googlemail.com
+License: MIT
+Platform: ALL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx
+
+# myproject
+
+My fabulous new project
+
+## Usage
+
+TODO
+
+## Installation
+
+TODO
+
+## Development
+
+```
+pip install -e .
+```
+
+### Running test suite
+
+```
+python -m unittest discover tests
+```
+
+
