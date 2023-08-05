@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+scripts/docker-wrap
+src/docker_wrap/__init__.py
+src/docker_wrap.egg-info/PKG-INFO
+src/docker_wrap.egg-info/SOURCES.txt
+src/docker_wrap.egg-info/dependency_links.txt
+src/docker_wrap.egg-info/top_level.txt
