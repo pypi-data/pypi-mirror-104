@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nitropay-sponsor-python
+Version: 0.0.1
+Summary: NitroPay Sponsor Python SDK
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyJWT
+Requires-Dist: requests
+
+UNKNOWN
+
+
