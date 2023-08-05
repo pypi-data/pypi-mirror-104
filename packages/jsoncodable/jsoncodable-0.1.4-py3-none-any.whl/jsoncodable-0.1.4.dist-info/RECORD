@@ -1,0 +1,10 @@
+jsoncodable/__init__.py,sha256=YwabLKoG_9weOb6zWVP9ztQlaQ1SNiTlLt6I0zngxCU,76
+jsoncodable/_compressor.py,sha256=sboZDXLeuTcQOQD_w1OhL9g7HJ8zldBH20ERi_xHRAY,1860
+jsoncodable/jsoncodable.py,sha256=ALZ-b1q-4ZUIco65OBJkIdnY-qSz7O85M6KOGgcjxes,6154
+jsoncodable/enums/__init__.py,sha256=gAKg94qMpt5GPZ-AHmYoLGv5C3qKFXBc-F5Hb9rzGQI,55
+jsoncodable/enums/compression_algorithm.py,sha256=AvH7LZXAsjrEtz8TykcS9oJro2MNEmoHwBPhC4vrXyE,2211
+jsoncodable-0.1.4.dist-info/LICENSE,sha256=fpoAq-19W9yDhw5HO22d8KHmAoEx15dfgl5x2ImqAHQ,1080
+jsoncodable-0.1.4.dist-info/METADATA,sha256=KpxTkNNVgqSYl_DISJdmnEtN-xDN3M8qO9XZUkEIBpQ,3396
+jsoncodable-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jsoncodable-0.1.4.dist-info/top_level.txt,sha256=lxph4tN7SsBm0qKmPMow1kI1SSX_u7OLzVEnnDiI_Gk,12
+jsoncodable-0.1.4.dist-info/RECORD,,
