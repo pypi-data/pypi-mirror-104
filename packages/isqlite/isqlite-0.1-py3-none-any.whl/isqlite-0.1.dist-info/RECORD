@@ -1,0 +1,8 @@
+isqlite/__init__.py,sha256=wllbR7RH8A6wy-46TaxilQndxdJwilUSIxd78ZgK7tE,771
+isqlite/_core.py,sha256=KTGWg-zSlh5zPTweBLZihCMR-ofyChGXnRheXsJLYUY,10106
+isqlite/columns.py,sha256=DjxyGjeMtS3Lsz_mPdx_7LTXIBJcPMtawlASYy__EHU,2772
+isqlite/query.py,sha256=4USeSbjQs9NaXvMSFONGRUvSF0qImwXRQP7yjbhJ514,2314
+isqlite-0.1.dist-info/METADATA,sha256=t03xVDhc6OoiCxUwTH-ANAUg4Zc9ad4gJnvuVBhmc9k,3242
+isqlite-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+isqlite-0.1.dist-info/top_level.txt,sha256=jANTZAWGi_bgDxi0jBhJX8HY8Ju78G7ulE0tZa40F2I,8
+isqlite-0.1.dist-info/RECORD,,
