@@ -1,0 +1,279 @@
+## GitLab CI configuration.
+
+stages:
+  - build
+  - test
+  - docs
+  - deploy
+
+###############
+# Build stage #
+###############
+
+.template/build/manylinux: &template-build-manylinux
+  stage: build
+  image: quay.io/pypa/manylinux2014_x86_64
+  script:
+    - yum install -y suitesparse-devel
+    - ${PYBIN}/pip install -r requirements-build.txt
+    - ${PYBIN}/pip wheel . --no-deps -w wheelhouse
+    - auditwheel repair wheelhouse/*.whl
+  artifacts:
+    paths:
+      - wheelhouse
+
+# Various Linux flavours on Python 3.8.
+build/manylinux/3.8:
+  <<: *template-build-manylinux
+  needs: []
+  variables:
+    PYBIN: /opt/python/cp38-cp38/bin
+
+# Various Linux flavours on Python 3.9.
+build/manylinux/3.9:
+  <<: *template-build-manylinux
+  needs: []
+  variables:
+    PYBIN: /opt/python/cp39-cp39/bin
+
+# Mac OSX Sierra on Python 3.8 (shell executor).
+# build/macosx/3.8:
+#   stage: build
+#   tags:
+#     - macos_sierra
+#   allow_failure: true  # Only while Mac builds are being tested...
+#   script:
+#     - curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
+#     - bash miniconda.sh -b -p .miniconda
+#     - source .miniconda/bin/activate
+#     # Replace Python requirement in conda environment file.
+#     # OSX weirdness with sed: https://stackoverflow.com/a/19457213/2251982
+#     - sed -i '' -e 's/python >= 3.8/python == 3.8/g' environment.yml
+#     - conda env create -f environment.yml -p .finesse-env
+#     - conda activate ./.finesse-env
+#     - python --version
+#     - pip install delocate
+#     - pip install -r requirements-build.txt
+#     - pip wheel . --no-deps -w wheelhouse
+#     - delocate-wheel -v wheelhouse/*.whl
+#   artifacts:
+#     paths:
+#       - wheelhouse
+
+# Mac OSX Sierra on Python 3.9 (shell executor).
+# build/macosx/3.9:
+#   stage: build
+#   tags:
+#     - macos_sierra
+#   allow_failure: true  # Only while Mac builds are being tested...
+#   script:
+#     - curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
+#     - bash miniconda.sh -b -p .miniconda
+#     - source .miniconda/bin/activate
+#     # Replace Python requirement in conda environment file.
+#     # OSX weirdness with sed: https://stackoverflow.com/a/19457213/2251982
+#     - sed -i '' -e 's/python >= 3.8/python == 3.9/g' environment.yml
+#     - conda env create -f environment.yml -p .finesse-env
+#     - conda activate ./.finesse-env
+#     - python --version
+#     - pip install delocate
+#     - pip install -r requirements-build.txt
+#     - pip wheel . --no-deps -w wheelhouse
+#     - delocate-wheel -v wheelhouse/*.whl
+#   artifacts:
+#     paths:
+#       - wheelhouse
+
+# Check the project builds with conda on Linux (currently no tests get run).
+build/linux/conda:
+  stage: build
+  image: igwn/base:conda
+  script:
+    - apt update
+    - apt install -y build-essential
+    # Create the environment using the definition file and store it locally so we can
+    # pass it to other jobs.
+    - conda env create -f environment.yml -p .finesse-env
+    - source activate ./.finesse-env  # Needs to be "source", not "conda".
+    - python --version
+    - pip install .
+    # Simply check it can be imported.
+    - python -c "import finesse"
+
+# A build with special flags set on Cython extensions to enable debugging.
+build/debug:
+  stage: build
+  image: python:3.9
+  needs: []
+  script:
+    - apt update
+    - apt install -y libsuitesparse-dev
+    - pip3 install -r requirements-build.txt
+    # Install editable mode so in-place pyx files are picked up by coverage.
+    - pip3 install -e .
+    # Build Cython extensions with coverage support.
+    - python3 setup.py --coverage build_ext --force --inplace
+    # Make a platform-specific wheel.
+    - python3 setup.py bdist_wheel -d wheelhouse
+  artifacts:
+    paths:
+      - wheelhouse
+
+##############
+# Test stage #
+##############
+
+test/debian/3.8:
+  stage: test
+  needs:
+    - build/manylinux/3.8
+  image: python:3.8
+  script:
+    - pip3 install -r requirements-test.txt
+    - pip3 install wheelhouse/finesse-*-cp38-cp38-manylinux2014_x86_64.whl
+    - pytest tests
+
+test/debian/3.9:
+  stage: test
+  needs:
+    - build/manylinux/3.9
+  image: python:3.9
+  script:
+    - pip3 install -r requirements-test.txt
+    - pip3 install wheelhouse/finesse-*-cp39-cp39-manylinux2014_x86_64.whl
+    - pytest tests
+
+# test/macosx/3.8:
+#   stage: test
+#   tags:
+#     - macos_sierra
+#   needs:
+#     - build/macosx/3.8
+#   allow_failure: true  # Only while Mac builds are being tested...
+#   script:
+#     - curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
+#     - bash miniconda.sh -b -p .miniconda
+#     - source .miniconda/bin/activate
+#     - conda create -p .finesse-env python=3.8
+#     - conda activate ./.finesse-env
+#     - python --version
+#     - pip install -r requirements-test.txt
+#     - pip install wheelhouse/finesse-*-cp38-cp38-macosx_10_9_x86_64.whl
+#     - pytest tests
+
+# test/macosx/3.9:
+#   stage: test
+#   tags:
+#     - macos_sierra
+#   needs:
+#     - build/macosx/3.9
+#   allow_failure: true  # Only while Mac builds are being tested...
+#   script:
+#     - curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o miniconda.sh
+#     - bash miniconda.sh -b -p .miniconda
+#     - source .miniconda/bin/activate
+#     - conda create -p .finesse-env python=3.9
+#     - conda activate ./.finesse-env
+#     - python --version
+#     - pip install -r requirements-test.txt
+#     - pip install wheelhouse/finesse-*-cp39-cp39-macosx_10_9_x86_64.whl
+#     - pytest tests
+
+# Test coverage report generation. The report is used to show coverage details in merge
+# request diff views. See
+# https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html.
+test/coverage:
+  stage: test
+  needs:
+    - build/debug
+  image: python:3.9
+  script:
+    # Dependencies for the wheel provided by the debug build.
+    - apt update
+    - apt install -y libsuitesparse-dev
+    # Dependencies for running the tests.
+    - pip3 install -r requirements-test.txt
+    - pip3 install wheelhouse/finesse-*.whl
+    # Run all tests and generate Cobertura XML formatted coverage report.
+    - pytest --cov=finesse --cov-config=setup.cfg --cov-report=xml tests
+    # Generate human readable coverage report.
+    - pycobertura show coverage.xml  # Necessary so the GitLab CI regex picks up the total.
+  coverage: '/^TOTAL\s+.*\s+(\d+\.?\d*)%/'  # Regex to allow GitLab to extract and display coverage.
+  artifacts:
+    reports:
+      # Displays coverage in MR diffs.
+      cobertura: coverage.xml
+
+##############
+# Docs stage #
+##############
+
+docs/html:
+  stage: docs
+  needs:
+    - build/manylinux/3.9
+  image: python:3.9
+  script:
+    - pip install -r requirements-doc.txt
+    # Sphinx autodoc needs to be able to import finesse and finesse_sphinx.
+    - pip install wheelhouse/finesse-*-cp39-cp39-manylinux2014_x86_64.whl
+    - cd docs
+    # Build HTML docs in single process mode. Can go back to "make html" when the
+    # EOFError is fixed in Sphinx. See #270.
+    - make htmlsingleproc
+    - cd ..
+  # Temporary, see #270
+  after_script:
+    - mkdir sphinxlogs
+    - mv /tmp/sphinx-*.log sphinxlogs
+  artifacts:
+    when: always
+    paths:
+      - docs/build/html
+      - sphinxlogs  # Temporary, see #270
+
+# This is allowed to fail because we don't want to force people to fix random LaTeX
+# issues that appear from time to time (we can periodically fix them all at once
+# instead, probably before a release).
+# Also see: #234.
+docs/pdf:
+  stage: docs
+  needs:
+    - build/manylinux/3.9
+  image: sphinxdoc/sphinx-latexpdf
+  allow_failure: true
+  script:
+    - apt update
+    # NOTE: can remove `xindy` once Sphinx is updated beyond 3.5.1 (see https://github.com/sphinx-doc/sphinx/issues/8941).
+    - apt install -y texlive-latex-base librsvg2-bin xindy
+    - pip install -r requirements-doc.txt
+    # Sphinx autodoc needs to be able to import finesse and finesse_sphinx.
+    - pip install wheelhouse/finesse-*-cp39-cp39-manylinux2014_x86_64.whl
+    - cd docs
+    - make latexpdf
+    - cd ..
+  artifacts:
+    paths:
+      - docs/build/latex/Finesse3.*
+
+################
+# Deploy stage #
+################
+
+# Publish the documentation only for changes to master, and only when all tests pass.
+#
+# Useful reading:
+#   https://git.ligo.org/lscsoft/example-ci-project/wikis/automatically-produce-documentation
+#   https://wiki.ligo.org/viewauth/DASWG/GitLigoOrg#Accessing_GitLab_Pages
+pages:
+  stage: deploy
+  needs:
+    - job: docs/html
+  only:
+    refs:
+      - master
+  script:
+    - mv docs/build/html public
+  artifacts:
+    paths:
+      - public

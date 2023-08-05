@@ -1,0 +1,14 @@
+channels:
+- default
+- conda
+dependencies:
+  - python >= 3.8
+  - make
+  - suitesparse
+  - numpy >= 1.11.0
+  - scipy >= 1.4.0
+  - matplotlib >= 3.0.0
+  - pip
+  - pip:
+    # Can run arbitrary pip commands here; see e.g. https://stackoverflow.com/a/59056234/2251982.
+    - -r requirements-dev.txt

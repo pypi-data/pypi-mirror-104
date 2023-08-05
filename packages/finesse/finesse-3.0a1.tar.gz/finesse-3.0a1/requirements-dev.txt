@@ -1,0 +1,20 @@
+### NOTE See https://finesse.readthedocs.io/en/latest/developer/codeguide/requirements.html
+
+# Core
+-r requirements.txt
+
+# Build
+-r requirements-build.txt
+
+# Tests
+-r requirements-test.txt
+
+# Docs
+-r requirements-doc.txt
+
+# Extras
+black == 19.10b0
+pre-commit
+pylint == 2.7.0
+flake8 == 3.8.4
+flake8-bugbear == 20.11.1

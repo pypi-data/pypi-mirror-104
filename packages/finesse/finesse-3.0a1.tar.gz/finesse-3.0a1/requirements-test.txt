@@ -1,0 +1,9 @@
+# Requirements for running tests
+### NOTE See https://finesse.readthedocs.io/en/latest/developer/codeguide/requirements.html
+
+pytest >= 5.4.1
+pytest-cov >= 2.10.1
+coverage == 4.5.4  # Can't use latest version due to Cython bug: https://github.com/cython/cython/issues/3515
+pycobertura >= 2.0.0
+Faker == 4.0.2
+hypothesis == 5.10.1

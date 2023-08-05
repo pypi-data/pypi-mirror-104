@@ -1,0 +1,6 @@
+### NOTE See https://finesse.readthedocs.io/en/latest/developer/codeguide/requirements.html
+
+# Core
+-r requirements.txt
+
+cython == 0.29.22

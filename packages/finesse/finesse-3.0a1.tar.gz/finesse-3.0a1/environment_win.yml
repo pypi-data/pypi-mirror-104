@@ -1,0 +1,14 @@
+channels:
+- default
+- conda
+- msys2
+dependencies:
+  - m2w64-gcc
+  - m2w64-suitesparse
+  - libpython
+  - numpy >= 1.11.0
+  - scipy >= 1.4.0
+  - matplotlib >= 3.0.0
+  - pip
+  - pip:
+    - -r requirements-dev.txt

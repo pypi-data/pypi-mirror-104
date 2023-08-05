@@ -1,0 +1,12 @@
+# Requirements for building documentation
+### NOTE See https://finesse.readthedocs.io/en/latest/developer/codeguide/requirements.html
+
+sphinx == 3.5.4
+sphinx_rtd_theme == 0.5.2
+sphinxcontrib-bibtex < 2.0.0  # Can't use v2 due to bug; see setup.py requirements for more info.
+sphinxcontrib-katex == 0.6.1
+sphinxcontrib-svg2pdfconverter >= 1.0.0
+sphinxcontrib-programoutput == 0.17
+jupyter-sphinx == 0.3.2
+numpydoc == 1.1.0
+reslate >= 0.54.0
