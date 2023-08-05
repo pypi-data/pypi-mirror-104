@@ -1,0 +1,8 @@
+# OTHER
+**/*.py[cod]
+**/*.so
+**/*.egg
+**/*.egg-info
+**/*.code-workspace
+**/*.bak
+**/*idea*
