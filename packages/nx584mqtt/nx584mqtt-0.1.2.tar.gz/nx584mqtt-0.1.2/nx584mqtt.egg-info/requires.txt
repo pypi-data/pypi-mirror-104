@@ -1,0 +1,13 @@
+paho-mqtt
+requests
+pyserial
+
+[client]
+prettytable
+
+[full]
+flask
+prettytable
+
+[http]
+flask
