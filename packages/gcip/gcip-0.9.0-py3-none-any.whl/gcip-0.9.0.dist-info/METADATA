@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: gcip
+Version: 0.9.0
+Summary: The Gitlab CI Python Library
+Home-page: https://gitlab.com/dbsystel/gitlab-ci-python-library
+Author: Thomas Steinbach
+Author-email: thomas.t.steinbach@deutschebahn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyaml (~=20.4)
+
+[![pipeline status](https://gitlab.com/dbsystel/gitlab-ci-python-library/badges/main/pipeline.svg)](https://gitlab.com/dbsystel/gitlab-ci-python-library/-/commits/main)
+[![coverage report](https://gitlab.com/dbsystel/gitlab-ci-python-library/badges/main/coverage.svg)](https://gitlab.com/dbsystel/gitlab-ci-python-library/-/commits/main)
+[![Downloads](https://pepy.tech/badge/gcip)](https://pepy.tech/project/gcip)
+
+# gcip - Write your Gitlab CI pipelines in Python
+
+The Gitlab CI Python Library (gcip) is a Library to create dynamic pipelines for Gitlab CI.
+
+[User Documentation](https://dbsystel.gitlab.io/gitlab-ci-python-library/user/index.html) | [API Reference](https://dbsystel.gitlab.io/gitlab-ci-python-library/api/gcip/index.html) | [PyPI](https://pypi.org/project/gcip/) | [Docker Hub](https://hub.docker.com/r/thomass/gcip)
+
+With the gcip and the ease and power of Python you can write Gitlab CI pipelines
+of any complexity in well manageable Python code.
+
+A simple starting pipeline could look like following:
+
+```
+from gcip import Pipeline, Job
+
+pipeline = Pipeline()
+job      = Job(stage="build", script="docker build .")
+
+pipeline.add_children(job)
+pipeline.write_yaml()
+```
+
+For a more complex and real world example, just check out [.gitlab-ci.py](https://gitlab.com/dbsystel/gitlab-ci-python-library/-/blob/main/.gitlab-ci.py). This is the Python Gitlab CI pipeline of this project written with its own library. And second check out the [generated yaml file](https://gitlab.com/dbsystel/gitlab-ci-python-library/-/jobs/artifacts/main/browse?job=generate-pipeline) of the Python code.
+
+The gcip is using the Gitlab feature of [dynamic child pipelines](https://docs.gitlab.com/ee/ci/parent_child_pipelines.html#dynamic-child-pipelines). First the `.gitlab-ci.py` generates the common Gitlab CI yaml file which is then started as child pipeline.
+
+Creating your pipelines in Python code allows you all the features of that language, like:
+
+* re-use code (DRY - Dont Repeat Yourself)
+* use variables, control flow (if-then-else, loops, ...), complex data structures, input/output, error handling, ...
+* programming paradigms like object-oriented or functional programming
+* use 3rd party libraries in your pipelines, like boto3
+* test driven development of Pipelines with pytest
+* package management and distribution of your pipeline code
+* ... anything you can imagine to do with Python code
+
+
+## Documentation
+
+Please read the [User Documentation](https://dbsystel.gitlab.io/gitlab-ci-python-library/user/index.html) to get a quick introduction into most
+features of the gcip.
+
+You can consult the [API Reference](https://dbsystel.gitlab.io/gitlab-ci-python-library/api/gcip/index.html) to get an overview of all classes and methods
+and a deeper view into their parameters.
+
+## Author
+
+gcip was created by [Thomas Steinbach](mailto:thomas.t.steinbach@deutschebahn.com) in 2020.
+
+Thanks to initial contributions from [Daniel von Eßen](mailto:daniel.von-essen@deutschebahn.com)
+
+## Licence
+
+The content of this repository is licensed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+
+Copyright DB Systel GmbH
+
+
