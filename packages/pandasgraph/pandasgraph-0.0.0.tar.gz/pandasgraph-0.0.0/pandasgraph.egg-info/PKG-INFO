@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pandasgraph
+Version: 0.0.0
+Summary: A pandas-based module for fast graph algorithms
+Home-page: https://github.com/pedroramaciotti/pandasgraph
+Author: Julio Laborde, Pedro Ramaciotti Morales
+Author-email: pedro.ramaciotti@gmail.com
+License: OSI Approved :: MIT License
+Download-URL: https://github.com/pedroramaciotti/pandasgraph/archive/0.0.0.tar.gz
+Description: UNKNOWN
+Keywords: pandas,graph algorithms
+Platform: UNKNOWN

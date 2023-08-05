@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pandasgraph/__init__.py
+pandasgraph.egg-info/PKG-INFO
+pandasgraph.egg-info/SOURCES.txt
+pandasgraph.egg-info/dependency_links.txt
+pandasgraph.egg-info/requires.txt
+pandasgraph.egg-info/top_level.txt
