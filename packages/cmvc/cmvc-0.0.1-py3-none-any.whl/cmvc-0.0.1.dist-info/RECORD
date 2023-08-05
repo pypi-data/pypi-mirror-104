@@ -1,0 +1,10 @@
+cmvc/__init__.py,sha256=XBEeKV4cJVsQDI9Qhqk6tI_SSy3Z9c3TCHOScq9zmg0,26
+cmvc/scripts/__init__.py,sha256=QDVjZ4fxL_BgSgraeQ-r53I_XPUh41uXkYiNrp7iEQs,127
+cmvc/scripts/dec.py,sha256=hH9PTYLu3Wua61ErwKquAblS1XIfluUysoJ2oFLr830,4171
+cmvc/scripts/enc.py,sha256=GTQnB02pdiwPNWcKY1TshYg6MrCGcwBsjYkm-xhbE3U,7106
+cmvc/scripts/layer.py,sha256=xKM79FNYf8uu39R2QJM9-imi1mir0UCpgv8v41b06UE,3591
+cmvc/scripts/model.py,sha256=wTMfj_SmN_W3o3Flqz0ZDIocFOwnVPfILcXUw89C23A,561
+cmvc-0.0.1.dist-info/LICENSE,sha256=9bBpDgIex-yAwwvAul77Mrg-lAW33gxzZOp63ccCU3E,1066
+cmvc-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cmvc-0.0.1.dist-info/METADATA,sha256=-0HtpJlQ53IBpgIuFr4vq2osUDPwJ1RZdOrB99StgXE,664
+cmvc-0.0.1.dist-info/RECORD,,

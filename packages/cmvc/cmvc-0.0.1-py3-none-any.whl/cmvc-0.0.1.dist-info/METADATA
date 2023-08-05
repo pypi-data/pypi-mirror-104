@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cmvc
+Version: 0.0.1
+Summary: This is a voice conversion model implemented in PyTorch.
+Home-page: https://github.com/kjun1/CMVC
+Author: kjun1
+Author-email: p.k.maejima1211@icloud.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: torch (>=1.8.1,<2.0.0)
+Project-URL: Repository, https://github.com/kjun1/CMVC
+Description-Content-Type: text/markdown
+
+# CMVC
+論文のモデルを実装しています。
+現在forwardが通ることを確認しています。
+
+https://arxiv.org/abs/1904.04540
+
