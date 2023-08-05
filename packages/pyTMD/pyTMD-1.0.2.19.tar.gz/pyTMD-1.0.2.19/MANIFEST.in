@@ -1,0 +1,8 @@
+graft pyTMD/data
+graft requirements.txt
+prune .github*
+prune doc*
+prune notebooks*
+prune test*
+exclude *.cfg
+exclude *.yml
