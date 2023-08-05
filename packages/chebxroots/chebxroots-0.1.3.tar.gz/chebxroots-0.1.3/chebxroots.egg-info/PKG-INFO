@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: chebxroots
+Version: 0.1.3
+Summary: A package for computing roots of generic smooth functions.
+Home-page: https://gitlab.gwdg.de/annaclara.wendler/scientific-computing-chebychev-roots/
+Author: Anna Clara Wendler, Mira Kristin Juergens, Lars Lammers
+Author-email: lars.lammers@stud.uni-goettingen.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
