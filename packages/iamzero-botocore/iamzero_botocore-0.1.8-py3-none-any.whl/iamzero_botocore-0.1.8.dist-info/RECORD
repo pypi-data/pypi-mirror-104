@@ -1,0 +1,8 @@
+iamzero_botocore/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+iamzero_botocore/config.py,sha256=-4BDrygWQoWaeSY9ldjSUvf7NfQlLyIxUDrwWl-8LUM,2507
+iamzero_botocore/logging.py,sha256=Iegy_dYvYMHyQ1H3tlfo84HAsolyKwhHFCaWomOzJMU,1476
+iamzero_botocore/monitor.py,sha256=pWkJ7wOkoVw4k7F_mKpm-BBU29VLChb7ZAfSiqS9op4,14348
+iamzero_botocore/session.py,sha256=V6KOOlpJ3Ue3IxVd8vq6VBc0jhd4IEZsb2j_5b0NraU,2622
+iamzero_botocore-0.1.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+iamzero_botocore-0.1.8.dist-info/METADATA,sha256=LLeSSEuSFwLNXgXsLVoVhBKNMowewjd9oQMvasCPk-M,612
+iamzero_botocore-0.1.8.dist-info/RECORD,,
