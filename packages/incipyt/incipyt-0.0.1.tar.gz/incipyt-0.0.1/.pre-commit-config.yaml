@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black
+        name: black
+        entry: python -m black
+        language: system
+        types_or: [python, pyi]
+      - id: flakehell
+        name: flakehell
+        entry: python -m flakehell lint
+        language: system
+        types_or: [python, pyi]
+        
