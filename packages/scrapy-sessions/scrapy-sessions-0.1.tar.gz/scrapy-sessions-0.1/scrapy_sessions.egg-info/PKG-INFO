@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scrapy-sessions
+Version: 0.1
+Summary: Session management extension for Scrapy.
+Home-page: https://github.com/ThomasAitken/scrapy-sessions
+Author: Thomas Aitken
+Author-email: tclaitken@gmail.com
+License: UNKNOWN
+Description: # scrapy-sessions
+        A session-management extension for Scrapy.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
