@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: P_CombiningPValuesFinal
+Version: 0.0.1
+Summary: Functions within this module allow for multiple p values
+Home-page: https://github.com/StatsGirl/Master2021
+Author: Breya McGlown
+Author-email: bswlker2@memphis.edu
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# Master2021
+
+Thesis repo contains the Python and R code created by Breya McGlown under the guidance of Dr. Ebenzer George.
+
+Both languages provide the end user the opportunity to utilize six fundamental statistics used for combination of p-values, typically used duing Meta-analyses.
+
+To Use: 
+
+    Python: update readme to include the order of functions to use 
+    
+    R: update readme to include the order of functions to use 
+    
+    
+
