@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: quick-hull
+Version: 0.1.1
+Summary: A python library for the quick hull algorithm and visualization.
+Home-page: https://github.com/ntm0110/quick_hull
+Author: Nathan Martino and Tanvi Thummar
+Author-email: UNKNOWN
+License: MIT license
+Platform: UNKNOWN
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: numpy (==1.20.0)
+Requires-Dist: scipy (==1.6.3)
+
+# A python library for the quick hull algorithm and visualization.
+
+### Authors
+#### - Nathan Martino
+#### - Tanvi Thummar
+
+
