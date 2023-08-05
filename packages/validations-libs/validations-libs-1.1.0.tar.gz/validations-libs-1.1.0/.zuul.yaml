@@ -1,0 +1,67 @@
+- job:
+    name: validations-libs-functional
+    parent: devstack
+    run: playbooks/validations-libs-functional.yaml
+    post-run: playbooks/post.yaml
+    timeout: 7200
+    required-projects:
+      - openstack/validations-libs
+      - openstack/validations-common
+    vars:
+      devstack_localrc:
+        USE_PYTHON3: true
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^releasenotes/.*$
+
+- job:
+    name: tripleo-ci-centos-8-standalone-validation-libs
+    parent: tripleo-ci-centos-8-standalone
+    vars:
+      featureset: '052'
+      validate_services: true
+      enable_validation: true
+      component: validation
+
+- project:
+    templates:
+      - check-requirements
+    check:
+      jobs:
+        - openstack-tox-py36
+        - openstack-tox-linters
+        - openstack-tox-cover
+        - tripleo-ci-centos-8-content-provider:
+            dependencies:
+              - openstack-tox-linters
+              - openstack-tox-cover
+              - validations-libs-functional
+        - tripleo-ci-centos-8-standalone-validation-libs: &standalone_consumer_job_params
+            vars:
+              consumer_job: true
+              build_container_images: false
+              remove_tags:
+                - build
+            dependencies:
+              - tripleo-ci-centos-8-content-provider
+        - openstack-tox-docs: &tripleo-docs
+            files:
+              - ^doc/.*
+              - ^README.rst
+              - ^validations_libs/.*
+        - validations-libs-functional
+    gate:
+      jobs:
+        - openstack-tox-py36
+        - openstack-tox-linters
+        - openstack-tox-docs: *tripleo-docs
+        - validations-libs-functional
+        - tripleo-ci-centos-8-content-provider:
+            dependencies:
+              - openstack-tox-linters
+              - validations-libs-functional
+        - tripleo-ci-centos-8-standalone-validation-libs: *standalone_consumer_job_params
+    promote:
+      jobs:
+        - promote-openstack-tox-docs: *tripleo-docs
