@@ -1,0 +1,6 @@
+graft connector-jupyter
+graft examples
+prune tests
+include version.txt
+include NEWS.md
+exclude check_python_version.sh
