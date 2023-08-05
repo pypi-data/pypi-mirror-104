@@ -1,0 +1,15 @@
+aiousps/__init__.py,sha256=MRp8H6159G6m-_vz3rh8Li3oVtIq8-xjO3r-odQxJS0,94
+aiousps/address.py,sha256=l7iGQ9riEtONjpyPxLtlR5BtaA_xnTurf_ld45HDGrE,3370
+aiousps/constants.py,sha256=YGZP8uepy7BXaRKKgjuvp2Jma1bn_ukqvc_WgvQYXCs,741
+aiousps/helpers.py,sha256=xSObiyFAcwEmUCOeu97iDiXBytMT892P75k-Y6qCjek,1986
+aiousps/usps.py,sha256=MTaJblGF8JIyClManggc4D7bV_6s5UFsIaTmmKko2iY,7702
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/constants.py,sha256=JWIZH37JTLkdLJde_rKn7jYZumj-bLG4bEegidOcIPM,5703
+tests/test_address.py,sha256=I-tuVOQP40C8aaQQnE3pUTrFhLjKNsccyBCHVYOwID0,3406
+tests/test_api.py,sha256=vGTnKxEkDnF0S-2IkLcYY3QCXvcOBlDam2f_kQ-JDy0,3111
+tests/test_helpers.py,sha256=B3oXyd7ZmfPmwNSG8-p4lyYLTm-l3qEcTQwMe8mI_64,2617
+aiousps-0.1.3.dist-info/LICENSE,sha256=GhWhi-wrTUK-9WouAsIvAIJXf8eFy0Hk_BKHwucwrm4,1084
+aiousps-0.1.3.dist-info/METADATA,sha256=wPp9fbJXBzM3tKYEiGPwmwT216WbuICPociZIRA9HVc,4436
+aiousps-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiousps-0.1.3.dist-info/top_level.txt,sha256=x3ygsk9ECNSHfVQTYkQaKp0FueD8QE9ujdwDxMXwTY8,14
+aiousps-0.1.3.dist-info/RECORD,,
