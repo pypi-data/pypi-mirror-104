@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+mt_TextEdit.egg-info/PKG-INFO
+mt_TextEdit.egg-info/SOURCES.txt
+mt_TextEdit.egg-info/dependency_links.txt
+mt_TextEdit.egg-info/requires.txt
+mt_TextEdit.egg-info/top_level.txt
