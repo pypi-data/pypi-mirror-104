@@ -1,0 +1,15 @@
+mrspuff/__init__.py,sha256=OCvvhMG78T8c0663ssM7X9yCdOgIdUmencWynnF_o9s,83
+mrspuff/_nbdev.py,sha256=u1XZTCfQA82s47w_qe4LhOiuDmCw-15Wl9rNBNO7RkI,1270
+mrspuff/card.py,sha256=MZdFUh45FUaFQq2wOR7ZabhfqWyAYU9fZIdXaBjDuUw,1306
+mrspuff/core.py,sha256=JO9_IwnJH_9uHhuXM_LI-Pieq1CHIKElTZFz7c__Ea8,193
+mrspuff/deck.py,sha256=-9gGTzV6Ate4nW3MpXgKxP-wM4zO_qiyb2s6QchXRg4,1699
+mrspuff/nimport.py,sha256=MiA-VTKB31btKnTWKDeZD5KYa2GkK2IvV87J4LFRAb4,4609
+mrspuff/scrape.py,sha256=X9ST2DBgCe_SNaOyNudMzAugqg2O7dFazpYOsNtYSH8,7384
+mrspuff/utils.py,sha256=7lXUhpwvm0-oYjcNMjScPM9Ohu4oHY8FXrsFZXITlzI,1101
+mrspuff/viz.py,sha256=p5cPds2OuLmuLPTOOCTf65PEbUq33JI3hmXXG2NWHN4,18730
+mrspuff-0.0.18.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mrspuff-0.0.18.dist-info/METADATA,sha256=v4exvYNs9RH7Aj1UlRxo6bq3pE58U-xtaMaIGciyk1w,1767
+mrspuff-0.0.18.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mrspuff-0.0.18.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+mrspuff-0.0.18.dist-info/top_level.txt,sha256=Ozy03GUc1UqHF5tXxR_BcWtphQ_4ca-x4DVQzY0037Q,8
+mrspuff-0.0.18.dist-info/RECORD,,
