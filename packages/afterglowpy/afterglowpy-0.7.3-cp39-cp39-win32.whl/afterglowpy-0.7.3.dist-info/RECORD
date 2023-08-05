@@ -1,0 +1,11 @@
+afterglowpy/__init__.py,sha256=zP9kNsDeNbKOV3Vxo4zbueIJ5CKPAqc--aNv2I2Z2cU,2431
+afterglowpy/cocoon.py,sha256=yOiZPqFIPnLB7bMswdKFsLi0wKXsfjVRRIXh-ErRcwM,3194
+afterglowpy/flux.py,sha256=Be5resebe_blUH3fjMI5GVkhfAPcvAY_LuW1ioSQyzo,24112
+afterglowpy/jet.cp39-win32.pyd,sha256=obDmpDazeBwDVNHuY_Kl9fNI95kxzX95r4TPRnTlC64,94208
+afterglowpy/shock.cp39-win32.pyd,sha256=GUuWSgAqWy1n32T-EU0jj0_fNigZyu1i2ns6MzAtvfI,22016
+afterglowpy/version.py,sha256=8ub0kbj4W7IMNChOGW2zlO2X1QlPzU2iIjyYVoZ8gSg,96
+afterglowpy-0.7.3.dist-info/LICENSE.txt,sha256=hidwWXmePzT9bcJ-qrOneSOoGJdYdXSY-w5YXCQM5LE,1091
+afterglowpy-0.7.3.dist-info/METADATA,sha256=jzIjQ1qKsNp10eMUEcT-s12vktqAUmJoiz7bVTEvAJY,5772
+afterglowpy-0.7.3.dist-info/WHEEL,sha256=oz1Y-dEwtUqQxLRjBaFy1chmu8DINNM_NE3ttEIz2rw,96
+afterglowpy-0.7.3.dist-info/top_level.txt,sha256=_r2fy90z9TrG1P60CBLWaw3ckuy5v_l-fjQZ2Q_cT6Y,12
+afterglowpy-0.7.3.dist-info/RECORD,,
