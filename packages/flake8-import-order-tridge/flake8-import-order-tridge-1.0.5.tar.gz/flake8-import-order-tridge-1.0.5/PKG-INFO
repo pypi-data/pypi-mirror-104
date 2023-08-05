@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: flake8-import-order-tridge
+Version: 1.0.5
+Summary: Tridge's import order style for flake8-import-order
+Home-page: UNKNOWN
+Author: seongwoon.jeong
+Author-email: seongwoon.jeong@tridge.com
+Maintainer: Tridge
+Maintainer-email: seongwoon.jeong@tridge.com
+License: GPLv3 or later
+Description: flake8-import-order-tridge
+Platform: UNKNOWN
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
