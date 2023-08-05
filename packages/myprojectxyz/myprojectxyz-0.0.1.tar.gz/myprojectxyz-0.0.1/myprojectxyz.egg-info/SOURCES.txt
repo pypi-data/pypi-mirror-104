@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+myproject/__init__.py
+myproject/main.py
+myprojectxyz.egg-info/PKG-INFO
+myprojectxyz.egg-info/SOURCES.txt
+myprojectxyz.egg-info/dependency_links.txt
+myprojectxyz.egg-info/requires.txt
+myprojectxyz.egg-info/top_level.txt
