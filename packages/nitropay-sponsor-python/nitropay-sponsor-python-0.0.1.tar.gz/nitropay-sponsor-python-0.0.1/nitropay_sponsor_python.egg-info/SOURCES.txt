@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nitropay/__init__.py
+nitropay/sponsor.py
+nitropay_sponsor_python.egg-info/PKG-INFO
+nitropay_sponsor_python.egg-info/SOURCES.txt
+nitropay_sponsor_python.egg-info/dependency_links.txt
+nitropay_sponsor_python.egg-info/requires.txt
+nitropay_sponsor_python.egg-info/top_level.txt
