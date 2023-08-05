@@ -1,0 +1,13 @@
+deepsig/__init__.py,sha256=M2wMN4hkwogN682Ye8Q8ynqgW6xMygMCnC6OSm8rS4Q,19
+deepsig/crf.py,sha256=yn4qi7_euELF8Txcm01ovyQV_EHXSAdkCp6DknFdEko,26388
+deepsig/crfdecoding.py,sha256=TaLyiwP-5xu7Enf21tdrb2OUMyliQUMOTxSfLVfBMok,19052
+deepsig/deepsig.py,sha256=bAgAkMqWS8g0STkAqEQNtEBJMnbVlCAYBT0oJlg3n70,3323
+deepsig/deepsigconfig.py,sha256=Zot7bDIC170mZrgpvLmKhjAn-G7V4qZ-lzu8pPx89NU,2522
+deepsig/helpers.py,sha256=t7uvYGzHomD4Zk92XrPXqFBsvIkFiYAaB67qjtErx2U,9664
+deepsig/workenv.py,sha256=CX1obcx4U-K8YDcB3KsRzohyZW7BU7i6taBq3nfzjuU,894
+deepsig_biocomp-0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+deepsig_biocomp-0.9.dist-info/METADATA,sha256=l_dE5bwHXt2ZINMLKKTcR1_MSddgg-OT0IZX_akBfTc,2648
+deepsig_biocomp-0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deepsig_biocomp-0.9.dist-info/entry_points.txt,sha256=tHYiuwmIHQt3irew8wns35xXxG726swQS9gCPBuua0Q,50
+deepsig_biocomp-0.9.dist-info/top_level.txt,sha256=Tsn1BJQfbOKIIQ3r3-pP9GTRowGJ9cFQQye9yIOhKLE,8
+deepsig_biocomp-0.9.dist-info/RECORD,,
