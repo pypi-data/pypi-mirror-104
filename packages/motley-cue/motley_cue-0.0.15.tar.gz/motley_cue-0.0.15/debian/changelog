@@ -1,0 +1,18 @@
+motley-cue (0.0.15-1) UNRELEASED; urgency=medium
+
+  [ Marcus Hardt ]
+  * Initial go for packageing
+  * Packaging for Debian Buster and Bullseye, Ubuntu Bionic and Focal, and CentOS 8
+  * reload nginx config on install
+  * Add support for CentOS 7
+  * Add example for pooled accounts in config
+  
+  [ Diana Gudu ]
+  * New version number
+  * Install config files in /etc
+  * Add nginx proxy for gunicorn
+  * Changed default port in nginx to 8080
+  * Bug fixes
+  * Add latest feudalAdapter version (chage fix)
+
+ -- Diana Gudu <diana.gudu@kit.edu>  Thu, 29 Apr 2021 14:46:44 +0200
