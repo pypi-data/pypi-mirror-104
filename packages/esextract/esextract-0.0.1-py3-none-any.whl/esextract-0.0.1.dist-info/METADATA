@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: esextract
+Version: 0.0.1
+Summary: Makes extracting queries from elasticseach a little bit easier.
+Home-page: UNKNOWN
+Author: Jamie Hutchings
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: elasticsearch
+Requires-Dist: pandas
+Requires-Dist: argparse
+Requires-Dist: pyarrow
+
+UNKNOWN
+
+
