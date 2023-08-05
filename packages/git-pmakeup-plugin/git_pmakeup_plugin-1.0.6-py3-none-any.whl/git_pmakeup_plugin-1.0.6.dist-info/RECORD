@@ -1,0 +1,10 @@
+git_package_plugin/CommitEntry.py,sha256=FILUfla6qaL_7tySNj3cPuh8gnwa3hvFPqNwVlSCA7E,678
+git_package_plugin/GitPMakeupPlugin.py,sha256=eQdNUsEW1aclIBoRAeoyO4oIfxcuZz2NaI0wh-YwNW4,10164
+git_package_plugin/__init__.py,sha256=AOfo7P-E_S4_1cSCB8pyIkvl8xksWgwy613lfxBttm0,64
+git_package_plugin/version.py,sha256=iziVscD5UZqCDrSYEiPWESG6czHDdpdvBJ0bRVMWwbo,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=hr615_UNg9ZPZLrQ-C_JNVYt7BQbnbGoC99ty4gFxZ8,2617
+git_pmakeup_plugin-1.0.6.dist-info/METADATA,sha256=ADru1VDApJpdgeiF2rLO7isdV1UbAqE8jXGX7CClzA8,632
+git_pmakeup_plugin-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+git_pmakeup_plugin-1.0.6.dist-info/top_level.txt,sha256=7V9Ckf4jfH7OHF-oj2S9ayIveCRaCuFx1yTPxf-vfv8,19
+git_pmakeup_plugin-1.0.6.dist-info/RECORD,,
