@@ -1,0 +1,47 @@
+# Reluble
+
+A thin PyTorch wrapper which performs static and dynamic analysis of the computational graph to
+prevent latent errors.
+
+## Install
+
+```bash 
+pip install reluble
+```
+
+## Tests
+
+Install the testing dependencies:
+* [pytest](https://docs.pytest.org/), e.g. with `pip install pytest`.
+* [torchvision](https://pytorch.org/), e.g. with `pip install torchvision`. This is probably
+  installed alongside torch.
+  
+Clone the repository and change into the root:
+
+```bash
+git clone git@github.com:arcadelab/reluble.git
+cd reluble
+```
+  
+To run all the tests, simply run `pytest`. It is recommended to disable capturing, e.g. with:
+
+``` sh
+pytest -s
+```
+
+These tests can take a long time, particularly if you are running on CPU. It is recommended to run
+on GPU. Some of the tests will produce output files in `./outputs/`.
+
+To show corruptions working for a good net, run:
+
+```sh
+pytest -s tests/test_training.py::TestCorruptions::test_good_Net
+```
+
+And for a bad net:
+
+``` sh
+pytest -s tests/test_training.py::TestCorruptions::test_bad_Net
+```
+In this case, the `LearningError` is the desired behavior.
+
