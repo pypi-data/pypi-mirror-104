@@ -1,0 +1,4 @@
+
+        [flake8_import_order.styles]
+        tridge = flake8_import_order_tridge:Tridge
+    
