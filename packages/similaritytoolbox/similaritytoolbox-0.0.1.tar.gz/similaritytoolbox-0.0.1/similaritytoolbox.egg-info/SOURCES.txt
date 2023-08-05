@@ -1,0 +1,11 @@
+README.md
+setup.py
+similaritytoolbox/__about__.py
+similaritytoolbox/__init__.py
+similaritytoolbox/toolbox.py
+similaritytoolbox.egg-info/PKG-INFO
+similaritytoolbox.egg-info/SOURCES.txt
+similaritytoolbox.egg-info/dependency_links.txt
+similaritytoolbox.egg-info/not-zip-safe
+similaritytoolbox.egg-info/requires.txt
+similaritytoolbox.egg-info/top_level.txt
