@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: PyLabEHPY
+Version: 0.3
+Summary: Pacote para interagir com o PyLab do EHPY
+Home-page: https://github.com/ualvesdias/PyLabEHPY
+Author: Ulisses Alves
+Author-email: ulisses.alves@protonmail.com
+License: MIT
+Download-URL: https://github.com/ualvesdias/PyLabEHPY/archive/refs/tags/0.3.tar.gz
+Description: UNKNOWN
+Keywords: PyLabEHPY
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
