@@ -1,0 +1,71 @@
+{% load static from staticfiles %}
+{% load removehyphens %}
+<script type="text/javascript">
+    var widget_id = "{{ widget.attrs.id }}";
+    var {{ widget.attrs.id|remove_hyphens }}_url = "{{ widget.query_url }}";
+    var {{ widget.attrs.id|remove_hyphens }}_selected_values = [{% for choice in widget.selected %}"{{ choice.0 }}", {% endfor %}];
+</script>
+
+<div class="{{ widget.name }}-fsm">
+    <div class="fsm">
+
+        <div class="fsm-choices">
+            <h2>Available {{ widget.verbose_name }}
+                <img src="{% static 'admin/img/icon-unknown.svg' %}" width="10" height="10" class="help help-tooltip" title="This is the list of available {{ widget.verbose_name }}. You may choose some by selecting them in the box below and then clicking the &quot;Choose&quot; arrow between the two boxes.">
+                <span class="fsm-count" id="{{ widget.attrs.id|remove_hyphens }}_choices_count"> {{ widget.choices_count }}</span>
+            </h2>
+            <p id="{{ widget.attrs.id|remove_hyphens }}_filter" class="fsm-filter">
+                <label for="{{ widget.attrs.id|remove_hyphens }}_input">
+                    <img src="{% static 'admin/img/search.svg' %}" class="help-tooltip" alt="" title="Type into this box to filter down the list of available {{ widget.verbose_name }}.">
+                </label>
+                <input type="text" placeholder="Filter" id="{{ widget.attrs.id|remove_hyphens }}_input" onkeyup='(function(){fsm_filter("{{ widget.attrs.id|remove_hyphens }}_input");})()'>
+            </p>
+
+            <select multiple="multiple" class="fsm-filtered" id="{{ widget.attrs.id|remove_hyphens }}_from" name="{{ widget.name }}_old" {{ widget.final_attrs|safe }}>
+                {% for choice in widget.choices %}
+                <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+                {% endfor %}
+            </select>
+
+            <a title="Click to choose all {{ widget.verbose_name }} at once." href='javascript: (function(){ fsm_move_all("{{ widget.attrs.id|remove_hyphens }}_from", "{{ widget.attrs.id|remove_hyphens }}_to", "{{ widget.attrs.id|remove_hyphens }}");})()' id="{{ widget.attrs.id|remove_hyphens }}_add_all_link" class="fsm-chooseall">Choose all</a>
+        </div>{# fsm-choices #}
+
+
+        <ul class="fsm-selector">
+            <li>
+                <a title="Choose" href='javascript: (function(){fsm_move("{{ widget.attrs.id|remove_hyphens }}_from", "{{ widget.attrs.id|remove_hyphens }}_to", "{{ widget.attrs.id|remove_hyphens }}");})()' id="{{ widget.attrs.id|remove_hyphens }}_add_link" class="fsm-add">Choose</a>
+            </li>
+            <li>
+                <a title="Remove" href='javascript: (function(){fsm_move("{{ widget.attrs.id|remove_hyphens }}_to", "{{ widget.attrs.id|remove_hyphens }}_from", "{{ widget.attrs.id|remove_hyphens }}");})()' id="{{ widget.attrs.id|remove_hyphens }}_remove_link" class="fsm-remove">Remove</a>
+            </li>
+        </ul>
+
+        <div class="fsm-selected">
+            <h2>Chosen {{ widget.verbose_name }}
+                <img src="{% static 'admin/img/icon-unknown.svg' %}" width="10" height="10" class="help help-tooltip" title="This is the list of chosen {{ widget.verbose_name }}. You may remove some by selecting them in the box below and then clicking the &quot;Remove&quot; arrow between the two boxes.">
+                <span class="fsm-count" id="{{ widget.attrs.id|remove_hyphens }}_selected_count"> {{ widget.selected_count }}</span>
+            </h2>
+            <select id="{{ widget.attrs.id|remove_hyphens }}_to" multiple="multiple" class="fsm-filtered">
+                {% for choice in widget.selected %}
+                <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+                {% endfor %}
+            </select>
+            <a title="Click to remove all chosen {{ widget.verbose_name }} at once." href='javascript: (function() { fsm_move_all("{{ widget.attrs.id|remove_hyphens }}_to", "{{ widget.attrs.id|remove_hyphens }}_from", "{{ widget.attrs.id|remove_hyphens }}");})()' id="{{ widget.attrs.id|remove_hyphens }}_remove_all_link" class="fsm-clearall">Remove all</a>
+        </div>{# fsm-selected #}
+
+        <div class="fsm-submit">
+            <select id="{{ widget.attrs.id|remove_hyphens }}_submit" multiple="multiple" name="{{ widget.name }}" class="fsm-filtered">
+                {% for choice in widget.selected %}
+                <option value="{{ choice.0 }}" selected="selected">{{ choice.1 }}</option>
+                {% endfor %}
+            </select>
+        </div>{# fsm-submit #}
+
+    </div>{# fsm #}
+</div>{# fsm {{ widget.name }}-filtered-select #}
+
+{% if use_async %}
+<script>
+    fsm_filter("{{ widget.attrs.id|remove_hyphens }}_input");
+</script>
+{% endif %}
