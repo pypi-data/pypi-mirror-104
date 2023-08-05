@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: flake8-import-order-tridge
+Version: 1.0.3
+Summary: Tridge's import order style for flake8-import-order
+Home-page: https://github.com/OdysseyJ/flake8-import-order-spoqa
+Author: seongwoon.jeong
+Author-email: seongwoon.jeong@tridge.com
+Maintainer: Tridge
+Maintainer-email: seongwoon.jeong@tridge.com
+License: GPLv3 or later
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Requires-Dist: flake8-import-order (<0.19,>=0.18)
+
+flake8-import-order-tridge
+
+
