@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: torchvae
+Version: 0.1.0
+Summary: A simple implementation of a variational autoencoder for PyTorch
+License: MIT
+Author: Santiago SILVA
+Author-email: 16252054+sssilvar@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytorch-lightning (>=1.2.10,<2.0.0)
+Requires-Dist: torch (>=1.8.1,<2.0.0)
