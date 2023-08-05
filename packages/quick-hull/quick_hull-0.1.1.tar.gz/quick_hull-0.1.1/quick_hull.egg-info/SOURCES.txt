@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+quick_hull/__init__.py
+quick_hull/quick_hull.py
+quick_hull/utils.py
+quick_hull.egg-info/PKG-INFO
+quick_hull.egg-info/SOURCES.txt
+quick_hull.egg-info/dependency_links.txt
+quick_hull.egg-info/requires.txt
+quick_hull.egg-info/top_level.txt
