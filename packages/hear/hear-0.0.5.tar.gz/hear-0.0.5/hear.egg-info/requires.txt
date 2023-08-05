@@ -1,0 +1,5 @@
+py2store
+numpy
+soundfile
+pandas
+hum
