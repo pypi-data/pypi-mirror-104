@@ -1,0 +1,12 @@
+mlflow_pyfunc_server/__init__.py,sha256=1Xj69pZMXEz4STpeb2NsTPtIB47BvEq7p417m1c5nYU,187
+mlflow_pyfunc_server/basehandler.py,sha256=IaZu9bTeQsS_TUz5hE_rFJSdsSU-dCHJ0577d7Qt9Gs,7012
+mlflow_pyfunc_server/cli.py,sha256=SigpxTzUFPZcVBl5y1RcyibRrz-HoWBGnJJwqhX44o8,385
+mlflow_pyfunc_server/config.py,sha256=9gzjwWoKKkNwtmur8A3XI9SJPf_D162nWp765RLUcew,1594
+mlflow_pyfunc_server/server.py,sha256=6FQy13G7_oZVnUgeMBVGC7scGKaI1YdWjahR4sle3Lw,8086
+mlflow_pyfunc_server/serverapp.py,sha256=1p6HtKzNALxTkprJ0BGliCja_W4FSoKZa722cAqP9d4,62
+mlflow_pyfunc_server-0.1.2.dist-info/LICENCE,sha256=5yM4mgKhscGj2cLweTLn9ckQXEkJtuB5gbiuxaxeLiI,1070
+mlflow_pyfunc_server-0.1.2.dist-info/METADATA,sha256=HU_FyXZ_gbjeyEEhXAeklq1VxWSvPcGCXcKltu5NVGI,1185
+mlflow_pyfunc_server-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlflow_pyfunc_server-0.1.2.dist-info/entry_points.txt,sha256=LYZHy6vEy2oGuEbrbfaAVbiGppaov6lSLCOIptqaDTk,89
+mlflow_pyfunc_server-0.1.2.dist-info/top_level.txt,sha256=Uaw3p0zgiqVHjpNcUGPAHKxGFDgYXN02rrnU_-MmNLE,21
+mlflow_pyfunc_server-0.1.2.dist-info/RECORD,,
