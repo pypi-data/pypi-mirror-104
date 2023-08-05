@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+alexachatbot/__init__.py
+alexachatbot/alexaAI.py
+alexachatbot.egg-info/PKG-INFO
+alexachatbot.egg-info/SOURCES.txt
+alexachatbot.egg-info/dependency_links.txt
+alexachatbot.egg-info/requires.txt
+alexachatbot.egg-info/top_level.txt
