@@ -1,0 +1,11 @@
+holdingsparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+holdingsparser/__main__.py,sha256=G63dMG1kTSk9bPyI-zmGKbNQHrq5ICFZy_1szPg5nqc,655
+holdingsparser/application.py,sha256=iDcbkWHS4b9G5yU0XYVxABe68kacvlPXUx8bLS65Vgc,1391
+holdingsparser/scrape.py,sha256=cMmAToFN1XPzvy6ZquloGFJTXITzVjec0ZmTew4iTQ4,3874
+holdingsparser/sec.py,sha256=dDrGMbzJrgjU0sfgh24BnMt_qN9CQSCFQd0aB8v9aWI,962
+xslfiles/13F-HR.xsl,sha256=gRRTkLRm5kJZ-t90FEsEHAOWrEMHWJ2YFmSoipZ5COI,1579
+holdingsparser-0.1.0a9.dist-info/entry_points.txt,sha256=MLUCxG2ugEv6C1440uoMLqjtvK1YLy2msESY40JAQF8,63
+holdingsparser-0.1.0a9.dist-info/LICENSE,sha256=JCYWoTTos7O6HNMxScZKI5y97bfn8ZBREWSqYrKRI-g,1076
+holdingsparser-0.1.0a9.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+holdingsparser-0.1.0a9.dist-info/METADATA,sha256=Kg_s3QmkSJKVI12aT9g_CGz4ABdVPTj0Eg7ExxwMeGA,2577
+holdingsparser-0.1.0a9.dist-info/RECORD,,
