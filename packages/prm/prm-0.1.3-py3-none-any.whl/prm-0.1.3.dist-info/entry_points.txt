@@ -1,0 +1,3 @@
+[console_scripts]
+prm=prm.prm:main
+
