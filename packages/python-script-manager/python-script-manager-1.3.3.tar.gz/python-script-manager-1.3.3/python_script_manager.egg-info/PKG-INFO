@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: python-script-manager
+Version: 1.3.3
+Summary: Manage and develop your Python apps easily.
+Home-page: https://github.com/YunisDEV/python-script-manager#readme
+Author: YunisDEV
+Author-email: yunisdev.04@gmail.com
+License: UNKNOWN
+Description: [![Documentation Status](https://readthedocs.org/projects/python-script-manager/badge/?version=latest)](https://python-script-manager.readthedocs.io/en/latest/?badge=latest)
+        
+        # <img src="https://raw.githubusercontent.com/YunisDEV/python-script-manager/master/assets/psm.svg"/> Welcome to PSM
+        
+        ## What is PSM?
+        **PSM** is a tool that helps you to manage and develop your Python apps easily.
+        
+        ## Learn more about PSM
+        
+        Full documentation is available at readthedocs:
+        [python-script-manager.readthedocs.io](https://python-script-manager.readthedocs.io)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
