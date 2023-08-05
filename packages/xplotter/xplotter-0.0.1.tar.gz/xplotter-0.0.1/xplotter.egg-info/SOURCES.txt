@@ -1,0 +1,7 @@
+README.md
+setup.py
+xplotter.egg-info/PKG-INFO
+xplotter.egg-info/SOURCES.txt
+xplotter.egg-info/dependency_links.txt
+xplotter.egg-info/not-zip-safe
+xplotter.egg-info/top_level.txt
