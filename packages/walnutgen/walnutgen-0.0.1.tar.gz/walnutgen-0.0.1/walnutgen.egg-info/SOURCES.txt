@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+walnutgen/__init__.py
+walnutgen/__main__.py
+walnutgen/function.py
+walnutgen/generator.py
+walnutgen.egg-info/PKG-INFO
+walnutgen.egg-info/SOURCES.txt
+walnutgen.egg-info/dependency_links.txt
+walnutgen.egg-info/top_level.txt
