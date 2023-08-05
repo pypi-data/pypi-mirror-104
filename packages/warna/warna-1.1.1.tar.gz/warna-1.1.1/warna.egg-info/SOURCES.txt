@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/__init__.py
+src/warna.py
+warna.egg-info/PKG-INFO
+warna.egg-info/SOURCES.txt
+warna.egg-info/dependency_links.txt
+warna.egg-info/top_level.txt
