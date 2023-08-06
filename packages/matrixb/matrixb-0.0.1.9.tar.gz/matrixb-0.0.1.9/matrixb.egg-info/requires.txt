@@ -1,0 +1,15 @@
+openpyxl
+pydatacleaner
+python-dateutil
+xlrd
+xlwt
+
+[dataframe]
+pandas
+
+[source.googlesheet]
+pygoogleapps
+
+[source.ods]
+pyexcel
+pyexcel-ods3
