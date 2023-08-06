@@ -1,0 +1,2 @@
+httpie>=2.4.0
+atlassian-jwt-auth>=10.1.0
