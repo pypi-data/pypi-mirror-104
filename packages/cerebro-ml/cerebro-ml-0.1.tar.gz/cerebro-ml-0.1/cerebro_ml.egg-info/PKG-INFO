@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cerebro-ml
+Version: 0.1
+Summary: Deep Learning library extended from Google Tensorflow which focus on flexible prototyping features
+Home-page: https://github.com/hieupth/cerebro
+Author: Hieu Tr. Pham
+Author-email: hieupt.ai@gmail.com
+License: GPLv3
+Download-URL: https://github.com/hieupth/cerebro/archive/v_01.tar.gz
+Description: # Cerebro
+        Deep Learning library extended from Google Tensorflow which focus on enabling flexible prototyping features.
+        ## Installation
+        ```python
+        $ pip install cerebro-ml
+        ```
+        It is recommended to use with tensorflow-gpu because of heavy computation of deep neuron networks. <br>
+        ## Maintainers
+        * [Hieu Tr. Pham](https://github.com/hieupth) (author)
+        ## License
+        [GNU General Public License v3.0](https://github.com/hieupth/cerebro/blob/main/LICENSE) <br>
+        Copyright (c) 2021, [Hieu Tr. Pham](https://github.com/hieupth). All rights reserved.
+Keywords: machine learning,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
