@@ -1,0 +1,10 @@
+setup.py
+histpy/__init__.py
+histpy/axes.py
+histpy/axis.py
+histpy/histogram.py
+histpy.egg-info/PKG-INFO
+histpy.egg-info/SOURCES.txt
+histpy.egg-info/dependency_links.txt
+histpy.egg-info/requires.txt
+histpy.egg-info/top_level.txt
