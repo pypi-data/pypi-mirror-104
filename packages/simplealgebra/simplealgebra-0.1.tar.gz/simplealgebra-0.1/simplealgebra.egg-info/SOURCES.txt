@@ -1,0 +1,9 @@
+setup.py
+simplealgebra/Algebra.py
+simplealgebra/__init__.py
+simplealgebra/python_code.py
+simplealgebra.egg-info/PKG-INFO
+simplealgebra.egg-info/SOURCES.txt
+simplealgebra.egg-info/dependency_links.txt
+simplealgebra.egg-info/not-zip-safe
+simplealgebra.egg-info/top_level.txt
