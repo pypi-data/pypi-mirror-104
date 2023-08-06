@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: hipar
+Version: 0.1.0
+Summary: Hierarchical Pattern-aided Regression
+Home-page: https://gitlab.inria.fr/lgalarra/hipar
+Maintainer: Luis Galárraga
+Maintainer-email: luis.galarraga@inria.fr
+License: BSD 3-Clause
+Download-URL: https://gitlab.inria.fr/lgalarra/hipar
+Keywords: regression,pattern mining
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: scipy (>=1.5.4)
+Requires-Dist: scikit-learn (>=0.23)
+Requires-Dist: mdlp-discretization (>=0.3.3)
+Requires-Dist: ortools (>=8.1)
+Requires-Dist: sortedcontainers (>=2.3.0)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+<a href="https://www.inria.fr/en" rel="some text">![Powered by Inria](https://img.shields.io/badge/powered%20by-INRIA-orange.svg?style=flat&colorA=384257&colorB=E23324)</a>
+
+# HIPAR (Hierarchical Interpretable Pattern-aided Regression)
+
+HIPAR is a pattern-based method for regression on tabular data. Given a dataset, HIPAR outputs a set of hybrid rules of the form p => y = f(X) that predict a target variable y. Here, p is a conjunctive pattern that characterizes a region of the dataset (e.g., property-type='house' and surface > 50), and f(X) is a linear function on the numerical features of the dataset.
+
+## How to use HIPAR
+
+HIPAR's code is still in alpha status, nevertheless the code can be used without major issues.
+
+```python
+from hipar import HIPAR
+from data import get_simple_housing
+
+hipar = HIPAR(min_support=2, interclass_variance_percentile_threshold=0)
+X, y = get_simple_housing()
+hipar.fit(X, y)
+## Get all rules found during the enumeration phase
+print(hipar.all_rules)
+## Get the rules selected by HiPaR (used for prediction)
+print(hipar.get_selected_rules())
+X_test = ...
+print(hipar.predict(X_test))
+
+```
+
+## Experimental Results
+
+The first implementation of HiPaR including all the experimental evaluation and data is available [here](https://gitlab.inria.fr/opelgrin/hipar).  
+
+## Roadmap
+
+### Diferences with the published version
+- Interclass variance threshold is calculated over the entire set of refinement conditions and not on the set of discretized refinement conditions
+- We do not check if a new rule is better **than all** its parents, but only better than the generating parent. This just sents more rules to the selection phase, but makes the code simpler (I am not confident of the previous implementation of this feature).
+
+### Improvements w.r.t. the published version
+- Support for multiple metrics in the enumeration phase. A new rule will be compared against its parent on all the metrics provided as input in the constructor
+
+### Roadmap
+- Make a Python installable package [Urgent]
+- Consider other quality criteria to prune during the enumeration such as the p-values of the linear coefficients.
+- If we need to compare against all the HIPAR-based hybrid methods published in the paper, we will have to reimplement them.
+- Consider alternative discretization approaches for the numerical variables in the conditions.
+
+## Publications
+
+- Luis Galárraga, Olivier Pelgrin, Alexandre Termier. HiPaR: Hierarchical Pattern-aided Regression. Full paper at the Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2021), Delhi. [[Technical Report]](https://www.dropbox.com/s/acemakadmnnyop9/hipar-technical-report.pdf?dl=0)
+
+
