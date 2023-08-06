@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+catsart/__init__.py
+catsart/__main__.py
+catsart.egg-info/PKG-INFO
+catsart.egg-info/SOURCES.txt
+catsart.egg-info/dependency_links.txt
+catsart.egg-info/entry_points.txt
+catsart.egg-info/top_level.txt
+catsart/database/__init__.py
+catsart/database/asciione.json
+catsart/database/asciitwo.json

@@ -1,0 +1,3 @@
+[console_scripts]
+catsart = catsart.__main__:main
+
