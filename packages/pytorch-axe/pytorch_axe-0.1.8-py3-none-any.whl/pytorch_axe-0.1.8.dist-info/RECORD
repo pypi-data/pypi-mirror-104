@@ -1,0 +1,7 @@
+pytorch_axe/__init__.py,sha256=OWBccKpOKQy3OyItDD7JqD46D92e3ayH3ydl-mTrtbU,162
+pytorch_axe/layers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytorch_axe/monitor.py,sha256=UZLpMseBYv7KRZvtWUc3Yqff0oulhlfKfeFZ70SngR0,4903
+pytorch_axe/training.py,sha256=3xhPU0ZtvMIlR-zPbv2RPU7BlcmAOQaJudHFOyS5lPI,3873
+pytorch_axe-0.1.8.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pytorch_axe-0.1.8.dist-info/METADATA,sha256=Rvkz-nk3LKWo50G9mtRDbQuueUclLu6sIl9vph2WY2Q,524
+pytorch_axe-0.1.8.dist-info/RECORD,,
