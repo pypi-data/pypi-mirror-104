@@ -1,0 +1,7 @@
+test_pypi_haha/__init__.py,sha256=ynEuqA7SNs9XbUVSDJ1PQc1SWWwzQAEfz8-UEW033zQ,54
+test_pypi_haha/__main__.py,sha256=o13LAP29lDE1Br5mgMa230Q5xQ1JgGE8Mm5pJusLXQY,14
+test_pypi_haha/test_main_pypi.py,sha256=tfSY5HNEWGoQX9B8lGKfJft-zsER4FvsRwP0YzRPEgA,24
+hello_world_client_test_pypi-2105.622.13.dist-info/METADATA,sha256=pJclmij8zquMYL2aIuRlQR1tSt8dPD7hStEwzx4LV8g,224
+hello_world_client_test_pypi-2105.622.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hello_world_client_test_pypi-2105.622.13.dist-info/top_level.txt,sha256=XJLdXK-KtKIsdlaAvoEA67gznp1YxxSf9Qt8sRw1xG8,15
+hello_world_client_test_pypi-2105.622.13.dist-info/RECORD,,
