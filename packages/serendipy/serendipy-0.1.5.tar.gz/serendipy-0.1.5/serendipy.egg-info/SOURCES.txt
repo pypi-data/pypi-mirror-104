@@ -1,0 +1,7 @@
+README.md
+setup.py
+serendipy/__init__.py
+serendipy.egg-info/PKG-INFO
+serendipy.egg-info/SOURCES.txt
+serendipy.egg-info/dependency_links.txt
+serendipy.egg-info/top_level.txt
