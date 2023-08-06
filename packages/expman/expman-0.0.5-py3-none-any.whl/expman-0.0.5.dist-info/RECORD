@@ -1,0 +1,14 @@
+expman/__init__.py,sha256=8IjNhbIDbeBPqQwsKWxp0pnMLUnBH2kO5Je9vyeXiKM,58
+expman/experiment.py,sha256=QOHr0kzrttOsMAtr2hMAU7JJFXlQv5Qc2E3Pu9XzdFI,3330
+expman/loggers/__init__.py,sha256=i8_qjVaY52s1q4pNO5DDM-ORcCwGiLzvf5eDMlMALF0,76
+expman/loggers/json_logger.py,sha256=2wWohCB3n5QRPkOE9oAWRL3T6QwBqm-tJDiBJ8Hc2OQ,944
+expman/loggers/logger.py,sha256=OHub1p6POrwnPT9cuPy4PNEX8SK4GCEuIKXKf6IeLQ4,338
+expman/loggers/stdout_logger.py,sha256=K_HdR29w8ReNt94srgzeQlZnP5pe-vVH2vVoKaxA0o8,137
+expman/loggers/wandb_logger.py,sha256=CVqZX5V6sna6Y9oEeoaj1pnxj8rLMiN4iLmokRkDtDk,560
+expman/plotters/__init__.py,sha256=9nYhixE3Tt3MqfnG_8-J1uvWvRJtYWITlgRDVE5cfpY,38
+expman/plotters/line_plotter.py,sha256=ww9_fiYxWFNXecvWziTXELbqDWAsuP4PvCjHe6VALgE,1871
+expman/plotters/plotter.py,sha256=2L19yPvrFaqh2QQnhtlTM0VlK2RhedGhy8VaYnY2L4s,89
+expman-0.0.5.dist-info/METADATA,sha256=Bl2EM_LljH743r3tl59rKWoIBfCDbJehL1ApLgLAPqs,826
+expman-0.0.5.dist-info/RECORD,,
+expman-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+expman-0.0.5.dist-info/top_level.txt,sha256=vFKwZpnAwgH-dXXGHnoDr9yxAQLqL9QC0qV6SWnvCXE,7
