@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+uvicorn
+jinja2
+colorama
+tenacity
+aioredis
+httpx
