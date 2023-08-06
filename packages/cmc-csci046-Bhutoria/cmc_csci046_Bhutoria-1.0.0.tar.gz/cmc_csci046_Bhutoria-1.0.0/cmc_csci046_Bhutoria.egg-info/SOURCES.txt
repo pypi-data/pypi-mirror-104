@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cmc_csci046_Bhutoria.egg-info/PKG-INFO
+cmc_csci046_Bhutoria.egg-info/SOURCES.txt
+cmc_csci046_Bhutoria.egg-info/dependency_links.txt
+cmc_csci046_Bhutoria.egg-info/requires.txt
+cmc_csci046_Bhutoria.egg-info/top_level.txt
