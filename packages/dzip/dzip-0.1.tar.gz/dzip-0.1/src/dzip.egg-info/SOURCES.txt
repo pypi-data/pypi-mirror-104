@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/dzip/__init__.py
+src/dzip/__main__.py
+src/dzip/dzip.py
+src/dzip.egg-info/PKG-INFO
+src/dzip.egg-info/SOURCES.txt
+src/dzip.egg-info/dependency_links.txt
+src/dzip.egg-info/entry_points.txt
+src/dzip.egg-info/top_level.txt
