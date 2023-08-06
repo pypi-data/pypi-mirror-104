@@ -1,0 +1,2 @@
+multicorn==1.4.0
+airtable-python-wrapper==0.15.2

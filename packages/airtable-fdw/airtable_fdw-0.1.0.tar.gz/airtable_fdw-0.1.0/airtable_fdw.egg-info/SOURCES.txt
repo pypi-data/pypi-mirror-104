@@ -1,0 +1,10 @@
+README.md
+setup.py
+airtable_fdw/__init__.py
+airtable_fdw/test_airtablefdw.py
+airtable_fdw/utils.py
+airtable_fdw.egg-info/PKG-INFO
+airtable_fdw.egg-info/SOURCES.txt
+airtable_fdw.egg-info/dependency_links.txt
+airtable_fdw.egg-info/requires.txt
+airtable_fdw.egg-info/top_level.txt

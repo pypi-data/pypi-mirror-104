@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: airtable-fdw
+Version: 0.1.0
+Summary: Airtable Multicorn FDW for Postgres
+Home-page: UNKNOWN
+Author: Sebastian Szymbor
+Author-email: thesebas@users.noreply.github.com
+License: MIT
+Description: # Airtable Foreign Data Wrapper
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
