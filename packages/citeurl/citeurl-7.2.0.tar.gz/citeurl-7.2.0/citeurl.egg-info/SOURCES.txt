@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+citeurl/__init__.py
+citeurl/builtin-templates.yaml
+citeurl/citeurl.js
+citeurl/cli.py
+citeurl/makejs.py
+citeurl/mdx.py
+citeurl/server.py
+citeurl.egg-info/PKG-INFO
+citeurl.egg-info/SOURCES.txt
+citeurl.egg-info/dependency_links.txt
+citeurl.egg-info/entry_points.txt
+citeurl.egg-info/requires.txt
+citeurl.egg-info/top_level.txt
