@@ -1,0 +1,8 @@
+openpyxl==3.0.*
+
+[dev]
+pytest==6.*
+build
+twine
+tox
+yapf
