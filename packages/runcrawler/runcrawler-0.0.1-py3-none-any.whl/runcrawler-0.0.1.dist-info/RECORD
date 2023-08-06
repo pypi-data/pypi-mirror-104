@@ -1,0 +1,10 @@
+runcrawler/__init__.py,sha256=8VCPnvSqyIVTVGMKupuTfZbTFsbulSXcNEN21bkPfRI,19
+runcrawler/cli.py,sha256=j63kSDZb7pz7_bTEW_OlSilrgXWRmyC6LwXjSZaXTq8,1196
+runcrawler/logclassify.py,sha256=tYIqxhZMKnifQCHvxPY7UgnBVJ_DYcU4aAoNmQPvfcw,1233
+runcrawler/scan_log.yml,sha256=3gPuvOP9GZuAnAqNKd1OwAKPi_-syudOmUu4I_Vd0pU,1163
+runcrawler-0.0.1.dist-info/LICENCE.md,sha256=I_1GFnf_EYH7Ru-CdwhVb8OCAoIhqTAsuUhZluagHAw,1062
+runcrawler-0.0.1.dist-info/METADATA,sha256=07VzY56uBOox3rX3r6rZGiSI8SUf7qsIphfdygtfgL4,6171
+runcrawler-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+runcrawler-0.0.1.dist-info/entry_points.txt,sha256=po_Z11HvI4PmFdMGObfdmwtSlcCjW2J3WixS_n2oGn0,56
+runcrawler-0.0.1.dist-info/top_level.txt,sha256=yACuXSjMTmnvi2l18n3Wah2jZxfu6LQwKoZ2nNZELGE,11
+runcrawler-0.0.1.dist-info/RECORD,,
