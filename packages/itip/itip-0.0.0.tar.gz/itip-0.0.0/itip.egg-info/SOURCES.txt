@@ -1,0 +1,8 @@
+README.md
+setup.py
+itip/__init__.py
+itip/version.py
+itip.egg-info/PKG-INFO
+itip.egg-info/SOURCES.txt
+itip.egg-info/dependency_links.txt
+itip.egg-info/top_level.txt
