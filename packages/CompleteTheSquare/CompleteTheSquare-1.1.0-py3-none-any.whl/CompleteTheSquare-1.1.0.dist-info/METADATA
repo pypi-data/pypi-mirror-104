@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: CompleteTheSquare
+Version: 1.1.0
+Summary: A Simple Python project to complete the square!
+Home-page: https://github.com/Zeliktric/CompleteTheSquare
+Author: Zeliktric
+Author-email: zeliktric@zeliktric.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CompleteTheSquare
+---
+
+A Simple Python project to complete the square!
+
+## What is "Completing The Square"
+Completing The Square is a method used in Mathematics to easily find the turning point of a quadratic on the graph.  
+It can also be used to find the roots (where it crosses the x-axis (x-intercept or y=0)), but the quadratic formula is more popular for this.
+[Read this to find out more!](https://www.mathsisfun.com/algebra/completing-square.html)
+
+---
+
+Current version: 1.1 
+Python version: 3.8
+
+---
+
+# How to use!
+1) Install the module!  
+```
+pip install CompleteTheSquare
+```
+2) Import the module!  
+```
+from CompleteTheSquare import CompleteTheSquare as cts
+```
+> I have imported it as `cts` to make it easier
+
+3) Initialise your equation  
+```py
+eq = cts("x²+3x+2")
+```
+If you don't want to initialise an equation straight away, simply leave it as `""`  
+4) Complete The Square!  
+```py
+eq.cts()
+```
+This will return the completed version (string)! Use `print()` to print it!  
+5) Solve!  
+```py
+eq.solve()
+```
+This will return the solutions (list)! Use `print()` to print it!
+
+If you want to initialise the equation outside, do:
+```py
+eq.equation = "2x²+6x+4"
+```
+
+## What do I need to input?
+You must input `x` (lowercase).  
+You don't need to add the power ², there just needs to be **something there**.  
+x£ + 3x + 2 will give the same result as x² + 3x + 2 :P
+
+# Contributing
+You can open a PR request on [Github](https://github.com/Zeliktric/CompleteTheSquare) ~~like I know what that means~~.
+
+Thanks :P
+
