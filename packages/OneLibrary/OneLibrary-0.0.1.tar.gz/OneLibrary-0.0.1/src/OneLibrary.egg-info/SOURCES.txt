@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/OneLibrary/__init__.py
+src/OneLibrary.egg-info/PKG-INFO
+src/OneLibrary.egg-info/SOURCES.txt
+src/OneLibrary.egg-info/dependency_links.txt
+src/OneLibrary.egg-info/top_level.txt
