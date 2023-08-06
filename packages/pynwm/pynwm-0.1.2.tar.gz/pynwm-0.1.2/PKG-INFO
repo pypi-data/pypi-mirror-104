@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pynwm
+Version: 0.1.2
+Summary: Tools for getting data from the United States National Water Model
+Home-page: UNKNOWN
+Author: Riley Hales
+License: BSD 3-Clause Clear
+Description: # pynwm - US National Water Model Data Tools
+        
+        1. Tools for retrieving information from the private/undocumented REST data service for the national water model
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
