@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: simplepipreqs
+Version: 0.0.2
+Summary: Python module to generate requirements.txt for a given project.
+Home-page: https://github.com/Atharva-Gundawar/simplepipreqs
+Author: Atharva Gundawar
+Author-email: atharva.n.gundawar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pathlib
+Requires-Dist: yarg
+Requires-Dist: requests
+Requires-Dist: argparse
+
+
+# simplepipreqs
+
+Python module to generate requirement.txt for a given project
+
+## Usage
+<br />
+
+>To make requirments.txt for current directory
+
+```
+simplepipreqs
+```
+<br />
+
+>To make requirments.txt for a target directory
+
+```
+simplepipreqs -p <path_of_dir>
+```
+<br />
+
+>To use a different pip version
+
+```
+simplepipreqs -v <pip_version<example:pip3>>
+```
+<br />
+
+## Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Install the Requirements:
+
+```
+ pip install simplepipreqs
+```
+
+## Contributing
+
+We are egarly looking for contributors and maintainers to move this project forward.
+
+
+## Authors
+
+* **Atharva Gundawar** - *Initial work* - [Github handle](https://github.com/Atharva-Gundawar)
+
+See also the list of [contributors](https://github.com/Atharva-Gundawar/simplepipreqs/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Inspired by [Pipreqs](https://github.com/bndr/pipreqs)
+
+
