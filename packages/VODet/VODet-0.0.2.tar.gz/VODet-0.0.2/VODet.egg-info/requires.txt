@@ -1,0 +1,4 @@
+matplotlib
+pyparsing
+python-dateutil
+twitch-python
