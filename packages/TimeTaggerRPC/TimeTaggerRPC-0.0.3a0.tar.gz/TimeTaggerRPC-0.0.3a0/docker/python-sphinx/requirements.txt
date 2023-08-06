@@ -1,0 +1,7 @@
+# Latest versions
+flit
+
+# Constrained versions
+sphinx>=3.5,<4.0
+
+# Specific versions

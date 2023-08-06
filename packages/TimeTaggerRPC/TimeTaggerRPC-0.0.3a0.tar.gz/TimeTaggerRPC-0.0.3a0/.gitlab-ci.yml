@@ -1,0 +1,76 @@
+
+stages:
+  - docker
+  - build
+  - deploy
+
+variables:
+  IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+
+# Prevent duplicate pipelines
+# https://docs.gitlab.com/ee/ci/yaml/#prevent-duplicate-pipelines
+# Basically do not create a extra pipeline for merge request
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - when: always
+
+.job-default-config:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"' # run when triggered via web ui
+    - if: '$CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE == "push"' # run when master branch and it is a push 
+    - if: '$CI_COMMIT_BRANCH == "master" && $CI_PIPELINE_SOURCE == "merge_request_event"' # run when master branch and it is a merge_request_event 
+    - if: '$SW_BUILD_CLIENTS' # custom variable, defined by user
+
+
+build-docker-image:
+  extends: .job-default-config
+  tags:
+    - docker-builder
+  stage: docker
+  script:
+    - docker info
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - 'echo "IMAGE_TAG: ${IMAGE_TAG}"'
+    - cd docker/python-sphinx
+    - 'docker build --pull -t "$IMAGE_TAG" .'
+    - docker push $IMAGE_TAG
+
+
+build:
+  extends: .job-default-config
+  stage: build
+  image: $IMAGE_TAG
+  tags: 
+    - docker
+  script:
+    - pip install -U sphinx flit
+    - flit build --format wheel
+    - cd doc
+    - make html
+    - mv _build/html ..
+  
+  artifacts:
+    expire_in: 2 days
+    name: test"$CI_COMMIT_REF_NAME"
+    paths:
+      - dist
+      - html
+
+pages:
+  stage: deploy
+  image: $IMAGE_TAG
+  tags: 
+    - docker
+  script:
+    - cd doc
+    - make html
+    - mv _build/html ../public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
+
