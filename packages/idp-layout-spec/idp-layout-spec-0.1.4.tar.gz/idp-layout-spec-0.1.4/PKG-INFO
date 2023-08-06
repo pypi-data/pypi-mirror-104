@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: idp-layout-spec
+Version: 0.1.4
+Summary: idp 稿件数据结构
+Author: zheduan.yin
+Author-email: zheduan.yin@arkie.cn
+Requires-Python: >=3.7.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: graphic-coloring-engine (>=0.1.5,<0.2.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)

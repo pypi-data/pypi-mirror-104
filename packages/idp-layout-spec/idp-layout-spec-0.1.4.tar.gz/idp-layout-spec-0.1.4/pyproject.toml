@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "idp-layout-spec"
+version = "0.1.4"
+description = "idp 稿件数据结构"
+authors = ["zheduan.yin <zheduan.yin@arkie.cn>"]
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+
+[tool.poetry.dependencies]
+python = "^3.7.10"
+typing-extensions = "^3.7.4"
+cached-property = "^1.5.2"
+pydantic = "^1.8.1"
+graphic-coloring-engine = "^0.1.5"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+flake8 = "^3.8.4"
+devtools = "^0.6.1"
+pre-commit = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
