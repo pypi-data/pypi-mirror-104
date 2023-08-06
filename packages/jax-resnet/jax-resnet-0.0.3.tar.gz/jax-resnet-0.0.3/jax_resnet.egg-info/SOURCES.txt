@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jax_resnet/__init__.py
+jax_resnet/common.py
+jax_resnet/pretrained.py
+jax_resnet/resnet.py
+jax_resnet/splat.py
+jax_resnet.egg-info/PKG-INFO
+jax_resnet.egg-info/SOURCES.txt
+jax_resnet.egg-info/dependency_links.txt
+jax_resnet.egg-info/requires.txt
+jax_resnet.egg-info/top_level.txt
+jax_resnet.egg-info/zip-safe
