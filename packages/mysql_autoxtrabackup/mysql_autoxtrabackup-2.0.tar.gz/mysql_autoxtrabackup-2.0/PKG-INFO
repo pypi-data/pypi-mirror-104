@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mysql_autoxtrabackup
+Version: 2.0
+Summary: MySQL-AutoXtrabackup command-line tool, for automating tedious MySQL physical backups management
+Home-page: https://github.com/ShahriyarR/MySQL-AutoXtraBackup
+Author: Shahriyar(Shako) Rzayev
+Author-email: rzayev.sehriyar@gmail.com
