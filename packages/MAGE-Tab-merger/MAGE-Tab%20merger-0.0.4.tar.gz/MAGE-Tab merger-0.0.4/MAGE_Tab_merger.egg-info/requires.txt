@@ -1,0 +1,4 @@
+pandas
+networkx==2.5
+jinja2
+requests
