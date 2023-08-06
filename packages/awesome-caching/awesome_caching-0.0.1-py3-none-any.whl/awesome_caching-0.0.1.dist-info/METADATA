@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: awesome-caching
+Version: 0.0.1
+Summary: Convenient functions that help to process images
+Home-page: https://github.com/DewMaple/awesome-caching
+Author: dew.maple
+Author-email: dew.maple@gmail.com
+License: BSD
+Project-URL: Bug Reports, https://github.com/DewMaple/awesome-caching/issues
+Project-URL: Source, https://github.com/DewMaple/awesome-caching
+Keywords: cache,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
