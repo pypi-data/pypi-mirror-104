@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sauces.egg-info/PKG-INFO
+sauces.egg-info/SOURCES.txt
+sauces.egg-info/dependency_links.txt
+sauces.egg-info/top_level.txt

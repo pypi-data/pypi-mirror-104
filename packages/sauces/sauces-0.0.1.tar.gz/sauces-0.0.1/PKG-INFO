@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sauces
+Version: 0.0.1
+Summary: The easiest way to distribute and download datasets! Used by authors and competition organizers in NeurIPS, CVPR, ACL.
+Home-page: https://github.com/greentfrapp/sauces
+Author: Bits Team
+License: UNKNOWN
+Project-URL: Source, https://github.com/greentfrapp/sauces
+Description: # info
+        The easiest way to distribute and download datasets! Used by authors and competition organizers in NeurIPS, CVPR, ACL.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
