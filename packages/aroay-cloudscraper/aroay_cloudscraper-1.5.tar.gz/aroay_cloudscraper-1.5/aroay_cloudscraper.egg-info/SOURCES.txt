@@ -1,0 +1,12 @@
+README.md
+setup.py
+aroay_cloudscraper/__init__.py
+aroay_cloudscraper/__version__.py
+aroay_cloudscraper/downloadermiddlewares.py
+aroay_cloudscraper/request.py
+aroay_cloudscraper/settings.py
+aroay_cloudscraper.egg-info/PKG-INFO
+aroay_cloudscraper.egg-info/SOURCES.txt
+aroay_cloudscraper.egg-info/dependency_links.txt
+aroay_cloudscraper.egg-info/requires.txt
+aroay_cloudscraper.egg-info/top_level.txt
