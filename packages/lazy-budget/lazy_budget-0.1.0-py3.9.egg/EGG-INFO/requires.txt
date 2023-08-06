@@ -1,0 +1,7 @@
+PyYAML==5.4.1
+py-money==0.5.0
+
+[tests and development]
+pytest==6.2.3
+freezegun==1.1.0
+pre-commit==2.12.0
