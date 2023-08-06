@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scripts/arctk/__init__.py
+scripts/arctk.egg-info/PKG-INFO
+scripts/arctk.egg-info/SOURCES.txt
+scripts/arctk.egg-info/dependency_links.txt
+scripts/arctk.egg-info/top_level.txt
