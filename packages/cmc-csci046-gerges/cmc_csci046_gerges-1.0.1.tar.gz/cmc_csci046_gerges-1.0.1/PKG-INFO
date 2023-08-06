@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cmc_csci046_gerges
+Version: 1.0.1
+Summary: Data Structures and Algorithms course package. This course was taught by mike izbicki from claremont mckenna college. Data Science major. the project has AvlTree, BinarySearch Tree, Unicode, and Heap
+Home-page: https://github.com/realpython/reader
+Author: Real Python
+Author-email: info@realpython.com
+License: MIT
+Description: # containers
+        
+        Build statuses:
+        
+        1. [![](https://github.com/mariagerges/week8_containers/workflows/tests-fibonacci/badge.svg)](https://github.com/mariagerges/week8_containers/actions?query=workflow%3Atests-fibonacci)
+        1. [![](https://github.com/mariagerges/week8_containers/workflows/tests-range/badge.svg)](https://github.com/mariagerges/week8_containers/actions?query=workflow%3Atests-range)
+        1. [![](https://github.com/mariagerges/week8_containers/workflows/tests-unicode/badge.svg)](https://github.com/mariagerges/week8_containers/actions?query=workflow%3Atests-unicode)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
