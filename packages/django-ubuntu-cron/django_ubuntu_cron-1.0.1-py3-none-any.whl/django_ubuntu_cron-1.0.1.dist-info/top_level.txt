@@ -1,0 +1,2 @@
+django_cron
+schedule_jobs
