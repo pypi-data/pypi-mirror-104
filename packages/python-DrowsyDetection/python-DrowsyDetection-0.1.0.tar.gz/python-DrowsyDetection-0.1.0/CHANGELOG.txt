@@ -1,0 +1,26 @@
+Change Log
+
+===============
+
+
+0.0.4
+-------------
+-  will install tensorflow and keras for you
+
+0.0.5
+---------------
+- you can use your version of tensorflow and keras which you have
+
+
+0.0.6
+----------------
+- you can give your own  audio file to play
+
+0.0.7
+------------------
+-  audio commands added
+
+
+0.1.0
+-------------------
+-   optimizations
