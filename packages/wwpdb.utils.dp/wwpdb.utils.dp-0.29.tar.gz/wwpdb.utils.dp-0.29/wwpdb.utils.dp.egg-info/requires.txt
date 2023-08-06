@@ -1,0 +1,11 @@
+future
+mmcif~=0.18
+wwpdb.utils.config~=0.1
+wwpdb.utils.testing~=0.4
+wwpdb.io
+
+[dev]
+check-manifest
+
+[test]
+coverage
