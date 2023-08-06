@@ -1,0 +1,9 @@
+sqlextension/__init__.py,sha256=NVx2wiDDZ68kGnUk8x48ut30iP1KtCnEwYOTrDBXYYk,326
+sqlextension/expression.py,sha256=y7LvC_kcrySZBMlokwW-aqmJt1NdEDyNAESmYMdCz7E,1698
+sqlextension/operators.py,sha256=sMV5zr-YU2oKya57zg7EFm2Tvl3wPSNGzk49Wi3zFGQ,741
+sqlextension/sqlaggregat.py,sha256=thdt8h3zl882Ppa4mcFxctM79J2-pt2IC8leLc44Eqk,882
+sqlextension/sqlfunction.py,sha256=2Zl4dUE_ThjdoU3EydK7Pt0dt6FnjCm-NrkljzZAMhI,3383
+mds_sqlextension-0.1.11.dist-info/METADATA,sha256=FqD9sS8fxh-rNwGVrwW3WLUNZ0wJaeFAD58E9mGX5vA,2446
+mds_sqlextension-0.1.11.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+mds_sqlextension-0.1.11.dist-info/top_level.txt,sha256=wHSBG5xthkrITFKU57gaksvuTTwwTEFuNi_1tCKIvl8,13
+mds_sqlextension-0.1.11.dist-info/RECORD,,
