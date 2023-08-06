@@ -1,0 +1,10 @@
+deep_nlp/__init__.py,sha256=WTxTibB_5Ewip0gVpI_cg9aNo8YntpUzbaLUpwcZAc0,46
+deep_nlp/framework.py,sha256=jFwWu4GxdqBVt3V-4up9F-1xny8EQHDJiwBYftectto,3494
+deep_nlp/model_wrapper.py,sha256=tN_oCEuQK0lV5UVl5g9EPh_jIFfi-BZBgfvwPOqGcZI,3145
+deep_nlp/utils.py,sha256=YhZiXvIGz1pcVV9g1-_a6-PtbpUV15NJFebSiljuKBk,884
+deep_nlp-0.0.1.data/scripts/extract_model,sha256=bPb5lsKvXFqFfQjyI5JJ5PCzvc9xKSaeqWcccT8gBUg,977
+deep_nlp-0.0.1.dist-info/LICENSE,sha256=8X6lvmaZsq1qlYG6bouhzedkrnTzZV5VrzKIz0JWdoQ,1065
+deep_nlp-0.0.1.dist-info/METADATA,sha256=9DOBkjR61qtot9zLTmCEBFW2McaXiod05Z-EaZLhz-Q,2458
+deep_nlp-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deep_nlp-0.0.1.dist-info/top_level.txt,sha256=U5xOgQzKjwFcQozcIWRWd4qHZjzLhVbmbP4HkLa62lo,9
+deep_nlp-0.0.1.dist-info/RECORD,,
