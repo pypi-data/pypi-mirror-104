@@ -1,0 +1,13 @@
+_shellinford.cp36-win32.pyd,sha256=7OZ0bpeTBhmBSUNVtQILKa8od5IyvezVFut3gjZjjzI,220160
+shellinford/__init__.py,sha256=MrifG8XoUhySFUmI2ZntDttjUSTKS1bwbOs2T7Ugxvs,201
+shellinford/shellinford.py,sha256=tHxEtlKgAls_xD3Doh3Yyzn08pzcEbHpmrrVtCUTDp4,17841
+shellinford-0.4.1.data/headers/shellinford_bit_vector.h,sha256=no89Mj7GX2T0EIEHe7njCf6mGkwbRmh5JVotPJBTM1g,966
+shellinford-0.4.1.data/headers/shellinford_fm_index.h,sha256=iCgkLpb0_nZKhXplQzgTAt4BS9KVaCR_rQji7tRo8b0,2164
+shellinford-0.4.1.data/headers/shellinford_succinct_vector.h,sha256=6fClhcUBd42TTAQxyhuBH6eipnrXKLDRVUMBanL8I-4,1148
+shellinford-0.4.1.data/headers/shellinford_wavelet_matrix.h,sha256=iwBQdTOksjPZ2CrhK6ZJasZpOuoEXX7eD42SZe2xji0,8205
+shellinford-0.4.1.data/headers/shellinford_wavelet_tree.h,sha256=AdSXdhEJ54AiTD1gjzemYEOdwSNYu1tgCKf-S93BM_Q,7975
+shellinford-0.4.1.dist-info/LICENSE,sha256=0djVYyEtA3JrS1qMbJm1U4gDYyopQnZJQwo2L8xlWKs,1485
+shellinford-0.4.1.dist-info/METADATA,sha256=MiC9lwpJ32fbrfxZshpmni11H7-_Fyh1ZBkNYYzk5HI,5559
+shellinford-0.4.1.dist-info/WHEEL,sha256=BWBcgVHkeAa2gX50hi5tpUL8dDP1yeySqXAVuaCx3Jw,102
+shellinford-0.4.1.dist-info/top_level.txt,sha256=yoLT_BPKStL0RQSI8hx9vw8Tc8oFbVMJKuQY0HkmoXM,25
+shellinford-0.4.1.dist-info/RECORD,,
