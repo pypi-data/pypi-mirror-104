@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+marketdt/__init__.py
+marketdt/marketdt.py
+marketdt/mktdt.py
+marketdt.egg-info/PKG-INFO
+marketdt.egg-info/SOURCES.txt
+marketdt.egg-info/dependency_links.txt
+marketdt.egg-info/not-zip-safe
+marketdt.egg-info/top_level.txt
