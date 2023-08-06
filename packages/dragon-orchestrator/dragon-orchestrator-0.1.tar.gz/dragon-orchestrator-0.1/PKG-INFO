@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dragon-orchestrator
+Version: 0.1
+Summary: Orchestrator service which can be used to run containers and functions
+Home-page: UNKNOWN
+Author: Satheesh Kumar
+Author-email: mail@satheesh.dev
+License: License :: OSI Approved :: MIT License
+Description: # Dragon Orchestrator Client
+        
+        This is the python client that should to be running in all the nodes that needs to
+        be registered in the server. The orchestrator server will control the client node
+        with the help of this client application.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Requires-Python: >=3
+Description-Content-Type: text/markdown
