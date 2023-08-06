@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mkdocs_graphviz
+Version: 1
+Summary: Render Graphviz graphs in Mkdocs, as inline SVGs and PNGs, directly from your Markdown (python3 version)
+Home-page: https://gitlab.com/rodrigo.schwencke/mkdocs-graphviz.git
+Author: Rodrigo SCHWENCKE
+Author-email: dev.hopper@lyceeperier.fr
+License: MIT
+Description: This is just a continuation of the great job of :
+        
+        * Cesare Morel [cesaremorel/markdown-inline-graphviz](https://github.com/cesaremorel/markdown-inline-graphviz), and before him,
+        * Steffen Prince in [sprin/markdown-inline-graphviz](https://github.com/sprin/markdown-inline-graphviz), 
+        * Initially inspired by Jawher Moussa [jawher/markdown-dot](https://github.com/jawher/markdown-dot)
+            
+        in order to get it work with pip3 and mkdocs.
+        
+        If you use python 2, please use the original extension instead.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
