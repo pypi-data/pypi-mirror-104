@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+codeforces/__init__.py
+codeforces/__main__.py
+codeforces/methods.py
+codeforces/request.py
+codeforces_cli.egg-info/PKG-INFO
+codeforces_cli.egg-info/SOURCES.txt
+codeforces_cli.egg-info/dependency_links.txt
+codeforces_cli.egg-info/entry_points.txt
+codeforces_cli.egg-info/requires.txt
+codeforces_cli.egg-info/top_level.txt
