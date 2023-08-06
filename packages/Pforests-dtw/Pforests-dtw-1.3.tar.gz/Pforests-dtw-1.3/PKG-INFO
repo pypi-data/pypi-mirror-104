@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Pforests-dtw
+Version: 1.3
+Summary: Proximity Forest Classifier using DTW distance measure
+Home-page: https://github.com/moradisten/ProximityForests-python
+Author: Moradisten
+Author-email: moradabaz@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: time series classification
+Platform: UNKNOWN
+Requires-Python: >=3.6
