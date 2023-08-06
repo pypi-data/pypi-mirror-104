@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: neon-diagrams
+Version: 0.1.0
+Summary: Diagrams for Neon Law
+Author: neon law
+Author-email: support@neonlaw.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=21.4b2,<22.0)
+Requires-Dist: diagrams (>=0.19.1,<0.20.0)
