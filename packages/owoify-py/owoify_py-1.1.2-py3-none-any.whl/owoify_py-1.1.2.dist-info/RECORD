@@ -1,0 +1,16 @@
+owoify/__init__.py,sha256=GGwKNhDokKsVJ0ZTjPpLxqqThtGCWet9ZEON90sem2Y,50
+owoify/owoify.py,sha256=toaFFq8qB-BRNz5IphYW7G7pwHozpkbA6UK-5eKVYTA,2107
+owoify/structures/__init__.py,sha256=ybR6DyoKyLOWmV_Jlm0_Ihpxe_jsMC2JZrO5AZilv0w,23
+owoify/structures/word.py,sha256=Nue1yjnJqZgZszzQ2olJRvK9Ytf0umkA-JYxPOwqTJc,3620
+owoify/utility/__init__.py,sha256=dhMTxDMNmeNcESTV0rBHhY9ChigwcrSLqW75nAfQ4aQ,95
+owoify/utility/flatten.py,sha256=2V4wVx3KOdmDPB2Iozi6RkyBmQ4XsxNyIe4ITMfLQBY,478
+owoify/utility/interleave_arrays.py,sha256=tUVZ04wS8PJrgWCpiyBGl_sNvMC-28_RcUDSN8gJcJM,303
+owoify/utility/mapping.py,sha256=bACYviKC1Okr6AMJdnvEHfiLIJCLu22tKS742RjiTA0,8793
+owoify/utility/presets.py,sha256=wNMyVmMMMS0RkzIghwVWRKQqG1rqC4n2yBvfNKfu4x0,987
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/owoify_test.py,sha256=11l8wBdDPeG2tN48f9ybCdRlAnPqtRj0ixipC4tC9Mo,734
+owoify_py-1.1.2.dist-info/LICENSE,sha256=KwOoFNK0S1Hisz8gPL5Wkg_WGReJ7FlGtZ_Vdbuqfjo,1068
+owoify_py-1.1.2.dist-info/METADATA,sha256=1BM_GJc1OB9gHTiRW6jexTHbGQCyPm4vPzOZDsTsWl0,2653
+owoify_py-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+owoify_py-1.1.2.dist-info/top_level.txt,sha256=o6hW6pjd30gOxDdtYfqSsvM39_2VyRT9kL5n8ae8Gk0,12
+owoify_py-1.1.2.dist-info/RECORD,,
