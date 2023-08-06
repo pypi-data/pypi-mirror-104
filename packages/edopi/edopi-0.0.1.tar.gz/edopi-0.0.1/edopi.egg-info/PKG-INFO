@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: edopi
+Version: 0.0.1
+Summary: Python package to deal with Group-Theoretic microtonal music structures
+Home-page: https://github.com/luansimoes/edopi
+Author: Flavia Elias e Luan Simões
+Author-email: luansimoes@id.uff.br
+License: MIT License
+Description: # edopi
+        
+Keywords: microtonal edo music group-theoretic
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
