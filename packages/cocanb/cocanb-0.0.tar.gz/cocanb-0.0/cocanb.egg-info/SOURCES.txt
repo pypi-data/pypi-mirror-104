@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+cocanb/__init__.py
+cocanb/cocanb_to_english.py
+cocanb/diacritics.py
+cocanb/english_to_cocanb.py
+cocanb/quotes.py
+cocanb/sentences.py
+cocanb/spaces.py
+cocanb.egg-info/PKG-INFO
+cocanb.egg-info/SOURCES.txt
+cocanb.egg-info/dependency_links.txt
+cocanb.egg-info/requires.txt
+cocanb.egg-info/top_level.txt
