@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyglslify"
+version = "0.1.1"
+description = "Thin wrapper for the glslify nodejs tool, use stack.gl shader modules in Python."
+authors = ["Anentropic <ego@anentropic.com>"]
+license = "MIT"
+homepage = "https://github.com/anentropic/pyglslify"
+readme = "README.md"
+packages = [
+    { include = "pyglslify.py" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+[tool.poetry.dev-dependencies]
+ipython = "*"
+ipdb = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
