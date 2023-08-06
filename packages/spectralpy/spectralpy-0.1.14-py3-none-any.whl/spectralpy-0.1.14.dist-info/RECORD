@@ -1,0 +1,14 @@
+spectralpy/__init__.py,sha256=ZHnBhDHxwhmVT5zTn7HhHD8mmZ0Xgedo_gQUz91-VqU,103
+spectralpy/conftest.py,sha256=G0yMHDAWYOhJ2_3QeNlClAbJ6KUKCj0C71KgNpa1Ajs,234
+spectralpy/examples/examples.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectralpy/source/spectral_processing.py,sha256=yJqsWUfBNn7Doi_A-rN9Ti5cYkLSeYpZ6jYn6pTFVR4,8125
+spectralpy/test/shorthand.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spectralpy/test/test_power_extraction.py,sha256=B2lMzti3syUtzqBdLVQdw5ap8HzDql7wrGehaUN0am4,9223
+spectralpy/test/test_power_spectrum.py,sha256=w-J0o0DnkOinlpoJsmpj2eG8FBxDFtUsiM7cogJDEgE,9595
+spectralpy/test/data/NL1~modulation_amplitude=10.0V.csv,sha256=z2ez99AbEkHRNjhMAd-0e_iC91Rs9o9agXI8Rpe9sYE,25262
+spectralpy/test/data/NL_test_data_10k.csv,sha256=1eHXqU24MbsWVC3aETZyzC4LXpW_fNiG2aaE9XrAXJs,389979
+spectralpy-0.1.14.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+spectralpy-0.1.14.dist-info/METADATA,sha256=Cb2MJjgebzJlGhEG62JQO8Lh1wB2BiMlI-5VmJcPj3g,1477
+spectralpy-0.1.14.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spectralpy-0.1.14.dist-info/top_level.txt,sha256=3NBwnzP0FDE7_6R22LQZqUchIJnVEyrXHqZ1hw6b46g,11
+spectralpy-0.1.14.dist-info/RECORD,,
