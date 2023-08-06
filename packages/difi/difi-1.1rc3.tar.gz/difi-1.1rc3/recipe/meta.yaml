@@ -1,0 +1,36 @@
+
+package:
+  name: difi
+  version: {{ version }}
+
+source:
+  git_url: "https://github.com/moeyensj/difi.git"
+  git_tag: "v{{ version }}"
+
+requirements:
+  host:
+    - python >=3.7.1
+    - pip
+    - setuptools >=45
+    - setuptools_scm >=6.0
+    - wheel
+  run:
+    - python >=3.7.1
+    - numpy
+    - pandas
+    - pytest
+    - pytest-cov
+
+build:
+  noarch: python
+  script: 
+    - python setup.py install --single-version-externally-managed --record=record.txt
+
+test:
+  imports:
+    - difi
+
+about:
+  home: https://github.com/moeyensj/difi
+  license: BSD-3 Clause
+  license_file: LICENSE.md
