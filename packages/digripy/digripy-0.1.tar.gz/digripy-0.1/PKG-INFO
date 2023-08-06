@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: digripy
+Version: 0.1
+Summary: District Heating Grid Simulation in Python
+Home-page: https://github.com/lvorspel/DiGriPy
+Author: Lena Vorspel and Jens Bücker
+Author-email: lena.vorspel@ifam.fraunhofer.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lvorspel/DiGriPy/issues
+Description: # DiGriPy
+        District Heating Grid Simulation in Python
+        
+        ## Installation
+        For installation, you can clone this repository and use pip for solving dependencies and installation.
+        Please use Python3 <3.9, as CoolProp fails to install on Python 3.9.
+        ```
+        python -m pip install git+https://github.com/lvorspel/DiGriPy.git
+        ```
+        
+        You can alternatively manually clone this repo and then
+        ```
+        python setup.py install
+        ```
+        in the cloned directory.
+        
+        ## Running
+        For Running DiGriPy you can simply download the `tests` folder provided in the [git repository](https://github.com/lvorspel/DiGriPy) and run 
+        ```
+        python -m digripy.run -i tests/example80C -l 20
+        ```
+        
+        in a command line. This will run the first 20 time steps of the medium temperature scenario and display the results in a browser. 
+        
+        ## Output
+        Results will not only be displayed in the browser, but also will be saved in your home directory in a folder called `digripy_results`. There you can also find spreadsheets with several results.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6<3.9
+Description-Content-Type: text/markdown

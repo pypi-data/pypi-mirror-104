@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+digripy/__init__.py
+digripy/digripynetwork.py
+digripy/pipe_definitions.json
+digripy/run.py
+digripy/simulation.py
+digripy/tools.py
+digripy.egg-info/PKG-INFO
+digripy.egg-info/SOURCES.txt
+digripy.egg-info/dependency_links.txt
+digripy.egg-info/requires.txt
+digripy.egg-info/top_level.txt
