@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: libraryname
+Version: 0.1
+Summary: TYPE YOUR DESCRIPTION HERE
+Home-page: https://github.com/javapagar/pip_install_clase
+Author: ds-dt-e21
+Author-email: captainvinager@gmail.com
+License: MIT
+Download-URL: https://github.com/javapagar/pip_install_clase/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Machine Learning,Easy,Help,Visualization,Clean
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
