@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tcenter/__init__.py
+tcenter/center.py
+tcenter.egg-info/PKG-INFO
+tcenter.egg-info/SOURCES.txt
+tcenter.egg-info/dependency_links.txt
+tcenter.egg-info/requires.txt
+tcenter.egg-info/top_level.txt
