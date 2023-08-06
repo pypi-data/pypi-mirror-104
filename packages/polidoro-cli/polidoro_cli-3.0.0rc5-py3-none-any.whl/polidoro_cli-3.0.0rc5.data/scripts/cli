@@ -1,0 +1,13 @@
+#!python
+import os
+
+import polidoro_cli
+from polidoro_cli import CLI_DIR
+
+dir_path = os.path.join(polidoro_cli.__path__[0], 'clis')
+if os.path.exists(CLI_DIR):
+    if not os.path.islink(CLI_DIR):
+        print('Warning: For a better experience, "%s" should be a symbolic link to "%s"' % (CLI_DIR, dir_path))
+else:
+    os.symlink(dir_path, CLI_DIR)
+polidoro_cli.main()
