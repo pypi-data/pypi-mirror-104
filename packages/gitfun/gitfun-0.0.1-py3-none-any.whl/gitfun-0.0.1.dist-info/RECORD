@@ -1,0 +1,10 @@
+cli_main.py,sha256=9NA_OhqFUFhE9W1pkXq6aFG4pU4zblXGfQQ8LlHh3PU,318
+gitfun/GitFun.py,sha256=8JWttOaFmSPWpJhbEO4_exsyig0DGDkc7YobRD_tLoM,118
+gitfun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitfun/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitfun-0.0.1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+gitfun-0.0.1.dist-info/METADATA,sha256=4_TaFTlxm4yX3rfyuFKBAZC6dBpFmiKOF6kZbJfwEY0,1366
+gitfun-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitfun-0.0.1.dist-info/entry_points.txt,sha256=rI1Roz6RZJWlTTCe9F6I_Fgw9qBBIzUiWwW25_VSZdc,58
+gitfun-0.0.1.dist-info/top_level.txt,sha256=OciR372lhkQujmAKphKRk6_OJQAAh9xjFuQch3KTH1Y,16
+gitfun-0.0.1.dist-info/RECORD,,
