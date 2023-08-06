@@ -1,0 +1,6 @@
+Pillow
+tkinter
+PyQt5
+os
+sys
+glob

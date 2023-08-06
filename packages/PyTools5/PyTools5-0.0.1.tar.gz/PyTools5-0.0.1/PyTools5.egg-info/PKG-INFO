@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: PyTools5
+Version: 0.0.1
+Summary: A very basic way to do complex stuff in python.
+Home-page: UNKNOWN
+Author: Luke Dixon
+Author-email: lukeodixon@gmail.com
+License: MIT
+Description: This library will allow you to do simple things in python without as much typing in the code.
+        
+        (COMMANDS)
+        PyTools5.gui.makelabel(text) - Make TKinter Label With The Text In The Args
+        PyTools5.gui.makebutton(text, command) - Make TKinter Button With The Text and Press Command In The Args
+        PyTools5.calculate.add(num1, num2) - Add Num1 And Num2
+        PyTools5.calculate.subtract(num1, num2) - Subtract Num1 And Num2
+        PyTools5.calculate.multiply(num1, num2) - Multiply Num1 And Num2
+        PyTools5.calculate.divide(num1, num2) - Divide Num1 And Num2
+        PyTools5.system._sysprint_(text) - Print the Text in the Function in your python windows using batch
+        PyTools5.system._syspause_() - Pause your python script and ask for key press to continue
+        PyTools5.pywindow.title(name) - Changes the name of your python console if app is console-based
+        
+        Changelog
+        =========
+        
+        0.0.1 (5/1/2021)
+        ----------------
+        - First Release
+Keywords: system
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
