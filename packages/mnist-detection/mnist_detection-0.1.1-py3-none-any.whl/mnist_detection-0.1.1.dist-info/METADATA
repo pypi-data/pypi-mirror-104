@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mnist-detection
+Version: 0.1.1
+Summary: Simulated MNIST detection dataset
+Home-page: UNKNOWN
+Author: Chenchao Zhao
+Author-email: chenchao.zhao@gmail.com
+License: GNU
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: omegaconf
+Requires-Dist: torchvision
+
+# mnist-detection
+Synthetic MNIST detection dataset
+
+
