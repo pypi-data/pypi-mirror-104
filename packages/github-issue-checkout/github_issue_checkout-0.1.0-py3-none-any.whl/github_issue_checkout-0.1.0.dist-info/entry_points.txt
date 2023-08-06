@@ -1,0 +1,3 @@
+[console_scripts]
+ic=github_issue_checkout:main
+

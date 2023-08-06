@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: github-issue-checkout
+Version: 0.1.0
+Summary: 
+Author: Karim Stekelenburg
+Author-email: karim@animo.id
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: inquirer (>=2.7.0,<3.0.0)
+Requires-Dist: setuptools (>=56.0.0,<57.0.0)
