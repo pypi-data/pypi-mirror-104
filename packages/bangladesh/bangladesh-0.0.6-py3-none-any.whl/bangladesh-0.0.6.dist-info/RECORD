@@ -1,0 +1,15 @@
+bangladesh/__init__.py,sha256=TDatScIQR9uaSM_VLg46ErH9Am2JfoxMP7YIAdyqUvc,77
+bangladesh/data.py,sha256=qc_BZpVod5y7Z85brDcJEAsfKJgBGYM2QPTIJ9zkURM,76926
+bangladesh/main.py,sha256=OOCCcOjldUAHR-rg-PnJR0ppP-HwADXo8WzCL99H5XI,1488
+bangladesh/models/__init__.py,sha256=rhGnUD1WH_H8AUMHkCqy_-MTAXqlTwxaF-s4AttJ6IM,149
+bangladesh/models/district.py,sha256=qU38XoMZQHB4NXPcvR4jYiOWwFuWsWHZpEp8Mf5Xb14,571
+bangladesh/models/districts_geo.py,sha256=cxhXGfYDnh7RtaJq_yEzvvcWWaVRrfooN30_b6tH9SA,1153
+bangladesh/models/division.py,sha256=2GTQ4rX-TnmtKZBy4cvFLma2LCMllnZbYfrHHJaCo7w,495
+bangladesh/models/postcode.py,sha256=GaAjDHhs7o1tNVxEqj8iJOcJD7ICKpkBp0wz1RMvebw,824
+bangladesh/models/udd.py,sha256=otL9NLCYBJFwm01hjUu296d3DFQuJlqpHpnnVc6uVm0,498
+bangladesh/models/upazila.py,sha256=lO0S4IzWoY98lnuFa6FzedawLdw1_3Q7MfJ0hURhwHs,465
+bangladesh-0.0.6.dist-info/LICENSE,sha256=98Ktwgp9qzxd63DkTF-sSUZNU9mGSCz-n8nbkFiq0UY,1072
+bangladesh-0.0.6.dist-info/METADATA,sha256=5FAT-QHp2tSzcLeznTIL8KHyG_S-mCW8a06q0vkrd2A,549
+bangladesh-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bangladesh-0.0.6.dist-info/top_level.txt,sha256=frZ07G4sPJHvdYwYu6bv-2-DHPr83Det9YTBk9cMjm0,11
+bangladesh-0.0.6.dist-info/RECORD,,
