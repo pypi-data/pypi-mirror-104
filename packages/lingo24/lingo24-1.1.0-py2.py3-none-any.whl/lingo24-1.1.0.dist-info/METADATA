@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lingo24
+Version: 1.1.0
+Summary: Client library for the Lingo24 translation API
+Home-page: https://github.com/boltlearning/lingo24
+Author: Bolt Learning
+Author-email: info@boltlearning.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.18)
+
+UNKNOWN
+
+
