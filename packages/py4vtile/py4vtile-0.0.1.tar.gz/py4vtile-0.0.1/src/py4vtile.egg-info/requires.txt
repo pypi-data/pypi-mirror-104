@@ -1,0 +1,6 @@
+mptools
+shapely
+mercantile
+pyproj
+py4web
+mapbox_vector_tile
