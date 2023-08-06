@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/termcontrol/__init__.py
+src/termcontrol/cli.py
+src/termcontrol.egg-info/PKG-INFO
+src/termcontrol.egg-info/SOURCES.txt
+src/termcontrol.egg-info/dependency_links.txt
+src/termcontrol.egg-info/entry_points.txt
+src/termcontrol.egg-info/not-zip-safe
+src/termcontrol.egg-info/top_level.txt
