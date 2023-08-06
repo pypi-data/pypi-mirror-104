@@ -1,0 +1,11 @@
+indeed_mongodb_scrapper/__init__.py,sha256=Ejlok5gjKZ9EPV_SGHEnCVFc8V2_WR8zGAOvymKJ63A,67
+indeed_mongodb_scrapper/__main__.py,sha256=LZgMswMFuS2OISt1RcCgZ3pSo9L3pKn5EWxrC1Oai4w,1068
+indeed_mongodb_scrapper/scraping.py,sha256=PRGm3pFge3mPkoeGY3RGVMZeZSQFMh9qyRhj7a2smF8,7385
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=cUlQpENgi0dy6Yp0nXtm9YN-rxhG-fWrgl3agcIRXsM,56
+indeed_mongodb_scrapper-0.1.0.dist-info/METADATA,sha256=4PWF35UMU_GiJYCR-mssgcELC_N0IaDis_4kAsGjxvo,948
+indeed_mongodb_scrapper-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+indeed_mongodb_scrapper-0.1.0.dist-info/dependency_links.txt,sha256=8de4l95V53i7h8wBVJHusT83ZieK_v3bosCoxolg89Y,69
+indeed_mongodb_scrapper-0.1.0.dist-info/entry_points.txt,sha256=ymqclI_B9QK0aB7cnPM303DoOGdt93nKMwIa1_zTNWA,101
+indeed_mongodb_scrapper-0.1.0.dist-info/top_level.txt,sha256=dY3QLG_vi0crIDUmV7D3zhKb4p0m7x7XGh45_BycSH0,30
+indeed_mongodb_scrapper-0.1.0.dist-info/RECORD,,
