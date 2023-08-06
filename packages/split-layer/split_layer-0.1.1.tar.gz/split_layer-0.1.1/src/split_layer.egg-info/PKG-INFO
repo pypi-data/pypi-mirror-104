@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: split-layer
+Version: 0.1.1
+Summary: Print each layer forward and backward time of PyTorch models.
+Home-page: UNKNOWN
+Author: swordfate
+Author-email: 1317732065@qq.com
+License: UNKNOWN
+Description: Please refer to https://github.com/swordfate/tools .
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
