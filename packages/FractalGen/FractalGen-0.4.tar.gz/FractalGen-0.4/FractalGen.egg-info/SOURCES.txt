@@ -1,0 +1,9 @@
+README.md
+setup.py
+FractalGen/Ifs.py
+FractalGen/__init__.py
+FractalGen.egg-info/PKG-INFO
+FractalGen.egg-info/SOURCES.txt
+FractalGen.egg-info/dependency_links.txt
+FractalGen.egg-info/requires.txt
+FractalGen.egg-info/top_level.txt
