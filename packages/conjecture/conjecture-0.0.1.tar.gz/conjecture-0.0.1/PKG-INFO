@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: conjecture
+Version: 0.0.1
+Summary: A pythonic assertion library
+Author: Daniel Knell
+Author-email: contact@danielknell.co.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
