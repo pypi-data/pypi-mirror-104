@@ -1,0 +1,6 @@
+CompleteTheSquare/__init__.py
+CompleteTheSquare/setup.py
+CompleteTheSquare.egg-info/PKG-INFO
+CompleteTheSquare.egg-info/SOURCES.txt
+CompleteTheSquare.egg-info/dependency_links.txt
+CompleteTheSquare.egg-info/top_level.txt
