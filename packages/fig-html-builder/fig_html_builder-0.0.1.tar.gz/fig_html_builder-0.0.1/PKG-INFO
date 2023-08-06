@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fig_html_builder
+Version: 0.0.1
+Summary: this package is use for creating html by python
+Home-page: https://normidar.com
+Author: normidar
+Author-email: normidar7@gmail.com
+License: UNKNOWN
+Description: 
+        # readme:
+        
+        this is a package to create html with python language
+        though it will be used by myself, also you can use it.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
