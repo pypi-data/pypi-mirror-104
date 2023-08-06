@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: fastmsa
+Version: 0.1
+Summary: FastMSA - full-stack framework for microservice architecture applications
+Home-page: https://github.com/2021-msa-study/fastmsa
+Author: Joseph Kim, Benzamin Yoon
+Author-email: cloudeyes@gmail.com
+License: MIT
+Download-URL: https://github.com/2021-msa-study/fastmsa/archive/v0.2.tar.gz
+Description: # FastMSA
+        
+        Fast Microservices Architecture Framework.
+        
+        [![codecov](https://codecov.io/gh/2021-msa-study/fastmsa/branch/main/graph/badge.svg?token=IKCYRJZRKE)](https://codecov.io/gh/2021-msa-study/fastmsa)
+        [![Build Status](https://travis-ci.com/2021-msa-study/fastmsa.svg?branch=main)](https://travis-ci.com/2021-msa-study/fastmsa)
+        
+        ## Installation
+        
+        ```
+        $ pip install fastmsa
+        ```
+        
+        ## Basic Usages
+        
+        ```
+        $ mkdir testapp && cd testapp
+        $ msa init
+        $ msa run
+        ```
+        
+        ## Framework Architecture
+        
+        ![Framework Architecture Overview](docs/diagrams/out/abstract/overview.svg?raw=true&sanitize=true)
+Keywords: fastmsa,microserviceframework,sqlalchemy,fastapi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
