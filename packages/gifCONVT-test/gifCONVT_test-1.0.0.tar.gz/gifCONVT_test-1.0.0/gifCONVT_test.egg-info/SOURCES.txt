@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+gifCONVT_test/__init__.py
+gifCONVT_test/gif_converter.py
+gifCONVT_test.egg-info/PKG-INFO
+gifCONVT_test.egg-info/SOURCES.txt
+gifCONVT_test.egg-info/dependency_links.txt
+gifCONVT_test.egg-info/not-zip-safe
+gifCONVT_test.egg-info/requires.txt
+gifCONVT_test.egg-info/top_level.txt
