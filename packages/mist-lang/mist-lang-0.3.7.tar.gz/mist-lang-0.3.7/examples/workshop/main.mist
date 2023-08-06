@@ -1,0 +1,14 @@
+include "searchDomains" "filterRepeated" 
+include "wpscan.mist"
+#import "./wpscan.py"
+
+function save(r) {
+    if (r.result) {
+        print("[INFO] Wordpress found at", r.wpinfo.target_url)
+        url = r.wpinfo.target_url
+        fields = url.split("/")
+        writeLine("{fields[2]}.json", r.consoleOutput)
+    }
+}
+
+searchDomains(%domain) => filterRepeated(False) => wpscan() => save()
