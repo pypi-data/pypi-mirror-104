@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/plateypus.egg-info/PKG-INFO
+src/plateypus.egg-info/SOURCES.txt
+src/plateypus.egg-info/dependency_links.txt
+src/plateypus.egg-info/entry_points.txt
+src/plateypus.egg-info/top_level.txt
