@@ -1,0 +1,16 @@
+DMCGui
+DMCGui\src
+DMCGui\src\build
+DMCGui\src\build\settings
+DMCGui\src\main
+DMCGui\src\main\icons
+DMCGui\src\main\icons\base
+DMCGui\src\main\icons\linux
+DMCGui\src\main\icons\mac
+DMCGui\src\main\python
+DMCGui\src\main\python\Views
+DMCGui\src\main\resources
+DMCGui\src\main\resources\base
+DMCGui\src\main\resources\base\Icons
+DMCGui\src\main\resources\base\Icons\Own
+DMCGui\src\main\resources\base\Views

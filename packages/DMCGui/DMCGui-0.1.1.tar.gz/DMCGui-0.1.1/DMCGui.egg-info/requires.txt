@@ -1,0 +1,5 @@
+pip>=20
+sip>=5.3
+PyQt5-sip
+PyQt5
+DMCPy>=0.1.4
