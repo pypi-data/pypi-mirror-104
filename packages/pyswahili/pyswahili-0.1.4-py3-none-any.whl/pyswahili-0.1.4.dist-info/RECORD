@@ -1,0 +1,11 @@
+pyswahili/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyswahili/__main__.py,sha256=BAb2qFooTgNm0OOm1WckywyREpu52kh0UpYB0-_YUkA,1221
+pyswahili/repl.py,sha256=lWxTOpcUNheaxT3BdgSwdaRhvWw7u8jz90qfvJNL0dk,5997
+pyswahili/sw_to_en.py,sha256=puqWmb6dRKR8EprjntDd63nCSVpdlUt764nDmtj0G98,1345
+pyswahili/swahili_node.py,sha256=ysLjjN7c8OUralu3h_68ik6JS6TDjm5sA0BZJWsCewA,1771
+pyswahili-0.1.4.dist-info/LICENSE,sha256=lrgDXhyyXVkeJCgc8-FKZNMLyal09CMDwN-c1QOgKxM,1070
+pyswahili-0.1.4.dist-info/METADATA,sha256=uAPfAtJUT8axO6LiVIum7HUJlWy6cw-JKwSkX3lssEU,7381
+pyswahili-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyswahili-0.1.4.dist-info/entry_points.txt,sha256=wn8EzzQPTt5-3yfu2vZ1MGnTdWSJ76uFFgDZvvZbhhs,55
+pyswahili-0.1.4.dist-info/top_level.txt,sha256=lVDLY07M4tkNkPVO7FCiuk-UFR4hW09mNbb9EW-YW-s,10
+pyswahili-0.1.4.dist-info/RECORD,,
