@@ -1,0 +1,9 @@
+cv2
+numpy
+pandas
+PyPDF2
+pdfplumber
+xlrd
+docx2text
+pytesseract
+PIL
