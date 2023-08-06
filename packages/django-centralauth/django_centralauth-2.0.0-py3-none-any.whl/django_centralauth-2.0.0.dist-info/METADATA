@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: django-centralauth
+Version: 2.0.0
+Summary: App for managing user access and permissions from multiple projects.
+Home-page: https://github.com/lenarother/django-centralauth
+License: MIT
+Author: Magdalena Rother
+Author-email: rother.magdalena@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Django (>=2.2)
+Requires-Dist: Sphinx (>=3.5); extra == "docs"
+Requires-Dist: django-oauth-toolkit (>=1.5)
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: requests (>=2.25)
+Requires-Dist: requests-oauthlib (>=1.3)
+Project-URL: Repository, https://github.com/lenarother/django-centralauth
+Description-Content-Type: text/x-rst
+
+django-centralauth
+==================
+
+.. image:: https://img.shields.io/pypi/v/django-centralauth.svg
+   :target: https://pypi.org/project/django-centralauth/
+   :alt: Latest Version
+
+.. image:: https://github.com/lenarother/django-centralauth/workflows/Test/badge.svg?branch=master
+   :target: https://github.com/lenarother/django-centralauth/actions?workflow=Test
+   :alt: CI Status
+
+.. image:: https://codecov.io/gh/lenarother/django-centralauth/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/lenarother/django-centralauth
+   :alt: Coverage Status
+
+.. image:: https://readthedocs.org/projects/django-centralauth/badge/?version=latest
+   :target: https://django-centralauth.readthedocs.io/en/stable/?badge=latest
+   :alt: Documentation Status
+
+
+django-centralauth solves the problem of managing user access and permissions
+from multiple projects in one central place.
+
+
+Features
+--------
+
+* based on OAuth2 standard.
+* provider app to set up your own user-management application.
+* client app for delegating authentication and permissions management to provider.
+
+
+Requirements
+------------
+
+django-centralauth supports Python 3 only and requires at least Django 2. and django-oauth-toolkit.
+
+
+Prepare for development
+-----------------------
+
+.. code-block:: shell
+
+    $ poetry install
+
+
+Now you're ready to run the tests:
+
+.. code-block:: shell
+
+    $ poetry run py.test
+
+
+Resources
+---------
+
+* `Documentation <https://django-centralauth.readthedocs.io>`_
+* `Bug Tracker <https://github.com/moccu/django-centralauth/issues>`_
+* `Code <https://github.com/moccu/django-centralauth/>`_
+
