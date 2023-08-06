@@ -1,0 +1,9 @@
+**/*.egg-info
+**.pyc
+**/.eggs
+**/venv
+**/__pycache__
+**.coverage
+**/build
+**/dist
+**/README

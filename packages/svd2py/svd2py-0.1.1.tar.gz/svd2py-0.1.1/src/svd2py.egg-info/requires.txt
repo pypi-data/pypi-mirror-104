@@ -1,0 +1,7 @@
+
+[tests]
+pyyaml
+pytest
+pytest-sugar
+pytest-cov
+pytest-clarity
