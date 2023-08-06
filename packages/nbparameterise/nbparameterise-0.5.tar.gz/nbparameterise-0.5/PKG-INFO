@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: nbparameterise
+Version: 0.5
+Summary: Re-run a notebook substituting input parameters in the first cell.
+Home-page: None
+Author: None
+Author-email: Thomas Kluyver <thomas@kluyver.me.uk>
