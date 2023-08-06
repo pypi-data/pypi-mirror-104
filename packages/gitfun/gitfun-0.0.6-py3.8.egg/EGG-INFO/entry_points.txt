@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gitfun=cli_main:cli
+    
