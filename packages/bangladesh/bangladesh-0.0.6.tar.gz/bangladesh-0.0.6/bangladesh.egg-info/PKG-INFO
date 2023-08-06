@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bangladesh
+Version: 0.0.6
+Summary: A python package For Bangladesh information (District, Division, Thana, post code and etc)
+Home-page: https://github.com/Druvo
+Author: zhdruvo (Zahid Hasan)
+Author-email: <zhdruvo@gmail.com>
+License: MIT License
+Description: 
+        Bangladesh information like District, Division, Thana, post code etc. This package allows you to direct use those data into the python code.Under construction! Not ready for use yet! Currently experimenting and planning! Developed by Zahid Hasan (c) 2021 (Alpha Version)
+        
+Keywords: Bangladesh,District,Division,Thana,post code,Bangladesh District,Division District
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
