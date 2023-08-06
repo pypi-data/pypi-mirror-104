@@ -1,0 +1,3 @@
+[console_scripts]
+kolore=kolore.main:main
+
