@@ -1,0 +1,6 @@
+wasabi
+
+[test]
+pytest
+coverage
+pytest-cov
