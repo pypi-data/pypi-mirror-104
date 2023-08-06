@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Py-OMA
+Version: 1.1
+Summary: PyOMA allows the experimental estimation of the modal parameters (natural frequencies, mode shapes, damping ratios) of a structure from measurements of the vibration response in operational condition.
+Home-page: https://github.com/dagghe/PyOMA/tree/master/source
+Author: Dag Pasquale Pasca, Angelo Aloisio, Lorenzo De Lauretis
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/dagghe/PyOMA/archive/refs/tags/v1.1.tar.gz
+Keywords: OMA,structure
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: mplcursors
+
+UNKNOWN
+
+
