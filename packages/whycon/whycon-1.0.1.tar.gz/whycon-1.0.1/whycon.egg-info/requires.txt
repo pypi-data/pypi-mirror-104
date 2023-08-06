@@ -1,0 +1,4 @@
+numpy
+pybind11
+pkgconfig
+opencv-python>=4.5.1

@@ -1,0 +1,60 @@
+%YAML:1.0
+---
+# Dimensions
+dim_x: 1.
+dim_y: 1.
+# 2D calibration
+hom: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 0., 0., 0., 0., 0., 0., 0., 0., 1. ]
+# 3D calibration
+# D3transform 0
+offset_0: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: f
+   data: [ 1.73937345e+00, -1.88192502e-02, -5.96403837e-01 ]
+simlar_0: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ -1.48744583e+00, -7.71671891e-01, 3.61364335e-02,
+       9.14815485e-01, 1.56689882e-01, 8.83778095e-01, -6.87648952e-01,
+       1.34763026e+00, 4.72869664e-01 ]
+# D3transform 1
+offset_1: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: f
+   data: [ 1.29484439e+00, -4.32863772e-01, -6.28551468e-02 ]
+simlar_1: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 5.72630405e-01, 6.14982009e-01, -9.19914484e-01,
+       9.14815485e-01, 1.56689808e-01, 8.83778095e-01, 6.87648892e-01,
+       -1.34763026e+00, -4.72869754e-01 ]
+# D3transform 2
+offset_2: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: f
+   data: [ 1.90398502e+00, -2.88868546e-01, 4.12587821e-01 ]
+simlar_2: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 0., 0., 0., 0., 0., 0., 0., 0., 0. ]
+# D3transform 3
+offset_3: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: f
+   data: [ 1.90398502e+00, -2.88868546e-01, 4.12587821e-01 ]
+simlar_3: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: f
+   data: [ 0., 0., 0., 0., 0., 0., 0., 0., 0. ]
