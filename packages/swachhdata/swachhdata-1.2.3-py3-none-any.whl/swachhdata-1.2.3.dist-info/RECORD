@@ -1,0 +1,13 @@
+swachhdata/__init__.py,sha256=TJ8zbWjjE6DkkbTjlTNH8Zlu06vDWG4MNNNVL--Esf4,21
+swachhdata/image/__init__.py,sha256=HLTDTa6s6NIfF38ZSwVQyEUZTUOQq_lAYo8Yxh3Gq7I,91
+swachhdata/image/_image.py,sha256=E82que2d14SOwpwDAwABzJCY6KofqxMOITWOa5mmtUw,7262
+swachhdata/legacy/__init__.py,sha256=OMxy48FpAsZ-u4bMcElkMn2ITuiCOc-53ZzO1prpfV4,163
+swachhdata/legacy/_text.py,sha256=BOTDMNM0HMUqDHxFPCZYW5fP4l4PuA3kDckiIby0Zdk,17614
+swachhdata/text/__init__.py,sha256=EcyJKSA8itYdXiLGYTvepsVy4m-_LRQWaBVwHDmBncA,1081
+swachhdata/text/_base.py,sha256=B_PT-FaFhZZ1cyn8-gkePGNgHDJwqlN_clCFZdmDJMA,1059
+swachhdata/text/_text.py,sha256=L9kj5Y8KqZ17XTsD39IKkGWD_M8_o5ezaebUzef7q-4,104391
+swachhdata-1.2.3.dist-info/LICENSE.txt,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+swachhdata-1.2.3.dist-info/METADATA,sha256=6FngCc0LZMATm92-Wy9SgGIkJ_AqeukX86cwrYZtuJM,2618
+swachhdata-1.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+swachhdata-1.2.3.dist-info/top_level.txt,sha256=UPLFTkg5MwIkJLZzEOsLnndE5jByl-BGbZ0_Z40oq0Y,11
+swachhdata-1.2.3.dist-info/RECORD,,
