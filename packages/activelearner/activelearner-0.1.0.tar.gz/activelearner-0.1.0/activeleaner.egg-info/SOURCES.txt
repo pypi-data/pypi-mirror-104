@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+activeleaner.egg-info/PKG-INFO
+activeleaner.egg-info/SOURCES.txt
+activeleaner.egg-info/dependency_links.txt
+activeleaner.egg-info/top_level.txt
+activelearner/__init__.py
