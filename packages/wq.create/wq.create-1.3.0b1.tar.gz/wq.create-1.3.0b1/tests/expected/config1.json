@@ -1,0 +1,26 @@
+{
+    "site_title": "test Project",
+    "pages": {
+        "index": {
+            "url": "",
+            "name": "index",
+            "verbose_name": "test Project",
+            "show_in_index": false
+        },
+        "login": {
+            "name": "login",
+            "url": "login"
+        },
+        "logout": {
+            "name": "logout",
+            "url": "logout"
+        }
+    },
+    "router": {
+        "base_url": ""
+    },
+    "store": {
+        "service": "",
+        "defaults": {"format": "json"}
+    }
+}
