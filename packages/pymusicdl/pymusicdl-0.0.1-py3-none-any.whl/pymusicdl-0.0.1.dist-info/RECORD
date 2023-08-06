@@ -1,0 +1,11 @@
+pymusicdl/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+pymusicdl/musicDL.py,sha256=U5cz7HiGsPBgDHrGMKpycpcQzRis85wKUsS-XW5hMDU,3154
+pymusicdl/modules/__init__.py,sha256=3s9l01fcMh74EYMQ18qrON9daE5YSZw1uKme984A0F8,39
+pymusicdl/modules/common.py,sha256=4FKiLiyTpjUPrGzoK-gXUzs-OcM5G6h5CdPoDlh8j9k,5107
+pymusicdl/modules/spotify_downloader.py,sha256=zUS7UHAsLlEUz5cO-LKwireN_sKaL3ewVitWPqipRTE,7171
+pymusicdl/modules/ytDownloader.py,sha256=c3KmD1q1MNgve6sooZXuIVuk6V-WFNQMx-o9oIAHGDM,5987
+pymusicdl-0.0.1.dist-info/LICENSE,sha256=_jjTpQuUlDzSoOvjvTLNgZloj4G5OcdZTkHDOXH_x2w,1068
+pymusicdl-0.0.1.dist-info/METADATA,sha256=cTDO4g47qNqVSZvG3wOe-r4xfdS39D4-GLON9yJU0vs,1191
+pymusicdl-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymusicdl-0.0.1.dist-info/top_level.txt,sha256=f_wQrT82wSOKCdP5H5pMScANj1bFf6BtEHwEuCozKTs,10
+pymusicdl-0.0.1.dist-info/RECORD,,
