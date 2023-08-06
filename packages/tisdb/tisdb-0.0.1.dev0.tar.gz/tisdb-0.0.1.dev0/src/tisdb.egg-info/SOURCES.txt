@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/tisdb/__init__.py
+src/tisdb.egg-info/PKG-INFO
+src/tisdb.egg-info/SOURCES.txt
+src/tisdb.egg-info/dependency_links.txt
+src/tisdb.egg-info/requires.txt
+src/tisdb.egg-info/top_level.txt
