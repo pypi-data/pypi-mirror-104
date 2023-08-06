@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+uking_saves/__init__.py
+uking_saves/gamedata.json
+uking_saves.egg-info/PKG-INFO
+uking_saves.egg-info/SOURCES.txt
+uking_saves.egg-info/dependency_links.txt
+uking_saves.egg-info/top_level.txt
