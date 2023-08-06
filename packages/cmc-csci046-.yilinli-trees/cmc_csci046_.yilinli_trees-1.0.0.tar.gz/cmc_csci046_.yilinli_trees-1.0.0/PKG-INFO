@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cmc_csci046_.yilinli_trees
+Version: 1.0.0
+Summary: Implement efficent data structures
+Home-page: https://github.com/yilinli22/homework8/
+Author: Yilin Li
+Author-email: yilli@students.pitzer.edu
+License: MIT
+Description: # containers unicode
+        
+        Build status:
+        
+        1. [![](https://github.com/yilinli22/homework8/workflows/tests-unicode/badge.svg)](https://github.com/yilinli22/homework8/actions?query=workflow%3Atests-unicode)
+        1. [![](https://github.com/yilinli22/homework8/workflows/tests-Heap/badge.svg)](https://github.com/yilinli22/homework8/actions?query=workflow%3Atests-Heap)
+        
+        # Package Description
+        
+        This package includes csci046-data structures class work. Codes include Heap, AVLTree, BinaryTree, BST and more.
+        
+        You can download the 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
