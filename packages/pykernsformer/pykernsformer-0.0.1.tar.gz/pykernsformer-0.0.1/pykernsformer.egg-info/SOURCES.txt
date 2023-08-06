@@ -1,0 +1,6 @@
+setup.py
+pykernsformer.egg-info/PKG-INFO
+pykernsformer.egg-info/SOURCES.txt
+pykernsformer.egg-info/dependency_links.txt
+pykernsformer.egg-info/requires.txt
+pykernsformer.egg-info/top_level.txt
