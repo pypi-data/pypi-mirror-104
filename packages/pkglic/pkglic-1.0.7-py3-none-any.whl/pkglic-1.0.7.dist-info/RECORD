@@ -1,0 +1,11 @@
+pkglic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkglic/authinfo.py,sha256=rYJesEQb0sgRdY2Zz4JD6WYJJfGNNhGJ6rVk2H_FaZQ,72
+pkglic/creditstemplate.txt,sha256=gwtPfzCvZE2DW2Ntxnb8PXevk29vP3vuabAV2M3Zgjo,669
+pkglic/pkglic.py,sha256=284G1BfVqluTodlMwqM6wnWfdqxQEaUsR_sCHi0nfa8,23419
+pkglic-1.0.7.dist-info/LICENSE,sha256=uVkUgb8Fm807hRM8TNKNSEDeASXNej7OQxiStRIars0,1093
+pkglic-1.0.7.dist-info/METADATA,sha256=KqouNtig-edQyYT_1EERhk2BVr3XI9_DQx-Z3aAh3PU,9907
+pkglic-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pkglic-1.0.7.dist-info/entry_points.txt,sha256=0qjwTUWkrO2SYpsV6Bzyw-nNmt7S9ZyRnUff-rhcDRs,47
+pkglic-1.0.7.dist-info/top_level.txt,sha256=D8GYIm7o3ySLS2AwKf1utMq6Pns2FsMnYbMhHVQvglA,7
+pkglic-1.0.7.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pkglic-1.0.7.dist-info/RECORD,,
