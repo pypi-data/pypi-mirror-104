@@ -1,0 +1,3 @@
+[console_scripts]
+fixman = fixman.cli:main_command
+
