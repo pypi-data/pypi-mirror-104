@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+timeseries_feature_engineering/__init__.py
+timeseries_feature_engineering/_nbdev.py
+timeseries_feature_engineering/core.py
+timeseries_feature_engineering.egg-info/PKG-INFO
+timeseries_feature_engineering.egg-info/SOURCES.txt
+timeseries_feature_engineering.egg-info/dependency_links.txt
+timeseries_feature_engineering.egg-info/entry_points.txt
+timeseries_feature_engineering.egg-info/not-zip-safe
+timeseries_feature_engineering.egg-info/requires.txt
+timeseries_feature_engineering.egg-info/top_level.txt
