@@ -1,0 +1,6 @@
+youtube-search-python
+youtube_dl
+tinytag
+unidecode
+termcolor
+colorama
