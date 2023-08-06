@@ -1,0 +1,28 @@
+# py-slippi-stats
+
+This program is an attempt at recreating the Slippi [stats](https://github.com/project-slippi/slippi-js/tree/master/src/stats) module of the original Slippi javascript package using [py-slippi](https://github.com/hohav/py-slippi). Most of it is just a translation of the slippi-js to python.
+
+## Installation
+
+Steps:
+
+1. (Optional) Create a virtual environment and activate it. On Windows, this should work:
+
+        py -m venv my-python-env
+        source my-python-env/Scripts/activate
+
+2. Run the following command to install py-slippi-stats:
+
+        pip install py-slippi-stats
+
+## Usage
+
+Here is a basic example of usage:
+
+    import slippi
+    import slippistats
+
+    game = slippi.Game('mygame.slp')
+    stats = slippistats.overall.getGameStats(game)
+
+    print(stats)
