@@ -1,0 +1,7 @@
+cffi>=1.0.0
+dbfread
+fastparquet
+geocoder
+pandas
+pyarrow
+requests
