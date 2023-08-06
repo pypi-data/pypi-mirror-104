@@ -1,0 +1,10 @@
+Cython
+matplotlib
+numpy
+pandas
+Pillow>=8.1.1
+pycocotools
+seaborn
+tqdm
+setuptools>=40.6.3
+wheel>=0.32.3
