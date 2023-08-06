@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: snec
+Version: 0.1.0
+Summary: A simple network client library
+License: MIT
+Author: peder2911
+Author-email: pglandsverk@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
