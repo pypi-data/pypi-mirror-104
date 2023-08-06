@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: til-cli
+Version: 0.1.0
+Summary: Keep track of things you learn each day
+Author: Kamyar Ghasemlou
+Author-email: github@kamy.me
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
