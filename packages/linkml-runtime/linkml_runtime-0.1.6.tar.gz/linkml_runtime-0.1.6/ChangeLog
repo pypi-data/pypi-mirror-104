@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.1.6
+------
+
+* Redirect the old \`\_normalize\_inlined\` function to the new code
