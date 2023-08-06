@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rustplus
+Version: 1.1.1
+Summary: A python wrapper for the Rust Plus API
+Home-page: https://github.com/olijeffers0n/rustplus
+Author: olijeffers0n
+Author-email: pleaseUseMyDiscord@Please.com
+License: MIT
+Project-URL: Issue tracker, https://github.com/olijeffers0n/rustplus/issues
+Description: # Rust+ Api Wrapper Written in Python
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
