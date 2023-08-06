@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sphinx_theme_builder
+Version: 0.1.0.dev0
+Summary: A tool for authoring Sphinx themes with a simple (opinionated) workflow.
+Author-email: Pradyun Gedam <mail@pradyunsg.me>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Framework :: Sphinx
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://sphinx-theme-builder.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/pradyunsg/sphinx_theme_builder
+Provides-Extra: doc
+Provides-Extra: test
+
+# sphinx-theme-builder
+
+A tool for authoring Sphinx themes with a simple (opinionated) workflow.
+
