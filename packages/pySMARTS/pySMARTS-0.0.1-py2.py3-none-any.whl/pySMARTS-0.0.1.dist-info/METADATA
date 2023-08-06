@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pySMARTS
+Version: 0.0.1
+Summary: Python wrapper for SMARTS2, Simple Model of the Atmospheric Radiative Transfer of Sunshine
+Home-page: https://github.com/NREL/pySMARTS
+Author: Silvana Ayala
+Author-email: silvana.ayala@nrel.gov
+License: BSD-3
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm (>=4.32.1)
+
+<img src="docs/images/py-SMARTS.PNG" width="400">
+
+
