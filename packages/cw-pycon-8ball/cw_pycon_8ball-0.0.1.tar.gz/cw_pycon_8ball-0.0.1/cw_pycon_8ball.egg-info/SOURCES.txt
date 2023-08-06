@@ -1,0 +1,12 @@
+setup.py
+bin/8
+bin/8ball
+bin/ball
+cw_pycon_8ball/__init__.py
+cw_pycon_8ball/__main__.py
+cw_pycon_8ball/words.txt
+cw_pycon_8ball.egg-info/PKG-INFO
+cw_pycon_8ball.egg-info/SOURCES.txt
+cw_pycon_8ball.egg-info/dependency_links.txt
+cw_pycon_8ball.egg-info/entry_points.txt
+cw_pycon_8ball.egg-info/top_level.txt
