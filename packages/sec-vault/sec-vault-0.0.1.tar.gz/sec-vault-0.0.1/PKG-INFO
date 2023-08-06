@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: sec-vault
+Version: 0.0.1
+Summary: Password management CLI
+Home-page: https://github.com/siddharths2710/sec-vault
+Author: Siddharth Srinivasan
+Author-email: siddharths2710@yahoo.com
+Maintainer: Siddharth Srinivasan
+Maintainer-email: siddharths2710@yahoo.com
+License: GPLv3
+Project-URL: issue_tracker, https://github.com/siddharths2710/sec-vault/issues
+Project-URL: download_url, https://github.com/siddharths2710/sec-vault
+Description: # sec-vault
+        ## Overview
+        `sec-vault` is a SWISS army knife toolkit for in-house password management which provides interfaces for experts 
+        who wish to have a more granular control on choosing external
+        - cipher suites and primitives
+        - cryptographic libraries 
+        - toolkits/utilities of their choice
+        
+        > **Note:** Use this password management solution at your own risk. I do not claim any responsibility towards the use of this software.
+        > The strength of the files in the vault is determined by the cipher suite incorporated along with the cryptographic primitives used to configure
+        > the same. Unless you are technically adept, please avoid using this program at all costs.
+Keywords: sec-vault,password manager,cryptography,security
+Platform: Linux
+Platform: MacOS X
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
