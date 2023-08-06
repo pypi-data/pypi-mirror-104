@@ -1,0 +1,5 @@
+pandas
+config2
+notion
+notion_as_db
+ncloud_server
