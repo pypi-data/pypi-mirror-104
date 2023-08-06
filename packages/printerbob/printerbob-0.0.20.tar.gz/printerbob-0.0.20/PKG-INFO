@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: printerbob
+Version: 0.0.20
+Summary: printerbob
+Home-page: UNKNOWN
+Author: printerbob
+Author-email: bob-tester@temp-mail.cloud
+License: GPLv3
+Description: Long printer bob
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
