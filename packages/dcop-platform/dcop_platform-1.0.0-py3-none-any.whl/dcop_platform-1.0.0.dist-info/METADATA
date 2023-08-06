@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dcop-platform
+Version: 1.0.0
+Summary: dcop-platform
+Home-page: UNKNOWN
+Author: Klaus Mecial
+Author-email: 1119066214@qq.com
+License: Apache2.0
+Platform: UNKNOWN
+Requires-Dist: requests
+
+dcop-platform 666
+
+
