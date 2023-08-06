@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+awesome_caching/__init__.py
+awesome_caching/cache.py
+awesome_caching.egg-info/PKG-INFO
+awesome_caching.egg-info/SOURCES.txt
+awesome_caching.egg-info/dependency_links.txt
+awesome_caching.egg-info/top_level.txt
+awesome_caching.egg-info/zip-safe
