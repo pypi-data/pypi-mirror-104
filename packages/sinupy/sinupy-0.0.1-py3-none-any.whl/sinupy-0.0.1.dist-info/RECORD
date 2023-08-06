@@ -1,0 +1,13 @@
+sinupy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sinupy/algebra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sinupy/algebra/dispersion.py,sha256=m-ihaIvNC40sO9g3jpa-FqdPZEgMp6Pi08TsNd5NrSY,4887
+sinupy/algebra/draw.py,sha256=P06qNwKflX0NQWN1QvBhbEb5QapO6YvmsONdgCPqqKs,1779
+sinupy/algebra/parameter.py,sha256=ryBzS7tGO0VcG6vH4qtohb8RTlPgTfFPIuEQzVcDExw,1640
+sinupy/algebra/quadratic.py,sha256=_rxiHHXIQZlxp-kADmuO6Bv0ihPwbO8qv8FVdp_9SvI,4460
+sinupy/algebra/tensor.py,sha256=b40Qh4qw9L4zDOjnoR9GjSsQps-kGo1wHvDm5yocYNE,904
+sinupy/algebra/utility.py,sha256=uXXxPxwnXO2HZGPiQAPK99ER-MJjF4O7wyvpAbgt07E,5804
+sinupy-0.0.1.dist-info/LICENSE,sha256=d3W5lpMYsHQFRC46yaD0U9klsvIlh7kJ2-I25lWzqtY,1066
+sinupy-0.0.1.dist-info/METADATA,sha256=dB4e-duWcEe3sgp-ow7_cCtn6c8XrUaN-Oyl39xk48g,1074
+sinupy-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sinupy-0.0.1.dist-info/top_level.txt,sha256=sLCay14Zt4cKJVQr4yHHD9Ea9HfcYwXVcvLVbsBlZrg,7
+sinupy-0.0.1.dist-info/RECORD,,
