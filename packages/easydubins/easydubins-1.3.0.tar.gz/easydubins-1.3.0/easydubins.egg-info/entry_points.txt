@@ -1,0 +1,3 @@
+[console_scripts]
+easydubins = easydubins.__main__:main
+
