@@ -1,0 +1,10 @@
+pygamess/__init__.py,sha256=vS4N9njW9IU5YPw-pERYA6z69r1i1sqtXRLOkmhEGF0,154
+pygamess/__main__.py,sha256=g28R6QvYeOknmpG1DI1gL1wjqClq9UPB4Fe90s9q2sU,1886
+pygamess/email.py,sha256=a9NH6Iu6eZCEMBcRja4yuaT4rOkKKte8GjHi9P8CCls,1112
+pygamess/gamess.py,sha256=yQRYOuMX84P5YbQiwDMSuPxq_-LuPZZOmc1EVj-cf5s,17174
+pygamess/gamout_parser.py,sha256=1XGa-17g6tnsqsqsi_6Gs9eUfXlf3qWICibgUmjWXao,4934
+pygamess/pygamess_utils.py,sha256=UFKdOOPJHwFBtRVxFJSoVBy1Mb_5nCft0CUSNc7_9dc,264
+pygamess-0.6.0.dist-info/METADATA,sha256=7bSXCfsDpDzygn7D80LrzYtrtjh6pwLa8y0R8H2j02g,9775
+pygamess-0.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pygamess-0.6.0.dist-info/top_level.txt,sha256=_5OSBi0fEl32w_RT0okNJgUsn-W9xczHwQFoxtUYJfs,9
+pygamess-0.6.0.dist-info/RECORD,,
