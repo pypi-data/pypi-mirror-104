@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/storedsecrets/__init__.py
+src/storedsecrets.egg-info/PKG-INFO
+src/storedsecrets.egg-info/SOURCES.txt
+src/storedsecrets.egg-info/dependency_links.txt
+src/storedsecrets.egg-info/top_level.txt
