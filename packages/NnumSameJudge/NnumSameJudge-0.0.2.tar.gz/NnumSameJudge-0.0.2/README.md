@@ -1,0 +1,1 @@
+This project obeys GPL licens,please not use it in profit bussiness with closed source,or you will be sued.

@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/NnumSameJudge.egg-info/PKG-INFO
+src/NnumSameJudge.egg-info/SOURCES.txt
+src/NnumSameJudge.egg-info/dependency_links.txt
+src/NnumSameJudge.egg-info/top_level.txt
