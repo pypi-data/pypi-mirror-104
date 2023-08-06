@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygluehome/__init__.py
+src/pygluehome/api.py
+src/pygluehome/lock.py
+src/pygluehome.egg-info/PKG-INFO
+src/pygluehome.egg-info/SOURCES.txt
+src/pygluehome.egg-info/dependency_links.txt
+src/pygluehome.egg-info/top_level.txt
