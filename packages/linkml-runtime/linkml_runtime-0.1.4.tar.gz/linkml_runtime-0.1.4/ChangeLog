@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.1.4
+------
+
+* Re-add shex\_results\_as\_string to formatutils.py
