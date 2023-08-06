@@ -1,0 +1,11 @@
+lingpy
+
+[dev]
+flake8
+wheel
+twine
+
+[test]
+pytest>=4.3
+pytest-cov
+coverage>=4.2
