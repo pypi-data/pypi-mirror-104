@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "marleu_emr"
+version = "0.1.3"
+description = "Deployment tool for EMR"
+license = "MIT"
+authors = ["Martin Leuthold"]
+readme = "README.md"
+repository = "https://github.com/mleuthold/python-tooling"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25"
+paramiko = "^2.7"
+credstash = "^1.17"
+cryptography = "3.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+marleu-emr = 'marleu_emr.emr:main'
