@@ -1,0 +1,64 @@
+
+import msg
+
+
+// return random number of the kind:
+// XXX
+genProcId()
+    op rand r 999
+    op floor r r
+    #ref up
+    if r < 100
+        // make sur to be a 3 digit number
+        op mul r r 10
+        jump up
+    return r
+
+
+// get a bot of botType given that is free
+// return false if all of that botType taken or does not exist
+getFreeBot(botType, message)
+    ubind botType
+    set firstBot @unit
+    #ref loop
+    ubind botType // will begin the search for a free bot
+    if @unit == null  // no bot of that botType
+        return false
+
+    sensor flagUnit @unit @flag
+    if flagUnit == 0  // bot is free
+        print "[green] It's free real estate"
+        printflush message
+        return true
+
+    else if @unit == firstBot
+        // we have see all the bots of that botType, no one is free
+        return false
+    jump loop
+
+
+getFreeBotAndFlagIt(botType, procId, message)
+    bot = getFreeBot(botType, message)
+    if bot == false
+        return false
+    ucontrol flag procId null null null null
+    return true
+
+
+// return make one ubind call
+tryTakeOneMoreBot(procId, botType, message)
+    print "[white] need some more bots"
+    printflush message
+    ubind botType  // try to catch one
+    if @unit == null // we no longuer have that kind of bots
+        print "[yellow] no bots of the choosen type anymore, \n"
+        print "you can pick another kind of bot in the instruction 'ubind' at the begining of the programme"
+        msg.printAndWait("", message)
+        return null
+    sensor botFlag @unit @flag
+    if botFlag == 0   // is free
+        ucontrol flag procId null null null null  // tag it
+        print "[green] free bot found !"
+        printflush message
+        return @unit
+    return null

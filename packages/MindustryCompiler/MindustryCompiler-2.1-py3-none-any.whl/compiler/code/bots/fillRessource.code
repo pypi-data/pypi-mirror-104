@@ -1,0 +1,286 @@
+
+
+// select all the ressources to take into a container
+// can change who take it (here @flare)
+// the bot will take ressource to it's max transport capacity
+
+
+import onOff
+import idBots
+import msg
+
+
+set appro container2
+set store container1
+
+set switch switch1
+set message message1
+
+
+// which bot to use
+ubind @flare  // let player choose with bot image the bind
+set botNb 6
+
+
+
+// which ressources to take ?
+// name in french, because it's easier for me to read it in game
+set cuivre false        // @copper
+set plomb false         // @lead
+set silicium false      // @silicon
+set graphite false      // @graphite
+set charbon false       // @coal
+set verreTremp false    // @metaglass
+set titane false        // @titanium
+set thorium false       // @thorium
+set alliageSup false    // @surge-alloy
+set mélangeExplo false  // @blast-compound
+set pyratite false      // @pyratite
+set tissuPhasé false    // @phase-fabric
+set plastanium false    // @plastanium
+set spore false         // @spore-pod
+set sable false         // @sand
+set ferraille false     // @scrap
+
+ressourceList = [
+    (1, cuivre, @copper), (2, plomb, @lead), (3, silicium, @silicon),
+    (4, graphite, @graphite), (5, charbon, @coal), (6, verreTremp, @metaglass),
+    (7, titane, @titanium), (8, thorium, @thorium), (9, alliageSup, @surge-alloy),
+    (10, mélangeExplo, @blast-compound), (11, pyratite, @pyratite),
+    (12, tissuPhasé, @phase-fabric), (13, plastanium, @plastanium),
+    (14, spore, @spore-pod), (15, sable, @sand), (16, ferraille, @scrap),
+]
+
+
+// limite "enougth" at 100 (ps: max container is 300)
+set storeStopQuantity 100
+
+
+// need to go closer if more bots, don't know why
+if botNb == 1
+    set radiusApproche 8
+elif botNb <= 3
+    set radiusApproche 7
+else
+    set radiusApproche 5 // max working radius: 8
+
+
+set coreX null
+set coreY null
+
+
+if appro != null
+    print "[green] appro not null, will replace core to take ressource from"
+    msg.printAndWait(appro, message)
+    // appro position, default to core if null
+    sensor coreX appro @x
+    sensor coreY appro @y
+    set core appro
+
+
+set botOwnedNb 0
+
+// to flag bots with, done only once
+if procId == null
+    procId = idBots.genProcId()
+
+
+#ref noStore
+if store == null
+    print "[yellow] not linked to store\n [white] default: [grey] container1"
+    msg.printAndWait("\n [white] you can change it at starting variables", message)
+    end // will execute again: `set store container1`
+
+
+// store position
+sensor storeX store @x
+sensor storeY store @y
+
+
+set toTake null
+set toTakeTimes 0
+set toTakeId 1
+
+set loopSearchingBots 0
+
+
+if @unit == null  // no bot of that type
+    print "[yellow] no bots of the choosen type, \n"
+    print "you can pick another kind of bot in the instruction 'ubind' at the begining of the programme"
+    msg.printAndWait("", message)
+    end
+
+
+// get core position
+#ref getCorePos
+// require to have a @unite
+if coreX == null
+    msg.printAndWait("looking for core, this is done once", message)
+    ulocate building core false @copper coreX coreY coreFound core
+    if coreFound == false
+        msg.printAndWait("[red] core not found, searching again", message)
+        msg.printAndWait(core, message)
+        msg.printAndWait(coreFound, message)
+        jump getCorePos
+    msg.printAndWait("[green] core found", message)
+
+
+sensor botType @unit @type // get botType
+
+if botNb > 6
+    msg.printAndWait("[red] can't take more than 6 bots\n change parameter 'botNb' to fix it", message)
+    end
+
+
+botList = [bot1, bot2, bot3, bot4, bot5, bot6]
+reverseBotList = [bot6, bot5, bot4, bot3, bot2, bot1]
+
+
+#ref freeBots
+set botOwnedNb 0
+// variable content is keep after end instruction, memory not free
+for ownedBot in botList
+    if ownedBot != null
+        ubind ownedBot
+        ucontrol flag 0 null null null null  // tag it
+        set ownedBot null
+
+set currentOwnedId 1
+
+set reset false
+
+// --- Prog Loop ---
+#ref loop
+
+// switch to turn off
+isOn = onOff.isOn(switch)
+if isOn != true
+    msg.printAndWait("[yellow] process is turn off", message)
+    set reset true // will reset after switch On
+    jump freeBots
+
+if reset == true
+    msg.printAndWait("reset prog", message)
+    end // to reset procId and botOwnedNb
+
+if botOwnedNb < botNb  // need one ?
+    haveNewBot = idBots.tryTakeOneMoreBot(procId, botType, message)
+    if haveNewBot == true
+        op add botOwnedNb botOwnedNb 1
+        for ownedBot in botList
+            if ownedBot == null
+                set ownedBot @unit
+                jump endBotSave
+        #ref endBotSave
+
+// need to take something ?
+if toTakeTimes > 0
+    print "to Take: [grey]"
+    print toTake
+    print " [white]"
+    print toTakeTimes
+    printflush message
+    op sub toTakeTimes toTakeTimes 1
+    sensor stored store toTake
+    if stored < storeStopQuantity  // keep our choice
+        jump keepToTake
+
+toTake, toTakeId = changeToTake(toTakeId, store, storeStopQuantity, message)
+if toTake != null
+    set toTakeTimes 8
+else
+    #ref freeSomeBots
+    // free some bots
+    for ownedBot in reverseBotList
+        if ownedBot != null  // free it
+            ubind ownedBot
+            ucontrol flag 0 null null null null
+            set ownedBot null
+            op sub botOwnedNb botOwnedNb 1
+            jump haveFreeOneBot
+    #ref haveFreeOneBot
+    jump loop
+
+#ref keepToTake
+
+
+for ownedBot in botList
+    if ownedBot == null
+        jump loop
+    ubind ownedBot
+    haveSucceed = fillRessource(core, coreX, coreY, storeX, storeY, store, toTake, radiusApproche, message)
+    if haveSucceed == false // will redo what to take
+        set toTakeTimes 0
+        op sub toTakeTimes toTakeTimes 1
+        jump freeSomeBots
+
+jump loop
+
+
+fillRessource(core, coreX, coreY, storeX, storeY, store, toTake, radiusApproche, message)
+    // sensor on bot load
+    sensor payload @unit @totalItems
+    // sensor loadType @unit @payloadType  // sadly, this does not work, always return null
+    sensor transportedRessource @unit @firstItem  // this work instead
+    if payload > 0 // unload in store
+        if transportedRessource != toTake
+            // drop it a core
+            ucontrol approach coreX coreY radiusApproche null null
+            ucontrol itemDrop core 800 null null null
+        else
+            ucontrol approach storeX storeY radiusApproche null null
+            ucontrol itemDrop store 800 null null null
+    else // empty
+        ucontrol approach coreX coreY radiusApproche null null
+        sensor coreStored core toTake
+        if coreStored > 60 // take it
+            ucontrol itemTake core toTake 800 null null
+        else
+            print "[yellow] not enouth of "
+            print toTake
+            msg.printAndWait(" in base, will take something else", message)
+            return false // <--- will redo what need to be taken
+    return true  // succeed
+
+
+changeToTake(toTakeId, store, storeStopQuantity, message)
+    print "[yellow] process toTake"
+    printflush message
+    set loopingToTake 0
+
+    #ref startToTake
+    op add loopingToTake loopingToTake 1
+
+    // need to change what to take
+    // op add toTakeId toTakeId 1
+    // if toTakeId == 1
+    //     if cuivre == true
+    //         // need it ?
+    //         sensor stored store @copper
+    //         if stored < storeStopQuantity
+    //             set toTake @copper
+    //             jump setTimesToTake
+    //     op add toTakeId toTakeId 1
+
+    // a kind of repeated code, brutal copy/past (no scope)
+    for id, ressource, ressourceType in ressourceList
+        if toTakeId == id
+            op add toTakeId toTakeId 1  // will pass to next ressource even if this one is still needed
+            if ressource == true
+                sensor stored store ressourceType
+                if stored < storeStopQuantity
+                    return ressourceType, toTakeId
+
+    // we have done alls the ifs, back to the start
+    set toTakeId 1
+    // if it repeat
+    // will need a check stuck (bot full that can't unload)
+    // or lower the bot owned for a shot time ?
+    if loopingToTake < 2
+        jump startToTake
+    else
+        print "[red] nothing toTake, is all ressource set to false or store is full ?\n [grey] full is above: "
+        msg.printAndWait(storeStopQuantity, message)
+        return false, toTakeId
+
+jump loop
