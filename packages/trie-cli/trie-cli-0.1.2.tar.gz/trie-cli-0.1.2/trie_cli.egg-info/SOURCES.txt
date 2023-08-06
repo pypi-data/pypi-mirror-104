@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+trie_cli.egg-info/PKG-INFO
+trie_cli.egg-info/SOURCES.txt
+trie_cli.egg-info/dependency_links.txt
+trie_cli.egg-info/entry_points.txt
+trie_cli.egg-info/requires.txt
+trie_cli.egg-info/top_level.txt
+triecli/__init__.py
+triecli/cli.py
