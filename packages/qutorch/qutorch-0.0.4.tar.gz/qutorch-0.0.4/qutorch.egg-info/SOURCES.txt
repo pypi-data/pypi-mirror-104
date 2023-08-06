@@ -1,0 +1,10 @@
+HISTORY.md
+LICENSE
+README.md
+setup.py
+qutorch/__init__.py
+qutorch/q_simulator.py
+qutorch.egg-info/PKG-INFO
+qutorch.egg-info/SOURCES.txt
+qutorch.egg-info/dependency_links.txt
+qutorch.egg-info/top_level.txt
