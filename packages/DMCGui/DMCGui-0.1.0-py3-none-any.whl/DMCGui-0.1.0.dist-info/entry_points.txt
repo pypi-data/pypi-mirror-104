@@ -1,0 +1,3 @@
+[console_scripts]
+DMCGui = DMCGui.src.main.python.MJOLNIR_GUI:main
+
