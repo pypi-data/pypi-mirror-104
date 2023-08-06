@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+xenia_generic/__init__.py
+xenia_generic/col_tex.py
+xenia_generic/id_generator.py
+xenia_generic/object_to_str.py
+xenia_generic/parameter_integrity_check.py
+xenia_generic/strings_functions.py
+xenia_generic.egg-info/PKG-INFO
+xenia_generic.egg-info/SOURCES.txt
+xenia_generic.egg-info/dependency_links.txt
+xenia_generic.egg-info/top_level.txt
