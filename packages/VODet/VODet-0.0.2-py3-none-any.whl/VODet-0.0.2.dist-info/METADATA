@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: VODet
+Version: 0.0.2
+Summary: A simple tool to gather emote analytics from any twitch VOD.
+Home-page: UNKNOWN
+Author: Sabeeh Malik
+Author-email: sabeeh.malik@gmail.com
+License: MIT
+Keywords: twitch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: matplotlib
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: twitch-python
+
+A simple tool to gather emote analytics from any twitch VOD.
+
+Change Log
+==========
+0.0.1 (04/05/2021)
+------------------
+First Release
+
