@@ -1,0 +1,14 @@
+fsps/__init__.py,sha256=PJ4V1voWSoYXGLNNP5gVdHpARoLC7Yd4JkCT_r9dfjQ,543
+fsps/_fsps.cp39-win_amd64.pyd,sha256=gL2HYH0ieWSX76F0D6S_x6W60-toC8yyvCQ8QFCCV8o,91136
+fsps/filters.py,sha256=CObfElm4-N9KOBzOBKrCgQxE0OV-QUbEd5omRqYt3Wo,6031
+fsps/fsps.py,sha256=3DyJQH5cufmySRRyQ9yTFs9tEauRvrjdixwYpDgHF-E,49624
+fsps/fsps_version.py,sha256=OxsSRKWPjf_xsiEUcSCgQqOUTTe9XQ0XWaqvbdzzKhQ,155
+fsps/libsps_vars.YTOET4MF2J2FATIJTGXLZXHHT35EO72I.gfortran-win_amd64.dll,sha256=LVD6-hSr5Ur2PvDZbVbmojao3bFDd6Oa1EmnLFav1CQ,1761239
+fsps/sps_home.py,sha256=ix3EhJ07gh0-w8Mea_7O3vN_CENzN06ezcRNFFcM-ek,608
+fsps/.libs/libsps_vars.YTOET4MF2J2FATIJTGXLZXHHT35EO72I.gfortran-win_amd64.dll,sha256=LVD6-hSr5Ur2PvDZbVbmojao3bFDd6Oa1EmnLFav1CQ,1761239
+fsps-0.4.1rc1.dist-info/AUTHORS.rst,sha256=1iZsbkBwz-C4-hSiSvScTefyix9uqm2Srn1q0udDn-s,208
+fsps-0.4.1rc1.dist-info/LICENSE.rst,sha256=Pl1D02w3LyC9BLvLWUn6aUcQjTVfcYjH4SXmWUFoZsc,1090
+fsps-0.4.1rc1.dist-info/METADATA,sha256=PmeEcjZfBslU0R8V2ooRPSU1ifA55m9DAtjAZpBp2cM,1068
+fsps-0.4.1rc1.dist-info/WHEEL,sha256=jr7ubY0Lkz_yXH9FfFe9PTtLhGOsf62dZkNvTYrJINE,100
+fsps-0.4.1rc1.dist-info/top_level.txt,sha256=LwBSaZRawmDtNTDyraDT1T9khhKcixzXScM6w5sSI_E,5
+fsps-0.4.1rc1.dist-info/RECORD,,
