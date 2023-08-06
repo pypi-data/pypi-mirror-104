@@ -1,0 +1,10 @@
+Emailer/VERSION,sha256=DQDDdTnwoDUIqpAvCrWK3Hll8fRVSxGFWcwh9esO36E,5
+Emailer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Emailer/core.py,sha256=ugihuILv5RJyDZgnw0r829M3OZ0Gkk8CzhkYjqkfs8A,1026
+Emailer/template_types.py,sha256=5Z4wV7dj3cgVzZgbcbAnsgi2thXPuuiAuzyysLsJpnQ,55
+Emailer/version.py,sha256=7k8WHs89v8UriEEQ-vpquqW0iNbHY4bK1P9i04oM8Fc,278
+Emailer-1.1.dist-info/LICENSE.md,sha256=bnE-LZm5c2jEsitSr1dxV8YlSrVKYBFWZzxBeGMD69o,1078
+Emailer-1.1.dist-info/METADATA,sha256=vuhA4OBBBfb6Kccy_rc85B3QZum8arktlT4eUFKZvfM,2232
+Emailer-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Emailer-1.1.dist-info/top_level.txt,sha256=92yJUv07YdjzLUztAiW5x7YjJizgp2lI3Abf2x49aS4,8
+Emailer-1.1.dist-info/RECORD,,
