@@ -1,0 +1,7 @@
+setup.py
+zqadd/__init__.py
+zqadd/zqadd.py
+zqadd.egg-info/PKG-INFO
+zqadd.egg-info/SOURCES.txt
+zqadd.egg-info/dependency_links.txt
+zqadd.egg-info/top_level.txt
