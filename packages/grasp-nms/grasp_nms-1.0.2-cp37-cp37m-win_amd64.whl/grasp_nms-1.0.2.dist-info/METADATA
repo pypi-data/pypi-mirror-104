@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: grasp-nms
+Version: 1.0.2
+Summary: Grasp NMS
+Home-page: https://github.com/GouMinghao/graspnms
+Author: Minghao Gou
+Author-email: gouminghao@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: cython
+
+UNKNOWN
+
+
