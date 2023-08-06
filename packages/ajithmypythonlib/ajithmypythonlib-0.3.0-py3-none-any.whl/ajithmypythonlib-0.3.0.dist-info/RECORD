@@ -1,0 +1,16 @@
+ajithmypythonlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/myfunctions.py,sha256=P5ZOfUXANsNRJzGVWc8fqYV0j-ZOJLBq-Q2w-bj8KLk,1123
+ajithmypythonlib/module2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/module2/module2.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/module3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/module3/module3.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/newmodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ajithmypythonlib/newmodule/secondFunction.py,sha256=dYUK9KxQUnUF37T_-CqMZGRx79iYPq-X-ZcllHVJ8OQ,82
+tests/__init__.py,sha256=pSVj18B45ZozoN74d4_nmycbt7eqklj546OHbFylACM,20
+tests/test.py,sha256=QaMvVw-5JlOCp28kDHK8QPaySzs82wMgFKDFp1-vtps,258
+tests/test1.py,sha256=xB3eLD58smMAA5UXstSrqmfZb7u_LQylOvZTWeOxWYc,127
+ajithmypythonlib-0.3.0.dist-info/License.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ajithmypythonlib-0.3.0.dist-info/METADATA,sha256=FQ3Ris14_GVzB3dXlL7wUndAaCbwwwOmzWYz7cEb7tg,221
+ajithmypythonlib-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ajithmypythonlib-0.3.0.dist-info/top_level.txt,sha256=KNxpeGHw-TmUY_asBqoOGwBN-t2nYB9byQzertm4Ld0,23
+ajithmypythonlib-0.3.0.dist-info/RECORD,,
