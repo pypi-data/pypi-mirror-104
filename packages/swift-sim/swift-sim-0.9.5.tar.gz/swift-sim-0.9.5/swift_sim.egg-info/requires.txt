@@ -1,0 +1,3 @@
+numpy>=1.18.0
+spatialgeometry>=0.1.0
+websockets
