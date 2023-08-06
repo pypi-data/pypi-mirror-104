@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: demod
+Version: 0.1.post3
+Summary: Domestic Energy Demand Modelling Library
+Home-page: https://github.com/epfl-herus/demod
+Author: Matteo Barsanti, Lionel Constantin, HERUS, Ecole Polytechnique Fédérale de Lausanne
+Author-email: demod@groupes.epfl.ch
+License: GNU General Public License v3
+Download-URL: https://github.com/epfl-herus/demod/archive/refs/tags/v0.1.tar.gz
+Description: # Demod
+        
+        ## _Domestic Energy Demand Modelling Library_
+        
+        Demod is a Python library for assembling bottom-up domestic
+        energy demand models.
+        
+        ## Documentation
+        
+        Available at https://demod.readthedocs.io/en/latest/
+        
+        ## Installation
+        
+        ```sh
+        pip install demod
+        ```
+        
+        Source code: [GitHub Repository](https://github.com/epfl-herus/demod)
+        
+        ## Dependencies
+        * [numpy](https://numpy.org/)
+        * [pandas](https://pandas.pydata.org/)
+        * [scipy](https://www.scipy.org/)
+        * [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+        * [matplotlib](https://matplotlib.org/)
+        
+        ## Licence
+        
+        [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)
+        
+        ## About
+        
+        This repository is managed by
+        [HERUS lab](https://www.epfl.ch/labs/herus/) from
+        [EPFL : École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/en/).
+        
+        Please report bugs and ideas for improvement to
+        [our team](demod@groupes.epfl.ch) .
+        
+Keywords: energy,demand,simulation,modelling,load,electricity,power,appliance,heating,household,DSM,dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
