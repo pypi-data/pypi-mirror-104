@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jumplists
+Version: 0.1.0
+Summary: Windows Jump Lists helper library
+Home-page: https://github.com/qermit/jumplists
+Author: Piotr Miedzik
+Author-email: qermit@sezamkowa.net
+License: MIT
+Project-URL: Source, https://github.com/qermit/jumplists
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+# jumplists
+
+Windows Jump Lists helper library
+
+https://docs.microsoft.com/pl-pl/windows/win32/shell/taskbar-extensions#jump-lists
+
+## Creating standalone distribution
+
+```
+venv\Scripts\python.exe -m pip install pyinstaller
+venv\Scripts\pyinstaller.exe -F examples\example.py
+```
+
+
