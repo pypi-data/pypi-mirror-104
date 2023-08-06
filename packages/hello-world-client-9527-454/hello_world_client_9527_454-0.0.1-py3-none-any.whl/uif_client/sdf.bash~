@@ -1,0 +1,3 @@
+echo -e "sadf"
+cd ./v2ray/linux/v2ray-linux-64/
+./v2ray --help
