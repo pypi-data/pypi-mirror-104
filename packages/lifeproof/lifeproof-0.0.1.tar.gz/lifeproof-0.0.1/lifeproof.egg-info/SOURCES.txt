@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lifeproof/__init__.py
+lifeproof/base.py
+lifeproof/file.py
+lifeproof.egg-info/PKG-INFO
+lifeproof.egg-info/SOURCES.txt
+lifeproof.egg-info/dependency_links.txt
+lifeproof.egg-info/top_level.txt
