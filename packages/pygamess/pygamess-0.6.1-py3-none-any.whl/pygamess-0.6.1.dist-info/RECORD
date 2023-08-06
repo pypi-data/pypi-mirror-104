@@ -1,0 +1,11 @@
+pygamess/__init__.py,sha256=63zKBgyqtqsazZXvud0gQYRUfUe30h4FlSrpnAJcmwI,154
+pygamess/__main__.py,sha256=g28R6QvYeOknmpG1DI1gL1wjqClq9UPB4Fe90s9q2sU,1886
+pygamess/email.py,sha256=a9NH6Iu6eZCEMBcRja4yuaT4rOkKKte8GjHi9P8CCls,1112
+pygamess/gamess.py,sha256=Ar-DGDweS81V6QC8TcAnXVJtU3bpB8SIrPe-eJ8Od5s,17175
+pygamess/gamout_parser.py,sha256=1XGa-17g6tnsqsqsi_6Gs9eUfXlf3qWICibgUmjWXao,4934
+pygamess/pygamess_utils.py,sha256=2W16bbSIRXkuzDV-5xx41W8yc7ukob7QyAQKMriQS64,277
+pygamess/utils.py,sha256=2W16bbSIRXkuzDV-5xx41W8yc7ukob7QyAQKMriQS64,277
+pygamess-0.6.1.dist-info/METADATA,sha256=b55X9cyhS7-CNVDm6uvrLcHH4aJ5Q5orbLO4SHj5sBY,9660
+pygamess-0.6.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pygamess-0.6.1.dist-info/top_level.txt,sha256=_5OSBi0fEl32w_RT0okNJgUsn-W9xczHwQFoxtUYJfs,9
+pygamess-0.6.1.dist-info/RECORD,,
