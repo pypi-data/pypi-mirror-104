@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+celery_sentinel/__init__.py
+celery_sentinel/celery.py
+celery_sentinel/register.py
+celery_sentinel/transport.py
+celery_sentinel.egg-info/PKG-INFO
+celery_sentinel.egg-info/SOURCES.txt
+celery_sentinel.egg-info/dependency_links.txt
+celery_sentinel.egg-info/requires.txt
+celery_sentinel.egg-info/top_level.txt
