@@ -1,0 +1,11 @@
+
+[dev]
+black
+mypy
+pytest
+wheel
+
+[distribute]
+setuptools
+twine
+wheel

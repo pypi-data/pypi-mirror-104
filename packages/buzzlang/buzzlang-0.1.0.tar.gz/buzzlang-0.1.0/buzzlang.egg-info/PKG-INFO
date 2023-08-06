@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: buzzlang
+Version: 0.1.0
+Summary: Buzz: Tags pattern matching language.
+Home-page: https://github.com/bugout-dev/buzz
+Author: Bugout.dev
+Author-email: engineering@bugout.dev
+License: UNKNOWN
+Description: # buzz
+        
+        buzz is a tiny language used to aggregate tagged data according to tag patterns.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: distribute
