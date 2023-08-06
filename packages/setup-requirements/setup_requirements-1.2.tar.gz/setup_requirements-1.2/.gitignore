@@ -1,0 +1,7 @@
+.direnv/
+.eggs/
+.tox/
+build/
+dist/
+*.egg-info/
+*.whl
