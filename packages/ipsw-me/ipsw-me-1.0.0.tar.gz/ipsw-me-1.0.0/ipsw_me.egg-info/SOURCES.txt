@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipsw_me/__init__.py
+ipsw_me/api.py
+ipsw_me/models.py
+ipsw_me.egg-info/PKG-INFO
+ipsw_me.egg-info/SOURCES.txt
+ipsw_me.egg-info/dependency_links.txt
+ipsw_me.egg-info/requires.txt
+ipsw_me.egg-info/top_level.txt

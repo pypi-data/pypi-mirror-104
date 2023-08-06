@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ipsw-me
+Version: 1.0.0
+Summary: Simple & lightweight IPSW.me API wrapper written in Python
+Home-page: https://github.com/Vislate/ipsw-me-python
+Author: Vislate
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
