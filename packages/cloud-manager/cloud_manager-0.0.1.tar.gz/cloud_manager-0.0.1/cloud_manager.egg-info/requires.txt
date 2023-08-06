@@ -1,0 +1,4 @@
+pandas
+config2
+notion
+notion_as_db
