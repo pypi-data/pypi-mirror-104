@@ -1,0 +1,14 @@
+WaterDetect.ini,sha256=FBG-faD-JXEbB1gG_SSylPA9fwiC3iRs202VWqpgIsg,6481
+runWaterDetect.py,sha256=teMBZZ9ADB2E4bI6aNS77QcYU4UlqsZ2__gLEnADH6Q,5028
+waterdetect/Common.py,sha256=Mwu3EivnfkZsJvhV76WhVmMO_KX9kHcy7peAJ0ov-h0,42470
+waterdetect/Glint.py,sha256=cHEYvsvMg79xdxYKurJIQDQ5nVlPwZstMBa8cinUoUo,7391
+waterdetect/Image.py,sha256=-TuY8LaR4nit74rTVpMlrZP3D0ewbr5CkITrSLsy8YU,29778
+waterdetect/InputOutput.py,sha256=w0uTvKgcgSByw5SuOe3eS6klwod78SuNbRYyb_4yXD0,29606
+waterdetect/WaterDetect.py,sha256=O71piCJJFFeITHWdxvjcfuVyqtQpPJajIk2b8trZ7_g,27488
+waterdetect/__init__.py,sha256=VVAifBg-mDibADGCWRZp4Y5S4lkONPIR1RJ3yGlsnsM,1296
+waterdetect-1.5.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+waterdetect-1.5.8.dist-info/METADATA,sha256=asZ-FSUcAUJZo3MSO4oaxa_h-qOGw6Z3HiE1suLxPJE,1099
+waterdetect-1.5.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+waterdetect-1.5.8.dist-info/entry_points.txt,sha256=4UdhvhpFgt89fjMD0uVof1Rk8_RiMXIiEKtQAzQZIyY,53
+waterdetect-1.5.8.dist-info/top_level.txt,sha256=yUeNBtfqWOYb4OlIfEhOyo0imK1WqdA7tydMSEeF-fs,12
+waterdetect-1.5.8.dist-info/RECORD,,
