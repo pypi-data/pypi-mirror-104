@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pytester/__init__.py
+src/pytester/pytester.py
+src/pytester_efficiency.egg-info/PKG-INFO
+src/pytester_efficiency.egg-info/SOURCES.txt
+src/pytester_efficiency.egg-info/dependency_links.txt
+src/pytester_efficiency.egg-info/top_level.txt
