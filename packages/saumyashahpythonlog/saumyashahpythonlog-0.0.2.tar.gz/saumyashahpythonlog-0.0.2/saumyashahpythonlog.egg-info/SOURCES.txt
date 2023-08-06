@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+saumyashahpythonlog.egg-info/PKG-INFO
+saumyashahpythonlog.egg-info/SOURCES.txt
+saumyashahpythonlog.egg-info/dependency_links.txt
+saumyashahpythonlog.egg-info/requires.txt
+saumyashahpythonlog.egg-info/top_level.txt
+script/__init__.py
