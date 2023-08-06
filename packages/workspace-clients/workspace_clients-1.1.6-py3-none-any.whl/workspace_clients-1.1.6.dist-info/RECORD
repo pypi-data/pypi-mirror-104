@@ -1,0 +1,9 @@
+workspace_clients/__init__.py,sha256=iY55Z7N9ydKtN1e75lidv6OsrkwM0SoRpZKJPjoJIKs,533
+workspace_clients/assets_client.py,sha256=9G887YR0emgsBI0_xxy0idrzI-odPJTOdRaz-uuSUvw,5357
+workspace_clients/containers_client.py,sha256=g4UHi66Db9xCSpLp0qPamwDdkoxeffWuWkM_pMo8T5o,4953
+workspace_clients/models.py,sha256=auRbokHf86s5z7KXkkGylc29bbSj0wWBb_HDJlkOZZQ,4881
+workspace_clients-1.1.6.dist-info/LICENSE.txt,sha256=S9X_6Wphp7hv_2oZKR6dUNq-bUvewqXeEBiDQ8CVJMY,575
+workspace_clients-1.1.6.dist-info/METADATA,sha256=ORbC-5YL0f97CwcEIgweM3Urmzl-hPkCXYU1hOT1HaI,828
+workspace_clients-1.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+workspace_clients-1.1.6.dist-info/top_level.txt,sha256=OcFZqRKd24c0ia1xM66SQtx-SEIrvdlOu2JHUfXG8aw,18
+workspace_clients-1.1.6.dist-info/RECORD,,
