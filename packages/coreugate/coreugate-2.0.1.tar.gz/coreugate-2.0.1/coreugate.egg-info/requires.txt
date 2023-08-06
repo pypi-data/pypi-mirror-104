@@ -1,0 +1,11 @@
+pytest
+jinja2
+pandas
+numpy
+sh
+packaging
+argparse
+
+[tests]
+pytest
+flake8
