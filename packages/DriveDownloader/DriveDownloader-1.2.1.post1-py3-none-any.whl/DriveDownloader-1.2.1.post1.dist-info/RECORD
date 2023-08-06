@@ -1,0 +1,14 @@
+DriveDownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DriveDownloader/downloader.py,sha256=do0s6NOdIHu78mCYbK0OLgdF8xXt3cvP5KFbi7E1wRU,1985
+DriveDownloader/netdrives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DriveDownloader/netdrives/basedrive.py,sha256=yQML8SbR30eps9_rHjverKtV4b8jvUSK25Y7KAQLWuQ,2383
+DriveDownloader/netdrives/googledrive.py,sha256=n-Du5RqraQP7PMybEt3xqPP7otg7UC1UCqS9XPNhspo,1524
+DriveDownloader/netdrives/onedrive.py,sha256=p8VmTxEvpz9Z5bSNFXRVk_fs7SG0vqR5wrNfQ9_zqqs,1129
+DriveDownloader/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DriveDownloader/utils/misc.py,sha256=AaRwX9H-ufLMJaoJZNo7HabETcgs7QY-FoStqbdpDcA,592
+DriveDownloader-1.2.1.post1.dist-info/LICENSE,sha256=Fw9YFWpTlr0F3s46Jly4pXFJp41cZ9hKZeNlvqss0yo,1068
+DriveDownloader-1.2.1.post1.dist-info/METADATA,sha256=Yk2nneFEJKxZ9VxR10ttRqlGKkOuSrlNwDOAuF9fJyQ,418
+DriveDownloader-1.2.1.post1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+DriveDownloader-1.2.1.post1.dist-info/entry_points.txt,sha256=SLpzsxhXJi9ZwsdDe4gjv7NiJ0aJ7UVTWw0zRv-lrao,63
+DriveDownloader-1.2.1.post1.dist-info/top_level.txt,sha256=vocrZxh6NfgF_Ugt5QpTBBenoxAQArlMVRYXoaPd5kg,16
+DriveDownloader-1.2.1.post1.dist-info/RECORD,,

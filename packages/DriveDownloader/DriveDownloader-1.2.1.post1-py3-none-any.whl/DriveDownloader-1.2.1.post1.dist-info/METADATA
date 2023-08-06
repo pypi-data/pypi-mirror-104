@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DriveDownloader
+Version: 1.2.1.post1
+Summary: A Python netdrive downloader.
+Home-page: https://hwfan.io
+Author: hwfan
+Author-email: hwnorm@outlook.com
+License: MIT Licence
+Keywords: drivedownloader,drive,netdrive,download
+Platform: any
+Requires-Dist: argparse
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: fake-useragent
+Requires-Dist: pysocks
+
+A Python netdrive downloader.
+
+
