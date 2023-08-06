@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyvgram
+Version: 0.0.1
+Summary: VGram tokenization
+Home-page: https://github.com/akhvorov/pyvgram
+Author: Aleksandr Khvorov
+Author-email: khvorov.aleksandr@gmail.com
+License: UNKNOWN
+Description: # pyvgram
+        🍺 Python implementation on vgram tokenization
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
