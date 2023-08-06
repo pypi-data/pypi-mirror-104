@@ -1,0 +1,10 @@
+mkdocs_with_confluence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_with_confluence/plugin.py,sha256=6quoG_SgbPVBbAqRb6XI4vJwYk9xl0i30ej9qFpVoTg,18534
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=MBKOFKUzDWQOdNN-TgfPP2U_HQYvoAqhNxojfp0GUkM,4083
+mkdocs_with_confluence-0.2.1.dist-info/LICENSE,sha256=OTf-89LpYw5K66FqqyYrBLHQd_Pgeu4eyWfKSxV0Niw,1069
+mkdocs_with_confluence-0.2.1.dist-info/METADATA,sha256=90Cdc54_J4cXGNAW-na9KTPJWrnlM44VzIVD3v0DGmc,462
+mkdocs_with_confluence-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mkdocs_with_confluence-0.2.1.dist-info/entry_points.txt,sha256=ivWSMPHvwSu0lU6elHnorJHHPUaH6Wn_Ms8tN9hITwg,94
+mkdocs_with_confluence-0.2.1.dist-info/top_level.txt,sha256=J3y8g5rK7Ig1rv99k0XL77gchqIMZZ8VhRukxvHVdqY,29
+mkdocs_with_confluence-0.2.1.dist-info/RECORD,,
