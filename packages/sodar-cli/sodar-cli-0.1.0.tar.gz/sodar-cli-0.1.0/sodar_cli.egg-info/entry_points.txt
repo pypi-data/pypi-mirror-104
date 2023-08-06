@@ -1,0 +1,3 @@
+[console_scripts]
+sodar-cli = sodar_cli.__main__:main
+
