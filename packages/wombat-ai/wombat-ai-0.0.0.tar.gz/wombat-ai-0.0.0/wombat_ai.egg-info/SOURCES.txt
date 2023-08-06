@@ -1,0 +1,7 @@
+README.md
+setup.py
+wombat/__init__.py
+wombat_ai.egg-info/PKG-INFO
+wombat_ai.egg-info/SOURCES.txt
+wombat_ai.egg-info/dependency_links.txt
+wombat_ai.egg-info/top_level.txt
