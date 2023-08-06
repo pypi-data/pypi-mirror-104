@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Simple_PairsTrading/Simple_PairsTrading/Simple_PairsTrading.py
+Simple_PairsTrading/Simple_PairsTrading/__init__.py
+Simple_PairsTrading/Simple_PairsTrading.egg-info/PKG-INFO
+Simple_PairsTrading/Simple_PairsTrading.egg-info/SOURCES.txt
+Simple_PairsTrading/Simple_PairsTrading.egg-info/dependency_links.txt
+Simple_PairsTrading/Simple_PairsTrading.egg-info/top_level.txt
