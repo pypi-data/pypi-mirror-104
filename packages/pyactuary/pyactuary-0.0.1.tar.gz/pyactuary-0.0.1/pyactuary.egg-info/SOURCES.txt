@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyactuary.egg-info/PKG-INFO
+pyactuary.egg-info/SOURCES.txt
+pyactuary.egg-info/dependency_links.txt
+pyactuary.egg-info/not-zip-safe
+pyactuary.egg-info/requires.txt
+pyactuary.egg-info/top_level.txt
+src/PyActuaryCPP/PyActuary/LifeTable.cpp
+src/PyActuaryCPP/PyActuary/main.cpp
