@@ -1,0 +1,11 @@
+a2i/__init__.py,sha256=jDQxfttNf1XvBHqcoP4OtwpcF1iG7aeI-ifUSXahR7k,108
+a2i/a2irp.py,sha256=L2HGS9iH6WqLT14aW_ab5HLPJDtyXUsS6M0PFGl2W7g,7188
+a2i/a2irptest.py,sha256=d8kKIgqvZvfzwwuccb6IM7HVZ-n_UNSmX_C_xH24M6c,1355
+amazon_textract_response_parser-0.1.8.data/scripts/amazon-textract-pipeline,sha256=hfmRMkrAWPx4t0oHzvpAibLr_rNLbxis0B0OZZ-lW0A,920
+trp/__init__.py,sha256=dyYbWJ3R2N6qB84s6FaYM4sufTMaMml1sV4JZKqn204,15507
+trp/t_pipeline.py,sha256=MeyWvYjYOgvvalnPCNAqlyncLjb6te07q3O6AaL2luI,1574
+trp/trp2.py,sha256=X3ik0lrHTcdPcccxKWUypWbexdtbY7iWLoRTNgNInFQ,19506
+amazon_textract_response_parser-0.1.8.dist-info/METADATA,sha256=H4_Aajq5Q1qSYWVXegWOwFsqOI1kBwPjoMNf2nfrdHQ,7050
+amazon_textract_response_parser-0.1.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+amazon_textract_response_parser-0.1.8.dist-info/top_level.txt,sha256=tIp-gNCVgreOXtVLfU9xvbqWupQzOTeGQYsO4TZ1aBo,8
+amazon_textract_response_parser-0.1.8.dist-info/RECORD,,
