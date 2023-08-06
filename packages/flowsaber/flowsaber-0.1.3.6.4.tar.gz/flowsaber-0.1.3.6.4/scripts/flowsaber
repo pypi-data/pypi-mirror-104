@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+import fire
+from flowsaber.cli import CLI
+# must run in __main__, otherwise will raise error due to ProcessExecutor
+if __name__ == "__main__":
+    fire.Fire(CLI)
