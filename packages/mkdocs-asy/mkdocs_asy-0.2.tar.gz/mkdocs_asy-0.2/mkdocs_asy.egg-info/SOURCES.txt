@@ -1,0 +1,10 @@
+LICENSE
+README.md
+mkdocs_asy.py
+pyproject.toml
+setup.py
+mkdocs_asy.egg-info/PKG-INFO
+mkdocs_asy.egg-info/SOURCES.txt
+mkdocs_asy.egg-info/dependency_links.txt
+mkdocs_asy.egg-info/requires.txt
+mkdocs_asy.egg-info/top_level.txt
