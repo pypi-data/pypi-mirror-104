@@ -1,0 +1,9 @@
+requests
+numpy
+pandas
+scipy
+plotly
+kaleido
+jupyter
+jupyterlab
+ipywidgets

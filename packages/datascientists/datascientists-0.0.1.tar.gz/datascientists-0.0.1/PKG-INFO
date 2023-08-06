@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: datascientists
+Version: 0.0.1
+Summary: Quick Data Science tools.
+Home-page: https://github.com/ZacksAmber/datascientists
+Author: Zacks Shen
+Author-email: zacks.shen@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/ZacksAmber/datascientists/issues
+Project-URL: Changelog, https://github.com/ZacksAmber/datascientists/blob/main/CHANGELOG.md
+Description: # datascientists
+        
+        Quick Data Science tools, providing data processing and visualization in Hypotheses Testing, Regression, and etc.
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
