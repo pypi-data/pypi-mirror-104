@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/nestedtext.py
+src/nt-cli
+src/py_nestedtext.egg-info/PKG-INFO
+src/py_nestedtext.egg-info/SOURCES.txt
+src/py_nestedtext.egg-info/dependency_links.txt
+src/py_nestedtext.egg-info/top_level.txt
