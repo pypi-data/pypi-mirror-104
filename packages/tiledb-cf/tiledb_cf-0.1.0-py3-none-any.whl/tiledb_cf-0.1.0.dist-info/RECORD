@@ -1,0 +1,12 @@
+tiledb/cf/__init__.py,sha256=hd8BPk5zUCtT1YV1ImV7EMYpZL38VEYWma1K9A8uGEU,2376
+tiledb/cf/__main__.py,sha256=_onnfbxtAYyH0i10Le8RoPC1I6UZ48w_Zl49kofP-ic,33
+tiledb/cf/core.py,sha256=qlIiefa8SUWJEBqjHHYf3N2O_1R0XrEbk5IIIgC5TAA,19439
+tiledb/cf/creator.py,sha256=VF8zKcgRTW2rvZmwx5FCV2KJp5QFSkbJLQ_rQH5Rj6U,41491
+tiledb/cf/engines/__init__.py,sha256=u1IGC-q7I3Ee73OT_DqqtH50x8Sn0Si5KMkqKFura40,5028
+tiledb/cf/engines/netcdf4_engine.py,sha256=T5pkmTtoxGe0fuCsjA4SwHW_Ja6Mmrs8jvCrbvy0mQw,23375
+tiledb_cf-0.1.0.dist-info/LICENSE,sha256=e5VFMgddQC-Pn-4yeib1ngV7jDJTbZNgosYL5GupEhg,1069
+tiledb_cf-0.1.0.dist-info/METADATA,sha256=uaKkMxxKUbqPMpdxh8h-Jsota_kFlXBzdvWFCEAoEjM,3903
+tiledb_cf-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tiledb_cf-0.1.0.dist-info/entry_points.txt,sha256=GbzfeEX4odT4608vV8IFGfN7a9GVBsxlP5qW1SePFvM,45
+tiledb_cf-0.1.0.dist-info/top_level.txt,sha256=TTVUYCu5VdKjmIqtFaTF9PPxejc3p4Xe7VNX11L4Tvk,7
+tiledb_cf-0.1.0.dist-info/RECORD,,
