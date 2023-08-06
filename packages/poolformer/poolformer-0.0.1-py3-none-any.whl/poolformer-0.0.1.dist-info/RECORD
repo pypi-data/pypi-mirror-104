@@ -1,0 +1,8 @@
+poolformer/__init__.py,sha256=dkcriVcZLO0SwARvu2Fjlhq6ZMvNgqnvCnY-_Vt3UwQ,58
+poolformer/autoregressive_wrapper.py,sha256=c8D8llN6psv9MdpUCroBZ9_8jixmZJfW9w7U5kkAp08,2654
+poolformer/poolformer.py,sha256=WmsiK27-nMRYtUJxMBUqhFbPu6UDYTPKzrYSEJ8wDFI,8883
+poolformer-0.0.1.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+poolformer-0.0.1.dist-info/METADATA,sha256=06HjFZ4gA7AkthhWPnynF-zMS3768jkOvM1FxV64rkc,626
+poolformer-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+poolformer-0.0.1.dist-info/top_level.txt,sha256=vyzhnlEjO9R1DWRiuF_Yc3plW9zmvt8oTrS0lVhpnEw,11
+poolformer-0.0.1.dist-info/RECORD,,
