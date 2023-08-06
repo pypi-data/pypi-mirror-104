@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: cmc-csci046-oop-containers
+Version: 1.0.0
+Summary: A library that utilizes oop to implement proper heap and unicode data structures
+Home-page: https://github.com/brandonsrho57/oop_containers
+Author: Brandon Rho
+Author-email: brandonsrho57@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# containers
+
+This is my build status!
+
+1. [![](https://github.com/brandonsrho57/oop_containers/workflows/tests-fibonacci/badge.svg)](https://github.com/brandonsrho57/oop_containers/actions?query=workflow%3Atests-fibonacci)
+1. [![](https://github.com/brandonsrho57/oop_containers/workflows/tests-range/badge.svg)](https://github.com/brandonsrho57/oop_containers/actions?query=workflow%3Atests-range)
+1. [![](https://github.com/brandonsrho57/oop_containers/workflows/tests-unicode/badge.svg)](https://github.com/brandonsrho57/oop_containers/actions?query=workflow%3Atests-unicode)
+1. [![](https://github.com/brandonsrho57/oop_containers/workflows/tests-Heap/badge.svg)](https://github.com/brandonsrho57/oop_containers/actions?query=workflow%3Atests-Heap)
+
+
