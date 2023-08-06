@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cold_wax.egg-info/PKG-INFO
+src/cold_wax.egg-info/SOURCES.txt
+src/cold_wax.egg-info/dependency_links.txt
+src/cold_wax.egg-info/requires.txt
+src/cold_wax.egg-info/top_level.txt
+src/data/__init__.py
+src/data/utils.py
+src/image/__init__.py
+src/image/image.py
+src/signal/__init__.py
+src/signal/signal.py
