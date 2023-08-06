@@ -1,0 +1,10 @@
+idp_layout_spec/__init__.py,sha256=gmCekvqOJl3Z5D7gU3zEBmXxUX6XuJeRmMXypco-Zz4,539
+idp_layout_spec/coordinate.py,sha256=1ZrC4LRQbl6VW2226d-WlsMQAHEErPmuTiO_uKKZTfE,2611
+idp_layout_spec/enums.py,sha256=UJHcya8SIlZQ9bDvsFilsONUWQ2g0LBKZsfc85Idnnk,589
+idp_layout_spec/file.py,sha256=NpqOCCMmijyirzHsONYhz7pzjP-x3dzURTfha9QC6GE,4827
+idp_layout_spec/text.py,sha256=Nj1gTYHIYPLB48OP_1yhbGmBcN2fqzJfq1UaXF9DOpM,215
+idp_layout_spec/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idp_layout_spec/utils/calc.py,sha256=c5kxkjT-cZlh-rwyBTmQ_BQz5bIjZ0rJw8cgomiY_AI,979
+idp_layout_spec-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+idp_layout_spec-0.1.4.dist-info/METADATA,sha256=5mGgYwno0FjX4UC6AZAterV0cF1gwyY2f8SD6ykqGZ0,522
+idp_layout_spec-0.1.4.dist-info/RECORD,,
