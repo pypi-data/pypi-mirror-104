@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: firefox_downloader
+Version: 0.1.4
+Summary: Utility for local install of firefox from the Mozilla binary
+Home-page: https://gitlab.com/firefox2/firefox-utils.git
+Author: Riccardo Scartozzi
+Author-email: UNKNOWN
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
