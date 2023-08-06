@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "l_03_requests_cmd_publish_lib"
+version = "0.1.0"
+description = ""
+authors = ["Rustem Saitgareev <rus.saitgareev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+requests = "^2.25.1"
+pytest-mock = "^3.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+simple_requests = "l_03_requests_cmd_publish_lib.simple_requests:main"
