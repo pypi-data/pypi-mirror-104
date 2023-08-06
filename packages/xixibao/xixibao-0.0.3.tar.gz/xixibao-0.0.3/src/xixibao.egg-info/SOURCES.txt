@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/xixibao/__init__.py
+src/xixibao/xixibao.py
+src/xixibao/xixibao_jr.py
+src/xixibao.egg-info/PKG-INFO
+src/xixibao.egg-info/SOURCES.txt
+src/xixibao.egg-info/dependency_links.txt
+src/xixibao.egg-info/top_level.txt
