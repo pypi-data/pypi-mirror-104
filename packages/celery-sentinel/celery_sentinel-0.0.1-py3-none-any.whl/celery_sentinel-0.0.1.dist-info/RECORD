@@ -1,0 +1,9 @@
+celery_sentinel/__init__.py,sha256=bdLGiwp95C4PJVZaC7VGDQMiCscAS0QPXMpKvmC5Ko4,131
+celery_sentinel/celery.py,sha256=msBvHqS6x2RBo-yD3GlD5aAKEv_cMRre-Ya0y80_vD8,115
+celery_sentinel/register.py,sha256=6h7bRiYNDb7_kC2XIJ95A7CFD2TdaZVdP8VLwX6HbEA,276
+celery_sentinel/transport.py,sha256=1XcLNfxQTyrfA5-mzFnRWrthM9Csa4ZxgOQZsn388Tk,2652
+celery_sentinel-0.0.1.dist-info/LICENSE,sha256=FuNEAGC3TPE4eiWvDl2VheGsbgKJ8kEqnoD1FdlGRD4,1076
+celery_sentinel-0.0.1.dist-info/METADATA,sha256=JMtR0YYvdsgRw_EVItDEbiNtiy1kXzC3AGHsNZZr6Sc,1943
+celery_sentinel-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+celery_sentinel-0.0.1.dist-info/top_level.txt,sha256=Rng8jzGQHGe7GTPKGJeNa-e3SZhTeLQQbg5y6aFWeLo,16
+celery_sentinel-0.0.1.dist-info/RECORD,,
