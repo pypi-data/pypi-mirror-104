@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mldatatools
+Version: 0.0.2
+Summary: Automated missing value imputation, outlier handling, feature scaling, feature discretization, and categorical feature encoding for machine learning datasets.
+Home-page: https://github.com/mattkearns/mldatatools
+Author: Matt Kearns
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/mattkearns/mldatatools/archive/refs/tags/0.0.1.tar.gz
+Keywords: data science,machine learning,data preparation,data preprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: numpy (>=1.20.1)
+Requires-Dist: scipy (>=1.6.1)
+
+UNKNOWN
+
+
