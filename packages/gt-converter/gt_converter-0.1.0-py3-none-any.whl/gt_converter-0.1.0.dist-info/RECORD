@@ -1,0 +1,11 @@
+gt_converter/__init__.py,sha256=OFqzVgWred5uwfSYCg3c2kHirqdp6IowW-Zmbf3_ESg,52
+gt_converter/convert_coco.py,sha256=X855b8iM75FpMALelk8xAf3jPP-07NgA8b0V-2tnXY0,14189
+gt_converter/converter.py,sha256=LAjDNnVAmDfK__tQ6X6xET82L54Z4WYrj0iTd_N_k0w,2954
+gt_converter/utils.py,sha256=L7dgzmTIiRMaIowgtpYvUmnJy3yipKHvnbtBxxje-7U,691
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_coco.py,sha256=QgTKPr19c-dAc1sEp64zBSq-l8Q-oFm1WegKKOYmb5o,2583
+gt_converter-0.1.0.dist-info/LICENSE,sha256=70e0rioajTjvh7ONxZJ5Z-e0cv-j99El6J28g1Oh568,927
+gt_converter-0.1.0.dist-info/METADATA,sha256=jPP9juF7pnexPaz2yr-b32DHBU3QkX9zHE8dsycnEEw,1914
+gt_converter-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gt_converter-0.1.0.dist-info/top_level.txt,sha256=c-RLX41XNyaDD4ugZ4sOR3EYI0ivRwf55QFhmYnn_hc,18
+gt_converter-0.1.0.dist-info/RECORD,,

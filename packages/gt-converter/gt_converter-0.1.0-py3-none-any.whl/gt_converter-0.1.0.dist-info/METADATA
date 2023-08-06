@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: gt-converter
+Version: 0.1.0
+Summary: Open source library to convert SageMaker Ground Truth manifests into standard formats.
+Home-page: https://github.com/aws-samples/amazon-sagemaker-groundtruth-conversion-kit
+Author: Amazon Web Services
+License: Apache License 2.0
+Keywords: Sagemaker
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3
+Requires-Dist: scikit-image (==0.17.1)
+Requires-Dist: Shapely (==1.7.1)
+Requires-Dist: tqdm
+Provides-Extra: test
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: flaky ; extra == 'test'
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
+
+
+## SageMaker Ground Truth Conversion Kit
+
+Easily convert Ground Truth outputs into other industry standard formats.
+
+## Install dependencies for test
+```
+pip install -e .[test]
+```
+
+## Usage
+
+```
+job_name = "gt-converter-demo-job"
+converter = CocoConverter()
+converter.convert_job(job_name, output_coco_json_path="output.json")
+```
+
+## Testing
+```
+pytest -s
+```
+
+## Formatting
+```
+black .
+```
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
+
+
+
