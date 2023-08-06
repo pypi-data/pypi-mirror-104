@@ -1,0 +1,13 @@
+huscy/participations/__init__.py,sha256=e0s84TkAJ-brUgg4chP8fC4C5r0imFxJ5xC-5FYLybw,166
+huscy/participations/models.py,sha256=Vk1hROyCNNgD8g6Q9GzN_fFFadUoCm3NmXkvsocT_1g,1816
+huscy/participations/serializer.py,sha256=JY936Mq4kO5-M5pmu4BGMZ7C_fjmxD4S1N3zpANE4gc,1970
+huscy/participations/services.py,sha256=yZFhlgtSrZ3JXVhF0o5WrYfegzHELW3FdUfVkoXUAkI,1683
+huscy/participations/urls.py,sha256=8g7onmsym6dGsjy8or5k9ol-Ko4b4hv7CJgROsGT2eg,962
+huscy/participations/views.py,sha256=Sav7s-Pj5fby_kRQKSdCZVD924zQ5jGWy3Kx6jU_Aow,1360
+huscy/participations/migrations/0001_initial.py,sha256=j16zmFBL9QWsekE0_hcDyydXusy9nV1wdylONjJsFtQ,2161
+huscy/participations/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huscy.participations-0.1.0a0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+huscy.participations-0.1.0a0.dist-info/METADATA,sha256=AKtIoe8sx2szxISXXn29Q4bszXuU3T7W5nUZcAZlyug,1114
+huscy.participations-0.1.0a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+huscy.participations-0.1.0a0.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.participations-0.1.0a0.dist-info/RECORD,,
