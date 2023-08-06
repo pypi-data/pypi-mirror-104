@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: visdm
+Version: 0.0.2
+Summary: A Python package arraning methods for Data Mining Visualization.
+Home-page: UNKNOWN
+Author: Mario Popolin Neto
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Description: # VISDM - Data Mining Visualization
+        
+        The visdm python package will be available after paper publication with its contributions.
+Platform: UNKNOWN
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
