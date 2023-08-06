@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+heads_up.egg-info/PKG-INFO
+heads_up.egg-info/SOURCES.txt
+heads_up.egg-info/dependency_links.txt
+heads_up.egg-info/entry_points.txt
+heads_up.egg-info/requires.txt
+heads_up.egg-info/top_level.txt
+headsup/__init__.py
+headsup/__main__.py
+headsup/config.txt
+headsup/local.py
+headsup/remote.py
+headsup/sounds/Bsmith44.wav

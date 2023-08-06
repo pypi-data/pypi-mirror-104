@@ -1,0 +1,2 @@
+include headsup/sounds/*.wav
+include headsup/config.txt

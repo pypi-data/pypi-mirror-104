@@ -1,0 +1,6 @@
+requests
+pynput
+playsound
+qrcode[pil]
+numpy
+matplotlib
