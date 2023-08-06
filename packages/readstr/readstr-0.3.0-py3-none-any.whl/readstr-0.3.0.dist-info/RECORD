@@ -1,0 +1,11 @@
+readstr/__init__.py,sha256=VoZynOjll6F8g8NRNM2Xt9o4Bjdgf_w23tb3tcQ6y6g,115
+readstr/__pkginfo__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+readstr/base64.py,sha256=yaIhsVud0lYHheys2WuXJj-7qNVfAvys7aP_YaF0nOM,513
+readstr/readstr.py,sha256=iGVtmSm2KZymXjZaBmdiZ91q1ugHd3lzr1l4oEUuOtc,4833
+tests/__init__.py,sha256=iTw_teUZxYB_s7S7Pm3oHt6-VBZ3S3gn3bnOxxMnATY,64
+tests/test_readstr.py,sha256=ZtX3bGCm6IT0bvUaZVdJ2IWNDiWoQmZF18geAblFkQY,4050
+readstr-0.3.0.dist-info/LICENSE,sha256=ZeK0oK-ap2QtMPGLN6nSsBr3xAK5XjCF17som2VaCZM,1073
+readstr-0.3.0.dist-info/METADATA,sha256=swtsDN7u3eSpnwSUp5-PZJ4ZMKn0f1hVWmQqjENGKUw,1087
+readstr-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+readstr-0.3.0.dist-info/top_level.txt,sha256=bivWm1hX5aJ7ZqGByCdtZVTFMgSMq09-cetoZtZNxT8,14
+readstr-0.3.0.dist-info/RECORD,,
