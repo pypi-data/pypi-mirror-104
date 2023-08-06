@@ -1,0 +1,28 @@
+Metadata-Version: 2.0
+Name: cmc-csci046-Trees-AG
+Version: 1.0.0
+Summary: Trees Data Structures Assignments
+Home-page: https://github.com/agulati18/week08
+Author: Aryaman Gulati
+Author-email: agulati22@cmc.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: hypothesis
+Requires-Dist: pytest
+
+# containers
+
+Build status:
+1. [![](https://github.com/agulati18/week08/workflows/tests-fibonacci/badge.svg)](https://github.com/agulati18/week08/actions?query=workflow%3Atests-fibonacci)
+1. [![](https://github.com/agulati18/week08/workflows/tests-range/badge.svg)](https://github.com/agulati18/week08/actions?query=workflow%3Atests-range)
+1. [![](https://github.com/agulati18/week08/workflows/tests-unicode/badge.svg)](https://github.com/agulati18/week08/actions?query=workflow%3Atests-unicode)
+[![tests-BinaryTree](https://github.com/agulati18/week08/actions/workflows/tests-binarytree.yml/badge.svg)](https://github.com/agulati18/week08/actions/workflows/tests-binarytree.yml)
+[![tests-BST](https://github.com/agulati18/week08/workflows/tests-BST/badge.svg)](https://github.com/agulati18/week08/actions?query=workflow%3Atests-BST)
+[![tests-AVLTree](https://github.com/agulati18/week08/actions/workflows/tests-AVLTree.yml/badge.svg)](https://github.com/agulati18/week08/actions/workflows/tests-AVLTree.yml)
+[![tests-Heap](https://github.com/agulati18/week08/actions/workflows/heap.yml/badge.svg)](https://github.com/agulati18/week08/actions/workflows/heap.yml)
+
+
