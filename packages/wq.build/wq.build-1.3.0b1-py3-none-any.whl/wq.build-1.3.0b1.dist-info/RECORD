@@ -1,0 +1,16 @@
+wq.build-1.3.0b1-py3.6-nspkg.pth,sha256=ua-2EJERg9kSYy1qYQN4xTjIuAEwUspQuZvCVZdHltE,519
+wq/build/__init__.py,sha256=muySG0v-SxJQ3GV26Mos2bsWz9XcaWCCpHEFkndKupI,1595
+wq/build/decorators.py,sha256=Ljk8NiPnfquzyx2suQRjwaYf-QoCTXE-VjH5uCuHYRM,972
+wq/build/commands/__init__.py,sha256=uyKPLYBggko0leVWONGbD6vUxbEAmNLEpu_I25A9lSA,293
+wq/build/commands/collect.py,sha256=X84I_MxRXWDDlLBy_yMU58G4YGBX-xHctqtaunJ1RKg,3403
+wq/build/commands/icons.py,sha256=2yL3ZCrFV5AfHq_dv03cRIObpJkZ7j-AanA7nBa4mmU,6208
+wq/build/commands/info.py,sha256=e21Y6AhIP9Rp0f-4vxVHZ1WgmEVyWxVzyrSii6GFgL0,2967
+wq/build/commands/serviceworker.py,sha256=ZAFRYLGZiuGBUdhC3MLwZ5TnOrv87Lp6kdaUw3CYTIA,3623
+wq/build/commands/setversion.py,sha256=37gJC1GgRT-UjGBPVXY_1ldpT2cpIZpKentWqkSB8qI,1780
+wq.build-1.3.0b1.dist-info/LICENSE,sha256=DVLiaWINP7QZ-zKG-QWG9O65YZHIwu9k_ps1h6ys2Wg,1084
+wq.build-1.3.0b1.dist-info/METADATA,sha256=p7tytJ9vl16zTPILYqJkayvRyThdneNEhG5Fw8LGr0w,2608
+wq.build-1.3.0b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wq.build-1.3.0b1.dist-info/entry_points.txt,sha256=fVbjYBRnFjZs5zDgIjBxk3cQJsS6tK7SMNqffRHsUMI,98
+wq.build-1.3.0b1.dist-info/namespace_packages.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.build-1.3.0b1.dist-info/top_level.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.build-1.3.0b1.dist-info/RECORD,,
