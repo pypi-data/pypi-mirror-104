@@ -1,0 +1,26 @@
+## Python Calculator with memory function
+
+Contains class - Calculator
+
+Methods:
+   
+.add   
+.subtract  
+.multiply  
+.division  
+.n_root  
+.reset_memory - resets calculator memory to 0
+
+### Installation
+
+pip install stankeviciuscalculator
+
+### Usage
+
+You can start calculator with starting point 0 or any other number you prefer.
+
+```
+from stankevicius.calculator import Calculator
+calc = Calculator(4)
+calc.add(2) # result would be 6. Result saved to memory.
+calc.subtract(1) # result would be 5. New result overwrites calculator memory
