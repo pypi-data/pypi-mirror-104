@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+lugh/__init__.py
+qpq.egg-info/PKG-INFO
+qpq.egg-info/SOURCES.txt
+qpq.egg-info/dependency_links.txt
+qpq.egg-info/top_level.txt
