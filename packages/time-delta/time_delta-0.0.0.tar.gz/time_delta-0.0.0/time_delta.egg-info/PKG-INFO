@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: time-delta
+Version: 0.0.0
+Summary: Calculate your time by entering the delta between your time and UTC time
+Home-page: UNKNOWN
+Author: mohammed yasser
+Author-email: muhammedyasser85@gmail.com
+License: MIT
+Description: this library help your program work on different server in different country
+        for example 
+        time_delta.time("02:30","+")
+        it means that your time is precedes UTC time by two hours and 30 miutes 
+        
+        time_delta.time("02:30","-")
+        it means that UTC time is precedes your time by two hours and 30 miutes 
+        
+        
+        
+Keywords: time_delta
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

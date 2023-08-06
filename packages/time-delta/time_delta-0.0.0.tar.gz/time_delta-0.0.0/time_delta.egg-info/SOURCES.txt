@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+datecalculator/__init__.py
+time_delta.egg-info/PKG-INFO
+time_delta.egg-info/SOURCES.txt
+time_delta.egg-info/dependency_links.txt
+time_delta.egg-info/requires.txt
+time_delta.egg-info/top_level.txt
