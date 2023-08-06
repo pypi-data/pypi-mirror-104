@@ -1,0 +1,11 @@
+dorchester/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dorchester/cli.py,sha256=qW2bJOPyDnlwMHidh_-zlAws9agwtPE7uXK939dOqqs,2720
+dorchester/dotdensity.py,sha256=I5AxjgUXca3Lv8MO--nPF-9lzROSqjMzoPA9qy2Otb4,3406
+dorchester/output.py,sha256=dC3_N39a0R8mi6TFq_qyf5HH8jxLZxdPaBzffXPL17Y,3681
+dorchester/point.py,sha256=UArYN_a87prQytlHZHD6DnocP-CiYEcqqsf9xFmK0sQ,556
+dorchester-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dorchester-0.3.0.dist-info/METADATA,sha256=956yyURtmtLeOhI0ZPJ3tc9_EPI2V02ojPOzxgRTF6U,7474
+dorchester-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dorchester-0.3.0.dist-info/entry_points.txt,sha256=mNRAamPqnowILZdxGTSkdblgBHPkkSJcKLsLrMyScGQ,69
+dorchester-0.3.0.dist-info/top_level.txt,sha256=ELjug_JzKZ9BTInCMSAA5CwBHRKyFiybyirOKIcfkxs,11
+dorchester-0.3.0.dist-info/RECORD,,
