@@ -1,0 +1,8 @@
+README.md
+setup.py
+jsonn/jsonn.py
+jsonn.egg-info/PKG-INFO
+jsonn.egg-info/SOURCES.txt
+jsonn.egg-info/dependency_links.txt
+jsonn.egg-info/requires.txt
+jsonn.egg-info/top_level.txt
