@@ -1,0 +1,5 @@
+[console_scripts]
+whatnext = whatnext.cli:main
+whatsnext = whatnext.cli:main
+wn = whatnext.cli:main
+
