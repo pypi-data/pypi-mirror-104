@@ -1,0 +1,12 @@
+uassist/__init__.py,sha256=mfRr9Vd6aLT0SvEzYUqeq_B0yWfw-CZHeJsuYn6p_8A,172
+uassist/common.py,sha256=qgW0TmvUkif3EJ128UpGgIIgFpf2EnQ-gPLfDOi6Yaw,957
+uassist/conversions.py,sha256=P_iHvg3Hrsv9GfaXp5fFScU86ewJEL-dFfsL7MWfQaw,4835
+uassist/imgtag.py,sha256=OWhRrST2DXuy04JA-tV5f82LYWCP7hV8cGd1bItUDdg,5185
+uassist/toolbar.py,sha256=Dd-adaxVu0ySimuWSY-E6GUYY0-i0G2vhHHmUDRASOQ,9166
+uassist/uassist.py,sha256=l6TgrzfkyCkbqPgraIcmtWm67IvpRAcC8FjgFEaivR4,7811
+uassist-0.0.7.dist-info/LICENSE,sha256=BC3Pe_-aBN9fHDtqXq0RU3a7QhKu1o-CUVJPtBPwxlg,1621
+uassist-0.0.7.dist-info/METADATA,sha256=wrXQjXt2-qAoWQWJCLxE9JBuB9chvfvSFlugVIj7qSg,2479
+uassist-0.0.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+uassist-0.0.7.dist-info/dependency_links.txt,sha256=JtgmS2e8NkVBnuwi1H9EV0WT7y3-0m9Pn9ra3wgPbzQ,82
+uassist-0.0.7.dist-info/top_level.txt,sha256=pEdeV2_ce6sgzR1rJ-IKHjS4GyFakDp4gtQP08hYddI,8
+uassist-0.0.7.dist-info/RECORD,,
