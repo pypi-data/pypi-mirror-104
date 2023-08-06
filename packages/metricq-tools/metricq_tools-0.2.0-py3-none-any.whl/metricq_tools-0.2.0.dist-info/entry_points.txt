@@ -1,0 +1,6 @@
+[console_scripts]
+metricq-discover = metricq_tools.discover:main
+metricq-inspect = metricq_tools.inspect:main
+metricq-send = metricq_tools.send:main
+metricq-spy = metricq_tools.spy:main
+

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: metricq-tools
+Version: 0.2.0
+Summary: Useful scripts to manage and inspect a MetricQ instance
+Home-page: https://github.com/metricq/metricq-python
+Author: TU Dresden
+License: GPL3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: metricq (~=2.0)
+Requires-Dist: click
+Requires-Dist: click-log
+Requires-Dist: click-completion
+Requires-Dist: async-timeout (~=3.0)
+Requires-Dist: humanize (~=2.5)
+Requires-Dist: python-dateutil (~=2.8)
+Requires-Dist: numpy
+Requires-Dist: termplotlib
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black (==20.8b1) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort (~=5.0) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black (==20.8b1) ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: isort (~=5.0) ; extra == 'lint'
+Requires-Dist: check-manifest ; extra == 'lint'
+Requires-Dist: pre-commit ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
+
