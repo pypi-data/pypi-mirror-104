@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: alpacloud-ansible-builder
+Version: 0.1.0
+Summary: This tool automatically builds and installs Ansible Collections
+Home-page: UNKNOWN
+Author: lilatomic
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lilatomic/alpacloud/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ansible (~=2.10.5)
+Requires-Dist: click (~=7.1.2)
+Requires-Dist: structlog (~=21.1.0)
+Requires-Dist: watchdog (~=2.0.2)
+
+# alpacloud-ansible-builder
+
+This tool automatically builds and installs Ansible Collections.
+
+This is useful for testing out purpose built collections. It's also nice for testing collections. I think it's most useful for repositories with collections alongside deployments:
+
+```
+- collections
+	- our_monitoring
+- deployments
+	- our_monitoring_staging
+	- our_monitoring_team_0
+	- our_monitoring_team_1
+	- our_monitoring_team_2
+```
+
+## usage
+
+
