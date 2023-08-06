@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: clustergrammer-pandas2
+Version: 1.13.7
+Summary: A python module for the Clustergrammer visualization project
+Home-page: https://github.com/scvannost/clustergrammer-py
+Author: Nicolas Fernandez
+Author-email: nickfloresfernandez@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/scvannost/clustergrammer-py/archive/refs/tags/1.13.8.tar.gz
+Description: UNKNOWN
+Keywords: testing
+Platform: UNKNOWN
