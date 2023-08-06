@@ -1,0 +1,14 @@
+CHANGES
+=======
+
+0.1.0
+-----
+
+* Increase oslo.policy logging for protection tests
+* Add tests for image membership, deactivation, and reactivation
+* Implement API protection testing for images
+* trivial: Fix incorrect project name in setup.cfg
+* Add doc/requirements
+* Apply cookiecutter to newly added glance-tempest-plugin
+* Add setup.cfg
+* Create glance-tempest-plugin
