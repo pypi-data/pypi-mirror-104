@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+querycolumns/__init__.py
+querycolumns.egg-info/PKG-INFO
+querycolumns.egg-info/SOURCES.txt
+querycolumns.egg-info/dependency_links.txt
+querycolumns.egg-info/requires.txt
+querycolumns.egg-info/top_level.txt
