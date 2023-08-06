@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+Flask_CKFinder3.egg-info/PKG-INFO
+Flask_CKFinder3.egg-info/SOURCES.txt
+Flask_CKFinder3.egg-info/dependency_links.txt
+Flask_CKFinder3.egg-info/requires.txt
+Flask_CKFinder3.egg-info/top_level.txt
+flask_ckfinder3/__init__.py
+flask_ckfinder3/acl.py
+flask_ckfinder3/ckfinder.py
+flask_ckfinder3/connector.py
+flask_ckfinder3/resource_type.py
+flask_ckfinder3/thumbnail.py
