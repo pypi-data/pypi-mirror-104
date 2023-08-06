@@ -1,0 +1,8 @@
+README.md
+setup.py
+pynwm/__init__.py
+pynwm.egg-info/PKG-INFO
+pynwm.egg-info/SOURCES.txt
+pynwm.egg-info/dependency_links.txt
+pynwm.egg-info/requires.txt
+pynwm.egg-info/top_level.txt
