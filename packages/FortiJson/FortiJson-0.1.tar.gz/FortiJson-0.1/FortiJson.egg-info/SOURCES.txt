@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+FortiJson/__init__.py
+FortiJson/rpcrequest.py
+FortiJson.egg-info/PKG-INFO
+FortiJson.egg-info/SOURCES.txt
+FortiJson.egg-info/dependency_links.txt
+FortiJson.egg-info/top_level.txt
