@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: pineaprint
+Version: 1.0.1
+Summary: Easily print a complex data structure for readability
+Home-page: UNKNOWN
+Author: PineappleFan
+Author-email: pineapplefanyt@gmail.com
+License: UNKNOWN
+Keywords: prettyprint,devtools,utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+
+# Prettyprint
+> Easily print a complex data structure
+
+### Support
+OS      | Terminal         | Support
+--------|------------------|---------
+Linux   | TTYs             | Full
+Linux   | Konsole          | Full
+Linux   | Yakuake          | Full
+Windows | Command prompt   | Part [0]
+Windows | Powershell       | Part [0]
+Windows | Windows Terminal | Full
+macOS   | Terminal         | Full
+
+Code | Missing
+-----|-------------
+0    | Text colours
+
+> Is your terminal not included? Create a PR and add it, along with its support level.
+
+### Usage
+```py
+import prettyprint
+
+"""
+prettyprint.pprint(
+  data=any,  # Data to print
+  indent: int = 4,  # How far indented each list, tuple etc. should be indented
+  show_types: bool = False,  # If the type of each item should be shown e.g. <int>
+  colour_coded: bool = True,  # If colours should be used to show different types
+  cutoff: bool = True,  # If text over multiple lines should be cut off
+  debug: bool = False  # Show length of itterables
+)
+"""
+
+# Enabling debug will automatically enable show_types
+
+prettyprint.pprint(
+  {"a": [1, 2], "b": {1.4, False}, "c": [1, 2, [3, (4, 5)]]},
+  debug=True
+)
+
+"""
+<dict | Length: 3> {
+    <str | Length: 1> a: <list | Length: 2> [
+        <int> 1
+        <int> 2
+    ]
+    <str | Length: 1> b: <set | Length: 2> {
+        <bool> False
+        <float> 1.4
+    }
+    <str | Length: 1> c: <list | Length: 3> [
+        <int> 1
+        <int> 2
+        <list | Length: 2> [
+            <int> 3
+            <tuple | Length: 2> (
+                <int> 4
+                <int> 5
+            )
+        ]
+    ]
+}
+"""
+```
+
