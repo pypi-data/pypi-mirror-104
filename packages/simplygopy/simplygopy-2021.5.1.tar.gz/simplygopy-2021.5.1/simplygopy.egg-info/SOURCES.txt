@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+simplygo/API.py
+simplygo/Constants.py
+simplygo/JsonFields.py
+simplygo/Utility.py
+simplygo/__init__.py
+simplygopy.egg-info/PKG-INFO
+simplygopy.egg-info/SOURCES.txt
+simplygopy.egg-info/dependency_links.txt
+simplygopy.egg-info/requires.txt
+simplygopy.egg-info/top_level.txt
