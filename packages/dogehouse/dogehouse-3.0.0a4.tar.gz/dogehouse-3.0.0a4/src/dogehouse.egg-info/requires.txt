@@ -1,0 +1,4 @@
+websockets
+
+[dev]
+pytest>=6.2.2
