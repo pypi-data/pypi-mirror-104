@@ -1,0 +1,194 @@
+Metadata-Version: 2.1
+Name: pysqltemplate
+Version: 0.0.1.0
+Summary: A package to write composable, generic SQL objects that can be flexibly reused and combined. Like an ORM, but not an ORM.
+Home-page: https://gitlab.com/krcrouse/sqltemplate
+Author: Kevin Crouse
+Author-email: krcrouse@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+# pysqltemplate
+
+The pysqltemplate package (sqltemplate module) is a Python library that provides an object-oriented abstraction for SQL SELECT queries. The objects are composable, extendable, and flexible. The first production use of pysqltemplate was in maintaining a library of complex queries that shared significant pieces but differed in their intent, and pysqltemplate allowed the shared pieces to maintained centrally for easy modification as criteria changed.
+
+pysqltemplate is not an Object-Relational Mapping (ORM) of a database model. Instead, it would be better described as an object-oriented SQL builder and templating system. There are core concepts of the Query, a Clause (which refers to each of the parts of a SQL query), and a Phrase (one part of a clause). However, as with SQL statements, some of these are interoperable at times (though not in every case): 
+* A Query can become a Prhase with the FROM (Table) Clause
+* A Query can often be transformed into an EXISTS phrase programmatically
+* The GROUP BY clause can often be autodetermined from the SELECT clause 
+
+## templates
+
+pysqltemplate itself comes with a rather unsophisticated templating system for reusing SQL phrases with some alteration. Simply, any pysqltemplate object has a template_values property, which can map a set of alphanumeric keys to values to apply whenever SQL is requested. The templates are defined in the phrasal text by surrounded it in '@', and possibly providing additional information.  For example:
+
+```python 
+
+persontbl = sqltemplate.TableClause('person', join_condition='@connector@.personid = person.personid')
+
+Q1 = sqltemplate.Query(
+    select='*',
+    tables=[
+        'action', 
+        persontbl.extend_template(connector='action')
+    ]
+)
+
+Q2 = sqltemplate.Query(
+    select='*',
+    tables=[
+        'characteristic', 
+        persontbl.extend_template(connector='characteristic')
+    ]
+)
+```
+
+### template syntax
+
+There are some additional syntactic options for templates besides the direct repace @word@:
+
+#### Default Templates
+
+**Indicator**: Pipe Separation 
+**Template Example**: @templatekey|defaultvalue@
+**Definition**: Specifies a default value if the sqltemplate object has no value defined for the template key.
+**Usage Example**:
+```python
+persontbl = sqltemplate.TableClause(
+    'person', 
+    join_condition='@connector|identity@.personid = person.personid',
+)
+```
+
+#### Function Syntax
+
+**Indicator**: Colon Separation 
+**Template Example**: @function:templatekey@
+**Definition**: Specifies a function to call with the current sql (and the value for the templatekey). The function must be defined as template_function_{function}. Some functional templates are already defined (and listed below).
+**Usage Example**:
+```python
+
+class ExpandedTableClause(sqltemplate.TableClause):
+
+    @classmethod
+    def template_function_between(cls, sql, clause, value):
+        sql = sql.replace(clause, value + " BETWEEN startdate and enddate")
+
+enrltemplate = ExpandedTableClause(
+    'enrollment', 
+    join_condition='@between:date@',
+)
+
+currentenrl = enrltemplate.extend_template(date='sysdate')
+jan1enrl = enrltemplate.extend_template(date="to_date('2021-01-01', 'YYYY-MM-DD')")
+```
+
+### Defined Template Functions
+
+The following are pre-defined functions that can be used in templates.
+
+#### Generic Equals (eq)
+**Function**: eq 
+**Definition**: Depending on whether the value is a list of multiple values or just a single value, will write a phrase in either equal format or inlist format 
+**Usage Example**:
+```python
+
+tmpl = sqltemplate.Table(
+    'person', 
+    join_condition='@eq:id@',
+)
+
+thisperson = tmpl.extend_template(id=55)
+thosepersons = tmpl.extend_template(id=[100,200,300])
+```
+
+#### Generic Not-Equals (ne)
+**Function**: ne
+**Definition**: Depending on whether the value is a list of multiple values or just a single value, will write a phrase in either not-equal format or not inlist format 
+**Usage Example**:
+```python
+
+tmpl = sqltemplate.Table(
+    'person', 
+    join_condition='@ne:id@',
+)
+
+thisperson = tmpl.extend_template(id=55)
+thosepersons = tmpl.extend_template(id=[100,200,300])
+```
+
+
+## Distribution
+* [GitLab Project](https://gitlab.com/krcrouse/sqltemplate)
+* [PyPI Distribution Page](https://pypi.org/project/sqltemplate)
+
+
+## Project Status
+
+Currently, sqltemplate has been used in practice but is shallowly vetted condition and should be considered somewhere between **alpha** and **beta** software. 
+
+If you wish to rely on features of this package, I am likely more than willing to accommodate and to incorporate sensible design improvements or, in some cases, changes.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install sqltemplate.
+
+```bash
+pip install sqltemplate
+```
+
+## Usage
+
+Many examples of usage are available in the main test files included in the t/ subdirectory.
+
+```python
+import sqltemplate
+
+standard_select = sqltemplate.SelectClause('person.name', 'person.id', 'person.birthdate', 'address.city')
+
+enrollment = sqltemplate.TableClause(
+    'enrollment', 
+    join_condition = 'enrollment.personid = person.personid',
+    exists_condition = 'enrollment.personid = person.personid',
+)
+
+basequery = sqltemplate.Query(
+    select=standard_select,
+    tables=[
+        'person',
+        enrollment,
+        sqltemplate.TableClause('address', join_condition=[ 'address.personid = person.personid', 'address.active=1'] )
+    ]
+)
+
+active_people = basequery.copy(extend_where="enrollment.status = 'active'")
+
+inactive_people = basequery.copy(extend_where="enrollment.status = 'inactive'")
+
+people_with_no_enrollments = sqltemplate.Query(
+    select=standard_select,
+    tables=['person'],
+    where=[ enrollment.as_exists(negate=True)],
+)
+
+```
+
+## Contributing
+Contributions are collaboration is welcome. For major changes, please contact me in advance to discuss.
+
+Please make sure to update tests for any contribution, as appropriate.
+
+## Author
+
+[Kevin Crouse](mailto:krcrouse@gmail.com). Copyright, 2021.
+
+## License
+[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+
