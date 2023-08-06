@@ -1,0 +1,5 @@
+[console_scripts]
+md2zhihu = hawksoft.md2zhihu:main
+selmv=hawksoft.selmv:mainrename = hawksoft.rename:main
+tree = hawksoft.tree:main
+
