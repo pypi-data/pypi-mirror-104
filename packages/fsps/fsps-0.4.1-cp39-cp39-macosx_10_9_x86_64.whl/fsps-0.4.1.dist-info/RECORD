@@ -1,0 +1,15 @@
+fsps-0.4.1.dist-info/RECORD,,
+fsps-0.4.1.dist-info/WHEEL,sha256=bRe_g_g-vZInZP5wOdewl-4AeWx8E2_UC3Ffr2csPyk,109
+fsps-0.4.1.dist-info/LICENSE.rst,sha256=oZfqvDIftHYgbdZUXHbBwLgYZndG5SXOX0hUajJhX_Q,1072
+fsps-0.4.1.dist-info/AUTHORS.rst,sha256=4IbLlnJpKfbCAVtXJ5eSVyGbdEEDzAsNVMeeFMsONP0,203
+fsps-0.4.1.dist-info/top_level.txt,sha256=LwBSaZRawmDtNTDyraDT1T9khhKcixzXScM6w5sSI_E,5
+fsps-0.4.1.dist-info/METADATA,sha256=Pz3XFJIHMxY8P4ozkHksCEEmuBs9aVNfUgH9CtcgKho,1065
+fsps/sps_home.py,sha256=Giz5me9giGrMKBooqNxYyqbIlZraiflf8fCTg6AvSd0,588
+fsps/__init__.py,sha256=NDWfkgfrMKz4Fv8O-kYxDfREJqmAQl6ujPryhh4JSrk,521
+fsps/_fsps.cpython-39-darwin.so,sha256=ST6QrX1YlI-LaXE3Qtkom-skSEWhDby14zImic0Vekk,903992
+fsps/fsps_version.py,sha256=3ijnD_eA6j4Wua9rQlPRJ8GF8xXgh1MavJHyBl0w2zM,142
+fsps/filters.py,sha256=qZTezCc1vYp8tLm9egZNN2Nst8fXgA4KMF1EcN1GoEg,5831
+fsps/fsps.py,sha256=2M6rC32etreQpepBn86TdYUqY56mHOxk_-qa_aOCpug,48313
+fsps/.dylibs/libgfortran.5.dylib,sha256=PfKlVmHpKE-Xm8HQsW59XOstQDfpo3xaNAnzHJtpYPU,3305048
+fsps/.dylibs/libquadmath.0.dylib,sha256=QSodCugEOgz8ougrcM9T9tVBupr-9QMRiP5ASpDH2dw,343240
+fsps/.dylibs/libgcc_s.1.dylib,sha256=XW_wcLqvcD0gSRyXTiTYCy82Iu0_DtlIQ7_h4nwXEac,169040
