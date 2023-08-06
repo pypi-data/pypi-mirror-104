@@ -1,0 +1,10 @@
+setup.py
+bhz_stats/Binomialdistribution.py
+bhz_stats/Gaussiandistribution.py
+bhz_stats/Generaldistribution.py
+bhz_stats/__init__.py
+bhz_stats.egg-info/PKG-INFO
+bhz_stats.egg-info/SOURCES.txt
+bhz_stats.egg-info/dependency_links.txt
+bhz_stats.egg-info/not-zip-safe
+bhz_stats.egg-info/top_level.txt
