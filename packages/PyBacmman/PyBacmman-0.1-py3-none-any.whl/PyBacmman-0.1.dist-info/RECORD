@@ -1,0 +1,14 @@
+pybacmman/__init__.py,sha256=RdW7ITjk3d0_lIZkjXre_39h00b20vXcmL5QEKGWuPY,19
+pybacmman/evaluation/__init__.py,sha256=25rLa67Ocf802aGWVrbo-kiI2nqyEKTC8_o_Cehlb6I,90
+pybacmman/evaluation/run_tasks.py,sha256=IaFMkPd57mZrMggqwjklXMkq-YlFbnTQvgjHrNR4PfY,5049
+pybacmman/pandas/__init__.py,sha256=LNWPh6d3Tx_6eQhbi_6qytjozRgMPMAFs9rI8hzYvNc,101
+pybacmman/pandas/curve_utils.py,sha256=EzKHl3YKD9SB1IbhHjYpK6NnMbjuAtF5Rit1aj2LILU,1779
+pybacmman/pandas/indices_utils.py,sha256=XnckMpiD9lGHiN97DEjN7afmwWN04CaCs2x1z8IBZ5w,521
+pybacmman/pandas/pandas_utils.py,sha256=gztXOfWefrBuMNy7qaq5_R2xt9p4hNKKIWU61h1KT-A,4816
+pybacmman/selections/__init__.py,sha256=cK5ajhm_1AZ0895_aKR4h74wDIwdc32qNWEioeihwKg,66
+pybacmman/selections/selections.py,sha256=-3IcN9W9RCSB1aRkae9ZMnmRZd4mS-pZgngISPIZw10,869
+PyBacmman-0.1.dist-info/LICENSE,sha256=uXvVf2nwKu6QW4W_2GjOC6pCUZMHUR6Y8-qAYWPAGiA,32453
+PyBacmman-0.1.dist-info/METADATA,sha256=ZAk060jdoiFX_KQ_bACfdYj7pxgJnkJaavllieHWts4,1055
+PyBacmman-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyBacmman-0.1.dist-info/top_level.txt,sha256=HvKCNgb3tRerA7xTqwmUUFjhfQBv11UEa9itHOyYG_s,10
+PyBacmman-0.1.dist-info/RECORD,,
