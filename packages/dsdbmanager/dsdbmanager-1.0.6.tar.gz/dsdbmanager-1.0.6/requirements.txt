@@ -1,0 +1,6 @@
+sqlalchemy
+numpy>=1.16.5
+pandas
+toolz
+click
+cryptography
