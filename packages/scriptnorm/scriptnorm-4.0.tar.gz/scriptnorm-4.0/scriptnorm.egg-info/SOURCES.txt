@@ -1,0 +1,8 @@
+setup.py
+scriptnorm/__init__.py
+scriptnorm/constants.py
+scriptnorm/normalization.py
+scriptnorm.egg-info/PKG-INFO
+scriptnorm.egg-info/SOURCES.txt
+scriptnorm.egg-info/dependency_links.txt
+scriptnorm.egg-info/top_level.txt
