@@ -1,0 +1,11 @@
+ja_text_cleaner/__init__.py,sha256=GRvJzXpogUMxL1izXgQSQad-wAeUlBOdgjwxDr-Vw3g,132
+ja_text_cleaner/abc.py,sha256=XGI8fSEE1q-UGcmWyBnwt3yECCxle2Ic9c0_ZpA-sLY,1412
+ja_text_cleaner/mappings.py,sha256=VT2_FuCDph5wczkSBb5ZP8Z3dIXvTU_TIFEN9T_lqjo,1483
+ja_text_cleaner/name.py,sha256=JwAkmLj5VT5AdnrvWdkN7HZc9T_aj1f1ivurO3wwCu8,847
+ja_text_cleaner/normalizer.py,sha256=1IQQb2PFobWv1npm7mBcDH7OLG8ugrqPLJWPdTzVcQs,4319
+ja_text_cleaner/processor.py,sha256=xy4TcEMdOEDgNCtzFbjJZNkugCm-PBj-UV5YoqPIrYs,840
+ja_text_cleaner/restapi.py,sha256=EcwGxoHyTWorroCWBXbApsfQMSdNdJd4ZpJVFQ1TdiM,1911
+ja_text_cleaner/tokenizer.py,sha256=gAHDjuJ4R79LsjFe3tQ5nURG1FDLGaeYXdHFNfyNFfU,3806
+ja_text_cleaner-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ja_text_cleaner-0.0.1.dist-info/METADATA,sha256=TcyXN18CGk9KgWETk3dIRdzSmalkKUzNRTgvoO5qORg,3264
+ja_text_cleaner-0.0.1.dist-info/RECORD,,
