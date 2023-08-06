@@ -1,0 +1,10 @@
+tello_asyncio/__init__.py,sha256=mHGZu7-Gpx-sdvy9zhtvezJ1TiigCHrGONLji-QSPHY,69
+tello_asyncio/protocol.py,sha256=H3Du8b9qs2jyoj2OvUNxHCPMmwsaTKqv-dwmBVHeY9c,603
+tello_asyncio/state.py,sha256=A99NXLXrAvfObYwhy4BNyBYGBOPey7-Lid7v2j2umeA,2388
+tello_asyncio/tello.py,sha256=QHA3gZAfH_A2hHJI6AZMVAV_i-8vyuSM8dBqXwJI7uw,3245
+tello_asyncio/types.py,sha256=jU-LECp0qUAGxF0hvtoJd1PqE6FsiBxR2esRpx7JO2g,262
+tello_asyncio-1.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+tello_asyncio-1.1.0.dist-info/METADATA,sha256=rmifohECFyNPEAEuzTvuDeZ2nBoPWa4JzSBp8DFaTC0,1877
+tello_asyncio-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tello_asyncio-1.1.0.dist-info/top_level.txt,sha256=yBIMC_fE1c6YlBDs4mGTJGpHammMTGf44JlaBLsLkck,14
+tello_asyncio-1.1.0.dist-info/RECORD,,
