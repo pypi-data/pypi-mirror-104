@@ -1,0 +1,11 @@
+README.md
+setup.py
+itranslit/__init__.py
+itranslit/config.py
+itranslit/transliterate.py
+itranslit/utils.py
+itranslit.egg-info/PKG-INFO
+itranslit.egg-info/SOURCES.txt
+itranslit.egg-info/dependency_links.txt
+itranslit.egg-info/requires.txt
+itranslit.egg-info/top_level.txt
