@@ -1,0 +1,7 @@
+README.md
+setup.py
+MSPT.egg-info/PKG-INFO
+MSPT.egg-info/SOURCES.txt
+MSPT.egg-info/dependency_links.txt
+MSPT.egg-info/requires.txt
+MSPT.egg-info/top_level.txt
