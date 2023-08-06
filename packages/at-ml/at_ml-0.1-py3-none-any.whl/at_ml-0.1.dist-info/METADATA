@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: at-ml
+Version: 0.1
+Summary: A Toolbox for Adaptive Testing on Machine Learning Experiments
+Home-page: https://at-ml.github.io/
+Author: Hao Song
+Author-email: nuacesh@gmail.com
+License: UNKNOWN
+Keywords: adaptive testing,machine learning
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: openml
+Requires-Dist: tensorflow
+Requires-Dist: pandas
+
+# @ML: A Toolbox for Adaptive Testing on Machine Learning Experiments
+
+
