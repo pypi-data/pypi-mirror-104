@@ -1,0 +1,10 @@
+stt/__init__.py,sha256=phGrYzxZafvGQqNeCvPVzAqAuvgsOUy1CjygbbqyKYQ,12507
+stt/_impl.cpython-39-darwin.so,sha256=o-ypWNdPFYBxCopoC4WB4rvnzbwZHVcYULFQGEcQUI4,95248
+stt/client.py,sha256=ZUMbFonmXYU06G7FZs1LdVRGtxXzbk8VQg-U8FUB13s,6612
+stt/impl.py,sha256=SFfRq0gR2KcHrxeaXga5FPZsU_osb6RlrRftcbJfWsg,7196
+stt/lib/libstt.so,sha256=wtVTG16xofRxk3w4x_J6QIE6v3GiSgqe5W0WwVmwrJc,6964208
+stt_tflite-0.10.0a6.dist-info/METADATA,sha256=xHGb-jNB-MtbIbQ18yLmlZVsWZuvsi46JD6GnCm8gH8,1337
+stt_tflite-0.10.0a6.dist-info/WHEEL,sha256=OaBXhz-cGC9BXXuqAe8qfpjaayvmsKmdCl1mg0zckdA,109
+stt_tflite-0.10.0a6.dist-info/entry_points.txt,sha256=-RJKAhqFH3le0allDtX9BNVyOHyAXMbyweoEXUinoRI,41
+stt_tflite-0.10.0a6.dist-info/top_level.txt,sha256=U36suN9i5BZ2UbKj5dzgbpHmkIEAvyge7wRwJVB24jk,4
+stt_tflite-0.10.0a6.dist-info/RECORD,,
