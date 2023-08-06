@@ -1,0 +1,17 @@
+dapi/__init__.py,sha256=nHqTL7R4NKGsRe8sDeIlHpcgtGgftJy4zJgyzwi3Mug,410
+dapi/dapi_client.py,sha256=01_1JS7yTbfIJpklG91hYYRN7iWqlewR90Gkys_ADuQ,1077
+dapi/dapi_constants.py,sha256=ATOV9ypjs0TEwlzx2HLdAP8YP2eciyud54Urrx7ohVY,770
+dapi/dapi_request.py,sha256=V8cyeyNBL0zEXMdcl88sQ_tkL8y94D3xeoob5C3aPbQ,1548
+dapi/dapi_utils.py,sha256=tWbHG-P0Ehdv6DCuRYKobESdbuvyJFnaXG7WGhAa9B4,5458
+dapi/version.py,sha256=LyM9mUVOg4-7GD_QQ0739y9k8ltWGfteqZDP06qDXR8,23
+dapi/products/__init__.py,sha256=Z6Jc2E8AilWH3YrzotmBC1SxvaDAwW9QoRQ3eW25eLc,304
+dapi/products/auth.py,sha256=_Y_OaFIV0Th-eqBn_coaeN9SDoFTn1stjUDxC19qvXQ,1297
+dapi/products/data.py,sha256=0iwpEBOyVdSiBZMY8nXR2iJil5OA1y43yIJlXvuZFUQ,3564
+dapi/products/metadata.py,sha256=db_W8yXjy9_dobyQO8bw1ul4fIs8irBHET1Vg9VT82Y,853
+dapi/products/operation.py,sha256=dAAojRedpHuZ0JHJILIWk1rQgLmz6L350u5otOue_Lo,992
+dapi/products/payment.py,sha256=3Hp9tCzI6UJEkUQF8KyzDAvbX0Hv0zuM1EM4jsysYyk,3685
+dapi_python-2.0.0.dist-info/LICENSE,sha256=MTYF-6xpRekyTUglRweWtbfbwBL1I_3Bgfbm_SNOuI8,11525
+dapi_python-2.0.0.dist-info/METADATA,sha256=TC1v5WtOLU5eV_6-YPeBkkxEFoM-bBvBMvNkMHqck5s,26924
+dapi_python-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dapi_python-2.0.0.dist-info/top_level.txt,sha256=70eAVzfGK22EFDN6LvBoBEYoPOnJIzihrbzQMw4QzCU,5
+dapi_python-2.0.0.dist-info/RECORD,,
