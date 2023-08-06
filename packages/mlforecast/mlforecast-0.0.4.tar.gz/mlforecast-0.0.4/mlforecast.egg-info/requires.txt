@@ -1,0 +1,14 @@
+fastcore
+numba
+pandas
+window-ops
+
+[aws]
+boto3
+s3path
+
+[cli]
+pydantic
+
+[distributed]
+dask[complete]
