@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pineaprint/pineaprint.egg-info/PKG-INFO
+pineaprint/pineaprint.egg-info/SOURCES.txt
+pineaprint/pineaprint.egg-info/dependency_links.txt
+pineaprint/pineaprint.egg-info/top_level.txt
