@@ -1,0 +1,13 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+walpy/__init__.py
+walpy/r_importer.py
+walpy/suppress.py
+walpy/write_run.py
+walpy.egg-info/PKG-INFO
+walpy.egg-info/SOURCES.txt
+walpy.egg-info/dependency_links.txt
+walpy.egg-info/requires.txt
+walpy.egg-info/top_level.txt
