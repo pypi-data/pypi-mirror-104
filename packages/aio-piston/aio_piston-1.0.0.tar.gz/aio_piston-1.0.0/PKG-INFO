@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: aio_piston
+Version: 1.0.0
+Summary: An unoffical async API wrapper for the piston code execution engine
+Home-page: https://github.com/Tom-the-Bomb/aio-piston
+Author: Tom-the-Bomb
+License: MIT
+Project-URL: Repository, https://github.com/Tom-the-Bomb/aio-piston
+Project-URL: Issue tracker, https://github.com/Tom-the-Bomb/aio-piston/issues
+Description: # Aio-piston
+        This is an unoffical Api wrapper for the [piston code execution engine](https://emkc.org/api/v2/piston/)
+        
+        **Examples**
+        ```py
+        import aio_piston
+        import asyncio
+        
+        async def main():
+            async with await aio_piston.Piston() as piston:
+                out = await piston.execute('print("hello world")', language="python")
+                #execute the code
+                out2 = await piston.execute('print(input("what is your name"))', language="python", inputs="bob")
+                return out, out2
+        
+            #*OR* without a context manager
+            piston = await aio_piston.Piston()
+            ...
+            #do stuff
+            ...
+            #at the end
+            await piston.close()
+        
+        out, out2 = asyncio.run(main())
+        
+        print(str(out))
+        #full output
+        print(vars(out).keys())
+        #all the attributes of the response class
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
