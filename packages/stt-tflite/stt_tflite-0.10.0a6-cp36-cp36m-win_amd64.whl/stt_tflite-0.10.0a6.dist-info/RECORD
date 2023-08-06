@@ -1,0 +1,12 @@
+Release/_impl.cp36-win_amd64.exp,sha256=YQUs6YaykhnwNlUf5uBmL49m38wzr3v0SF6LMg4n4vw,737
+Release/_impl.cp36-win_amd64.lib,sha256=pPswEYKSIQM9ieW9jn6YaWmlB8B_g5sEE-Rl-RzPnsY,1964
+stt/__init__.py,sha256=iT9rcKFEje3UL8BVMcpQ9K-LW-gkmXLwm-0jDknDpsQ,12862
+stt/_impl.cp36-win_amd64.pyd,sha256=ZTgSuxmcxPQNtlfC7F6daqPV9631GzqtqG7mf9FGwCg,87040
+stt/client.py,sha256=OIGzF8Zo-vaM5C7EiMlJycFEpo1rgQx2CbKfo2yiHlY,6782
+stt/impl.py,sha256=7nx1D04p8biiiZHbE4fSa-2iv-wJ8KSRSn2Kj-ILRKc,7409
+stt/lib/libstt.so,sha256=zEg4YYtX1TDRacfE4mNiaqOXU4sADc41hkPSZk8yBmY,2501120
+stt_tflite-0.10.0a6.dist-info/METADATA,sha256=Ej7BRVcII5V7Sq-G3Hk_86kWlICXyGDawYdfURs-evE,1345
+stt_tflite-0.10.0a6.dist-info/WHEEL,sha256=uQaeujkjkt7SlmOZGXO6onhwBPrzw2WTI2otbCZzdNI,106
+stt_tflite-0.10.0a6.dist-info/entry_points.txt,sha256=-RJKAhqFH3le0allDtX9BNVyOHyAXMbyweoEXUinoRI,41
+stt_tflite-0.10.0a6.dist-info/top_level.txt,sha256=U36suN9i5BZ2UbKj5dzgbpHmkIEAvyge7wRwJVB24jk,4
+stt_tflite-0.10.0a6.dist-info/RECORD,,
