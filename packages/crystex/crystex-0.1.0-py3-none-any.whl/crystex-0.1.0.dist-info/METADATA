@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: crystex
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Maria S. Yankova, Adam J. Plowman
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: h5py
+Requires-Dist: plotly
+Requires-Dist: spglib
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: mendeleev
+Requires-Dist: dropbox
+Requires-Dist: PyYAML
+Requires-Dist: scipy
+Requires-Dist: palettable
+Requires-Dist: scikit-image
+Requires-Dist: pandas
+Requires-Dist: vecmaths
+
+UNKNOWN
+
+
