@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autobib
+Version: 0.0.0
+Summary: Automatically generate and manage a BibTeX file
+Home-page: https://github.com/hdembinski/autobib
+Author: Hans Dembinski
+Author-email: hans.dembinski@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/hdembinski/autobib/issues
+Description: # autobib
+        Automatically generate and manage a BibTeX file
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
