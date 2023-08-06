@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pyrediscore/__init__.py
+src/pyrediscore.egg-info/PKG-INFO
+src/pyrediscore.egg-info/SOURCES.txt
+src/pyrediscore.egg-info/dependency_links.txt
+src/pyrediscore.egg-info/requires.txt
+src/pyrediscore.egg-info/top_level.txt
