@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: diamondback
+Version: 1.0.86
+Summary: Diamondback digital signal processing package.
+Home-page: https://github.com/larryturner/diamondback
+Author: Larry Turner
+Author-email: larry.turner@se.com
+License: BSD-3C.  © 2018 - 2021 Larry Turner, Schneider Electric Industries SAS. All rights reserved.
+Keywords: BSON,DSP,FFT,FIR,GZIP,IIR,JSON,PCA,PID,PSD,REST,adaptive,complex,derivative,diamondback,diversity,exponential,filter,fourier,frequency,goertzel,integral,jsonpickle,log,loguru,model,polynomial,polyphase,power,rate,requests,serial,transform,wavelet
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >= 3.6
+Requires-Dist: jsonpickle (>=2.0.0)
+Requires-Dist: loguru (>=0.5.3)
+Requires-Dist: numpy (>=1.20.2)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: scipy (>=1.6.3)
+Provides-Extra: full
+Requires-Dist: ipython (>=7.22.0) ; extra == 'full'
+Requires-Dist: ipywidgets (>=7.6.3) ; extra == 'full'
+Requires-Dist: jupyter (>=1.0.0) ; extra == 'full'
+Requires-Dist: matplotlib (>=3.4.1) ; extra == 'full'
+Requires-Dist: nox (>=2020.12.31) ; extra == 'full'
+Requires-Dist: pillow (>=8.2.0) ; extra == 'full'
+Requires-Dist: pytest (>=6.2.3) ; extra == 'full'
+Requires-Dist: regex (>=2021.4.4) ; extra == 'full'
+Requires-Dist: sphinx (>=3.5.4) ; extra == 'full'
+Requires-Dist: sphinx-pydantic (>=0.1.1) ; extra == 'full'
+Requires-Dist: sphinx-rtd-theme (>=0.5.2) ; extra == 'full'
+
+Diamondback is a package which provides Digital Signal Processing
+( DSP ) solutions, organized in the form of commons, filters,
+interfaces, models, and transforms.
+
+Diamondback complements Artificial Intelligence ( AI ) frameworks, by
+defining components which analyze, filter, extract, model, and transform
+data into forms which are useful in applications including pattern
+recognition, feature extraction, and optimization.
+
+Diamondback also facilitates classical signal processing solutions
+including communications, modeling, signal identification and extraction,
+and noise cancellation.
+
+
+
