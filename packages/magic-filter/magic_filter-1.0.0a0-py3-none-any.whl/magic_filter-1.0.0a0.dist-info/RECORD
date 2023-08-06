@@ -1,0 +1,15 @@
+magic_filter/__init__.py,sha256=SgmErb7uDh_cyD5ZvqTH6GGhpL_fAjOAm54ZHLZmpuc,121
+magic_filter/exceptions.py,sha256=KPwO8Xr59iQwHX6nyDDb5KZb2GOiIjqRj01p4c8c7yY,130
+magic_filter/magic.py,sha256=H_9j3LKTJ7GF41QJjt7vOoOguynyF3q_ns2T6VUHonE,4248
+magic_filter/operations/__init__.py,sha256=ivMSOaM9ipHmGvb_ACp5Y5dZ0BBdFjitBrz-8xVijwM,465
+magic_filter/operations/base.py,sha256=eousk9gYoCZpCC8G-bQQ1H4SOyE0qJ9DmbMmW_8_b1o,202
+magic_filter/operations/call.py,sha256=qYyucTbwVriH9-rJykNvVKnb5Vw8APE1kmxvV4fltUw,379
+magic_filter/operations/combination.py,sha256=oX_tNTGFFxdx7_7ulz0Uj2HeuIXYxS1OEnN3e4gTaaI,976
+magic_filter/operations/comparator.py,sha256=5jdUlZsqg8VhkZMNTIe6P8IMKGJy2X7elxyt9Q0BmUo,435
+magic_filter/operations/function.py,sha256=wOr3ddJmH-3IHJ71RUAQbd1lTdLGTEZleeg44UylGD4,725
+magic_filter/operations/getattr.py,sha256=FYapSQzC5iY8hfs6EqYcPjMhYP9qmQbhcckAtMkKyro,398
+magic_filter/operations/getitem.py,sha256=-xAHE0Qub3wEd__o8gN3DMHFk8CD-Z-gxKNPFzpEc2I,571
+magic_filter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_filter-1.0.0a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+magic_filter-1.0.0a0.dist-info/METADATA,sha256=1fS_QU93rITPhHtRCe2FGnE_u3z4E0Z9rmm8nYX10UQ,969
+magic_filter-1.0.0a0.dist-info/RECORD,,
