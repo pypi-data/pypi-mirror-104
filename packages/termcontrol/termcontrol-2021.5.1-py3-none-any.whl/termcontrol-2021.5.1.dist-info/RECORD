@@ -1,0 +1,10 @@
+termcontrol/Makefile,sha256=7Z92eTVp23Mj1Zmz86wXADBhOIPzIJSzDSqYcqLBrk0,121
+termcontrol/__init__.py,sha256=TModBJZV5_LwWXZNDyUC5japuQhVR1mjejzOGuMpORo,4818
+termcontrol/cli.py,sha256=AXb_8iSE0uuU2--n9mY5JdrYyJ416Q83NGL11_VUDwA,3711
+termcontrol/hijack,sha256=OL6Ew6AckU9I1aLgiUH8zUk-CPEvnT10R_PG83cJ8Eo,56336
+termcontrol/hijack.c,sha256=wnI2jWGi0PvGuiYhMu2rsjObvzORRsmmQymoR3Kdo2Y,16093
+termcontrol-2021.5.1.dist-info/METADATA,sha256=wldPhe_TAOyLzQ_BFZsWY0ulX1_fKFftDsuQNArjtH8,5037
+termcontrol-2021.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+termcontrol-2021.5.1.dist-info/entry_points.txt,sha256=QiNVn12HnJMAYsiya2-Pt3-jFwtDur65K9ZPGXDarnA,54
+termcontrol-2021.5.1.dist-info/top_level.txt,sha256=y4w8qZH3-1fOo2OOmQbUw-_HrHninWjEFu_fMGTHVgs,12
+termcontrol-2021.5.1.dist-info/RECORD,,
