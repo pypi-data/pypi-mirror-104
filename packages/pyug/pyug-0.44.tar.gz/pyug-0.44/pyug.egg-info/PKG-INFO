@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyug
+Version: 0.44
+Summary: python username generator library
+Home-page: https://github.com/nbdy/pyug
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Description: # pyug
+        ## python username generator
+        it's basically the thingy docker uses for its container names<br>
+        ported from [moby](https://github.com/moby/moby)
+        
+        ## usage..
+        ```shell
+        from pyug import get_random_username
+        
+        print(get_random_username())
+        >> sharp_jackson
+        ```
+Keywords: username generator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
