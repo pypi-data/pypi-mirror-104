@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: me314
+Version: 0.0.1
+Summary: Northwestern ME314 toolbox
+Home-page: https://github.com/MuchenSun/me314
+Author: Muchen Sun
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: sympy
+
+# Northwestern ME314 Helper Package
+
+Help functions used for Northwestern ME314 programming assignments.
+
+
