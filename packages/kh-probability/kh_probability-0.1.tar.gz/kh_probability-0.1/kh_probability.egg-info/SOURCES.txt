@@ -1,0 +1,10 @@
+setup.py
+kh_probability/Binomialdistribution.py
+kh_probability/Gaussiandistribution.py
+kh_probability/Generaldistribution.py
+kh_probability/__init__.py
+kh_probability.egg-info/PKG-INFO
+kh_probability.egg-info/SOURCES.txt
+kh_probability.egg-info/dependency_links.txt
+kh_probability.egg-info/not-zip-safe
+kh_probability.egg-info/top_level.txt
