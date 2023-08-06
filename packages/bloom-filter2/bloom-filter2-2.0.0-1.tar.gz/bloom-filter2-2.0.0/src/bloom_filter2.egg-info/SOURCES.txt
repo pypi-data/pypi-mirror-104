@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/bloom_filter2/__init__.py
+src/bloom_filter2/bloom_filter.py
+src/bloom_filter2.egg-info/PKG-INFO
+src/bloom_filter2.egg-info/SOURCES.txt
+src/bloom_filter2.egg-info/dependency_links.txt
+src/bloom_filter2.egg-info/top_level.txt
