@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: khlbot-bcc
+Version: 1.0.0
+Summary: 开黑啦 Bot websocket API 的 Python 实现.
+Home-page: https://github.com/purofle/khlbot
+Author: purofle
+Author-email: 3272912942@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/purofle/khlbot/issues
+Description: # khlbot
+        ## 介绍
+        一个简单的开黑啦bot的python实现.
+        ## 感谢
+        - [`GraiaProject/Application`](https://github.com/GraiaProject/Application): 本框架大量参考这个项目，非常感谢
+        ## 许可证
+        [`GNU AGPLv3`](/LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
