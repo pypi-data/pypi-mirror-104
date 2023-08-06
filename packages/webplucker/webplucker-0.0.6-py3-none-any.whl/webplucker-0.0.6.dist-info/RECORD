@@ -1,0 +1,11 @@
+webplucker/__init__.py,sha256=mSKLm-KS6e1A16AXvhdX7mnyaPPUtauRLKT4co9miok,994
+webplucker/jsengine/__init__.py,sha256=lde6kiDCpQjYWYDpvuzXW4An0kFjtNBhZKzeMH4R4JY,351
+webplucker/req_handler/__init__.py,sha256=f8pYVjxobus_oygNOUYQgTWgqVqJDsnWqOJKili4yKA,1687
+webplucker/req_handler/agents/__init__.py,sha256=c2-LxJl0hRiEPVr9go4ut9dNXY0a2fUBO6DheUOiirs,2770
+webplucker/req_handler/extractdata/__init__.py,sha256=cRvTIeqdLZsBdj5XzHsYqrNSVOfAJs2y8j3LAwtCJU8,2517
+webplucker/req_handler/extractdata/config.py,sha256=fhPiltQ0H7o8wH2qjY9D2fYa_7jhc04RHXRiSEDwVFU,15
+webplucker-0.0.6.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+webplucker-0.0.6.dist-info/METADATA,sha256=DvP0_RYdKKGQP-16w7AczYTMWxQ_u9X6hLsxLEVtXQM,999
+webplucker-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webplucker-0.0.6.dist-info/top_level.txt,sha256=dXvPme2DuE--B8Pc6lPMytR7QrAKaua48K1OCPLyVRA,11
+webplucker-0.0.6.dist-info/RECORD,,
