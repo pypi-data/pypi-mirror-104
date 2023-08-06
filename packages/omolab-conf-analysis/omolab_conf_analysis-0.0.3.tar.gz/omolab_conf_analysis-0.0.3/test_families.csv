@@ -1,0 +1,6 @@
+,1 C to 2 H,1 C to 3 H,1 C to 4 C,labels
+pentane_1.xyz,1.096276,1.096276,1.528389,Family 0
+pentane_3.xyz,1.096818,1.095462,1.530606,Family 0
+pentane_2.xyz,1.097144,1.095743,1.531324,Family 0
+pentane_4_fake.xyz,1.530606,1.095462,1.196818,Family 0
+pentane_5_fake.xyz,128.966981,1.095743,1.531324,Family 1
