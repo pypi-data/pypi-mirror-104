@@ -1,0 +1,10 @@
+setup.py
+hepo_probability.egg-info/PKG-INFO
+hepo_probability.egg-info/SOURCES.txt
+hepo_probability.egg-info/dependency_links.txt
+hepo_probability.egg-info/not-zip-safe
+hepo_probability.egg-info/top_level.txt
+hepo_probability_gaussian_binomial/Binomialdistribution.py
+hepo_probability_gaussian_binomial/Gaussiandistribution.py
+hepo_probability_gaussian_binomial/Generaldistribution.py
+hepo_probability_gaussian_binomial/__init__.py
