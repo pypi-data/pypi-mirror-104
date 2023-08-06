@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hkserror/__init__.py
+src/hkserror/hkserror.py
+src/hkserror.egg-info/PKG-INFO
+src/hkserror.egg-info/SOURCES.txt
+src/hkserror.egg-info/dependency_links.txt
+src/hkserror.egg-info/top_level.txt

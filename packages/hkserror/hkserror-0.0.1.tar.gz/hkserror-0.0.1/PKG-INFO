@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hkserror
+Version: 0.0.1
+Summary: The module defines some popular errors of hks python modulesystems.
+Home-page: https://github.com/huykingsofm/hkserror
+Author: huykingsofm
+Author-email: huykingsofm@gmail.com
+License: UNKNOWN
+Description: # hkserror
+        The module defines some popular errors of hks python modulesystems.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
