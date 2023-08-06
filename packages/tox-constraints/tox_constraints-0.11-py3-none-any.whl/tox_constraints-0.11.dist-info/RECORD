@@ -1,0 +1,9 @@
+tox_constraints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tox_constraints/git_filter.py,sha256=7iwiqz3In2rOpNq6R5aEq9iztKejY2EXCIKoj80TQks,1472
+tox_constraints/hooks.py,sha256=KV7M6AVVwLYNXd0pXeHS7mdV5isPD6TH_4mHeqkxJp4,5485
+tox_constraints-0.11.dist-info/LICENSE,sha256=DqES3VcyLoEf0U13eOl8XNGU6gayEg9Gdkoh_pXCStE,1069
+tox_constraints-0.11.dist-info/METADATA,sha256=cUYzplhEGtU2L78YjRFdEvAxDHB3ipax8SZn5B1GhVU,685
+tox_constraints-0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tox_constraints-0.11.dist-info/entry_points.txt,sha256=EE41qLcoZxDcfTSIp5zaTn_re_O58CdO4mFn63gBUNk,206
+tox_constraints-0.11.dist-info/top_level.txt,sha256=yRBOR3OnA-_V_EgTEFW0IEK5TjHh4n34L3DxiNoo834,16
+tox_constraints-0.11.dist-info/RECORD,,
