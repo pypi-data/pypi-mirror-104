@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: imitate
+Version: 0.0.1
+Summary: An open-source deep learning TTS Engine for people with speech disoders
+Home-page: https://github.com/AdityaCyberSafe/ImitateTTS
+Author: Aditya Sunil Patil
+Author-email: admin@cybersafe.ezyro.com
+License: MIT
+Project-URL: Documentation, https://github.com/mozilla/TTS/wiki
+Project-URL: Tracker, https://github.com/AdityaCyberSafe/ImitateTTS/issues
+Project-URL: Repository, https://github.com/AdityaCyberSafe/ImitateTTS
+Project-URL: Discussions, https://github.com/AdityaCyberSafe/ImitateTTS/discussions
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0, <3.9

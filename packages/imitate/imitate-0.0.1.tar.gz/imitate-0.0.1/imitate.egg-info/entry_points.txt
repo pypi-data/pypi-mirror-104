@@ -1,0 +1,4 @@
+[console_scripts]
+imitate = imitatetts.bin.synthesize:main
+imitate-server = imitatetts.server.server:main
+

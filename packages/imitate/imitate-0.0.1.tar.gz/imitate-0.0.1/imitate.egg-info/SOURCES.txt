@@ -1,0 +1,10 @@
+README.md
+setup.py
+H:/ImitateTTS/TTS/imitatetts/imitate/layers/glow_tts/monotonic_align/core.c
+imitate.egg-info/PKG-INFO
+imitate.egg-info/SOURCES.txt
+imitate.egg-info/dependency_links.txt
+imitate.egg-info/entry_points.txt
+imitate.egg-info/not-zip-safe
+imitate.egg-info/requires.txt
+imitate.egg-info/top_level.txt
