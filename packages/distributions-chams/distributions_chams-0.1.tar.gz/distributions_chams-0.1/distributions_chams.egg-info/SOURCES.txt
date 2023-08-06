@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+distributions_chams/Gaussiandistribution.py
+distributions_chams/Generaldistribution.py
+distributions_chams/__init__.py
+distributions_chams.egg-info/PKG-INFO
+distributions_chams.egg-info/SOURCES.txt
+distributions_chams.egg-info/dependency_links.txt
+distributions_chams.egg-info/not-zip-safe
+distributions_chams.egg-info/top_level.txt
