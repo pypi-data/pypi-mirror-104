@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: GiHaDocs
+Version: 1.0.2
+Summary: GiHa Solutions Documentation.
+Home-page: https://www.giha-solutions.com
+Author: Hamilton Wonderlich
+Author-email: lwonderlich@gmail.com
+License: BSD
+Description: GiHa Solutions Documentation.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.5
