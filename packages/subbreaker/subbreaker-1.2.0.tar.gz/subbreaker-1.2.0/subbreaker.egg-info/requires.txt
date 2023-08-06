@@ -1,0 +1,13 @@
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+pytest
+pytest-cov
+black
+flake8
+sphinx
+sphinx-argparse
+tox
+sphinx_rtd_theme
