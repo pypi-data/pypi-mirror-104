@@ -1,0 +1,15 @@
+port_for/__init__.py,sha256=JWSbLmXaAZK9p0pkZMJ8C_u8aqojWWnpB3ULPS_jtic,325
+port_for/_download_ranges.py,sha256=Qpi5gp60HfnEoWl7ownUPf7zEMsH3XJTA2-UnTSs80k,2799
+port_for/_ranges.py,sha256=BQBFASByl2LJ53kVU8WAbpmUhp1-ON4qstHWbVqix6c,13189
+port_for/api.py,sha256=ZpSASkn1-UDHHdZgqPiQnSNK6TbUutbf-FrPGrkAoaw,2991
+port_for/docopt.py,sha256=YjO3y9gnVIw383liba_iPtu_fXWNQ-GPw7PPn64dWU4,15839
+port_for/ephemeral.py,sha256=cFrRgosStiInwtRvF8GI4mCvw7t_Yh0fIOvknlG4jTM,1857
+port_for/exceptions.py,sha256=b8pFfdw4_BLr6lNb-Cke94h2wpD1Nrsgvtc8dNb9K08,68
+port_for/store.py,sha256=Sv_cw-HuAHGYqw7TwCiblDgTxuVe_5GPiTBlaxbPmyg,2530
+port_for/utils.py,sha256=2JMHJtqQxAALsTadiHg6k3-WIrsvV8eh4ZuZMwoLXm0,644
+port_for-0.5.0.data/scripts/port-for,sha256=CVKo6CG05OYFCuRJ8zD5_IJJR0frNFBWdKuq9fseUUI,1480
+port_for-0.5.0.dist-info/LICENSE.txt,sha256=Hqa7WDapfZlDNRG9P1AvJ7PHyyfjA6C0iOz-slyhayg,1059
+port_for-0.5.0.dist-info/METADATA,sha256=kRRaw9HpSeCDaBFtyVMvcgUZLoryfcqHzsx_KX34zrE,5045
+port_for-0.5.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+port_for-0.5.0.dist-info/top_level.txt,sha256=ZfTphmmNK2GOjhBsrKzr1CA2kVy-ODYfWc6loCLCuYs,9
+port_for-0.5.0.dist-info/RECORD,,
