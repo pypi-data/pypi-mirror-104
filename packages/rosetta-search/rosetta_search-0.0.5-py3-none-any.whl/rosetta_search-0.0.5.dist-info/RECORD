@@ -1,0 +1,9 @@
+rosetta_search/__init__.py,sha256=jzP8yUnwU5acUOD1O1gzdXKZS2XH4g4D2Zjk3L4t4EE,39
+rosetta_search/database.py,sha256=OBn8FvPCCDMKqvSpNFxEa3tXWn-rc6DBCCGE4-ywB6g,5350
+rosetta_search/nlp_utils.py,sha256=vNf01OkGBEYA8t50bO7OngcKW777i0Z_dP5WkJ9pAcs,425
+rosetta_search/rosetta_index.py,sha256=Px36V3ooLm7vEkIklhqlHVXPqXkPg_QbOFBhYkOOBgM,2282
+rosetta_search-0.0.5.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+rosetta_search-0.0.5.dist-info/METADATA,sha256=fKGCpHYqifMWqj9iEREvqFffeHX_j3087DnblovZTfg,685
+rosetta_search-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rosetta_search-0.0.5.dist-info/top_level.txt,sha256=iDQQJcCfxIsdcF9RemSCw1S2Bany39FJCLWheZ_HQ40,15
+rosetta_search-0.0.5.dist-info/RECORD,,
