@@ -1,0 +1,3 @@
+[console_scripts]
+coordio=coordio.__main__:main
+
