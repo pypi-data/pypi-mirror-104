@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: PytorchCNNModules
+Version: 0.0.1
+Summary: Pytorch CNN Module collection
+Home-page: https://github.com/nktankta/PytorchCNNModules
+Author: nktankta
+Author-email: nakataatsuya@gmai.com
+License: MIT License
+Keywords: pytorch cnn module inception block
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: Japanese
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: torch (>=1.4)
+
+UNKNOWN
+
+
