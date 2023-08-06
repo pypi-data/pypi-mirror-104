@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+Makefile
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+fai/__init__.py
+fai/_version.py
+fai.egg-info/PKG-INFO
+fai.egg-info/SOURCES.txt
+fai.egg-info/dependency_links.txt
+fai.egg-info/requires.txt
+fai.egg-info/top_level.txt
+tests/test_lib.py
