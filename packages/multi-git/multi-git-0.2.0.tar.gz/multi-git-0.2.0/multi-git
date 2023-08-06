@@ -1,0 +1,239 @@
+#!/usr/bin/python3
+"""
+Manages multiple git repositories at the same time. You can run git commands like
+status, commit, push, pull etc. fot multiple repos at once.
+
+There is even an auto-commit system that helps to commit changes in repos that change frequently,
+where you don't necessarily need to use individual commit messages.
+"""
+
+import argparse
+import os
+import subprocess
+import sys
+
+from config_path import ConfigPath
+import toml
+
+__version__="0.2.0"
+config_path = ConfigPath('multi-git', 'danielkullmann.de', '.toml')
+base_path = config_path.saveFolderPath(mkdir = True)
+CONFIG_FILE_NAME = base_path / 'multi-git.toml'
+
+class Unbuffered():
+    """Helper class to make print() calls unbuffered.
+       This needs to be done on Windows, otherwise
+       the output is wonky"""
+    def __init__(self, stream):
+        self.stream = stream
+    def write(self, data):
+        self.stream.write(data)
+        self.stream.flush()
+    def writelines(self, datas):
+        self.stream.writelines(datas)
+        self.stream.flush()
+    def __getattr__(self, attr):
+        return getattr(self.stream, attr)
+
+class Arguments:
+    """ Class for storing arguments to this script.
+        Currently, keeps
+    """
+    path = []
+    tags = []
+
+    def __str__(self):
+        return ("Arguments[\n" +
+            " path=" + str(self.path) + "\n" +
+            " tags=" + str(self.tags) + "\n" +
+            "]"
+        )
+
+if sys.platform.startswith("win"):
+    sys.stdout = Unbuffered(sys.stdout)
+
+def load_config():
+    config = {}
+    if CONFIG_FILE_NAME.exists():
+        with open(CONFIG_FILE_NAME, 'r') as file_handle:
+            config = toml.load(file_handle)
+    else:
+        print("WARN", "config file does not exist", CONFIG_FILE_NAME)
+
+    if "repos" not in config:
+        config["repos"] = []
+    return config
+
+def save_config(config):
+    with open(CONFIG_FILE_NAME, 'w') as file_handle:
+        toml.dump(config, file_handle)
+
+def parse_tags(value):
+    return value.split(",")
+
+def absolute_path(value):
+    return os.path.abspath(value)
+
+def tags_match(wanted_tags, given_tags):
+    for tag in wanted_tags:
+        if tag in given_tags:
+            return True
+    return False
+
+def path_match(wanted_paths, repo_path):
+    for path in wanted_paths:
+        if path in repo_path:
+            return True
+    return False
+
+def filter_repos(CONFIG, arguments):
+    repos = CONFIG["repos"]
+
+    if arguments.tags is not None and len(arguments.tags) > 0:
+        repos = [r for r in repos if tags_match(arguments.tags, r["tags"])]
+    if arguments.path is not None and len(arguments.path) > 0:
+        repos = [r for r in repos if path_match(arguments.path, r["path"])]
+    return repos
+
+def command_list(CONFIG, arguments):
+    repos = filter_repos(CONFIG, arguments)
+    for repo in repos:
+        print(repo["path"], ",".join(repo["tags"]))
+
+def command_version(_CONFIG, _arguments):
+    print("Version", __version__)
+
+def command_config(CONFIG, arguments):
+    if arguments.edit:
+        editor = os.environ.get("EDITOR", None)
+        if editor:
+            subprocess.run([editor, CONFIG_FILE_NAME], check=False)
+        else:
+            print("ERROR", "$EDITOR variable is not set")
+    else:
+        print("config file:", CONFIG_FILE_NAME)
+
+def command_add(CONFIG, arguments):
+    path = arguments.path
+    exists = len(list(r for r in CONFIG["repos"] if r["path"] == path)) > 0
+    if exists:
+        print("ERROR", "path", path, "is already tracked")
+    else:
+        entry = {
+            "path": path,
+            "tags": arguments.tags or [],
+            "auto-commit": arguments.auto_commit or False,
+            "auto-commit-message": arguments.auto_commit_message or None
+        }
+        repos = CONFIG["repos"]
+        repos.append(entry)
+
+def command_edit(CONFIG, arguments):
+    path = arguments.path
+    existing = list(r for r in CONFIG["repos"] if r["path"] == path)
+    if len(existing) == 0:
+        print("ERROR", "path", path, "is not tracked")
+    else:
+        entry = existing[0]
+        if arguments.tags is not None:
+            entry["tags"] = arguments.tags
+        if arguments.auto_commit is not None:
+            entry["auto-commit"] = arguments.auto_commit
+        if arguments.auto_commit_message is not None:
+            entry["auto-commit-message"] = arguments.auto_commit_message
+
+def command_auto_commit(CONFIG, arguments):
+    repos = filter_repos(CONFIG, arguments)
+    for repo in repos:
+        print("#", repo["path"])
+        commit_message = repo.auto_commit_message
+        if not commit_message:
+            print("WARN", "no auto-commit message set!")
+        else:
+            command = ["git", "commit", "--message", commit_message, "."]
+            subprocess.run(command, cwd=repo["path"], check=False)
+            print("INFO", "Changes committed")
+        print("")
+
+def run_git_command(CONFIG, arguments, git_command):
+    repos = filter_repos(CONFIG, arguments)
+    for repo in repos:
+        print("#", repo["path"])
+        subprocess.run(["git"] + git_command, cwd=repo["path"], check=False)
+        print("")
+
+
+def add_filter_arguments(argument_parser):
+    argument_parser.add_argument('-t', '--tags', type=parse_tags)
+    argument_parser.add_argument('-p', '--path', type=parse_tags)
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Manage multiple git repositories with simple commands"
+    )
+    add_filter_arguments(parser)
+    subparsers = parser.add_subparsers(dest='command')
+    subparsers.required = True
+
+    list_parser = subparsers.add_parser('mlist')
+    list_parser.set_defaults(func=command_list)
+
+    version_parser = subparsers.add_parser('mversion')
+    version_parser.set_defaults(func=command_version)
+
+    config_parser = subparsers.add_parser('mconfig')
+    config_parser.add_argument("-e", "--edit", action="store_true")
+    config_parser.set_defaults(func=command_config)
+
+    add_parser = subparsers.add_parser('madd')
+    add_parser.add_argument('path', type=absolute_path)
+    add_parser.add_argument('-a', '--auto-commit', action="store_true")
+    add_parser.add_argument('-m', '--auto-commit-message', type=str)
+    add_parser.add_argument('-t', '--tags', type=parse_tags)
+    add_parser.set_defaults(func=command_add)
+
+    edit_parser = subparsers.add_parser('medit')
+    edit_parser.add_argument('path', type=absolute_path)
+    edit_parser.add_argument('-a', '--auto-commit', action="store_true")
+    edit_parser.add_argument('-m', '--auto-commit-message', type=str)
+    edit_parser.add_argument('-t', '--tags', type=parse_tags)
+    edit_parser.set_defaults(func=command_edit)
+
+    path_arg = []
+    tags_arg = []
+    args = sys.argv[1:]
+    start_index = None
+    index = 0
+    while index < len(args):
+        arg = args[index]
+        index += 1
+        if arg.startswith("-") and index < len(args):
+            if arg in ("-p", "--path"):
+                path_arg.extend(parse_tags(args[index]))
+                index += 1
+            elif arg in( "-t", "--tags"):
+                tags_arg.extend(parse_tags(args[index]))
+                index += 1
+        elif arg in ("mlist", "mconfig", "madd", "medit"):
+            return None, parser.parse_args(), None
+        else:
+            start_index = index-1
+            break
+
+    git_command = args[start_index:]
+    arguments = Arguments()
+    arguments.path = path_arg
+    arguments.tags = tags_arg
+    return arguments, None, git_command
+
+def main():
+    CONFIG = load_config()
+    arguments, internal_command, git_command = parse_arguments()
+    if git_command:
+        run_git_command(CONFIG, arguments, git_command)
+    else:
+        internal_command.func(CONFIG, internal_command)
+    save_config(CONFIG)
+
+if __name__ == "__main__":
+    main()
