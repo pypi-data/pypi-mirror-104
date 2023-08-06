@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: pycture
+Version: 0.1.0
+Summary: A Python CLI for obtaining emojis as files and favicons.
+Home-page: https://github.com/joaopalmeiro/pycture
+License: MIT
+Keywords: pycture,emoji,svg,twemoji,openmoji,cli
+Author: João Palmeiro
+Author-email: joaommpalmeiro@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: defusedxml (>=0.7.1,<0.8.0)
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/joaopalmeiro/pycture/issues
+Project-URL: Repository, https://github.com/joaopalmeiro/pycture
+Project-URL: Twitter, https://twitter.com/joaompalmeiro
+Description-Content-Type: text/markdown
+
+# pycture
+
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A Python CLI for obtaining emojis as files and favicons.
+
+## Quickstart
+
+```text
+Usage: pycture [OPTIONS] EMOJI
+
+  Get EMOJI as a file or favicon via its CLDR short name.
+
+  Use Unicode 9.0 and Emoji 3.0 as a reference.
+
+Options:
+  -o, --output-dir DIRECTORY      The path to the output directory.
+                                  [default: (current directory)]
+
+  -p, --pretty                    Pretty-print the SVG code.
+  -s, --source [Twemoji|OpenMoji]
+                                  The source of the emoji to obtain.
+                                  [default: Twemoji]
+
+  --version                       Show the version and exit.
+  --help                          Show this message and exit.
+```
+
+## Tech Stack
+
+- [Click](https://click.palletsprojects.com/) (for the interface)
+- [Requests](https://github.com/psf/requests) (for HTTP requests)
+- [defusedxml](https://github.com/tiran/defusedxml) (for parsing XML/SVG data)
+
+### Packaging and Development
+
+- [Poetry](https://python-poetry.org/)
+- [Mypy](http://mypy-lang.org/)
+- [isort](https://pycqa.github.io/isort/)
+- [Black](https://github.com/psf/black)
+- [Flake8](https://flake8.pycqa.org/)
+  - [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear)
+  - [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions)
+  - [pep8-naming](https://github.com/PyCQA/pep8-naming)
+  - [flake8-builtins](https://github.com/gforcada/flake8-builtins)
+- [Bandit](https://bandit.readthedocs.io/)
+
+This CLI was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [`joaopalmeiro/cookiecutter-templates/python-cli`](https://github.com/joaopalmeiro/cookiecutter-templates) project template.
+
+## Development
+
+1. `poetry install`
+2. `poetry shell`
+
+## Notes
+
+- [click-contrib](https://github.com/click-contrib) (a collection of third-party extensions).
+  - [click-man](https://github.com/click-contrib/click-man) package (man pages).
+  - [click-help-colors](https://github.com/click-contrib/click-help-colors) package.
+  - [click-didyoumean](https://github.com/click-contrib/click-didyoumean) package.
+  - [click_params](https://github.com/click-contrib/click_params) package (extra types).
+- [OpenMoji](https://openmoji.org/).
+- [emoji](https://github.com/carpedm20/emoji) package.
+- [demoji](https://github.com/bsolomon1124/demoji) package.
+- [Twemoji](https://github.com/twitter/twemoji).
+- [Inflection](https://inflection.readthedocs.io/en/latest/) package.
+- Unicode:
+  - [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html).
+  - [Full Emoji Modifier Sequences](http://www.unicode.org/emoji/charts/full-emoji-modifiers.html).
+  - [Emoji Counts](http://www.unicode.org/emoji/charts/emoji-counts.html).
+  - [Emoji List, v13.0](https://unicode.org/emoji/charts-13.0/emoji-list.html).
+  - [unicodedata](https://docs.python.org/3.6/library/unicodedata.html) (Python 3.6 -> Unicode 9.0).
+  - [Emoji Version 3.0](https://emojipedia.org/emoji-3.0/) (this emoji version coincided with the release of Unicode 9.0).
+- [cookiecutter-poetry](https://github.com/johanvergeer/cookiecutter-poetry) (only the `pyproject.toml` file and no `poetry.lock` file).
+- `cli.py` or `console.py`.
+- [Asyncio integration](https://github.com/pallets/click/issues/85) issue (Click).
+- [asyncclick](https://github.com/python-trio/asyncclick) package (fork of Click).
+- [XML vulnerabilities](https://docs.python.org/3/library/xml.html#xml-vulnerabilities).
+- Bandit:
+  - [B405 complains about any xml.etree.ElementTree import, not just parse-related ones](https://github.com/PyCQA/bandit/issues/709) (open) issue.
+  - [from xml.etree.ElementTree import Element Flagged](https://github.com/PyCQA/bandit/issues/602) (open) issue.
+  - [Error message refers to "defusedxml.defuse_stdlib()" but calling that does not silence bandit](https://github.com/PyCQA/bandit/issues/708) (open) issue.
+  - [defusedxml](https://github.com/tiran/defusedxml) provides alternatives for parsing-related functions.
+- [Shell completion](https://click.palletsprojects.com/en/7.x/bashcomplete/) (for commands, options, and choice values):
+  - Generate the [activation script](https://click.palletsprojects.com/en/7.x/bashcomplete/#activation-script): `_PYCTURE_COMPLETE=source_zsh pycture > pycture-complete.sh`.
+  - In `.bashrc` or `.zshrc`, source the script: `. /path/to/pycture-complete.sh`.
+  - Alternative: `eval "$(_PYCTURE_COMPLETE=source_zsh pycture)"`.
+- [aiohttp](https://github.com/aio-libs/aiohttp) package (vs. [Requests](https://github.com/psf/requests)):
+  - "(...) you can picture the session object as a user starting and closing a browser: it wouldn't make sense to do that every time you want to load a new tab." ([source](https://docs.aiohttp.org/en/stable/http_request_lifecycle.html))
+
+```python
+# aiohttp
+async with aiohttp.ClientSession() as session:
+    async with session.get("http://python.org") as response:
+        print(await response.text())
+
+# vs.
+
+# Requests
+response = requests.get("http://python.org")
+print(response.text)
+
+# or
+
+with requests.Session() as session:
+    response = session.get("http://python.org")
+    print(response.text)
+```
+

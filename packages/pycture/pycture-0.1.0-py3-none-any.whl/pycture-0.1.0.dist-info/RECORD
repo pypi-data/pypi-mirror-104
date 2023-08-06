@@ -1,0 +1,10 @@
+pycture/__init__.py,sha256=PhGXqduwglsH6XEN1E3KjrMSN1Yd0-Elei-gzjYOo_8,187
+pycture/cli.py,sha256=C_d8r2X3h_ZCKBJpzrYlF_2eqLegINdq_e3hOGhLb6Y,2360
+pycture/constants.py,sha256=KsQVht_4rM4vfA_Nbg8W9TSCtcdOvx1KWOVQpxpBFiw,722
+pycture/utils.py,sha256=AJJNE3tcBWfluhCurAiIXEEbc8mwNNosWSSVpEiq96g,512
+pycture-complete.sh,sha256=RpWWXT0ijRIyFWI1-53fkMQzQM3gpXaU4Zg0R9Lbcyo,865
+pycture-0.1.0.dist-info/entry_points.txt,sha256=PiOCDv1-D1sF3mimQqVc4mYWt93JcrotGC17qICheT4,44
+pycture-0.1.0.dist-info/LICENSE,sha256=HP2jsX27vkmd2eBFRESDHf9fPXWZCVVTmzrraWKXGkg,1071
+pycture-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pycture-0.1.0.dist-info/METADATA,sha256=PtDGBFWpN0RG1zQJ8Y5aQD1ibDTC2AXT1uFOAqyowLQ,6928
+pycture-0.1.0.dist-info/RECORD,,
