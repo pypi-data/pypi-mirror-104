@@ -1,0 +1,8 @@
+mlcomposer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlcomposer/trainer.py,sha256=slGpo01OB2MLctepX3maoAGBifJ_Qkjn8-TK7gU6Zao,181541
+mlcomposer/transformers.py,sha256=HT9HnQfJ-_O2p7eD4Axw8ZFolx-ixussi3YpbyuTuVk,23009
+mlcomposer-0.0.10.dist-info/LICENSE,sha256=UFpxU3brBnJZq-0ij-NH6Z7wRpftsweHFKFwG1MNm4w,1070
+mlcomposer-0.0.10.dist-info/METADATA,sha256=bP6RLG_TfaFXHnQhp4YBQzOqZ42h-eA_K03bUHlMiRs,14660
+mlcomposer-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlcomposer-0.0.10.dist-info/top_level.txt,sha256=8vxVaSqhuDktvOblpWu9xQtuSAnTyeiyLpUgErHJ5G4,11
+mlcomposer-0.0.10.dist-info/RECORD,,
