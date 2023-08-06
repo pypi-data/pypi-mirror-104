@@ -1,0 +1,11 @@
+tifft/__init__.py,sha256=skklfbGMPBtnZgya4cGuWUz-q3TmTyWkgZ7Fs-VIN7M,46
+tifft/bollingerbands.py,sha256=JqbVhISIWarWSIn2uccnDoC3otVxFRKRM23WM5tIt_Q,1456
+tifft/cli.py,sha256=8BjWG6V-7ro2SKdK_suIMuYOPLK400_HQlCzx5DYlAQ,3209
+tifft/datareader.py,sha256=ZAI_zPGbUHQJJSfr3adV0p5mYW29TrhQuc5rO2-uQtY,2851
+tifft/macd.py,sha256=WtZuVIfR4WPLTSrPEFdOtEF9sRUFchryiVSlMop0W2k,1757
+tifft-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tifft-0.0.2.dist-info/METADATA,sha256=6BKc9v0ol0UaHN9hdWVxBdysIrtuD7GHq5egoW_HZrw,2323
+tifft-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tifft-0.0.2.dist-info/entry_points.txt,sha256=K9yqjndycRfFZD3eETjNiNEpCPnmJvFHP3ZLVWNOIy0,42
+tifft-0.0.2.dist-info/top_level.txt,sha256=nzjzmpttzvg7aOKpv4o7bggW5_JF0SQVw_YTige1_XQ,6
+tifft-0.0.2.dist-info/RECORD,,
