@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AlGUILoop/AlGUILoop.py
+AlGUILoop/__init__.py
+alguiloop.egg-info/PKG-INFO
+alguiloop.egg-info/SOURCES.txt
+alguiloop.egg-info/dependency_links.txt
+alguiloop.egg-info/requires.txt
+alguiloop.egg-info/top_level.txt
