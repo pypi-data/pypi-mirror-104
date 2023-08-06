@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: numcall
+Version: 0.1
+Summary: Actually it is my first package, if you pass a num ber say,10 to the numcall function then it will tell the no.of times you press the keys and return a string your mobile number is bla bla bla PS:its my test package
+Home-page: https://scourgaurdz.in
+Author: Krishnadev P Melevila
+Author-email: your.email@domain.com
+License: MIT
+Download-URL: https://github.com/krishnadevpmelevila/numcall/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Number game,NUM CALLING,TEST
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
