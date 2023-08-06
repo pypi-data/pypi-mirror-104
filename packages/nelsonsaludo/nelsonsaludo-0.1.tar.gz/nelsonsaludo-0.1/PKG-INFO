@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nelsonsaludo
+Version: 0.1
+Summary: Esta es la descripcion de mi paquete
+Home-page: https://github.com/nelsonher019/nelsonsaludo
+Author: Nelson Hernandez
+Author-email: nelsonher019@gmail.com
+License: MIT
+Download-URL: https://github.com/nelsonher019/nelsonsaludo/tarball/0.1
+Description: # este archivo describe el proyecto
+        
+        ```python
+        
+        from nelsonsaludo import Saludo
+        
+        
+        
+        saludo = Saludo(nombre="Nelson Adonis Hernandez")
+        
+        
+        print(saludo.saludo_nelson())
+        
+        ```
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

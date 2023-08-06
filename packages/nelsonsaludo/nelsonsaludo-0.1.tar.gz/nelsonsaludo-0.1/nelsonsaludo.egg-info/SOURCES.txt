@@ -1,0 +1,8 @@
+README.md
+setup.py
+nelsonsaludo/__init__.py
+nelsonsaludo/saludo.py
+nelsonsaludo.egg-info/PKG-INFO
+nelsonsaludo.egg-info/SOURCES.txt
+nelsonsaludo.egg-info/dependency_links.txt
+nelsonsaludo.egg-info/top_level.txt
