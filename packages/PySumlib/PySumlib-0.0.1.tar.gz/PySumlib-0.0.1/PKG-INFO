@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: PySumlib
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: PS
+Author-email: spankti.sns@gmail.com
+License: MIT
+Description: This is for testing calculater program.
+        
+        Change Log 
+        ============
+        0.0.1 (4/5/2020)
+        -----------------
+        - First release 
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

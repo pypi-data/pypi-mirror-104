@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LCENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+PySumlib.egg-info/PKG-INFO
+PySumlib.egg-info/SOURCES.txt
+PySumlib.egg-info/dependency_links.txt
+PySumlib.egg-info/top_level.txt
