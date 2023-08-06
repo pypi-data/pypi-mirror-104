@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: visml
+Version: 0.0.1
+Summary: A Python package arraning methods for Machine Learning Visualization.
+Home-page: UNKNOWN
+Author: Mario Popolin Neto
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Description: # VISML - Machine Learning Visualization
+        
+        The visml python package will be available after paper publication with its contributions.
+Platform: UNKNOWN
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

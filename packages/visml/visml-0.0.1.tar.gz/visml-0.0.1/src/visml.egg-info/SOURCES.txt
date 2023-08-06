@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/visml/__init__.py
+src/visml.egg-info/PKG-INFO
+src/visml.egg-info/SOURCES.txt
+src/visml.egg-info/dependency_links.txt
+src/visml.egg-info/requires.txt
+src/visml.egg-info/top_level.txt
