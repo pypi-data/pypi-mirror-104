@@ -1,0 +1,13 @@
+README.md
+setup.py
+html2obj/__init__.py
+html2obj/app.py
+html2obj/lib/__init__.py
+html2obj/lib/formathtml.py
+html2obj/lib/hobj.py
+html2obj/lib/html2obj.py
+html2obj_genwch.egg-info/PKG-INFO
+html2obj_genwch.egg-info/SOURCES.txt
+html2obj_genwch.egg-info/dependency_links.txt
+html2obj_genwch.egg-info/requires.txt
+html2obj_genwch.egg-info/top_level.txt
