@@ -1,0 +1,17 @@
+requests
+jsonschema
+
+[docs]
+sphinx
+sphinx-rtd-theme
+myst-parser
+
+[progressbar]
+tqdm
+
+[tests]
+tox
+pytest
+black==20.8b1
+flake8
+mypy
