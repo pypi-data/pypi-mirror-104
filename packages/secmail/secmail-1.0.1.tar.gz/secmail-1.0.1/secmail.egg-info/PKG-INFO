@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: secmail
+Version: 1.0.1
+Summary: A Libarry to generate emails!
+Home-page: https://github.com/SirLez/secmail
+Author: SirLez
+Author-email: SirLezDV@gmail.com
+License: MIT
+Download-URL: https://github.com/SirLez/secmail/archive/refs/heads/main.zip
+Description: # secmail Lib
+        A Libarry to generate emails!
+        
+        ## Installation
+        ``pip install secmail``
+        
+        ## Basic Usage
+        ```
+        import secmail
+        
+        mail = secmail.SecMail()
+        email = mail.generate_email()
+        print(email)
+        ```
+        
+        ## Not For Khackers
+        
+        Powered By [S-Amino](http://aminoapps.com/c/sr_Lz) Community!
+Keywords: capture,captureScapture-bot,capture-chat,capture-lib,cptr,cptr.co,api,python,python3,python3.x,SirLez,sirlez,Amino,Amino.py,Amino py,amino,amino pyS-Amino,amino,amino,amino-bot,amino-bots,amino-bot,ndc,narvii.apps,aminoapps,amino-py,amino,amino-bot,narvii,api,python,python3,python3.x,slimakoi,official,secmail,1secmail,mail,email-generator-python,email-generator,email-python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
