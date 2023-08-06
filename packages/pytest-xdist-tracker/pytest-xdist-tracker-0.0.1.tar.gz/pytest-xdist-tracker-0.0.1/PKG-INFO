@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pytest-xdist-tracker
+Version: 0.0.1
+Summary: pytest plugin helps to reproduce failures for particular xdist node
+Home-page: https://github.com/DKorytkin/pytest-xdist-tracker
+Author: Denis Korytkin
+Author-email: dkorytkin@gmail.comm
+License: MIT license
+Description: # pytest-xdist-tracker
+        
+        This plugin allows us to keep artefact after running test with xdist (parallel)
+        
+        
+        ## Installation
+        
+        ```shell
+        pip install pytest-xdist-tracker
+        ```
+        
+Keywords: py.test,pytest,xdist plugin,tracker,failed tests
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
