@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pywebmedia/__init__.py
+src/pywebmedia.egg-info/PKG-INFO
+src/pywebmedia.egg-info/SOURCES.txt
+src/pywebmedia.egg-info/dependency_links.txt
+src/pywebmedia.egg-info/top_level.txt

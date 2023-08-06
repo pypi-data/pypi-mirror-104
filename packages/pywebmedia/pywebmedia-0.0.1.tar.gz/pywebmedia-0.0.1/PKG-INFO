@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pywebmedia
+Version: 0.0.1
+Summary: A Python Package to Download  Online Media Files
+Home-page: https://github.com/Slime-Projects/PyWebMedia
+Author: Sijey Praveen
+Author-email: cjpraveen@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Slime-Projects/PyWebMedia/issues
+Description:   <img src="https://raw.githubusercontent.com/sijey-praveen/sijey-praveen/Profile/img/Python_logo_with_wordmark.png" height="40" width="140">
+        
+        <h4>Supports Downloading : [favicon, image, gif, audio, video]</h4>
+        
+        ```python
+        from pywebmedia import PyWebMedia
+        
+        PyWebMedia.download.image(url, file_name, format, save_location)
+        
+        PyWebMedia.download.audio(url, file_name, format, save_location)
+        
+        PyWebMedia.download.video(url, file_name, format, save_location)
+        
+        PyWebMedia.download.favicon(domain, file_name, save_location)
+        
+        PyWebMedia.download.gif(url, file_name , save_location)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
