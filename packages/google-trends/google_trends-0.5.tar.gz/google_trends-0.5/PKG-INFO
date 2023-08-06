@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: google_trends
+Version: 0.5
+Summary: simple Google Trends API
+Home-page: https://github.com/deedy5/google_trends
+Author: deedy5
+License: MIT
+Description: ## google_trends
+        
+        Simple Google Trends API
+        
+        
+        ### Install
+        
+        ```
+        pip install -U google_trends
+        ```
+        
+        ### Usage:
+        ```python
+        from google_trends import gtrends
+        
+        gtrends(date=None, country='US', language='en-US', timezone='-180')
+            '''
+            date = date of interest, allowable interval: today - 30 days ago;
+            country = two letter country abbreviation;
+            timezone = timezone Offset, GMT-7 == -7*60 = '-420',
+                                        GMT-8 == -8*60 = '-480';
+            language = language.
+            '''
+         
+         
+        gtrends()
+        #realtime trends
+        
+        gtrends(YYYYMMDD)
+        #trends on a given date, interval: today - 30 days ago.
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
