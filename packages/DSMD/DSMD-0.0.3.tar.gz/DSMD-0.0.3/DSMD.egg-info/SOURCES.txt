@@ -1,0 +1,10 @@
+LICENSE 
+README.md
+setup.py
+DSMD/__init__.py
+DSMD/main.py
+DSMD.egg-info/PKG-INFO
+DSMD.egg-info/SOURCES.txt
+DSMD.egg-info/dependency_links.txt
+DSMD.egg-info/top_level.txt
+DSMD.egg-info/zip-safe
