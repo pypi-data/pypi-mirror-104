@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+firex.egg-info/PKG-INFO
+firex.egg-info/SOURCES.txt
+firex.egg-info/dependency_links.txt
+firex.egg-info/requires.txt
+firex.egg-info/top_level.txt
