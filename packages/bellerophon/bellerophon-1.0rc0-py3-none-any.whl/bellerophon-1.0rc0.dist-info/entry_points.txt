@@ -1,0 +1,3 @@
+[console_scripts]
+bellerophon = bellerophon.cli:main
+
