@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+coqpit.egg-info/PKG-INFO
+coqpit.egg-info/SOURCES.txt
+coqpit.egg-info/dependency_links.txt
+coqpit.egg-info/not-zip-safe
+coqpit.egg-info/requires.txt
+coqpit.egg-info/top_level.txt
