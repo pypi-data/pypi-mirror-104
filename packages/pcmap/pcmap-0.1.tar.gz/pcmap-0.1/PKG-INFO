@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pcmap
+Version: 0.1
+Summary: Computing contact map for protein structures
+Home-page: https://github.com/MMSB-MOBI/pcmap
+Author: Guillaume Launay
+Author-email: guillaume.launay@ibcp.fr
+License: GPL
+Download-URL: https://github.com/glaunay/pcmap/tarball/0.1
+Description: UNKNOWN
+Keywords: protein,structure,atomic contact
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 5 - Production/Stable
