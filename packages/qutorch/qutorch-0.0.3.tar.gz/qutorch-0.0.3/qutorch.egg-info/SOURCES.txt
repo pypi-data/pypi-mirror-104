@@ -1,0 +1,7 @@
+README.md
+setup.py
+qutorch.egg-info/PKG-INFO
+qutorch.egg-info/SOURCES.txt
+qutorch.egg-info/dependency_links.txt
+qutorch.egg-info/requires.txt
+qutorch.egg-info/top_level.txt

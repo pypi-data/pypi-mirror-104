@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: qutorch
+Version: 0.0.3
+Summary: Quantum circuit simulator based in PyTorch.
+Home-page: https://github.com/MarioDuran/qutorch
+Author: Mario Duran-Vega
+Author-email: mario.duran.vega@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/elastictools/
+Description: Framework to simulate quantum circuits with PyTorch.
+        
+        # Description
+            
+        It consists of one main module:
+        
+        - `q_simulator`: main simulator to run quantum circuits
+        
+        
+        # Installation
+         
+        ## Normal installation
+        
+        ```bash
+        pip install qutorch
+        ```
+        
+        ## Development installation
+        
+        ```bash
+        git clone https://github.com/MarioDuran/qutorch.git
+        cd qutorch
+        pip install --editable .
+        ```
+        
+        
+Keywords: PyTorch,Quantum,Circuit,Simulator,Python 3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
