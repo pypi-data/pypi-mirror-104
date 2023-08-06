@@ -1,0 +1,3 @@
+[ofxstatement]
+newb = ofxstatement.plugins.newb:NewBPlugin
+
