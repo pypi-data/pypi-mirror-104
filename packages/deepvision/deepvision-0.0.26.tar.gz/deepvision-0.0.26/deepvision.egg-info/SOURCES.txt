@@ -1,0 +1,16 @@
+README.md
+setup.py
+deepvision/__init__.py
+deepvision/deep_sort.py
+deepvision/face_detection.py
+deepvision/gender_detection.py
+deepvision/generate_detections.py
+deepvision/object_detection.py
+deepvision/object_tracker.py
+deepvision/utils.py
+deepvision.egg-info/PKG-INFO
+deepvision.egg-info/SOURCES.txt
+deepvision.egg-info/dependency_links.txt
+deepvision.egg-info/not-zip-safe
+deepvision.egg-info/requires.txt
+deepvision.egg-info/top_level.txt
