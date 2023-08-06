@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+inteq/__init__.py
+inteq/fredholm.py
+inteq/volterra.py
+inteq.egg-info/PKG-INFO
+inteq.egg-info/SOURCES.txt
+inteq.egg-info/dependency_links.txt
+inteq.egg-info/requires.txt
+inteq.egg-info/top_level.txt
