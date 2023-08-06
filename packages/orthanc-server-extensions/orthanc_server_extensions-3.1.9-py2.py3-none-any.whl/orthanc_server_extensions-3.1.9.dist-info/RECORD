@@ -1,0 +1,15 @@
+orthanc_ext/__init__.py,sha256=Dvak7V_cSvptjQmR9b76oLSUwA5xOwQEsJbnCjf5570,133
+orthanc_ext/event_dispatcher.py,sha256=v5q3HyvbD6ro63qp2iK3eqA777R-9sDUYKlWMxKs0m8,1954
+orthanc_ext/logging_configurator.py,sha256=9ainR-maWyJT2TrnnJD1PSCpvRAqtbbE36zbwVGiCFE,1760
+orthanc_ext/orthanc.py,sha256=97r1CbP7_PiqwmNS4gAc699a4l8dzpan8qvdNCCsfk0,1732
+orthanc_ext/orthanc_utilities.py,sha256=nl2CbgyNUW1U5HykOwZbPnziqZlM3ViZVVtBbHDWIdI,433
+orthanc_ext/python_utilities.py,sha256=bPhOKuG9EpRwtbyFq5J_aMdQMCVy2MYQD0-VESnzeyE,308
+orthanc_ext/requests_utilities.py,sha256=GLr80zoG7X3inUuJGo0qQ7eE6rDu3MafISfYu_WnfaU,512
+orthanc_ext/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orthanc_ext/scripts/auto_forward.py,sha256=3XfDkCTQykZMgc-lJn6hgujMgxqhGf9bFLXSN5_NSMc,948
+orthanc_ext/scripts/auto_retries.py,sha256=l6rn363TOlKJtZRy5iYhVPk5eIS2JGYOlJHCgArfEHY,1324
+orthanc_server_extensions-3.1.9.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+orthanc_server_extensions-3.1.9.dist-info/METADATA,sha256=ili6E5fYsh_ScdsxpE4KUJHtmdMY8-tVnk2HyMZ60zA,3663
+orthanc_server_extensions-3.1.9.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+orthanc_server_extensions-3.1.9.dist-info/top_level.txt,sha256=krJ1em9I04xnAtkmJFrq0VynbJpHSP-7vARoGeHI3iE,12
+orthanc_server_extensions-3.1.9.dist-info/RECORD,,
