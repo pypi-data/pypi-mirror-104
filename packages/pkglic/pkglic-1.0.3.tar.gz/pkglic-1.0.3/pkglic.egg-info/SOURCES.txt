@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pkglic/__init__.py
+pkglic/pkglic.py
+pkglic/pkgmeta.py
+pkglic.egg-info/PKG-INFO
+pkglic.egg-info/SOURCES.txt
+pkglic.egg-info/dependency_links.txt
+pkglic.egg-info/entry_points.txt
+pkglic.egg-info/requires.txt
+pkglic.egg-info/top_level.txt
+pkglic.egg-info/zip-safe
