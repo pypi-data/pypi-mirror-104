@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: piconsole
+Version: 0.0.1
+Summary: This is a Terminal Widget Library, including Terminal Progresbar
+Home-page: UNKNOWN
+Author: Dimal Jay
+Author-email: dimalkavindujay@gmail.com
+License: MIT
+Description: This is a Terminal Widget Library, including Terminal Progresbar
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (4/5/2021)
+        -----------------
+        - First Release
+Keywords: console
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
