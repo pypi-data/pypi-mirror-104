@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ch_nn/__init__.py
+ch_nn/self_frame.py
+ch_nn.egg-info/PKG-INFO
+ch_nn.egg-info/SOURCES.txt
+ch_nn.egg-info/dependency_links.txt
+ch_nn.egg-info/top_level.txt

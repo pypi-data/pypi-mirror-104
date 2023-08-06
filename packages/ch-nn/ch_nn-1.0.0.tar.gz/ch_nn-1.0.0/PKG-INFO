@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ch_nn
+Version: 1.0.0
+Summary: This is a simple but function completed neural networks framework
+Home-page: https://github.com/KINGSEIY/build_neural_framework_by_hand
+Author: CH Wong
+Author-email: wchh81@gmail.com
+License: UNKNOWN
+Description: ## ABOUT
+        
+        This is a simple deep learning framework created by ch_wong
+        mail:wchh811@gmail.com
+        self_frame.py
+        
+        ## Features 
+        
+        + Define Dynamic Computing Graph
+        + Define Neural Network Operator
+        + Define Linear, Sigmoid, L2_loss  
+        + Auto-Diff Computing 
+        + Auto-Feedforward and Backward 
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
