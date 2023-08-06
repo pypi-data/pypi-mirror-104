@@ -1,0 +1,3 @@
+[console_scripts]
+dropbox_api_team_3=dropbox_api_team_3.main:main
+
