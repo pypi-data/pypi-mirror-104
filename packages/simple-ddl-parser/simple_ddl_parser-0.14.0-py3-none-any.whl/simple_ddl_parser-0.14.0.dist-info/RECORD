@@ -1,0 +1,16 @@
+simple_ddl_parser/__init__.py,sha256=PlZ02DBlFxZqGA3ombcknwuAF94hedCpYQqqtrYMFX0,113
+simple_ddl_parser/cli.py,sha256=txBg1H3OdsAq9r0PZIANOxFESk9uYaHehKBRMRTqY0Y,2265
+simple_ddl_parser/ddl_parser.py,sha256=Ve1ED0Yx3AOAtfmGxBeFsAWQ5GX4n2McGaFUpGyat0w,28002
+simple_ddl_parser/dialects/hql.py,sha256=oHgQQkd7VYRnfuSdOMlpQLzPbdnTl4UVAfwGPKzzdKg,1544
+simple_ddl_parser/dialects/oracle.py,sha256=gB0Jy_C0BPOyrzqZpi8BBvwX2o4P9S1A35RcU86wcUU,1438
+simple_ddl_parser/output/common.py,sha256=D_QsETzzaa1vesXOh22Ph_EWDp78IRatkw26L6KjQJM,9477
+simple_ddl_parser/output/dialects.py,sha256=BYj-18OHJczOY4fMBkOzPKWS6Rha45anqJC03M3iDWE,2394
+simple_ddl_parser/parser.py,sha256=4ONQB7Ky1F4TN4MUS2Ies26GEFjzG89FEOja-4lGh-E,5330
+simple_ddl_parser/test.py,sha256=nQ_gQHvj4slgJO_3vWkTb_JUkYWOGqNzyYv26fh_RyY,375
+simple_ddl_parser/tokens.py,sha256=SzDDxNydkGLa--6ybnKc9b2NizO4F0rV8fRgjFfT55Y,1960
+simple_ddl_parser/utils.py,sha256=A6YLdvLGlDJIsXw7vKNo4-8A0l7Z-3twE47mpO0911A,218
+simple_ddl_parser-0.14.0.dist-info/entry_points.txt,sha256=BVUrH1edSC-ZdCGef7tDrovA_5NO4Q2UOk51zBXlK4A,50
+simple_ddl_parser-0.14.0.dist-info/LICENSE,sha256=F7Lnfq5TMUS5ic1Ax7_kRc5hB23kqM61CV6ueLQkkW4,1093
+simple_ddl_parser-0.14.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+simple_ddl_parser-0.14.0.dist-info/METADATA,sha256=ItivQ08eGMX248nPq7zQQ4KEuHeruUIytNCKnbJrDtA,19848
+simple_ddl_parser-0.14.0.dist-info/RECORD,,
