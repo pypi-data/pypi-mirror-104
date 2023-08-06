@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: napari-webcam
+Version: 0.1.7
+Summary: Use your webcam from napari
+Home-page: https://github.com/haesleinhuepf/napari-webcam
+Author: Robert Haase
+Author-email: robert.haase@tu-dresden.de
+License: BSD-3
+Requires-Dist: napari-plugin-engine (>=0.1.4)
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: napari
+Requires-Dist: scikit-image
+Requires-Dist: pyqt5
+
+# napari-webcam
+
+
