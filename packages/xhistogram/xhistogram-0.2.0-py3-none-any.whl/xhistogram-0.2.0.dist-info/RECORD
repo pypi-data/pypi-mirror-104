@@ -1,0 +1,15 @@
+xhistogram/__init__.py,sha256=3Z5WB-M-XqExFQ5HVuxFZXcEYLdTVbuxAqIE_YVrpS4,123
+xhistogram/_version.py,sha256=nrK8ybJWtmt9cjt8rx206WaI03d12_uKMVGYnCtLR7U,497
+xhistogram/core.py,sha256=Eb4xLFnX5Km4YB4zEPjLk42PIp22LQ8PRCFEugFRWD8,11463
+xhistogram/duck_array_ops.py,sha256=YLRYTcD2p1MVIreklhU9vpJ6kXfMN8MYWnzVJ6ebTlw,1157
+xhistogram/xarray.py,sha256=DV1werJ4p6B5XrMsYJTB-wwQoXoxUSVUEKYYZKVG9wk,7644
+xhistogram/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xhistogram/test/fixtures.py,sha256=tC9uwVO5x23jHbLnoKAklt14Q4BWoHUWtQS3TCgSFHA,384
+xhistogram/test/test_core.py,sha256=F45Ah7IYnhJi76le0px5TsuRaWNED38PooPnkodEjEo,6957
+xhistogram/test/test_duck_array_ops.py,sha256=GCiGEEpvmL1Y7GaMueMA4ybOdYGOMfvLEJo-AJa7cIg,2287
+xhistogram/test/test_xarray.py,sha256=aAHw2ZLrlG7WELwX3MJ1agJ-l3ghkRoBqalslkSEboI,6472
+xhistogram-0.2.0.dist-info/LICENSE,sha256=uijTNPZehqNoRN6pTbWiM7LMO7tDwxZtkvtgc07RQSA,1082
+xhistogram-0.2.0.dist-info/METADATA,sha256=WKQYF1K5AihnX6bfX_gR4N-ScFq9kywtN7W_R-ysdso,2705
+xhistogram-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xhistogram-0.2.0.dist-info/top_level.txt,sha256=qw_H7yhC7xtTEeMRZ_3iC9sLtCw0A-y41_uTDbsYV-E,11
+xhistogram-0.2.0.dist-info/RECORD,,
