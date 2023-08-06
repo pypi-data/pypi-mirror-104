@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flaskspot
+Version: 0.1.0
+Summary: FlaskSpot provides Starter Kits for Flask.
+Home-page: UNKNOWN
+Author: Abhijeet Sonawane
+Author-email: abhijeet.sonawane001@gmail.com
+License: MIT
+Description: # FlaskSpot
+        
+        FlaskSpot provides Starter kit for Flask.
+        
+        
+        
+        ## Installation
+        
+        `pip install flaskspot`
+        
+        
+        
+        ## Usage
+        
+        ### Creating Project
+        
+        `flaskspot create-project your-project-name`
+Keywords: flaskspot flaskproject flaskstarterkit
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

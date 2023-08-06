@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+flaskspot/__init__.py
+flaskspot/helper.py
+flaskspot.egg-info/PKG-INFO
+flaskspot.egg-info/SOURCES.txt
+flaskspot.egg-info/dependency_links.txt
+flaskspot.egg-info/entry_points.txt
+flaskspot.egg-info/requires.txt
+flaskspot.egg-info/top_level.txt
