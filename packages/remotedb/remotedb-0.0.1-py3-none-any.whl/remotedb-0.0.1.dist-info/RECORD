@@ -1,0 +1,8 @@
+remotedb/__init__.py,sha256=1mqpadAaRmYmdBT-vZ3FhKCqLe47QCdJ2v5gsd9WqGs,27
+remotedb/client.py,sha256=yqyQc8iX_h1YkkJCrh3wr0QRV0fnu4Uso9DgayPWtgA,1570
+remotedb/response.py,sha256=ZokGFTmcHjpoXnHqnBwOPB7C1ZcZoSeB6ehpWhkDVjM,707
+remotedb-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+remotedb-0.0.1.dist-info/METADATA,sha256=K4R3d6cRZNGr7iqZ7b9WKoiQ3231ypZcIPX4R2Z6uuo,644
+remotedb-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+remotedb-0.0.1.dist-info/top_level.txt,sha256=grVoqhL_Yd2goVOnEYzIaOQbvEmPnWXyZ_ekafJRxGI,9
+remotedb-0.0.1.dist-info/RECORD,,
