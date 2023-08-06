@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: tile-renderer
+Version: 1.1
+Summary: Leaflet.js tile renderer
+Home-page: https://github.com/MRT-Map/tile-renderer
+Author: 7d (from Minecart Rapid Transit Mapping Team)
+Author-email: i.third.7d@protonmail.com
+License: gpl-3.0
+Download-URL: https://github.com/MRT-Map/tile-renderer/archive/refs/tags/v1.1.tar.gz
+Description: UNKNOWN
+Keywords: leaflet,leaflet.js,leafletjs,map,tiles,renderer,tile-renderer,mapping
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
