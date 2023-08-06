@@ -1,0 +1,3 @@
+[console_scripts]
+git-ranch = git_ranch:main
+

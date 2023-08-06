@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: git-ranch
+Version: 1.0.1
+Summary: Adds a new git subcommand named "ranch".
+Home-page: https://github.com/AustinTSchaffer/git-ranch
+Author: Austin T Schaffer
+Author-email: schaffer.austin.t@gmail.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/AustinTSchaffer/git-ranch/issues
+Description: # Git Ranch
+        
+        This script adds `ranch`, a new subcommand for `git` that makes it easier to order 1 Gallon of Kraft Ranch Salad Dressing from Amazon.
+        
+        ## Installation
+        
+        ```bash
+        pip install git-ranch
+        ```
+        
+        ## Usage
+        
+        ```bash
+        git ranch
+        ```
+        
+Keywords: git,ranch
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
