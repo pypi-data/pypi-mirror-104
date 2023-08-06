@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ghoroghipy/__init__.py
+ghoroghipy.egg-info/PKG-INFO
+ghoroghipy.egg-info/SOURCES.txt
+ghoroghipy.egg-info/dependency_links.txt
+ghoroghipy.egg-info/top_level.txt
