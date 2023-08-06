@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+xlcompare/__init__.py
+xlcompare/__main__.py
+xlcompare/xlcompare.py
+xlcompare.egg-info/PKG-INFO
+xlcompare.egg-info/SOURCES.txt
+xlcompare.egg-info/dependency_links.txt
+xlcompare.egg-info/entry_points.txt
+xlcompare.egg-info/requires.txt
+xlcompare.egg-info/top_level.txt

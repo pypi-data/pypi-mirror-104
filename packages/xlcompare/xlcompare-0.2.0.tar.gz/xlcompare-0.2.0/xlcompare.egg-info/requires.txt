@@ -1,0 +1,3 @@
+xlrd>=2.0.1
+pylightxl>=1.54
+XlsxWriter>=1.3.9
