@@ -1,0 +1,11 @@
+html2obj/__init__.py,sha256=uooJbES7NPhsHcT5JNbtsqWJSOqCI1VtN0kL-giuUxo,19
+html2obj/app.py,sha256=J47aLEbfAf1HsPv1i9Vz0G-EP0uKgK6MNmh6-6QAk2Q,61
+html2obj/lib/__init__.py,sha256=Gl2NPVunfOfuqESHakaNqMmW9giIAKQoUqtIYvbRclM,70
+html2obj/lib/formathtml.py,sha256=LfO_UtXHw1lzL_8fm7qwolhOvvFPWBmBDWCVa8MDhT4,7016
+html2obj/lib/hobj.py,sha256=UOdP3rHCHCXZ-RyC2a6MN4Gvht_mD5mG-67ncAAGHTo,1631
+html2obj/lib/html2obj.py,sha256=-SQbQFNOUIEVgL1hjU1_-jVybYZ_JolPiTQ_MRgcwKw,5335
+html2obj_genwch-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+html2obj_genwch-0.0.2.dist-info/METADATA,sha256=-4Pr65q0KN1HzF5_ufYdlCUZO5XoSapg_Jsh-UZPEp4,484
+html2obj_genwch-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+html2obj_genwch-0.0.2.dist-info/top_level.txt,sha256=sXIbOLS_5DvFN1q_dFsY33rAKLNKVtivrLikJ3t8tyE,9
+html2obj_genwch-0.0.2.dist-info/RECORD,,
