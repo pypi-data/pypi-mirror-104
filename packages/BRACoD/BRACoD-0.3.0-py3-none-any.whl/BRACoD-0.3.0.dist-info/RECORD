@@ -1,0 +1,12 @@
+BRACoD/BRACoD.py,sha256=Joj_z74o5ADIFRz9rI9M_mGgafmVXBz7Gp0Qgu1YUsI,11286
+BRACoD/__init__.py,sha256=-ba1RejBhmt9KIsy2p2XE33rslWRplVfqbYExM-Sw1I,1103
+BRACoD/simulations.py,sha256=MscBnDmZdMDkTeqvYuuTGOcWfVs57wB9v-3Q14z6zwk,3415
+BRACoD/data/OTUCounts_obesitystudy.csv,sha256=cJCGPPUIS0Xy3msd92cHKrHZm6Y-HHg3qinCX_iwonA,156284
+BRACoD/data/SCFA_obesitystudy.csv,sha256=96supJEmYbKOSEx9cOOUWNawcAD9wHn4RYjlaDdhdDo,2624
+BRACoD/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/OTUCounts_obesitystudy.csv,sha256=cJCGPPUIS0Xy3msd92cHKrHZm6Y-HHg3qinCX_iwonA,156284
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BRACoD-0.3.0.dist-info/METADATA,sha256=0hUS_uHcKSXF_WUVNpoc5jXc3vAd7KtpiAf6LLvtq9I,3736
+BRACoD-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+BRACoD-0.3.0.dist-info/top_level.txt,sha256=kUbRqcRxNk472jyGlukfMACQgiiq6aiPHk18UeBUBbI,7
+BRACoD-0.3.0.dist-info/RECORD,,
