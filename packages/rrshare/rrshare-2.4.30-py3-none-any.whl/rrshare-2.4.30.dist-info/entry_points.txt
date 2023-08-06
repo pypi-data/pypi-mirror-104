@@ -1,0 +1,4 @@
+[console_scripts]
+record-data=rrshare.record_all_data:main
+rrshare=rrshare.cli:main
+

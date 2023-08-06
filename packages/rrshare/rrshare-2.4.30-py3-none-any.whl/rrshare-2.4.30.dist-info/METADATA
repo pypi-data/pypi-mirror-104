@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rrshare
+Version: 2.4.30
+Summary: stock data & anlysis
+License: MIT
+Author: rome
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=1.1.2,<2.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: dash (>=1.20.0,<2.0.0)
+Requires-Dist: easyquotation (>=0.7.4,<0.8.0)
+Requires-Dist: jqdatasdk (>=1.8.9,<2.0.0)
+Requires-Dist: motor (>=2.4.0,<3.0.0)
+Requires-Dist: psycopg2 (>=2.8.6,<3.0.0)
+Requires-Dist: psycopg2-binary (>=2.8.6,<3.0.0)
+Requires-Dist: pyecharts (>=1.9.0,<2.0.0)
+Requires-Dist: streamlit (>=0.80.0,<0.81.0)
+Requires-Dist: tushare (>=1.2.62,<2.0.0)
+Requires-Dist: zenlog (>=1.1,<2.0)
