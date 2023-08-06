@@ -1,0 +1,13 @@
+af_ibov_parser/__init__.py,sha256=H21dT5y407-CaqLtHgVwYeO9odNiROefrzZfdps__0c,53
+af_ibov_parser/cli.py,sha256=by_7DC9i0fq_qwRBOjncbIRea1x_sGicFZBHVQ2sCjk,1826
+af_ibov_parser/errors.py,sha256=I3qKCBFb1uHk9uPUzcfrMNOKxrfYwQtEVrrtg_SVE2Q,670
+af_ibov_parser/handlers.py,sha256=uEEPmD6431tc456U3l4Q0djVOCxd_WgLp9z3en3VYj8,1485
+af_ibov_parser/parser.py,sha256=kALNyv3Rgw5YkdBkgtLj6b0G-LYVC0x9SRzl13pE6cw,1562
+af_ibov_parser/record.py,sha256=P1vn9qAeiHruFU7NR1OTF-lMpIh8_8hUjISc2r9O1Kc,5114
+af_ibov_parser/task.py,sha256=-KCM-5hzdyeny4lI8Gs-9h-zJOUC-V3TS0JlQ82p3lk,1528
+af_ibov_parser/version.py,sha256=1jce2WCufUU1vvY64h8IZ4V_DV8UPPO1PrgCf-sLAWQ,182
+af_ibov_parser-0.1.0.dist-info/entry_points.txt,sha256=TtLf4bhoKkFL_iV-Gi4NVdh-lJB-9htBLu8iNCzGmsc,58
+af_ibov_parser-0.1.0.dist-info/LICENSE.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+af_ibov_parser-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+af_ibov_parser-0.1.0.dist-info/METADATA,sha256=m26G9S5f1bUYrOPp2AiWYrO8ivJlZI6COi8Cww8SOgc,1385
+af_ibov_parser-0.1.0.dist-info/RECORD,,
