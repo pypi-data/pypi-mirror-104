@@ -1,0 +1,5 @@
+pyhelpers==1.2.15
+bs4
+matplotlib<=3.3.0
+google
+protobuf==3.15.6
