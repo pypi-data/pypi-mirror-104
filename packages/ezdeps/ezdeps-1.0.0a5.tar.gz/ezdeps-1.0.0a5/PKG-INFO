@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ezdeps
+Version: 1.0.0a5
+Summary: Package manager for python
+Home-page: UNKNOWN
+Author: Vitaly Kisel<https://github.com/jellyb0y>
+Author-email: kisel@internet.ru
+License: UNKNOWN
+Description: # easy-requirements
+        Package manager for python
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
