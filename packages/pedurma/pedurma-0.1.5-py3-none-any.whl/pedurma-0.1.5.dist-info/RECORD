@@ -1,0 +1,13 @@
+pedurma/__init__.py,sha256=ZVhwugJszTssSfTvZm8zPVwp_6QFLBkIHpYMN7ef4b0,174
+pedurma/notes.py,sha256=3TQNsWRcgCAT-yoNhE1dBTSow1EemJbcSh9VM-bAVXQ,6681
+pedurma/pagination_update.py,sha256=-X6jDlHzdDUl5qVG2l2fdZ0WLahEprcZ7leFYXjsAD0,3765
+pedurma/pecha.py,sha256=thW7opKDmOX0GEgf5Os6q0ZxIuS3O0urblt1bXDJ51Y,1232
+pedurma/preprocess.py,sha256=R860PwBKQmf9XRp5EbMfcxA4oz39Eg0in8DuxrJhNvs,10910
+pedurma/reconstruction.py,sha256=f3fvNOxHQG6ZouaEcYhlPCiWbohEaOzqGywrdLwJccA,30057
+pedurma/texts.py,sha256=VTrBOcqZ3tTTA7MIgb62K6apwYam3kv5-CqUSpVuvVM,8428
+pedurma/utils.py,sha256=48Fj_DLptSH8c3xarbUH58Mw5cH_LtAVcSFpZ8to2Tw,3301
+pedurma-0.1.5.dist-info/LICENSE,sha256=Ik3_RGJ3XznlSw2UEWPpAcoOWA7XAE0BQuefPQxmfp4,1064
+pedurma-0.1.5.dist-info/METADATA,sha256=TwHTrPrNngKaHvUguL_kaXgwtW6dwRCFueo8fcoOuuo,598
+pedurma-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pedurma-0.1.5.dist-info/top_level.txt,sha256=TZRgg22gTXuKxqmdsAkN3z2OWwNw-kq3-oyNI5uARks,8
+pedurma-0.1.5.dist-info/RECORD,,
