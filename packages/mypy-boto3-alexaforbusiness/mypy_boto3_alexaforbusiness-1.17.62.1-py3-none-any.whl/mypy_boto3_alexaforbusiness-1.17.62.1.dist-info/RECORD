@@ -1,0 +1,17 @@
+mypy_boto3_alexaforbusiness/__init__.py,sha256=4bb9c-JpuCrYdoYKIba0LO36e-LNOf5eXg6nY1LQjcQ,3380
+mypy_boto3_alexaforbusiness/__init__.pyi,sha256=QxCRzYeLZnXwI7Git3KjC9IDv2M0tRJ5c8wMzKKsOHI,3379
+mypy_boto3_alexaforbusiness/__main__.py,sha256=rAMq9Jez2LOi-JPjQ5_jGfDUG3w1IlIj6cKb9iO-X9k,764
+mypy_boto3_alexaforbusiness/client.py,sha256=2ZGCsJYo1Qug3wTafa80zJWC4UvRxHxPvcAr-o2A864,60014
+mypy_boto3_alexaforbusiness/client.pyi,sha256=khYFUbhQ4aBalR-bY9aWBwCuzwrWIHZzz5xOezYZHpc,59901
+mypy_boto3_alexaforbusiness/literals.py,sha256=ru6tArBOgMuZU_S14gbijO4kgX69SyEeRfGkdtW2Pus,4807
+mypy_boto3_alexaforbusiness/literals.pyi,sha256=FeR8rBjSWTrQN-AqOCQX9ib-rRLM-l_vZIw0vPIBMeg,4805
+mypy_boto3_alexaforbusiness/paginator.py,sha256=XTzY951kJ7INQ_wBpPPqLABzZdDJnIgN2LRRLPR3bp0,15995
+mypy_boto3_alexaforbusiness/paginator.pyi,sha256=OK6JfIcVdxLgAnsAhykDmM3-ZDxAAaUtivm2tfmqjWM,15982
+mypy_boto3_alexaforbusiness/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_alexaforbusiness/type_defs.py,sha256=faXXFsyNeNqPw_la8nx5gtCGCVO-8qbFlypDcFX_x2o,19884
+mypy_boto3_alexaforbusiness/type_defs.pyi,sha256=dwFJLKyqlyXp1yoGPgqXlaoKQDwnCixdW7w2ts76dNY,19777
+mypy_boto3_alexaforbusiness/version.py,sha256=39oB0i-J3TuRTOhKg3F7dRDoEmZH-iw-MUDv3YMa16A,57
+mypy_boto3_alexaforbusiness-1.17.62.1.dist-info/METADATA,sha256=I3uRNJpdTOcUcU9IeFY9rIo6Pi-mfaSlF4A4EMuYfyE,13298
+mypy_boto3_alexaforbusiness-1.17.62.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_alexaforbusiness-1.17.62.1.dist-info/top_level.txt,sha256=V6yzFq3Z5TcsaQSHgPcUIx2wRNl9py85g-6T9FQdwYo,28
+mypy_boto3_alexaforbusiness-1.17.62.1.dist-info/RECORD,,
