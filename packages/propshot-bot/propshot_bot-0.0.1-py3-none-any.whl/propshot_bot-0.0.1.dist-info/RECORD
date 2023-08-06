@@ -1,0 +1,11 @@
+proposals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proposals/constants.py,sha256=pK3IJ8FNn7MCZ8NarlmhwiK_3E8jzi23RlkAodkEsIw,915
+proposals/proposal.py,sha256=Gv010xasCQQ2ad8zoFrNEGSQ0k_-pI5V_BagAeTn5Hk,2846
+proposals/proposal_discord.py,sha256=Ub_luoIVGi4nZ8SEDY5Iuof1k19m4Lym-RN51iBStYU,4354
+proposals/proposal_monitor.py,sha256=OvDOYMeJU16xKroezGrGbE8sjyVEqtk9Lcczpskhu8w,6268
+proposals/utils.py,sha256=0xA_y2E10GgUypf0Rjame3sjEE9uaP4wnYPKpbGyCcQ,540
+propshot_bot-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+propshot_bot-0.0.1.dist-info/METADATA,sha256=WbEl05ETYpAGNq-tLRO6NLm4yQS6WB7bZBk-oehSlgY,260
+propshot_bot-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+propshot_bot-0.0.1.dist-info/top_level.txt,sha256=yRTwJ_RWIW5xaus1MmlCgBibSjVnR2_REoyNnDbAHjM,10
+propshot_bot-0.0.1.dist-info/RECORD,,
