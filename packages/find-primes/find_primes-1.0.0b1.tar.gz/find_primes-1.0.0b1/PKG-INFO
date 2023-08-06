@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: find_primes
+Version: 1.0.0b1
+Summary: A module for finding primes.
+Home-page: UNKNOWN
+Author: JamesJ
+Author-email: GGJamesQQ@yeah.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
