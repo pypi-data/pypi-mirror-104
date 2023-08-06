@@ -1,0 +1,13 @@
+README.md
+setup.py
+indeed_mongodb_scrapper/__init__.py
+indeed_mongodb_scrapper/__main__.py
+indeed_mongodb_scrapper/scraping.py
+indeed_mongodb_scrapper.egg-info/PKG-INFO
+indeed_mongodb_scrapper.egg-info/SOURCES.txt
+indeed_mongodb_scrapper.egg-info/dependency_links.txt
+indeed_mongodb_scrapper.egg-info/entry_points.txt
+indeed_mongodb_scrapper.egg-info/requires.txt
+indeed_mongodb_scrapper.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
