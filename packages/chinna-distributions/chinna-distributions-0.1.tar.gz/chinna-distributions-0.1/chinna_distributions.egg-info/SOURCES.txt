@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+chinna-distributions/Binomialdistribution.py
+chinna-distributions/Gaussiandistribution.py
+chinna-distributions/Generaldistribution.py
+chinna-distributions/__init__.py
+chinna_distributions.egg-info/PKG-INFO
+chinna_distributions.egg-info/SOURCES.txt
+chinna_distributions.egg-info/dependency_links.txt
+chinna_distributions.egg-info/not-zip-safe
+chinna_distributions.egg-info/top_level.txt
