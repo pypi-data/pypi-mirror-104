@@ -1,0 +1,10 @@
+html2obj/__init__.py,sha256=uooJbES7NPhsHcT5JNbtsqWJSOqCI1VtN0kL-giuUxo,19
+html2obj/lib/__init__.py,sha256=Gl2NPVunfOfuqESHakaNqMmW9giIAKQoUqtIYvbRclM,70
+html2obj/lib/formathtml.py,sha256=RoG-Zkety-xlqjfXSRql9vt5JSOdUegByR8daRh0ydg,7044
+html2obj/lib/hobj.py,sha256=wtPGTcmwvHZdGgOIYxLJ5ddBNcJSmL9XoYijNGspVaE,1773
+html2obj/lib/html2obj.py,sha256=vV6hFeWPh17YRysZGll99Lum5_VP8499P48Fh9tEVc4,8511
+html2obj_genwch-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+html2obj_genwch-0.0.3.dist-info/METADATA,sha256=HsB7lQqoTy2rZmCjJucGoaUSFyKkRU_iMuu_zIgpGkE,484
+html2obj_genwch-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+html2obj_genwch-0.0.3.dist-info/top_level.txt,sha256=sXIbOLS_5DvFN1q_dFsY33rAKLNKVtivrLikJ3t8tyE,9
+html2obj_genwch-0.0.3.dist-info/RECORD,,
