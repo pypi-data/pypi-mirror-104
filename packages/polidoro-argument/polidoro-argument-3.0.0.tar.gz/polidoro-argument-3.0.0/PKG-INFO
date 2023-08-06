@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: polidoro-argument
+Version: 3.0.0
+Summary: Package to create command line arguments for Python.
+Home-page: https://github.com/heitorpolidoro/polidoro-argument
+Author: Heitor Polidoro
+License: unlicense
+Description: # Polidoro Argument [![Latest](https://img.shields.io/github/release/heitorpolidoro/argument.svg?label=latest)](https://github.com/heitorpolidoro/argument/releases/latest)
+        Package to simplify creating command line scripts in Python.
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
