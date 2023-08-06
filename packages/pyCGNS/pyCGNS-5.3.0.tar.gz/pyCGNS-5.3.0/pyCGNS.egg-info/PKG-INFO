@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: pyCGNS
+Version: 5.3.0
+Summary: pyCGNS - 5.3.0 - Python package for CFD General Notation System
+Home-page: https://github.com/pyCGNS/pyCGNS
+Author: Marc Poinot
+Author-email: marc.poinot@safrangroup.com
+License: LGPL 2
+Description: pyCGNS - 5.3.0 - Python package for CFD General Notation System
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
