@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: FractalGen
+Version: 0.3
+Summary: FractalGen is a python fractal generating library usings IFS
+Home-page: https://github.com/Navaneethnanda/FractalGen
+Author: Manikyala Navaneeth Nanda, Jagata Guru Kiran
+Author-email: navaneeth.manikyala.17cse@bml.edu.in, jagata.kiran.17cse@bml.edu.in
+License: MIT
+Download-URL: https://github.com/Navaneethnanda/FractalGen/archive/refs/tags/v1.0.tar.gz
+Keywords: python3,fractals,ifs,iterated-function-system,deterministic-algorithm,random-iteration-algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
+
