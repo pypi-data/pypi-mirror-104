@@ -1,0 +1,10 @@
+fast_to_sql/__init__.py,sha256=FpaU2TKbedUhOcf4QyyCjPK_LcRVe0bHcA9lpsHE56U,512
+fast_to_sql/errors.py,sha256=NMT03WSsiuJhDvz_FYnRs96_zbdXezdx3akpyGGQ4Tg,205
+fast_to_sql/fast_to_sql.py,sha256=1t4XjnhofxUvxkSAluW-N9EVY3_Vvxj2aue9X2KfeX0,5586
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=JMRuqKWo4iYijCRx1yzwe8jsJy95V-x--52gCWW6CJg,7794
+fast_to_sql-2.1.14.dist-info/LICENSE,sha256=AkNHvzRl13YDJM72U7Ye-bq6vD2H-EHw-ayD7W4Dvyc,1073
+fast_to_sql-2.1.14.dist-info/METADATA,sha256=Q8-cm5qh0Cet8OV8c2vclAqkg5l22fdztq_A8oSRUMs,3496
+fast_to_sql-2.1.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fast_to_sql-2.1.14.dist-info/top_level.txt,sha256=94zfkDb-K0pLfs2BvQhdcJx2G1e_ZHMjrlDjs7HQ5Sg,18
+fast_to_sql-2.1.14.dist-info/RECORD,,
