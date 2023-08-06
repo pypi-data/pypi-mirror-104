@@ -1,0 +1,5 @@
+pyvista
+geopandas
+numpy
+pandas
+emerald-shapeutils

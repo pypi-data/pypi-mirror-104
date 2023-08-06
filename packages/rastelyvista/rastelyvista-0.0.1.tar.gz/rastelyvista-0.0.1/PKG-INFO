@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rastelyvista
+Version: 0.0.1
+Summary: 3D model building
+Home-page: https://github.com/emerald-geomodelling/rastelyvista
+Author: Ed Harrison
+Author-email: eh@emrld.no
+License: UNKNOWN
+Description: Create models from meshes and surfaces of 3D data using shapefiles to manipulate models
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
