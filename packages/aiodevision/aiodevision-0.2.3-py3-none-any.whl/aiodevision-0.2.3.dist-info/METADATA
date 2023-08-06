@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aiodevision
+Version: 0.2.3
+Summary: A simple asynchronous wrapper for the Idevision API.
+Home-page: https://github.com/MrKomodoDragon/aiodevision
+License: MIT
+Author: MrKomodoDragon
+Author-email: svrchn921@outlook.com
+Requires-Python: >=3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/MrKomodoDragon/aiodevision
+Description-Content-Type: text/markdown
+
+# aiodevision
+A simple async wrapper for the idevision api.
+
+Note: this may be unstable. This is an experimental wrapper, and is undocumented (for now).
+
+If you would like to contribute/add anything, feel free to make a PR.
+
+# Installation
+For installing the stable version, do
+```py
+pip install aiodevision
+```
+
+If you wanna install the dev version, do
+```py
+pip install git+
+
+todo:
+- Add Better Exception Haandling
+- Handle Ratelimits 
+
+
+
+
