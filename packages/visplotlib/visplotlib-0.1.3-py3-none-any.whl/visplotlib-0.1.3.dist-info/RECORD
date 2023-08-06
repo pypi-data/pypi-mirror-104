@@ -1,0 +1,10 @@
+visplotlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+visplotlib/dims.py,sha256=mciz81oO8qhRy3EcHs43qOpEBldXQRNQfcvsv45r6S8,2503
+visplotlib/pyplot.py,sha256=bs0qCxaJmWDuwsSZ2cKVsc5H0BDvBeBhkTx8_WuJrHA,1786
+visplotlib/seaborn.py,sha256=ElMeXIhBCv9Sa8Mo_ZRtTZ3AHOJ5SwGmw2DZcWVD_oQ,2245
+visplotlib/visium.mplstyle,sha256=j2yO4DNwkMNc6hPrRyZtbgbfYAJV3PW3TkNUUrH1LWU,6144
+visplotlib-0.1.3.dist-info/LICENSE,sha256=L8J4LOUrOBZt0z7nx080I6y0FL10d-8Uf12yiBYM6IY,1063
+visplotlib-0.1.3.dist-info/METADATA,sha256=U1YCJGIMxerOXImgfctvQTxFGUuBu0koE8d8e_r_E8c,829
+visplotlib-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+visplotlib-0.1.3.dist-info/top_level.txt,sha256=6yFwPAIdzDuBpKF4PJ65_hjpeZda-c9SazhQftNyp9Y,11
+visplotlib-0.1.3.dist-info/RECORD,,
