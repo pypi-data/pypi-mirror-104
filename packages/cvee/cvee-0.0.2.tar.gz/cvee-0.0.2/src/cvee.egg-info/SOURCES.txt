@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cvee/__init__.py
+src/cvee.egg-info/PKG-INFO
+src/cvee.egg-info/SOURCES.txt
+src/cvee.egg-info/dependency_links.txt
+src/cvee.egg-info/top_level.txt
+src/cvee/utils/__init__.py
+src/cvee/utils/registry.py
