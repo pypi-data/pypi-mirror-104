@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sid-kemendesa
+Version: 0.1.1
+Summary: Module python untuk mencari dan melihat data desa dari sid kemendesa.
+Keywords: sid-desa,kemendesa,python-module,python-sdk,python-wrapper
+Author: hexatester
+Author-email: hexatester@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=20.3.0,<21.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: cattrs (>=1.6.0,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# sid-kemendesa
+
+[![sid-kemendesa - PyPi](https://img.shields.io/pypi/v/sid-kemendesa)](https://pypi.org/project/sid-kemendesa/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/sid-kemendesa)](https://pypi.org/project/sid-kemendesa/)
+[![LISENSI](https://img.shields.io/github/license/hexatester/sid-kemendesa)](https://github.com/hexatester/sid-kemendesa/blob/main/LISENSI)
+
+Module python untuk mencari dan melihat data desa dari sid kemendesa.
+
+## Install
+
+Pastikan [python 3.7+](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe) terinstall, kemudian jalankan perintah di bawah dalam Command Prompt atau Powershell (di Windows + X):
+
+```bash
+pip install --upgrade sid-kemendesa
+```
+
+## Penggunaan
+
+Contoh penggunaan
+
+```python
+from sid_kemendesa import search
+
+nama_desa = "desaku"
+hasil_pencarian = search(nama_desa)
+for desa in hasil_pencarian:
+    print(desa)
+```
+
+## Legal / Hukum
+
+Kode ini sama sekali tidak berafiliasi dengan, diizinkan, dipelihara, disponsori atau didukung oleh [Kemendesa](https://kemendesa.go.id/) atau afiliasi atau anak organisasinya. Ini adalah perangkat lunak yang independen dan tidak resmi. _Gunakan dengan risiko Anda sendiri._
+
