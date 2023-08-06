@@ -1,0 +1,17 @@
+control/Hareware_1.pyd,sha256=Lede5Fjp1AveHjc69arMGGcp_U6wVwa02jtPefDWgbY,171008
+control/Hareware_1.so,sha256=gO6okTHRUI-xE7ad_liE4eag3AbHOWrLz9UKYmhwlOQ,968260
+control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+control/create_img.py,sha256=x03EfzZIGIqkCtHqCdFfegcosSAG_TiiMlmSvTmVJTg,1843
+control/gpio.pyd,sha256=-fPN_c8skaIfg2UjwbpePncbEgLggBEgbYncAJFQIEU,217600
+control/gpio.so,sha256=IMIzSxTrDIBOfY0mqk2gfQxrMc0IP9NmBLwv4JCMrF0,1283544
+control/machine_learning.pyd,sha256=s-WliDSKyRAAs-M8vB7QM-Axi1L2dYxsSXmgzGDTMuc,138240
+control/machine_learning.so,sha256=secdMz2eXt2qqA33roVKrsnbpEZFf6qLtcCyzUsZyuc,823448
+control/shijue.so,sha256=6rn8k8Jpln9N0h4c1qx2beE7hNsyde4XdS_c9OfTxy0,1303704
+control/shijue1.py,sha256=7utnyQPIFmh8ulG3xw0VLZSMBLHUNq1SWEUiyjYPonM,23078
+control/test.py,sha256=7HrIv6CgXgPEvR4TwTzUt5GiENsegTGOwI7ZUNsRb7o,15
+control/yuyin.py,sha256=1DBKajUT7N9l8FtiWaB0qrjoKzhhzBFnL6P9HvkIAK0,8107
+control_scnu-0.1.9.dist-info/LICENSE.txt,sha256=7mOohYgoi4n--2rY1DssvV_GbL114BMh4XQsystChrY,1072
+control_scnu-0.1.9.dist-info/METADATA,sha256=egcjqF2rjj49yuhCqLURgN8bMOZUzWhZjk1dB5euDBM,610
+control_scnu-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+control_scnu-0.1.9.dist-info/top_level.txt,sha256=Ln8fep3T-Cdl0pfWZyNLkfimj6U0vH5qagTHf_7hI3Y,8
+control_scnu-0.1.9.dist-info/RECORD,,
