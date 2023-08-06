@@ -1,0 +1,10 @@
+simplejson
+requests
+pandas
+mwoauth
+backoff
+oauthlib
+
+[dev]
+pytest
+pytest-cov
