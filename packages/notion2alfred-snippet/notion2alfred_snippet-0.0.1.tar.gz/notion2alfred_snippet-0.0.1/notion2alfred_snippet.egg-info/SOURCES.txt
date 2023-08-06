@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+notion2alfred_snippet/__init__.py
+notion2alfred_snippet/alfred.py
+notion2alfred_snippet.egg-info/PKG-INFO
+notion2alfred_snippet.egg-info/SOURCES.txt
+notion2alfred_snippet.egg-info/dependency_links.txt
+notion2alfred_snippet.egg-info/requires.txt
+notion2alfred_snippet.egg-info/top_level.txt
