@@ -1,0 +1,16 @@
+trio_parallel/__init__.py,sha256=bQ8FTnpZ2BaKNDbPAyRGeZGpkSikxadTO-BIz_cBfyw,177
+trio_parallel/_impl.py,sha256=QDkakSGgvRntLgaxpqfNea05xgj3krTnlqZXSGOaiCY,3679
+trio_parallel/_proc.py,sha256=q7450brzmwJQB9xXq9MoMndd6XSxkK6cpVqPaespJH8,9883
+trio_parallel/_windows_cffi.py,sha256=wo9xAxV1889aQ3m_TFpPG2-TQ2tD4yW_K6WarZAQOyw,3322
+trio_parallel/_windows_pipes.py,sha256=LbZua7ESAonVjsskGsLOGj5ziT_txIiRNw8dOcRX4oE,3140
+trio_parallel/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trio_parallel/_tests/conftest.py,sha256=PEt8j0lahxlh1J3E66hvT11salstuzADbARzU_vk8T0,43
+trio_parallel/_tests/test_impl.py,sha256=F4pFzCL8wzAgxj1e4aaki7vTuc1cKX7rXN-TcChSiao,4191
+trio_parallel/_tests/test_proc.py,sha256=w1_nIMf0y3wQasN8r57CuDIQucQNVLdNMc92K1POh4U,4572
+trio_parallel-0.5.1.dist-info/LICENSE,sha256=NnM0Qql3G0rXJVTATM69YVlJ4J6eosqTDCvjEARibd0,297
+trio_parallel-0.5.1.dist-info/LICENSE.APACHE2,sha256=CeuE9YKnaqOEjYLhf2-jJ4bvlP920Bvr46LTb0M0B5k,11349
+trio_parallel-0.5.1.dist-info/LICENSE.MIT,sha256=m6Er28HuXGpsZBCLF7oqBvFE1Xm6GjVsdvMGMBYwK7Y,1081
+trio_parallel-0.5.1.dist-info/METADATA,sha256=vfXdfu6tc3bQBjp_QLmhEoqTRJRy8xqcpnkiaX-6X20,8787
+trio_parallel-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trio_parallel-0.5.1.dist-info/top_level.txt,sha256=oStZCZup24LcvfFqfz6pvtHkG8CkqYKCF7xZ2fp-TsY,14
+trio_parallel-0.5.1.dist-info/RECORD,,
