@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: universal-parser
+Version: 1.0.8
+Summary: Json/Pickle/Toml/Yaml parser
+Home-page: https://github.com/onyx-flame/universal-parser
+Author: Vyacheslav Zakharchuk
+Author-email: sovenok997@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/onyx-flame/universal-parser/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (>=5.4.1)
+Requires-Dist: pytomlpp (>=0.3.5)
+
+# Universal Parser
+
+## _Json, Pickle, Toml, Yaml parser_
+
+This is a 4-in-1 encoder and decoder. Fully compatible with default parsers.
+There is a full support for primitives, for functions and classes.
+Can be used in programs and in console.
+
+

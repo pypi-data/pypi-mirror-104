@@ -1,0 +1,3 @@
+[console_scripts]
+parser = universal_parser.main:main
+
