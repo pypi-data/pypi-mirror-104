@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cmc-csci046-justinesters
+Version: 1.0.0
+Summary: unicode and heap
+Home-page: https://github.com/JustinEsters/contiainers_justin
+Author: Justin Esters
+Author-email: jesters23@cmc.edu
+License: GNU GPLv3
+Description: # containers
+        
+        Build status:
+        
+        <<<<<<< HEAD
+        <<<<<<< HEAD
+        
+        1. [![](https://github.com/JustinEsters/contiainers_justin/workflows/tests-fibonacci/badge.svg)](https://github.com/JustinEsters/contiainers_justin/actions?query=workflow%3Atests-fibonacci)
+        1. [![](https://github.com/JustinEsters/contiainers_justin/workflows/tests-range/badge.svg)](https://github.com/JustinEsters/contiainers_justin/actions?query=workflow%3Atests-range)
+        1. [![](https://github.com/JustinEsters/contiainers_justin/workflows/tests-unicode/badge.svg)](https://github.com/JustinEsters/contiainers_justin/actions?query=workflow%3Atests-unicode)
+        >>>>>>> b2d46c4950c56835211bb5d5d606c2feb8883262
+        =======
+        1. [![](https://github.com/JustinEsters/contiainers_justin/workflows/tests-Heap/badge.svg)](https://github.com/JustinEsters/contiainers_justin/actions?query=workflow%3Atests-Heap)
+        
+        >>>>>>> heap
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
