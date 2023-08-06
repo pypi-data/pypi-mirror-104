@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: Mopidy-Jamendo
+Version: 0.1.0
+Summary: Mopidy extension for Jamendo
+Home-page: https://github.com/jonathanhacker/mopidy-jamendo
+Author: Jonathan Hacker
+Author-email: mopidy-jamendo@jhacker.de
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Requires-Python: >=3.7
+Requires-Dist: cachetools
+Requires-Dist: Mopidy (>=3.0.0)
+Requires-Dist: Pykka (>=2.0.1)
+Requires-Dist: requests
+Requires-Dist: setuptools
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: check-manifest ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-black ; extra == 'lint'
+Requires-Dist: flake8-bugbear ; extra == 'lint'
+Requires-Dist: flake8-isort ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+****************************
+Mopidy-Jamendo
+****************************
+
+.. image:: https://img.shields.io/pypi/v/Mopidy-Jamendo
+    :target: https://pypi.org/project/Mopidy-Jamendo/
+    :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/github/workflow/status/jonathanhacker/mopidy-jamendo/CI
+    :target: https://github.com/jonathanhacker/mopidy-jamendo/actions
+    :alt: CI build status
+
+.. image:: https://img.shields.io/codecov/c/gh/jonathanhacker/mopidy-jamendo
+    :target: https://codecov.io/gh/jonathanhacker/mopidy-jamendo
+    :alt: Test coverage
+
+Mopidy extension for Jamendo
+
+
+Installation
+============
+
+Install by running::
+
+    python3 -m pip install Mopidy-Jamendo
+
+See https://mopidy.com/ext/jamendo/ for alternative installation methods.
+
+
+Configuration
+=============
+
+#. You must register for a user account at https://devportal.jamendo.com/signup
+
+#. You need a Jamendo client_id for Mopidy from https://devportal.jamendo.com/admin/applications
+
+#. Add the authentication token to the ``mopidy.conf`` config file::
+
+    [jamendo]
+    client_id = abcd1234
+
+
+
+Project resources
+=================
+
+- `Source code <https://github.com/jonathanhacker/mopidy-jamendo>`_
+- `Issue tracker <https://github.com/jonathanhacker/mopidy-jamendo/issues>`_
+- `Changelog <https://github.com/jonathanhacker/mopidy-jamendo/blob/master/CHANGELOG.rst>`_
+
+
+Credits
+=======
+
+- Original author: `Jonathan Hacker <https://github.com/jonathanhacker>`__
+- Current maintainer: `Jonathan Hacker <https://github.com/jonathanhacker>`__
+- `Contributors <https://github.com/jonathanhacker/mopidy-jamendo/graphs/contributors>`_
+
+
