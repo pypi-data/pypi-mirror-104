@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mcs-packages
+Version: 1.0.0
+Summary: Demo for creating packages on pypi.org
+Home-page: https://github.com/moderncoursesquare/pypi-packages/my_packages/
+Author: moderncoursesquare
+Author-email: moderncoursesquare@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
