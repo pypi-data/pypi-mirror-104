@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+./scripts/check_phonetisation
+phonetizer/__init__.py
+phonetizer/__main__.py
+phonetizer/utils/__init__.py
+phonetizer/utils/lexicon.py
+phonetizer_fr_dan.egg-info/PKG-INFO
+phonetizer_fr_dan.egg-info/SOURCES.txt
+phonetizer_fr_dan.egg-info/dependency_links.txt
+phonetizer_fr_dan.egg-info/requires.txt
+phonetizer_fr_dan.egg-info/top_level.txt
