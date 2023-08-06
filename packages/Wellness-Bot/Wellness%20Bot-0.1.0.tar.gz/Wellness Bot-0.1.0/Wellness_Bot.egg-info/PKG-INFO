@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: Wellness-Bot
+Version: 0.1.0
+Summary: Activity bot for discord servers
+Home-page: https://github.com/davidsean/WellnessBot
+Author: David Sean, Paul Laplante, Christian Sargusingh
+Author-email: david.sean@gmail.com
+License: UNKNOWN
+Description: 
+        # Discord wellness bot 
+        It that posts challenges and shows results at the end of a work week
+        
+        # Quickstart
+        copy `sample.env` into `.env` and fill in the values.
+        
+        Install prerequisits
+        ```bash
+        python3 -m pip install -r requirements.txt
+        ```
+        Run 
+        ```bash
+        python3 wellnessbot.py
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Topic :: Office/Business :: Scheduling
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
