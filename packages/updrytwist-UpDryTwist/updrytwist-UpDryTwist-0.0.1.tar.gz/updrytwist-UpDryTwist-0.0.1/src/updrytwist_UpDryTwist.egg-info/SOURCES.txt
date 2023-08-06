@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/updrytwist_UpDryTwist.egg-info/PKG-INFO
+src/updrytwist_UpDryTwist.egg-info/SOURCES.txt
+src/updrytwist_UpDryTwist.egg-info/dependency_links.txt
+src/updrytwist_UpDryTwist.egg-info/top_level.txt
