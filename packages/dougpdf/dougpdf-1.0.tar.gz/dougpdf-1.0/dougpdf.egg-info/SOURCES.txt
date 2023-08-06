@@ -1,0 +1,9 @@
+README.md
+setup.py
+dougpdf/__init__.py
+dougpdf/pdf2text.py
+dougpdf/pdf3image.py
+dougpdf.egg-info/PKG-INFO
+dougpdf.egg-info/SOURCES.txt
+dougpdf.egg-info/dependency_links.txt
+dougpdf.egg-info/top_level.txt
