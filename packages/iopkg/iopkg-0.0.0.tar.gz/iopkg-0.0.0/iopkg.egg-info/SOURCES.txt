@@ -1,0 +1,5 @@
+setup.py
+iopkg.egg-info/PKG-INFO
+iopkg.egg-info/SOURCES.txt
+iopkg.egg-info/dependency_links.txt
+iopkg.egg-info/top_level.txt
