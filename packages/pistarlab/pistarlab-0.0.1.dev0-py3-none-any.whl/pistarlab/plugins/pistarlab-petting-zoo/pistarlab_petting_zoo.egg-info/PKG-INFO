@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pistarlab-petting-zoo
+Version: 0.0.1.dev0
+Summary: https://github.com/PettingZoo-Team/PettingZoo
+Home-page: https://github.com/pistarlab/pistarlab/plugins
+Author: pistar
+Author-email: 
+License: UNKNOWN
+Description: https://github.com/PettingZoo-Team/PettingZoo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6

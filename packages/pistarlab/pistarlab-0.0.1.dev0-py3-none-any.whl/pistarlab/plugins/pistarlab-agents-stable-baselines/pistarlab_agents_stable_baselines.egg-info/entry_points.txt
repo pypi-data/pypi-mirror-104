@@ -1,0 +1,5 @@
+[pistarlab_plugin]
+install = pistarlab_agents_stable_baselines.plugin:install
+load = pistarlab_agents_stable_baselines.plugin:load
+uninstall = pistarlab_agents_stable_baselines.plugin:uninstall
+

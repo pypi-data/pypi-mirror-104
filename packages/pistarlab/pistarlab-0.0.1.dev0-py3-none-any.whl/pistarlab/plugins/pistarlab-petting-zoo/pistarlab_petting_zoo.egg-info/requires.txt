@@ -1,0 +1,5 @@
+pettingzoo==1.5.0
+autorom
+multi_agent_ale_py
+chess
+magent

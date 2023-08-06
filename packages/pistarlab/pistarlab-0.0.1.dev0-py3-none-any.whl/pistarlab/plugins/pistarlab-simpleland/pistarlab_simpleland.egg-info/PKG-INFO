@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pistarlab-simpleland
+Version: 0.0.1.dev0
+Summary: https://github.com/bkusenda/simpleland
+Home-page: https://github.com/bkusenda/pistarlab/plugins
+Author: piSTAR
+Author-email: pistar3.14@gmail.com
+License: UNKNOWN
+Description: This is a pistarlab plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6

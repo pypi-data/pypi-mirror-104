@@ -1,0 +1,11 @@
+README.md
+setup.py
+pistarlab_petting_zoo/__init__.py
+pistarlab_petting_zoo/manifest.json
+pistarlab_petting_zoo/plugin.py
+pistarlab_petting_zoo/wrappers.py
+pistarlab_petting_zoo.egg-info/PKG-INFO
+pistarlab_petting_zoo.egg-info/SOURCES.txt
+pistarlab_petting_zoo.egg-info/dependency_links.txt
+pistarlab_petting_zoo.egg-info/requires.txt
+pistarlab_petting_zoo.egg-info/top_level.txt
