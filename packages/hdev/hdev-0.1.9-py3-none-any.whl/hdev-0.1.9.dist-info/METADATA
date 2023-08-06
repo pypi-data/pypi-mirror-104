@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: hdev
+Version: 0.1.9
+Summary: CLI for the Hypothesis development environment
+Home-page: https://web.hypothes.is/
+Author: Hypothesis Engineering Team
+Author-email: eng@list.hypothes.is
+Maintainer: Hypothesis Engineering Team
+Maintainer-email: eng@list.hypothes.is
+License: License :: OSI Approved :: BSD License
+Project-URL: Source, https://github.com/hypothesis/hdev
+Platform: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: cookiecutter
+Requires-Dist: toml
+Requires-Dist: tox
+Provides-Extra: tests
+Requires-Dist: cookiecutter ; extra == 'tests'
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: h-matchers ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: toml ; extra == 'tests'
+Requires-Dist: tox ; extra == 'tests'
+
+# hdev
+
+The CLI for the Hypothesis development environment.
+
+Usage
+-----
+
+```
+usage: hdev [-h] [--project-dir PROJECT_DIR] [--debug] {clean,python_version,requirements,template} ...
+
+positional arguments:
+  {clean,python_version,requirements,template}
+    clean               Clean a project directory
+    python_version      Dump the versions of Python in various formats
+    requirements        Compiles .txt requirements file based on the existing .in files using pip-tools
+    template            Update the local project template
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --project-dir PROJECT_DIR
+                        Path of the project's root. Defaults to .
+  --debug               Enable debugging info
+
+```
+
+There are lots of different ways to install `hdev`:
+
+- Install from pypi into your Python environment:
+  - For development: `pip install -e .`
+  - Or the latest version from PyPI: `pip install hdev`
+- Install using [`pipx`](https://pipxproject.github.io/pipx/installation/) for an isolated install:
+  - For development: `pipx install -e .`
+  - From PyPI: `pipx install hdev`
+- Or add `hdev` as a dependency to the project you want to use it in
+
+
+Configuration
+-------------
+
+`hdev` is configured within your project's `pyproject.toml` file with the following options:
+
+```toml
+[tool.hdev.requirements]
+# Custom locations for requirements files to compile
+order = [
+    "src/hdev/requirements/pip-tools.in"
+]
+
+[tool.hdev.clean]
+# File and directory patterns relative to the root to remove.
+# These support shell expansions and patterns
+files=[]
+dirs=[]
+# File and directory names which will be removed anywhere they
+# are found. These support shell expansions and patterns
+file_names=[]
+dir_names=[]
+```
+
+You can choose to not use any configuration, in that case `hdev` provides
+sensible default for most Hypothesis projects.
+
+Hacking
+-------
+
+### Installing hdev in a development environment
+
+#### You will need
+
+* [Git](https://git-scm.com/)
+
+* [pyenv](https://github.com/pyenv/pyenv)
+  Follow the instructions in the pyenv README to install it.
+  The Homebrew method works best on macOS.
+  On Ubuntu follow the Basic GitHub Checkout method.
+
+#### Clone the git repo
+
+```terminal
+git clone https://github.com/hypothesis/hdev.git
+```
+
+This will download the code into a `hdev` directory
+in your current working directory. You need to be in the
+`hdev` directory for the rest of the installation
+process:
+
+```terminal
+cd hdev
+```
+
+#### Run the tests
+
+```terminal
+make test
+```
+
+**That's it!** You’ve finished setting up your hdev
+development environment. Run `make help` to see all the commands that're
+available for linting, code formatting, packaging, etc.
+
+### Updating the Cookiecutter scaffolding
+
+This project was created from the
+https://github.com/hypothesis/h-cookiecutter-pypackage/ template.
+If h-cookiecutter-pypackage itself has changed since this project was created, and
+you want to update this project with the latest changes, you can "replay" the
+cookiecutter over this project. Run:
+
+```terminal
+make template
+```
+
+**This will change the files in your working tree**, applying the latest
+updates from the h-cookiecutter-pypackage template. Inspect and test the
+changes, do any fixups that are needed, and then commit them to git and send a
+pull request.
+
+If you want `make template` to skip certain files, never changing them, add
+these files to `"options.disable_replay"` in
+[`.cookiecutter.json`](.cookiecutter.json) and commit that to git.
+
+If you want `make template` to update a file that's listed in `disable_replay`
+simply delete that file and then run `make template`, it'll recreate the file
+for you.
+
+
