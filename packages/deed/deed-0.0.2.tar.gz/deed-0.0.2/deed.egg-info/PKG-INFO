@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: deed
+Version: 0.0.2
+Summary: ActivityFormatter for object changes (auditlog)
+Home-page: https://github.com/TruckPad/deed-py
+Author: TruckPad
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
