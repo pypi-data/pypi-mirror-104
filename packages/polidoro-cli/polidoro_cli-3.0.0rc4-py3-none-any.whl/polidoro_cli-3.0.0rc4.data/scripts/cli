@@ -1,0 +1,5 @@
+#!python
+
+import polidoro_cli
+
+polidoro_cli.main()
