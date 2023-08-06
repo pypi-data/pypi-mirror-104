@@ -1,0 +1,8 @@
+README.md
+setup.py
+devstat/__init__.py
+devstat/devstat.py
+devstat.egg-info/PKG-INFO
+devstat.egg-info/SOURCES.txt
+devstat.egg-info/dependency_links.txt
+devstat.egg-info/top_level.txt
