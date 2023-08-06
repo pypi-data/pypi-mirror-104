@@ -1,0 +1,6 @@
+tokenizers
+datasets
+tensorflow
+numpy
+tqdm
+pytest
