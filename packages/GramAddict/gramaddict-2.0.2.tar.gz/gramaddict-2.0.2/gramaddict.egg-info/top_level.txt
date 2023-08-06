@@ -1,0 +1,7 @@
+GramAddict
+accounts
+config-examples
+crashes
+dist
+logs
+res
