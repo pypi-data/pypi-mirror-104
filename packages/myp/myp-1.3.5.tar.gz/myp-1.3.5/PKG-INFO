@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: myp
+Version: 1.3.5
+Summary: Manage your Python apps easily.
+Home-page: https://github.com/yunisdev/myp#readme
+Author: yunisdev
+Author-email: yunisdev.04@gmail.com
+License: UNKNOWN
+Description: [![Documentation Status](https://readthedocs.org/projects/myp/badge/?version=latest)](myp.readthedocs.io/en/latest/?badge=latest)
+        
+        # <img src="https://raw.githubusercontent.com/YunisDEV/myp/master/assets/myp.svg"/> ManageYourPython
+        
+        ## What is MYP?
+        **myp** is a tool that helps you to manage and develop your Python apps easily.
+        
+        ## Learn more about MYP
+        
+        Full documentation is available at [ReadTheDocs](https://myp.readthedocs.io).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
