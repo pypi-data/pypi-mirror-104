@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ergon
+Version: 0.1.0
+Summary: Fullstack python framework faster release product.
+License: MIT
+Author: Quan Vu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.63.0,<0.64.0)
