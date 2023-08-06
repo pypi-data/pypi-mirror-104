@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cloud-manager
+Version: 0.0.5
+Summary: Package for managing cloud service using python. NCloud, AWS, AZURE, GCP
+Home-page: https://github.com/hoosiki/cloud_manager.git
+Author: Junsang Park
+Author-email: publichey@gmail.com
+License: BSD
+Download-URL: https://github.com/hoosiki/cloud_manager/blob/master/dist/cloud_manager-0.0.5.tar.gz
+Description: <p>preparing</p>
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
