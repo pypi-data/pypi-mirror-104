@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: some-spark-utils
+Version: 0.0.1
+Summary: Some spark utils
+Home-page: https://github.com/SVESoftware/some_spark_utils
+Author: Drazen Nezic
+Author-email: info@trialogic.hr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SVESoftware/some_spark_utils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# Readme
+
+A set of pyspark helper functions used in various projects.
+
