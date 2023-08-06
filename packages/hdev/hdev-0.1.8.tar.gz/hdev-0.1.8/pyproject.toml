@@ -1,0 +1,15 @@
+[tool.hdev.requirements]
+# Custom locations for requirements files to compile
+order = [
+    "src/hdev/requirements/pip-tools.in"
+]
+
+[tool.hdev.clean]
+# File and directory patterns relative to the root to remove.
+# These support shell expansions and patterns
+files=[]
+dirs=[]
+# File and directory names which will be removed anywhere they
+# are found. These support shell expansions and patterns
+file_names=[]
+dir_names=[]
