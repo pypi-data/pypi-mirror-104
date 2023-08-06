@@ -1,0 +1,5 @@
+torch>=1.8.1
+pytorch_lightning>=1.2.10
+mlflow>=1.16.0
+transformers>=4.5.1
+sentencepiece>=0.1.95

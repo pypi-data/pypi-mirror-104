@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+deep_nlp/__init__.py
+deep_nlp/framework.py
+deep_nlp/model_wrapper.py
+deep_nlp/utils.py
+deep_nlp.egg-info/PKG-INFO
+deep_nlp.egg-info/SOURCES.txt
+deep_nlp.egg-info/dependency_links.txt
+deep_nlp.egg-info/requires.txt
+deep_nlp.egg-info/top_level.txt
+scripts/extract_model
