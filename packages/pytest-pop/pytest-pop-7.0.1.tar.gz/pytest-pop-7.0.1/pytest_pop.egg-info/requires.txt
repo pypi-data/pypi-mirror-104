@@ -1,0 +1,5 @@
+asynctest
+mock
+pytest
+pytest-asyncio
+pop>=17.0
