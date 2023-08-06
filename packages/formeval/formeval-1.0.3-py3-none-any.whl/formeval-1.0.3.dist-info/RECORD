@@ -1,0 +1,10 @@
+formeval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formeval/cider.py,sha256=OBweVx-Vis41yD8KeZyGMu_9aIbNn2T9eEuCJ1W6F5w,4975
+formeval/processor.py,sha256=cuRGoIOi-5GsCYNSKHtnCIZkiuCVQ0YgCvtW8WjFjYc,1353
+formeval/spice.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formeval/utils.py,sha256=yFIgvUoSttRvi2eFYyOtxpMCoRr0glKK8XxGzAbMIjY,790
+formeval-1.0.3.dist-info/LICENSE,sha256=losWfVYGsX-Y06NqxjWyGPm1kYAklYEZT9qJYYRxRAc,1067
+formeval-1.0.3.dist-info/METADATA,sha256=XRYmWs3NrMRXtdTUC1J5KQ-0Ews1tAawHTk3BUkhWVc,1465
+formeval-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+formeval-1.0.3.dist-info/top_level.txt,sha256=w7VYjJU2zIx9-VKhTE39eMUD4F6cxgFau2WJWxQuFng,9
+formeval-1.0.3.dist-info/RECORD,,
