@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pytest-relative-order
+Version: 0.2
+Summary: a pytest plugin that sorts tests using "before" and "after" markers
+Home-page: https://github.com/StarfishStorage/pytest-relative-order
+Author: Starfish Storage Corporation
+Author-email: rkujawa@starfishstorage.com
+Maintainer: Radek Kujawa
+Maintainer-email: rkujawa@starfishstorage.com
+License: MIT
+Description: # pytest-relative-order
+        a pytest plugin that sorts tests using "before" and "after" markers
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
