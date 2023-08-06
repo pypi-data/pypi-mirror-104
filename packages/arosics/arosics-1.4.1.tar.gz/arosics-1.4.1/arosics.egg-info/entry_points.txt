@@ -1,0 +1,3 @@
+[console_scripts]
+arosics = bin.arosics_cli:main
+
