@@ -1,0 +1,10 @@
+[console_scripts]
+gihadocs = gihadocs.__main__:cli
+
+[gihadocs.plugins]
+search = gihadocs.contrib.search:SearchPlugin
+
+[gihadocs.themes]
+gihadocs = gihadocs.themes.gihadocs
+readthedocs = gihadocs.themes.readthedocs
+
