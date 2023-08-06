@@ -1,0 +1,11 @@
+cookiecutter
+toml
+tox
+
+[tests]
+cookiecutter
+coverage
+h-matchers
+pytest
+toml
+tox
