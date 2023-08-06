@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dropbox_api_team_4"
+version = "0.2.0"
+description = ""
+authors = [
+    "Ilnar Gomelyanov <hibushland@gmail.com>",
+    "Danil Dmitriev <senses.dimit@gmail.com>",
+    "Azat Khamzin <new.mail2018@mail.ru>",
+    "Artyom Kholopov <temych.arkh@gmail.com>" 
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dropbox = "^11.7.0"
+click = "^7.1.2"
+python-dotenv = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fucking-dropbox = 'dropbox_api_team_4.dropbox_logic:main'
