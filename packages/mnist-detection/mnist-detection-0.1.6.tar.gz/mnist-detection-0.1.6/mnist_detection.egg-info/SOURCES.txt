@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mnist_detection.egg-info/PKG-INFO
+mnist_detection.egg-info/SOURCES.txt
+mnist_detection.egg-info/dependency_links.txt
+mnist_detection.egg-info/requires.txt
+mnist_detection.egg-info/top_level.txt
+mnistdet/__init__.py
+mnistdet/collation.py
+mnistdet/config.py
+mnistdet/dataset.py
+mnistdet/simulator.py
