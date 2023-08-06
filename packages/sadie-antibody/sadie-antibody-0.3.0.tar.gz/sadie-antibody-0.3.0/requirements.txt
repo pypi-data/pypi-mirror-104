@@ -1,0 +1,9 @@
+pre-commit
+biopython
+click
+filetype
+pandas
+wheel
+requests
+python-levenshtein
+pyarrow
