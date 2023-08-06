@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: python-linkedlist
+Version: 1.0.0
+Summary: Linkedlist in Python
+Home-page: https://github.com/LuciferLordKing/python-linkedlist
+Author: Lucifer Fung
+Author-email: luciferfung210@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# python-linkedlist
+
+## Links
+[Github](https://github.com/LuciferLordKing/python-linkedlist) | [PyPi](https://pypi.org/project/python-linkedlist)
+
+## Installation
+Install latest release from [PyPI](https://pypi.org) via pip:
+
+* ```$ python3 -m pip install python-linkedlist```
+
+Or the freshest bleeding-edge code directly from [GitHub](https://github.com/LuciferLordKing/python-linkedlist) using pip and git:
+
+* ```$ python3 -m pip install -U git+https://github.com/LuciferLordKing/python-linkedlist```
+
+Using pip:
+
+* ```$ pip3 install python-linkedlist -U```
+
+* ```$ python3 -m pip install python-linkedlist -U```
+
