@@ -1,0 +1,3 @@
+docopt
+python-keycloak
+requests
