@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/watermarker/__init__.py
+src/watermarker/command_line.py
+src/watermarker_Darkclainer.egg-info/PKG-INFO
+src/watermarker_Darkclainer.egg-info/SOURCES.txt
+src/watermarker_Darkclainer.egg-info/dependency_links.txt
+src/watermarker_Darkclainer.egg-info/entry_points.txt
+src/watermarker_Darkclainer.egg-info/requires.txt
+src/watermarker_Darkclainer.egg-info/top_level.txt
