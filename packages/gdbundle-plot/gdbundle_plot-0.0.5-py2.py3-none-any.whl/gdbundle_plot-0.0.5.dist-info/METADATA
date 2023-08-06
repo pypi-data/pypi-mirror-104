@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: gdbundle-plot
+Version: 0.0.5
+Summary: Plot 1-D arrays
+License: MIT
+Author: Cyril Fougeray
+Author-email: cyril.fougeray@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: gdbundle (>=0.0.3,<0.1.0)
+Description-Content-Type: text/markdown
+
+# gdbundle-plot
+
+This is a [gdbundle](https://github.com/memfault/gdbundle) plugin used to plot 1-D arrays in a graph.
+
+C and Rust types can be parsed using the plugin.
+
+One or several arrays can be plotted on the same graph.
+
+## Compatibility
+
+- GDB
+- LLDB: Not yet
+
+## Installation
+
+### Pip
+
+```shell
+$ pip install gdbundle-plot
+```
+
+### From source
+
+After setting up [gdbundle](https://github.com/memfault/gdbundle), install the package using:
+
+```shell
+$ poetry install
+```
+
+If you've decided to manually manage your packages using the `gdbundle(include=[])` argument,
+add it to the list of plugins.
+
+```shell
+# .gdbinit
+
+[...]
+import gdbundle
+plugins = ["plot"]
+gdbundle.init(include=plugins)
+```
+
+## Usage
+
+```
+(gdb) plot var1_name [var2_name ...]
+```
+
