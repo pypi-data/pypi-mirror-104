@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: xplotter
+Version: 0.0.3
+Summary: Explore visual insights from data in an easy and intituitive way with few lines of code.
+Home-page: https://github.com/ThiagoPanini/xplotter
+Author: Thiago Panini
+Author-email: thipanini94@gmail.com
+License: MIT
+Description: <h1 align="center">
+          <a href="https://pypi.org/project/xplotter/"><img src="https://i.imgur.com/5XFP1Ha.png" height=400, weight=400, alt="xplotter logo"></a>
+        </h1>
+        
+        <div align="center">
+          <strong>:bar_chart: Gathering insights from data in a complete EDA process components :chart_with_upwards_trend:</strong>
+        </div>
+        <br/>
+        
+        <div align="center">  
+          
+          ![Release](https://img.shields.io/badge/release-ok-brightgreen)
+          [![PyPI](https://img.shields.io/pypi/v/xplotter?color=blueviolet)](https://pypi.org/project/xplotter/)
+          ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/xplotter?color=green)
+          ![PyPI - Status](https://img.shields.io/pypi/status/xplotter)
+        
+        </div>
+        <br/>
+        
+        Python library created for making the Exploratory Data Analysis process so much easier! With `xplotter`, data scientists or data analysists can use a vast number of functions for plotting, customizing and extracting insights from data with very few lines of codes. The exploratory step is, at least, a key step on every data project and it's very important to understand your data before take any action. The use cases are almost infinity!
+        
+        
+        <div align="center">
+          <strong><i> Work in progress </i></strong>
+        </div>
+        <br/>
+        
+Keywords: Plots,visual analysis,exploratory data analysis,python graphics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
