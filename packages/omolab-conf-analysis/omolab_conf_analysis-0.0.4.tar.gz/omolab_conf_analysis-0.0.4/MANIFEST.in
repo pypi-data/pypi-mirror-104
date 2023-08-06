@@ -1,0 +1,16 @@
+include *.py
+include *.sh
+include *.txt
+recursive-include build *.py
+recursive-include venv *.csv
+recursive-include venv *.dat
+recursive-include venv *.dta
+recursive-include venv *.json
+recursive-include venv *.mat
+recursive-include venv *.npz
+recursive-include venv *.pkl
+recursive-include venv *.pth
+recursive-include venv *.py
+recursive-include venv *.r
+recursive-include venv *.so
+recursive-include venv *.txt
