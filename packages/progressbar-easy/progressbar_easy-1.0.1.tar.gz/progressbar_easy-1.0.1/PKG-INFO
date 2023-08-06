@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: progressbar_easy
+Version: 1.0.1
+Summary: A simple progressbar to track progress
+Home-page: UNKNOWN
+Author: Braxton Brown
+Author-email: braxton.brown@outlook.com
+License: MIT
+Description: This is a simlple progress bar that allows for easy use to display progress.
+        
+        FEATURES
+        ----------------
+        
+        Timer to estimate time remaining
+        Choice of length of bar
+        Choice of character bar is made of
+        option for item count or percentage completed (or both)
+        
+        Change Log
+        ==============
+        
+        1.0.0 (5/6/2021)
+        ---------------------
+        - First Release
+Keywords: progressbar,progressbar_easy,easy progressbar,easy progress bar
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
