@@ -1,0 +1,240 @@
+---
+export_on_save:
+html:
+  toc: true
+markdown:
+  toc: true
+
+print_background: true
+---
+
+# python三方包打包
+
+2021年4月30日11:41:51
+
+## 目录
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+* [python三方包打包](#python三方包打包)
+  + [目录](#目录)
+  + [一、参考资料](#一-参考资料)
+    - [1.1 文档地址：<https://packaging.python.org/tutorials/packaging-projects/>](#11-文档地址httpspackagingpythonorgtutorialspackaging-projects)
+  + [二、环境](#二-环境)
+    - [2.1 python](#21-python)
+    - [2.2 pip](#22-pip)
+    - [2.3 setuptools 和 wheel](#23-setuptools-和-wheel)
+    - [2.5 build](#25-build)
+    - [2.4 twine](#24-twine)
+  + [三、准备](#三-准备)
+    - [3.1 创建项目](#31-创建项目)
+      - [3.1.1 项目目录](#311-项目目录)
+      - [3.1.2 创建pyproject.toml](#312-创建pyprojecttoml)
+      - [3.1.3 配置元数据](#313-配置元数据)
+      - [3.1.4 创建一个许可证](#314-创建一个许可证)
+  + [四、生成分布档案](#四-生成分布档案)
+  + [五、上传分布档案](#五-上传分布档案)
+
+<!-- /code_chunk_output -->
+
+## 一、参考资料
+
+### 1.1 文档地址：<https://packaging.python.org/tutorials/packaging-projects/>
+
+## 二、环境
+
+### 2.1 python
+
+01. 作用：python基本环境，确认所用版本，打包后使用时，注意python版本
+
+### 2.2 pip
+
+01. 作用：安装包用的工具
+02. 用法：pip install package_name
+
+### 2.3 setuptools 和 wheel
+
+01. 作用：打包用的工具
+
+### 2.5 build
+
+01. 作用：编译打包工具
+
+### 2.4 twine
+
+01. 作用：上传包到官网三方库中
+
+## 三、准备
+
+### 3.1 创建项目
+
+#### 3.1.1 项目目录
+
+01. 目录结构
+
+    packaging_tutorial/
+    ├── LICENSE
+    ├── pyproject.toml
+    ├── README.md
+    ├── setup.cfg
+    ├── setup.py  # optional, needed to make editable pip installs work
+    ├── src/
+    │   └── example_pkg/
+    │       └── __init__.py
+    └── tests/
+
+    tests/是单元测试文件的占位符。现在将其留空。
+
+#### 3.1.2 创建pyproject.toml
+
+pyproject.toml是告诉构建工具（例如pip10+和 build）的文件，您正在使用的系统以及构建所需的系统。
+
+    [build-system]
+    requires = [
+
+        "setuptools>=42",
+        "wheel"
+
+    ]
+    build-backend = "setuptools.build_meta"
+
+#### 3.1.3 配置元数据
+
+静态元数据（setup.cfg）：每次都保证相同。这更简单，更易于阅读，并且避免了许多常见错误，例如编码错误。
+
+```cfg {.line-numbers}
+[metadata]
+
+# replace with your username:
+
+name = heel
+version = 0.0.1
+author = Example Author
+author_email = author@example.com
+description = A small example package
+long_description = file: README.md
+long_description_content_type = text/markdown
+url = https://github.com/pypa/sampleproject
+project_urls =
+
+    Bug Tracker = https://github.com/pypa/sampleproject/issues
+
+classifiers =
+
+    Programming Language :: Python :: 3
+    License :: OSI Approved :: MIT License
+    Operating System :: OS Independent
+
+[options]
+package_dir =
+
+    = src
+
+packages = find:
+python_requires = >=3.6
+
+[options.packages.find]
+where = src
+
+``` 
+
+动态元数据（setup.py）：可能不确定。任何动态的或在安装时确定的项目，以及扩展模块或setuptools的扩展，都需要输入setup.py。
+
+```python {.line-numbers}
+
+import setuptools
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="heel",  # Replace with your own username
+    version="1.0.0",
+    author="秦",
+    author_email="571169713@qq.com",
+    description="这是一个测试打包上传的包！",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/qcdh1234/python",
+    project_urls={
+        "Bug Tracker": "https://github.com/qcdh1234/python/tree/master/pack_test_lib",
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
+    python_requires=">=3.6",
+)
+
+```
+
+```参数说明 {.line-numbers}
+
+01. name是您的软件包的分发名称。
+
+02. version是软件包版本。
+
+03. author并author_email用于标识软件包的作者。
+
+04. description 是该软件包的简短，一句话摘要。
+
+05. long_description是该程序包的详细说明。
+
+06. long_description_content_type告诉索引长描述使用什么类型的标记。
+
+07. url是项目主页的URL。
+
+08. project_urls可让您列出要在PyPI上显示的任意数量的额外链接。
+
+09. classifiers给出了指数和点子你的包一些额外的元数据。
+
+10. package_dir是一本字典，其中包名用于键，目录则用于值。
+
+11. packages是应该包含在分发包中的所有Python导入包的列表。
+
+12. python_requires提供了项目支持的Python版本。
+
+``` 
+
+#### 3.1.4 创建一个许可证
+
+01. 请参阅 <https://choosealicense.com/>
+
+```license {.line-numbers}F
+Copyright (c) 2018 The Python Packaging Authority
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 四、生成分布档案
+
+01. 安装build: python -m pip install --upgrade build
+02. 进入setup.py所在目录中，编译：python -m build
+
+## 五、上传分布档案
+
+01. 安装上传工具: python -m pip install --user --upgrade twine
+02. 上传目标: python -m twine upload dist/*
+03. 用户名：qcdh1234
+04. 密码：qcdh1234.,12

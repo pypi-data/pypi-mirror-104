@@ -1,0 +1,2 @@
+include tool.py
+recursive-include srv/tool.py
