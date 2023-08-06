@@ -1,0 +1,13 @@
+NNClass/LoadANN.py,sha256=m9jWPG_WovEeEPfTL2lku1fdYyBMZ2pH5DMz7bSWijc,1898
+NNClass/MNIST.py,sha256=slmQKk1tYnRLm9u6o802r0sAIwwDUnlWyL6q0HeaWq4,4052
+NNClass/NNClass.py,sha256=bzjRiEIw-9U4-eNi-b-JC-r1kQrVa7KOhLl2JxnXULc,17201
+NNClass/Softmax.py,sha256=b8HiGFhbdVDW6she43sCJbwtFZyMHHOiIBceTwFrfrg,85
+NNClass/Test.py,sha256=2nSpzgz4TnQep3b5Imq_O7cUeHFdotmez_m2yHlD2Ho,299
+NNClass/__init__.py,sha256=FvlVz7WI-FgXO8MEXt33G8kj7QkSvPXyo8Kv0YuwVSY,129
+NNClass/__data/MNIST/t10k-images.idx3-ubyte,sha256=D6eJjVCSeeSClY6M6ByOd9s_L4JU4mZhzrd2LE1JTOc,7840016
+NNClass/__data/MNIST/t10k-labels.idx1-ubyte,sha256=_3vP1BbeM3MaMIw_JmzDUSIsNImOy-r4R_BuSPfsM_I,10008
+NNClass-0.0.1.dist-info/LICENSE,sha256=qsB9FW21oUnBQUBYA-W4RQBLzIt73jLjotsHb7dwI7s,1070
+NNClass-0.0.1.dist-info/METADATA,sha256=g9P0-soZZ7AJ6IHo0BdvSsDKZ6uYFAEpAwVIxV4AwZ8,3021
+NNClass-0.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+NNClass-0.0.1.dist-info/top_level.txt,sha256=WbJ_pextJZLrm1qFhF66GcageRDPQ9spsdL5yalbWnI,8
+NNClass-0.0.1.dist-info/RECORD,,
