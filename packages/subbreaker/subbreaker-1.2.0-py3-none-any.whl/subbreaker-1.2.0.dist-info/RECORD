@@ -1,0 +1,12 @@
+subbreaker/__init__.py,sha256=z-MfDz4hNl192IFbJxjqbI0BeFlRu4UYxmar5nQQzGw,160
+subbreaker/breaker.py,sha256=EY354gXn85IAxp6Ojq62A7znDHLBjsTvMNZXjBlDFow,18664
+subbreaker/command.py,sha256=em1JiCO-5XgCgTNBkufkY1-Kv8jGUQVoPuKzqFiQS08,16705
+subbreaker/key.py,sha256=ZHnUReackMA8FGWwvmEx_JztuLjmgUpDwZ1rpwfasuw,6380
+subbreaker/quadgram/EN.json,sha256=YkiBk5vzy7-xfmgmccPQzGobra5SYmpld0DFK6nTFdQ,3583252
+subbreaker-1.2.0.dist-info/LICENSE,sha256=xBehHlAy8zrUgpEDl4QdphB1zXINWuRJ5si9rpxpmso,1069
+subbreaker-1.2.0.dist-info/METADATA,sha256=7mGItFJhgY7ORIdtDtBYkdFXx9KayZPXWnVf_RHje14,5508
+subbreaker-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+subbreaker-1.2.0.dist-info/entry_points.txt,sha256=krvp9BpI59oQIowRWv86kCTCT7lqaz72vDFPfrNpq1Y,56
+subbreaker-1.2.0.dist-info/top_level.txt,sha256=GRMMB40SjUXu0oDvOnA0DaaCc1nLa29rtotm4m7oDqE,11
+subbreaker-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+subbreaker-1.2.0.dist-info/RECORD,,
