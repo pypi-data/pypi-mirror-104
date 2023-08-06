@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mod9
+Version: 0.0.0
+Summary: See mod9-asr for the Mod9 ASR Python SDK.
+Home-page: https://pypi.org/project/mod9-asr/
+Author: Mod9 Technologies
+Author-email: support@mod9.com
+License: UNKNOWN
+Description: See [mod9-asr](https://pypi.org/project/mod9-asr/) for the Mod9 ASR Python SDK.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
