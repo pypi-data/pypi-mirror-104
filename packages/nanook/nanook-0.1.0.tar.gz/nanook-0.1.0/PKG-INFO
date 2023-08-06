@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nanook
+Version: 0.1.0
+Summary: Command line tool for managing scenes on the KORG nanoKONTROL Studio MIDI controller.
+License: Unlicense
+Author: Miklos Aubert
+Author-email: miklos.aubert@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aioconsole (>=0.3.1,<0.4.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: mido (>=1.2.9,<2.0.0)
+Requires-Dist: python-rtmidi (>=1.4.9,<2.0.0)
+Requires-Dist: uvloop (>=0.15.2,<0.16.0)
