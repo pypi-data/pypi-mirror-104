@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+weatherfrcst/__init__.py
+weatherfrcst/forecast.py
+weatherfrcst.egg-info/PKG-INFO
+weatherfrcst.egg-info/SOURCES.txt
+weatherfrcst.egg-info/dependency_links.txt
+weatherfrcst.egg-info/not-zip-safe
+weatherfrcst.egg-info/requires.txt
+weatherfrcst.egg-info/top_level.txt
