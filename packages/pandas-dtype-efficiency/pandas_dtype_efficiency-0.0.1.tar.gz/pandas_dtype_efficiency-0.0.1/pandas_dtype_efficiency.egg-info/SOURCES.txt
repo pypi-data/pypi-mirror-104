@@ -1,0 +1,8 @@
+README.md
+pandas_dtype_efficiency.py
+setup.py
+pandas_dtype_efficiency.egg-info/PKG-INFO
+pandas_dtype_efficiency.egg-info/SOURCES.txt
+pandas_dtype_efficiency.egg-info/dependency_links.txt
+pandas_dtype_efficiency.egg-info/requires.txt
+pandas_dtype_efficiency.egg-info/top_level.txt
