@@ -1,0 +1,5 @@
+easysettings==4.0.0
+colorlog==5.0.1
+requests==2.25.1
+pycurl==7.43.0.5
+tqdm==4.60.0
