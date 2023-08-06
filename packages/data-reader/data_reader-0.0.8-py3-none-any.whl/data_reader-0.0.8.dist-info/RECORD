@@ -1,0 +1,13 @@
+data_reader/__init__.py,sha256=_FpSu7m4hRBnmnBH58CuSi5_Q_CCo0Fn_9bXPe1Dgu4,200
+data_reader/mapper.py,sha256=Ku9P2J9ZJxtnjf3vlQH5LLB-VyY-ZeESAhV0YYlTrYE,1096
+data_reader/readers/__init__.py,sha256=HePQP5sOBM8T0DuIeHVvrxhY-YcAxt2qwk7H6ApQkKI,161
+data_reader/readers/csv_reader.py,sha256=kDZophXFLgNci0piVlsIjqyuNL14uWkBB23vKncLFCQ,1654
+data_reader/readers/json_reader.py,sha256=lrju63Hm9iQrdNnHalRFIsvjInQJ72HvfCFNycpw7As,544
+data_reader/readers/xml_reader.py,sha256=bm8n6yFdpjaNx7JqR-r1GH5G1ORSAd8FRUj3FrMqRyw,2881
+data_reader/utils/__init__.py,sha256=bQ25QELX94yeosJEuU8UJwHEtT5klI_Wd-YWYaGLBvU,92
+data_reader/utils/accessor.py,sha256=SzQBkwJWhSfqG8LGbv8rgVgrcFomWBUtHZlEn45VyPw,1114
+data_reader/utils/logger.py,sha256=-5nXRKK9Lexp3SwgR8QNvM0j_wXVOxGbBljPKYFDaxU,992
+data_reader-0.0.8.dist-info/METADATA,sha256=MaoIMypM_kIjAhR2u0KNv1kPiYtOTXLUAWoIPBPx2LE,1717
+data_reader-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+data_reader-0.0.8.dist-info/top_level.txt,sha256=mV6MopkD-qzy6PTilkCDOTUn-5-7MivUQWXdc_hg0c4,12
+data_reader-0.0.8.dist-info/RECORD,,

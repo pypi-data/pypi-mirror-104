@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: data-reader
+Version: 0.0.8
+Summary: Lightweight Python package that can lazily read large data files.
+Home-page: https://github.com/polkovnik-z/python-data-reader
+Author: Ibragim Abubakarov
+Author-email: ibragim.ai95@gmail.com
+Maintainer: Ibragim Abubakarov
+Maintainer-email: ibragim.ai95@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: ijson
+
+[Data Reader](https://github.com/polkovnik-z/python-data-reader/blob/master/README.md)
+===========
+> Python package that **lazily** reads data from large **JSON**, **XML** and **CSV** files.
+
+Why not use the already existing libs you ask ?  
+Well, for me, it was crucial to have a small package size that can be deployed to a **Serverless** environment as this was the main goal.  
+
+This package has only one dependency, and that is `ijson` which itself is small.
+
+Installation
+------------
+```sh
+pip install data-reader
+```
+
+API Reference
+-------------
+ * [Mapper - `data_reader.mapper`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/mapper.md)
+ * Readers
+   * [CSVReader - `data_reader.readers.csv_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/csv-reader.md)
+   * [JSONReader - `data_reader.readers.json_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/json-reader.md)
+   * [XMLReader - `data_reader.readers.xml_reader`](https://github.com/polkovnik-z/python-data-reader/blob/master/docs/xml-reader.md)
+
+
