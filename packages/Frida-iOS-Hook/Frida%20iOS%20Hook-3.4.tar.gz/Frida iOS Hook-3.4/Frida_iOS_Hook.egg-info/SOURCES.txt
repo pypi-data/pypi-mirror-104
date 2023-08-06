@@ -1,0 +1,11 @@
+README.md
+setup.py
+Frida_iOS_Hook.egg-info/PKG-INFO
+Frida_iOS_Hook.egg-info/SOURCES.txt
+Frida_iOS_Hook.egg-info/dependency_links.txt
+Frida_iOS_Hook.egg-info/top_level.txt
+lib/__init__.py
+lib/checkversion.py
+lib/dump.py
+lib/listapp.py
+lib/log.py
