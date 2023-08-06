@@ -1,0 +1,42 @@
+{% extends '_layouts/blank.j2' %}
+
+<style>
+{% block style %}
+body {background-color: #ededed;}
+
+.sign-form {
+    max-width: 340px;
+    width: 96%;
+}
+
+.el-message-box {
+    width: 300px;
+}
+
+.sign-fields {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+}
+
+.btn-signin {width: 96%; height:40px; text-align: left; margin-bottom: 4px;}
+.btn-signin i { width: 8px; border-right: 1px solid #ccc; }
+#naver-id-signin {background-color: #1EC800; }
+
+.btn-sns-signin {
+    border-top: 1px solid #efefef;
+    padding-top: 8px;
+}
+.el-input__inner {
+    height: 32px !important;
+    line-height: 32px !important;
+}
+{% endblock %}
+</style>
+
+{% block state_map %}
+  {{ super () }}
+  {% if app.config.FRONTEND %}
+    {{ set_cloak () }}
+  {% endif %}
+{% endblock %}

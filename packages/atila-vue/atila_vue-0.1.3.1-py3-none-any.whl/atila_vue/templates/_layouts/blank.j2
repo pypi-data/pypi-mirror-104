@@ -1,0 +1,20 @@
+{% extends '_framework/locale-css.j2' %}
+
+{% block state_map %}
+  {{ map_route (
+      homeUrl = "index",
+      signOut = "firebase.auth.signout",
+      signInForm = "firebase.auth.signin",
+      signUpForm = "firebase.auth.signup",
+    ) }}
+
+  {{ map_dict ('context',
+      siteName = app.config.SITE_NAME,
+      nextUrl = context.get ("next_url", request.uri),
+      frontendConfig = app.config.FRONTEND
+  ) }}
+{% endblock %}
+
+{% block app_layout %}
+  {{ super () }}
+{% endblock %}

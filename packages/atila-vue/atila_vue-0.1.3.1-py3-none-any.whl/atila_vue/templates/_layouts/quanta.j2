@@ -1,0 +1,13 @@
+{% extends '_layouts/triplet.j2' %}
+
+{% block app_layout %}
+  <page-aside></page-aside>
+  <el-container>
+    {{ super () }}
+  </el-container>
+{% endblock %}
+
+{% block vue_components %}
+  {{ super () }}
+  {{ component (context.get ('aside', 'include/page-aside.vue')) }}
+{% endblock %}

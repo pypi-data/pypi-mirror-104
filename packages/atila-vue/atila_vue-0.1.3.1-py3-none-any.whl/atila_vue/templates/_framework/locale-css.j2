@@ -1,0 +1,18 @@
+{% extends '_framework/element-ui.j2' %}
+
+{% block head_style %}
+  {{ super () }}
+  <link rel="stylesheet" href="{{ was.static ('css/custom.css') }}">
+{% endblock %}
+
+{% block body_trailer_script %}
+  {{ super () }}
+  <script src="{{ was.static ('vue2/_framework/libs/element-ui-umd-locale-{}.js'.format (was.app.config.LOCALE or 'en')) }}"></script>
+  <script>
+    ELEMENT.locale(ELEMENT.lang.{{ was.app.config.LOCALE or 'en'}})
+  </script>
+{% endblock %}
+
+{% block modals %}{% endblock %}
+
+

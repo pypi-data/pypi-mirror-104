@@ -1,0 +1,14 @@
+{% load i18n %}
+
+{% if stats and stats|length %}
+<div class='stats'>
+    <caption>
+        <div class="custom-section">{% trans 'Statistics' %}</div>
+    </caption>
+    <ul>
+        {% for k, v in stats %}
+            <li><span class='label'>{{ k }}:</span> {{ v }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
