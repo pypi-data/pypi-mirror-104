@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.1.5
+------
+
+* Remove all dependencies on linkml\_model with the exception of the unit tests
