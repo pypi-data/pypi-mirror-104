@@ -1,0 +1,8 @@
+README.md
+setup.py
+chainscan/__init__.py
+chainscan/cs.py
+py_chainscan.egg-info/PKG-INFO
+py_chainscan.egg-info/SOURCES.txt
+py_chainscan.egg-info/dependency_links.txt
+py_chainscan.egg-info/top_level.txt
