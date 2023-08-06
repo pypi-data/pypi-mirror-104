@@ -1,0 +1,6 @@
+coverage
+flake8
+mypy
+sphinx
+nose
+black
