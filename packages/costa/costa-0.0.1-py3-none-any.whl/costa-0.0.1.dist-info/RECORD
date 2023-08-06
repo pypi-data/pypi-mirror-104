@@ -1,0 +1,11 @@
+costa/__init__.py,sha256=CuUrzpA048UYOQ79rRavMyDoqk0_frmeko2X7fI5u1U,95
+costa/buildpermap.py,sha256=p5B-OpkcWkeWv0laQZ-SnGTWE5cQ7e4Hm1ssD1xmrsg,2292
+costa/defaults.py,sha256=1zkwjFz4MPnhkbH3X2HF3kVd_BS4804302aL9ZObRUk,4543
+costa/permap.py,sha256=K21_kbrEpXFeiuyQRTUFAPRwZqAvQHEIM52FqCX5vwU,38459
+costa/resources/manufacturer-data-cooling.txt,sha256=t9gcFAPfVoZRPqlKtMBVE-NXNLElJFmEE_qbBMikOLw,1273
+costa/resources/manufacturer-data-heating.txt,sha256=qWyKy1_s8JzThoLqn5uxq-Ilp9J6oXRaTp-7F047th4,565
+costa-0.0.1.dist-info/LICENSE,sha256=VgaYtWGgwiD0khO4yJv29IovFwXcBa68gk8RTkq0TYw,1072
+costa-0.0.1.dist-info/METADATA,sha256=jmf_hQ9-TQjSoP0TKoulsGveUZkCpkpp3cVIj3SKmOQ,3182
+costa-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+costa-0.0.1.dist-info/top_level.txt,sha256=BvQ5O7DO_p0S9Knyp6xjddD_JTmmitN0NiWv1P92-ww,6
+costa-0.0.1.dist-info/RECORD,,
