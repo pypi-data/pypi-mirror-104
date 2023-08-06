@@ -1,0 +1,3 @@
+numpy>=1.2
+mosaik-api>=2.4
+mosaik>=2.6

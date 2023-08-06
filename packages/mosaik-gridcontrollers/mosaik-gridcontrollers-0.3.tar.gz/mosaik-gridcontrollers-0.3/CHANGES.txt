@@ -1,0 +1,17 @@
+Changelog
+=========
+
+0.3 - 2021-05-05
+------------------
+
+- Improved packaging
+
+0.2 - 2021-05-04
+------------------
+
+- [FEATURE] mosaik simulator which controls the transformer tap position based on a single grid node's voltage
+
+0.1 - 2021-05-03
+----------------
+
+- Initial release

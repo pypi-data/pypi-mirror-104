@@ -1,0 +1,6 @@
+flake8>=3.9
+mosaik-api>=2.4
+mosaik>=2.6
+numpy>=1.2
+pytest>=6.2
+tox>=3.23

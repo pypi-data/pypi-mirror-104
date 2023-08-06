@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mosaik-gridcontrollers
+Version: 0.3
+Summary: A suite of controllers for power grids implemented as mosaik simulators.
+Home-page: https://gitlab.com/mosaik/mosaik-gridcontrollers
+Author: Reef Eilers
+Author-email: reef.eilers@offis.de
+License: UNKNOWN
+Description: mosaik-gridcontrollers
+        ======================
+        This is a suite of controllers for power grids implemented as mosaik simulators.
+        
+        Installation
+        ------------
+        
+        ::
+        
+            $ pip install mosaik-gridcontrollers
+        
+        Tests
+        -----
+        
+        You can run the tests with::
+        
+            $ git clone https://gitlab.com/mosaik/mosaik-gridcontrollers.git
+            $ cd mosaik-gridcontrollers
+            $ pip install -r requirements.txt
+            $ pip install -e .
+            $ py.test
+            $ tox
+        
+        
+        Changelog
+        =========
+        
+        0.3 - 2021-05-05
+        ------------------
+        
+        - Improved packaging
+        
+        0.2 - 2021-05-04
+        ------------------
+        
+        - [FEATURE] mosaik simulator which controls the transformer tap position based on a single grid node's voltage
+        
+        0.1 - 2021-05-03
+        ----------------
+        
+        - Initial release
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/x-rst
