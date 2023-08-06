@@ -1,0 +1,7 @@
+README.md
+setup.py
+l2x_synthetic.egg-info/PKG-INFO
+l2x_synthetic.egg-info/SOURCES.txt
+l2x_synthetic.egg-info/dependency_links.txt
+l2x_synthetic.egg-info/requires.txt
+l2x_synthetic.egg-info/top_level.txt
