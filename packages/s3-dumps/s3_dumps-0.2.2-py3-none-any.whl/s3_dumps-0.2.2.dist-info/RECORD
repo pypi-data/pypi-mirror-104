@@ -1,0 +1,14 @@
+s3_dumps/__init__.py,sha256=QQ0yjZQnvXM7JeLLZEZWX6NmVUPu1lSROWOXF49_gug,22
+s3_dumps/archive.py,sha256=jS5oAf8HBhzDaVjrkZ4NMgse8dMwIV7C58Sg7mhbmL4,3572
+s3_dumps/connect.py,sha256=JNwkdVa6EoWxMuSemMP7F1lw5ECnLI7Av5k54TdSm4o,2440
+s3_dumps/mysql_to_s3.py,sha256=SBOO2jaNt5MqpnradMZpugtQIO9TB7e-MmJV6F-BaGc,4120
+s3_dumps/postgres_to_s3.py,sha256=bGnXA8V2fSnQy1c_Qu5eWaQ4q-aH7PuQgdtYQgjTt00,3720
+s3_dumps/redis_to_s3.py,sha256=C3whvPdRgviEs-F6WpFhu6NS8jszNDPqBc0fmWJSleo,2942
+s3_dumps/utils.py,sha256=smTe09qEJDPExaNdkiyXYbqoFKlf3TBBAWodqk8KZIY,3777
+s3_dumps-0.2.2.data/scripts/postgres_to_s3.py,sha256=Usue8F1KEIpDEiIN6QJcZdEQAJtyst7uVp86O9W9V_4,3707
+s3_dumps-0.2.2.data/scripts/redis_to_s3.py,sha256=WwWQ1YmxU1XTnTSFLwYmgrJD61Qaz684X2qO8Kck6LE,2929
+s3_dumps-0.2.2.dist-info/METADATA,sha256=oimF5WnRVGPVUgwVy_qPgx2hdAGTxQZhFtIofjA-TSQ,747
+s3_dumps-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+s3_dumps-0.2.2.dist-info/entry_points.txt,sha256=mY1JCkCNqcAFNy6w9TyoXme2W3eke3n9OjQxWGZI8Ls,105
+s3_dumps-0.2.2.dist-info/top_level.txt,sha256=HYqBy2am4GGd51-_rPtQ3ybdHTAJrEpdLcVccpvxB-A,9
+s3_dumps-0.2.2.dist-info/RECORD,,
