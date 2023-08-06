@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: shows
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/voidful/shows
+Author: Voidful
+Author-email: voidful.stack@gmail.com
+License: Apache
+Keywords: system monitoring gpu cpu network memory disk utility usage state
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: System :: Monitoring
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: unidecode
+Requires-Dist: py-cpuinfo
+Requires-Dist: gpustat
+Requires-Dist: psutil
+Requires-Dist: rich
+
+# shows
+lib for system monitoring with CPU/GPU/DISK/MEM/NET
+
+## install
+`pip install shows`
+
+## usage
+### bash
+after installation, type the following in your terminal:
+```bash
+shows
+```
+
+### python
+```python
+import shows
+machine  = shows.machine()
+machine.get_state()
+```
+
+
