@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: django-allauth-saml2
+Version: 0.1.0
+Summary: Django AllAuth Saml2 provider
+Home-page: https://github.com/adevolutio/allauth_saml2
+Author: David Vaz
+Author-email: dvaz@evolutio.pt
+License: MIT
+Description: =============================
+        Django AllAuth Saml2
+        =============================
+        
+        Django allauth saml2 provider, this provider is based on pysaml2 (https://pysaml2.readthedocs.io/)
+        
+        Quick start
+        -----------
+        
+        1. Add "allauth_saml2" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'allauth_saml2',
+            ]
+        
+            SOCIALACCOUNT_PROVIDERS = {
+                'saml2': {
+                    # Metadata is required, choose either remote url or local file path
+                    'METADATA_AUTO_CONF_URL': 'The metadata configuration url',
+                    'METADATA_LOCAL_FILE_PATH': 'The metadata configuration file path',
+        
+                    # EntityID populates the Issuer element in authn request Entity ID, optional, url of sp is used when missing
+                    # 'ENTITY_ID': 'https://mysite.com/saml2_auth/acs/', #
+        
+                    # 'NAME_ID_FORMAT': FormatString, # Sets the Format property of authn NameIDPolicy element
+        
+                    # encrypt/sign assertions
+                    # 'KEY_FILE': 'key.pem path',
+                    # 'CERT_FILE': 'cert.pem path',
+        
+                    # 'ACCEPTED_TIME_DIFF':
+                }
+            }
+        
+        
+        Credits
+        -------
+        
+        Tools used in rendering this package:
+        
+        *  Cookiecutter_
+        *  `cookiecutter-djangopackage`_
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (2021-04-30)
+        ++++++++++++++++++
+        
+        * First release on PyPI.
+        
+Keywords: allauth_saml2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
