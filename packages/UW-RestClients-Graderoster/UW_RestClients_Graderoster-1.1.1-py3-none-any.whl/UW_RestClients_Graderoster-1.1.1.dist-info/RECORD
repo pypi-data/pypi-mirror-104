@@ -1,0 +1,17 @@
+uw_sws_graderoster/VERSION,sha256=zFL2eISLgUNzdXtGA4O_YZYOSUPCA3Na3eCjULPlCYk,6
+uw_sws_graderoster/__init__.py,sha256=MnCvuNOB2VFHsNmDnc-Bkekf6c0s4FNS10b4xqGY4aw,2303
+uw_sws_graderoster/dao.py,sha256=DyhQtW-Dj2S1FHoQdGqj-s1Dc0rs761gzynZ45S--jY,3035
+uw_sws_graderoster/models.py,sha256=QclotEjvYrekeXkzzDG8GNNG1SMeW29hsveSkZpR1rk,12073
+uw_sws_graderoster/test.py,sha256=YRpIqEYE80L-lZG5I9XqRMwmzAc9ELN-eRqlX6hn0y4,462
+uw_sws_graderoster/resources/sws/file/student/v5/graderoster/2013_autumn_EDC_I_461_A_FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=i59S1YMpl_esNjJj2itH6DY07NSgbKE1u3TxNTsVNqk,25623
+uw_sws_graderoster/resources/sws/file/student/v5/graderoster/2013_summer_CSS_161_A_FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=C2r2GBK4ht_qBcPv5Fg853tMMlgpTHMucqGTmV18Bco,25607
+uw_sws_graderoster/templates/graderoster.xhtml,sha256=rf_IOxbPvvGAGud_2PLnfjQxFzo8lNFRqsD_CBMSqRM,9775
+uw_sws_graderoster/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uw_sws_graderoster/tests/test_dao.py,sha256=CQ8K2_ld0CkGjc7u8Pnb-q9ckNR7GFVtTYSJjdpW8Ro,355
+uw_sws_graderoster/tests/test_graderoster.py,sha256=AtVu-ByOf8kn3qOso6stpinJ-R63m5AdQ67WujMg35M,3109
+uw_sws_graderoster/tests/test_gradingscale.py,sha256=OzcCLZowmTcCN1DiWSu7QfpZJ7BD83sLdhKzQdooBUM,2185
+UW_RestClients_Graderoster-1.1.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+UW_RestClients_Graderoster-1.1.1.dist-info/METADATA,sha256=X6bxWafci5J83T1Z5yIr36PtpHGxrufOMDlu2hwZ1TM,868
+UW_RestClients_Graderoster-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+UW_RestClients_Graderoster-1.1.1.dist-info/top_level.txt,sha256=0AZrt7vFqA-kx8X4NNfX1UMwQxo32D4tdJBLxLScMJI,19
+UW_RestClients_Graderoster-1.1.1.dist-info/RECORD,,
