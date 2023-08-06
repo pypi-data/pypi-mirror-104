@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: testeasydubins
+Version: 1.1.0
+Summary: To generate dubin curves projection points.
+Home-page: https://github.com/rsrishav/easydubins
+Author: Rishav
+Author-email: xyz@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: importlib-resources
+
+# testeasydubins
+
+## Installation
+
+You can install the testeasydubins from [PyPI](https://pypi.org/project/testeasydubins/):
+
+    pip install testeasydubins
+
+The testeasydubins is supported on Python 2.7, as well as Python 3.4 and above.
+
+## How to use
+
+To call the testeasydubins in your own Python code, by importing from the `testeasydubins` package:
+
+    >>> from testeasydubins import dubin_path
+
+
