@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/software_metrics/__init__.py
+src/software_metrics/paths.py
+src/software_metrics.egg-info/PKG-INFO
+src/software_metrics.egg-info/SOURCES.txt
+src/software_metrics.egg-info/dependency_links.txt
+src/software_metrics.egg-info/top_level.txt
