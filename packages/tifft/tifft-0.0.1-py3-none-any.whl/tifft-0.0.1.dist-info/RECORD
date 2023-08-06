@@ -1,0 +1,10 @@
+tifft/__init__.py,sha256=iIpn3jlZnopDDLjLBNoPOflYrg4K4k8BGtACQf2-qks,46
+tifft/cli.py,sha256=-jEc_g3RwhpS8lKiM0_AccMfjb11bApKXHSN0vUTzG4,2587
+tifft/datareader.py,sha256=mBXa4zO-us-wMOwladis9aPuOkP8Hf9P9te5xXeS_cI,2392
+tifft/macd.py,sha256=BWubwoklvow71JPoMVAyJiEhhEAPQgTPl8KgmCQfqs0,1734
+tifft-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tifft-0.0.1.dist-info/METADATA,sha256=wI362NvC5IWsj_ccG3f9HAagb9uYVULOPqIbafyNw9A,1159
+tifft-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tifft-0.0.1.dist-info/entry_points.txt,sha256=K9yqjndycRfFZD3eETjNiNEpCPnmJvFHP3ZLVWNOIy0,42
+tifft-0.0.1.dist-info/top_level.txt,sha256=nzjzmpttzvg7aOKpv4o7bggW5_JF0SQVw_YTige1_XQ,6
+tifft-0.0.1.dist-info/RECORD,,
