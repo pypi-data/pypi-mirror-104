@@ -1,0 +1,6 @@
+README.md
+setup.py
+cmc_csci046_aaronxie.egg-info/PKG-INFO
+cmc_csci046_aaronxie.egg-info/SOURCES.txt
+cmc_csci046_aaronxie.egg-info/dependency_links.txt
+cmc_csci046_aaronxie.egg-info/top_level.txt
