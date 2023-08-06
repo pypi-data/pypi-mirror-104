@@ -1,0 +1,15 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pywinwatcher/__init__.py
+pywinwatcher/filemon.py
+pywinwatcher/procmon.py
+pywinwatcher/regmon.py
+pywinwatcher/util.py
+pywinwatcher.egg-info/PKG-INFO
+pywinwatcher.egg-info/SOURCES.txt
+pywinwatcher.egg-info/dependency_links.txt
+pywinwatcher.egg-info/not-zip-safe
+pywinwatcher.egg-info/top_level.txt
