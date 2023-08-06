@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: myPackageAna
+Version: 0.0.2
+Summary: A very basic and my first Python Package
+Home-page: UNKNOWN
+Author: anajikadam17
+Author-email: anajikadam17@gmail.com
+License: MIT
+Description: # My First Python Package.
+        
+        Change Log
+        ==========
+        
+        0.0.2 (04-05-2021)
+        -------------------
+        - First Release
+Keywords: mypackageana
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
