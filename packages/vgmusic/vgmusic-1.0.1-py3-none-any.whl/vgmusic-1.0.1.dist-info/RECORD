@@ -1,0 +1,9 @@
+vgmusic/__init__.py,sha256=F6UvEWqfsgjj6pkwKO2PlqvZKHRhiTFwctxONiwwUkA,107
+vgmusic/cli.py,sha256=v8W0GcUhGYChJIoxtPd84JLFvwfKc4apIspN7yBT5bE,3987
+vgmusic/rest.py,sha256=pmgJ0ejiYkEukRAdJvkG2-F5xIzqUI4GpD-rTwKn_qk,1528
+vgmusic/vgmusic.py,sha256=KgLIbcEGCGBHFbsG3Gn6zP1qfrunk2dKzTOp6AUg9G0,11203
+vgmusic-1.0.1.dist-info/entry_points.txt,sha256=lUaNhBqIHng3g_rzT489n4WnYJKAD36HbpiNp56hPlI,43
+vgmusic-1.0.1.dist-info/LICENSE,sha256=lodTq0SDOXdwvMhB0Ynw-wAmz6r-fMQBmipzWH8x7Wc,1057
+vgmusic-1.0.1.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+vgmusic-1.0.1.dist-info/METADATA,sha256=hveB5ooVOGrC2m5uJCHJJzwDdTYW95Ixm7i7cU02trs,5829
+vgmusic-1.0.1.dist-info/RECORD,,
