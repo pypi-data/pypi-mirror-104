@@ -1,0 +1,12 @@
+openapi_annotations/__init__.py,sha256=j84RxjUbP-4qoRBzBJDMiJJAaLogCcPgj7d2u-nGUF0,318
+openapi_annotations/decorators.py,sha256=XbfOUoKo2oWgRecc063uiKBLiEMO9nNQ0lpCwdxx2CU,6225
+openapi_annotations/globals.py,sha256=YHqQSAMkBmLl7QGuupgNXCKgkIriwCEwu4tiF8VMIL0,34
+openapi_annotations/methods.py,sha256=jAGlsGAGJ1P7fT8dHQPVUr8jto2aRGDC9fz3C7tuA6M,115
+openapi_annotations/parameter_types.py,sha256=i8nrAvUF7CZJOZbqur1_ZKuzmz3q_oES8OVexU2OKDE,111
+openapi_annotations/schema.py,sha256=8TsufyADhjNIur4p8jrBIPNOxoWGRvIxOO-QU1m2gTY,1686
+openapi_annotations/spec_generator.py,sha256=1mjNqzTH_alRLgxdFhkflchn7MHt5JGw0F4sxJjvLMM,12834
+openapi_annotations/string_formats.py,sha256=LjsxL4qyPTL1bBqt5HPasO94pwKgV2YQCtQ0Z2sGaQQ,159
+openapi_annotations-0.1.1.dist-info/LICENSE,sha256=FStjaGC7LfZoqD_TW2jW6p0aQ12A7GGV_JzPJ2yXU9Q,1094
+openapi_annotations-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+openapi_annotations-0.1.1.dist-info/METADATA,sha256=Kd8oK43HW-rA8Geff6z7PAy39AwVqA-ctXbSZErarjg,697
+openapi_annotations-0.1.1.dist-info/RECORD,,

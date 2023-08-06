@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openapi-annotations
+Version: 0.1.1
+Summary: Generate OpenApi with code-first annotations. Use type-hint info and docstrings to document your API. This is an experimental library!
+Home-page: https://github.com/mathi123/openapi-annotation
+License: MIT
+Author: Mathias Colpaert
+Author-email: mathias.colpaert@trensition.eu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/mathi123/openapi-annotation
