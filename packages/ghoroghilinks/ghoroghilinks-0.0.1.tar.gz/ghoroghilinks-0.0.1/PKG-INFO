@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: ghoroghilinks
+Version: 0.0.1
+Summary: ways to contact me
+Home-page: UNKNOWN
+Author: Amir Hosein Ghoroghi
+Author-email: sahgh313@gmail.com
+License: MIT
+Description: This library will show the ways to contact me.
+        
+        
+        CHANGE LOG
+        ==========
+        
+        0.0.1 (1/05/2021)
+        -----------------
+        
+        First Release
+Keywords: ghoroghi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
