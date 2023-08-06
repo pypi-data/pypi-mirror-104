@@ -1,0 +1,9 @@
+walnutgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+walnutgen/__main__.py,sha256=kDgQuiMqS_-yR_zP1Jte75VatYdwFt3_EDRnca5CAro,250
+walnutgen/function.py,sha256=5WqvlaQgSzddOWczpLUoh4vFJStMryi9hMDaTw-f9OM,100
+walnutgen/generator.py,sha256=sQzV-gsv7s28C1fipow6bDWri89TtdVSZ9mSKD2LZ6M,2110
+walnutgen-0.0.5.dist-info/LICENSE,sha256=_LAKwiwo9giAbUwnFI3Ygoj-5-E-yjoe6lQ0IouthQE,1071
+walnutgen-0.0.5.dist-info/METADATA,sha256=kZ1wqgabuLNWDCYwBn2yeiwEsJ541OVwCvJl_sxIN3o,214
+walnutgen-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+walnutgen-0.0.5.dist-info/top_level.txt,sha256=81dERzJSbmVdo3NqsV2OfgTKGmfjv75jkZRzQQvjZPk,10
+walnutgen-0.0.5.dist-info/RECORD,,
