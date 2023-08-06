@@ -1,0 +1,7 @@
+aiodevision/__init__.py,sha256=L30BUJ9QRb6osgbSMI22TfpcoJt9Tl2XQYWQ2CqmNGw,124
+aiodevision/client.py,sha256=b7Vi96EYHftzpn8LZIORgvDoDRwGqZsXTiAy94COnbI,5001
+aiodevision/dataclasses.py,sha256=XIIL5kVo96SIfZioaiu-ZVohH95trf_C1VvQYTivXQY,2066
+aiodevision-0.2.1.dist-info/LICENSE,sha256=Q_xBZSwdA1T7-THLo4TBr-dCIAxJ_A5NtVwm3GtL9lI,1071
+aiodevision-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+aiodevision-0.2.1.dist-info/METADATA,sha256=915vSevFg2WccXE50vM2xsWGqiUQVZS06UrpAOVlM9M,931
+aiodevision-0.2.1.dist-info/RECORD,,
