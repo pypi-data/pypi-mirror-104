@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pytest-never-sleep
+Version: 0.0.2
+Summary: pytest plugin helps to avoid adding tests without mock `time.sleep`
+Home-page: https://github.com/DKorytkin/pytest-never-sleep
+Author: Denis Korytkin
+Author-email: DKorytkin@gmail.com
+License: MIT license
+Keywords: py.test,pytest,without sleep,mock time.sleep
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: pytest (>=3.5.1)
+
+# pytest-never-sleep
+This plugin helps to avoid adding tests without mock `time.sleep`
+
+
