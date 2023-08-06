@@ -1,0 +1,13 @@
+tarpy/__init__.py,sha256=uEWYq1NvwsoN_oDvO_piFTV615jruFo4JWoaObY8NJk,23
+tarpy/config.py,sha256=nCpMa4K4NdCPm-yrErPkaPhBNTouYNa8GMbiXWCWYYM,668
+tarpy/filters.py,sha256=FNeGjWy6d8eZVcOJrSuj7Bod6vJY1HvVlmeg1RlITnY,2354
+tarpy/tarhandler.py,sha256=lJwuvMQmHiB2Ht_uiHDlvSZzvRuH3RYKYiXBhp3uHMc,4693
+tarpy/utils.py,sha256=Z-N_euA703mf_PRBEQfUDPEuu3RE60T93FmQ-yNQNMg,579
+tarpy/cli/__init__.py,sha256=xAkWCS6tlFnu6FgIcvGXWY2F0uHtRNIEcANXiJTG9BM,28
+tarpy/cli/run.py,sha256=9Jy0kqn8HbSafIGTr3fRjHNcsnbG1mMkzZYorS1SecM,1885
+tarpy-0.0.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+tarpy-0.0.3.dist-info/METADATA,sha256=2ooLjRfsOpbshjLgTjhtQnNenjSYJ54qgUsk1teOXVk,324
+tarpy-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tarpy-0.0.3.dist-info/entry_points.txt,sha256=--O4DtK6_XGNBsJKLgyKikvvneJCYGZYjTNA3-czsZU,45
+tarpy-0.0.3.dist-info/top_level.txt,sha256=yPXEEzQ6KydLQsdzQsAbWgGg6ps7cFla1bTdkJSsBqw,6
+tarpy-0.0.3.dist-info/RECORD,,
