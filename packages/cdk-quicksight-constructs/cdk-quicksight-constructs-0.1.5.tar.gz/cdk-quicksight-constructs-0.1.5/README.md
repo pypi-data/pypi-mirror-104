@@ -1,0 +1,126 @@
+[![NPM version](https://badge.fury.io/js/cdk-quicksight-constructs.svg)](https://badge.fury.io/js/cdk-quicksight-constructs)
+[![PyPI version](https://badge.fury.io/py/cdk-quicksight-constructs.svg)](https://badge.fury.io/py/cdk-quicksight-constructs)
+![Release](https://github.com/mmuller88/cdk-quicksight-constructs/workflows/Release/badge.svg)
+
+# cdk-quicksight-constructs
+
+This an AWS CDK Custom Constructs repository for AWS QuickSight resources which are currently not supported by Cloudformation. That are currently:
+
+* DataSource
+* DataSet
+
+The Repository is build and managed by Projen. [Projen](https://github.com/projen/projen) is used to manage the Github TypeScript AWS CDK setup. It is developed and maintained from the AWS CDK Community and the favorite framework to manage those AWS CDK project setups.
+
+# Example
+
+```python
+# Example automatically generated without compilation. See https://github.com/aws/jsii/issues/826
+users = ["martin"]
+
+datasource = DataSource(stack, "DataSource",
+    name="cdkdatasource",
+    type="ATHENA",
+    data_source_parameters={
+        "athena_parameters": {
+            "work_group": "ddbworkgroup"
+        }
+    },
+    users=users
+)
+
+DataSet(stack, "DataSet",
+    name="cdkdataset",
+    users=users,
+    physical_table_map={
+        "users": {
+            "custom_sql": {
+                "data_source_arn": datasource.data_source_arn,
+                "name": "users",
+                "sql_query": "SELECT primarypractice, dateofbirth FROM \"ddbconnector\".\"martin1\".\"martin1\" WHERE groupid = 'users' AND firstname is not null",
+                "columns": [{"name": "primarypractice", "type": "STRING"}, {"name": "dateofbirth", "type": "STRING"}
+                ]
+            }
+        },
+        "practices": {
+            "custom_sql": {
+                "data_source_arn": datasource.data_source_arn,
+                "name": "practices",
+                "sql_query": "SELECT id, name FROM \"ddbconnector\".\"martin1\".\"martin1\" WHERE groupid = 'medical-practices' AND name is not null",
+                "columns": [{"name": "id", "type": "STRING"}, {"name": "name", "type": "STRING"}
+                ]
+            }
+        }
+    },
+    logical_table_map={
+        "users": {
+            "alias": "users",
+            "source": {
+                "physical_table_id": "users"
+            }
+        },
+        "practices": {
+            "alias": "practices",
+            "source": {
+                "physical_table_id": "practices"
+            }
+        },
+        "users-practices": {
+            "alias": "users-practices",
+            "source": {
+                "join_instruction": {
+                    "left_operand": "users",
+                    "right_operand": "practices",
+                    "type": "INNER",
+                    "on_clause": "primarypractice = id"
+                }
+            },
+            "data_transforms": [{
+                "create_columns_operation": {
+                    "columns": [{
+                        "column_name": "age",
+                        "column_id": "age",
+                        "expression": "dateDiff(parseDate(dateofbirth, \"YYYY-MM-dd'T'HH:mm:ssZ\"),now(), \"YYYY\")"
+                    }
+                    ]
+                }
+            }
+            ]
+        }
+    }
+)
+```
+
+Main benefits of that are:
+
+* managing the cdk dependencies and cdk commands like `yarn deploy`
+* managing the node and github config files
+* a standardized way of how to setup AWS CDK repos
+
+# Types
+
+The types for the DataSource and DataSet constructs are generated from the AWS SDK lib and stored in src/sdk/quicksight.ts . Steps to produce the quicksight.ts file:
+
+* extracting the quicksight.d.ts from node_modules/aws-sdk
+* renaming it to quicksight.ts and use VS to auto-fix alle issues in it
+* removing the first and last parts which are not needed for the types
+* replacing the properties with readonly notation
+* replacing the first letter with a small letter to be camel case aligned
+
+# Planed Features / Ideas
+
+* ...
+
+## Helpful Resources
+
+* https://awscli.amazonaws.com/v2/documentation/api/latest/reference/quicksight/index.html
+* API https://docs.aws.amazon.com/quicksight/latest/APIReference/API_Operations.html
+* SDK https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/QuickSight.html#createDataSource-property
+
+# Troubleshooting
+
+* ...
+
+# Thanks To
+
+* The CDK Community cdk-dev.slack.com
+* [Projen](https://github.com/projen/projen) project and the community around it
