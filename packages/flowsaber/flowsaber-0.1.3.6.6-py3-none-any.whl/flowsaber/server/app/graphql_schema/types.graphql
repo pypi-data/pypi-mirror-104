@@ -1,0 +1,13 @@
+scalar TimeStamp
+scalar JSON
+scalar UUID
+
+
+type SuccessPayload {
+    success: Boolean!
+    error: String
+}
+
+type IdsPayload {
+    id: [UUID]!
+}

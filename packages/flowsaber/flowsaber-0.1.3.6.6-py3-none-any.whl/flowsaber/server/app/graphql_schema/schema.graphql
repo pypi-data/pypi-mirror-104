@@ -1,0 +1,32 @@
+type Query {
+    hello: String
+
+    get_agent(input: UUID!): Agent!
+    get_agents: [Agent!]!
+
+    get_flow(input: UUID!): Flow!
+    get_flows(input: GetFlowsInput!): [Flow!]!
+
+    get_taskrun(input: UUID!): TaskRun!
+    get_taskruns(input: GetTaskRunsInput!): [TaskRun!]!
+
+    get_flowrun(input: UUID!): FlowRun!
+    get_flowruns(input: GetFlowRunsInput!): [FlowRun!]!
+
+    get_runlogs(input: GetRunLogsInput!): [RunLog!]!
+}
+
+type Mutation {
+    hello: SuccessPayload!
+
+    create_agent(input: AgentInput!): Agent!
+    delete_agent(input: UUID!): SuccessPayload!
+
+    create_flow(input: FlowInput!): Flow!
+    delete_flow(input: UUID!): SuccessPayload!
+
+    update_flowrun(input: FlowRunInput!): FlowRun!
+    update_taskrun(input: TaskRunInput!): TaskRun!
+
+    write_runlogs(input: RunLogsInput!): SuccessPayload!
+}

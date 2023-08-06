@@ -1,0 +1,37 @@
+type RunLog {
+    id: UUID!
+    level: String!
+    time: TimeStamp!
+    message: String
+    task_id: UUID
+    flow_id: UUID
+    taskrun_id: UUID
+    flowrun_id: UUID
+    agent_id: UUID
+}
+
+input RunLogInput {
+    id: UUID!
+    level: String!
+    time: TimeStamp!
+    message: String!
+    task_id: UUID
+    flow_id: UUID
+    taskrun_id: UUID
+    flowrun_id: UUID
+    agent_id: UUID
+}
+
+input RunLogsInput {
+    logs: [RunLogInput!]!
+}
+
+input GetRunLogsInput {
+    id: [UUID!]
+    taskrun_id: [UUID!]
+    flowrun_id: [UUID!]
+    agent_id: [UUID!]
+    level: [String!]
+    before: TimeStamp
+    after: TimeStamp
+}
