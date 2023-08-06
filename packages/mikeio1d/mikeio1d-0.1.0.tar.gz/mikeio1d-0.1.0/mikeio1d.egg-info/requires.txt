@@ -1,0 +1,15 @@
+pythonnet
+numpy
+pandas
+
+[dev]
+pytest
+black
+sphinx
+sphinx-rtd-theme
+matplotlib
+jupyterlab
+
+[test]
+pytest
+matplotlib
