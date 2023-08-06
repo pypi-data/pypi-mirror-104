@@ -1,0 +1,3 @@
+[console_scripts]
+youtube2midi = youtube2midi.cli:run
+
