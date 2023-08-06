@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+nqdm.egg-info/PKG-INFO
+nqdm.egg-info/SOURCES.txt
+nqdm.egg-info/dependency_links.txt
+nqdm.egg-info/top_level.txt
