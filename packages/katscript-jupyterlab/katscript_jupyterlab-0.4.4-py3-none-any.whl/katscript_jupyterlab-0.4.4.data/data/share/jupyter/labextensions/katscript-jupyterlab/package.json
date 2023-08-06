@@ -1,0 +1,76 @@
+{
+  "name": "katscript-jupyterlab",
+  "version": "0.4.4",
+  "description": "Syntax highlighting for KatScript within JupyterLab.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://git.ligo.org/finesse/katscript-jupyterlab",
+  "bugs": {
+    "url": "https://git.ligo.org/finesse/katscript-jupyterlab/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Philip Jones",
+    "email": "philip.jones@ligo.org"
+  },
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "tsconfig.json",
+    "style/index.js"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://git.ligo.org/finesse/katscript-jupyterlab.git"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "jlpm run copyjs && tsc",
+    "build:prod": "jlpm run clean && jlpm run build:lib && jlpm run build:labextension:dev",
+    "clean": "jlpm run clean:lib",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "clean:labextension": "rimraf katscript-jupyterlab/labextension",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "copyjs": "mkdir -p lib && cp src/codemirror-my-multiplex.js lib/",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jlpm run build",
+    "prepare": "jlpm run clean && jlpm run build",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:labextension": "jupyter labextension watch .",
+    "watch:src": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.9",
+    "@jupyterlab/cells": "^3.0.9",
+    "@jupyterlab/codemirror": "^3.0.7",
+    "@jupyterlab/notebook": "^3.0.9"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "@types/codemirror": "^0.0.97",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.1.3"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "katscript-jupyterlab/labextension",
+    "_build": {
+      "load": "static/remoteEntry.8f9c156f67293a4f6f55.js",
+      "extension": "./extension"
+    }
+  }
+}
