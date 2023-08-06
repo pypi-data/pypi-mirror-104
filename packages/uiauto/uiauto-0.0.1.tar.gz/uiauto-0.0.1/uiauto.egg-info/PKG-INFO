@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: uiauto
+Version: 0.0.1
+Summary: Enhanced uiautomation module
+Home-page: https://github.com/foris323/uiauto_patch
+Author: ForisCai
+Author-email: foris323@gmail.com
+License: Apache 2.0
+Description: Enhanced python UIAutomation for Windows. Supports Python3.4+, x86, x64
+Keywords: windows ui automation uiautomation inspect
+Platform: Windows Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

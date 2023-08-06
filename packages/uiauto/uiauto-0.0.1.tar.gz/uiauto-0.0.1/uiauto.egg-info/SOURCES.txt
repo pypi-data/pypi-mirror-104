@@ -1,0 +1,15 @@
+setup.py
+test/__init__.py
+test/conftest.py
+test/test_application.py
+test/test_auto_refind.py
+uiauto/__init__.py
+uiauto/controls.py
+uiauto/errors.py
+uiauto/uiauto.py
+uiauto/utils.py
+uiauto.egg-info/PKG-INFO
+uiauto.egg-info/SOURCES.txt
+uiauto.egg-info/dependency_links.txt
+uiauto.egg-info/requires.txt
+uiauto.egg-info/top_level.txt
