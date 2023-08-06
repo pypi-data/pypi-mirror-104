@@ -1,0 +1,8 @@
+setup.py
+DataTSE/Download.py
+DataTSE/__init__.py
+DataTSE.egg-info/PKG-INFO
+DataTSE.egg-info/SOURCES.txt
+DataTSE.egg-info/dependency_links.txt
+DataTSE.egg-info/not-zip-safe
+DataTSE.egg-info/top_level.txt
