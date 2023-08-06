@@ -1,0 +1,10 @@
+pyramid>=1.7
+
+[linting]
+black==21.5b0
+flake8~=3.9.1
+isort~=5.8
+
+[testing]
+pytest~=6.2
+webtest~=2.0
