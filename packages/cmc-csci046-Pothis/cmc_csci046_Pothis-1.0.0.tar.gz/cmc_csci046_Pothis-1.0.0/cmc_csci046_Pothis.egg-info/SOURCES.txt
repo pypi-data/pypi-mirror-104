@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+cmc_csci046_Pothis.egg-info/PKG-INFO
+cmc_csci046_Pothis.egg-info/SOURCES.txt
+cmc_csci046_Pothis.egg-info/dependency_links.txt
+cmc_csci046_Pothis.egg-info/top_level.txt
