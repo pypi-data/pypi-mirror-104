@@ -1,0 +1,14 @@
+dosdp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dosdp/__main__.py,sha256=rL3PbIyDGohFcbQc_QapDsMHu2uz3o2bkYyNOe66lDc,649
+dosdp/document.py,sha256=jqCj3mJGLHXBb3iA7LQHTjwrWtp9ZLzP6QbfnLj-WWY,10284
+dosdp/validator.py,sha256=O7U0NFwhFEl7PmlGslBzpXbSjzOSH6LS4YQAJN4GWc0,5705
+schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema/dosdp_schema.md,sha256=WR4Rv8bTRNj_f5l-WurqmkOfvatdN-C71uUb2NUXBEw,52120
+schema/dosdp_schema.yaml,sha256=0X0ItrexTwtFy6EjRByHj9r0SC5eL68pqM_aXT6V138,15371
+schema/dosdp_schema2.yaml,sha256=7qh7jXXj_eI0zx9EUFrkx1y820x7bDi-rP5TpcdU_YM,16221
+schema/dosdp_schema_doc.ini,sha256=Dal4smNmkul81XYqHhHTR09SGBpEGFlrlJ1HDBBBw8U,488
+dosdp-0.1.0.dev1.dist-info/METADATA,sha256=npvgJw3aie_SY1B4glQS6ud9uARXAQl5CuhzMisvmzQ,7180
+dosdp-0.1.0.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dosdp-0.1.0.dev1.dist-info/entry_points.txt,sha256=fqwv1Z97_VYegPTXkKzmZ-EgAjT4DdQVJS3eetUXz0Y,47
+dosdp-0.1.0.dev1.dist-info/top_level.txt,sha256=nfvmL2dx_MPbU9AgE4l22H0SmqBtHwOCrTzrKYq-9Tw,13
+dosdp-0.1.0.dev1.dist-info/RECORD,,
