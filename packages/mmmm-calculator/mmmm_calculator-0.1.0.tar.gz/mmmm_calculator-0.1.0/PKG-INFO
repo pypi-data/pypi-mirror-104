@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mmmm_calculator
+Version: 0.1.0
+Summary: Basic calculator to test uploading packages to pypi
+Home-page: https://github.com/manasm11/uploading_to_pypi
+Author: Manas Mishra
+Author-email: manas.m22@gmail.com
+License: MIT
+Description: # uploading_to_pypi
+        ## Learning to upload packages to pypi
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
