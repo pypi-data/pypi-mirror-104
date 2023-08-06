@@ -1,0 +1,6 @@
+datadog>=0.41.0
+
+[tests]
+pytest
+pytest-cov
+pytest-mock
