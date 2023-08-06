@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: contact_sites
+Version: 1.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/lionben89/contact_sites.git
+Author: Lion Ben Nedava
+Author-email: lionben89@gmail.com
+License: MIT
+Description: # contact_sites
+        package to help analayze organelle to organelle contact sites
+        
+        installation:
+        1. create ot activate conda env
+        2. pip install contact_sites
+        
+        installation for development:
+        1. create ot activate conda env
+        2. for development cd to project dirctory
+        3. pip install -e .
+        
+        
+Keywords: contact_sites
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
