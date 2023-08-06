@@ -1,0 +1,3 @@
+[console_scripts]
+fucking-dropbox=dropbox_api_team_4.dropbox_logic:main
+
