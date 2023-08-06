@@ -1,0 +1,13 @@
+sc_compression/__init__.py,sha256=ZpvbXyK-N9VoFC2SRMiBYZfem6jQgYsCZzQH6QcsWBE,574
+sc_compression/compression.py,sha256=viJrr3xdTWAGBhZMRxr7CwUq8F2d-iDffeLSJmHSaGc,3468
+sc_compression/compressor.py,sha256=J9eWidPiLjhQuZDw4qw_qcg1Js0wT8lm9vTi7j3uSuY,2687
+sc_compression/decompressor.py,sha256=N3AyANHoyJB-QoaUluuGdvUvAvvXEqHAR7XYFnrCm0k,1980
+sc_compression/signatures.py,sha256=QEjhpYqkglsm6QbwzrvVCjaasmTLdxkWfMiQ5o4oy6I,1027
+sc_compression/utils/__init__.py,sha256=sPZu9i-lcVckUNtqlt4WtXua8x53NAok4IxGGODxxZ4,45
+sc_compression/utils/reader.py,sha256=wBMiaQHFLv7e45QM6D_t-CKc_95yjCPP2aVT8qwqf4U,3064
+sc_compression/utils/writer.py,sha256=iy0hV9NtjqB0zR132_UqZGLxREXPR3rkPbDphGJnYHc,3086
+sc_compression-0.4.7.dist-info/LICENSE,sha256=oO50YGSwbQnKsHaBFuwmX9DUUmHUCHya0saYoHx6rA4,35803
+sc_compression-0.4.7.dist-info/METADATA,sha256=ogYX0BvxXOZBy8TMcI9IrMNUNA5PoLoTTqlclRTXnVk,709
+sc_compression-0.4.7.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sc_compression-0.4.7.dist-info/top_level.txt,sha256=5eSRjd_SK08BvOW_boEcDw4Qg7M0z52TnUs2nfS1pY0,15
+sc_compression-0.4.7.dist-info/RECORD,,
