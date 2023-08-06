@@ -1,0 +1,14 @@
+aiohttp[speedups]
+cytoolz
+nest-asyncio
+orjson
+setuptools
+
+[cache]
+aiohttp-client-cache
+aiosqlite
+
+[test]
+flaky
+pytest
+pytest-xdist
