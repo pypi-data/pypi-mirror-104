@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simpsons-classifier-bot-sheregeda
+Version: 0.1.2
+Summary: Simpsons image classifier telegram bot
+Home-page: https://github.com/sheregeda/simpsons-image-classification/tree/master/bot
+Author: sheregeda
+Author-email: ns.sheregeda@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-telegram-bot (==13.1)
+Requires-Dist: httpx (==0.18.1)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: pydantic (==1.8.1)
+
+## Simpsons image classifier telegram bot
+
+
+
