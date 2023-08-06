@@ -1,0 +1,7 @@
+README.md
+license
+setup.py
+fchepil_pdf_files.egg-info/PKG-INFO
+fchepil_pdf_files.egg-info/SOURCES.txt
+fchepil_pdf_files.egg-info/dependency_links.txt
+fchepil_pdf_files.egg-info/top_level.txt
