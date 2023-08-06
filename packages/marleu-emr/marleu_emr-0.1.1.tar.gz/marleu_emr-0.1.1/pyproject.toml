@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "marleu_emr"
+version = "0.1.1"
+description = "Deployment tool for EMR"
+authors = ["Martin Leuthold"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25.1"
+paramiko = "^2.7.2"
+credstash = "^1.17.1"
+cryptography = "3.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+marleu-ec2 = 'marleu_emr.emr:main'
