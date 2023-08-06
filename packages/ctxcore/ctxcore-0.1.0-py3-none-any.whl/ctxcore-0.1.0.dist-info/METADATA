@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ctxcore
+Version: 0.1.0
+Summary: Core functions for pycisTarget and the SCENIC tool suite
+Home-page: https://github.com/aertslab/ctxcore
+Author: Bram Van de Sande
+Maintainer: Christopher Flerin
+Maintainer-email: christopher.flerin@kuleuven.be
+License: GNU General Public License v3
+Keywords: ctxcore,cisTarget,pycisTarget,SCENIC,pySCENIC
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cytoolz
+Requires-Dist: frozendict
+Requires-Dist: numba (>=0.51.2)
+Requires-Dist: numpy
+Requires-Dist: pandas (>=0.20.1)
+Requires-Dist: pyarrow (<0.17.0,>=0.11.1)
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+
+ctxcore
+#######
+
+Core functions for pycisTarget and the SCENIC tool suite
+
+
+Quickstart
+==========
+
+ctxcore is available on PyPI and can be installed with `pip <https://pip.pypa.io>`_.
+
+.. code-block:: console
+
+    $ pip install ctxcore
+
+After installing ctxcore you can use it like any other Python module.
+
+Here is a simple example:
+
+.. code-block:: python
+
+    import ctxcore
+    # Fill this section in with the common use-case.
+
+The `API Reference <http://ctxcore.readthedocs.io>`_ provides API-level documentation.
+
+
+.. _change-log-label:
+
+Change Log
+==========
+
+Version History
+---------------
+
+0.0.1
+    * Project created.
+
+
