@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "rrshare"
+version = "2.4.30"
+description = "stock data & anlysis"
+authors = ["rome"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+tushare = "^1.2.62"
+jqdatasdk = "^1.8.9"
+zenlog = "^1.1"
+click = "^7.1.2"
+motor = "^2.4.0"
+psycopg2 = "^2.8.6"
+psycopg2-binary = "^2.8.6"
+pyecharts = "^1.9.0"
+streamlit = "^0.80.0"
+easyquotation = "^0.7.4"
+dash = "^1.20.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.1"
+black = "^21.4b0"
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple/"
+
+
+[tool.poetry.scripts]
+rrshare = "rrshare.cli:main"
+record-data = "rrshare.record_all_data:main"
+
+
+
+
