@@ -1,0 +1,13 @@
+django_languageselect/__init__.py,sha256=EuoGXsZkI_qPH791fvFRqG8fA8NB6M4fMVC5FIIparQ,46
+django_languageselect/forms.py,sha256=FXierC-BU8xcn921O4GhNhly08njRcoNuKjaf0ErwoQ,450
+django_languageselect/urls.py,sha256=608hsHoZ2GNPhkoXCZw-6sIoQIUx27lszGuuNPLHwng,149
+django_languageselect/views.py,sha256=2XQWJuj7kvYEbPKBoEs5hPmBM0IcK-j9EtuYGtesfBA,1026
+django_languageselect/templates/languageselect/layer.html,sha256=8gP4RJFUTI7McbAsLh262hkk17ltouomZK5mIeeOWBE,1446
+django_languageselect/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_languageselect/templatetags/languageselect.py,sha256=dK0jLrSEM92zUEphyJUtPxvwUL2kkcurPUgiIufFziQ,255
+django_languageselect-2.0.2.dist-info/AUTHORS.rst,sha256=V3F5v1UWOuPMkNFNunp-oK49_GZf6ZU0K1YULLTC5uw,220
+django_languageselect-2.0.2.dist-info/LICENSE,sha256=l2o5bkpQZXZFxRdAP0hz8tQLz08UGZ7NSKB6lu3upFc,1077
+django_languageselect-2.0.2.dist-info/METADATA,sha256=DfIMYJmIafdCJ26ocGUp_GN8obP1kBPHB0blXSs2gMg,3814
+django_languageselect-2.0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_languageselect-2.0.2.dist-info/top_level.txt,sha256=QoNkt8Ypq_GjhFxzlrc7bSorSZRETcIe7RG1lRoRu7w,22
+django_languageselect-2.0.2.dist-info/RECORD,,
