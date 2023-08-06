@@ -1,0 +1,8 @@
+dashboard_clients/__init__.py,sha256=oHkWXSUWli9_sQT6rI-3wDk4RCrR_yYsyBzpOd5QkWU,644
+dashboard_clients/dashboard_service_client.py,sha256=okFkynGyCMAoC3k49GBWpHXuM8Kix7Yg6dj9F3rkKus,1098
+dashboard_clients/models.py,sha256=_Kbn2-YBZNiJhxG4BmZyzbf9NAEweKyHk2Whbd_YZyw,5604
+dashboard_clients-2.1.3.dist-info/LICENSE.txt,sha256=S9X_6Wphp7hv_2oZKR6dUNq-bUvewqXeEBiDQ8CVJMY,575
+dashboard_clients-2.1.3.dist-info/METADATA,sha256=W6l8Bn4Qx77EmU64cnhq2Y7NFlePMH1RrPeorlgCjc0,834
+dashboard_clients-2.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dashboard_clients-2.1.3.dist-info/top_level.txt,sha256=dSKrwg7QvvwnvqSSj5oolzj2PO-EJA2R2wJ9LTBRI40,18
+dashboard_clients-2.1.3.dist-info/RECORD,,
