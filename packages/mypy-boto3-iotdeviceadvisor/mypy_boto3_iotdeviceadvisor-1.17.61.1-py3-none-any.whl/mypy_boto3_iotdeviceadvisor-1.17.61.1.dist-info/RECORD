@@ -1,0 +1,15 @@
+mypy_boto3_iotdeviceadvisor/__init__.py,sha256=mFgQfr_aaGq3_LRcaz4_kgk8pmNbYvLF-XMEiX6tomE,536
+mypy_boto3_iotdeviceadvisor/__init__.pyi,sha256=ID8pCJawt42mc6wkWVJ2JXykfgCjfd8fz06vyR3g0QE,535
+mypy_boto3_iotdeviceadvisor/__main__.py,sha256=Qv113Eu7P8B-G6k3BZDbeIX-w2FDwXpQ01YQa4l2l_M,764
+mypy_boto3_iotdeviceadvisor/client.py,sha256=gjl6OaJ9bRBqZXsdjHt5SlBL56twWpgfOin7rEHzvtc,9187
+mypy_boto3_iotdeviceadvisor/client.pyi,sha256=6CEZh3zwkBioVpJ53jy0gCTrSbC9Y288X-xE63AWoD8,9168
+mypy_boto3_iotdeviceadvisor/literals.py,sha256=5xGhkm4nXLwAhDAgu-1PcI5ZH-iqBAtzU1x2k2Vn0_E,679
+mypy_boto3_iotdeviceadvisor/literals.pyi,sha256=Y16qunVnQSY4OkUvjX39R_aW9HyytrYjKkgtLroBVUM,677
+mypy_boto3_iotdeviceadvisor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_iotdeviceadvisor/type_defs.py,sha256=JhjoCAXcB-_24WWq286HrFwjXuWLluEHihuutkkGqis,5205
+mypy_boto3_iotdeviceadvisor/type_defs.pyi,sha256=eOuDXS5BEJSYqselqwVN9kRCrEfFXZVtidlEQpi7Oqk,5183
+mypy_boto3_iotdeviceadvisor/version.py,sha256=gHwCdsrKtUZpjew9iPbtWPSwagO2bKAy7IT-fLij0n8,57
+mypy_boto3_iotdeviceadvisor-1.17.61.1.dist-info/METADATA,sha256=A7KqSJmg-V57S9tFlZJ6KbfM7bPwaSfMwn7bn7XV2dQ,7302
+mypy_boto3_iotdeviceadvisor-1.17.61.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_iotdeviceadvisor-1.17.61.1.dist-info/top_level.txt,sha256=JCTMzYJ-p1syX05jz6RmB-4VQMAM8WXxzLHaTmf9QKQ,28
+mypy_boto3_iotdeviceadvisor-1.17.61.1.dist-info/RECORD,,
