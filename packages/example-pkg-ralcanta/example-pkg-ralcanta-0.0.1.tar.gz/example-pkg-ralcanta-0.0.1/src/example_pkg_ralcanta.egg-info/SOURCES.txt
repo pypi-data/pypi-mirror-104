@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+src/SHARE/__init__.py
+src/SHARE/commandline.py
+src/SHARE/generateConfessions.py
+src/SHARE/gpt3-test.py
+src/SHARE/meme_utils.py
+src/SHARE/test.py
+src/example_pkg_ralcanta.egg-info/PKG-INFO
+src/example_pkg_ralcanta.egg-info/SOURCES.txt
+src/example_pkg_ralcanta.egg-info/dependency_links.txt
+src/example_pkg_ralcanta.egg-info/top_level.txt
