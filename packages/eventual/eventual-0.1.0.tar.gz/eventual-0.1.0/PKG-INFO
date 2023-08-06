@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eventual
+Version: 0.1.0
+Summary: 
+Author: Ivan Dmitriesvkii
+Author-email: ivan.dmitrievsky@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aio-pika (>=6.8.0,<7.0.0)
+Requires-Dist: orjson (>=3.5.2,<4.0.0)
+Requires-Dist: tortoise-orm[asyncpg] (>=0.17.2,<0.18.0)
