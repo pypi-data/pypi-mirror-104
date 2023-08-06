@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: DemoTestUnit
+Version: 1.2.0
+Summary: A SciUnit library for data-driven testing of neurons.
+Home-page: https://github.com/appukuttan-shailesh/DemoTestUnit
+Author: Shailesh Appukuttan, Andrew Davison
+Author-email: shailesh.appukuttan@unic.cnrs-gif.fr
+License: MIT
+Keywords: electrophysiology,electrical,testing,validation framework
+Platform: UNKNOWN
+Requires-Dist: efel
+
+UNKNOWN
+
+
