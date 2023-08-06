@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pypstruct
+Version: 0.1
+Summary: PDB coordinates management python package
+Home-page: https://github.com/MMSB-MOBI/pypstruct
+Author: Guillaume Launay & Cécile Hilpert
+Author-email: guillaume.launay@ibcp.fr
+License: GPL
+Download-URL: https://github.com/glaunay/pypstruct/tarball/0.1
+Description: UNKNOWN
+Keywords: protein,coordinates,Protein Data Bank
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 5 - Production/Stable

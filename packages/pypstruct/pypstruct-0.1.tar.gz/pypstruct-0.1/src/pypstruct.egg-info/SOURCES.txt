@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/pypstruct/__init__.py
+src/pypstruct/contact_map_pure.py
+src/pypstruct/coordinates.py
+src/pypstruct/operations.py
+src/pypstruct.egg-info/PKG-INFO
+src/pypstruct.egg-info/SOURCES.txt
+src/pypstruct.egg-info/dependency_links.txt
+src/pypstruct.egg-info/not-zip-safe
+src/pypstruct.egg-info/requires.txt
+src/pypstruct.egg-info/top_level.txt
