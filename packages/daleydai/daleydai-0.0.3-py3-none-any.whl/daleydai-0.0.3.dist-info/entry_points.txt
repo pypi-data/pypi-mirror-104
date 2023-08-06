@@ -1,0 +1,3 @@
+[console_scripts]
+daleydai = daleydai.app:cli
+

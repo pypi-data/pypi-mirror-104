@@ -1,0 +1,17 @@
+daleydai/__init__.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+daleydai/app.py,sha256=_w03Dxr-H2ffu8uX1EeUci6-NMr-FE5exjb8Eer27Wc,298
+daleydai/constants.py,sha256=EPAzXWwzh_13HMGBpKrjUmxSUzawe5da9enY7pRwWjo,501
+daleydai/scraper.py,sha256=96G-6k-BxvVI41BKgOWTVfFAh1JXEvuOwjGxqkUWOvQ,2617
+daleydai/ss.py,sha256=aKQeVtHE8DQ1DH1ZnHzVwb9G39ovdfFC-i__eOMAd4o,732
+daleydai/utils.py,sha256=OElZL68fzCwRPuEK6V6ugRx6VAltTyy7eIBjYCyU7_4,1262
+daleydai/commands/__init__.py,sha256=9EsihUqf3lAfAWv_JQ1nxxJji2bTow76RArQCa4ItQY,140
+daleydai/commands/broker.py,sha256=oB_-DsN7CffAy8iANKXzMR2qVoJ-JyhMBC0tHy-MX48,365
+daleydai/commands/buyer.py,sha256=YGpoSnvGoCU37-9IngRWamKz0H45eViY8-isaOdj62g,213
+daleydai/commands/mero.py,sha256=5mmJR8KonuVIUUt_L5zC6tfty8jKCnfAWECLFM11BJ4,97
+daleydai/commands/meroshares.py,sha256=kdV9GTib4qJ1Nha-Y9PmEkzF3yDsREg4h3-N-CTQI4Q,1132
+daleydai/commands/seller.py,sha256=T1_S0RJ2JnVUdZ5K14uT0gQyyId0WOQ-eos6R5Um0YI,213
+daleydai-0.0.3.dist-info/METADATA,sha256=w-huXX0L8i0isFqb5kpNhTp714Sp-Y5WlbdNfif-yck,1092
+daleydai-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+daleydai-0.0.3.dist-info/entry_points.txt,sha256=FFRgOvo0Q_Z49KVaNWiZeV5iHuN9UNaTAw_9eF65mvk,47
+daleydai-0.0.3.dist-info/top_level.txt,sha256=wtn8p8oB7lUf3Koe3xcvx1BmT4txej9rROTYO1GljoE,9
+daleydai-0.0.3.dist-info/RECORD,,
