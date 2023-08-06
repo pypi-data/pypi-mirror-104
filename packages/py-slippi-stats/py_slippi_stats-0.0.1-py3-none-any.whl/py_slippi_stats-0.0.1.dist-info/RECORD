@@ -1,0 +1,16 @@
+slippistats/__init__.py,sha256=3g5dhKUL8WH0LKl5MMd97aiziDgqmss6DdPyNva70H8,104
+slippistats/actions.py,sha256=FFCMsoYN54ylwpfLsJ4yY44Fv9vQFeAAR7h9VNeBinM,8236
+slippistats/combos.py,sha256=cbJT300GTSEZlobNIEUvmGOZCPYBSKjmurt5Psd00aM,7545
+slippistats/common.py,sha256=yraGA4gysj56AwE-7Qi3f1vnhq7m4R9fk8L2x_qyts0,13442
+slippistats/conversions.py,sha256=wiotgCGSMNog11omYCZ8s5R2-b6NVvhpl8UGFM1g95o,9922
+slippistats/factory.py,sha256=f2E5jI-y3D_hsgReTDu0e2pf-WfBwZVWeer3fg1gV_k,10981
+slippistats/inputs.py,sha256=4SJfjU5DKfqDUk-E3HLa-6IXdFsX2Nw4s3W8Z-yom1I,6288
+slippistats/overall.py,sha256=D8ucwXXNtz9bBqZPKEyOFlCtAWp5AKNmOmVri8eqHGA,8100
+slippistats/slippitypes.py,sha256=BrLhnU3G9gspMp5GTOuGtzroFLCDseErdHWk05rIg_c,11834
+slippistats/stats.py,sha256=3yShOdpGyX1-lHndh7ULUj9d7KSWoBlkjo3hUIg85Es,3584
+slippistats/stocks.py,sha256=ywMOTreaY8HBvDXu0uDQO2Nk0oh_qKU9qc5J02hHmbE,3310
+py_slippi_stats-0.0.1.dist-info/LICENSE,sha256=gBqTo5Ewi1gjBy4Cgm-i-b2Mmm9iD3-E-tIzAoyUz0w,1072
+py_slippi_stats-0.0.1.dist-info/METADATA,sha256=FH1TdDp5t-3sAdzPTqk6yVNjtWpGKIa6SR1tlMfAmvs,1303
+py_slippi_stats-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_slippi_stats-0.0.1.dist-info/top_level.txt,sha256=5OfQHz5sw2XhdSVM0NzRpYoDOqdmjy_Bk0RcC-gpYvk,12
+py_slippi_stats-0.0.1.dist-info/RECORD,,

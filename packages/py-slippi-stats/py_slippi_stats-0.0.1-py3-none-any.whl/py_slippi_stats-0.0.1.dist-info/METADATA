@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: py-slippi-stats
+Version: 0.0.1
+Summary: A package for getting Slippi stats in Python
+Home-page: https://gitlab.com/oneshineman/py-slippi-stats
+Author: Diego Arana Segura
+Author-email: diego.arana.segura@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/oneshineman/py-slippi-stats/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: py-slippi (==1.6.1)
+Requires-Dist: py-ubjson (==0.16.1)
+Requires-Dist: termcolor (==1.1.0)
+
+# py-slippi-stats
+
+This program is an attempt at recreating the Slippi [stats](https://github.com/project-slippi/slippi-js/tree/master/src/stats) module of the original Slippi javascript package using [py-slippi](https://github.com/hohav/py-slippi). Most of it is just a translation of the slippi-js to python.
+
+## Installation
+
+1. Install the packages in requirements.txt with pip
+
+        pip install -r requirements.txt
+
+2. That's all!
+
+## Usage
+
+Here is a basic case of usage:
+
+    import slippi
+    import slippistats
+
+    game = slippi.Game('mygame.slp')
+    stats = slippistats.overall.getGameStats(game)
+
+    print(stats)
+
