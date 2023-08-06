@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: argo-dsl
+Version: 0.1.dev1
+Summary: Python DSL for argo workflow
+Home-page: https://github.com/zen-xu/argo-dsl
+License: Apache-2.0
+Keywords: argo,workflow,dsl
+Author: ZhengYu, Xu
+Author-email: zen-xu@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: kubernetes (>=12.0.1,<13.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Project-URL: Repository, https://github.com/zen-xu/argo-dsl
+Description-Content-Type: text/markdown
+
+# argo-dsl
+Python DSL for argo workflow
+
