@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/clozer/__init__.py
+src/clozer/infix.py
+src/clozer/questions.py
+src/clozer/questionvar.py
+src/clozer/quiz.py
+src/clozer/shapedquestionvar.py
+src/clozer.egg-info/PKG-INFO
+src/clozer.egg-info/SOURCES.txt
+src/clozer.egg-info/dependency_links.txt
+src/clozer.egg-info/top_level.txt
