@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MySQLConnectorCXX
+Version: 1.0.0
+Summary: c++编写的基于MySQL connector c++ jdbc的连接MySQL数据库工具
+Home-page: https://github.com/sirius-william
+Author: Sirius William Chen
+Author-email: gobletfire@vip.qq.com
+License: GNU
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: C++
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Database
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.5
+
+UNKNOWN
+
+
