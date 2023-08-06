@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: shaystack
+Version: 0.8.0
+Summary: Implementation of Haystack Project Specification
+Home-page: https://github.com/engie-group/shaystack
+Author: Philippe PRADOS
+Author-email: support@prados.fr
+License: BSD
+Project-URL: Bug Tracker, https://github.com/engie-group/shaystack/issues
+Project-URL: Documentation, https://engie-group.github.io/shaystack/
+Project-URL: Source Code, https://github.com/engie-group/shaystack
+Keywords: haystack
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown ; charset=UTF-8
+Requires-Dist: pyparsing
+Requires-Dist: pytz
+Requires-Dist: iso8601
+Requires-Dist: six
+Requires-Dist: accept-types
+Requires-Dist: overrides
+Requires-Dist: tzlocal
+Requires-Dist: pint
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: python-dotenv ; extra == 'dev'
+Requires-Dist: zappa ; extra == 'dev'
+Requires-Dist: pytype ; extra == 'dev'
+Requires-Dist: ninja ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: nose ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: psycopg2 ; extra == 'dev'
+Requires-Dist: supersqlite ; extra == 'dev'
+Requires-Dist: PyMySQL ; extra == 'dev'
+Requires-Dist: pymongo ; extra == 'dev'
+Requires-Dist: pdoc3 ; extra == 'dev'
+Requires-Dist: pip-licenses ; extra == 'dev'
+Provides-Extra: flask
+Requires-Dist: flask ; extra == 'flask'
+Requires-Dist: flask-cors ; extra == 'flask'
+Provides-Extra: graphql
+Requires-Dist: flask ; extra == 'graphql'
+Requires-Dist: flask-cors ; extra == 'graphql'
+Requires-Dist: graphene (>=2.0) ; extra == 'graphql'
+Requires-Dist: flask-graphql ; extra == 'graphql'
+Provides-Extra: lambda
+Requires-Dist: flask ; extra == 'lambda'
+Requires-Dist: flask-cors ; extra == 'lambda'
+Requires-Dist: zappa ; extra == 'lambda'
+
+Implementation of Haystack Project Specification
+
+
