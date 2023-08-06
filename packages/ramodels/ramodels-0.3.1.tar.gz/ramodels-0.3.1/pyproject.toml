@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ramodels"
+version = "0.3.1"
+description = "Pydantic data models for OS2mo"
+authors = ["Magenta <info@magenta.dk>"]
+license = "MPL-2.0"
+readme = "README.md"
+homepage = "https://magenta.dk/"
+repository = "https://git.magenta.dk/rammearkitektur/os2mo-data-models"
+keywords = ["os2mo", "data models"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "1.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.3"
+black = "21.4b2"
+flake8 = "3.9.1"
+mypy = "0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
