@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: memquery
+Version: 0.1.1
+Summary: MemQuery is simple library for creating, querying, and updating in memory documents that are represented as JSON objects and queried using Mongodb like operators.
+Home-page: https://github.com/robjsliwa/mem_query
+Author: Rob Sliwa
+Author-email: robjsliwa@gmail.com
+License: MIT
+Keywords: inmemory query database json nosql
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: wasmtime (==0.25.0)
+
+# MemQuery
+
+[![memquery](https://github.com/robjsliwa/mem_query/actions/workflows/rust.yml/badge.svg)](memquery)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+MemQuery is simple library for creating, querying, and updating in memory documents that are represented as JSON objects and queried using Mongodb like operators.
+
+This is not a database and it is not trying to do any optimizations.  It is meant for unit tests or simple projects that require small in memory document store.
+

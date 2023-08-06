@@ -1,0 +1,11 @@
+errors/__init__.py,sha256=2tGB4QV6UTIv28HimF4IhGjDKg57nrmKg6CHDI2xt4I,177
+errors/errors.py,sha256=9Tdj8lDB5YlMV489P_uEo8BYsEWpJk_aoch67HodCmw,140
+membind/__init__.py,sha256=wcSbxHKR9VNFC5s2p7xZ1mxvW_7Nt4m-JlBGLQb-irg,279
+membind/memory.py,sha256=ABILeJWICJpA8oAG5TD16YgCnVjQQ_DtqfL0cKFNROk,1147
+memquery/__init__.py,sha256=yt6Oik3Kfx-pNHyljlpT8b_4Jonc05nxkE5vZQoVUkQ,155
+memquery/__version__.py,sha256=MWUgcQxbMPfmYv9NiamgOiJRXp65aeWtxFeE6QYTArE,62
+memquery/memquery.py,sha256=w45pbtue1_a3ge9gp-M_JNl__ZUuhv1C6-CvKPp8Xoo,6068
+memquery-0.1.1.dist-info/METADATA,sha256=ydw_ac8Nn2yG9Ck6-d1jYiYF6ae-4RVI0ZdjP5PrDzc,1136
+memquery-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+memquery-0.1.1.dist-info/top_level.txt,sha256=g9mR51qJzYy76L5gwvS40xxfB5XUi7fv6F10vO3O0ZU,24
+memquery-0.1.1.dist-info/RECORD,,
