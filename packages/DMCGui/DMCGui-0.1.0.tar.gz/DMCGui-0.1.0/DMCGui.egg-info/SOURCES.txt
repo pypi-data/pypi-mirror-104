@@ -1,0 +1,8 @@
+README.md
+setup.py
+DMCGui.egg-info/PKG-INFO
+DMCGui.egg-info/SOURCES.txt
+DMCGui.egg-info/dependency_links.txt
+DMCGui.egg-info/entry_points.txt
+DMCGui.egg-info/requires.txt
+DMCGui.egg-info/top_level.txt
