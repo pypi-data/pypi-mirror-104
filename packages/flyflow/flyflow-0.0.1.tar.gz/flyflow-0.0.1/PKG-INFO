@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: flyflow
+Version: 0.0.1
+Summary: Flyflow make python effectively!
+Home-page: http://zuizhongkeji.com/
+Author: yuanjiexiong
+Author-email: finally@email.cn
+Maintainer: yuanjiexiong
+Maintainer-email: flyflow@email.cn
+License: MIT License
+Description: Flyflow make python effectively!
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
