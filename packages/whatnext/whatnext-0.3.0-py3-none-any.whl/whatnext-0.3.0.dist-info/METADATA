@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: whatnext
+Version: 0.3.0
+Summary: For founders & devs whose heads overflow with tasks and dependencies
+Home-page: https://github.com/closedLoop/
+Author: Sean Kruzel
+Author-email: sean.kruzel@gmail.com
+Maintainer: Sean Kruzel
+Maintainer-email: sean.kruzel@gmail.com
+License: Apache 2.0 with Commons Clause - Sean Kruzel
+Download-URL: https://pypi.python.org/pypi/whatnext/0.3.0#downloads
+Platform: Windows
+Platform: MacOS
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (==20.8b1)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: dateparser (==1.0.0)
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: pydantic (==1.8.1)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: python-dotenv (==0.14.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: typer (==0.3.2)
+Provides-Extra: tests
+Requires-Dist: coverage (==5.3) ; extra == 'tests'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'tests'
+Requires-Dist: pytest (==6.1.2) ; extra == 'tests'
+
+No long description!
+
+
