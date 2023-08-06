@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+Emailer/VERSION
+Emailer/__init__.py
+Emailer/core.py
+Emailer/template_types.py
+Emailer/version.py
+Emailer.egg-info/PKG-INFO
+Emailer.egg-info/SOURCES.txt
+Emailer.egg-info/dependency_links.txt
+Emailer.egg-info/requires.txt
+Emailer.egg-info/top_level.txt
