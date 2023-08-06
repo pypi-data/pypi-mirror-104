@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PytorchCNNModules/__init__.py
+PytorchCNNModules.egg-info/PKG-INFO
+PytorchCNNModules.egg-info/SOURCES.txt
+PytorchCNNModules.egg-info/dependency_links.txt
+PytorchCNNModules.egg-info/requires.txt
+PytorchCNNModules.egg-info/top_level.txt
