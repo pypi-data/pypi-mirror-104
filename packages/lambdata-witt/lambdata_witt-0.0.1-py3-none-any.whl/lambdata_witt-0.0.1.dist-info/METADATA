@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lambdata-witt
+Version: 0.0.1
+Summary: pandas functions repackaged as helpers
+Home-page: https://github.com/RowenWitt/lambdata_1
+Author: Rowen witt
+Author-email: throwaway158791@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/RowenWitt/lambdata_1
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lambdata_1
+
+A repo that will contain a package with a collection of modules.
+
+
