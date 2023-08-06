@@ -1,0 +1,26 @@
+#!python
+#
+# Simple tool to search for files/directories on your IPFS node
+#
+# Part of https://github.com/Privex/aioipfs
+#
+# ipfs-find allows you to search for content on any IPFS node you have access
+# to. It can be useful to recover the hashes of something you've added a while
+# ago.
+# 
+# ipfs-find  --type f --name 'dmenu.*.c$' --contains 'size_t' -j
+#     [
+#         {
+#             "Name": "dmenu.c",
+#             "Hash": "Qmb7MGgtGzWn2NQ1PbxhXjZCwNxxuJUSRfMfSL1ZFW2Fwk",
+#             "Size": 16926,
+#             "Type": 2
+#         }
+#     ]
+# 
+
+from aioipfs.find import main
+
+main()
+
+
