@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: notion-as-db
+Version: 0.0.2
+Summary: Package for convenient Notion usage. Once you set default.yaml file, You don't need to find v2token.
+Home-page: https://github.com/hoosiki/notion-as-db.git
+Author: Junsang Park
+Author-email: publichey@gmail.com
+License: BSD
+Download-URL: https://github.com/hoosiki/notion-as-db/blob/master/dist/notion-as-db-0.0.2.tar.gz
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: config2
+Requires-Dist: notion
+
+<p>preparing</p>
+
+
