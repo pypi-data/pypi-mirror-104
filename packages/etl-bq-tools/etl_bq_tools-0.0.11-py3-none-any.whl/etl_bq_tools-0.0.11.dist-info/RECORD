@@ -1,0 +1,15 @@
+etl_bq_tools/__init__.py,sha256=7YftgEnIRs7itODnzvu7H2kAqFdNgOV46SUmXV6Ov_A,1597
+etl_bq_tools/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl_bq_tools/functions/bigquery.py,sha256=KCLUaREdiKsyPm9dkurNDbuVEL0NdfbUJH4-gFM5ouE,11417
+etl_bq_tools/functions/bq.py,sha256=0hoRXp7rGBJdimBywU6PQ2BF-IwKe6c0yHRWilRO1_s,1692
+etl_bq_tools/functions/cloud_storage.py,sha256=eXurPVYsiElj9f4GXP7oj1uII85hEa0GNPTMdlrghp4,3255
+etl_bq_tools/functions/dataframe.py,sha256=ihIMJgn1HsX3MhjES_6afAMiVjqHQ0DC9mMz1MRoA1c,1962
+etl_bq_tools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl_bq_tools/utils/logger.py,sha256=NFEJbuoSKoFwn5rssZ_YX-4C397A1Gp-hMSzRgvbgqU,492
+etl_bq_tools/utils/memory.py,sha256=ALmP7pINzh4NhZV41U4rSHKzRO5qB2revttNpxWortQ,908
+etl_bq_tools/utils/time_execution.py,sha256=BPIlL6oryIN1X4rJEmQH4jHxDUk8S_qmSEAj59ymDig,1146
+etl_bq_tools-0.0.11.dist-info/LICENSE,sha256=QXtBv9uSnDRs86kNzGZgiDg5RHk-R6GAIOHhYgpFUE8,1092
+etl_bq_tools-0.0.11.dist-info/METADATA,sha256=5uh05XkREz4_W0Y0GuLKzKnzYQcZTIB7mnX4vO2g4B4,2289
+etl_bq_tools-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+etl_bq_tools-0.0.11.dist-info/top_level.txt,sha256=2QFk-l_7lvAihM44e6MC6RTbNxwzHXvGLpZ-WseJ32I,13
+etl_bq_tools-0.0.11.dist-info/RECORD,,
