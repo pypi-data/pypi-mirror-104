@@ -1,0 +1,3 @@
+[console_scripts]
+remly = remly.main:cli
+
