@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mopnette
+Version: 0.0.11
+Summary: Wrapper for quantizing vision models
+Home-page: UNKNOWN
+Author: Alec Wang, Tricia Cu, Jim Tan
+Author-email: alswang18@gmail.com
+License: UNKNOWN
+Keywords: python,image,quantization,pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: fastai
+
+A package that allows to build quantized resnet vision models.
+
+
