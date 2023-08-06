@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+{% load custom_filters %}
+
+{% block styles %}
+    <!--
+  ~ This module belongs to the usbsecurity-server project.
+  ~ Copyright (c) 2021 Alexis Torres Valdes
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as published
+  ~ by the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Contact: alexis89.dev@gmail.com
+  -->
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/bulma-divider.min.css' %}?{% cache_bust %}">
+{% endblock %}
+
+{% block title %}| {% trans "Account" %}{% endblock %}
+{% block content-title %}{% trans "Account" %}{% endblock %}
+
+{% block content %}
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h3 class="title">{{ user.account }}</h3>
+                </div>
+                <div class="column is-one-quarter">
+                    {% if not user.account.is_for_all %}
+                        <p>
+                            <span class="icon"><i class="mdi mdi-account"></i></span>
+                            <span>{% blocktrans %}Personal account{% endblocktrans %}</span>
+                        </p>
+                    {% else %}
+                        <p>
+                            <span class="icon"><i class="mdi mdi-account-group"></i></span>
+                            <span>{% blocktrans %}Collective account{% endblocktrans %}</span>
+                        </p>
+                    {% endif %}
+                    {% if user.email %}
+                        <p>
+                            <a href="mailto:{{ user.email }}" target="_blank">
+                                <span class="icon"><i class="mdi mdi-email"></i></span>
+                                <span>{{ user.email }}</span>
+                            </a>
+                        </p>
+                    {% endif %}
+                </div>
+            </div>
+            <hr class="is-divider" style="margin-top: 1rem">
+            <div class="columns">
+                <div class="column">
+                    <article class="message is-success">
+                        <div class="message-header">{% blocktrans %}Access to USB ports{% endblocktrans %}</div>
+                        <div class="message-body">
+                            {% blocktrans %}You are authenticated on the system. You can use the USB ports according to the assigned permissions. Insert your devices.{% endblocktrans %}
+                        </div>
+                    </article>
+                    <article class="message is-warning">
+                        <div class="message-header">{% blocktrans %}Permits required{% endblocktrans %}</div>
+                        <div class="message-body">
+                            {% blocktrans %}Being a system user is required to use the USB ports but is not sufficient to access your devices. When registering a device your administrator assigns access permissions to it.{% endblocktrans %}
+                        </div>
+                    </article>
+                    <p class="content">
+                        {% blocktrans %}For more information contact your administrator.{% endblocktrans %}
+                    </p>
+                </div>
+                <div class="column is-one-quarter">
+                    {% if not user.account.is_for_all %}
+                        <h3 class="title is-4">{% blocktrans %}My devices{% endblocktrans %}</h3>
+                        <h5 class="subtitle is-6 has-text-grey">{% trans "Registered" %}</h5>
+                        {% if not ac_devices.exists %}
+                            <p class="content has-text-grey">{% blocktrans %}You have no registered devices.{% endblocktrans %}</p>
+                        {% else %}
+                            {% for ad in ac_devices %}
+                                <article class="media">
+                                    <figure class="media-left">
+                                        <p class="image is-48x48">
+                                            <img src="{% static 'images/icons/icon-512x512.png' %}">
+                                        </p>
+                                    </figure>
+                                    <div class="media-content">
+                                        <div class="content">
+                                            <p>
+                                                <strong>{% trans "Type:" %}</strong> {{ ad.device.model.brand.type.name }}<br>
+                                                <strong>{% trans "Brand:" %}</strong> {{ ad.device.model.brand.name }}<br>
+                                                <strong>{% trans "Model:" %}</strong> {{ ad.device.model.name }}<br>
+                                                <strong>{% trans "Identifier:" %}</strong> {{ ad.device.identifier }}<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            {% endfor %}
+                        {% endif %}
+                    {% else %}
+                        <h3 class="title is-4">{% trans "Devices" %}</h3>
+                        <h5 class="subtitle is-6 has-text-grey">{% trans "Register" %}</h5>
+                    {% endif %}
+                    <article class="media">
+                        <div class="media-content">
+                            <div class="content">
+                                <div class="notification is-info is-light">
+                                    {% blocktrans %}To register or modify the status of your devices contact your administrator.{% endblocktrans %}
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

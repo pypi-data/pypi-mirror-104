@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}| {% trans "Logout" %}{% endblock %}
+{% block content-title %}{% trans "Logout" %}{% endblock %}
+
+{% block content %}
+    <!--
+  ~ This module belongs to the usbsecurity-server project.
+  ~ Copyright (c) 2021 Alexis Torres Valdes
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as published
+  ~ by the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Contact: alexis89.dev@gmail.com
+  -->
+
+<section class="section">
+        <div class="columns is-centered">
+            <div class="column is-one-third">
+                <h3 class="title">{% trans "Logout" %}</h3>
+                <form method="POST">
+                    {% csrf_token %}
+                    <p class="content">
+                        {% blocktrans %}When you log off, the USB ports of the computer will be blocked.{% endblocktrans %}
+                    </p>
+                    <p class="content">
+                        {% blocktrans %}Do you really want to log out?{% endblocktrans %}
+                    </p>
+                    <div class="buttons">
+                        <button type="submit" class="button is-primary">
+                            <span class="icon"><i class="mdi mdi-logout"></i></span>
+                            <span>{% blocktrans %}Yes, log off{% endblocktrans %}</span>
+                        </button>
+                         <a class="button" href="{% url 'account' %}">
+                            <span class="icon"><i class="mdi mdi-account-outline"></i></span>
+                            <span>{% blocktrans %}No, go to my account{% endblocktrans %}</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+{% endblock %}
