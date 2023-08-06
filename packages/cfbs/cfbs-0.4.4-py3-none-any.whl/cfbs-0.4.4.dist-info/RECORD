@@ -1,0 +1,13 @@
+cfbs/VERSION,sha256=F1MH4HrH8L3A89ujcbo6ICqvPAEXNoqT0jMeG-pK9PM,6
+cfbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfbs/__main__.py,sha256=YK-hcbs6vzFuxQnom8sPLlI1Vul6wNpYG_0KzC6KlAM,265
+cfbs/commands.py,sha256=sNyMFtfx3od2sBrZ8TABmsVM1qKofLsuXKjDeeQbpSk,11097
+cfbs/main.py,sha256=umu00HgN0E8gDKWaW9utSVb8aF2WOWs4yj8-8XxFkg4,2615
+cfbs/utils.py,sha256=31W5O4kr7xRaH5ehCIUh_-cgZtJPUgTCB7aeUIxiCoQ,2943
+cfbs/version.py,sha256=uds7lX_rdAGI_8OcdAqKyvZd2AEdR0dSb4lzNJS1_RQ,277
+cfbs-0.4.4.dist-info/LICENSE,sha256=Wm9fK1lq1cff_iPjAc_PqmO3qCRex2_Z4XxCjNivGQQ,1070
+cfbs-0.4.4.dist-info/METADATA,sha256=Fb1v7Iksqzg85yLXRNVoZmdYk2ZKOKtS_ePu7l45xlQ,1962
+cfbs-0.4.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cfbs-0.4.4.dist-info/entry_points.txt,sha256=MY7MNBWRkYEY7-1N253xDObtXMmbgT-nmfzvOjagqHw,41
+cfbs-0.4.4.dist-info/top_level.txt,sha256=OM3w-04D5UKazL3Y43k-YXCtsmDqUi3lWiESEe23AF8,5
+cfbs-0.4.4.dist-info/RECORD,,
