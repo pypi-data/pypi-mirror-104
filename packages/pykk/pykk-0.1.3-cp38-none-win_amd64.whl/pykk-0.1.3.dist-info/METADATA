@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pykk
+Version: 0.1.3
+Summary: The fast Kramers-Kronig transform
+Home-Page: http://github.com/Hayashi-Yudai/pykk
+Author: Yudai Hayashi <yudai0913haya@gmail.com>
+Author-Email: Yudai Hayashi <yudai0913haya@gmail.com>
+License: Apache-2.0
