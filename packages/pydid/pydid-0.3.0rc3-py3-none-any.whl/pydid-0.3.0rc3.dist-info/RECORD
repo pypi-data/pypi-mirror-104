@@ -1,0 +1,16 @@
+pydid/__init__.py,sha256=W4F4x25u0FCXhZQM0GQJHNpELi71Icf4m_VJZOdDfy8,759
+pydid/common.py,sha256=X-fWexi_6yCKT8hfebFu6h8Wtcyk9SehroFY1rc9hhE,316
+pydid/did.py,sha256=MIXDbwywssb1uTHcBm4HnjEjSZ9L1RraCfu44sp9ZsA,2195
+pydid/did_url.py,sha256=AORcj-2s4uDicKG-SzwqoKX_34xYZCjsssV2JEKJGls,2733
+pydid/doc/__init__.py,sha256=qUNE3SI88WdJ2rqfvCS33OlWK3x4eAoysYz1yCEro6E,560
+pydid/doc/builder.py,sha256=oxSNUWYA4iNLxWxHwJZExkB7m9fBOXXmF_oSzOglf1k,8105
+pydid/doc/corrections.py,sha256=zTX8-bBu0mN82zf9AVqm3qF1yd_yQv_iTANwmo9HxEU,1323
+pydid/doc/doc.py,sha256=kOGn0gPjtyna7jl1AcLuqufCgDbCg2XVoovXH_IuWjU,6151
+pydid/doc/generic.py,sha256=XtGaG5B5Hr52dYjX5FWseWrJXkb1GG1RIWq-Jjlcsfw,1728
+pydid/resource.py,sha256=yB3vz6YE0ssuwdLk6QqOz7O2jsk0fpsCcNpMY3Mwq9g,3435
+pydid/service.py,sha256=_pyoxAMxf64f01PNsl5-nzlMhgh8-TQibkIEDe7yiVM,737
+pydid/validation.py,sha256=g-fSC1R93YDTbtBwvT3Oy0EOGA4UcBR6krLud0v2v7A,1602
+pydid/verification_method.py,sha256=xUyb2JctePWy5pQZSaGBF2vNLrMx3wdG1FZBZfT5M1c,8239
+pydid-0.3.0rc3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pydid-0.3.0rc3.dist-info/METADATA,sha256=iILk02a6M44XlKMGjW8DasFPsoZxv1GTxkPH5DmN_HQ,1654
+pydid-0.3.0rc3.dist-info/RECORD,,
