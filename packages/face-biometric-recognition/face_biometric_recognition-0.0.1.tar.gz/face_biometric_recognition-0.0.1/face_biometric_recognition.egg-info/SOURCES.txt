@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+face_biometric_recognition/__init__.py
+face_biometric_recognition/api.py
+face_biometric_recognition.egg-info/PKG-INFO
+face_biometric_recognition.egg-info/SOURCES.txt
+face_biometric_recognition.egg-info/dependency_links.txt
+face_biometric_recognition.egg-info/not-zip-safe
+face_biometric_recognition.egg-info/requires.txt
+face_biometric_recognition.egg-info/top_level.txt
