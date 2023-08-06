@@ -1,0 +1,10 @@
+pytest_xdist_tracker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_xdist_tracker/_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+pytest_xdist_tracker/plugin.py,sha256=OShe_srAmhQ5-f9IjN99Nixm06gSafu57DQsaLWZpp4,1846
+pytest_xdist_tracker/tracker.py,sha256=a5b1nJdLC7n0Zdx8o7qEG1MpngQOGerzWNHxiYHX-4Q,4688
+pytest_xdist_tracker-0.0.1.dist-info/LICENSE,sha256=bmgsAwnSKDhLRCSfXM_oYl0BgLxApDRhpyeK1xMk4Vw,1071
+pytest_xdist_tracker-0.0.1.dist-info/METADATA,sha256=JokpW36TBFvu1bf1GDRMYgG7qSVFDH4q-B3sw9NqK6c,1170
+pytest_xdist_tracker-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pytest_xdist_tracker-0.0.1.dist-info/entry_points.txt,sha256=YrdWpPY2ZH-nPzXp9DBu6xj6vauW8TFpZfKHiKuH_-g,50
+pytest_xdist_tracker-0.0.1.dist-info/top_level.txt,sha256=O975cysOdpJgsVYWNnrUbMOADvE1HLmsTMrZbmDWPkA,21
+pytest_xdist_tracker-0.0.1.dist-info/RECORD,,
