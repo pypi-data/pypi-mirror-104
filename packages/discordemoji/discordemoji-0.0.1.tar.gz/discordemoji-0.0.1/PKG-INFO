@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: discordemoji
+Version: 0.0.1
+Summary: A simple processing script that accurately detects, replaces, removes and converts to code point emojis supported by Discord in text strings.
+Home-page: https://github.com/PommeBleue/discord-emoji
+Author: PommeBleue
+Author-email: amarourama@yahoo.fr
+License: MIT
+Project-URL: Source, https://github.com/PommeBleue/discord-emoji
+Project-URL: Documentation, https://github.com/PommeBleue/discord-emoji/blob/master/README.md
+Project-URL: Bug Reports, https://github.com/PommeBleue/discord-emoji/issues
+Description: # Discord Emoji processing
+        ## Requirements
+        `discordemoji` requires a python version greater than `3.6`, but no additional requirements in order to be run.
+        ## Basic Usage
+        You can directly install the package using 
+Keywords: emoji,emojis,discord,discord.py,unicode
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

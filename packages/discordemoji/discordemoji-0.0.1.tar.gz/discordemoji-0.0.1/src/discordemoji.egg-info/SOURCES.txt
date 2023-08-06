@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/discordemoji/__init__.py
+src/discordemoji/main.py
+src/discordemoji.egg-info/PKG-INFO
+src/discordemoji.egg-info/SOURCES.txt
+src/discordemoji.egg-info/dependency_links.txt
+src/discordemoji.egg-info/top_level.txt
+src/discordemoji/resources/__init__.py
+src/discordemoji/resources/dictionaries.py
+src/tests/__init__.py
+src/tests/tests.py
