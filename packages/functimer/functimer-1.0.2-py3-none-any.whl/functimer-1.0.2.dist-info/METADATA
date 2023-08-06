@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: functimer
+Version: 1.0.2
+Summary: A function decorator/wrapper package to time a given function.
+Home-page: https://github.com/EJEmmett/functimer
+License: MIT
+Keywords: timer,timed,timing,function,decorator
+Author: Edward Emmett
+Author-email: edemms12@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/EJEmmett/functimer
+Description-Content-Type: text/markdown
+
+# functimer
+
+A function decorator/wrapper package to time a given function.
+
+### Installation
+PYPI:
+
+    pip install functimer
+
+Manual:
+
+    poetry build
+    pip install dist/*.whl
+
+How to install [Poetry](https://python-poetry.org/docs/#installation).
+
+### Quick Example
+Comprehensive Examples in `examples`
+```py
+@timed(unit=Unit.second, number=1)
+def timed_sleep(seconds):
+    sleep(seconds)
+
+runtime = timed_sleep(0.3)
+```
+
+### Tests
+Run `pytest` in the root directory of the repo.
+
+### License
+MIT
+
