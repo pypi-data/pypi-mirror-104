@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        draw_hypertrie2=hypertrie.draw_hypertrie2.run:cli
+    
