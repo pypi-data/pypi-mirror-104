@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tray-taskmgr
+Version: 0.0.1
+Summary: Taskmgr
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pystray (==0.17.3)
+Requires-Dist: Pillow (==8.2.0)
+
+Super small utility for taskmanager in tray(to exit use taskmanager xD)
+
+To Start Use **tray_taskmgr** command in command prompt
+
