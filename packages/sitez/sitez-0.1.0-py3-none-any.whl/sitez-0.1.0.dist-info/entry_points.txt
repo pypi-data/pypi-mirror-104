@@ -1,0 +1,3 @@
+[console_scripts]
+sitez=sitez.__main__:run
+
