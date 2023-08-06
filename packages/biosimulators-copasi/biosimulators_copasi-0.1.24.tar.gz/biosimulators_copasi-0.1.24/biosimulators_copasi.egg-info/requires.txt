@@ -1,0 +1,14 @@
+biosimulators_utils[logging,sbml]>=0.1.65
+kisao
+numpy
+python_copasi>=4.30.240
+
+[all]
+biosimulators_utils[containers]
+python_dateutil
+
+[docs]
+
+[tests]
+biosimulators_utils[containers]
+python_dateutil
