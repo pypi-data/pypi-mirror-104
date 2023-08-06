@@ -1,0 +1,15 @@
+build/
+dist/
+semspaces.egg-info/
+
+data/
+
+.venv
+
+*.pyc
+
+*.swo
+*.swp
+*.swn
+
+*.zip
