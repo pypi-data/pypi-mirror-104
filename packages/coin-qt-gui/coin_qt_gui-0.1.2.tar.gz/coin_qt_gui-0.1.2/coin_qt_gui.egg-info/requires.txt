@@ -1,0 +1,2 @@
+PyQt5
+user_utils==0.1.1
