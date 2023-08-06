@@ -1,0 +1,17 @@
+hdf5matfile/__init__.py,sha256=hqP1iYNKaSif-TOYEty_aSG6W0nfT_ktPEaINdaXvoE,9635
+hdf5matfile/__version__,sha256=9PyVbsYbGHzRh5DAsKb6XR06MN5KVJPjJ3RgSF7RiPI,5
+hdf5matfile/errors.py,sha256=kPJk1ZJw3gtz_CKEGcdFJwxlQ-M19rFsRlXdMVfb3CA,113
+hdf5matfile/loaders.py,sha256=aNyK9uI0_--8zGMU8qwDNV2PR4Taoh3olURJHgSDmCs,3964
+hdf5matfile/test/__init__.py,sha256=H3jYAgt6JCRY0S0ILNqFzbZmB9NgM8fU8gKr_r_XpAE,938
+hdf5matfile/test/test_arrays.mat,sha256=67thuHvEMy-FzfPSTdyVAtFowSTChP7r2mn4VvJ0uwI,3000
+hdf5matfile/test/test_arrays.py,sha256=n1-2RbHd4hPMiC7xkfhU8aflgcA_z6gWhhzoTgUQq7s,495
+hdf5matfile/test/test_cells.mat,sha256=LIVS-hJ3wTr0r2yqNwzpifelmA2z54YpRlee2GhtbAk,7016
+hdf5matfile/test/test_cells.py,sha256=Q6cWh6ED9K1qscC22kR_jfIFgj2YZxqfQCK9pKCoRvo,1117
+hdf5matfile/test/test_chars.mat,sha256=GSK208MK_1fS3aFkEgwwPSiK2B9hBH25Eys9GVJjGI8,4496
+hdf5matfile/test/test_empty.mat,sha256=5VZb3G9u9D-JdIkkT2azAwOmzmhGfX2NisckTsj0TvY,2512
+hdf5matfile/test/test_integers.mat,sha256=aTAYR6MK2BogZjOA_frAk8qm_r6ivlDgXclRRbYWy_c,4056
+hdf5matfile/test/test_structs.mat,sha256=MjCqyWuhA-ByndSsTASgLyQ0SM47cyQXh31rFCuJuWs,18472
+hdf5matfile-0.3.1.dist-info/METADATA,sha256=tLo5ITx0QNNP6WR3rtsHXsIRTuU_jL4eWdvTWcVI69I,2680
+hdf5matfile-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hdf5matfile-0.3.1.dist-info/top_level.txt,sha256=gkyHqFglyF0r0cWPsdROtZFPh6Zs3qqiF_AIWFBschc,12
+hdf5matfile-0.3.1.dist-info/RECORD,,
