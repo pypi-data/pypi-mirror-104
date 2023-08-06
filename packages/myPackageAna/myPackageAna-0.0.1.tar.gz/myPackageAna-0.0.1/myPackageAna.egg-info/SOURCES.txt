@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+myPackageAna/__init__.py
+myPackageAna.egg-info/PKG-INFO
+myPackageAna.egg-info/SOURCES.txt
+myPackageAna.egg-info/dependency_links.txt
+myPackageAna.egg-info/top_level.txt
