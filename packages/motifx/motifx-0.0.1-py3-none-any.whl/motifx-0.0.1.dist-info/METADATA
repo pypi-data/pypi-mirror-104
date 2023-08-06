@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: motifx
+Version: 0.0.1
+Summary: 用于发现复杂网络中潜在的三角形模体结构(高阶组织); Find triangular motifs of complex networks; Find higher-order organization of complex networks
+Home-page: https://github.com/EthanVn/MotifX
+Author: Ethan
+Author-email: ethan_vn@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.6.2)
+
+先开坑,会补上的!
+
+
