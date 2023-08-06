@@ -1,0 +1,13 @@
+remove_dagmc_tags/__init__.py,sha256=d217ESiy7rNIIW0EoYO5bJS0bMCHw66CivmUALSQLaA,42
+remove_dagmc_tags/core.py,sha256=jLlwX-WxaZZGki33DnowoWOdm-mX_p25sTqvTvspFTw,4687
+remove_dagmc_tags-0.0.4.data/scripts/remove-dagmc-tags,sha256=gQHhasS-y5ai-i162DDd941JpQPT49fGHJnS_cJcjvk,930
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/dagmc.h5m,sha256=LZ9ZowMY9mJsp5JMDwTFsYwGtqJHQkiQ0dk6tSR9ZKA,82672
+tests/test_command_line_tool.py,sha256=p5UlS89zKeRh81InWcDEObI-qj7MdBfdTn6QpDMjBIQ,2209
+tests/test_python_api.py,sha256=3fYuCPI1VhCxDe2laJghTpzwgsC120XkglSwjfytpsU,5042
+remove_dagmc_tags-0.0.4.dist-info/LICENSE,sha256=lns64eJ3SWZydjxeAdeLRQmt6Z5N5xnBBtxirQ22azc,1074
+remove_dagmc_tags-0.0.4.dist-info/METADATA,sha256=4mO3OD5It8wZ2SvbeypddPdnzfuimJ4nra5wOAJ7c3c,4356
+remove_dagmc_tags-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+remove_dagmc_tags-0.0.4.dist-info/top_level.txt,sha256=qxhDHPbfcdBtt7Bkd64TbuD53DBDi83B6MKv2Zg2LuY,24
+remove_dagmc_tags-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remove_dagmc_tags-0.0.4.dist-info/RECORD,,
