@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: intake-dremio
+Version: 0.0.1
+Summary: Dremio plugin for Intake
+Home-page: https://github.com/philippjfr/intake-dremio
+Maintainer: Philipp Rudiger
+Maintainer-email: prudiger@anaconda.com
+License: BSD-3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.25)
+Requires-Dist: intake
+Requires-Dist: pyarrow (>=4.0)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+
+# Intake-Dremio
+
+Dremio Plugin for Intake based on pyarrow Flight
+
+
+## User Installation
+
+To install the intake-sql plugin, execute the following command
+
+```
+conda install -c conda-forge intake-dremio
+```
+
+
