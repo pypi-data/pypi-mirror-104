@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.001 (01/05/2021)
+-------------------
+- First Release
+
+0.002 (01/05/2021)
+-------------------
+- Name change
+
+0.003 (01/05/2021)
+-------------------
+- Added python interpreter for pref values (using ast library)
