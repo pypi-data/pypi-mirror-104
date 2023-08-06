@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cell-imaging-utils
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/lionben89/BGU_cell_imaging_utils
+Author: Lion Ben Nedava
+Author-email: lionben89@gmail.com
+License: MIT
+Description: # BGU-cell-imaging-utils
+        
+        a python package that staged toghether different utils regarding cell imaging project
+        
+Keywords: cell_imaging_utils
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
