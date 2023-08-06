@@ -1,0 +1,10 @@
+scipyx/__about__.py,sha256=sA9uGPrwSXBdNWvdGfiH-G1_KNb82jTiAFvJd7Y3a0k,216
+scipyx/__init__.py,sha256=lrSOFXSR2xC036DLCl4S2hAGOfI2gdkbj50AHIoaKN8,384
+scipyx/_krylov.py,sha256=q4pjuPx0a14fb0UvvhG006j4-aar5g1br5OddrAt0mI,5288
+scipyx/_nonlinear.py,sha256=cDQoOqV_yYQ6zfNhd2ADSVRcmiAL6dA1gkjN5voiyTw,2229
+scipyx/_optimize.py,sha256=60U08jRh_jmgI7poAauzXf9VLsSEdvEAwqvWTr25QEE,887
+scipyx-0.0.14.dist-info/LICENSE,sha256=DvRLD-I2uPdG8nHz-vxWrZP5ZVANV2RmAJUZ_HFSmN4,1474
+scipyx-0.0.14.dist-info/METADATA,sha256=IQDvABJybus89pFhoR4QVa2C-BBOtJWbiQgBUsU2AJk,4807
+scipyx-0.0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scipyx-0.0.14.dist-info/top_level.txt,sha256=7JbJP78NYsshCLCzrpgXCCvvPZO8V1MoZStub7M5pDo,7
+scipyx-0.0.14.dist-info/RECORD,,
