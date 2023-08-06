@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: addition-shantanu
+Version: 0.0.1
+Summary: sum numbers
+Home-page: https://github.com/ashishkumar30
+Author: Shantanu Singh
+Author-email: shantanusingh2030@gmail.com
+Maintainer: Shantanu Singh
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+
+this is programe for addition
+funcn(a,b)
+
+
