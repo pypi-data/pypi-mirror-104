@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: whatnext
+Version: 0.3.0
+Summary: For founders & devs whose heads overflow with tasks and dependencies
+Home-page: https://github.com/closedLoop/
+Author: Sean Kruzel
+Author-email: sean.kruzel@gmail.com
+Maintainer: Sean Kruzel
+Maintainer-email: sean.kruzel@gmail.com
+License: Apache 2.0 with Commons Clause - Sean Kruzel
+Download-URL: https://pypi.python.org/pypi/whatnext/0.3.0#downloads
+Description: No long description!
+Platform: Windows
+Platform: MacOS
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: tests
