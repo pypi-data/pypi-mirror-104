@@ -1,0 +1,3 @@
+[console_scripts]
+desired-state = desired_state.cli:main
+
