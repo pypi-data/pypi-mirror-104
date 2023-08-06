@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+visplotlib/__init__.py
+visplotlib/dims.py
+visplotlib/pyplot.py
+visplotlib/seaborn.py
+visplotlib/visium.mplstyle
+visplotlib.egg-info/PKG-INFO
+visplotlib.egg-info/SOURCES.txt
+visplotlib.egg-info/dependency_links.txt
+visplotlib.egg-info/requires.txt
+visplotlib.egg-info/top_level.txt
