@@ -1,0 +1,3 @@
+[console_scripts]
+usgs_mbe=usgs_mbe:main.cli
+

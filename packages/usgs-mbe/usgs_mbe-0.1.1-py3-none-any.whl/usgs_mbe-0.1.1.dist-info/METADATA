@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: usgs-mbe
+Version: 0.1.1
+Summary: USGS MovingBedExtraction - Parser to generate summary data from ADCP files for the USGS.
+Home-page: https://github.com/NickBenthem/ADCP-Moving-Bed-Extraction
+License: MIT
+Keywords: ADCP,MovingBedExtraction,USGS
+Author: Nick Benthem
+Author-email: nick@benthem.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://github.com/NickBenthem/ADCP-Moving-Bed-Extraction
+Description-Content-Type: text/markdown
+
+# ADCP-Moving-Bed-Extraction
+Pulls extraction files from ADCP files for the USGS. Can be run on a given folder with subdirectories. For all the subdirectories - the script will scan through all files looking for two conditions:
+1) File extension is xml
+2) `QRev` (case sensitive) is present in the file name. 
+
+An error log will be generated to the folder. There may be some bad field data / assumptions taken, and the script will do its best to inform you of those decisions.
+
+# Installation
+`pip install usgs_mbe`
+
+# Usage
+`usgs_mbe --test-folder=/path/to/folder` 
+
+or - more simply - 
+
+`usgs_mbe` 
+
+# Output 
+
+A csv file in each subfolder with the following columns:
+```
+MovingBedSpeed
+MovingBedSpeedUnit
+TestTimestamp
+MovingBedTestResults
+StationName
+siteid
+MovingBedTestQuality
+Duplicates -- If multiple values were found - this indicates that the first was taken.
+gage_height_va -- USGS value for the closest height to the TestTimestamp.
+```
