@@ -1,0 +1,10 @@
+mkdocs_mdpo_plugin/__init__.py,sha256=qvR0vnFFsXghYdLrArZu8zbNEI7GgrqEFeGBrXo5MUE,56
+mkdocs_mdpo_plugin/extension.py,sha256=YuYoS9NAVE_hlVZuI5PuhNphCCekgobRiN30d3MbeDM,5537
+mkdocs_mdpo_plugin/ignores.py,sha256=sdNjSPktxNOD-JVETquvB9Bmih8Y0Imdv1LEjXXhcpI,79
+mkdocs_mdpo_plugin/plugin.py,sha256=EYjynuub-bGWMYs8m0xzcy-uwozGGZJaXXNq-kbXH5s,16797
+mkdocs_mdpo_plugin-0.0.1.dist-info/LICENSE,sha256=tBE5SZiEgCnOCmd6ig2ISC91ZTQIHF0QYriS9It5UaQ,1531
+mkdocs_mdpo_plugin-0.0.1.dist-info/METADATA,sha256=vyhpHuMIEw09KauueSa29VHXdDY7DdHi89P2mRc8O0g,5039
+mkdocs_mdpo_plugin-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mkdocs_mdpo_plugin-0.0.1.dist-info/entry_points.txt,sha256=KcLe9TbbYMzWDOIesqNhdtfZ-aI0WdsPBeWO2H4mDT8,148
+mkdocs_mdpo_plugin-0.0.1.dist-info/top_level.txt,sha256=Dls9zV9E9M3rPCZi5bd9cglnZbBmNda6PayXWf3llSQ,19
+mkdocs_mdpo_plugin-0.0.1.dist-info/RECORD,,
