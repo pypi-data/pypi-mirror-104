@@ -1,0 +1,9 @@
+README.md
+setup.py
+school/__init__.py
+school/school_data.py
+school_data.egg-info/PKG-INFO
+school_data.egg-info/SOURCES.txt
+school_data.egg-info/dependency_links.txt
+school_data.egg-info/requires.txt
+school_data.egg-info/top_level.txt
