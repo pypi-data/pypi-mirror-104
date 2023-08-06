@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: callcounter
+Version: 0.1.0
+Summary: Callcounter integration package to gather API request statistics
+Home-page: https://callcounter.eu
+Author: Webindie
+Author-email: frank@webindie.nl
+License: UNKNOWN
+Project-URL: Source Code, https://git.sr.ht/~webindie/callcounter-pip
+Project-URL: Bug Tracker, https://todo.sr.ht/~webindie/callcounter-pip
+Description: Callcounter is a service that helps API providers with debugging and optimising the usage of their APIs.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7

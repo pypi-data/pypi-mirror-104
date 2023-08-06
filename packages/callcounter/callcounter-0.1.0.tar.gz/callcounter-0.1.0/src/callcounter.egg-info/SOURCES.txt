@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/callcounter/__init__.py
+src/callcounter/middleware.py
+src/callcounter.egg-info/PKG-INFO
+src/callcounter.egg-info/SOURCES.txt
+src/callcounter.egg-info/dependency_links.txt
+src/callcounter.egg-info/top_level.txt
