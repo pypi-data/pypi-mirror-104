@@ -1,0 +1,7 @@
+setup.py
+src/dragon.dll
+src/libdragon.dll
+src/dragon_pl.egg-info/PKG-INFO
+src/dragon_pl.egg-info/SOURCES.txt
+src/dragon_pl.egg-info/dependency_links.txt
+src/dragon_pl.egg-info/top_level.txt

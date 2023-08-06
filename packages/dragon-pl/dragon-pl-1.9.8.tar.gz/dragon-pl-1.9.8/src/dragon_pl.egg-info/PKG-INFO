@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: dragon-pl
+Version: 1.9.8
+Summary: The Dragon Programming Language
+Home-page: https://github.com/aaveshdev/dragon-for-py
+Author: Aavesh Jilani
+Author-email: aavesh@dragon-lang.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
