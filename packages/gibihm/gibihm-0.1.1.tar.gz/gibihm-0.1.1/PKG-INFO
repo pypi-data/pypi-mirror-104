@@ -1,0 +1,172 @@
+Metadata-Version: 2.1
+Name: gibihm
+Version: 0.1.1
+Summary: GitLab Issue Bot for Isochronal Heads-Up Monitoring
+Home-page: https://edugit.org/nik/gibihm
+License: Apache-2.0
+Author: Dominik George
+Author-email: nik@naturalnet.de
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: click-logging (>=1.0.1,<2.0.0)
+Requires-Dist: croniter (>=1.0.12,<2.0.0)
+Requires-Dist: dateparser (>=1.0.0,<2.0.0)
+Requires-Dist: python-gitlab (>=2.7.1,<3.0.0)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Project-URL: Repository, https://edugit.org/nik/gibihm
+Description-Content-Type: text/markdown
+
+GitLab Issue Bot for Isochronal Heads-up Monitoring
+===================================================
+
+About
+-----
+
+This bot can be used to periodically create issues in a GitLab project.
+It uses an arbitrary set of issue templates and a schedule configuraiton
+to create matching issues.
+
+gibihm was developed at [Tecids e.V.](https://www.teckids.org) for the
+scenario of managing infrastructure in a GitLab project, and the need
+for creating issues / to-dos for periodic maintenance tasks
+
+### The name
+
+> Man bräuchte ein Tool, in das man Templates mit Checklisten und so 'ne
+> Art crontab schmeißt, und dann gib ihm!
+
+In English, freely translated:
+
+> One could use a tool to throw templates with checklists and
+> some kind of crontab at, and off it goes!
+
+Usage
+-----
+
+### General
+
+The bot's configuration lives entirely inside the project the bot will
+be used in. To start using the bot in a project, invite the bot user to
+the project. The bot user is a regular GitLab user.
+
+Add templates and a schedule configuration to your repository, as
+described below. You can find an example project in the `example/`
+directory.
+
+### Defining tasks
+
+Tasks are defined as [issue
+templates](https://docs.gitlab.com/ee/user/project/description_templates.html).
+For every kind of tasks that has to be scheduled, a template has to be
+created. Ideally, the template contains a good description on what has
+to be done, including a checklist of action items for the task's
+completion.
+
+### Scheduling tasks
+
+The schedule is a YAML document living either at
+`.gitlab/issue_schedule.yaml` or `.issue_schedule.yaml`. It must contain
+an array of dictionaries, each containing the following keys:
+
+  ------------------------------------------------------------------------------------------
+  Key              Description                                               Default
+  ---------------- --------------------------------------------------------- ---------------
+  `template`       Base filename (without `.md`) of the issue template to    
+                   use                                                       
+
+  `title`          Title for the issue to create                             
+
+  `assignee`       User name of responsible user                             
+
+  `due`            Date expression (parsable by                              `in one week`
+                   [dateparser](https://github.com/scrapinghub/dateparser)   
+                   when task is due                                          
+
+  `labels`         Array of labels to assign to the created issue            
+
+  `confidential`   Set created issue as confidential                         `false`
+
+  `schedule`       A [crontab](https://linux.die.net/man/5/crontab)-like     `@weekly`
+                   schedule defining when the task has to be scheduled       
+
+  `tag`            Short tag to identify issues related to this task         Same as
+                                                                             `template`
+  ------------------------------------------------------------------------------------------
+
+### Configuration
+
+The bot is configured through environment variables.
+
+  Variable             Description                                      Default
+  -------------------- ------------------------------------------------ --------------------------
+  `GIBIHM_API_URL`     URL of GitLab v4 API endpoint                    Value of `CI_API_V4_URL`
+  `GIBIHM_API_TOKEN`   Access Token with `api` and `read_user` scopes   
+
+### Installation
+
+You can either use the bot from a Docker image directly in GitLab CI
+(see below), or install it whereever you want and run it
+
+### Installing and running using pip
+
+Installation from PyPI using pip and running is straightforward:
+
+``` {.shell}
+pip3 install gibihm
+
+export GIBIHM_API_URL=https://gitlab.example.com
+export GIBIHM_API_TOKEN=Foo_Bar_Token
+
+gibihm
+```
+
+### Installing and running using Docker
+
+The bot is also available using Docker:
+
+``` {.shell}
+docker pull natureshadow/gibihm
+docerk run \
+    -e GIBIHM_API_URL=https://gitlab.example.com-it \
+    -e GIBIHM_API_TOKEN=Foo_Bar_Token \
+    natureshadow/gibihm 
+```
+
+### Running for a single project
+
+Normally, the bot will operate on all projects its user is a member of.
+
+You can pass it a numeric project ID using the `--project-id`
+command-line argument to run for only one project.
+
+### Running from project CI
+
+If you do not want to use a site-wide installation, but rather add the
+bot to a single project, you can configure and run it directly in GitLab
+CI.
+
+A minimal `.gitlab-ci.yml` looks like this:
+
+``` {.yaml}
+schedule_issues:
+  only:
+    - schedules
+  image: natureshadow/gibihm
+  script: [ "true" ]
+```
+
+In your project settings. add the `GIBIHM_API_TOKEN` variable.
+
+You can then use [GitLab's Pipeline
+schedules](https://docs.gitlab.com/ee/ci/pipelines/schedules.html) to
+periodically run the bot and schedule your issues.
+
