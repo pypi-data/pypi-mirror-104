@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: example-pkg-reinier-sterkenburg
+Version: 0.0.7
+Summary: A small example package
+Home-page: https://bitbucket.org/reinier_sterkenburg/other-languages/src/master/Python/Tests/packaging_tutorial/
+Author: Reinier Sterkenburg
+Author-email: reinier@tukkersterkenburg.nl
+License: UNKNOWN
+Project-URL: Bitbucket folder, https://bitbucket.org/reinier_sterkenburg/other-languages/src/master/Python/Tests/packaging_tutorial/
+Description: # Example Package
+        
+        This is a simple - empty - example package.
+        
+        to upload to PyPI:
+        
+        (see also https://packaging.python.org/tutorials/packaging-projects/)
+        
+        <code>py -m twine upload --repository testpypi dist/*</code>
+        
+        Note: uploading to testpypi did not work for me.
+        Instead, I could upload to PyPI directly (so without the --repository parameter)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
