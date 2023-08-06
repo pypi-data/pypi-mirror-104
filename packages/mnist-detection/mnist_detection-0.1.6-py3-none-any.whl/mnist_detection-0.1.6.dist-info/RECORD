@@ -1,0 +1,10 @@
+mnistdet/__init__.py,sha256=L-aYkBGfrvespfUmSMIS9zcv4m1wv21foYkQvz5wf9Y,98
+mnistdet/collation.py,sha256=a-IE-pOelTruGDTX9PZKnj0pgxQiWAkQgNw8u4V6o4g,4831
+mnistdet/config.py,sha256=7RKnpQeyUJiLdrwYuT24lKVlH4N3J2AYO6LRzceq3y8,419
+mnistdet/dataset.py,sha256=PNgkDN45AFDmItICaHs7H2fPhG3XAKuHq-rOe0QqkM0,2531
+mnistdet/simulator.py,sha256=mLIQFYrr7QppAKjDUWNRHW-5l8ZKVTEOn6NDq1mM0AM,3215
+mnist_detection-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mnist_detection-0.1.6.dist-info/METADATA,sha256=Lhf2dfbj5AlH-iCjNnX59qr3YUNggTbbgSbOqUEyFlg,423
+mnist_detection-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mnist_detection-0.1.6.dist-info/top_level.txt,sha256=WWdNStMUxJeWBWmhk4EFlw0bbGw0XyYYW6eIsEiQDRs,9
+mnist_detection-0.1.6.dist-info/RECORD,,
