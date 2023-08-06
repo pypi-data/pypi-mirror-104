@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: all-plugins
+Version: 2.0.1
+Summary: A placeholder to prevent malicious activity from this package
+Home-page: https://github.com/pypa/sampleproject
+Author: Hackintosh 5
+Author-email: contact@hack5.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: # all-plugins
+        
+        This package prevents malicious activity from a previously-existing package with the same name. If you have a legitimate use case, contact [me](mailto:contact@hack5.dev).
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Requires-Python: >999
+Description-Content-Type: text/markdown
