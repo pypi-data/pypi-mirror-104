@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyrogis
+Version: 0.4.0
+Summary: pyrogis is now pierogis
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # pyrogis is now pierogis
+        
+        This package has been renamed. Use `pip install pierogis` instead.
+        
+        New package: https://pypi.org/project/pierogis/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

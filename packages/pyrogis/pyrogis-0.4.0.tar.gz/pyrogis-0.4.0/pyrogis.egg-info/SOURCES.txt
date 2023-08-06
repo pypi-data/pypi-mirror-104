@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyrogis.egg-info/PKG-INFO
+pyrogis.egg-info/SOURCES.txt
+pyrogis.egg-info/dependency_links.txt
+pyrogis.egg-info/requires.txt
+pyrogis.egg-info/top_level.txt
