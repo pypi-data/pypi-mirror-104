@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: raepy
+Version: 0.0.1
+Summary: Software drivers for the robot autonomy effector
+Home-page: https://github.com/romzn/raepy
+Author: Roman Baur
+Author-email: romanbaur.engineering@gmail.com
+License: UNKNOWN
+Project-URL: Bug_Tracker, https://github.com/romzn/raepy/issues
+Description: # raepy
+        Python repository for the Rae
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
