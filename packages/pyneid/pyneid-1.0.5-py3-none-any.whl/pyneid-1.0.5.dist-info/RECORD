@@ -1,0 +1,10 @@
+pyneid/__init__.py,sha256=MQTKUdGV_11C-redpcLB0voscFQz9ARY-LLS_WOj9qo,17
+pyneid/neid/__init__.py,sha256=J86j898ZCZDZiS4GXC_bLYsihjb7_3JPbOyFQ1VGcBo,656
+pyneid/neid/core.py,sha256=NgL2J_g_knLTD68QKXcT9xqpsyfvkoOh3r8g1GhlGBI,113106
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_queries.py,sha256=BxOdPx_PlvbxkMn5YZAaKrGkN1RGteXPmb_vjlS1hH0,10309
+pyneid-1.0.5.dist-info/LICENSE,sha256=yc6bAPiWjjm6rpMt_KM3kD9PUTH4-Ouilwr_8B0cdcE,1556
+pyneid-1.0.5.dist-info/METADATA,sha256=pHx_Y27rDkbY_zCPRO9wyXEb3AMfNcVT9GE42d-EZsE,2822
+pyneid-1.0.5.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pyneid-1.0.5.dist-info/top_level.txt,sha256=9dtRqp9MD_EUlzonZVD_W9RpHA8iEm-JB-PTdByB44A,13
+pyneid-1.0.5.dist-info/RECORD,,
