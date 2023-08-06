@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: torchbrain
+Version: 0.1
+Summary: Deep Learning library extended from PyTorch which focus on flexible prototyping features
+Home-page: https://github.com/hieupth/torchbrain
+Author: Hieu Tr. Pham
+Author-email: hieupt.ai@gmail.com
+License: MIT
+Download-URL: https://github.com/hieupth/torchbrain/archive/v_01.tar.gz
+Description: # TorchBrain
+        Deep Learning library extended from PyTorch which focus on flexible prototyping features.
+        ## Maintainers
+        * [Hieu Tr. Pham](https://github.com/hieupth) (author)
+        ## License
+        [MIT License](https://github.com/hieupth/torchbrain/blob/main/LICENSE) <br>
+        Copyright (c) 2021, [Hieu Tr. Pham](https://github.com/hieupth). All rights reserved
+        
+Keywords: machine learning,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
