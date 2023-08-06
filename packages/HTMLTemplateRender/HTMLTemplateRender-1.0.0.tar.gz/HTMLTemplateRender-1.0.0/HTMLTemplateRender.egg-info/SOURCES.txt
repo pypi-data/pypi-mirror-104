@@ -1,0 +1,10 @@
+README.md
+setup.py
+HTMLTemplateRender/VERSION
+HTMLTemplateRender/__init__.py
+HTMLTemplateRender/version.py
+HTMLTemplateRender.egg-info/PKG-INFO
+HTMLTemplateRender.egg-info/SOURCES.txt
+HTMLTemplateRender.egg-info/dependency_links.txt
+HTMLTemplateRender.egg-info/requires.txt
+HTMLTemplateRender.egg-info/top_level.txt
