@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<catalog>
+   <movie id="1">
+      <director>Gambardella, Matthew</director>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price>5</price>
+      <age>12</age>
+      <duration>90</duration>
+      <description>An in-depth look at creating applications 
+      with XML.</description>
+   </movie>
+   <movie id="2">
+      <director>Ralls, Kim</director>
+      <title>Midnight Rain</title>
+      <genre>Fantasy</genre>
+      <price>6</price>
+      <age>15</age>
+      <duration>120</duration>
+      <description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</description>
+   </movie>
+   <movie id="3">
+      <director>Corets, Eva</director>
+      <title>Maeve Ascendant</title>
+      <genre>Fantasy</genre>
+      <price>6</price>
+      <age>15</age>
+      <duration>120</duration>
+      <description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</description>
+   </movie>
+   <movie id="4">
+      <director>Corets, Eva</director>
+      <title>Oberon's Legacy</title>
+      <genre>Fantasy</genre>
+      <price>6</price>
+      <age>15</age>
+      <duration>120</duration>
+      <description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</description>
+   </movie>
+   <movie id="5">
+      <director>Corets, Eva</director>
+      <title>The Sundered Grail</title>
+      <genre>Fantasy</genre>
+      <price>6</price>
+      <age>15</age>
+      <duration>120</duration>
+      <description>The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon's Legacy.</description>
+   </movie>
+   <movie id="6">
+      <director>Randall, Cynthia</director>
+      <title>Lover Birds</title>
+      <genre>Romance</genre>
+      <price>5</price>
+      <age>18</age>
+      <duration>120</duration>
+      <description>When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.</description>
+   </movie>
+   <movie id="7">
+      <director>Thurman, Paula</director>
+      <title>Splish Splash</title>
+      <genre>Romance</genre>
+      <price>5</price>
+      <age>16</age>
+      <duration>120</duration>
+      <description>A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.</description>
+   </movie>
+   <movie id="8">
+      <director>Knorr, Stefan</director>
+      <title>Creepy Crawlies</title>
+      <genre>Horror</genre>
+      <price>5</price>
+      <age>18</age>
+      <duration>120</duration>
+      <description>An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.</description>
+   </movie>
+   <movie id="9">
+      <director>Kress, Peter</director>
+      <title>Paradox Lost</title>
+      <genre>Science Fiction</genre>
+      <price>7</price>
+      <age>18</age>
+      <duration>90</duration>
+      <description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.</description>
+   </movie>
+   <movie id="10">
+      <director>O'Brien, Tim</director>
+      <title>Microsoft .NET: The Programming Bible</title>
+      <genre>Computer</genre>
+      <price>7</price>
+      <age>12</age>
+      <duration>90</duration>
+      <description>Microsoft's .NET initiative is explored in 
+      detail in this deep programmer's reference.</description>
+   </movie>
+   <movie id="11">
+      <director>O'Brien, Tim</director>
+      <title>MSXML3: A Comprehensive Guide</title>
+      <genre>Computer</genre>
+      <price>7</price>
+      <age>12</age>
+      <duration>90</duration>
+      <description>The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.</description>
+   </movie>
+   <movie id="12">
+      <director>Galos, Mike</director>
+      <title>Visual Studio 7: A Comprehensive Guide</title>
+      <genre>Computer</genre>
+      <price>10</price>
+      <age>12</age>
+      <duration>90</duration>
+      <description>Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.</description>
+   </movie>
+</catalog>

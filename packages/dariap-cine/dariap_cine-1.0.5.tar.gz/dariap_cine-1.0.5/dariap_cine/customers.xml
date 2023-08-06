@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+   <customer id="1">
+      <name>Gambardella, Matthew</name>
+      <money>10</money>
+      <age>18</age>
+   </customer>
+   <customer id="2">
+      <name>Micah Noel</name>
+      <money>5</money>
+      <age>10</age>
+   </customer>
+   <customer id="3">
+      <name>Jasiah Cannon</name>
+      <money>15</money>
+      <age>18</age>
+   </customer>
+   <customer id="4">
+      <name>Charlotte Ellis</name>
+      <money>15</money>
+      <age>16</age>
+   </customer>
+      <customer id="5">
+      <name>Mya Henderson</name>
+      <money>20</money>
+      <age>18</age>
+   </customer>
+      <customer id="6">
+      <name>Dulce Willis</name>
+      <money>6</money>
+      <age>12</age>
+   </customer>
+      <customer id="7">
+      <name>Maverick Stout</name>
+      <money>25</money>
+      <age>20</age>
+   </customer>
+      <customer id="8">
+      <name>Bailey Holmes</name>
+      <money>10</money>
+      <age>12</age>
+   </customer>
+      <customer id="9">
+      <name>Angeline Clayton</name>
+      <money>10</money>
+      <age>18</age>
+   </customer>
+      <customer id="10">
+      <name>Rex Patterson</name>
+      <money>5</money>
+      <age>13</age>
+   </customer>
+      <customer id="11">
+      <name>Maia Reese</name>
+      <money>18</money>
+      <age>36</age>
+   </customer>
+      <customer id="12">
+      <name>Sienna Walker</name>
+      <money>10</money>
+      <age>45</age>
+   </customer>
+      <customer id="13">
+      <name>Sadie Figueroa</name>
+      <money>5</money>
+      <age>16</age>
+   </customer>
+      <customer id="14">
+      <name>Heaven Parrish</name>
+      <money>30</money>
+      <age>16</age>
+   </customer>
+</list>

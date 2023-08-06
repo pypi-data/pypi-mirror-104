@@ -1,0 +1,3 @@
+[console_scripts]
+dariap_cine = dariap_cine.__main__:main
+

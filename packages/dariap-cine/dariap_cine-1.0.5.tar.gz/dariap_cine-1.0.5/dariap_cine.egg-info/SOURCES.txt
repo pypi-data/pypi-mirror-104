@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+dariap_cine/__init__.py
+dariap_cine/__main__ .py
+dariap_cine/customer.py
+dariap_cine/customers.xml
+dariap_cine/main.py
+dariap_cine/movie.py
+dariap_cine/movies.xml
+dariap_cine.egg-info/PKG-INFO
+dariap_cine.egg-info/SOURCES.txt
+dariap_cine.egg-info/dependency_links.txt
+dariap_cine.egg-info/entry_points.txt
+dariap_cine.egg-info/top_level.txt
