@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+assets/lotus-pixelate.jpg
+assets/lotus.jpg
+src/__init__.py
+src/imPixelate.py
+src/imPixelate.egg-info/PKG-INFO
+src/imPixelate.egg-info/SOURCES.txt
+src/imPixelate.egg-info/dependency_links.txt
+src/imPixelate.egg-info/requires.txt
+src/imPixelate.egg-info/top_level.txt
