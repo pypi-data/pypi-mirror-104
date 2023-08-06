@@ -1,0 +1,15 @@
+sid_kemendesa/__init__.py,sha256=Mzh0mNRQdoZ2E6TQOwaazV9o70Ac1CGl5N-nBLikjvI,349
+sid_kemendesa/constants.py,sha256=yMOmv8H21unRR8_UTKhTcm0ZQGgLiwmcXchPbV-6ZYA,937
+sid_kemendesa/desa.py,sha256=bs7cat7aDNerle1xkUhRdT_b7J7sVxj1Dx54L19plG0,772
+sid_kemendesa/deskripsi.py,sha256=6Wr8HBK1tVZp85uqr75MmNC5fwEoVQZtMLdj2aaSrG0,1326
+sid_kemendesa/error.py,sha256=5LSOZTsxapFRBuI9cVnEnGqARaMPaUs5F5KRfSVGD50,376
+sid_kemendesa/idm/__init__.py,sha256=H_BYo-IT4KKpD1_FmhNQ1QRiZXp1IZdjf8FKGlU6E1k,184
+sid_kemendesa/idm/idm.py,sha256=z1NbzeaoVU9KanY9v8I45zhwh_8iqaGx39BeGKHNIOg,2434
+sid_kemendesa/idm/indikator.py,sha256=-HvHrDH9WpE_UNUu70dbJYR9AJ38qJZh9654wefLoRE,954
+sid_kemendesa/idm/jenis.py,sha256=Qr_gjGJdP6DqgQX1AbGj0FF57B4ZOzrHz3UYDHumn14,94
+sid_kemendesa/idm/status.py,sha256=SVo0K_lTcxlNvwXaqS49FFiwadgD9CjIl1lDKTyuPcg,193
+sid_kemendesa/search.py,sha256=Ek5jkRtH9jcyL1dtkq0TYyj9f0mVKBzY5wc9rrnj8RM,3446
+sid_kemendesa-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sid_kemendesa-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sid_kemendesa-0.2.0.dist-info/METADATA,sha256=UULlydlWGLUgENcQuCvwgVLor_nHXH68Xxjx2r8wEJQ,2108
+sid_kemendesa-0.2.0.dist-info/RECORD,,
