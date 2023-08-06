@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: bbx_ninja
+Version: 0.0.4
+Summary: bbx repo to make my life easier.
+Home-page: https://github.com/gabinguo/
+Author: Kunpeng GUO
+Author-email: kunpeng.guo@univ-st-etienne.fr
+License: MIT
+Download-URL: https://github.com/gabinguo/bbx/releases/download/v0.0.4/bbx_ninja_v0.0.4.tar.gz
+Description: UNKNOWN
+Keywords: scripts,anything,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
