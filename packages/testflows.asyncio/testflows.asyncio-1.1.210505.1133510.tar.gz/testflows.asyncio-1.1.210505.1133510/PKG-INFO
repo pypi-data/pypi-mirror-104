@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: testflows.asyncio
+Version: 1.1.210505.1133510
+Summary: TestFlows - AsyncIO
+Home-page: https://github.com/testflows/testflows-asyncio
+Author: Vitaliy Zakaznikov
+Author-email: vzakaznikov@testflows.com
+License: Apache-2.0
+Description: # TestFlows - AsyncIO
+        
+        **The connect module is still work in progress and is currently under development.
+        Please use it only for reference.**
+        
+        Module to provide asyncio capabilities.
+        
+        Currently supports only Python 3.8 or above.
+        
+        ## Installation
+        
+        ```bash
+            $ ./build; ./install
+        ```
+        
+        where
+        
+        ```bash
+            $ ./build
+        ```
+        
+        creates a pip installable package in `./dist`, for example
+        
+        ```bash
+            $ ls dist/
+            testflows.asyncio-1.2.210504.123636.tar.gz
+        ```
+        
+        and
+        
+        ```bash
+            $ ./install
+        ```
+        
+        installs the `testflows.asyncio` module.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
