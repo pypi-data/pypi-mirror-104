@@ -1,0 +1,3 @@
+[console_scripts]
+marleu-ec2=marleu_emr.emr:main
+
