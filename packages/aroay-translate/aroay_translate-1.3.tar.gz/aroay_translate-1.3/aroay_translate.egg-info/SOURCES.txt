@@ -1,0 +1,13 @@
+README.md
+setup.py
+aroay_translate/__init__.py
+aroay_translate/__version__.py
+aroay_translate/downloadermiddlewares.py
+aroay_translate/pretend.py
+aroay_translate/request.py
+aroay_translate/settings.py
+aroay_translate.egg-info/PKG-INFO
+aroay_translate.egg-info/SOURCES.txt
+aroay_translate.egg-info/dependency_links.txt
+aroay_translate.egg-info/requires.txt
+aroay_translate.egg-info/top_level.txt
