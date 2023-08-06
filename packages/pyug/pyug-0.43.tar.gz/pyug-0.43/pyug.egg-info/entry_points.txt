@@ -1,0 +1,3 @@
+[console_scripts]
+pyug = pyug.__main__:main
+
