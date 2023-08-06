@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: kingdom-chisel
+Version: 0.0.1.dev2
+Summary: Common toolkit for python web backends
+Home-page: https://github.com/t10d/chisel
+License: MIT
+Author: Rui Conti
+Author-email: rui@t10.digital
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Project-URL: Issue Tracker, https://github.com/t10d/chisel/issues
+Project-URL: Repository, https://github.com/t10d/chisel
+Project-URL: Source Versioning, https://github.com/t10d/chisel
+Description-Content-Type: text/markdown
+
+# chisel
+⛏ Common sharpening utilities to our python backends. 
+
+## Usage
+
+```shell
+pip install kingdom-chisel
+```
+
+```python
+from chisel import core
+```
+
