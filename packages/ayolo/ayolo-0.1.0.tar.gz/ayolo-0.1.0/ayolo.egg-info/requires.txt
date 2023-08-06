@@ -1,0 +1,3 @@
+wheel
+PyQt5==5.15.4
+pyqt-darktheme==1.2.3
