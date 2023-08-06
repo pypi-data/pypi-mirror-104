@@ -1,0 +1,14 @@
+citeurl/__init__.py,sha256=t5tn8x6ypipsXFb3Nyygyz7LDypIu402yK5ZhQhRwzY,39743
+citeurl/builtin-templates.yaml,sha256=8T9jkNoNkiosTzGCbewt3nZIfN9FwXWxiNj1IsL-v8M,85589
+citeurl/citeurl.js,sha256=AJ9MaE0s_NfmTq5CDpXBsjs0N4O40FKssyRPAlfZa-4,11477
+citeurl/cli (copy).py,sha256=672LkaFLYeSKKT0d4OVoBlBxe3Wv0L_VJR9GiVouABg,7207
+citeurl/cli.py,sha256=7HUmBmpg_gglyZe_sf9X6omNV5nWd-IPA64ZRIm0Pa0,12066
+citeurl/makejs.py,sha256=QEUwF1G02wT15ytP6LiBmInRm6VQzTO5HrhqUTBbzbY,3341
+citeurl/mdx.py,sha256=k_wGUbFPlACMuWCstWETlt5XL0vYeQga4GWJjbpDhZw,3243
+citeurl/server.py,sha256=nWJ3GACD7z86pQeZMXVoBK7R7p4Pc6UXRqUMkchgkds,2612
+citeurl-8.0.0.dist-info/LICENSE.md,sha256=T6b3vscLORAeVZWYfYDSVFuKq1X-gA6wOQsuYJfXtiU,1065
+citeurl-8.0.0.dist-info/METADATA,sha256=A32r69X2fteXsWCzBkA7brB87b52DiQUbfB_qczX3hQ,6661
+citeurl-8.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+citeurl-8.0.0.dist-info/entry_points.txt,sha256=QosI3aQdkrIB_Hcn3EQJkP0jd-IALpFsyeR9zT2aMzc,145
+citeurl-8.0.0.dist-info/top_level.txt,sha256=WgpwPvgcGWJgfkw4r3EKesIT33CQEKoU50D4InqJams,8
+citeurl-8.0.0.dist-info/RECORD,,
