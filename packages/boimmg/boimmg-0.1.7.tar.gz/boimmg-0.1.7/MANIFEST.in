@@ -1,0 +1,4 @@
+recursive-include boimmgpy/configs *
+recursive-include boimmgpy/required_files *
+include ../README.md
+include ../license.md
