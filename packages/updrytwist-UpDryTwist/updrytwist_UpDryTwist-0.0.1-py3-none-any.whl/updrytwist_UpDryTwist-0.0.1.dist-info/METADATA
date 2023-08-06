@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: updrytwist-UpDryTwist
+Version: 0.0.1
+Summary: My standard utilities
+Home-page: https://github.com/tathamg/updrytwist
+Author: Greg Tatham
+Author-email: tathamg@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/tathamg/updrytwist/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+There should be something to read, here.
+
+This is just a set of standard code that I seem to use across a ton of projects,
+and I've finally gotten around to packaging instead of copying.
+
