@@ -1,0 +1,13 @@
+jupyterlab>=3.0
+pydotplus
+dask
+labbox-ephys>=0.5
+labbox-ephys-widgets-jp>=0.1
+mountainsort4
+spikeinterface>=0.12
+pynwb>=1.4
+datajoint==0.13.*
+kachery-p2p>=0.8
+ghostipy
+pymysql>=1.0.*
+h5py==2.10.*
