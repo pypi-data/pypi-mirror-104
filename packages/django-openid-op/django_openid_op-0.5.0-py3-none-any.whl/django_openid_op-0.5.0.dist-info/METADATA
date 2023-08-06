@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-openid-op
+Version: 0.5.0
+Summary: A django database based implementation of a subset of openid protocol, targeted at python3.6 and django 1.11+
+Home-page: https://github.com/mesemus/django-openid-op
+Author: Mirek Simek
+Author-email: miroslav.simek@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Django
+Requires-Dist: pycryptodomex
+Requires-Dist: django-jsonfield
+Requires-Dist: django-ratelimit
+Requires-Dist: python-jwt
+Requires-Dist: django-modeltranslation (>=0.13-beta1)
+Requires-Dist: django-bleach
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-django ; extra == 'dev'
+Requires-Dist: pytest-matrix ; extra == 'dev'
+Requires-Dist: pytest-runner ; extra == 'dev'
+Requires-Dist: pytest-env ; extra == 'dev'
+Requires-Dist: social-auth-app-django ; extra == 'dev'
+Requires-Dist: pyjwkest ; extra == 'dev'
+
+
+# django-openid-op
+
+This django application provides an implementation of OpenID Connect identity server
+(OpenID provider). You can use it, for example, for building centralized authorization
+server to which clients connect via the OpenID or OAuth2.0 protocol.
+
+This library is compatible with python-social-auth package that can be used
+as an OpenID client to access this server.
+
+The following features of the OpenID Connect specification are implemented:
+
+   * Basic profile from the OpenID Connect Core, including JWT signing
+   * Subset of OpenID Connect Dynamic Registration
+   * Subset of OpenID Content Discovery
+
+For more details see https://github.com/mesemus/django-openid-op
+
+
