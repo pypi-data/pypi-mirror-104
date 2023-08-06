@@ -1,0 +1,15 @@
+{domain}/uif {
+   reverse_proxy 127.0.0.1:10000
+}
+
+{domain}/uif_free {
+   reverse_proxy 127.0.0.1:10001
+}
+
+127.0.0.1:3566 {
+   respond "ok"
+}
+
+{domain} {
+   respond "Hello world!"
+}
