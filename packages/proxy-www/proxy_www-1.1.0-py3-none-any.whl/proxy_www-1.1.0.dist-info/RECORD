@@ -1,0 +1,9 @@
+proxy_www/__init__.py,sha256=hKUdAjPKcq2wIT9Lta2MgJMvR6qEV01S6ZGlNZladwc,581
+proxy_www/method.py,sha256=miazp9FLZpjt_WcAYKknL3udPqEz32oUnzfPJ1JDi34,375
+proxy_www/old_implementation.py,sha256=6q4UTnjYA4XcZ0leuqJZZ23acbK-Fa-HOg9q0EYDUcM,7340
+proxy_www/proxy.py,sha256=J6_MvG4kff3hCXpOUv8ru2J77UWUKWRAL7C3oZh9MJc,5328
+proxy_www/utils.py,sha256=Mek0qLfCuYwiqcxlPHb_9nyfmpnzodenXg8YxzueLWk,2454
+proxy_www-1.1.0.dist-info/METADATA,sha256=_qyk804dnk2jSzjXThSOdoso-6I7OK7GGnDvDsylsls,1849
+proxy_www-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+proxy_www-1.1.0.dist-info/top_level.txt,sha256=KXDkr0qqV9wtkRzNiSSA0Xw8139sT_Og774LkKFpE2g,10
+proxy_www-1.1.0.dist-info/RECORD,,
