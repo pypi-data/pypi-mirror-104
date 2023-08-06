@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: easy_mailer
+Version: 0.5
+Summary: Easy Mailer lets one use popular mailing services like outlook, gmail to send  items or mail via python code.
+Home-page: https://github.com/JnaneshPrabhu/easy-mailer
+Author: jnano
+Author-email: jnanesh4courses@gmail.com
+License: MIT
+Download-URL: https://github.com/JnaneshPrabhu/easy-mailer/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Outlook,Mail,Python3,Python2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
