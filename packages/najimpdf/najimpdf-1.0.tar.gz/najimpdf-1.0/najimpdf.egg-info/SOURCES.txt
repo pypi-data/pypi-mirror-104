@@ -1,0 +1,9 @@
+README.md
+setup.py
+najimpdf/__init__.py
+najimpdf/pdf2image.py
+najimpdf/pdf2text.py
+najimpdf.egg-info/PKG-INFO
+najimpdf.egg-info/SOURCES.txt
+najimpdf.egg-info/dependency_links.txt
+najimpdf.egg-info/top_level.txt
