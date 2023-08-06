@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: chkelastic
+Version: 0.1.0
+Summary: A command line tool to assert ElasticSearch index and document integrity.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: elasticsearch-dsl (==7.3.0)
+Requires-Dist: elasticsearch (==7.12.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: urllib3 (==1.25.9)
+
+UNKNOWN
+
+
