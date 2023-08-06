@@ -1,0 +1,11 @@
+README.md
+setup.py
+C:/Users/lenovo/Amin/Programmation/Python/myProjects/Pypi projects/allegro5-python/allegro5/demo/fixed_font.tga
+allegro5/__init__.py
+allegro5/allegro.py
+allegro5.egg-info/PKG-INFO
+allegro5.egg-info/SOURCES.txt
+allegro5.egg-info/dependency_links.txt
+allegro5.egg-info/top_level.txt
+allegro5/demo/__init__.py
+allegro5/demo/pong.py
