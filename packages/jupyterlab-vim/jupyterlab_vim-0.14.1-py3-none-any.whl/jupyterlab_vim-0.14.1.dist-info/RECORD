@@ -1,0 +1,13 @@
+jupyterlab_vim/__init__.py,sha256=hW84pHvkfgQa6FPtTk7nGZVcrfFA6APy0f8nYOHw2nE,326
+jupyterlab_vim/_version.py,sha256=yt4Vh3ZAy1CM6ZooFLHG3S1A-6HRtzl9G4fzpib_lRo,459
+jupyterlab_vim/labextension/package.json,sha256=y0oMn4UNw8VvOWRhyOsvJ9THCeTXkS27BVl8HmpEd_A,2671
+jupyterlab_vim/labextension/schemas/@axlair/jupyterlab_vim/package.json.orig,sha256=-ktTtPFRT9w5DKQ3ggYc7cDzt15Cqw7fsM3UBgznOqU,2555
+jupyterlab_vim/labextension/schemas/@axlair/jupyterlab_vim/plugin.json,sha256=plZywo7k61dSzhgh3tRPDhkMudFqcC7hw5PQo-eraLc,348
+jupyterlab_vim/labextension/static/568.e878a7ea3a1aad598070.js,sha256=fqmSYoF6AZ94ssRzE5LhdjNZxOYyFhabVa_vUPYgzvk,10705
+jupyterlab_vim/labextension/static/remoteEntry.76cf0c347ef10bc252a9.js,sha256=_V-sGruK_l5FhLxK9Zhxpf4_JT647x7aZjNCjOcbmS0,6287
+jupyterlab_vim/labextension/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_vim-0.14.1.dist-info/LICENSE,sha256=5Z35WKn9oIxzj_DNGCHw-_KDgJTR5dSe41j8rVPMmTI,1069
+jupyterlab_vim-0.14.1.dist-info/METADATA,sha256=L6266BvLoMebciF4xFVwFCMfuazoUovJfVLGNCVeUnM,7189
+jupyterlab_vim-0.14.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyterlab_vim-0.14.1.dist-info/top_level.txt,sha256=nxkGXT-to2KrQwCuBH3Uog8u0ncKC9t5qaYbZamIN6k,15
+jupyterlab_vim-0.14.1.dist-info/RECORD,,
