@@ -1,0 +1,5 @@
+utidylib
+pytest-django
+pytest-mock
+Django
+six
