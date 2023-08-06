@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cell-imaging-utils
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/lionben89/BGU_cell_imaging_utils
+Author: Lion Ben Nedava
+Author-email: lionben89@gmail.com
+License: MIT
+Keywords: cell_imaging_utils
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: tifffile
+Requires-Dist: scikit-image (>=0.15.0)
+Requires-Dist: aicsimageio (==3.0.7)
+Requires-Dist: quilt3
+Requires-Dist: bumpversion
+Requires-Dist: twine
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+
+# BGU-cell-imaging-utils
+
+a python package that staged toghether different utils regarding cell imaging project
+
+
