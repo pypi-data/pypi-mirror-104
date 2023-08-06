@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: odsparsator
+Version: 1.1.0
+Summary: Generate a json file from an OpenDocument Format .ods file
+Home-page: https://github.com/jdum/odsparsator
+Author: Jérôme Dumonteil
+Author-email: jerome.dumonteil@gmail.com
+License: MIT
+Description: .. _odsparsator-an-ods-parser:
+        
+        
+        odsparsator, an .ods parser.
+        ============================
+        
+        Generate a json file from an OpenDocument Format .ods file.
+        
+        When used as a script, odsparsator parses an .ods file and generates a json
+        file using the odfdo library.
+        
+        When used as a library, odsparsator parses an .ods file and returns a python
+        structure.
+        
+        The resulting data follow the format of the reverse odsgenerator.py script.
+        
+        
+        installation
+        ------------
+        
+        .. code-block:: bash
+        
+            $ pip install odsparsator
+        
+        
+        usage
+        -----
+        
+        ::
+        
+           odsparsator [-h] [--version] [options] input_file output_file
+        
+        
+        arguments
+        ---------
+        
+        ``input_file``: input file, a .ods file.
+        
+        ``output_file``: output file, json file generated from input.
+        
+        Use ``odsparsator --help`` for more details about options
+        and look at examples in the tests folder.
+        
+        
+        from python code
+        ----------------
+        
+        .. code-block:: python
+        
+            import odsparsator
+            content = odsparsator.ods_to_python("sample1.ods")
+        
+        
+        documentation
+        -------------
+        
+        See in the doc folder:
+        
+        -  ``html/odsgenerator.html``
+        -  ``tutorial.json`` or ``tutorial.yml`` and ``tutorial.ods``
+        
+        And see also ``odsgenerator``.
+        
+        
+        license
+        -------
+        
+        This project is licensed under the MIT License (see the
+        ``LICENSE`` file for details).
+        
+Keywords: text json openDocument ODF ods parser
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
