@@ -1,0 +1,12 @@
+difi/__init__.py,sha256=3HwE90d4zI6pwlDfTZFU8AVW55hofP09Dgm89gwbjkA,134
+difi/cifi.py,sha256=XWCbpuxKNop61ZSk6D5WkCsnlkYRl03arc8qiwf3o6g,7431
+difi/difi.py,sha256=IELcQJBzN1ljPYAHf-6TXKndrKdCWu2VxoY4-UxkGnU,32569
+difi/io.py,sha256=ay3cqong_HkjJCVqzxU_mhSEkp1lLMm5flVl2PzAJcw,3442
+difi/metrics.py,sha256=eN9-dEPulC5L_eBPBbTufmBvk4_HwxIpDjIKTHCgBJY,9289
+difi/utils.py,sha256=wq5-JLTkwfTO3LWubTiJmBaWcrg_Ev07o4et_584bi4,6909
+difi/version.py,sha256=eDwYcQ7TChdwWc0v04-j0yckfSnAcSRFl2C1cE1U7U8,22
+difi-1.1rc1.dist-info/LICENSE.md,sha256=JIVWlt0yUswCEefZ3uE-HxBybTWVPr_mJo9CRBfa7ho,1515
+difi-1.1rc1.dist-info/METADATA,sha256=uX9nrfgGwt0Gu8P5LT3zCcYNbk-43ZLY8boDCxCnchc,7037
+difi-1.1rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+difi-1.1rc1.dist-info/top_level.txt,sha256=NUHDG98bLxLJgaTq7qDIrj7N_aVOa1Pl5e8wVKIK75s,5
+difi-1.1rc1.dist-info/RECORD,,
