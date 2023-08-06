@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: carkov
+Version: 0.1.1
+Summary: A markov chainer library
+Home-page: https://github.com/aldercone/carkov
+Author: Aldercone Studio
+Author-email: alderconestudio@gmail.com
+License: BSD
+Description: # carkov #
+        
+        This is a markov chainer library, for implementing things like word generators, ebook bots and things. It is not a very
+        statistically oriented thing - it is functionality but not science.
+        
+        
+Keywords: text,markov,ebooks,chainer,generator,generative
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown

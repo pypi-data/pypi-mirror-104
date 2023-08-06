@@ -1,0 +1,3 @@
+[console_scripts]
+carkov = carkov.__main__:main
+
