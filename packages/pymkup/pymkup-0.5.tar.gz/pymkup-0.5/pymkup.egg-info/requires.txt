@@ -1,0 +1,4 @@
+pdfrw
+shapely
+colormap
+easydev
