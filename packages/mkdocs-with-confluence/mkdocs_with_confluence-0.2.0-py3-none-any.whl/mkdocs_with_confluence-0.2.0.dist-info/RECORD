@@ -1,0 +1,10 @@
+mkdocs_with_confluence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_with_confluence/plugin.py,sha256=WXRumwsiy1JtFZ0sszbq_sUb2XP4o89npLYTkiSCIwE,19339
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=kGyP457N3vNFBaycApnewFF6_q9mHCLQHkxPYQPXiMI,4103
+mkdocs_with_confluence-0.2.0.dist-info/LICENSE,sha256=OTf-89LpYw5K66FqqyYrBLHQd_Pgeu4eyWfKSxV0Niw,1069
+mkdocs_with_confluence-0.2.0.dist-info/METADATA,sha256=Wrr6eoWIqSjOgbgRbZ6kefpjE3IKW2rfIrCxCsZWn34,462
+mkdocs_with_confluence-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mkdocs_with_confluence-0.2.0.dist-info/entry_points.txt,sha256=ivWSMPHvwSu0lU6elHnorJHHPUaH6Wn_Ms8tN9hITwg,94
+mkdocs_with_confluence-0.2.0.dist-info/top_level.txt,sha256=J3y8g5rK7Ig1rv99k0XL77gchqIMZZ8VhRukxvHVdqY,29
+mkdocs_with_confluence-0.2.0.dist-info/RECORD,,
