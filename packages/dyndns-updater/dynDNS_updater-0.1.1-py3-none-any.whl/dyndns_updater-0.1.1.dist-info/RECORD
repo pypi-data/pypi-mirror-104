@@ -1,0 +1,11 @@
+LICENSE,sha256=C2RhbR_G6W67QE9NM6sxfIIESwFZ8vy-DX9K8l6m1TQ,1065
+dyndns_updater/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dyndns_updater/__main__.py,sha256=RbzTTbBFgyDnWfZINiMw7GTWICZ8TsK3hqjBvnzg010,1013
+dyndns_updater/extractor.py,sha256=NfG6QgXgr23v4dMlRpFG7Or0FDc4FesUxScxbYuMGvE,1031
+dyndns_updater/locator.py,sha256=9Zu-M6UPsbXgNDE-gR6seZiUW447_F06pVFCejH69JY,3034
+dyndns_updater/updater.py,sha256=6crN30a-bywl3mISCIoVKgWsN0Ak5bWwR2MDvTxGsVM,5627
+dyndns_updater/utils.py,sha256=dJmCzsaMXJZfQXJSi_cv5LS2hkcHRSDGAeoRO6tZw_E,962
+dyndns_updater-0.1.1.dist-info/LICENSE,sha256=C2RhbR_G6W67QE9NM6sxfIIESwFZ8vy-DX9K8l6m1TQ,1065
+dyndns_updater-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dyndns_updater-0.1.1.dist-info/METADATA,sha256=DsDxAV8j-2_B4ZoH1Fe5RhSx0mRP_R9YVEoKKQM0L8o,1627
+dyndns_updater-0.1.1.dist-info/RECORD,,

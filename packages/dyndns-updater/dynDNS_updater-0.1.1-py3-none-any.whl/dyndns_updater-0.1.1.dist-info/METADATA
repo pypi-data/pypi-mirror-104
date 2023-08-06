@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: dyndns-updater
+Version: 0.1.1
+Summary: standalone DNS updater for Gandi
+Home-page: https://github.com/zar3bski/dynDNS_updater
+Keywords: dns,gandi
+Author: David Zarebski
+Author-email: zarebskidavid@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: dnspython (>=2.1.0,<3.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: schedule (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/zar3bski/dynDNS_updater
+Description-Content-Type: text/markdown
+
+# dynDNS_updater
+standalone DNS updater for Gandi
+
+The main purpose of **dynDNS_updater** is to keep the DNS records pointing to your servers up to date **without any system dependencies** (except python, of course) nor any fancy web services to identify their public IPv4 / IPv6
+
+## Usage
+
+```yaml
+ip_identifier: cloudflare
+delta : 900
+dns_providers: 
+  - gandi: GKDNzPZsdHB8vxA56voERCiC
+    somedomain.io:
+      tower: A
+      tower6: AAAA
+      tower2: AAAA
+```
+
+## Features
+
+Types of records
+
+* A
+* AAAA
+
+### Supported DNS provider
+
+|      Name | API root                         |
+| --------: | :------------------------------- |
+| **Gandi** | https://api.gandi.net/v5/livedns |
+
+## Developpers 
+
+### Onboarding
+
+* [poetry]()
+* []()
+
+```bash
+git clone https://github.com/zar3bski/dynDNS_updater.git
+cd dynDNS_updater
+poetry install 
+```
+
