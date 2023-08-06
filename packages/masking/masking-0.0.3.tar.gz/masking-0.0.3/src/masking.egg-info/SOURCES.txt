@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/masking/__init__.py
+src/masking/maskstring.py
+src/masking.egg-info/PKG-INFO
+src/masking.egg-info/SOURCES.txt
+src/masking.egg-info/dependency_links.txt
+src/masking.egg-info/top_level.txt
