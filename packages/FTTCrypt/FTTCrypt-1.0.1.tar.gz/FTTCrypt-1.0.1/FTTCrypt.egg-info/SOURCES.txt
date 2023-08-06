@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+FTTCrypt.egg-info/PKG-INFO
+FTTCrypt.egg-info/SOURCES.txt
+FTTCrypt.egg-info/dependency_links.txt
+FTTCrypt.egg-info/entry_points.txt
+FTTCrypt.egg-info/top_level.txt
