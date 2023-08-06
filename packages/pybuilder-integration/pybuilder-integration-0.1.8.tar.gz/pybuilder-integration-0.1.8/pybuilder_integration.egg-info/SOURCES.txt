@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pybuilder_integration/__init__.py
+pybuilder_integration.egg-info/PKG-INFO
+pybuilder_integration.egg-info/SOURCES.txt
+pybuilder_integration.egg-info/dependency_links.txt
+pybuilder_integration.egg-info/namespace_packages.txt
+pybuilder_integration.egg-info/top_level.txt
+pybuilder_integration.egg-info/zip-safe
