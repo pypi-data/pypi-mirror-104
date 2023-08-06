@@ -1,0 +1,6 @@
+setup.py
+sicicalc/__init__.py
+sicicalc.egg-info/PKG-INFO
+sicicalc.egg-info/SOURCES.txt
+sicicalc.egg-info/dependency_links.txt
+sicicalc.egg-info/top_level.txt
