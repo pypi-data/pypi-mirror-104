@@ -1,0 +1,15 @@
+matplotlib
+numpy
+asyncpg
+pyproj
+Shapely
+
+[geotiff]
+GDAL
+
+[tests]
+pytest
+pytest-asyncio
+pytest-cov
+flake8
+mypy
