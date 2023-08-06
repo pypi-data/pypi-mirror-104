@@ -1,0 +1,16 @@
+idk/__init__.py,sha256=IaL5Q-AyXiTIduH3FFd3ZQpWoPdR8qEx-9uPFrNtea4,78
+idk/_cli.py,sha256=OGzMWpptj1pXXlOk5e1I8XxmKNF21xKHf4ZxI0df57E,7832
+idk/_service.py,sha256=F87eubIqSPzdhbvLnHriSQKLK0ZRUNAXDOSTtNx_1Fg,163
+idk/_utils.py,sha256=3EYr901mtq9xsSabv3ZiYJaQ9azGwIwVUt8dhl9yiI4,5802
+idk/_version.py,sha256=PfJ7jyfiLMB1OAU16SiX6gfifWhF1789xLAkQJ_Rhog,23
+idk/insight.py,sha256=-snXylbpLjMgBoqc_u-9oGfmQ_joj2GyOAj08Qro4M8,1458
+idk/io.py,sha256=CLCA2je23C5kKFpg5NreZTZ-Jsud81Ib284ikO6ObY4,1765
+idk/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idk/templates/_gen_template.py,sha256=yHfB2DH5ucNn-UeoRZoh-ywJC6w8JrmcwS9SamRCmes,4376
+idk/templates/_tracking_template.py,sha256=m3bLgLiW-zRYNvvSVmsZEiHeAmsjJOaCZNhAy8sS6F4,1664
+idk/templates/_trans_template.py,sha256=ol-dNEtnJSAjofHpPvLy6dZBBLS3H7Yjait9XUdfGrs,513
+cdl_idk-0.3.2.dist-info/METADATA,sha256=U33LK6WPX7fESw0swgeatB5h66kPO_LF3wQkuGroZYc,668
+cdl_idk-0.3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdl_idk-0.3.2.dist-info/entry_points.txt,sha256=qpUEcaV6XDo0mlnnSBbIZ_RePdtwvh3LSdLMzfKHam0,39
+cdl_idk-0.3.2.dist-info/top_level.txt,sha256=KTd1F_vt-3n6m_ct4Ay4rKz8Zd0T7VqxLAqARx_CtTo,4
+cdl_idk-0.3.2.dist-info/RECORD,,
