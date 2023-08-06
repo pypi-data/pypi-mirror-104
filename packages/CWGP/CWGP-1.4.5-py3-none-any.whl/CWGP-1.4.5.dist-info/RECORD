@@ -1,0 +1,11 @@
+cwgp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwgp/cwgp.py,sha256=z19VigL0k4vS5q2e0K5Es-02zQA0JOkd1tO-Co9N1DM,256
+cwgp/grid_search.py,sha256=cCYtnY70GtDiUCw93ZN2aUSQzkMo0B1FncoP9XDfoNE,3306
+cwgp/kernel.py,sha256=SAFVaLYUFxRRJUioN0lGjNeMb8fZw4ScOnuTpootKMg,519
+cwgp/phi.py,sha256=AURw5RYy4N1RSidpA4xOAxA2iFFCI58dI1qz7o_sYG0,3586
+cwgp/transformations.py,sha256=qrnerxTnqRbgzpExnvSt3awNjLtMhi5gwuOPVhQPpVM,714
+CWGP-1.4.5.dist-info/LICENSE,sha256=RWUdavRcZ0s53o-1lRPPAyyF7RUS7lf1I8xblQ-AUGY,1070
+CWGP-1.4.5.dist-info/METADATA,sha256=gkqxXsKp-xnraWDHio4GBL1UUJk10Ckcv-MM37n5CtM,2560
+CWGP-1.4.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CWGP-1.4.5.dist-info/top_level.txt,sha256=pkd-rcUDRAo1OuuAIBshUpcxaX3-R_rB-L-PTP-8daM,5
+CWGP-1.4.5.dist-info/RECORD,,
