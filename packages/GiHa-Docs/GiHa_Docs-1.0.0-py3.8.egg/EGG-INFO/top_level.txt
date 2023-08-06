@@ -1,0 +1,14 @@
+gihadocs
+gihadocs/commands
+gihadocs/config
+gihadocs/contrib
+gihadocs/contrib/search
+gihadocs/structure
+gihadocs/tests
+gihadocs/tests/config
+gihadocs/tests/structure
+gihadocs/tests/utils
+gihadocs/themes
+gihadocs/themes/gihadocs
+gihadocs/themes/readthedocs
+gihadocs/utils

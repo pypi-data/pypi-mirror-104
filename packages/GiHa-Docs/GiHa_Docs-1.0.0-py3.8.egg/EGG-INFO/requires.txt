@@ -1,0 +1,7 @@
+Jinja2>=2.10.1
+Markdown>=3.2.1
+PyYAML>=3.10
+click>=3.3
+livereload>=2.5.1
+lunr[languages]==0.5.8
+tornado>=5.0
