@@ -1,0 +1,2 @@
+hks_pylib==0.0.6
+hkserror==0.0.1
