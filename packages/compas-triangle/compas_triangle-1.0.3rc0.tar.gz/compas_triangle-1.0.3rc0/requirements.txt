@@ -1,0 +1,2 @@
+triangle
+COMPAS>=1.0
