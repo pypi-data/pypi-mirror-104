@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: cryptogym
+Version: 0.0.14
+Summary: CryptoCurrency Trading environment
+Home-page: https://github.com/alantess/cryptogym
+Author: Alan Tessier
+Author-email: alantessier.cr@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: cryptocurrency,reinforcement learning,deep learning,artifical intelligence
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
