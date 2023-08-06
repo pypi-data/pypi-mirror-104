@@ -1,0 +1,71 @@
+type FlowRun {
+    id: UUID!
+    agent_id: UUID
+    flow_id: UUID!
+    name: String!
+    labels: [String!]!
+    context: JSON!
+    state: State!
+    start_time: TimeStamp!
+    end_time: TimeStamp
+    last_heartbeat: TimeStamp!
+    taskruns: [TaskRun!]!
+}
+
+input FlowRunInput {
+    id: UUID!
+    agent_id: UUID
+    flow_id: UUID
+    name: String
+    labels: [String!]
+    context: JSON
+    state: StateInput
+    last_heartbeat: TimeStamp
+}
+
+input GetFlowRunsInput {
+    id: [UUID!]
+    agent_id: [UUID!]
+    flow_id: [UUID!]
+    name: [String!]
+    labels: [String!]
+    state_type: [String!]
+    after: TimeStamp
+    before: TimeStamp
+}
+
+type TaskRun {
+    id: UUID!
+    flowrun_id: UUID!
+    agent_id: UUID
+    task_id: UUID!
+    flow_id: UUID!
+    context: JSON!
+    state: State!
+    start_time: TimeStamp!
+    end_time: TimeStamp
+    last_heartbeat: TimeStamp!
+}
+
+input TaskRunInput {
+    id: UUID!
+    flowrun_id: UUID
+    agent_id: UUID
+    task_id: UUID
+    flow_id: UUID
+    context: JSON
+    state: StateInput
+    last_heartbeat: TimeStamp
+}
+
+input  GetTaskRunsInput {
+    id: [UUID!]
+    flowrun_id: [UUID!]
+    agent_id: [UUID!]
+    task_id: [UUID!]
+    flow_id: [UUID!]
+    state_type: [String!]
+    after: TimeStamp
+    before: TimeStamp
+}
+
