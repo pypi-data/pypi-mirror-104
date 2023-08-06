@@ -1,0 +1,11 @@
+odsgenerator/__init__.py,sha256=39K64YypMddKwLp_4qtm82vDJ9D0fOyz09ca4gWqN-E,5159
+odsgenerator/command_line.py,sha256=1UsSvlMptExid7b6fZPHoWPy5MZWRAqo--TMMskvQWI,58
+odsgenerator/odsgenerator.py,sha256=8v8NeRmmuQNCJOmszxImhPZkPguE0k5yX5DYm2puA88,27993
+odsgenerator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odsgenerator/tests/test.py,sha256=sM4A4q7TR0QGhWr6OvircWZiywhk9oAglupLn-fkTtw,17562
+odsgenerator-1.4.7.dist-info/LICENSE.txt,sha256=3AfjlfRjUR5yGXso-6cn14aUvEBAR0UiuFwQz-9pKSo,1084
+odsgenerator-1.4.7.dist-info/METADATA,sha256=YSObdxFqj3bB6R9jK6AIdwCx8VMe_aRUe4BGCpY0Ao0,3309
+odsgenerator-1.4.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odsgenerator-1.4.7.dist-info/entry_points.txt,sha256=deox61Su8jwRct6m2DwsF7RtgtuT42JTuM1fYe0otKU,65
+odsgenerator-1.4.7.dist-info/top_level.txt,sha256=z-98QPFPNKRyz3mEnNkJ7zQxJf6SKj4a25gbcrh7cY0,13
+odsgenerator-1.4.7.dist-info/RECORD,,
