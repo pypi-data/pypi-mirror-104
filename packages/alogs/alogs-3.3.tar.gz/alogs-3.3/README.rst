@@ -1,0 +1,110 @@
+Simple logging lib
+==================
+
+All code should use Python standard log module instead of ``print()``
+function.
+
+Install
+-------
+
+::
+
+    python3 setup.py install
+
+Usage
+-----
+
+Basic usage.
+
+.. code:: python
+
+    from alogs import get_logger
+
+    logger = get_logger('module_name')
+
+    logger.debug('Debug message')
+    logger.info('Info message')
+    logger.warning('Warning message')
+    logger.error('Error message')
+    logger.critical('Critical message')
+
+Log file
+~~~~~~~~
+
+Store logs into a file.
+
+.. code:: python
+
+    from alogs import get_logger
+
+    logger = get_logger('module_name', 'log_file.log')
+
+    logger.debug('Debug message')  # Debug messages *are not* logged into the file
+    logger.info('Info message')
+
+Disable existing loggers
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Prevent existing loggers to log.
+
+.. code:: python
+
+    from alogs import get_logger
+
+    logger = get_logger('module_name', disable_existing_loggers=True)
+
+    logger.debug('Debug message')
+
+Change default log level
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The default log level is DEBUG, but it can be changed:
+
+.. code:: python
+
+    from alogs import get_logger
+
+    logger = get_logger('module_name', root_level='warning')
+
+    logger.debug('Debug message')  # won't appear
+    logger.warning('Info message')
+
+Test
+----
+
+To test it just execute the ``test.py``:
+
+::
+
+    ~ python3 test.py
+
+You should see:
+
+::
+
+    *** Simple logs ***
+    DEBUG 2021-02-02 12:58:18,672 MainProcess:16581 test:test_simple_logs() test.py:7 [alogs] = Debug simple message
+    INFO 2021-02-02 12:58:18,672 MainProcess:16581 test:test_simple_logs() test.py:8 [alogs] = Info simple message
+    WARNING 2021-02-02 12:58:18,672 MainProcess:16581 test:test_simple_logs() test.py:9 [alogs] = Warning simple message
+    ERROR 2021-02-02 12:58:18,672 MainProcess:16581 test:test_simple_logs() test.py:10 [alogs] = Error simple message
+    CRITICAL 2021-02-02 12:58:18,672 MainProcess:16581 test:test_simple_logs() test.py:11 [alogs] = Critical simple message
+
+    *** Module logs ***
+    DEBUG 2021-02-02 12:58:18,672 MainProcess:16581 test:test_module_name_logs() test.py:16 [module_name] = Debug module message
+    INFO 2021-02-02 12:58:18,672 MainProcess:16581 test:test_module_name_logs() test.py:17 [module_name] = Info module message
+    WARNING 2021-02-02 12:58:18,673 MainProcess:16581 test:test_module_name_logs() test.py:18 [module_name] = Warning module message
+    ERROR 2021-02-02 12:58:18,673 MainProcess:16581 test:test_module_name_logs() test.py:19 [module_name] = Error module message
+    CRITICAL 2021-02-02 12:58:18,673 MainProcess:16581 test:test_module_name_logs() test.py:20 [module_name] = Critical module message
+
+    *** File logs ***
+    DEBUG 2021-02-02 12:58:18,673 MainProcess:16581 test:test_file_logs() test.py:25 [file_logs] = THIS MESSAGE SHOULD NOT APPEAR ON THE FILE
+    INFO 2021-02-02 12:58:18,673 MainProcess:16581 test:test_file_logs() test.py:26 [file_logs] = Info file message
+    WARNING 2021-02-02 12:58:18,715 MainProcess:16581 test:test_file_logs() test.py:27 [file_logs] = Warning file message
+    ERROR 2021-02-02 12:58:18,715 MainProcess:16581 test:test_file_logs() test.py:28 [file_logs] = Error file message
+    CRITICAL 2021-02-02 12:58:18,715 MainProcess:16581 test:test_file_logs() test.py:29 [file_logs] = Critical file message
+    * Logs written on file "test.log" *
+    INFO 02/Feb/2021:12:58:18 -0300 MainProcess:16581 test:test_file_logs() test.py:26 [file_logs] = Info file message
+    WARNING 02/Feb/2021:12:58:18 -0300 MainProcess:16581 test:test_file_logs() test.py:27 [file_logs] = Warning file message
+    ERROR 02/Feb/2021:12:58:18 -0300 MainProcess:16581 test:test_file_logs() test.py:28 [file_logs] = Error file message
+    CRITICAL 02/Feb/2021:12:58:18 -0300 MainProcess:16581 test:test_file_logs() test.py:29 [file_logs] = Critical file message
+
