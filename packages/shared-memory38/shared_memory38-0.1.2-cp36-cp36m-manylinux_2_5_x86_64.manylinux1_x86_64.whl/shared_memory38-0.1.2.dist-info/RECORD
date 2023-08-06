@@ -1,0 +1,11 @@
+shared_memory38-0.1.2.dist-info/RECORD,,
+shared_memory38-0.1.2.dist-info/WHEEL,sha256=bBmdhh4KM44HDQtPsbrP7tmiQ0S2cz9jhyNvU5xkdno,146
+shared_memory38-0.1.2.dist-info/METADATA,sha256=2Z-YVEBM54GzfFm3VzHUmNibFWkZv5RY_exQ16Bl2GU,878
+shared_memory38-0.1.2.dist-info/LICENSE,sha256=g7BC_H1qyg8Q1o5F76Vrm8ChSWYI5-dyj-CdGlNKBUo,2484
+shared_memory38-0.1.2.dist-info/top_level.txt,sha256=Bi8DSG0TzP3Nn_yzTFXFYHT0kH2ejTgVzHJZ1BGV7FU,14
+shared_memory/managers.py,sha256=8tIcFS7-TKtH2amizgriXeP_GOxKzMmUyQPv3Sk6nTA,7923
+shared_memory/__init__.py,sha256=PSTsuFUHmGJrMp62iKRPbFFSE4vQsZN0UQdPbx1pWjE,144
+shared_memory/_posixshmem.cpython-36m-x86_64-linux-gnu.so,sha256=QEZvdZj0QBJHqKZjkV05Zp5451hOJxEB0Q-9YQltdMU,26890
+shared_memory/shared_memory.py,sha256=aaCA7FRLL_sd9SvS8slCB70YPY-xAFEEL8kkNq8dQ2E,17468
+shared_memory/_version.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+shared_memory/resource_tracker.py,sha256=x24rurwiHZDODBjTTySmTzt6sAs-weJXMVts8dZhAL8,8645
