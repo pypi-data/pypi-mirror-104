@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: diamondback
+Version: 1.0.86
+Summary: Diamondback digital signal processing package.
+Home-page: https://github.com/larryturner/diamondback
+Author: Larry Turner
+Author-email: larry.turner@se.com
+License: BSD-3C.  © 2018 - 2021 Larry Turner, Schneider Electric Industries SAS. All rights reserved.
+Description: Diamondback is a package which provides Digital Signal Processing
+        ( DSP ) solutions, organized in the form of commons, filters,
+        interfaces, models, and transforms.
+        
+        Diamondback complements Artificial Intelligence ( AI ) frameworks, by
+        defining components which analyze, filter, extract, model, and transform
+        data into forms which are useful in applications including pattern
+        recognition, feature extraction, and optimization.
+        
+        Diamondback also facilitates classical signal processing solutions
+        including communications, modeling, signal identification and extraction,
+        and noise cancellation.
+        
+        
+Keywords: BSON,DSP,FFT,FIR,GZIP,IIR,JSON,PCA,PID,PSD,REST,adaptive,complex,derivative,diamondback,diversity,exponential,filter,fourier,frequency,goertzel,integral,jsonpickle,log,loguru,model,polynomial,polyphase,power,rate,requests,serial,transform,wavelet
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >= 3.6
+Provides-Extra: full
