@@ -1,0 +1,76 @@
+[tool.poetry]
+authors = ["duyixian <duyixian1234@qq.com>"]
+description = "another site generator"
+license = "MIT"
+name = "sitez"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+html-dsl = "^0.4.0"
+pydantic = "^1.8.1"
+python = "^3.8"
+toml = "^0.10.2"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b0"
+isort = "^5.8.0"
+mypy = "^0.812"
+pylint = "^2.8.2"
+pytest = "^6.2.4"
+pytest-cov = "^2.11.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool.poetry.scripts]
+sitez = 'sitez.__main__:run'
+
+[tool.pylint.master]
+job = 0
+suggestion-mode = "yes"
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pylint.basic]
+argument-naming-style = "any"
+attr-naming-style = "any"
+function-naming-style = "any"
+variable-naming-style = "any"
+
+[tool.pylint.message_control]
+disable = ["missing-docstring"]
+
+[tool.pylint.design]
+min-public-methods = 1
+
+[tool.pytest.ini_options]
+addopts = "-ra -svv --cov=sitez"
+minversion = "6.0"
+testpaths = [
+  "tests",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if __name__ == .__main__.:",
+  "def run()",
+]
+fail_under = 90.0
+omit = ['*/__main__.py']
+show_missing = true
+skip_covered = true
+skip_empty = true
+sort = "miss"
+
+[tool.coverage.path]
+source = "sitez"
+
+[tool.black]
+line-length = 120
