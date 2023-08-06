@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+easydubins/__init__.py
+easydubins/__main__.py
+easydubins/config.cfg
+easydubins/dubin_path.py
+easydubins.egg-info/PKG-INFO
+easydubins.egg-info/SOURCES.txt
+easydubins.egg-info/dependency_links.txt
+easydubins.egg-info/entry_points.txt
+easydubins.egg-info/requires.txt
+easydubins.egg-info/top_level.txt
