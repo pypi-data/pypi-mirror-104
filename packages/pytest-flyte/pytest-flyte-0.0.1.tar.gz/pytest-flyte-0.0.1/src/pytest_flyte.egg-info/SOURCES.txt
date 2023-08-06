@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+src/pytest_flyte/__init__.py
+src/pytest_flyte/plugin.py
+src/pytest_flyte.egg-info/PKG-INFO
+src/pytest_flyte.egg-info/SOURCES.txt
+src/pytest_flyte.egg-info/dependency_links.txt
+src/pytest_flyte.egg-info/entry_points.txt
+src/pytest_flyte.egg-info/requires.txt
+src/pytest_flyte.egg-info/top_level.txt
+src/pytest_flyte/docker/Dockerfile
+src/pytest_flyte/docker/flyte-entrypoint-override.sh
+src/pytest_flyte/templates/docker-compose.yaml.tmpl
+src/pytest_flyte/templates/kustomization.yaml.tmpl

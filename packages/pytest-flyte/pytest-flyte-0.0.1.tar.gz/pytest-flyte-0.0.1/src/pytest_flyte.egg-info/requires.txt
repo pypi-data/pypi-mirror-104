@@ -1,0 +1,5 @@
+docker-compose
+flytekit
+jinja2
+pytest
+pytest-docker
