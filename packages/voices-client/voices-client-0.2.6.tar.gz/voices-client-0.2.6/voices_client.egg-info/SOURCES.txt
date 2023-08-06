@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_voices.py
+voices/__init__.py
+voices/errors.py
+voices/logger.py
+voices/utils.py
+voices/validations.py
+voices/voices.py
+voices_client.egg-info/PKG-INFO
+voices_client.egg-info/SOURCES.txt
+voices_client.egg-info/dependency_links.txt
+voices_client.egg-info/top_level.txt
