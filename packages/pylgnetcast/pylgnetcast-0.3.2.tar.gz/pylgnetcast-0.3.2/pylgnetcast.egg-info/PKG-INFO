@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pylgnetcast
+Version: 0.3.2
+Summary: Client for the LG Smart TV running NetCast 3 or 4.
+Home-page: https://github.com/Drafteed/python-lgnetcast
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
