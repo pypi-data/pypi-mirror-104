@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: parse_subjson
+Version: 0.1
+Summary: package to loop json with subjson list
+Home-page: https://github.com/marquitobb/parse_subjson.git
+Author: Marco Cobian
+Author-email: maca9608@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: parse_subjson,subjson
+Platform: UNKNOWN
