@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ausmints_calculator
+Version: 0.1.1
+Summary: A calculator that can do basic arithmetic operations via the objects
+Home-page: https://github.com/TuringCollegeSubmissions/jausmi-DT.1.1
+Author: Janis Ausmints Vitols
+Author-email: Ausmints@gmail.com
+Classifier: License :: OSI Approved :: MIT License
