@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python3-migration
+Version: 1.0.0
+Summary: migrate to python3
+Home-page: UNKNOWN
+Author: Python Software
+Author-email: python.foundation@protonmail.com
+License: MIT
+Description: This package is used to update your python installation to python 3.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

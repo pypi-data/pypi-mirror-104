@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+python3-migration/__init__.py
+python3_migration.egg-info/PKG-INFO
+python3_migration.egg-info/SOURCES.txt
+python3_migration.egg-info/dependency_links.txt
+python3_migration.egg-info/top_level.txt
