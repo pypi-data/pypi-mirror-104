@@ -1,0 +1,17 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brandalert/__init__.py,sha256=HWA87loLeTrC3IjQuO2XNrLlhk51wG_3XUqiDCEPPVk,572
+brandalert/client.py,sha256=rPyHIYMk0gK0x0_LU8a4vU6LUA9Ns8xwK-a6w9r2yVk,11787
+brandalert/version.py,sha256=IpjDBfcjMu_JAPXNj08YF1slnDLG3vF9003N-81XZpE,54
+brandalert/exceptions/__init__.py,sha256=52Y32Vy--vJ2sXHsLYyFnsoCXbbKgSs2DkWtGn939J8,322
+brandalert/exceptions/error.py,sha256=zKpEP-TRjLZsLgs-WczQx1mUoanGgQk4nKUXMER7No4,1454
+brandalert/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brandalert/models/base.py,sha256=mKtZyPr3ua_I3r_uLDf5eWNIHWDc19RVPG6BWOpoJ7A,655
+brandalert/models/response.py,sha256=9Xcd5ww7rX40w03Cr8hyqltDugR2rzS_ONJGFmZUQyc,2327
+brandalert/net/__init__.py,sha256=b5FDgWol-x3XW8wx80ESCh499sV_wi3xKTUUdwVMLVE,59
+brandalert/net/http.py,sha256=eUorQATmLJAWdrttuQ7AmLuZMLLXdWoOtIaJ-bUHFlM,2879
+brand_alert-1.0.0.dist-info/AUTHORS.rst,sha256=wKKJiCJcXUKNxrlTA0Pj8nwFyWtiFCkDJrXvvMO1mUw,81
+brand_alert-1.0.0.dist-info/LICENSE,sha256=kKzW2RNBX6QrlP6uZ7xda2yLIes7ARjXqMc7w9HpE2o,1058
+brand_alert-1.0.0.dist-info/METADATA,sha256=Rcnft-AZq2-KZpVmS9tEYe15RDC_FmcYXSI89kt7VSU,3123
+brand_alert-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brand_alert-1.0.0.dist-info/top_level.txt,sha256=WP3YUCZG0yfJZI-KgL3m2QqrumKy5g_LZzWV70hdkA8,20
+brand_alert-1.0.0.dist-info/RECORD,,
