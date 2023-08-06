@@ -1,0 +1,11 @@
+cocanb/__init__.py,sha256=JsfTGql6LekOe28JyYQh_FkCXpPzwG4nBONYp330lFU,1358
+cocanb/cocanb_to_english.py,sha256=0tC0Zl-UxR6Dxg1gkWO2EHNRbwgT1sIbvAMZmR1BmvE,520
+cocanb/diacritics.py,sha256=OkZC5z7d4DoKnkAb19fYOdw9-OD-W6oV25DZ7Q4MWF0,2410
+cocanb/english_to_cocanb.py,sha256=iGXGabQ2uCd6VZwl8PaqhqKDhgP90zZQV572gKVdqMc,1128
+cocanb/quotes.py,sha256=TOTdcr6NRimdpptEI8eb1C4VKSJKgpupRBmS7y1o1Fk,345
+cocanb/sentences.py,sha256=y0mHgmptYpCnmRNPriEzOGF7Iy8u7WyzXxbr-n6gFvs,755
+cocanb/spaces.py,sha256=TxI3gwT5u9NPMpFP5gGDRxIdoaz3fn0gbnI1g9-qd-c,485
+cocanb-0.0.dist-info/METADATA,sha256=zjHeKBcoH-XJqjAa1kOS6I_H8tayGrUV2PK00L4sxiI,239
+cocanb-0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cocanb-0.0.dist-info/top_level.txt,sha256=wsdeKbBmLtTK6cHaKifE-N3-WzCGa0ayUA4b1PxcOpk,7
+cocanb-0.0.dist-info/RECORD,,
