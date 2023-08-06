@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aiosocketpool/__init__.py
+aiosocketpool/version.py
+aiosocketpool.egg-info/PKG-INFO
+aiosocketpool.egg-info/SOURCES.txt
+aiosocketpool.egg-info/dependency_links.txt
+aiosocketpool.egg-info/requires.txt
+aiosocketpool.egg-info/top_level.txt
