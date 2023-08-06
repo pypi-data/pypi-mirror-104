@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pymusicdl
+Version: 0.0.2
+Summary: Download spotify and youtube playlists!
+Home-page: https://github.com/insaiyancvk/pymusicdl/tree/pure-python
+Author: C Vamshi Krishna
+Author-email: cvamshik1@gmai.com
+License: MIT
+Keywords: spotify,youtube,music download,music,youtube download,spotify download
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pafy
+Requires-Dist: pytube
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: spotipy
+Requires-Dist: urllib3
+Requires-Dist: youtube-dl
+Requires-Dist: youtube-title-parse
+
+Download youtube playlist, spotify playlist/album or a single song.
+
+# Setup
+
+## Installation:
+
+```
+pip install pymusicdl
+```
+
+## Usage:
+```python
+from pymusicdl.musicDL import main
+
+main()
+```
+
+## Running the code:
+
+* Make a `musicdl.py` file and add the above code.
+
+* If you are on linux you can place that file in `~/.local/bin` and run `python3 musicdl.py` in terminal
+
+* And if you are on windows you can place the file in `C:/Program Files/Python3.x/Scripts` and run `py musicdl.py` in command prompt
+
+## Updating the package:
+```
+pip install pymusicdl -U
+```
+
+* or you can use `python3 -m pip install pymusicdl -U` if you are on linux
+
+* and `py -m pip install pymusicdl -U` if you are on windows
+
