@@ -1,0 +1,10 @@
+xchg/__init__.py,sha256=bxh6qko3hmi0FWMu-ghW4rOOV2WEcPn_FR6mCHf56qQ,65
+xchg/common.py,sha256=vQXLZAcR9q0BEM-_PqHLqXTBQLhkmhcovkhIeOtnQtU,1342
+xchg/download_candles.py,sha256=RCPiqadjZTraRl9RjajA-zKFSy8glIe75rx2qrujEcI,2363
+xchg/xchg.py,sha256=op78YHjdrBTASZA4emyv1I3Ylqt9NPgCXMhR8AKAL7o,9118
+xchg-6.0.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+xchg-6.0.0.dist-info/METADATA,sha256=Ex8GpYpzwWYWC81MNEWq_TqUBnpsEWmZxa_wVgPy_RI,4111
+xchg-6.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xchg-6.0.0.dist-info/entry_points.txt,sha256=nP3aWhr0LsNS2oI_nlG94C79EXelF1FKmLUezxD3Kzc,66
+xchg-6.0.0.dist-info/top_level.txt,sha256=KOucdHt1q1XrXNAzASR1cROC23B-6RhZrGygCIy1Nv8,5
+xchg-6.0.0.dist-info/RECORD,,
