@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: alpacloud
+Version: 0.1.0
+Summary: Metapackage for all my alpacloud tools
+Home-page: https://github.com/lilatomic/alpacloud
+Author: lilatomic
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: metapackage
+Platform: UNKNOWN
+Requires-Dist: alpacloud-ansible-builder (~=0.1.0)
+
+# Alpacloud
+
+Alpacloud is my little cloud. This repo contains the tools that I use for building it.
+
+## Tools
+
+- alpacloud-ansible-builder : a tool to automatically build and install Ansible Collections
+
+
