@@ -1,0 +1,3 @@
+[console_scripts]
+fastdbfs = fastdbfs.runner:run
+
