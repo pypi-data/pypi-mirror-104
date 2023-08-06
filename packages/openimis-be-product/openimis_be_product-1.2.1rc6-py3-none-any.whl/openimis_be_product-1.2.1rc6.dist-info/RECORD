@@ -1,0 +1,13 @@
+product/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+product/admin.py,sha256=ImQU7Q0SJNTigjgz1o6mizJwFEepZle5JSCBJXheLMw,29
+product/apps.py,sha256=9AakHQnB8XXVSaN6-YE-jO5sdXoA5b93TP5ujZVP05s,533
+product/models.py,sha256=5BaaVWXsKVFCDvQ6Z3g42q8n75ONjHcspe_EXstandk,17256
+product/schema.py,sha256=G0E1D7chmCZqTqYC4EI9BMF4c7KLZloCE84ddNgtVes,2248
+product/test_helpers.py,sha256=Ecy2jAaWAP2TeGRRMUDsq4Z_5niETfAFwlCf5mJfLkM,2149
+product/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+product/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+openimis_be_product-1.2.1rc6.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_product-1.2.1rc6.dist-info/METADATA,sha256=jdkEFusi6mhh1VoO05W-jf38b9T48KWUUCw1A9coGLs,785
+openimis_be_product-1.2.1rc6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+openimis_be_product-1.2.1rc6.dist-info/top_level.txt,sha256=FrxW_86o3e_ivgRQnhtrp6bWvCG39Mq7aKsxCtzKFTQ,8
+openimis_be_product-1.2.1rc6.dist-info/RECORD,,
