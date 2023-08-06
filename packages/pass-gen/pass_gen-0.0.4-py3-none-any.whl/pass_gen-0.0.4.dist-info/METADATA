@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pass-gen
+Version: 0.0.4
+Summary: Generate random password
+Home-page: https://github.com/Aionmone/pass_gen
+Author: Abdulrahman M. Zaky
+Author-email: aionmone14@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Aionmone/pass_gen/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# pass_gen
+Password generator
+
+## Installation
+Make sure you have installed [python](https://www.python.org/)
+
+```bash
+$ pip install -i https://test.pypi.org/simple pass-gen
+```
+
+## How to use?
+### cli
+You can quickly generate password by typing the following command on terminal
+
+```bash
+$ pass_gen
+```
+
+#### Options
+`-l`, `--length`  Determine password length _this should be between 8-16_ __Default 12__  
+`--help`  Show help and exit
+
+### Package
+You can import as package
+
+```python
+import pass_gen
+```
+
+#### Method
+
+`generate`  Generates random password
+
+#### Example
+
+```python
+import pass_gen
+
+password = pass_gen.generate()
+```
+
+
