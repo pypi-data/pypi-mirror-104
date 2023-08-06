@@ -1,0 +1,2 @@
+include template_nest/tests/*
+include template_nest/tests/templates/*
