@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+vdocipher.py.egg-info/PKG-INFO
+vdocipher.py.egg-info/SOURCES.txt
+vdocipher.py.egg-info/dependency_links.txt
+vdocipher.py.egg-info/requires.txt
+vdocipher.py.egg-info/top_level.txt
