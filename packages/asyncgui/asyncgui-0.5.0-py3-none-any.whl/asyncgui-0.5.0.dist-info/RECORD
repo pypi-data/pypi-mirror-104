@@ -1,0 +1,13 @@
+asyncgui/__init__.py,sha256=p9RRbWbbDLqdaoTa3TP8PG5jXe2c47xBlGdVIuH6CcM,47
+asyncgui/_core.py,sha256=PvWmyljwnzj5M3kbcYoNWZ9hbkVGFCUjktjr-Y22RBg,8099
+asyncgui/_multierror.py,sha256=pregYpsxs1ace5ZQVFK0ygPFCfqurcoLLg3sa1CgAs8,18210
+asyncgui/adaptor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncgui/adaptor/to_trio.py,sha256=mfJ8HkLAXxlB0A4QcXzOo039wvOX7D6YjG-d0V4CKqE,2452
+asyncgui/exceptions.py,sha256=-p99KwYZNrMe0hiPEv2_DIVuiy_A_M6oTG-b2Cz6jNs,496
+asyncgui/structured_concurrency.py,sha256=AnPzyLdHDcCqeQQ4Hy-rJQu_hab76AiwJu8HBJLWZ1E,9331
+asyncgui/testing/__init__.py,sha256=RHlHTTiSwY7U3gzSytFodbjcgzBX1a8_10cAgF5RQGg,26
+asyncgui/testing/_scheduler.py,sha256=3c0P602fSB8Vl91GeYqU3meyzgcztRUpnmG-FUafFpM,318
+asyncgui-0.5.0.dist-info/LICENSE,sha256=zdEfMrLu9-uJk1Y-D7fn_gqgODq71StrNs47LvNE5b0,1055
+asyncgui-0.5.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+asyncgui-0.5.0.dist-info/METADATA,sha256=Lna_Vn9J1CVBNKk-6TWLlK7vr_qRjYWBx2noC-ViIk4,1578
+asyncgui-0.5.0.dist-info/RECORD,,
