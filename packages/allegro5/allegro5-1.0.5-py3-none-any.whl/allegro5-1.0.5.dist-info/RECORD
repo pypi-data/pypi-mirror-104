@@ -1,0 +1,9 @@
+allegro5/__init__.py,sha256=-IZL7pGW0F6QM_DcuScAv5_7gj283yP7dlXm8gF1Ltg,98
+allegro5/allegro.py,sha256=bo-n_VHyNJ202auPbDDffwBtygK0iPwjTkjMlS5TNTo,110489
+allegro5/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allegro5/demo/pong.py,sha256=auWSuF_Zq3h-1TuiyH5m6qGSadkVM8Ve9QnVpx_1zic,10886
+allegro5-1.0.5.data/data/lib/site-packages/allegro5/demo/fixed_font.tga,sha256=Yi9C16hbzbWTTkZI89eme24gGgVxlG_a0Qk0tlaOzeU,25839
+allegro5-1.0.5.dist-info/METADATA,sha256=cj2JNo98Ym9dWz4CPSY-DajkeR4SjsuRCn-v08o9NRc,1341
+allegro5-1.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+allegro5-1.0.5.dist-info/top_level.txt,sha256=iFbN94pJMD3sGZNLlCElTMPvOJvL6KguH2cfm9l62Ns,9
+allegro5-1.0.5.dist-info/RECORD,,
