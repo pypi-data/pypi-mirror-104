@@ -1,0 +1,76 @@
+from typing import Any, Callable, Optional
+
+def export(func: Any): ...
+def ReadCommentsBilibili(text: Any, fontsize: Any) -> None: ...
+
+class AssText:
+    def __init__(self) -> None: ...
+    def WriteCommentBilibiliPositioned(self, c: Any, width: Any, height: Any, styleid: Any): ...
+    def WriteASSHead(self, width: Any, height: Any, fontface: Any, fontsize: Any, alpha: Any, styleid: Any) -> None: ...
+    def WriteComment(
+        self,
+        c: Any,
+        row: Any,
+        width: Any,
+        height: Any,
+        bottomReserved: Any,
+        fontsize: Any,
+        duration_marquee: Any,
+        duration_still: Any,
+        styleid: Any,
+    ) -> None: ...
+    def to_file(self, f: Any) -> None: ...
+    def to_string(self): ...
+
+def GetZoomFactor(SourceSize: Any, TargetSize: Any): ...
+def ConvertFlashRotation(rotY: Any, rotZ: Any, X: Any, Y: Any, width: Any, height: Any): ...
+def ProcessComments(
+    comments: Any,
+    width: Any,
+    height: Any,
+    bottomReserved: Any,
+    fontface: Any,
+    fontsize: Any,
+    alpha: Any,
+    duration_marquee: Any,
+    duration_still: Any,
+    filters_regex: Any,
+    reduced: Any,
+    progress_callback: Any,
+): ...
+def TestFreeRows(
+    rows: Any,
+    c: Any,
+    row: Any,
+    width: Any,
+    height: Any,
+    bottomReserved: Any,
+    duration_marquee: Any,
+    duration_still: Any,
+): ...
+def FindAlternativeRow(rows: Any, c: Any, height: Any, bottomReserved: Any): ...
+def MarkCommentRow(rows: Any, c: Any, row: Any) -> None: ...
+def ASSEscape(s: Any): ...
+def CalculateLength(s: Any): ...
+def ConvertTimestamp(timestamp: Any): ...
+def ConvertColor(RGB: Any, width: int = ..., height: int = ...): ...
+def ConvertType2(row: Any, height: Any, bottomReserved: Any): ...
+def FilterBadChars(string: Any): ...
+
+class safe_list(list):
+    def get(self, index: Any, default: Optional[Any] = ...): ...
+
+def Danmaku2ASS(
+    input_string: str,
+    stage_width: int,
+    stage_height: int,
+    reserve_blank: float = ...,
+    font_face: str = ...,
+    font_size: float = ...,
+    text_opacity: float = ...,
+    duration_marquee: float = ...,
+    duration_still: float = ...,
+    comment_filter: Optional[str] = ...,
+    is_reduce_comments: bool = ...,
+    progress_callback: Optional[Callable[..., None]] = ...,
+) -> str: ...
