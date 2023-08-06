@@ -1,0 +1,6 @@
+setup.py
+bufio/__init__.py
+bufio.egg-info/PKG-INFO
+bufio.egg-info/SOURCES.txt
+bufio.egg-info/dependency_links.txt
+bufio.egg-info/top_level.txt
