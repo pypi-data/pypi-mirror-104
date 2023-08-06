@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dogehouse
+Version: 3.0.0a1
+Summary: "Dogehouse's API wrapper for Python"
+Home-page: https://github.com/tusharsadhwani/dogehouse.py
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev

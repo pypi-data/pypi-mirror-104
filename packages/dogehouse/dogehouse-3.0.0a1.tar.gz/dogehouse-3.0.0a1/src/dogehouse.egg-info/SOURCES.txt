@@ -1,0 +1,14 @@
+LICENSE
+setup.cfg
+setup.py
+src/dogehouse/__init__.py
+src/dogehouse/entities.py
+src/dogehouse/events.py
+src/dogehouse/parsers.py
+src/dogehouse/py.typed
+src/dogehouse/util.py
+src/dogehouse.egg-info/PKG-INFO
+src/dogehouse.egg-info/SOURCES.txt
+src/dogehouse.egg-info/dependency_links.txt
+src/dogehouse.egg-info/requires.txt
+src/dogehouse.egg-info/top_level.txt
