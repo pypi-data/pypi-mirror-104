@@ -1,0 +1,3 @@
+[console_scripts]
+yaast = yaast:main
+
