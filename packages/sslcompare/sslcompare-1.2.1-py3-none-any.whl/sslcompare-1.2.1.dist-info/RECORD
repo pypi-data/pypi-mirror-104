@@ -1,0 +1,13 @@
+sslcompare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sslcompare/anssi.yaml,sha256=KKgftCem90blkyiruITpNcZS1wldxQHafY2yYTyaDm4,5743
+sslcompare/sslcompare.py,sha256=g0YilsoZ8rX5QzvK2_kfgF5jxzOYHxQaZf8dQDu4Hvk,3908
+sslcompare/testssl.sh/bin/openssl.Linux.i686,sha256=a7CPGPgZs_tywFy0MPYqsNMitEzlGDEzQcxsFqgJOiw,3424768
+sslcompare/testssl.sh/bin/openssl.Linux.x86_64,sha256=7U8Ny4ImNsC31RSHNHAP1c6ASuHK565bxAYLByiNg_s,4009248
+sslcompare/testssl.sh/etc/cipher-mapping.txt,sha256=UZjD6219YiFdKmxiJEqKgSCDL3sIAe5m0tW1fxQghAk,71005
+sslcompare/testssl.sh/etc/tls_data.txt,sha256=p9KvnrZ7aRXgg0PZL_TMzdlAHQrClnEVV_AiYB2ZhD0,26170
+sslcompare/testssl.sh/testssl.sh,sha256=CVe6jD1CBBpsV9CKoy2NBECsE3Zw_IDYp17Cz7P3Pzc,1132053
+sslcompare-1.2.1.dist-info/entry_points.txt,sha256=5mlmXkHhO-VpoC2TXItTiJe_7QZpXSL6ouL5v70JK4k,57
+sslcompare-1.2.1.dist-info/LICENSE,sha256=ZA2Q9u5AEkH_YoNNDRsz-DBJ6ZuL_foE7RsKFjXd4-c,18093
+sslcompare-1.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sslcompare-1.2.1.dist-info/METADATA,sha256=bE4fzJQH5r_eHuMjSapsM1DO_zSUflJM35qoY2zr2K4,417
+sslcompare-1.2.1.dist-info/RECORD,,
