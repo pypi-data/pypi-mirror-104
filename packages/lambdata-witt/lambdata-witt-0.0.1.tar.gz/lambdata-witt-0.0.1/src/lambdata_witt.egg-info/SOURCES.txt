@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lambdata-witt/__init__.py
+src/lambdata-witt/helper_functions.py
+src/lambdata_witt.egg-info/PKG-INFO
+src/lambdata_witt.egg-info/SOURCES.txt
+src/lambdata_witt.egg-info/dependency_links.txt
+src/lambdata_witt.egg-info/top_level.txt
