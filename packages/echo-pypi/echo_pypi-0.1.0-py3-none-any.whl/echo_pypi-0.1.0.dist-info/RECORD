@@ -1,0 +1,5 @@
+echo_pypi/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+echo_pypi/cli.py,sha256=dw2fRFE49NRHBEAnnVLF3FFIZzBT-xh11gGUufMB8bw,153
+echo_pypi-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+echo_pypi-0.1.0.dist-info/METADATA,sha256=z1CjWU_hAjpIhBMaxh269Lu7dccWmwBdTx47ZbRcotE,375
+echo_pypi-0.1.0.dist-info/RECORD,,
