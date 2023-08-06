@@ -1,0 +1,12 @@
+README.rst
+setup.py
+fortran_src/propagator_retard_123.f90
+fortran_src/slatec_minimal.f90
+pyGDM2_retard/__init__.py
+pyGDM2_retard/propagators_retarded.py
+pyGDM2_retard/propagators_retarded_fulleval.py
+pyGDM2_retard.egg-info/PKG-INFO
+pyGDM2_retard.egg-info/SOURCES.txt
+pyGDM2_retard.egg-info/dependency_links.txt
+pyGDM2_retard.egg-info/requires.txt
+pyGDM2_retard.egg-info/top_level.txt
