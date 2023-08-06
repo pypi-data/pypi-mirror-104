@@ -1,0 +1,94 @@
+2021-04-30 18:50:11,993 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-04-30 18:50:14,084 - __main__ - INFO - Remove device
+2021-04-30 18:50:20,859 - __main__ - INFO - Add device 8564:1000
+2021-04-30 18:50:20,916 - usbsecurity_monitor.linux - INFO - Unbind device 8564:1000
+2021-04-30 18:50:27,120 - __main__ - INFO - Remove device
+2021-04-30 18:51:02,482 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-04-30 18:51:07,809 - __main__ - INFO - Add device 8564:1000
+2021-04-30 18:51:07,831 - usbsecurity_monitor.linux - INFO - Unbind device 8564:1000
+2021-04-30 18:52:12,180 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-04-30 18:52:15,339 - __main__ - INFO - Remove device
+2021-04-30 18:52:15,353 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:52:15,484 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/0000:0000/ HTTP/1.1" 200 39
+2021-04-30 18:52:15,488 - __main__ - INFO - Unauthorized device
+2021-04-30 18:52:21,046 - __main__ - INFO - Add device 8564:1000
+2021-04-30 18:52:21,053 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:52:21,060 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/8564:1000/ HTTP/1.1" 200 71
+2021-04-30 18:52:21,062 - __main__ - ERROR - No session is open on the computer
+2021-04-30 18:52:21,095 - usbsecurity_monitor.linux - INFO - Unbind device 8564:1000
+2021-04-30 18:52:26,790 - __main__ - INFO - Remove device
+2021-04-30 18:52:26,797 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:52:26,806 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/0000:0000/ HTTP/1.1" 200 39
+2021-04-30 18:52:26,809 - __main__ - INFO - Unauthorized device
+2021-04-30 18:52:59,864 - __main__ - INFO - Add device 8564:1000
+2021-04-30 18:52:59,872 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:52:59,883 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/8564:1000/ HTTP/1.1" 200 38
+2021-04-30 18:52:59,885 - __main__ - INFO - The device with ID 8564:1000 has been authorized
+2021-04-30 18:53:09,443 - __main__ - INFO - Remove device
+2021-04-30 18:53:09,449 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:53:09,527 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/0000:0000/ HTTP/1.1" 200 39
+2021-04-30 18:53:09,531 - __main__ - INFO - Unauthorized device
+2021-04-30 18:53:13,576 - __main__ - INFO - Add device 8564:1000
+2021-04-30 18:53:13,584 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:53:13,590 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/8564:1000/ HTTP/1.1" 200 71
+2021-04-30 18:53:13,592 - __main__ - ERROR - No session is open on the computer
+2021-04-30 18:53:13,637 - usbsecurity_monitor.linux - INFO - Unbind device 8564:1000
+2021-04-30 18:53:24,074 - __main__ - INFO - Remove device
+2021-04-30 18:53:24,080 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-04-30 18:53:24,089 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/0000:0000/ HTTP/1.1" 200 39
+2021-04-30 18:53:24,091 - __main__ - INFO - Unauthorized device
+2021-05-04 12:48:55,219 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 12:50:48,610 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 12:51:45,154 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 12:56:08,040 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 12:59:46,929 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:00:58,012 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:02:27,413 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:03:01,224 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:03:28,542 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:04:20,367 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:04:40,825 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:05:20,413 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:05:39,249 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:06:41,339 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:06:55,494 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:09:15,328 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:09:32,579 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:10:13,990 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:13:38,092 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:13:50,791 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:14:27,500 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:14:39,839 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:15:12,668 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 13:23:56,598 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 15:46:21,538 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 15:46:25,070 - __main__ - INFO - Add device 058f:6387
+2021-05-04 15:46:25,116 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:46:25,168 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/058f:6387/ HTTP/1.1" 200 71
+2021-05-04 15:46:25,175 - __main__ - ERROR - No session is open on the computer
+2021-05-04 15:46:26,610 - usbsecurity_monitor.linux - INFO - Unbind device 058f:6387
+2021-05-04 15:47:16,501 - __main__ - ERROR - __str__ returned non-string (type NoneType)
+2021-05-04 15:47:16,503 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 15:47:35,360 - __main__ - INFO - Add device 058f:6387
+2021-05-04 15:47:35,370 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:47:35,398 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/058f:6387/ HTTP/1.1" 200 38
+2021-05-04 15:47:35,403 - __main__ - INFO - The device with ID 058f:6387 has been authorized
+2021-05-04 15:47:54,294 - __main__ - ERROR - __str__ returned non-string (type NoneType)
+2021-05-04 15:47:54,295 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 15:48:44,370 - __main__ - INFO - Add device 058f:6387
+2021-05-04 15:48:44,380 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:48:44,392 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/058f:6387/ HTTP/1.1" 200 38
+2021-05-04 15:48:44,394 - __main__ - INFO - The device with ID 058f:6387 has been authorized
+2021-05-04 15:51:45,749 - usbsecurity_monitor.linux - INFO - Listening to drive changes
+2021-05-04 15:51:50,415 - __main__ - INFO - Add device 058f:6387
+2021-05-04 15:51:50,474 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:51:50,487 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/058f:6387/ HTTP/1.1" 200 38
+2021-05-04 15:51:50,494 - __main__ - INFO - The device with ID 058f:6387 has been authorized
+2021-05-04 15:51:57,780 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:51:57,870 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/None:None/ HTTP/1.1" 200 39
+2021-05-04 15:52:39,917 - __main__ - INFO - Add device 058f:6387
+2021-05-04 15:52:39,927 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:52:39,936 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/add/058f:6387/ HTTP/1.1" 200 38
+2021-05-04 15:52:39,938 - __main__ - INFO - The device with ID 058f:6387 has been authorized
+2021-05-04 15:52:54,869 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8888
+2021-05-04 15:52:54,981 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8888 "GET /api/action/remove/None:None/ HTTP/1.1" 200 39
