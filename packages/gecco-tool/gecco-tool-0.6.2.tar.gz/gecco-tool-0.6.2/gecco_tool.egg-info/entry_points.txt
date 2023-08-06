@@ -1,0 +1,11 @@
+[console_scripts]
+gecco = gecco.cli:main
+
+[gecco.cli.commands]
+annotate = gecco.cli.commands.annotate:Annotate
+cv = gecco.cli.commands.cv:Cv [train]
+embed = gecco.cli.commands.embed:Embed [train]
+help = gecco.cli.commands.help:Help
+run = gecco.cli.commands.run:Run
+train = gecco.cli.commands.train:Train [train]
+
