@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Pyubiomes
+Version: 0.1.2
+Summary: a (probably bad wip) python wrapper for the C library Cubiomes
+Home-page: https://github.com/4gboframram/Pyubiomes
+Author: 4gboframram
+Author-email: <zachawesomeness411@gmail.com>
+License: UNKNOWN
+Description: # Pyubiomes, a Simple (wip) Python Wrapper For [Cubiomes by Cubitect](https://github.com/Cubitect/cubiomes)
+        ## Introduction
+        Pyubiomes is a (relatively) easy to use, easy to understand wrapper for the Cubiomes library. This project is still a wip, so please mention bugs/improvements. 
+        
+        This project's [code documentation](https://www.youtube.com/watch?v=dQw4w9WgXcQ) can be found on 
+        its [github repository](https://github.com/4gboframram/Pyubiomes)
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
