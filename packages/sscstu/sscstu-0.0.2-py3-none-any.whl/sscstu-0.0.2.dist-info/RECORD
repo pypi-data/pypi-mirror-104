@@ -1,0 +1,16 @@
+sscstu/__init__.py,sha256=EcB7JyKmpwvQAG62Ekz-3mu-an5CUo0MCEAjbnejMhc,41
+sscstu/transfer.py,sha256=hoCmsgk4ZLJ_XO4LfxWs744skM35Z2p0JjkUDlbOeCQ,1797
+sscstu/conversions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sscstu/core/__init__.py,sha256=1OtUMEQ9_sZJrZrb3mEEcdTA1TwhMNQ0d5rfE_vV4q0,35
+sscstu/core/exceptions.py,sha256=6KIswd2wIoDbLPCHjU3pQBZWVgSKwB31RP6mjC0BIMM,249
+sscstu/core/storage.py,sha256=Lqbt4pSg3PAGwDmxxmGy8QYw80mKk937gv8jJp3P1Hg,4898
+sscstu/storage/__init__.py,sha256=nGDmyojZJWzPUPADoOEMhaEtED_RNUCbx9gPJ3OBbes,25
+sscstu/storage/local.py,sha256=Ho5THb7R62ZOLOXHQalGcpkUVWfhs6sWyG9J_bjoB5A,5793
+sscstu/storage/s3.py,sha256=vRRtzgnZ_JlWN9AoPxYsFsKzDGUOy1b1DeNGr1-2hMg,8688
+sscstu/storage/s3storage.py,sha256=-vHHmkULwsuF9xEJrgSmcLTr3kFQ9YQQ4YJIPU-Avj8,3818
+sscstu/storage/storage.py,sha256=NxC_N7nq0g3ULS0WHXTj4ko1vMgstk-g7QN1hV6WKs0,3281
+sscstu-0.0.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+sscstu-0.0.2.dist-info/METADATA,sha256=Tux1YnVzvEJbHUJXQ92YQgq76c2Vd0DFidy8DTQyx8c,538
+sscstu-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sscstu-0.0.2.dist-info/top_level.txt,sha256=QflvkTtGEGJYF2HfkvQgIE4NKPO9-M9eMrq6CpOFuTo,7
+sscstu-0.0.2.dist-info/RECORD,,

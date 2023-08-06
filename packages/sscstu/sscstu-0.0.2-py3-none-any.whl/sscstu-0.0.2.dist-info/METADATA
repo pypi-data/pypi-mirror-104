@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sscstu
+Version: 0.0.2
+Summary: Super Simple Cloud Storage Transfer Utilities
+Home-page: https://github.com/16awala/py-sscstu
+Author: 16awala
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/16awala/py-sscstu/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# python-sscstu
+
+
