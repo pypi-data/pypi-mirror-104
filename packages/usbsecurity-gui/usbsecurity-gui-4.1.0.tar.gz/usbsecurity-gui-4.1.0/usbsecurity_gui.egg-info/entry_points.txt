@@ -1,0 +1,3 @@
+[console_scripts]
+usbsecurity-gui = usbsecurity_gui.gui:main
+

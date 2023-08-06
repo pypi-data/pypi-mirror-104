@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+usbsecurity_gui/__init__.py
+usbsecurity_gui/__version__.py
+usbsecurity_gui/gui.py
+usbsecurity_gui.egg-info/PKG-INFO
+usbsecurity_gui.egg-info/SOURCES.txt
+usbsecurity_gui.egg-info/dependency_links.txt
+usbsecurity_gui.egg-info/entry_points.txt
+usbsecurity_gui.egg-info/requires.txt
+usbsecurity_gui.egg-info/top_level.txt
+usbsecurity_gui.egg-info/zip-safe
+usbsecurity_gui/__pycache__/gui.cpython-36.pyc
