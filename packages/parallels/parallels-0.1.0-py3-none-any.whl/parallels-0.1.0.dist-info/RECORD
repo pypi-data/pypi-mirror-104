@@ -1,0 +1,11 @@
+parallels/__init__.py,sha256=kKkMACvTZA4zI_qemnNv7pszk_vsCbj_vqoqvyudNDQ,4
+parallels/concurrent.py,sha256=4GraEB99s3WqwPvPFgCe4cxwQD51mto9y3jzhOVwdks,1663
+parallels/dask_.py,sha256=XAr-isCHIiizPxg-jSaIUxnwYKA6MTIcjy1CccA0bvk,1913
+parallels/executor.py,sha256=DfaXRGNhC-zVpxslupTOkjxlwqw-s2cD5x5g2S1zP1Q,1200
+parallels/futures.py,sha256=uEwlcx3d9hIdolXe-LXcwdq5zhlmuThq_JhRsbxbwXU,1978
+parallels/ray_.py,sha256=NiGlUxfBhW9FwDko1BmOgajRG74ANXjos_0o_tCnqAc,1775
+parallels-0.1.0.dist-info/LICENSE,sha256=dOUin1hbrJnK2pg2HMJOIFC2c0VHyHpqk0KIeTYM8Jc,1522
+parallels-0.1.0.dist-info/METADATA,sha256=4-giU9GEbZ3yQavHudIfhoanY6V815rM9TqMKh-e9p0,2267
+parallels-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parallels-0.1.0.dist-info/top_level.txt,sha256=zmlM2we-XrsskP1lCqOb6GZX9v-kpm9_ibdMrlOnIFg,10
+parallels-0.1.0.dist-info/RECORD,,

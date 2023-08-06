@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: parallels
+Version: 0.1.0
+Summary: An asyncio API that mimics concurrent.futures, with support for task-graph executors
+Home-page: https://github.com/agoose77/parallels
+Author: Angus Hollands
+Author-email: goosey15@gmail.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/agoose77/parallels/issues
+Keywords: literate-programming,literary,notebook,dask,ray,parallel,concurrent-futures,executor
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# parallels
+Parallels is a [literary](https://github.com/agoose77/literary) powered library. 
+It provides an async API that mimics concurrent.futures, with support for task-graph executors.
+
+These notebooks can be viewed using [nbviewer](https://nbviewer.jupyter.org/github/agoose77/parallels/tree/main/) until the documentation generator is complete.
+
+## What?
+In Python there are several standard APIs for interacting with `executors`. AsyncIO has the `run_in_executor` API, `concurrent.futures` has the `Executor` API, and other
+libraries like Dask and Ray have equivalent approaches. `concurrent.futures` is often available within other libraries, but its reduced features-set prevents the underlying
+library from implementing useful optimisations like Dask's deferred computation or task graph building.
+
+Parallels implements a standard `Executor` interface which defines a synchronous `submit` method, and an asynchronous `retrieve` method. 
+These methods operate upon value-less `asyncio.Future` handles which yield `True` upon task success, and raise an `Exception` otherwise. 
+The Dask and Ray implementations accept these handles as arguments to future `submit()` calls, which can be used to build task graphs
+and avoid copying data to the local machine.
+
+
