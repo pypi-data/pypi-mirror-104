@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lazy-budget
+Version: 0.2.1
+Summary: .
+Home-page: https://gitlab.com/oleksandr.zelentsov/lazy-finance
+Author: Oleksandr Zelentsov
+Author-email: oleksandrzelentsov@gmail.com
+License: MIT
+Description: .
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Provides-Extra: tests_development
