@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: labascraper
+Version: 2.0.0
+Summary: Labascraper is a package for investing.com comment scraping
+Home-page: UNKNOWN
+Author: Kazım Anıl Aydın
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: scraper,investing.com,comments
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
