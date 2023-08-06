@@ -1,0 +1,6 @@
+qrcode
+pillow
+opencv-python
+pyscreenshot
+pyzbar
+pyperclip
