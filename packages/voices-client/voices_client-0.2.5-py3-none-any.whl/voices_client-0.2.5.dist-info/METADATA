@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: voices-client
+Version: 0.2.5
+Summary: Voices client
+Home-page: https://github.com/Fondeadora/voices-client.git
+Author: Fondeadora
+Author-email: tech@fondeadora.com
+License: UNKNOWN
+Keywords: client,voices,package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+[![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
+
+voices-client
+===========
+
+A library for accessing Voices for python.
+
+
+## Installation
+Use the package manager [pipenv](https://pypi.org/project/pipenv/2020.6.2/) to install.
+
+    pipenv install voices-client
+
+## Usage
+Use your own Voices credentials.
+* **user** - Voices user
+* **password** - Voices password
+
+```python
+from voices import Voices
+
+client = Voices(
+    user='user',
+    password='password',
+)
+```
+
+
+## Test
+Tested with [mamba](https://mamba-framework.readthedocs.io/en/latest/), install pipenv dev packages and then run tests.
+
+    pipenv install --dev
+    pipenv run make test
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
