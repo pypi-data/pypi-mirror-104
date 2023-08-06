@@ -1,0 +1,9 @@
+d8s_nlp/__init__.py,sha256=Yb4_k0TKQinjtotRW0qg6wdvLXTxBkYMO6VcmYI9qgg,119
+d8s_nlp/nlp.py,sha256=j_qPot0y2TgoDkFoXD-qrHFohQs-6eY3naPjIWxaysE,17034
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_nlp.py,sha256=3615yfoiUmSePqgzfZhJuHBrnUYvPVXxa0jiq5gAGng,8031
+d8s_nlp-0.1.2.dist-info/METADATA,sha256=3toI1xGJqT40X3G4DcLbAPhh4kDpRZ1YKOPGI5T60mo,2234
+d8s_nlp-0.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+d8s_nlp-0.1.2.dist-info/top_level.txt,sha256=dZqvMd6OueZ965IDjpjbarTAgK0-ZJrgKd0_HjX-i2o,14
+d8s_nlp-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+d8s_nlp-0.1.2.dist-info/RECORD,,
