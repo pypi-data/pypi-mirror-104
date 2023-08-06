@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v1.0.0
+------
+
+* Fix an issue where the json\_dumper didn't handle contexts correctly
