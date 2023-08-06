@@ -1,0 +1,3 @@
+[console_scripts]
+autoxtrabackup=mysql_autoxtrabackup.autoxtrabackup:all_procedure
+
