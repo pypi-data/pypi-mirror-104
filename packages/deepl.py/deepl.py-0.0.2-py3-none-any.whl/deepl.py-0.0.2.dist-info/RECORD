@@ -1,0 +1,8 @@
+deepl/__init__.py,sha256=ZpkWf3WZ_Zp6RYZcleSv2y5H4opEPqksqO9mBfeIP1c,493
+deepl/adapter.py,sha256=451j20ptEUPAPPRaCiHXzJJAPup51iC8xblC9Qwh6nE,2480
+deepl/enums.py,sha256=_99NJZ_sWVJkn5uezhOwboOKNxKFANpIQ6IlUBOZsNE,1399
+deepl/translator.py,sha256=0GJ3ekBqydltglb7RjRRN96Hx7XIAdkjeKzbPXAXfrw,898
+deepl.py-0.0.2.dist-info/METADATA,sha256=xYWmtTGvH_nc0PFq20fT4ZczGkG9nabO3Iz3c3peS24,1171
+deepl.py-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deepl.py-0.0.2.dist-info/top_level.txt,sha256=BkxZ1Mxwj0hAguuP4Ge0UeCrscI28xTT3spKtI3DkKs,6
+deepl.py-0.0.2.dist-info/RECORD,,
