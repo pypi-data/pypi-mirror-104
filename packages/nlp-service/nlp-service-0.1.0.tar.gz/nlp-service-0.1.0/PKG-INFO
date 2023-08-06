@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nlp-service
+Version: 0.1.0
+Summary: Microservice for NLP tasks using gRPC
+Home-page: http://recap.uni-trier.de
+License: Apache-2.0
+Author: Mirko Lenz
+Author-email: info@mirko-lenz.de
+Requires-Python: >=3.8,<3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: server
+Requires-Dist: arg-services (>=0.1.7,<0.2.0)
+Requires-Dist: gensim (>=4.0.1,<5.0.0); extra == "server"
+Requires-Dist: grpcio (>=1.32,<2.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: pyemd (>=0.5.1,<0.6.0); extra == "server"
+Requires-Dist: python-Levenshtein (>=0.12.2,<0.13.0); extra == "server"
+Requires-Dist: scipy (>=1.6.2,<2.0.0)
+Requires-Dist: sentence-transformers (>=1.0.4,<2.0.0); extra == "server"
+Requires-Dist: spacy (>=3.0.5,<4.0.0)
+Requires-Dist: tensorflow (>=2.4.1,<3.0.0); extra == "server"
+Requires-Dist: tensorflow-hub (>=0.11.0,<0.12.0); extra == "server"
+Requires-Dist: torch (>=1.8.1,<2.0.0); extra == "server"
+Requires-Dist: typer (>=0.3.2,<0.4.0); extra == "server"
+Project-URL: Repository, https://github.com/ReCAP-UTR/NLP
+Description-Content-Type: text/markdown
+
+# NLP Microservice
+
