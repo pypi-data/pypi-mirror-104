@@ -1,0 +1,9 @@
+README.md
+setup.py
+mopnette/__init__.py
+mopnette/mopnette.py
+mopnette.egg-info/PKG-INFO
+mopnette.egg-info/SOURCES.txt
+mopnette.egg-info/dependency_links.txt
+mopnette.egg-info/requires.txt
+mopnette.egg-info/top_level.txt
