@@ -1,0 +1,8 @@
+autocompile/__init__.py,sha256=UH1wqwQQT2HwMw7GGIEjxW3mcQzI2ExKsh6dql7ck6Q,12525
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=NnwrNaY5KF8FW9o30BgPygzU-bnX8Bhd5Tds-Ddbbvs,4893
+autocompile-0.1.0.dist-info/LICENSE,sha256=95_qN0T0wnTSTKnEtfWsqP1EXxRZ85rBsKFEXX94T28,1053
+autocompile-0.1.0.dist-info/METADATA,sha256=5V4dGbMX0k-AQPUu3Yu2Wct1QvWTegkuv4PlpNj2-8k,3729
+autocompile-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autocompile-0.1.0.dist-info/top_level.txt,sha256=ALuEBthEo7rhnJDN-zKNFJdoR3Qn1OLCwfJVTnAQV5M,18
+autocompile-0.1.0.dist-info/RECORD,,
