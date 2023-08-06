@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/remotedb/__init__.py
+src/remotedb/client.py
+src/remotedb/response.py
+src/remotedb.egg-info/PKG-INFO
+src/remotedb.egg-info/SOURCES.txt
+src/remotedb.egg-info/dependency_links.txt
+src/remotedb.egg-info/top_level.txt
