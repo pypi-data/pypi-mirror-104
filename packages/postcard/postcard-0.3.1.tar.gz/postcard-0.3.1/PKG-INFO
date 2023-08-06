@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: postcard
+Version: 0.3.1
+Summary: A POP3/IMAP/SMTP client.
+Home-page: https://leesoar.com
+Author: leesoar
+Author-email: secure@tom.com
+License: MIT
+Description: 
+        ## Postcard
+        
+        POP3/IMAP/SMTP client and more!
+        
+        Thanks for use.
+        
+        
+        ## How to use
+        ### POP3
+        #### For decorator
+        ```python
+        from postcard import Pop3
+        
+        pop = Pop3()
+        
+        @pop.process(user="xxx", pwd="xxx")
+        def get_content():
+            content = pop.retrieve()["content"]
+            print(content)
+        ```
+        
+        
+        #### For usual
+        ```python
+        from postcard import Pop3
+        
+        pop = Pop3()
+        
+        pop.login(user="xxx", pwd="xxx")
+        ...
+        pop.close()
+        ```
+        
+        
+        ### SMTP
+        ```python
+        from postcard import Smtp
+        
+        smtp = Smtp()
+        
+        @smtp.process(user="xxx", pwd="xxx")
+        def send():
+            ret = smtp.send_mail(subject="xx", content="xx", receiver="xx")
+            print(ret)
+        ```
+        
+        
+        ### IMAP
+        ```python
+        from postcard import Imap
+        
+        imap = Imap()
+        
+        @imap.process(user="xxx", pwd="xxx")
+        def get_content():
+            content = imap.retrieve()["content"]   # If you want to mark as read, please set readonly to False.
+            print(content)
+        ```
+Keywords: mail,email,postal,postcard,mailbox,postbox
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.3.0
+Description-Content-Type: text/markdown
