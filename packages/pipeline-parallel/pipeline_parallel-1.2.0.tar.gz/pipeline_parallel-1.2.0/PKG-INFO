@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pipeline_parallel
+Version: 1.2.0
+Summary: "Pipeline parallel wrapper originally designed for JWST pipeline"
+Home-page: https://gitlab.com/jwst_fr/pipeline_parallel
+Author: "Christophe Cossou"
+Author-email: "christophe.cossou@cea.fr"
+License: UNKNOWN
+Description: UNKNOWN
+Platform: ["Linux"
+Platform: "Mac OS X"]
+Requires-Python: >=3.7
