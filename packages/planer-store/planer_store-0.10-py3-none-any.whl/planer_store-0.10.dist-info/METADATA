@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: planer-store
+Version: 0.10
+Summary: toolbox of planer
+Home-page: https://github.com/Image-Py/planer-store
+Author: Y.Dong, YXDragon
+Author-email: yxdragon@imagepy.org
+License: BSD 3-clause
+Platform: UNKNOWN
+Requires-Dist: planer
+
+Some useful models based on planer
+
+
