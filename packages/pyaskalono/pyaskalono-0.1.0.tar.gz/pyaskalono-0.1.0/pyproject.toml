@@ -1,0 +1,14 @@
+[build-system]
+build-backend = "maturin"
+requires = ["maturin>=0.10,<0.11"]
+
+[package.metadata.maturin]
+classifiers = [
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+]
+description = "Python bindings for askalono - rust library to detect license texts"
+url = "https://github.com/kumekay/pyaskalono"
