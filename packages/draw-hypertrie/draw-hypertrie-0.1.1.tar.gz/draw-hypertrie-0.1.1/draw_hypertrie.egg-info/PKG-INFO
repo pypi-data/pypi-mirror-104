@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: draw-hypertrie
+Version: 0.1.1
+Summary: A tool to print hypertrie.
+Home-page: https://github.com/dice-group/print_hypertrie
+Author: Alexander Bigerl
+Author-email: info@dice-research.org
+License: AGPL v3
+Description: # Drawing Hypertrie 
+        
+        Small tool to draw hypertrie nodes.
+        
+        ## Tools
+        
+        - `draw_hpertrie2`: Draws a depth-3 hypertrie from a TSV file of integer triples.
+        
+        ## Install
+        
+        From git repository:
+        ```
+        git clone https://github.com/dice-group/draw-hypertrie.git
+        cd sparql-query-tools
+        pip install .
+        ```
+        
+        or with pip from PyPI:
+        ```
+        pip install draw-hypertrie
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
