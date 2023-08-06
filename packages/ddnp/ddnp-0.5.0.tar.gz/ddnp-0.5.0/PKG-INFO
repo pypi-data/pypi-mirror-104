@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ddnp
+Version: 0.5.0
+Summary: Docker Data Network Proxy
+Home-page: https://github.com/al-niessner/DCP
+Author: Al Niessner
+Author-email: Al.Niessner@jpl.nasa.gov
+License: see LICENSE file for details
+Description: # DDNP: Docker Data Network Proxy
+        
+        Utility for providing data from the build host to the build process container.
+        
+Keywords: adaptive pipeline
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Free To Use But Restricted
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
