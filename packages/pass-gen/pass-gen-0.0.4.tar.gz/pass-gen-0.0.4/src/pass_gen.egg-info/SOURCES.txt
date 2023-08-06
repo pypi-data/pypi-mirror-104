@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pass_gen/__init__.py
+src/pass_gen/cli.py
+src/pass_gen.egg-info/PKG-INFO
+src/pass_gen.egg-info/SOURCES.txt
+src/pass_gen.egg-info/dependency_links.txt
+src/pass_gen.egg-info/entry_points.txt
+src/pass_gen.egg-info/requires.txt
+src/pass_gen.egg-info/top_level.txt
