@@ -1,0 +1,9 @@
+vpic/__init__.py,sha256=QozFaY680RTTZX4t_Jtlgq7CeOFv7_8HRVexkli1Hds,57
+vpic/client.py,sha256=zDUh84elafkstUP4ikpZQBhjeDD9qn_YDC5R0SOVWWg,26476
+vpic/exceptions.py,sha256=C-XnG1ytUi9ZaiWVmP1DGxyfCphLmRQqp9YqlWBWMVs,1316
+vpic/session.py,sha256=m7OPMc5EF3W9P6pWUf_uqdcXg0rsENr085QRtmLJp9A,426
+vpic/utils.py,sha256=WphCTRLNkWuOYr5t3DPF9RbxfdT9CdwmWqLI0GFJq6U,910
+vpic_api-0.1.0.dist-info/LICENSE,sha256=YAuzgMvhdYsUvLdIluNoLfMoPzzYbjcWybrJDqPzywQ,1070
+vpic_api-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vpic_api-0.1.0.dist-info/METADATA,sha256=zy8f8CyBTBHPIMY6jnSpQCbRNI2OnGfiNyFRG3KJ2zs,1772
+vpic_api-0.1.0.dist-info/RECORD,,
