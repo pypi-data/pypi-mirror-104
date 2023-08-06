@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: activelearner
+Version: 0.1.0
+Summary: This is a library to use Active Learning in Text Classification and Topic Modeling.
+Home-page: https://github.com/ArshadSameemdeen/Text-Classification-Topic-Modeling-Active-Learner
+Author: Arshad Sameemdeen
+Author-email: arshadsameemdeen@gmail.com
+License: MIT
+Keywords: active learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Active Learner
+
+A Python package which will do Active Learning process to determine whether to use Text Classification or Topic Modeling. For Usage of this package, you need to consist of a dataset which has folders to represent the classes for Text Classification, and contain text files in each class folders.
+
+## Usage
+
+### Example
+
+Following query will allow to find thresholds for the classes available in the dataset. In which `directory` is the directory of your dataset, and `file` is the name of the file needed to find similarity.
+
+```
+from activelearner import similarity
+from activelearner import threshold
+
+threshold = threshold(directory)
+similarity = similarity(file, directory,threshold)
+```
+
+
