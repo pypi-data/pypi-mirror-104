@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: django-Admincustom
+Version: 0.0.1
+Summary: Custom Admin Dashboard Interface
+Home-page: UNKNOWN
+Author: Jannat Ferdousey Tuba
+Author-email: jannatferdouseytuba@gmail.com
+License: MIT
+Keywords: django,admin
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+==============================
+Django Custom Admin Dashboard 
+==============================
+
+Django Custom Admin Dashboard is a Django app which is basically an overridden django default admin interface.
+
+Quick start
+-----------
+
+1. Add "customAdmin" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+
+        'customAdmin',
+        ...
+    ]
+
+2. Start the development server and visit http://127.0.0.1:8000/admin/
+   to experience the interface.
+
+
+

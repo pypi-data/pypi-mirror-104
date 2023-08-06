@@ -1,0 +1,14 @@
+customAdmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+customAdmin/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+customAdmin/apps.py,sha256=tQz-5rkbUOWExATsCdXzueCn3uNm1HvR57x28okCgPI,102
+customAdmin/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+customAdmin/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+customAdmin/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+customAdmin/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+customAdmin/templates/admin/base_site.html,sha256=2_CAFsyNgt_t93gOA5U3c2CVNlSKoZUjul0mB5j7rb8,4438
+customAdmin/templates/admin/login.html,sha256=nBddwGvjTDaD0Xr3TbBUXoQ7I4jsiik67VDZhNxd74w,511
+django_Admincustom-0.0.1.dist-info/LICENSE,sha256=H0XNUUVQ7vqZKCa5w0PWFhx56DKZv1vL16dPr020JR0,1097
+django_Admincustom-0.0.1.dist-info/METADATA,sha256=8YistdhmJR10A11WkeceK4REYfGt0x6i-aAhgGNmKh4,1058
+django_Admincustom-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_Admincustom-0.0.1.dist-info/top_level.txt,sha256=UrEua3CJc8uE1o7fCPDXaqiuuQ_IzmXsQS1R1IAXPkU,12
+django_Admincustom-0.0.1.dist-info/RECORD,,
