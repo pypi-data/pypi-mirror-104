@@ -1,0 +1,10 @@
+statsd_asgi/__init__.py,sha256=t_XWUJSaUYGnyk4xcTxG7qv0dBVZTdXVSmDvkYc4pmo,182
+statsd_asgi/_middlewares/__init__.py,sha256=ScbmMFZkQhniRB4mzuJ85QaAUHwKLZ4uiv5LhQdMEIU,153
+statsd_asgi/_middlewares/status_code.py,sha256=r6ha-vcnL6R53UDEOFCpwvgvpN-bpcNVxMgsAclmQ4E,3701
+statsd_asgi/_middlewares/timing.py,sha256=YrQ2lcwWGtlwqevne41rCiULP9IIZ5-PFk6YLCuZtNA,3884
+statsd_asgi/_utils/__init__.py,sha256=EKN8mJc16_JbFqfhAOZDOMJtgKyxUEMGFPhz6Wsxx-s,402
+statsd_asgi-0.1.0b1.dist-info/LICENSE,sha256=N7RfdoYoes8Ds04bcP6hvBTfM5LfYNh0gCzttGXJBAg,1063
+statsd_asgi-0.1.0b1.dist-info/METADATA,sha256=-z8Q8qxApVgh5waMm2iEGYze2acEFVVKQ1yg5HbyYuU,3043
+statsd_asgi-0.1.0b1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+statsd_asgi-0.1.0b1.dist-info/top_level.txt,sha256=R51Ux0yfr4JZwvnpa7PNAeXInQ46AbCFsNUoeJbSuxI,12
+statsd_asgi-0.1.0b1.dist-info/RECORD,,
