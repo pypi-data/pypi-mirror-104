@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/azure_integration.egg-info/PKG-INFO
+src/azure_integration.egg-info/SOURCES.txt
+src/azure_integration.egg-info/dependency_links.txt
+src/azure_integration.egg-info/requires.txt
+src/azure_integration.egg-info/top_level.txt
+src/dtrg_specified/__init__.py
+src/keyvault/__init__.py
