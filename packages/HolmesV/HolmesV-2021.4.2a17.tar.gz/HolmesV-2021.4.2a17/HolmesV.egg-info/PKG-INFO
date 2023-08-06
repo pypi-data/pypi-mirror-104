@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: HolmesV
+Version: 2021.4.2a17
+Summary: Mycroft packaged as a library
+Home-page: https://github.com/HelloChatterbox/mycroft-lib
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: lingua_franca
+Provides-Extra: lingua_nostra
+Provides-Extra: bus
+Provides-Extra: enclosure
+Provides-Extra: skills_minimal
+Provides-Extra: skills
+Provides-Extra: stt
+Provides-Extra: mark1
+Provides-Extra: audio
+Provides-Extra: audio_engines
+Provides-Extra: stt_engines
+Provides-Extra: tts_engines
+Provides-Extra: all
