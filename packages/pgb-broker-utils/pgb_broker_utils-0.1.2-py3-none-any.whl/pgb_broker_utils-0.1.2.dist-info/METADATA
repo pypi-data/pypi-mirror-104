@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pgb-broker-utils
+Version: 0.1.2
+Summary: Tools used by the Pitt-Google astronomical alert broker.
+Home-page: https://github.com/mwvgroup/Pitt-Google-Broker
+Author: Troy Raen
+Author-email: troy.raen@pitt.edu
+License: UNKNOWN
+Keywords: astronomy,alert broker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Requires-Dist: apache-beam[gcp] (==2.25.0)
+Requires-Dist: fastavro
+Requires-Dist: google-cloud-storage (==1.38.0)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: typing
+
+# `pgb_broker_utils`
+
+- `pip install pgb_broker_utils`
+- `import broker_utils`
+
+
