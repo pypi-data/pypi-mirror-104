@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+saumyash.egg-info/PKG-INFO
+saumyash.egg-info/SOURCES.txt
+saumyash.egg-info/dependency_links.txt
+saumyash.egg-info/requires.txt
+saumyash.egg-info/top_level.txt
+script/__init__.py
