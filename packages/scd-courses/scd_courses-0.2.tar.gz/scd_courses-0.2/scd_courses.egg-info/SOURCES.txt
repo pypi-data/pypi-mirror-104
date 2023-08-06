@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+scd_courses/__init__.py
+scd_courses/dollar.py
+scd_courses/euro.py
+scd_courses.egg-info/PKG-INFO
+scd_courses.egg-info/SOURCES.txt
+scd_courses.egg-info/dependency_links.txt
+scd_courses.egg-info/not-zip-safe
+scd_courses.egg-info/requires.txt
+scd_courses.egg-info/top_level.txt
