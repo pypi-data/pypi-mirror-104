@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: PREFS
+Version: 0.0.2
+Summary: A simple program that creates, read and write prefs
+Home-page: UNKNOWN
+Author: Cristobal Riaga
+Author-email: cristobalriaga@gmail.com
+License: MIT
+Description: This is a very simple library that creates, write and read prefs (file for store information that don't be lost when program ends)
+        
+        Change Log
+        ==========
+        
+        0.001 (01/05/2021)
+        -------------------
+        - First Release
+        
+        0.002 (01/05/2021)
+        -------------------
+        - Name change
+        
+Keywords: prefs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,1 @@
+This is a very simple library that creates, write and read prefs (file for store information that don't be lost when program ends)
