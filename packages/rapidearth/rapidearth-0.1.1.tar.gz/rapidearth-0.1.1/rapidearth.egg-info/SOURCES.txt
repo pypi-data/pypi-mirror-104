@@ -1,0 +1,8 @@
+README.rst
+setup.py
+rapidearth/__init__.py
+rapidearth/__main__.py
+rapidearth.egg-info/PKG-INFO
+rapidearth.egg-info/SOURCES.txt
+rapidearth.egg-info/dependency_links.txt
+rapidearth.egg-info/top_level.txt
