@@ -1,0 +1,14 @@
+{% extends '_layouts/blank.j2' %}
+
+{% block app_layout %}
+  <page-toolbar></page-toolbar>
+  {{ super () }}
+   <el-footer>
+    <page-footer></page-footer>
+  </el-footer>
+{% endblock %}
+
+{% block vue_components %}
+  {{ component (context.get ('footer', 'include/page-footer.vue')) }}
+  {{ component (context.get ('toolbar', 'include/page-toolbar.vue')) }}
+{% endblock %}

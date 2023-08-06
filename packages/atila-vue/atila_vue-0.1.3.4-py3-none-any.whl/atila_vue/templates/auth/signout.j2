@@ -1,0 +1,39 @@
+{% extends 'auth/layout.j2' %}
+
+{% block body_trailer %}
+  {% if 'firebaseConfig' in was.app.config.FRONTEND %}
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script>
+      localStorage.removeItem ('refresh_token')
+      localStorage.removeItem ('access_token')
+
+      var firebaseConfig = {{ app.config.FRONTEND.firebaseConfig | tojson }}
+      async function signOut () {
+        firebase.auth().onAuthStateChanged (async (user) => {
+          if (user) {
+            try {
+              await firebase.auth().signOut()
+              console.log ('Sign Out')
+            } catch (error) {
+              console.log ('Sign Out')
+            }
+            location.href = "{{ context.next_url }}"
+          } else {
+            console.log ('Not Sign In')
+            location.href = "{{ context.next_url }}"
+          }
+        })
+      }
+      firebase.initializeApp(firebaseConfig)
+      signOut ()
+      localStorage.clear ()
+      sessionStorage.clear ()
+    </script>
+  {% else %}
+    <script>
+      location.href = "{{ context.next_url }}"
+    </script>
+  {% endif %}
+
+{% endblock %}
