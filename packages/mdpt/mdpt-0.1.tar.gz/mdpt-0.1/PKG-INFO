@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mdpt
+Version: 0.1
+Summary: protocol
+Home-page: https://github.com/6d6b31/mdpt/
+Author: 6d6b
+Author-email: 6d6b31@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/6d6b31/mdpt/issues
+Description: **mdmt**\
+        is a protocol for data transfer
+        
+        project include:\
+        _ request generator\
+        _ request parser\
+        _ simple socket server / client
+        
+        \
+        \
+        request:
+        
+            mdpt/0.1
+            length: ##
+            ##meta##
+            
+            -
+            ##data##
+        
+        \
+        \
+        generating:
+        
+            mdpt(meta).g(data)
+        \
+        parsing data:
+        
+            mdpt().u(pkg)
+        \
+        parsing metadata:
+        
+            mdpt().m(pkg)
+        \
+        parsing data length:
+        
+            mdpt().l(pkg, include_meta, minus)
+        include_meta: bool if True returns length with metadata
+        minus: int subtracts minus value
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

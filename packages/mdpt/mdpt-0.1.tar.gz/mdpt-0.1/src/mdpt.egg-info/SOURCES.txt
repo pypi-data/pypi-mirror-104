@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+src/mdpt/__init__.py
+src/mdpt.egg-info/PKG-INFO
+src/mdpt.egg-info/SOURCES.txt
+src/mdpt.egg-info/dependency_links.txt
+src/mdpt.egg-info/top_level.txt
