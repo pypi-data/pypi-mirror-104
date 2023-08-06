@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+grpc_csds.egg-info/PKG-INFO
+grpc_csds.egg-info/SOURCES.txt
+grpc_csds.egg-info/dependency_links.txt
+grpc_csds.egg-info/top_level.txt
