@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: glasswall-visual-layer-comparison-tool-cli
+Version: 1.0.0
+Summary: CLI Tool that makes requests to the glasswall-visual-layer-comparison API
+Home-page: https://github.com/filetrust/glasswall-visual-layer-comparison-tool-cli
+Author: ahewitt
+Author-email: ahewitt@glasswallsolutions.com
+License: UNKNOWN
+Description: # glasswall-visual-layer-comparison-tool-cli
+        CLI Tool that makes requests to the glasswall-visual-layer-comparison API
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
