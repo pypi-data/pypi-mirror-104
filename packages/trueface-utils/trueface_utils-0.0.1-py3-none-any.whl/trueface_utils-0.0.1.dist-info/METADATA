@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: trueface-utils
+Version: 0.0.1
+Summary: Trueface utils package
+Home-page: https://docs.trueface.ai
+Author: Trueface
+Author-email: support@trueface.ai
+License: UNKNOWN
+Project-URL: Bug Tracker, https://support.trueface.ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Trueface SDK
+
+

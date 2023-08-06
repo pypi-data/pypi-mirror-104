@@ -1,0 +1,13 @@
+trueface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trueface/server.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trueface/tfsdk.cpython-36m-x86_64-linux-gnu.so,sha256=N6U7CfIZAxxGGMExMWlN8M1sMRFmwI2eaV-yV6cGKEI,33862536
+trueface/tracking.py,sha256=s31OanrW3P8EFVOnPby6YEnKGqzAf59n914SHvpYfio,18236
+trueface-utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trueface-utils/server.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trueface-utils/tracking.py,sha256=s31OanrW3P8EFVOnPby6YEnKGqzAf59n914SHvpYfio,18236
+trueface_utils-0.0.1.dist-info/DESCRIPTION.rst,sha256=n6UBIIyDRcXEs7kPAZf_A4TEPOMSZGfUcEmcO-WHw44,15
+trueface_utils-0.0.1.dist-info/METADATA,sha256=tHao7c9Blf_cnr1pLCzCqcCE2050nMNSEQIzt0jihEk,370
+trueface_utils-0.0.1.dist-info/RECORD,,
+trueface_utils-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+trueface_utils-0.0.1.dist-info/metadata.json,sha256=8SuZBWO9L_F_iwxYK-LCR2--5Dpz0Nr9edMwD3Uy77o,537
+trueface_utils-0.0.1.dist-info/top_level.txt,sha256=zBkb8GJ4EJDAOndrKbCmawp7NdcFAX5TqIQALgva_kk,15
