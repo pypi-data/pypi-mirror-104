@@ -1,0 +1,13 @@
+treeshake/__init__.cpython-39-darwin.so,sha256=A74pb0JdvCCY-dfyQL4MDWWnCB98fieGEEiD82-Pf14,56768
+treeshake/__init__.py,sha256=ALrbSqjknkl-VoFxRJUU594AlKuN_a1m-78LhmyeeZo,36
+treeshake/__main__.py,sha256=z1L7Stw_1uMdUTZLuqd6w5UrHl7KJ9oXDnka7ft2hOg,2801
+treeshake/shake.cpython-39-darwin.so,sha256=1SzqV2JuPfbbHeOhqzFJkGHDW7VrZzP_A_ZhKzK8L_A,127896
+treeshake/shaker.cpython-39-darwin.so,sha256=Ok4RBAZmgg0NwVxnppPk4UBjSx_Tpy3tp8xbAsz9B_M,129152
+treeshake/stylesheet.cpython-39-darwin.so,sha256=FEhBIKsIRJa9YX2AJIKC5ndZ8tgf-n7SI6K5xP97hC4,106824
+treeshake/test.py,sha256=JvvKgaGP-9J3Z3xzLtkkCfEv2i5_7k9iG-3VQsH3zwI,195
+treeshake-0.2.4.dist-info/LICENSE.md,sha256=rh59qzAM1kt_6BHJ_fPc_bItiyxb-BeZqZCKU0ZPjAw,1068
+treeshake-0.2.4.dist-info/METADATA,sha256=kfTa4DtPUrw_Gr800LboYzqsWOqAwaPybze9bgzxTgY,2850
+treeshake-0.2.4.dist-info/WHEEL,sha256=xtefXou5QCWCZW0FXQMA4tiilsZ3Oa5LqOk3i-xYBVA,109
+treeshake-0.2.4.dist-info/entry_points.txt,sha256=lHWntKTMiuxAS3Yz02l2ltJ5g8lZwuZB0kRuUyycblA,51
+treeshake-0.2.4.dist-info/top_level.txt,sha256=XHQQuk2KcExj8HN9rCbNkwMoCAK8-dF9pHYByWCMKMA,10
+treeshake-0.2.4.dist-info/RECORD,,
