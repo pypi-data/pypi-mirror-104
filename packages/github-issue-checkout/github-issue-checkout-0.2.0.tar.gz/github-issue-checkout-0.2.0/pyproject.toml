@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "github-issue-checkout"
+version = "0.2.0"
+description = ""
+authors = ["Karim Stekelenburg <karim@animo.id>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+inquirer = "^2.7.0"
+setuptools = "^56.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+github-issue-checkout = "github_issue_checkout:main"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
