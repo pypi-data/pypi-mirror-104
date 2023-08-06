@@ -1,0 +1,10 @@
+aws_custom_ews_kafka_resources/__init__.py,sha256=ORSGhZ_uFYsoMCo5Vj3VP_lOUuYXDCkckJEfzi_ymFA,652
+aws_custom_ews_kafka_resources/custom.py,sha256=naqLJZBMHFne_Rfe1EyD85hdWe7ArkJPohsFJQxMjEE,1886
+aws_custom_ews_kafka_resources/resource.py,sha256=logoUIwFpwSbFLfBLWg2YZVXiON29MfaY6YFxfyZ7aw,1746
+aws_custom_ews_kafka_resources-0.0.7.dist-info/AUTHORS.rst,sha256=OLBMQIqleLgDI79xG3pr6H8KKRAl6hdbi5l2p7GFMb8,96
+aws_custom_ews_kafka_resources-0.0.7.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+aws_custom_ews_kafka_resources-0.0.7.dist-info/METADATA,sha256=MohpgjsMtfe-mdp0iLKuTgE9OiHHayZ9IBFKRSkPft8,2522
+aws_custom_ews_kafka_resources-0.0.7.dist-info/NOTICES.rst,sha256=7mpvBWfi3AifExZdGcr0ekdoIDqT5jjRA39pOk-PGyU,365
+aws_custom_ews_kafka_resources-0.0.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aws_custom_ews_kafka_resources-0.0.7.dist-info/top_level.txt,sha256=fz4aLye3MXneXUBW2hpj4jGq64qy4I6CN3MNmpxGZXA,31
+aws_custom_ews_kafka_resources-0.0.7.dist-info/RECORD,,
