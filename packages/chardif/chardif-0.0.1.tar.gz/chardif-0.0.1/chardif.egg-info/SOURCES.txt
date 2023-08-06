@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+chardif/__init__.py
+chardif/_version.py
+chardif/core.py
+chardif.egg-info/PKG-INFO
+chardif.egg-info/SOURCES.txt
+chardif.egg-info/dependency_links.txt
+chardif.egg-info/requires.txt
+chardif.egg-info/top_level.txt
