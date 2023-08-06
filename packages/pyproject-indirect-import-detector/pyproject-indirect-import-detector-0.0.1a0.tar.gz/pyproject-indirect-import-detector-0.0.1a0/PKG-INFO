@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyproject-indirect-import-detector
+Version: 0.0.1a0
+Summary: 
+Author: keno
+Author-email: keno.ss57@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: result (>=0.6.0,<0.7.0)
+Requires-Dist: setuptools (>=56.0.0,<57.0.0)
+Requires-Dist: stdlib-list (>=0.8.0,<0.9.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
