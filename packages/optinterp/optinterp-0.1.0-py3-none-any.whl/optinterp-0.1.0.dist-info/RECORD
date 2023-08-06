@@ -1,0 +1,9 @@
+optinterp/__init__.py,sha256=c8cyVACEfaZGAFGYgzbLta4qAf1G916UXBGiDmZOef8,108
+optinterp/initial_guesses.py,sha256=K_egJjp7GNpOJRFTups3RL0EefymOEWcxzjDNRN668Y,496
+optinterp/node_finder.py,sha256=KxVk4RDHoYDoyw0FzkAdBJnn2jskqCKpyP1aarmvFlk,5185
+optinterp/solver.py,sha256=cwm6s0MJpjPbihkzzxxS0raenTXJECvIdRUFfYAU9kk,1413
+optinterp-0.1.0.dist-info/LICENSE.txt,sha256=Fz2kIn5097cFs3S6h45KJdbtijCeTFvaF_n7xwbsrTw,1089
+optinterp-0.1.0.dist-info/METADATA,sha256=XbNko5PH6b7r6Lj37GZXKrrptmWMF08Tb0ndwSDRn0s,2764
+optinterp-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+optinterp-0.1.0.dist-info/top_level.txt,sha256=YnzHTnVkABU2kf3EKQJ0N6qdZpwow3zdJW4Nj2Fr4To,10
+optinterp-0.1.0.dist-info/RECORD,,
