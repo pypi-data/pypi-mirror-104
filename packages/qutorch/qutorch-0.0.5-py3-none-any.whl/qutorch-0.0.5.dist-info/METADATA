@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: qutorch
+Version: 0.0.5
+Summary: Quantum circuit simulator based in PyTorch.
+Home-page: https://github.com/MarioDuran/qutorch
+Author: Mario Duran-Vega, Cuauhtemoc Suarez-Ramirez, Chris Mansell
+Author-email: mario.duran.vega@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Framework to simulate quantum circuits with PyTorch.
+
+# Description
+
+It consists of one main module:
+
+- `q_simulator`: main simulator to run quantum circuits
+
+
+# Installation
+
+## Normal installation
+
+```bash
+pip install qutorch
+```
+
+## Development installation
+
+```bash
+git clone https://github.com/MarioDuran/qutorch.git
+cd qutorch
+pip install --editable .
+```
+
