@@ -1,0 +1,12 @@
+koishi/__init__.py,sha256=aua5KMMhzbjoBDaTKgdUlRHYhDUv_JtKM42XUqcXoP0,5013
+koishi/contest.py,sha256=kZBLKmt-YhV5fyG6Ukk0PVhOv0Wsi-GlyjRzUpOuyNM,4236
+koishi/exceptions.py,sha256=9CMLhaw1taeSuIHaRoRnrlzNwyX-JM5QRuUNCOlJbC8,479
+koishi/models.py,sha256=MJ1CqTLSyLWhk-IpOJOFKb2C6-NBFVqsg4WxLjY-qkA,492
+koishi/problem.py,sha256=ma1BbPh0MnzYIC7-mnLb6nVKQbnwJ-oFOomjDfR9UGQ,2397
+koishi/result.py,sha256=DQyEOEEFKtKcFHAWe7ye6w2fPCzutEwq0-wpWcW_o_k,2195
+koishi/utils.py,sha256=dII39vjwuEX1fwlOnogjZGDSetco53oZjDWlTApGyb8,1412
+koishi-1.1.6.dist-info/LICENSE,sha256=e1cIKCR2Q25PijW7kgT5pG-boJhIvXFmpm3EfrEXLPs,1058
+koishi-1.1.6.dist-info/METADATA,sha256=ReM1UqQ_Vl9zmQzWthUZRg_UyyXb4YVExDfA12cYEds,5941
+koishi-1.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+koishi-1.1.6.dist-info/top_level.txt,sha256=UqV5cCoIbG85mh0uhEmnYsztfQrZ3BuN7mYoDgU0Bhs,7
+koishi-1.1.6.dist-info/RECORD,,
