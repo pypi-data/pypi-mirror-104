@@ -1,0 +1,13 @@
+README.md
+setup.py
+dashdash/__init__.py
+dashdash/magic.py
+dashdash.egg-info/PKG-INFO
+dashdash.egg-info/SOURCES.txt
+dashdash.egg-info/dependency_links.txt
+dashdash.egg-info/requires.txt
+dashdash.egg-info/top_level.txt
+tests/__init__.py
+tests/helpers.py
+tests/test_parser.py
+tests/test_run.py
