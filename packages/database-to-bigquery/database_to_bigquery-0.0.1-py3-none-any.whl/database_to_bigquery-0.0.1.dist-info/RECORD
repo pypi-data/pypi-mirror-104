@@ -1,0 +1,8 @@
+database_to_bigquery/__init__.py,sha256=KY-BANoSpDUIQzbAmPe35UQcq1-B8fRHkc5oW_BHxYo,104
+database_to_bigquery/base.py,sha256=8qsqmVD7gtHCixu-bPAgWvVz91MSjODcXXFSRyY3hnI,4230
+database_to_bigquery/sql_server.py,sha256=PcQS5_UFQUcEa5ei58OFlxRTmGYxg2EMMsbjNm3f0Xs,28729
+database_to_bigquery-0.0.1.dist-info/LICENSE,sha256=OQ3qpLa2nROOk_cvRkvemqd0akHMFNpZkPxgBVIfkxw,1069
+database_to_bigquery-0.0.1.dist-info/METADATA,sha256=g60iAOv8xyIK-_KDzRVSZ2gwLcGDxT6ZQ3sobZI62Ck,7626
+database_to_bigquery-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+database_to_bigquery-0.0.1.dist-info/top_level.txt,sha256=j43V4DKfXKzW4vMD7Xi6IrdyVqEBErwC7_k6JfqsecU,21
+database_to_bigquery-0.0.1.dist-info/RECORD,,
