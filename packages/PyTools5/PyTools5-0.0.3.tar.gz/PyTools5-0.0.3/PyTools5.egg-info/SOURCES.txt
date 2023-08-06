@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+PyTools5/__init__.py
+PyTools5.egg-info/PKG-INFO
+PyTools5.egg-info/SOURCES.txt
+PyTools5.egg-info/dependency_links.txt
+PyTools5.egg-info/requires.txt
+PyTools5.egg-info/top_level.txt
