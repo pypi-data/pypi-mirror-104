@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pkglic
+Version: 1.0
+Summary: Script to get the licenses of components used by js, py or c# apps.
+Home-page: UNKNOWN
+Author: Jesper Högström
+Author-email: jspr.hgstrm@gmail.com
+License: MIT
+Description: The purpose of this helper app is to make it fast and easy to get an understanding of which open source licenses you are using in your application.
+Keywords: license,package,javascript,python,csharp
+Platform: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
