@@ -1,0 +1,1 @@
+This is the location where the plot graphs are saved. The location can be changed in config.json.
