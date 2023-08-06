@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.cfg
+scilight.egg-info/PKG-INFO
+scilight.egg-info/SOURCES.txt
+scilight.egg-info/dependency_links.txt
+scilight.egg-info/top_level.txt
