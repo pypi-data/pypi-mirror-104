@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: xyw-macro
+Version: 0.0.1
+Summary: 键盘宏，可根据需要自定义多套功能键区。
+Home-page: UNKNOWN
+Author: 二炜
+Author-email: 1174543101@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt5
+Requires-Dist: pywin32
+
+# 快速开始
+
+```python
+import time
+from xyw_macro import *
+
+
+def func1():
+    time.sleep(4)
+    print('func1')
+
+
+def func2():
+    print('func2')
+
+
+macro = Macro()
+config1 = Configuration('01', 'part', Configuration.FUNCTION)
+config1.add_command(Condition(VK('VK_F3'), '打印'), func1)
+config2 = Configuration('02', 'all', Configuration.FUNCTION)
+config2.add_command(Condition(VK('VK_F2'), '打印'), func2)
+
+macro.add_config(config1)
+macro.add_config(config2)
+macro.run()
+
+```
+
+# Release Notes
+
+## 0.0.1
+
+- 初次发布，实现了键盘宏的基本功能
+
