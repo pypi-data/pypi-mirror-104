@@ -1,0 +1,6 @@
+README.md
+setup.py
+freshmail_api.egg-info/PKG-INFO
+freshmail_api.egg-info/SOURCES.txt
+freshmail_api.egg-info/dependency_links.txt
+freshmail_api.egg-info/top_level.txt
