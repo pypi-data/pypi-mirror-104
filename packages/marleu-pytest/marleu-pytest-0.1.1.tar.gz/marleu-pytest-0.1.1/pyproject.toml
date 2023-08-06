@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "marleu-pytest"
+version = "0.1.1"
+description = ""
+authors = ["Martin Leuthold"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+marleu-pytest = 'marleu_pytest.entrypoint:hello'
