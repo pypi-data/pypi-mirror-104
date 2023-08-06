@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+git_ranch/__init__.py
+git_ranch/__main__.py
+git_ranch.egg-info/PKG-INFO
+git_ranch.egg-info/SOURCES.txt
+git_ranch.egg-info/dependency_links.txt
+git_ranch.egg-info/entry_points.txt
+git_ranch.egg-info/top_level.txt
