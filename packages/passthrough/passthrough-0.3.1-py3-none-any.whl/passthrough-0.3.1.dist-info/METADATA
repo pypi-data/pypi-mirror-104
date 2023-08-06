@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: passthrough
+Version: 0.3.1
+Summary: Passthrough - Template-Driven PDS4 Data Product Generation
+Home-page: https://github.com/ExoMars-PanCam/passthrough
+License: MIT
+Keywords: PDS,PDS4,template,framework
+Author: Ariel Ladegaard
+Author-email: arl13@aber.ac.uk
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Utilities
+Provides-Extra: pds4_tools
+Requires-Dist: importlib-metadata (>=3.7.3,<4.0.0); python_version < "3.8"
+Requires-Dist: lxml (>=4.5.0,<5.0.0)
+Requires-Dist: pds4_tools (>=1.2,<2.0); extra == "pds4_tools"
+Project-URL: Repository, https://github.com/ExoMars-PanCam/passthrough

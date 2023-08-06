@@ -1,0 +1,5 @@
+[passthrough.extensions]
+exm=passthrough.extensions.exm
+file=passthrough.extensions.file
+pt=passthrough.extensions.pt
+
