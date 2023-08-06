@@ -1,0 +1,8 @@
+LICENSE,sha256=CyOt46HowEFs-QMiCGt_fvqJ6HtAejh_jFhjkv2invw,1072
+fastapi_plan/__init__.py,sha256=pvPP5ciIBTQNp6xst4qwo-40OlX9dGZv81WV7V7BPMs,202
+fastapi_plan/greet_command.py,sha256=0_LfdMzAVKDGaiFL9FgSOulzLdgmP2dCN8pjmiLSB1s,738
+fastapi_plan-0.1.0.dist-info/entry_points.txt,sha256=EXkgoxf4UFoT33XaICcZkpfaaisXO-Pue2HuxsS557k,59
+fastapi_plan-0.1.0.dist-info/LICENSE,sha256=CyOt46HowEFs-QMiCGt_fvqJ6HtAejh_jFhjkv2invw,1072
+fastapi_plan-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+fastapi_plan-0.1.0.dist-info/METADATA,sha256=CPw6qlkZkR8ZvHa-7yhIkUJKRhzhcFbeX_kZXpk9gWU,661
+fastapi_plan-0.1.0.dist-info/RECORD,,
