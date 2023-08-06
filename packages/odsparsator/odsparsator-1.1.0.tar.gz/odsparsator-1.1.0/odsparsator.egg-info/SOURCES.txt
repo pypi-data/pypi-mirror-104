@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+odsparsator/__init__.py
+odsparsator/command_line.py
+odsparsator/odsparsator.py
+odsparsator.egg-info/PKG-INFO
+odsparsator.egg-info/SOURCES.txt
+odsparsator.egg-info/dependency_links.txt
+odsparsator.egg-info/entry_points.txt
+odsparsator.egg-info/requires.txt
+odsparsator.egg-info/top_level.txt

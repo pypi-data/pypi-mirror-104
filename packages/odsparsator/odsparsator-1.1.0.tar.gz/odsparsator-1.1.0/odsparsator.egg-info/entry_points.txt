@@ -1,0 +1,3 @@
+[console_scripts]
+odsparsator = odsparsator.command_line:main
+
