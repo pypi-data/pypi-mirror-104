@@ -1,0 +1,16 @@
+.submitBtn{
+    width: 100%;
+    height: 45px;
+    background: #41B2CC;
+    color: #fff;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-top: 7%; */
+}
+.submitBtn:hover{
+    opacity: 0.8;
+    color: #fff;
+}
