@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mmcrypto
+Version: 0.0.0
+Summary: Package to give crypto trading signals in wazirx
+Home-page: https://github.com/manasm11/mmcrypto
+Author: Manas Mishra
+Author-email: manas.m22@gmail.com
+License: UNKNOWN
+Description: # crypto-trading-signals-wazirx
+        
+        Python package get and save crypto data from wazirx.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
