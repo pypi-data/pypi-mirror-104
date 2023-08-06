@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: pycurl-oqs
+Version: 1.0.0
+Summary: OQS-PycURL
+Home-page: https://github.com/anshul798/pycurl.git
+Author: Anshul Bhardwaj
+Author-email: anshulbhardwaj798@gmail.com
+Maintainer: Anshul Bhardwaj
+License: LGPL/MIT
+Description: UNKNOWN
+Keywords: oqs-curl,curl,oqs-libcurl,libcurl,urllib,wget,download,file transfer,http,www
+Platform: All
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: File Transfer Protocol (FTP)
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.5
