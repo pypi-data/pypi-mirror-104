@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+itsdevtime.egg-info/PKG-INFO
+itsdevtime.egg-info/SOURCES.txt
+itsdevtime.egg-info/dependency_links.txt
+itsdevtime.egg-info/entry_points.txt
+itsdevtime.egg-info/requires.txt
+itsdevtime.egg-info/top_level.txt

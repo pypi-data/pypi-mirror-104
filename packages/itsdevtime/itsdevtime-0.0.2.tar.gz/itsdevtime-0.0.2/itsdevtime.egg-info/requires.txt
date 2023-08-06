@@ -1,0 +1,9 @@
+click
+pyyaml
+requests
+colorlog
+
+[dev]
+bump2version
+twine
+pytest
