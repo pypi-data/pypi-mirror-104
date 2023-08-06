@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: rapidearth
+Version: 0.1.0
+Summary: A novel search engine for finding rare objects in satellite imagery
+Home-page: https://github.com/cluel01/rapidearth
+Author: Christian Luelf
+Author-email: christian.luelf@uni-muenster.de
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+rapidearth
+==========
+
+.. image:: https://img.shields.io/pypi/v/rapidearth.svg
+    :target: https://pypi.python.org/pypi/rapidearth
+    :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal.png
+   :target: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal
+   :alt: Latest Travis CI build status
+
+A novel search engine for finding rare objects in satellite imagery
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`rapidearth` was written by `Christian Luelf <christian.luelf@uni-muenster.de>`_.
+
+
