@@ -1,0 +1,13 @@
+{
+    "git_describe": {
+        "dirty": "6.16-335-gcc64e489d-tainted",
+        "tag": "6.16"
+    },
+    "git_hash": "cc64e489d064bb4dfaec49c0cae1335e60f8ea4a",
+    "package_build_date": "2021-05-05T13:01",
+    "version": {
+        "major": "6",
+        "minor": "16",
+        "revision": "0"
+    }
+}
