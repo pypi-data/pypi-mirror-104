@@ -1,0 +1,14 @@
+kolore/__init__.py,sha256=LcIlFjHZFfiF9Rd4UHoakmombOFkxIYk00I181frGBM,23
+kolore/__main__.py,sha256=JDkgz3U4X-meLzpjy8P94_sSgp7118rjX-UHjZgqLqo,96
+kolore/cli.py,sha256=GnSziOd3EySk16XciV6_IUg2Hnf4AKVkP8er5bdW2b8,736
+kolore/krita.py,sha256=g_D9TOGBX7saKXw_UfiDa9ejMuIImwPXCo-j2LIZ-qE,2079
+kolore/palette.py,sha256=1k7ZroJU0nDjWOTXooOS6QAh01YK4SxnHzI3RTDdRmE,1242
+kolore/png.py,sha256=iJ-d9vQekDrlSW4f-egBeod5uJkpPghAeQDJLL6_Ns8,592
+kolore/resources/krita/mimetype,sha256=te_Cxt8u--AuoxAEUkJivKMBXZLHRM9tegOF4E6TUGM,16
+kolore/resources/krita/profiles.xml,sha256=yKjHL6zRvzpW2fO9Na7UD5ThtMn5ER4teKpw998vUl8,141
+kolore/resources/krita/sRGB-elle-V2-srgbtrc.icc,sha256=WZHI2Py2KNrV0FLZNB34oyvTx6eUyROo7ejq5LNLRUU,9080
+kolore/unity.py,sha256=3pigWlKtfFKUvjnP3RYJvNsrxn5E18Y49v0EHbiJvp0,1999
+kolore-0.1.13.dist-info/entry_points.txt,sha256=BMeO-HWLmGuwFu-f5ZW-KK_whbDaMVQO7FwY4um7oM8,43
+kolore-0.1.13.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+kolore-0.1.13.dist-info/METADATA,sha256=ai1CsPPciRWwNeSTLF6K-kACBNMR6XF1iD6R7rIJkFU,1760
+kolore-0.1.13.dist-info/RECORD,,
