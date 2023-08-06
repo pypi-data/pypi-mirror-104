@@ -1,0 +1,8 @@
+cvee/__init__.py,sha256=oV5fyn8gy87desoY25mM8d4vPoeNCEjDD8XH8SySzjE,86
+cvee/utils/__init__.py,sha256=I7Cf50OH9dKbfXHC8OY_2DliFZe3TKBc2HiEe0ThwSA,89
+cvee/utils/registry.py,sha256=PKzxfbyTC6fHg0meuPnGGorNsVqQcAakYqVn3T75VKM,3659
+cvee-0.0.2.dist-info/LICENSE,sha256=jFedgeC6eF9ZGznvrnegALZFPh-g5uB8k94mjGhKPL0,1069
+cvee-0.0.2.dist-info/METADATA,sha256=12qr63Q3hrDmvDSKfbjc1IkCCRd13kip2cmnLImNQqQ,551
+cvee-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cvee-0.0.2.dist-info/top_level.txt,sha256=NS-OzT48a0D4CWtUrAAj7XPc5FihfLJuEiDRw10R08k,5
+cvee-0.0.2.dist-info/RECORD,,
