@@ -1,0 +1,9 @@
+setup.py
+azlet/__init__.py
+azlet/__main__.py
+azlet/azertbot.py
+azlet.egg-info/PKG-INFO
+azlet.egg-info/SOURCES.txt
+azlet.egg-info/dependency_links.txt
+azlet.egg-info/requires.txt
+azlet.egg-info/top_level.txt
