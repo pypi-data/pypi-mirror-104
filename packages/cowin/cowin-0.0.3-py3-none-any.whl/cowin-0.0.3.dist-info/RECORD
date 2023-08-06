@@ -1,0 +1,9 @@
+cowin_api/__init__.py,sha256=xa-NevNr-rVJ1ha2DlyxS7XWz3na_PBFbBMTSJi9WqQ,26
+cowin_api/api.py,sha256=Dx_t1w44zLAOqLHCr6H5ANHR40YA8I6vCoswdKZ4OBM,1051
+cowin_api/base_api.py,sha256=fraqF_VlJHJ4mT1_MCEpu03DeCFq369k8sKRiMGE77E,491
+cowin_api/constants.py,sha256=tmnuOzgeCx_OnnUMjeEJZ72emqcuywNoJPHzqpdR-3g,400
+cowin_api/utils.py,sha256=qA4yEb-PWd2-M49Bp0pZyioCX4zTECHdxnYV572TXvA,725
+cowin-0.0.3.dist-info/METADATA,sha256=fpYP29sFYDStOInp13eVS7VqwNroZUbYiM68EBlr7kk,9097
+cowin-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cowin-0.0.3.dist-info/top_level.txt,sha256=0zufZE0S0_YUifhJRpmZc1CROgrlV0SFuv9Sl0fPEBU,10
+cowin-0.0.3.dist-info/RECORD,,
