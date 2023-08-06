@@ -1,0 +1,3 @@
+[console_scripts]
+mcs = matplotlib.__main__:main
+
