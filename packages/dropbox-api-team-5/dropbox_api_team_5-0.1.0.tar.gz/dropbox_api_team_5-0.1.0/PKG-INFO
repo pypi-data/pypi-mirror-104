@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dropbox-api-team-5
+Version: 0.1.0
+Summary: DropBox skripts
+Author: AlexandrVolkov
+Author-email: hramyh.w@mail.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

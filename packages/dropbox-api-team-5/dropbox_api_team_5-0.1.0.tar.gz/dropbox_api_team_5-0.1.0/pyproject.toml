@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dropbox_api_team_5"
+version = "0.1.0"
+description = "DropBox skripts"
+authors = ["AlexandrVolkov <hramyh.w@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
