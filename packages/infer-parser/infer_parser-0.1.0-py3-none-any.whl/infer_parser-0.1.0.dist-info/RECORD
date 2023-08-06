@@ -1,0 +1,10 @@
+infer_parser/__init__.py,sha256=0a_VPtwbB2pjcxlNc00IqhDfZpgmxgiSt1QRqpWdJ3E,175
+infer_parser/_parsers.py,sha256=ekh1Qt4_4jexT2tdgKivF2otv0g_9OsZFr92nziQpnM,8231
+infer_parser/_stubs.py,sha256=SWw7gqEgOtpNAH6ZrJWFZTCGXm_6KDJ9jOshHP-AMpM,1166
+infer_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infer_parser/test_infer_parser.py,sha256=DOciFHCIYlFAPA4-LLbOIRA2EwFFGSzzAvfjV0XltkU,16298
+infer_parser-0.1.0.dist-info/LICENSE,sha256=1WEeGHROU9O7Jv8Usa8-0patWyDkyZk9j_MmAQKDldg,1066
+infer_parser-0.1.0.dist-info/METADATA,sha256=vby21V58mQLlp3YkRL4Vk_yenkBQNjotVG5ifiQ-h38,2043
+infer_parser-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+infer_parser-0.1.0.dist-info/top_level.txt,sha256=s_qdjtml0FkWzOYMPFH5By7MxuAo7z0nc0M81BgzA1o,13
+infer_parser-0.1.0.dist-info/RECORD,,
