@@ -1,0 +1,17 @@
+edgar_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils/backfill/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils/backfill/optimization.py,sha256=71QcJZvmcCdEZRuTWdPH_PQS3VsQ44sG_Tzi7_oYNZg,310
+edgar_utils/backfill/optimization_files.py,sha256=rafw0YBOi4tfBpvi10PfQygYFQtHzA-SY3M4faFg5vs,722
+edgar_utils/date/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils/date/date_utils.py,sha256=_VS0DFGXRTHvy-hv3ZhC9YV52wkES_NOiXNT_QDG2y8,10308
+edgar_utils/date/holidays.py,sha256=gzL9obdJdGHT8Me5i_1vIutFr-U_lIB1K_7We2ARe7E,3323
+edgar_utils/repo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils/repo/file_repo_fs.py,sha256=EuVymiEcNKJNx8q77L_AyFf1eHf-Vidw8qP10OBJaE8,16272
+edgar_utils/repo/http_repo_fs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils/repo/repo.py,sha256=Em2Rc6OOpsDF_j5za89INdKP9YqByM0NareUAAL8Lik,385
+edgar_utils/repo/repo_fs.py,sha256=-UbVYpRiSHhPAJNN0qUexY_mOeI0p3C0x3N3RqQ4Gqg,1982
+edgar_utils-0.0.4.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edgar_utils-0.0.4.dist-info/METADATA,sha256=fHbg0ArZuoDlU0zPCR2RZtUOCW3II52RtqbUIT0Ii9Y,1686
+edgar_utils-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+edgar_utils-0.0.4.dist-info/top_level.txt,sha256=j2DjtW5BTr9sdGQXia5hXbDyFoySplGjJqeWKq9mvSM,12
+edgar_utils-0.0.4.dist-info/RECORD,,
