@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/netbuild/__init__.py
+src/netbuild/netbuild.py
+src/netbuild_Blizzarus.egg-info/PKG-INFO
+src/netbuild_Blizzarus.egg-info/SOURCES.txt
+src/netbuild_Blizzarus.egg-info/dependency_links.txt
+src/netbuild_Blizzarus.egg-info/top_level.txt
