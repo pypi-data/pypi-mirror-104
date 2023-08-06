@@ -1,0 +1,10 @@
+numpy
+numba
+scipy
+networkx
+matplotlib
+pandas
+math
+sys
+argparse
+os
