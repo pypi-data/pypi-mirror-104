@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: taptempo
+Version: 1.0.0
+Summary: A simple GUI program to tap-in a tempo
+Home-page: https://github.com/blurks/taptempo
+Author: Tarik Havighorst
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/blurks/taptempo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Tap-Tempo
+
+![Screenshot of the GUI](./screenshot.png)
+
+This is a simple Program to tap-in a tempo.  It calculates the time
+between to taps in BPM as well as the average BPM of multiple taps.
+The GUI is build with tkinter.
+
+
