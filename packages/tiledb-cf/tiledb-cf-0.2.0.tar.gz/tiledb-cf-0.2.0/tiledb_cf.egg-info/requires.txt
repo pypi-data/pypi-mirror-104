@@ -1,0 +1,12 @@
+numpy>=1.16.5
+setuptools>=40.4
+tiledb>=0.8.3
+click>=0.7.0
+
+[docs]
+Sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+
+[netCDF4]
+netCDF4
