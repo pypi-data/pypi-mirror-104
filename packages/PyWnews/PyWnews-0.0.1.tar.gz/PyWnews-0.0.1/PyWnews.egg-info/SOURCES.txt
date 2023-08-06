@@ -1,0 +1,8 @@
+setup.py
+PyWnews/__init__.py
+PyWnews/pynews.py
+PyWnews.egg-info/PKG-INFO
+PyWnews.egg-info/SOURCES.txt
+PyWnews.egg-info/dependency_links.txt
+PyWnews.egg-info/requires.txt
+PyWnews.egg-info/top_level.txt
