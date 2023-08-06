@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: dandan
+Version: 0.7.5
+Summary: Several convenient tools for python programming
+Home-page: https://github.com/StevenBaby/dandan
+Author: ccyg
+Author-email: kangweibaby@163.com
+License: MIT
+Description: dandan project
+        ``````````````
+        several tools for convenient develop in python
+        
+        Links
+        `````
+        Documentation http://dandan.readthedocs.io/en/master/
+        
+        Github https://github.com/StevenBaby/dandan
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
