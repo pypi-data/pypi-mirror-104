@@ -1,0 +1,10 @@
+dropbox_api_team_4/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dropbox_api_team_4/dropbox_logic.py,sha256=LHZpRgYtpADc61tCoyjvpT3wDyZyE5ZUsWUUDabjXro,2021
+dropbox_api_team_4/func/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dropbox_api_team_4/func/check_api_token.py,sha256=0gvxv5J-YaH4nnUiH_T5qfJPuIiRbOEqUWPnJzY7-7w,620
+dropbox_api_team_4/func/download_file.py,sha256=-mhR8Pkfl1RNyaNnlX8s6KKEprq_HMYGPDPxTsj7Zrw,1078
+dropbox_api_team_4/func/error_processing.py,sha256=X8PcpABH94GMChO3LO6V3oIyQGpb_TX74jzKENOp074,244
+dropbox_api_team_4-0.2.1.dist-info/entry_points.txt,sha256=B0QSZHlM1Q2CBCfIjgN9RMndsVUNGTkWpNrVk431658,73
+dropbox_api_team_4-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dropbox_api_team_4-0.2.1.dist-info/METADATA,sha256=JePIkq0KajXuDs1-i34r8y6mLQutaTFH_e6S6AtYvjY,436
+dropbox_api_team_4-0.2.1.dist-info/RECORD,,
