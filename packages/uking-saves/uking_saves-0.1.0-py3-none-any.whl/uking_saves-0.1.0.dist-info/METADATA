@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: uking-saves
+Version: 0.1.0
+Summary: Parse and modify BOTW save files
+Home-page: https://github.com/NiceneNerd/uking-saves/
+Author: NiceneNerd
+Author-email: email@calebdixonsmith.top
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Parse and update BOTW saves in Python
+
+This is a simple library for parsing and updating BOTW save files in Python. *I
+did not write more than a couple lines of this code*. It is taken almost wholly
+from Mr. Cheeze's `save.py` script located on his
+[BOTW tools repo](https://github.com/MrCheeze/botw-tools/blob/master/save.py),
+to be simply converted into a library (with permission).
+
+Simple usage examples:
+
+```python
+import uking_saves
+
+save_file = uking_saves.parse_file("blah/game_data.sav") // Parse the save
+save_file["MainField_WeaponDrop_1609063018"] = True // Set a flag value
+uking_saves.update_file("blah/game_data.sav", save_file) // Save updated data
+```
+
+
