@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+shrim_py.egg-info/PKG-INFO
+shrim_py.egg-info/SOURCES.txt
+shrim_py.egg-info/dependency_links.txt
+shrim_py.egg-info/requires.txt
+shrim_py.egg-info/top_level.txt
+shrimpy/__init__.py
+shrimpy/test.py
