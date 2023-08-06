@@ -1,0 +1,5 @@
+include youtube2midi/syn2midi/windows/*
+include youtube2midi/syn2midi/licenses/*
+include youtube2midi/syn2midi/*.bmp
+LICENSE
+README.md
