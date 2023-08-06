@@ -1,0 +1,3 @@
+[console_scripts]
+simple-youtube-video-commenter = simple_youtube_video_commenter.main:main
+
