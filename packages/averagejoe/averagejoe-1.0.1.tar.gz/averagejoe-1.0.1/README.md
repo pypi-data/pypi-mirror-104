@@ -1,0 +1,2 @@
+# Average-Joe
+Average Joe: just an ordinary guy who wakes up, does his work and goes back to bed at around the same time, day after day, with small variations which tend to follow a normal distribution.
