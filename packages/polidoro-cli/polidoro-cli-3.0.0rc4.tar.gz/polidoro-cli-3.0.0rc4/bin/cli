@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+import polidoro_cli
+
+polidoro_cli.main()
