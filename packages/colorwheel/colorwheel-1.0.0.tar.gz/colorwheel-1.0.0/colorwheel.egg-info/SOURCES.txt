@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+colorwheel/__init__.py
+colorwheel/colorwheel.py
+colorwheel/config.cfg
+colorwheel.egg-info/PKG-INFO
+colorwheel.egg-info/SOURCES.txt
+colorwheel.egg-info/dependency_links.txt
+colorwheel.egg-info/requires.txt
+colorwheel.egg-info/top_level.txt
