@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: vdocipher.py
+Version: 0.1.0
+Summary: Just a VdoCipher api wrapper for python.
+Home-page: https://github.com/puzzlsoftwarehouse/vdocipher.py
+Author: Puzzl Software House
+Author-email: hello@puzzl.com.br
+License: MIT License
+Keywords: vdocipher video api python wrapper
+Platform: UNKNOWN
+Requires-Dist: dataclasses-json
+Requires-Dist: requests-toolbelt
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+UNKNOWN
+
+
