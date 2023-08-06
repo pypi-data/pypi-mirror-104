@@ -1,0 +1,10 @@
+allauth_saml2/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+allauth_saml2/client.py,sha256=_nqSxVhfPS5bQ-Cn36CquL8K0XrewjEY7eMwT_l7RtI,4853
+allauth_saml2/provider.py,sha256=-mCZgA0ZeU3yhG0howpwg7GFl8wCtibOuKxSIQL0LHQ,1053
+allauth_saml2/urls.py,sha256=rGiNr1zFMdM8Bo-BjDVfzrnpWgra4MXP275C9asln80,559
+allauth_saml2/views.py,sha256=7Y6ZUXI5wnEcdQ5wWt_rx7eDVYttPUmHLAvaSZrb7aw,4428
+django_allauth_saml2-0.1.0.dist-info/LICENSE,sha256=FX85qdspiHhvJzdtNkacx_hBkm-0LW_NnINXZbdy7sA,1072
+django_allauth_saml2-0.1.0.dist-info/METADATA,sha256=7z1Y53D68DcGqzFxuWD-ji5_9kqqh3ZxzBZW1cJ_uGI,2059
+django_allauth_saml2-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_allauth_saml2-0.1.0.dist-info/top_level.txt,sha256=pYGNl1KsH3qTgdbCU-OUXyAEXpewKXDdv_Y_ncDivec,14
+django_allauth_saml2-0.1.0.dist-info/RECORD,,
