@@ -1,0 +1,12 @@
+histogram/__init__.py,sha256=g2Ilo5jGhFalTb55Q-h7wlnyfZ39fSnjmxIb9YVaj24,79
+histogram/axes.py,sha256=aMyrFOcxrtfbxgzgncEPz6wIaWotfsgbTkXa6H_HtiE,10508
+histogram/axis.py,sha256=4PvsNxHxbFmEFnc9DGVN9AELNf94edX4Z09s6dQ402w,6668
+histogram/histogram.py,sha256=Q17kbsJwXQc2CIisfTCA4MvR4XtSJ38sH51OjFIwtac,36517
+histpy/__init__.py,sha256=g2Ilo5jGhFalTb55Q-h7wlnyfZ39fSnjmxIb9YVaj24,79
+histpy/axes.py,sha256=aMyrFOcxrtfbxgzgncEPz6wIaWotfsgbTkXa6H_HtiE,10508
+histpy/axis.py,sha256=4PvsNxHxbFmEFnc9DGVN9AELNf94edX4Z09s6dQ402w,6668
+histpy/histogram.py,sha256=Q17kbsJwXQc2CIisfTCA4MvR4XtSJ38sH51OjFIwtac,36517
+histpy-0.0.1.dist-info/METADATA,sha256=hfELKV2Lu6EXICsFVOjEs72yb8bRg7I4dln_8drgGhA,311
+histpy-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+histpy-0.0.1.dist-info/top_level.txt,sha256=R5obB4R9EC2tzfhnerBPKgv5mQgnl7PKFSmqhFYYkGo,7
+histpy-0.0.1.dist-info/RECORD,,
