@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+thingscli/thingscli.egg-info/PKG-INFO
+thingscli/thingscli.egg-info/SOURCES.txt
+thingscli/thingscli.egg-info/dependency_links.txt
+thingscli/thingscli.egg-info/top_level.txt
