@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Molecular3DLengthDescriptors
+Version: 1.0.0
+Summary: A 3D conformational based molecular descriptor set.
+Home-page: https://github.com/ThomasJewson/Molecular3DLengthDescriptors
+Author: Thomas Jewson
+Author-email: t.jewson1@gmail.com
+License: MIT
+Download-URL: https://github.com/ThomasJewson/Molecular3DLengthDescriptors/archive/refs/tags/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: Molecular,Descriptor,3D,Length,RDKit
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
