@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_voices.py,sha256=ZnuThiWD4P6T4QZiFJJSPQmbW86o0NY1sspiXBk29Cg,2581
+voices/__init__.py,sha256=fVssPPNN92ofL2qfDNP6nrY9tXuZKMnS29DXA_7X-uA,52
+voices/errors.py,sha256=Uy3mpEL-coSmXf24Et7ecjq1ZHr9Zad0wJts3nLP_5E,254
+voices/logger.py,sha256=Z59n42_vfddXEPVZovd8q81BYjEFamC4xT6ZCk0jbnY,1995
+voices/utils.py,sha256=wHdrr1XLuSvvM02F_bCwKYS0RmxujxhZLsUo2XQNGm8,2547
+voices/validations.py,sha256=Bn7-Sqi0TKSc13M83e23hqAX253Qej-BGKj3ov_ScZs,1129
+voices/voices.py,sha256=P3PDuN-_Jafqf41l6BZwHSR2rGPRviK32UnKTI-Ylpk,2084
+voices_client-0.2.4.dist-info/LICENCE,sha256=ue4d2AdUMis5ucoKHpI9v2AtqPQDnAR012f5fNMOWk0,1067
+voices_client-0.2.4.dist-info/METADATA,sha256=g2f6mE4iha5mmMmkRIN_aIJnzkHJo_m6K2cJXV0zKw4,1556
+voices_client-0.2.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+voices_client-0.2.4.dist-info/top_level.txt,sha256=MTkCWbT5JVFrHO6c9rd8WT4bWEibcdz4H2TishxTPKQ,13
+voices_client-0.2.4.dist-info/RECORD,,
