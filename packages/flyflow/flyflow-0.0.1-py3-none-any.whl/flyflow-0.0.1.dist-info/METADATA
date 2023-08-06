@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flyflow
+Version: 0.0.1
+Summary: Flyflow make python effectively!
+Home-page: http://zuizhongkeji.com/
+Author: yuanjiexiong
+Author-email: finally@email.cn
+Maintainer: yuanjiexiong
+Maintainer-email: flyflow@email.cn
+License: MIT License
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flask (>=1.1.2)
+Requires-Dist: urllib3 (>=1.26.4)
+Requires-Dist: psutil (>=5.8.0)
+
+Flyflow make python effectively!
+
+
