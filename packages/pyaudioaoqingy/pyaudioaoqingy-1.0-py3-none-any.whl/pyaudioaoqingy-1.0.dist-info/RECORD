@@ -1,0 +1,11 @@
+abc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abc/print1.py,sha256=tiUSt34JieZeXQpp0uvcK5Fzv_n99F-7fnZSnoeG64g,32
+abc/print2.py,sha256=vXcy57TXbrE35GCAXazmX8qwEuEWVAiyJGwvsxziIFA,32
+packagetest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packagetest/print1.py,sha256=tiUSt34JieZeXQpp0uvcK5Fzv_n99F-7fnZSnoeG64g,32
+packagetest/print2.py,sha256=vXcy57TXbrE35GCAXazmX8qwEuEWVAiyJGwvsxziIFA,32
+pyaudioaoqingy/pyaudio.py,sha256=hOfklppkKzlX0CD1TWk5zq0jgb6e2M_jzlIgxnlfZYY,39616
+pyaudioaoqingy-1.0.dist-info/METADATA,sha256=6sbXPn1idV0D6HUwO8r268Z8dxdjXrCcwBhvhNQWjxs,190
+pyaudioaoqingy-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyaudioaoqingy-1.0.dist-info/top_level.txt,sha256=Oy13MHzEN_HPFpFo7LvF5D__SV84XBfEdWFHFm0jtKk,15
+pyaudioaoqingy-1.0.dist-info/RECORD,,
