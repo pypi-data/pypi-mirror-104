@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: cloogle
+Version: 1.0.9
+Summary: Basic interface to the Cloogle API
+Home-page: https://gitlab.com/cloogle/periphery/cloogle.py
+Author: Camil Staps
+Author-email: info@camilstaps.nl
+License: GPLv3
+Description: cloogle.py
+        ====================
+        
+        Basic interfacing with the `Cloogle <https://cloogle.org>`_ API.
+        
+        Links
+        -----
+        | PyPi: https://pypi.python.org/pypi/cloogle
+        | Source code: https://gitlab.com/cloogle/periphery/cloogle.py
+        
+        Author & License
+        ----------------
+        
+        Cloogle.py is written and maintained by `Camil Staps <https://camilstaps.nl>`_.
+        It is licensed under GPLv3, see the LICENSE file for more details.
+        
+Keywords: cloogle api search clean
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Utilities
