@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pycolorprint
+Version: 0.0.1
+Summary: Colorful pretty printer for python!
+Home-page: UNKNOWN
+Author: Alexander Steffen
+Author-email: alexsteffen55@gmail.com
+License: UNKNOWN
+Keywords: python,pretty printer,print,colorful,color,color printer,color print
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A python pretty printer that uses ANSI characters to make terminal output colorful.
+
+
