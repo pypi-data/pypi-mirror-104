@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sabi/src/sabi.egg-info/PKG-INFO
+sabi/src/sabi.egg-info/SOURCES.txt
+sabi/src/sabi.egg-info/dependency_links.txt
+sabi/src/sabi.egg-info/requires.txt
+sabi/src/sabi.egg-info/top_level.txt
