@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+monument.egg-info/PKG-INFO
+monument.egg-info/SOURCES.txt
+monument.egg-info/dependency_links.txt
+monument.egg-info/requires.txt
+monument.egg-info/top_level.txt
+src/monument/__init__.py
+src/monument/getmac.py
+src/monument/jbase.py
+src/monument/monument.py
