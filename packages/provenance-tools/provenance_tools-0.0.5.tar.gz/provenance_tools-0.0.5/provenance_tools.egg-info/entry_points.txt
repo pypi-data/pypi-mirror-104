@@ -1,0 +1,4 @@
+[console_scripts]
+provenance_initializer = provenance_tools.provenance_initializer:main
+provenance_tools = provenance_tools.write_provenance_data:write_provenance_data
+
