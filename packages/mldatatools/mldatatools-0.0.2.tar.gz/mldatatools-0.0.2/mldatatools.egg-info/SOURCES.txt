@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mldatatools/__init__.py
+mldatatools.egg-info/PKG-INFO
+mldatatools.egg-info/SOURCES.txt
+mldatatools.egg-info/dependency_links.txt
+mldatatools.egg-info/requires.txt
+mldatatools.egg-info/top_level.txt
