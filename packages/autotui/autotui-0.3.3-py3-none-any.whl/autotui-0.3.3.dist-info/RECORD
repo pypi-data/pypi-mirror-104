@@ -1,0 +1,14 @@
+autotui/__init__.py,sha256=xSbUIKehZ9Gj2R4gDwmkuMjr0ogp_ufjvM_Gifvsy-M,497
+autotui/exceptions.py,sha256=qyJuZQkwQhLQib7bsWWd4Cc-LXjK4OlFp1An0uc45eQ,47
+autotui/fileio.py,sha256=cl0yNzG6Z0oQ53Vf8KISn7vp4bDXmV_FcN7Ag0GoC3Y,2762
+autotui/namedtuple_prompt.py,sha256=C_G9o5uwHktUpJP25mACL7cWrRIUmWI_kgguAyDIQ0w,10031
+autotui/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autotui/serialize.py,sha256=cnVvci2meJFddITZK0NIaBkBkX8gCPa1ZX6dDVpEfBc,8947
+autotui/shortcuts.py,sha256=Od0P7LcqzM0Wc01MXI-htELTstAYwMQeR92VQ3-W0CQ,4955
+autotui/typehelpers.py,sha256=Tt8nC4uMpgv3j0qaG9IN_9tguxrGT7qw-CfXcEWxiu4,4637
+autotui/validators.py,sha256=4eYcRKKrCZoW6h2QLfpeaNpNwyJ8eTuIgnZe8Ps3GGg,9215
+autotui-0.3.3.dist-info/LICENSE,sha256=fdgxuVsF1RsNtZB4FiUyyTkuHluytBGeqY0OMT3TF3c,1074
+autotui-0.3.3.dist-info/METADATA,sha256=c-44XhnIepcLiymsYFOt1I9nqZ1BnFI7ohXKkPDSPvc,9135
+autotui-0.3.3.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+autotui-0.3.3.dist-info/top_level.txt,sha256=IeAPyAlAEaehoBOnMpEZcnt46eyhwoc2BRDWS5p_xxo,8
+autotui-0.3.3.dist-info/RECORD,,
