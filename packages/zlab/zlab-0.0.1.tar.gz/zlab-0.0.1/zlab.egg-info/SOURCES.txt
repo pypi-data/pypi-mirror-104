@@ -1,0 +1,10 @@
+LICENSE
+README.md
+__version__.py
+setup.cfg
+setup.py
+zlab.egg-info/PKG-INFO
+zlab.egg-info/SOURCES.txt
+zlab.egg-info/dependency_links.txt
+zlab.egg-info/not-zip-safe
+zlab.egg-info/top_level.txt
