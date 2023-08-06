@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metric4coref
+Version: 0.0.1
+Summary: metric for coreference resolution
+Home-page: https://github.com/LowinLi/metric4coref
+Author: LowinLi
+Author-email: idealway9@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: coreference resolution metric
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

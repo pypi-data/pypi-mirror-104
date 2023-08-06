@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+metric4coref/__init__.py
+metric4coref/metrics.py
+metric4coref.egg-info/PKG-INFO
+metric4coref.egg-info/SOURCES.txt
+metric4coref.egg-info/dependency_links.txt
+metric4coref.egg-info/requires.txt
+metric4coref.egg-info/top_level.txt
