@@ -1,0 +1,10 @@
+webplucker/__init__.py,sha256=tduhU-OCjOA9I3fPGAwMEA8tTf9cwcx9FkM-pElh608,344
+webplucker/req_handler/__init__.py,sha256=-hkQxJP2NiuKDW-LqU-IruKHQl1hKiDR4bvyRfe7iVA,1041
+webplucker/req_handler/agents/__init__.py,sha256=c2-LxJl0hRiEPVr9go4ut9dNXY0a2fUBO6DheUOiirs,2770
+webplucker/req_handler/extractdata/__init__.py,sha256=ja_A4wxeOVxK1Pjbmy6RACPAscDG3HNYHmXnvD0WNI8,1806
+webplucker/req_handler/extractdata/config.py,sha256=fhPiltQ0H7o8wH2qjY9D2fYa_7jhc04RHXRiSEDwVFU,15
+webplucker-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+webplucker-0.0.3.dist-info/METADATA,sha256=4Q5flZZOWQEh1PXKZC9UJQpo1V4NOSf1YU1tlSMDJ80,612
+webplucker-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webplucker-0.0.3.dist-info/top_level.txt,sha256=dXvPme2DuE--B8Pc6lPMytR7QrAKaua48K1OCPLyVRA,11
+webplucker-0.0.3.dist-info/RECORD,,
