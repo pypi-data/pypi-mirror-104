@@ -1,0 +1,3 @@
+[console_scripts]
+py-testproject=py_testproject.console:main
+
