@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: pyezxl
+Version: 1.2.0
+Summary: Read / Write Excel using Python
+Home-page: https://github.com/sjpark/pyezxl
+Author: sjpark
+Author-email: sjpkorea@yahoo.com
+License: UNKNOWN
+Download-URL: https://github.com/sjpark/pyezxl/archive/v0.0.6.tar.gz
+Description: include LICENSE
+        include README.md
+        include requirements.txt
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.5
