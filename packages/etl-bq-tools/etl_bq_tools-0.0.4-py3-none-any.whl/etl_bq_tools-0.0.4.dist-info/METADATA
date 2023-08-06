@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: etl-bq-tools
+Version: 0.0.4
+Summary: etl_bq_tools
+Home-page: https://github.com/jonaqp/etl_bigquery_tools/
+Author: Jonathan Quiza
+Author-email: jony327@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jonaqp/etl_bigquery_tools/archive/main.zip
+Keywords: bigquery,etl,bq
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (>=2020.12.5)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy (>=1.20.2)
+Requires-Dist: prettytable (>=2.1.0)
+Requires-Dist: prefect (>=0.14.17)
+Requires-Dist: google-cloud-bigquery (>=2.15.0)
+Requires-Dist: pyarrow (>=3.0.0)
+Requires-Dist: fastparquet (>=0.5.0)
+Requires-Dist: google-cloud-storage (>=1.38.0)
+
+# tottus_siebel_app
+
+
