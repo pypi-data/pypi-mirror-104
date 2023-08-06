@@ -1,0 +1,15 @@
+wandio/__init__.py,sha256=DgFRce6GAcVOD34dYUpC2fcIG_7VRhX7XuB-w6ljXeo,134
+wandio/compressed.py,sha256=M2wQluIUxW0vOqk9TFjBA-y7OoY6Mcws8O10BHj9Mk4,4605
+wandio/file.py,sha256=3npVBIvYfJS_dmJCQyIlweUBholn0tz-pzaXke2FVsE,1680
+wandio/http.py,sha256=KdIh2NcKBOfvUl882lgJVZRqCrW_VKZhv0blbuZQlpA,1044
+wandio/opener.py,sha256=nZ4jFz9PUQ3ckplKJiUKDjJqD44aJIc7hxBxQY0mrCE,7018
+wandio/swift.py,sha256=DkqxiEYXhJMtyiKjwtK1ddtvYW8z0qmBI_CYVAeTZLw,7140
+wandio/test-write.py,sha256=AqDEPvhxtXpZCNZU5YAPVGC-zJp6A3X7Li_xTnWu3NA,435
+wandio/test.py,sha256=WTIQ1qip_PaP1l_oobITAPf0EBO--GgEC38vgTeNahA,1509
+wandio/wand_http.py,sha256=P3m3ZU4NUYfsw020gFiQyuH176mFPwjHKQFc8g6VRy0,1055
+pywandio-0.3.0.dist-info/LICENSE,sha256=vneFhlU4ifpZENAOimNnqqWoz2pn1u_NiGKgvX4xRcU,1310
+pywandio-0.3.0.dist-info/METADATA,sha256=2anxcPfxvZYQE9kfx78pEH_OXEHYnrDCvhJAOCbXEZM,364
+pywandio-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pywandio-0.3.0.dist-info/entry_points.txt,sha256=xXA8tTwehKwVN_XgbfWO0jUKallV-93kycwgfI6j93M,140
+pywandio-0.3.0.dist-info/top_level.txt,sha256=dD7W8Mu1NY7SQxlWm6vcVaQsZzrcsnSXx2KIbDTCob4,7
+pywandio-0.3.0.dist-info/RECORD,,
