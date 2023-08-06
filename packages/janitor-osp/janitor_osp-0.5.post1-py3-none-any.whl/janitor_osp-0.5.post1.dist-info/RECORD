@@ -1,0 +1,16 @@
+janitor/__init__.py,sha256=t1zP7N2tq2tmsCoHF3nebmCZB1fMy7fXYDak0eCshwU,638
+janitor/cli.py,sha256=OxV6Xo1ZnCszlfp4p6sYfC2ZjE2M0l04Ro_QfgbKc0Y,2141
+janitor/constants.py,sha256=XMPXMCyeI509LmKrlRC36cKF2XxrbeXq5Y2-iQ354QU,699
+janitor/module/__init__.py,sha256=t1zP7N2tq2tmsCoHF3nebmCZB1fMy7fXYDak0eCshwU,638
+janitor/module/clean.py,sha256=c8cBoEXCGKMj5x8ZiTV4rBwuwKMA4YiXrnJuI1uudck,3016
+janitor/module/history.py,sha256=RwEbxRKGBjwhnscQb40u86xhJxLhawPAGvgJgXBhs-c,3582
+janitor/module/util.py,sha256=V8KH8VWhfegsAakqAklyUohgVV3dPsnEx5JMm66FzXo,2629
+janitor/provider/__init__.py,sha256=t1zP7N2tq2tmsCoHF3nebmCZB1fMy7fXYDak0eCshwU,638
+janitor/provider/openstack.py,sha256=M8BAXa3KoN--rPzFGRtP0MdZ8sIwklpOURLDQ4dm5xU,8786
+janitor_osp-0.5.post1.dist-info/AUTHORS,sha256=ughn2IlxDDlZo9KnFtmnluGOQCh6UxAGDxhawAPOpS0,170
+janitor_osp-0.5.post1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+janitor_osp-0.5.post1.dist-info/METADATA,sha256=O9di6s04A35-N61EoP-B7bNTSZetQwjVYY-wEpnVaFA,18709
+janitor_osp-0.5.post1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+janitor_osp-0.5.post1.dist-info/entry_points.txt,sha256=0_nw5ASkWKancqKoTqflZ1c9xQLO7ZrE4taL5WlHII8,49
+janitor_osp-0.5.post1.dist-info/top_level.txt,sha256=-ykHlVMKmtwoXsdpEizx9Ym500Her3NfsdtCvRhJpCA,8
+janitor_osp-0.5.post1.dist-info/RECORD,,
