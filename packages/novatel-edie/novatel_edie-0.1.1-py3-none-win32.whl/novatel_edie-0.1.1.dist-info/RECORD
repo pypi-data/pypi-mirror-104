@@ -1,0 +1,11 @@
+novatel_edie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novatel_edie/hw_interface.py,sha256=3BOc_c2JrUFckPVsQic8EpBlpqlaTffWKzO9sNOrSAQ,3569
+novatel_edie/novatel.py,sha256=B33KTfXw144ldaseAUB2baCiZvdLUVSv7PUEuu-x8EA,13289
+novatel_edie/version.py,sha256=SpIcTa01B5Er1TYPn_wWMuApMVrxVnJdhhXhD200tTI,332
+novatel_edie/resources/decoders_dynamic_library_x32.dll,sha256=f0CZ-IFi90kLVcU7sWAe7IaQ_KtABGN_oocBJj5c-KE,498688
+novatel_edie/resources/hwinterface_dynamic_library_x32.dll,sha256=oxIh9uelb2udCW_O9x33Cd2zZb3pAx7bGav-TwDKqrI,223744
+novatel_edie/resources/novatel_log_definitions.json,sha256=iL8XbxYab99pcVpvSm7yELZbMA8EaYGU5TNezeuj4I4,3160975
+novatel_edie-0.1.1.dist-info/METADATA,sha256=7j9c4CwnGAx3Ki0VoK6JAv20bLYNPOpfsrhmEjrZtdw,1449
+novatel_edie-0.1.1.dist-info/WHEEL,sha256=YSDXjXq6LwLmYnzn-PpfWHGsNZzoJ5ICSU84LJ1pGnk,94
+novatel_edie-0.1.1.dist-info/top_level.txt,sha256=3g8zi9ResIFxZi11I_zzFv3iwcUy-f2_C48R_vTtcfU,13
+novatel_edie-0.1.1.dist-info/RECORD,,
