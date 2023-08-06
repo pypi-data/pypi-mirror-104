@@ -1,0 +1,12 @@
+compas_cloud/__init__.py,sha256=2tIMwRuN74UpVH4OP2ykqtxFomS1uu_BZq4RDLFN9Sg,316
+compas_cloud/client_net.py,sha256=VS_QG8RTDARIa5FcOra-DNIqVkqGFfTzykUXpYiIYtg,3278
+compas_cloud/client_websockets.py,sha256=0Qb84U_DB9BJ9V_rIOWkfF9PIlsyERjF2IVseQtnQPQ,1334
+compas_cloud/proxy.py,sha256=wK18Au6AJXu2f0wNQQ6f2BOeaM9iD9gowEE0rL70s-4,10232
+compas_cloud/server.py,sha256=kNoRywj786BCBLZzxds76MT13HezbpEBQJ66ExsGeDY,7254
+compas_cloud/server_websockets.py,sha256=GlDhKlEhN-BTGeESxzefR3OR4hexM-OepZsG0RsODag,7489
+compas_cloud/sessions.py,sha256=cffPqlrbcHS6vSafLrMV5psHD-p54cRjpuv-eyWl_UE,7082
+compas_cloud-0.1.2.dist-info/LICENSE,sha256=QHZ4M2p_0JjSQm-S3_TQWmwN64Ibkt8Y2bjODM15sI4,1067
+compas_cloud-0.1.2.dist-info/METADATA,sha256=QPpV05A9fI1yLeh_keZ2zbAWjbAC4k0je1VzOIUt_lI,8595
+compas_cloud-0.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+compas_cloud-0.1.2.dist-info/top_level.txt,sha256=9C8ptfXJjfOCkfdaTvovEgIfABfa9jLxbf_ajA6MLfc,13
+compas_cloud-0.1.2.dist-info/RECORD,,
