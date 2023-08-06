@@ -1,0 +1,3 @@
+[console_scripts]
+nanook=nanook.scripts.cli:main
+
