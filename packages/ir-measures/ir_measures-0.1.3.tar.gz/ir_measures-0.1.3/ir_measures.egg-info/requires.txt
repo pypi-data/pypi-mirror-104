@@ -1,0 +1,4 @@
+pytrec-eval-terrier==0.5.1
+
+[trectools]
+trectools>=0.0.44
