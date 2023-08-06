@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/motifx/__init__.py
+src/motifx/cache.py
+src/motifx/motifx.py
+src/motifx/operator.py
+src/motifx.egg-info/PKG-INFO
+src/motifx.egg-info/SOURCES.txt
+src/motifx.egg-info/dependency_links.txt
+src/motifx.egg-info/requires.txt
+src/motifx.egg-info/top_level.txt
