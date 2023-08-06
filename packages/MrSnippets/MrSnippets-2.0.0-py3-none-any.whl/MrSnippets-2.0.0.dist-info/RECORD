@@ -1,0 +1,17 @@
+MrSnippets/__init__.py,sha256=5sdnqqu2eO1NP7T1yRk8Vav5c59kEJVwXpTxmPCAEPk,8
+MrSnippets/__version__.py,sha256=_PYejoABM69vFTuc-PPuyRQYz6_knV8X902VU3OqK9c,194
+MrSnippets/data_converters.py,sha256=hcJXiwqoZFMAcEolNJgPhpA8dKAclE0laeiOC6MG8To,2922
+MrSnippets/data_mining.py,sha256=QKKuSNBdI16-b_86hoFskS9PRMAz0WGK-_56C4lgGnk,14485
+MrSnippets/data_support.py,sha256=DwmnXz7FcsIdVhNKqRk5tF8X1GfQwBlyta5KS6Sn0LA,740
+MrSnippets/image_processing.py,sha256=ZFHyJtryHtqy0VzFJHXhqaGINnG9UocI6fkICWck1RA,3389
+MrSnippets/mongo_wrapper.py,sha256=L0nTkE0S6XKKAg8qMx9andWR2b2qAgqKhUJKIYCU_Kg,4036
+MrSnippets/mysql_wrapper.py,sha256=2u_4s5PouM1fpXkFDaZDFISveRtFopaNBSECn8ylbbI,1548
+MrSnippets/nlp.py,sha256=pT-EDK0eR6qRBOJR4WClHEA2v-lmd8DTy8hqVMA0zek,7746
+MrSnippets/sql_wrapper.py,sha256=6Q74Y84P8XGqocruIswu731xi1uUnyGCB3j269ODu4E,2818
+MrSnippets/utilities.py,sha256=dvgq6fWVqYm6XUeBJ7K9jhcAgRb88Vfhw8Dujcb9TNQ,14831
+MrSnippets/web_client.py,sha256=M2fiAMFMsc5887blYKDIh3OZt_93suwiC7rrcGPbglk,8314
+MrSnippets-2.0.0.dist-info/LICENSE.md,sha256=tonKTFCx-AmEf0dCWZP55m3Fdq_byFt-UlcrjANdP3s,1334
+MrSnippets-2.0.0.dist-info/METADATA,sha256=ANcFxR1Ymv0bJR7B60j06S1aAAJD1-G8J6otUgSP-LQ,14195
+MrSnippets-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MrSnippets-2.0.0.dist-info/top_level.txt,sha256=A0xzdTGKvIPmBbtoaH_tre5Z8JzAyTRal-m1FLBDSes,11
+MrSnippets-2.0.0.dist-info/RECORD,,
