@@ -1,0 +1,7 @@
+requests
+pip
+termcolor
+python-gnupg
+
+[:python_version == "2.6"]
+importlib
