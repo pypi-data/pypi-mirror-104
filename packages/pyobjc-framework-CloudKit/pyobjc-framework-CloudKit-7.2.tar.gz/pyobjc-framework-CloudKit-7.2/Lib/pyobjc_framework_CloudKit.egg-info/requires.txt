@@ -1,0 +1,5 @@
+pyobjc-core>=7.2
+pyobjc-framework-Cocoa>=7.2
+pyobjc-framework-CoreLocation>=7.2
+pyobjc-framework-CoreData>=7.2
+pyobjc-framework-Accounts>=7.2
