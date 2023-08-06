@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: arvan-client
+Version: 0.0.5
+Summary: A Python SDK for ArvanCloud API
+Home-page: https://github.com/sajadrahimi/arvan-client
+Author: Sajad Rahimi
+Author-email: rahimisajad@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sajadrahimi/arvan-client/issues
+Description: # arvan-client
+        A python SDK for ArvanCloud API
+        
+        
+        # VOD
+        ```
+          from vod.vod import VOD
+          
+          vod = VOD('MY API KEY')
+          channels = vod.get_channels()
+          channel = next(filter(lambda t: t.description == 'my channels', channels))
+          video = vod.get_videos(channel, "video name, a key word, etc")
+        ```
+        
+        To add video from url:
+        ```
+          vod.add_video(channel, "video title", video_url = "URL TO VIDEO")
+        ```
+        
+        To add video from file:
+        ```
+          uploaded_file_id = vod.request_upload(channel, "PATH TO FILE")
+          vod.add_video(channel, "video title", file_id=uploaded_file_id)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
