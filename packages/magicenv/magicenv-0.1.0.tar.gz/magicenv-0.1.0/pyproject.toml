@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "magicenv"
+version = "0.1.0"
+description = "Simple way to parse common datatypes from env vars."
+authors = ["technocake <robin.garen@gmail.com>"]
+keywords = ["env", "magic"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/technocake/magicenv"
+repository = "https://github.com/technocake/magicenv"
+include = [
+    "LICENSE",
+]
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
