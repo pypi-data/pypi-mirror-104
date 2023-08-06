@@ -1,0 +1,10 @@
+coreugate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coreugate/coreugate.py,sha256=UA3mc2vb-VukaltoE6RK2tzMo3u7f5V25iWeXDyNDW8,13767
+coreugate/run.py,sha256=19HqvBHuYX7jvHxfxnrZmLP3cgh8tjXRArwSG1zYMSI,2658
+coreugate/utils/config.j2.yaml,sha256=kEzzw6cswqjUz8c6WaJ2iKc8qsPeDM9nqRqje1apv-U,270
+coreugate/utils/main.nf,sha256=83_FeDEu4OqdzjPftoaeEzO54CKqYn8si89aQt6ZYhY,2942
+coreugate-2.0.2.dist-info/METADATA,sha256=9VEVvWcoB2avhwCjNbj04bTuMhQPw4oOwMYSv8TzMg4,6151
+coreugate-2.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+coreugate-2.0.2.dist-info/entry_points.txt,sha256=frZ104kguCRbMnwGGUOjQa3RLfJHZyBLysdtW_S9cC0,50
+coreugate-2.0.2.dist-info/top_level.txt,sha256=QWYflJrjVdM5dnw64S6kQlZ7OXdpMz3ytMRckSgSuYM,10
+coreugate-2.0.2.dist-info/RECORD,,
