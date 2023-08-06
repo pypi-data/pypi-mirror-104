@@ -1,0 +1,10 @@
+stt/__init__.py,sha256=phGrYzxZafvGQqNeCvPVzAqAuvgsOUy1CjygbbqyKYQ,12507
+stt/_impl.cpython-39-x86_64-linux-gnu.so,sha256=mME05HgV9P3n3fxXBVSDX0Ofo41qcstMN2Rgxp2ECSo,429696
+stt/client.py,sha256=ZUMbFonmXYU06G7FZs1LdVRGtxXzbk8VQg-U8FUB13s,6612
+stt/impl.py,sha256=SFfRq0gR2KcHrxeaXga5FPZsU_osb6RlrRftcbJfWsg,7196
+stt/lib/libstt.so,sha256=6nNR3olB9b2VE_0H4A-7u_jzizDrPr6LhHfaO8KG5E4,34320320
+stt-0.10.0a6.dist-info/METADATA,sha256=y6idZp6xaQI6svK7dg7lnqrQSBS_ZaIYMsEfEGo30do,1330
+stt-0.10.0a6.dist-info/WHEEL,sha256=cWcb1aPkt6wRroPamuuiWOhYPcDkMYKGlzyYw5ByU34,108
+stt-0.10.0a6.dist-info/entry_points.txt,sha256=-RJKAhqFH3le0allDtX9BNVyOHyAXMbyweoEXUinoRI,41
+stt-0.10.0a6.dist-info/top_level.txt,sha256=U36suN9i5BZ2UbKj5dzgbpHmkIEAvyge7wRwJVB24jk,4
+stt-0.10.0a6.dist-info/RECORD,,
