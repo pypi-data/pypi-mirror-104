@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: s3access
+Version: 0.1.1
+Summary: Access Parquet files in S3 via S3 Select
+Home-page: https://github.com/scravy/s3access
+Author: Julian Fleischer
+Author-email: tirednesscankill@warhog.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: readstr (>=0.2.1)
+Requires-Dist: boto3 (>=1.7.0)
+Requires-Dist: pandas (>=1.0.0)
+
+UNKNOWN
+
+
