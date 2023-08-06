@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: QuickCite
+Version: 0.0.3
+Summary: Pure Python wrapper for the Formatically Citation Website.
+Home-page: https://github.com/http-samc/citer
+Author: Samarth Chitgopekar
+Author-email: sam@chitgopekar.tech
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.25.1)
+
+UNKNOWN
+
+
