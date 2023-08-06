@@ -1,0 +1,257 @@
+{% extends '_framework/html.j2' %}
+
+{% set _base_scripts = [
+  "https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue{}.js".format (not app.debug and '.min' or ''),
+  "https://cdnjs.cloudflare.com/ajax/libs/vuex/3.6.2/vuex{}.js".format (not app.debug and '.min' or ''),
+  "https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+] %}
+
+{% macro show_python_context () %}
+  {% if was.app.debug %}
+    <article>
+        <h1>Python Context</h1>
+        <ul>
+        {% for k, v in context.items () %}
+            <li class='mb-2'>context.{{ k }}: {{ v | escape }}</li>
+        {% endfor %}
+        </ul>
+    </article>
+  {% endif %}
+{% endmacro %}
+
+{% macro set_cloak (flag = True) %}
+  {{ map_data ('$cloak', flag) }}
+{% endmacro %}
+
+{% macro map_data (name, value, container = '', list_size = -1) %}
+  {% if not container %}
+    <script>
+      __temp = {{ value|tojson_with_datetime|replace ("'", "&#39;") }}
+      if (vuexItems.{{ name }} === undefined) {
+        vuexItems.{{ name }} = __temp
+      }
+      else {
+        Object.assign (vuexItems.{{ name }}, __temp)
+      }
+    </script>
+  {% else %}
+    {% if list_size == -1 %}{{ raise ('map_data error, list_size must be defined if container specified') }}{% endif %}
+    <div class="veux-state" data-name="{{ name }}" data-max-size="{{ list_size }}" data-container="{{ container }}" data-default='{{ value|tojson_with_datetime|replace ("'", "&#39;") }}'></div>
+    <script>vuexItems.{{ name }} = []</script>
+  {% endif %}
+{% endmacro%}
+
+{% macro map_dict (name) %}
+  {{ map_data (name, kwargs) }}
+{% endmacro %}
+
+{% macro map_text (name, container, type = 'text') %}
+  <div class="veux-state" data-name="{{ name }}" data-container="{{ container }}" data-type="{{ type }}"></div>
+  <script>vuexItems.{{ name }} = ''</script>
+{% endmacro %}
+
+{% macro map_html (name, container) %}
+  {{ map_text (name, container, 'html') }}
+{% endmacro %}
+
+{% macro map_route (__name__ = '') %}
+  {% for k, v in kwargs.items () %}
+    {% do kwargs.__setitem__ (k, was.urlspec (v)) %}
+  {% endfor %}
+  {{ map_data ('$urlspecs', kwargs) }}
+{% endmacro %}
+
+{% macro component (path, alias = none) %}
+  {% set url = was.static ('components/{}'.format (path)) %}
+  {% do was.push (url) %}
+  {{ "'{}': httpVueLoader('{}'),".format (alias or path.split ("/")[-1][:-4], url) }}
+{% endmacro %}
+
+{% macro global_component (path, alias = none) %}
+  {% set url = was.static ('components/{}'.format (path)) %}
+  {% do was.push (url) %}
+  {{ "Vue.component ('{}', httpVueLoader('{}'))".format (alias or path.split ("/")[-1][:-4], url) }}
+{% endmacro %}
+
+{% block head %}
+  {% for each in _base_scripts %}
+    <link rel="preload" as="script" href="{{ each }}">
+  {% endfor %}
+{% endblock %}
+
+{% block style %}
+   [v-cloak] { display: none !important;}
+   #state-map {display: none;}
+{% endblock %}
+
+{% block head_script %}
+  {{ super () }}
+  <script>
+    let __temp = null
+    const vuexItems = {}
+    const vueInitMethods = {}
+    const protoMethods = {}
+    let interactionMethods = {}
+    let vueUtilMethods = {}
+    let router = null
+  </script>
+{% endblock %}
+
+{% block body %}
+  <div id="app" v-cloak v-show='!$cloak'>
+    {% block app %}{% endblock %}
+  </div>
+{% endblock %}
+
+{% block body_trailer %}
+  {{ super () }}
+  {% block before_vue_load %}{% endblock %}
+  {% for each in _base_scripts %}
+    <script src="{{ each }}"></script>
+  {% endfor %}
+  <script src="{{ was.static ('vue2/_framework/libs/http-vue-loader@1.4.2.js') }}"></script>
+  <script src="{{ was.static ('vue2/_framework/vue-setup@0.1.js') }}"></script>
+  {% block vue_loaded %}{% endblock %}
+  {% block body_trailer_script %}{% endblock %}
+  <div id="state-map">
+  {{ map_data ('$args', request.args) }}
+  {{ map_data ('$debug', was.app.debug) }}
+  {{ map_data ('$cloak', False) }}
+  {% if app.config.get ('BACKEND') %}{{ map_data ('$backend', was.app.config.BACKEND) }}{% endif %}
+  {{ map_data ('$txnid', '{}@{}'.format (request.gtxid, request.channel.server.worker_ident)) }}
+  {% block state_map %}{% endblock %}
+  </div>
+  {% block scripts %}{% endblock %}
+
+  {% if route_base is defined %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.1.3/vue-router.min.js"></script>
+    {% block vue_router %}
+    {% set routes, pathes = build_routes (route_base) %}
+    <script>
+      {% for path in pathes %}
+        prefetch ("{{ path }}")
+      {% endfor %}
+      router = new VueRouter({
+        mode: 'history',
+        base: '{{ route_base }}',
+        routes: [
+          {% block vue_routes scoped %}
+            {{ routes }}
+          {% endblock %}
+        ],
+        {% block scroll_behavior %}
+          scrollBehavior (to, from, savedPosition) {
+            if (savedPosition) {
+              return savedPosition
+            } else {
+              return { x: 0, y: 0 }
+            }
+          },
+        {% endblock %}
+      })
+      {% block vue_router_before_each %}
+        router.beforeEach ((to, from, next) => {
+          next()
+        })
+      {% endblock %}
+
+      {% block vue_router_after_each %}
+        router.afterEach ((to, from) => {
+          {% if "googleAnalytics" in app.config.FRONTEND %}
+            gtag ('config', '{{ app.config.FRONTEND.googleAnalytics.id }}', {
+              page_title: window.document.title,
+              page_location: window.location.origin + '{{ route_base }}' + to.path,
+              page_path: '{{ route_base }}' + to.path,
+            })
+          {% endif %}
+        })
+      {% endblock %}
+
+
+    </script>
+    {% endblock vue_router %}
+  {% endif %}
+
+  {% block vuex %}
+    <script>
+    const store = new Vuex.Store ({
+      state: {
+        ...vuexItems,
+        {% block vuex_state %}{% endblock %}
+      },
+      getters: {
+        {% block vuex_getters %}{% endblock %}
+      },
+      mutations: {
+        {% block vuex_mutations %}{% endblock %}
+      },
+      actions: {
+        {% block vuex_actions %}{% endblock %}
+      },
+    })
+    </script>
+  {% endblock vuex %}
+
+  {% block vue %}
+    <script src="{{ was.static ('vue2/_framework/vue-mixup@0.1.js') }}"></script>
+    <script>
+    {{ global_component ('libs/vuex-state.vue') }}
+    {% block global_vue_components %}{% endblock %}
+    window.app = new Vue ({
+      el: '#app',
+      router,
+      store,
+      components: {
+        {% block vue_components %}{% endblock %}
+      },
+
+      data: {
+        {% block vue_data %}{% endblock %}
+      },
+      computed: {
+        ...mapVuexItems (),
+        {% block vue_computed %}{% endblock %}
+      },
+      watch: {
+        {% block vue_watch %}{% endblock %}
+      },
+
+      methods: {
+        ...vueInitMethods,
+        {% block vue_methods %}{% endblock %}
+      },
+
+      beforeCreate () {
+        {% block vue_before_create %}{% endblock %}
+      },
+      created () {
+        {% block vue_created %}{% endblock %}
+      },
+      beforeMount () {
+        this._readSchemas ()
+        {% block vue_before_mount %}{% endblock %}
+      },
+      mounted () {
+        this._readDataset ()
+        if (this.$csrf) {
+          axios.defaults.headers.common ["X-XSRF-TOKEN"] = this.$csrf.token
+        }
+        {% block vue_mounted %}{% endblock %}
+      },
+      beforeUpdate () {
+        {% block vue_before_update %}{% endblock %}
+      },
+      updated () {
+        {% block vue_updated %}{% endblock %}
+      },
+      beforeDestroy () {
+        {% block vue_before_destroy %}{% endblock %}
+      },
+      destroyed () {
+        {% block vue_destroyed %}{% endblock %}
+      },
+    })
+    </script>
+  {% endblock vue %}
+{% endblock %}

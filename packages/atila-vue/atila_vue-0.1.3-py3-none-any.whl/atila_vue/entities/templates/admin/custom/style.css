@@ -1,0 +1,15 @@
+#site-name a {font-weight: 900;}
+.stats {margin-top: 8px;}
+.stats ul {margin-top: 8px;}
+.stats li {list-style-type: square; padding: 0; margin: 0;}
+.stats .custom-section {background: #eaeaea; padding: 6px; width: auto; font-weight: 400;}
+.stats .label {width: 120px; float: left; font-weight: bold;}
+@media (min-width: 1024px) {
+    .stats .custom-section {margin-right: 280px;}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .stats .custom-section {margin-right: 230px;}
+}
+@media (max-width: 767px;) {
+    .stats .custom-section {margin-right: 0;}
+}

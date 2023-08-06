@@ -1,0 +1,74 @@
+{% extends 'examples/layouts/example.j2' %}
+
+{% block head %}
+  {{ super () }}
+  {{ csrf () }}
+  {# <meta name="csrf" content="{{ was.csrf_token }}"> #}
+{% endblock %}
+
+{% block style %}
+  {{ super () }}
+  body > ul {padding-left: 16px; padding-top: 24px;}
+  li > ul {padding-top: 16px; padding-bottom: 16px;}
+  li > ul > li {padding-bottom: 4px;}
+{% endblock %}
+
+{% block el_main %}
+  <h1>Single File Component Based Website</h1>
+  <div class='ml-2'><a href="https://github.com/FranckFreiburger/http-vue-loader">FranckFreiburger/http-vue-loader</a> Based Website Template</div>
+
+  <h3 class='mt-10 grey--text text--darken-1'>Template Examples</h3>
+  <ul>
+    <li class='mb-3'>
+      <b><a href='{{ was.urlfor ('examples.todos.index') }}'>Template 1 (Without Router)</a></b>
+      <ul>
+        <li>Vuex / Axios</li>
+        <li>Firebase Authorization If Configuration Provided</li>
+      </ul>
+    </li>
+    <li>
+      <b><a href='{{ was.urlfor ('examples.router.index') }}'>Template 2 (With Router)</a></b>
+      <ul>
+        <li>Vuex / Axios</li>
+        <li>Vue Router</li>
+        <li>Websocket</li>
+      </ul>
+    </li>
+    <li>
+      <b><a href='{{ was.urlfor ('examples.webpush') }}'>Web Push</a></b>
+      <p>Web Push Notification Example
+    </li>
+    <li>
+      <b><a href='{{ was.urlfor ('examples.tutorial') }}'>Tutorial</a></b>
+      <p>How To Handle Parent Elements From Child Component
+    </li>
+  </ul>
+
+  <h3 class='mt-10 grey--text text--darken-1'>PWA (Progressive Web App) Examples</h3>
+  <sw-sync-button tag='testSync'></sw-sync-button>
+  <hr>
+  <sw-notifcation-button test-button></sw-notifcation-button>
+  <hr>
+  {% if 'PUSH_API_SERVER_KEY' in was.app.config %}
+    <sw-subscribe-button app-server-public-key="{{ was.app.config.PUSH_API_SERVER_KEY ['public'] }}"></sw-subscribe-button>
+  {% endif %}
+
+  {{ show_python_context () }}
+  <vuex-state></vuex-state>
+
+{% endblock %}
+
+
+## connect vue ------------------------------------------------------
+{% block state_map %}
+  {{ map_data ('navbarActiveIndex', '1-1') }}
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('examples/service-worker/sw-notifcation-button.vue') }}
+  {{ component ('examples/service-worker/sw-subscribe-button.vue') }}
+  {{ component ('examples/service-worker/sw-sync-button.vue') }}
+{% endblock %}
+</script>

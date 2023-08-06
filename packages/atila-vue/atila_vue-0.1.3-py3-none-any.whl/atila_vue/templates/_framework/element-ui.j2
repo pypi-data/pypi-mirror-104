@@ -1,0 +1,97 @@
+{% extends '_framework/vue.j2' %}
+{% set _base_csses = [
+  "https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.13.0/theme-chalk/index.css",
+  was.static ("vue2/_framework/supplement.css")
+] %}
+
+{% macro make_pagenation (param_name, total, page_size, route_name, pager_count = 5, offset_base = False, noscript_only = False) %}
+  {% if param_name in ('offset', 'o', 'off', 'os') %}
+    {% set offset_base = True %}
+  {% endif %}
+
+  {% set handler = "handleCurrentPage_{}".format (range(10000,99999) | random) %}
+  {% if offset_base %}
+    {% set current = (request.ARGS.get (param_name, 0) / page_size) | int + 1 %}
+  {% else %}
+    {% set current = request.ARGS.get (param_name, 1) %}
+  {% endif %}
+  {% if not noscript_only %}
+    <el-pagination
+        background layout="prev, pager, next"
+        :total="{{ total }}"
+        :current-page='{{ current }}'
+        :page-size="{{ page_size }}"
+        :pager-count="{{ pager_count }}"
+        @current-change='{{ handler }}'>
+    </el-pagination>
+    <script type="application/javascript">
+      vueInitMethods.{{ handler }} = function (page) {
+        let base = "{{ was.urlpatch (route_name, **{param_name: None}) }}"
+        if (base.indexOf ('?') == -1) base += '?'
+        else base += '&'
+        {% if offset_base %}
+          location.href = base + '{{ param_name }}=' + ((page - 1) * {{ page_size }})
+        {% else %}
+          location.href = base + '{{ param_name }}=' + page
+        {% endif %}
+      }
+    </script>
+  {% endif %}
+
+  <noscript>
+    {% if offset_base %}
+      {% set prev = (current - 2) * page_size %}
+      {% set next = (current) * page_size %}
+    {% else %}
+      {% set prev = current - 1 %}
+      {% set next = current + 1 %}
+    {% endif %}
+    {% set last_page = total // page_size + 1 %}
+    <div class='pagenation text-center'>
+      <hr noshade size="1">
+      {% if current == 1 %}Previous Page
+      {% elif current > 1 %}<a rel="prev" href='{{ was.urlpatch (route_name, **{param_name: prev}) }}'>Previous Page</a>
+      {% endif %}
+      <span class="mx-4">|</span>
+      {% if current == last_page %}Next Page
+      {% elif current < last_page %}<a rel="next" href='{{ was.urlpatch (route_name,**{param_name: next}) }}'>Next Page</a>
+      {% endif %}
+    </div>
+  </noscript>
+{% endmacro %}
+{% block head_script %}
+  {{ super () }}
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/overthrow/0.7.0/overthrow.min.js' defer></script>
+{% endblock %}
+{% block head %}
+  {% for each in _base_csses %}
+    <link rel="preload" as="style" href="{{ each }}">
+  {% endfor %}
+  {{ super () }}
+{% endblock %}
+
+{% block head_style %}
+  {{ super () }}
+  {% for each in _base_csses %}
+    <link rel="stylesheet" href="{{ each }}">
+  {% endfor %}
+{% endblock %}
+
+{% block body_trailer_script %}
+  {{ super () }}
+  <script src="{{ was.static ('vue2/_framework/libs/element-ui@2.13.0.min.js') }}"></script>
+  <script src="{{ was.static ('vue2/_framework/element-ui-setup@0.1.js') }}"></script>
+{% endblock %}
+
+{% block app %}
+  <el-container>
+    {% block app_layout %}
+      {% block el_aside %}{% endblock %}
+      {% block el_header %}{% endblock %}
+      <el-main>
+        {% block el_main %}{% endblock %}
+      </el-main>
+      {% block el_footer %}{% endblock %}
+    {% endblock %}
+  </el-container>
+{% endblock %}
