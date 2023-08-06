@@ -1,0 +1,11 @@
+numpy
+scipy
+soundfile
+tensorflow-gpu
+opencv-contrib-python
+
+[dev]
+check-manifest
+
+[test]
+coverage
