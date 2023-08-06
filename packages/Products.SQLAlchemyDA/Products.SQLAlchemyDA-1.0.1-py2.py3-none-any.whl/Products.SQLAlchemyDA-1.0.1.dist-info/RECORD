@@ -1,0 +1,15 @@
+Products.SQLAlchemyDA-1.0.1-py3.7-nspkg.pth,sha256=nq2GLEDBKV9G0i4LEhkEEQT0gMqQlG1ToxVfs90lBMs,549
+Products/SQLAlchemyDA/__init__.py,sha256=kwzxCMIDPVqAssFxhACMoAOSeSDFlgULE7KPxvjmLEQ,978
+Products/SQLAlchemyDA/config.py,sha256=Z7fie29f-SDEjYPy5fi3l8CrtxQw0UnN533nWU-XCf4,418
+Products/SQLAlchemyDA/da.py,sha256=MF9pgFOM9V64rqReTl4W_0bZRa3E3gdTqMlOHPGudU0,18852
+Products/SQLAlchemyDA/pt/addSAWrapperForm.zpt,sha256=MGWwJALlVX7lB09yPpGj_kaTU5F7kFD4BoQrEGHO__k,2241
+Products/SQLAlchemyDA/pt/info.zpt,sha256=nAqjf1cqF9TuTlcuUIgl-piibRzdgv8k8xH3PGVU7no,2359
+Products/SQLAlchemyDA/pt/query.zpt,sha256=be7j-SpLZHbT6QABQZ59sucxQ2KacLVXkihZx-y88xU,2573
+Products/SQLAlchemyDA/tests/__init__.py,sha256=nZ8syR0SThxKmV0Mmd-mf9p_qYtrmrlywY5sNt0959I,14
+Products/SQLAlchemyDA/tests/test_SQLAlchemyDA.py,sha256=HmjJHUggUpQxWxuM9KdOE2zhoUqgW734hfdgKxZ3aAk,8399
+Products.SQLAlchemyDA-1.0.1.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+Products.SQLAlchemyDA-1.0.1.dist-info/METADATA,sha256=CoDhv2BrqUm9vXwWhkqfP3KtRneyAI0xYSyjyXreYT0,12282
+Products.SQLAlchemyDA-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+Products.SQLAlchemyDA-1.0.1.dist-info/namespace_packages.txt,sha256=UgMr3LVXWHS9vjnxTk8VOZd7xxgBn5T02HOaMRXjjTM,9
+Products.SQLAlchemyDA-1.0.1.dist-info/top_level.txt,sha256=UgMr3LVXWHS9vjnxTk8VOZd7xxgBn5T02HOaMRXjjTM,9
+Products.SQLAlchemyDA-1.0.1.dist-info/RECORD,,
