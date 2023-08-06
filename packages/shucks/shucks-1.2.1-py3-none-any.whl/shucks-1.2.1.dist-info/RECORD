@@ -1,0 +1,10 @@
+shucks.py,sha256=LNshHaWCZZOYZsPQ3nVU3NRK8RedGNn09-gc80Ie1Rs,4206
+shucks/__init__.py,sha256=xxXaweDbEdxo8JAYPh6z9QPC0DkcAsdOuC0m3gqVv-8,91
+shucks/checks.py,sha256=zt8gO7Ie_W-ZpORfE3R8Jd2ZycxIwx6KhMvSzUbekKg,1477
+shucks/helpers.py,sha256=oxwWiWQsErjV600jmtf5taEnnvPlHJm5rOvR_R607Mg,942
+shucks/schema.py,sha256=H8eyAkbwA9BFfS_MPXWO-kYNSdrYJCXMEm2DXrgtCGI,11482
+shucks-1.2.1.dist-info/LICENCE,sha256=nc2u5Ll9ZSVE7wcwVOenq4RyQTkTwMSbhdAZqKIEkto,1078
+shucks-1.2.1.dist-info/METADATA,sha256=B74z9PLXhTCevgl9xUkdp6bo-N2Z0F-hDC1PLuJi_QM,1182
+shucks-1.2.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+shucks-1.2.1.dist-info/top_level.txt,sha256=jKueCanINCDc8wYlk2z_W3sv_aHR-UH_6fbeq3OulMY,7
+shucks-1.2.1.dist-info/RECORD,,
