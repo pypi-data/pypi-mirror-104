@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: typecho
+Version: 0.1.0
+Summary: A simple and powerful asgi web framework.
+License: BSD
+Author: zzp198
+Author-email: zzp198@163.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
