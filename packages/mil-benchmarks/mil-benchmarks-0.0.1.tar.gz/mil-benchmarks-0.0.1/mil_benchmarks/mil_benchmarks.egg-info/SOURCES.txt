@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mil_benchmarks/mil_benchmarks.egg-info/PKG-INFO
+mil_benchmarks/mil_benchmarks.egg-info/SOURCES.txt
+mil_benchmarks/mil_benchmarks.egg-info/dependency_links.txt
+mil_benchmarks/mil_benchmarks.egg-info/top_level.txt
