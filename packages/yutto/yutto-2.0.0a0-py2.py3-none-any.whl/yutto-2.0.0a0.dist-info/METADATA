@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: yutto
+Version: 2.0.0a0
+Summary: yutto 一个任性的 B 站视频下载器
+Home-page: https://github.com/SigureMo/yutto
+Author: Nyakku Shigure
+Author-email: sigure.qaq@gmail.com
+License: MIT
+Keywords: python bilibili video download spider danmaku
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: asyncio
+
+UNKNOWN
+
+
