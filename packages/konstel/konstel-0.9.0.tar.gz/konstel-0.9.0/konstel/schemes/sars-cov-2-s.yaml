@@ -1,0 +1,36 @@
+sars-cov-2-s:  # Cannot contain '.'
+  description: Phonemic and cbase32 identifiers for SARS-CoV-2 spike protein sequences
+  version: 1.0.0
+  directives:
+    protein:
+      description: SARS-CoV-2 spike protein sequence
+      formats:
+        - fasta  # Single fasta record, with or without header
+      prepare:
+        strip_characters:
+          - '*'  # Remove terminal stops
+      validate:
+        alphabet: protein
+        min_length: 1200
+        max_length: 1300
+    genome:
+      description: SARS-CoV-2 genomic sequence containing complete spike gene
+      target: protein
+      formats:
+        - fasta
+      validate:
+        alphabet: nucleotide-ambiguous
+      helper: True
+  algorithm: sha256
+  encodings:
+    hash:  # An encoding named 'hash' is mandatory
+      type: cbase32
+      length: 7  # 35 bits
+      prefix: 'S:'
+    id:  # 
+      type: phonemes_16_4
+      length: 11  # 34 bits
+      prefix: 'S:'
+      separator:
+        character: '-'
+        interval: 7
