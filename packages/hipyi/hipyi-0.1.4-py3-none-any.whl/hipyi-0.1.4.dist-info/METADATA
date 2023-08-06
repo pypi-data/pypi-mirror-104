@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hipyi
+Version: 0.1.4
+Summary: Test pypi deploy
+Home-page: UNKNOWN
+Author: Daniel Morcuende
+Author-email: dmorcuende@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: setuptools-scm
+
+UNKNOWN
+
+
