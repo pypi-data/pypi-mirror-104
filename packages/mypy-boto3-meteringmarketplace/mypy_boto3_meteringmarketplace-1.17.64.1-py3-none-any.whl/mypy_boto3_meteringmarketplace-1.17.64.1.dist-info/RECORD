@@ -1,0 +1,15 @@
+mypy_boto3_meteringmarketplace/__init__.py,sha256=bGTRn384yp7mDJsw2tfCgl_MfKubuORvwcNBhNAyUaQ,569
+mypy_boto3_meteringmarketplace/__init__.pyi,sha256=1n1UIKUFf4Euv-n4VC1F5yIG3u0f9O4H1p90luvpM2Y,568
+mypy_boto3_meteringmarketplace/__main__.py,sha256=Im8v25gCLicJ931DMOs6wezADAWToYIlWVUWcElZ5f8,776
+mypy_boto3_meteringmarketplace/client.py,sha256=0CD2cHLm_pIu3lhMfzHIcRRgZXRDqPqZ4Yy2lSgJR_Y,5397
+mypy_boto3_meteringmarketplace/client.pyi,sha256=--Qc3yMRk_kKAOKsUcyx5-fzIguFxchkyDzf4uaXpp8,5387
+mypy_boto3_meteringmarketplace/literals.py,sha256=c5zUmIsWoK_K0n03vbYSLp_bEjn9YNVRp4sx-jrk2dA,614
+mypy_boto3_meteringmarketplace/literals.pyi,sha256=5peCiuttIZKFTtVTMct_HdVQoyyw4ADEmHOqsFlQ6RY,612
+mypy_boto3_meteringmarketplace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_meteringmarketplace/type_defs.py,sha256=YQ5i35-g25bTrjwt4v0tanbSKyl2QX_TMEw9cUkGRoE,2008
+mypy_boto3_meteringmarketplace/type_defs.pyi,sha256=lGRBm8gmV3OsLKl-Vh4nS5RFwiVm-XRxYJ_sOxvwswo,1997
+mypy_boto3_meteringmarketplace/version.py,sha256=ZViK-e-8gGgYN5YQxYdS-Iq4pk-u0Qa0BcDP2yBOC1A,57
+mypy_boto3_meteringmarketplace-1.17.64.1.dist-info/METADATA,sha256=F9GlZJnpffepKR4Ipd3XS7RDdaIOHr2cqcQk17pSnKI,6962
+mypy_boto3_meteringmarketplace-1.17.64.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_meteringmarketplace-1.17.64.1.dist-info/top_level.txt,sha256=dOZA2dwWcGLk4-dtjOiUexBdIk6p5PaPQLqLZG2nJUU,31
+mypy_boto3_meteringmarketplace-1.17.64.1.dist-info/RECORD,,
