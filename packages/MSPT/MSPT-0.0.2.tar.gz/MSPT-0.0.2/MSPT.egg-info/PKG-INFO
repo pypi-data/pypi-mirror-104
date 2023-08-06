@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MSPT
+Version: 0.0.2
+Summary: MS Bias calculations using the Pascal Triangle
+Home-page: https://github.com/llegregam/PascalTriangle
+Author: Loïc Le Grégam
+Author-email: legregam@insa-toulouse.Fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/llegregam/PascalTriangle/issues
+Project-URL: Source, https://github.com/llegregam/PascalTriangle/
+Description: # PascalTriangle
+        Software to compare experimental and theoretical values of MS IDMS validation experiments
+        
+Keywords: Mass Spectrometry,Biochemistry,Pascal Triangle
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/x-rst
