@@ -1,0 +1,8 @@
+setup.py
+hello_world_client_test_pypi.egg-info/PKG-INFO
+hello_world_client_test_pypi.egg-info/SOURCES.txt
+hello_world_client_test_pypi.egg-info/dependency_links.txt
+hello_world_client_test_pypi.egg-info/not-zip-safe
+hello_world_client_test_pypi.egg-info/top_level.txt
+test_pypi_haha/__init__.py
+test_pypi_haha/test_main_pypi.py
