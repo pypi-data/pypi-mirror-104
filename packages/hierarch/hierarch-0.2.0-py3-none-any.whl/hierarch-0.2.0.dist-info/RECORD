@@ -1,0 +1,11 @@
+hierarch/__init__.py,sha256=orwiwvQPYHUYHXV6_t_ffGUBPpfIGNR2DwUCn_3HZgE,72
+hierarch/internal_functions.py,sha256=cJ6j87vq719A9JDlprQYfQmEvHiX1WN3rZ1WvanKRy8,21798
+hierarch/numba_overloads.py,sha256=nQQxdoE2mOHWITjwemRlsUyb7jmMc1D8LYzSNznsuDw,1837
+hierarch/power.py,sha256=JBAaQ5qn4MZFLsVipRpk-QY0Vb-75aQRikzbfcQB8SE,2554
+hierarch/resampling.py,sha256=RxtXSN9UYQKCoAl2ejPsyVH5Ii7IZaCMYTrMX3c3Rpg,4002
+hierarch/stats.py,sha256=lW33h51CDgK6DknQaxmWPiUkjzLpvlQYK7RmdIUeq8o,6029
+hierarch-0.2.0.dist-info/LICENSE.txt,sha256=_EXkX9YyPxjW7lToboo-RXfxxbMabyQI-2HSH2ZSYAw,2229
+hierarch-0.2.0.dist-info/METADATA,sha256=iCLvxneTn6RX69uT4kjiX-zxzNTB0EDBiBxTG6HDJ0I,15036
+hierarch-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hierarch-0.2.0.dist-info/top_level.txt,sha256=U5EXHn1hh7j-ZD9odgw1Ca9CO9TGL2eFj6lNksmm6Bg,9
+hierarch-0.2.0.dist-info/RECORD,,
