@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "django-clearcache-backport"
+version = "1.0.0"
+description = "Allows you to clear Django cache via admin UI or manage.py command"
+authors = ["Bernardo Duarte <bernardoeiraduarte@gmail.com>"]
+homepage = "https://github.com/bernardoduarte"
+repository = "https://github.com/bernardoduarte/django-clearcache-backport"
+license = "MIT"
+readme = "README.md"
+keywords = ["django", "cache"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 2.7",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 1.10",
+    "Framework :: Django :: 1.11"
+]
+packages = [
+    { include = "clearcache" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^2.7"
+django = "^1.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest-django = "^3.8.0"
+pytest = "4.6.11"
+tox = "^3.14.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
