@@ -1,0 +1,11 @@
+topgg/__init__.py,sha256=4ZHvSTLxV8VuaP2dCNmTVDCUodYN3zEAHj_iOS6NewE,692
+topgg/client.py,sha256=7atPgd6bk6DiuHpUDSZmaegmeVfvpvn2UhtJFjGpou8,12742
+topgg/errors.py,sha256=8Tld6FXESVa096_gdxJMHQFXa3d_wmzscoT27A8hqHU,3080
+topgg/http.py,sha256=T4FyIQhqcEmeMZZqgHYJ4SXZvdqYWau7zj8nd0GFlxU,8320
+topgg/ratelimiter.py,sha256=9_yXeZGj4mK0r20iyEwZBK9RkYmikAYxo9GhgijPaIY,2610
+topgg/webhook.py,sha256=umx4OVFm0uCx3Frr5GdTEOJjUD3dyRFGApUfwjDMPAQ,4614
+topggpy-1.0.1.dist-info/LICENSE,sha256=C4_Irzlzz3DyqDeiN19DvZuavhvlIq5aK6G3tygTrG0,1066
+topggpy-1.0.1.dist-info/METADATA,sha256=ixtjyKGgA81DRB42WKynae91CN13ekKvE-7tlwuJwJg,4773
+topggpy-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+topggpy-1.0.1.dist-info/top_level.txt,sha256=ygvw3l94qwLw6s2XtahsW4q3_i33KaqaUwnw5A5lsZk,6
+topggpy-1.0.1.dist-info/RECORD,,
