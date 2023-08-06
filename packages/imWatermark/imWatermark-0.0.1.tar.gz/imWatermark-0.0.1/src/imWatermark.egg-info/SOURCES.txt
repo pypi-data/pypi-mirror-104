@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/imWatermark.py
+src/imWatermark.egg-info/PKG-INFO
+src/imWatermark.egg-info/SOURCES.txt
+src/imWatermark.egg-info/dependency_links.txt
+src/imWatermark.egg-info/requires.txt
+src/imWatermark.egg-info/top_level.txt
