@@ -1,0 +1,12 @@
+LICENSE,sha256=39lGfXIYCWwJAOxP4TOBywpWrz2Gyiye7CY5Dmmt4-o,11583
+pyridy/__init__.py,sha256=4Sxn6mKJv9_g7aFOi5ECz9jl6CDAQoALYiY93_WNOzY,37
+pyridy/file.py,sha256=0YTshnzLPZsvOGcsYO_PqHffbFhBUMH85Ym5rTcPE2Y,11664
+pyridy/manager.py,sha256=Qhc514XfbUn-jiI0zlphjl4HNClsgDwrlQLeSMh1lU0,1494
+pyridy/utils/__init__.py,sha256=MO5LrzDkiNWCmNRPZ2fgd98TerTQBvS4nxAdZ0-0-PU,53
+pyridy/utils/device.py,sha256=Yor_gPDSN8o86tSZgt-jSzmBiFCEHfoZQRhB2dN6to8,1555
+pyridy/utils/sensor.py,sha256=mlIyrAYEKrldpxOXZkFAQBS2DUvPRiUrybLbl8-e8nI,760
+pyridy/utils/timeseries.py,sha256=E2JKXgGWUk6EbA_Vt-iTG8u2SJNdi40K3gB7W55QOk4,6445
+pyridy-0.1.8.dist-info/LICENSE,sha256=39lGfXIYCWwJAOxP4TOBywpWrz2Gyiye7CY5Dmmt4-o,11583
+pyridy-0.1.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyridy-0.1.8.dist-info/METADATA,sha256=61USBXO6-JovnqlhujkJHMWdSc_lFHY7Uxqt5NHgOsQ,903
+pyridy-0.1.8.dist-info/RECORD,,
