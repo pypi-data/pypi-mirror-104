@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pysimilar/__init__.py
+pysimilar.egg-info/PKG-INFO
+pysimilar.egg-info/SOURCES.txt
+pysimilar.egg-info/dependency_links.txt
+pysimilar.egg-info/requires.txt
+pysimilar.egg-info/top_level.txt
