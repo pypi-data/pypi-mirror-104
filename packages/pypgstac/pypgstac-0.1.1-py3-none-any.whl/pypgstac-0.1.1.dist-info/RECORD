@@ -1,0 +1,7 @@
+migrations/pgstac.0.1.1.sql,sha256=Ny3W8R-jITYdiYeCBpXmtgZbakrkeA73EfTlo_1Gyus,1003733
+pypgstac/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+pypgstac/pypgstac.py,sha256=DM8HDkZ8iChckwwQKPY_tLuF9dpVJeLmxlQbuLh2pBM,2161
+pypgstac-0.1.1.dist-info/entry_points.txt,sha256=0uevJ0aHf9IOs6auf7JzqS0Z9UaoUFCArytJtPUqb28,50
+pypgstac-0.1.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pypgstac-0.1.1.dist-info/METADATA,sha256=53tOh8WSVTjKyW4fweEc9mIM-lP8v0Jhe0Gwde8yf9A,666
+pypgstac-0.1.1.dist-info/RECORD,,
