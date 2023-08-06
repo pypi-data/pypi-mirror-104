@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cmc_csci046_sepstein22
+Version: 1.0.0
+Summary: Tree Week 13 homework, publishing repo
+Home-page: https://github.com/sepstein22/containers_hw
+Author: Sophia Epstein
+Author-email: sepstein22@cmc.edu
+License: MIT
+Description: # containers
+        
+        Build status:
+        <<<<<<< HEAD
+        
+        1. [![](https://github.com/sepstein22/containers_hw/workflows/tests-fibonacci/badge.svg)](https://github.com/sepstein22/containers_hw/actions?query=workflow%3Atests-fibonacci)
+        1. [![](https://github.com/sepstein22/containers_hw/workflows/tests-range/badge.svg)](https://github.com/sepstein22/containers_hw/actions?query=workflow%3Atests-range)
+        1. [![](https://github.com/sepstein22/containers_hw/workflows/tests-unicode/badge.svg)](https://github.com/sepstein22/containers_hw/actions?query=workflow%3Atests-unicode)
+        =======
+        1. [![](https://github.com/sepstein22/containers_hw/actions/workflows/heap.yml/badge.svg)](https://github.com/sepstein22/containers_hw/actions/workflows/heap.yml)
+        >>>>>>> heap
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
