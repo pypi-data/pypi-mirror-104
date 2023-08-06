@@ -1,0 +1,17 @@
+tqdm
+lxml
+psutil
+geopandas>=0.9.0
+
+[colorlog]
+colorlog
+
+[full]
+rioxarray>=0.3.1
+colorlog
+
+[rasters]
+rioxarray>=0.3.1
+
+[rasters_rio]
+rasterio>=1.2.2
