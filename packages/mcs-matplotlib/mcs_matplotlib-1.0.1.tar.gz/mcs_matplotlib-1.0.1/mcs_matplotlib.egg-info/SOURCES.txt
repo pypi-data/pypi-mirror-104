@@ -1,0 +1,10 @@
+README.md
+setup.py
+mcs_matplotlib/__init__.py
+mcs_matplotlib/eqToPNG.py
+mcs_matplotlib.egg-info/PKG-INFO
+mcs_matplotlib.egg-info/SOURCES.txt
+mcs_matplotlib.egg-info/dependency_links.txt
+mcs_matplotlib.egg-info/entry_points.txt
+mcs_matplotlib.egg-info/requires.txt
+mcs_matplotlib.egg-info/top_level.txt
