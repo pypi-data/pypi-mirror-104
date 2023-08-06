@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sentiment-investor
+Version: 1.0.0
+Summary: Read the latest Real Python tutorials
+Home-page: https://sentimentinvestor.com
+Author: Robert Stok
+Author-email: rs.stok@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sentipy
+
+Welcome to the sentiment investor API wrapper. This package can be used to easily access trending stocks and individual ticker data from the sentimentinvestor.com website. To use this package you will need a developer key which can be obtained from https://sentimentinvestor.com/developer/docs-endpoints-raw. You can find our docs on https://sentimentinvestor.com/developer/python-docs.
+
+
