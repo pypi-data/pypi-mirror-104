@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyrematch
+Version: 0.1.4.1
+Summary: An information extraction focused regex library that uses constant-delay algorithms.
+Home-page: https://github.com/REmatchChile/REmatch
+Author: Oscar Cárcamo <oscar.carcamoz@uc.cl>,Nicolás Van Sint Jan <nicovsj@uc.cl>
+License: MIT
+
+# REmatch - Python version
+
+
