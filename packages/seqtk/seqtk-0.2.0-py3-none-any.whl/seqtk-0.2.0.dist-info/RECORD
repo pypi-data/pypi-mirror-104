@@ -1,0 +1,10 @@
+seqtk/__init__.py,sha256=bcgRh1-RhXDwOpjQWfjVc3xDLYTWP3m1nTZWGWWiouE,162
+seqtk/_concatenate.py,sha256=jxDaHBxUcdN-aiD65MLZW08rih3AwBvVVfLj7VdVlok,1406
+seqtk/_gather.py,sha256=AjfwYLCEypZZ_Ws1lfcxiyFSM5y0TsnvG4Ww3noxewg,698
+seqtk/_helper.py,sha256=AH1P6bG6lxqMhSuYuBQ6XkwfE-rGv_rzJuL1AV0qGng,105
+seqtk/_map.py,sha256=jXNOD_eRjqEmwVDAsdEOALQ92zVVBSx-NLQoY4x513I,2032
+seqtk-0.2.0.dist-info/LICENSE,sha256=-ik2zmjNKgHNw9UJzVVh5-R0YSdLXM-6znkq4kStbIg,1074
+seqtk-0.2.0.dist-info/METADATA,sha256=4VjE92x_cGJdVJxa4hoiCroIHnqthM1hmQYiht-E_4s,237
+seqtk-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seqtk-0.2.0.dist-info/top_level.txt,sha256=NT3BKqZZoi7KcBCUEn1_3yUT1nz34wchHgavnzjl8P8,6
+seqtk-0.2.0.dist-info/RECORD,,
