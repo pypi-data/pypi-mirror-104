@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: compas-rbe
+Version: 0.1.2rc0
+Summary: Rigid Block Equilibrium Analysis for the COMPAS framework
+Home-page: https://github.com/BlockResearchGroup/compas_rbe
+Author: tom van mele
+Author-email: van.mele@arch.ethz.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: COMPAS
+
+# COMPAS RBE
+
+Rigid Block Equilibrium Analysis for the COMPAS framework
+
+## Getting Started
+
+<https://blockresearchgroup.github.io/compas_rbe/gettingstarted.html>
+
+## First Steps
+
+## Issues
+
+## Contact
+
+## License
+
+
