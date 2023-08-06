@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyactuary
+Version: 0.0.1
+Summary: Life actuarial library
+Home-page: https://github.com/timomax/PyActuary
+Author: Tim Galvin
+Author-email: timgalvin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
+
