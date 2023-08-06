@@ -1,0 +1,11 @@
+type State {
+    state_type: String!
+    result: String
+    message: String
+}
+
+input StateInput {
+    state_type: String!
+    result: String
+    message: String
+}
