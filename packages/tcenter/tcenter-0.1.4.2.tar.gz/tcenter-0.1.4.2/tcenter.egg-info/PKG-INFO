@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: tcenter
+Version: 0.1.4.2
+Summary: A library for center titles
+Home-page: https://github.com/Suspir0n/tcenter
+Author: Evandro Silva
+Author-email: evandrojunior1615@gmail.com
+Maintainer: Evandro Silva
+Maintainer-email: evandrojunior1615@gmail.com
+License: MIT
+Download-URL: https://github.com/Suspir0n/tcenter/archive/refs/tags/0.1.4.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
