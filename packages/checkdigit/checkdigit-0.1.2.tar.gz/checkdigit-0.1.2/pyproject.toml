@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "checkdigit"
+version = "0.1.2"
+description = "A check digit library for data validation"
+authors = ["harens <harensdeveloper@gmail.com>"]
+maintainers = ["harens <harensdeveloper@gmail.com>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+include = ["checkdigit/py.typed"]
+keywords = ["Check Digits", "Validation", "ISBN"]
+classifiers = [
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  'Typing :: Typed'
+]
+
+homepage = "https://github.com/harens/checkdigit"
+repository = "https://github.com/harens/checkdigit"
+documentation = "https://github.com/harens/checkdigit/wiki"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/harens/checkdigit/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+error404 = "^1.1.8a0"
+pylint = "^2.8.2"
+mypy = "^0.812"
+black = "^20.8b1"
+isort = "^5.8.0"
+pydocstyle = "^6.0.0"
+coverage = "^5.5"
+
+[tool.coverage.run]
+branch = true
+# Coverage.py tries to check error404 since it's imported
+include = ["checkdigit/*", "tests/*"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
