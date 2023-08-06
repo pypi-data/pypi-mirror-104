@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pylie.egg-info/PKG-INFO
+src/pylie.egg-info/SOURCES.txt
+src/pylie.egg-info/dependency_links.txt
+src/pylie.egg-info/top_level.txt
