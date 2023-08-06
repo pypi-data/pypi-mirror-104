@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=yTaByS3uL5Ylc5b7HUaBSX_tMq29TPZ3QPjWSons1Ro,611
+gibihm/__init__.py,sha256=KaJnpu-oXBwTFCQzeTTpK97Uf5wPKRA4s8VSml324D8,680
+gibihm/cli.py,sha256=aOSQU8nL8QELdTRDtkV5YcoZvz0GUF-5i6PNboMcE9Y,2316
+gibihm/gitlab.py,sha256=6ZW5sKU5LDo1Hb6KSeHpkyhRAmoAnQ00c5xnxsX9mzg,1846
+gibihm/task.py,sha256=yGFYJmG21IcLYJIaV2EAoIAulrji8JYSlG7lDinFemU,6031
+gibihm/util.py,sha256=94ObguJfRJsjuKGvN_ZZAH8zvr5YRKte7if0ZNCBsHE,1400
+gibihm-0.1.1.post2.dist-info/entry_points.txt,sha256=R3g_zQHNqG_VuGeKAe0ShSajXpo5eR7bSAfiEoqmuuo,44
+gibihm-0.1.1.post2.dist-info/LICENSE,sha256=mpRsNnPZiRGPTbIfLslMYmqf4N_4_Tg0eqp8vZJEgGE,11364
+gibihm-0.1.1.post2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gibihm-0.1.1.post2.dist-info/METADATA,sha256=eGYNcEfJ7_Y-wKJo1koSVrzIDZ7adAhq_kVo9YcV1Zs,7669
+gibihm-0.1.1.post2.dist-info/RECORD,,
