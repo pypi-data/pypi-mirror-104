@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+another_example_pkg_ralcanta/__init__.py
+another_example_pkg_ralcanta/file1.py
+another_example_pkg_ralcanta.egg-info/PKG-INFO
+another_example_pkg_ralcanta.egg-info/SOURCES.txt
+another_example_pkg_ralcanta.egg-info/dependency_links.txt
+another_example_pkg_ralcanta.egg-info/requires.txt
+another_example_pkg_ralcanta.egg-info/top_level.txt
