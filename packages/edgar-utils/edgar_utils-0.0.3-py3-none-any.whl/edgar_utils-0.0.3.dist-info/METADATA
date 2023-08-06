@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: edgar-utils
+Version: 0.0.3
+Summary: Utils to load financials filing from Edgar
+Home-page: https://pypi.org/project/edgar-utils/
+Author: Aleksey Beregov
+Author-email: beregov@teladictum.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: faker
+Requires-Dist: parse
+Requires-Dist: requests
+Requires-Dist: sphinx
+
+# Utils for EDGAR filings
+```
+
+  ______    _                    _    _ _   _ _     
+ |  ____|  | |                  | |  | | | (_) |    
+ | |__   __| | __ _  __ _ _ __  | |  | | |_ _| |___ 
+ |  __| / _` |/ _` |/ _` | '__| | |  | | __| | / __|
+ | |___| (_| | (_| | (_| | |    | |__| | |_| | \__ \
+ |______\__,_|\__, |\__,_|_|     \____/ \__|_|_|___/
+               __/ |                                
+              |___/                                 
+```
+
+## Setting up DEV environment
+* Creating Python venv
+  ```
+  $ python3 -m venv venv
+  ```
+* Activating env
+  ```
+  $ source ./venv/bin/activate
+  ```
+* Enabling PyTest in VCS. The following parameter should be set to TRUE
+  ```
+    python.testing.pyTestEnabled 
+  ```
+
+## Running tests
+* Activate venv
+  ```
+  $ source ./venv/bin/activate
+  ```
+* Run tests manually
+  ```
+  $ pytest
+  ```
+* Run tests via make
+  ```
+  $ make deveop.test
+  ```
+
+## Generating documentation
+* Install sphinx
+  ```
+  $ pip install sphinx
+  ```
+
