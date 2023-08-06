@@ -1,0 +1,16 @@
+LICENCE.md
+MANIFEST.in
+README.md
+setup.py
+src/.DS_Store
+src/runcrawler/__init__.py
+src/runcrawler/cli.py
+src/runcrawler/logclassify.py
+src/runcrawler/scan_log.yml
+src/runcrawler.egg-info/PKG-INFO
+src/runcrawler.egg-info/SOURCES.txt
+src/runcrawler.egg-info/dependency_links.txt
+src/runcrawler.egg-info/entry_points.txt
+src/runcrawler.egg-info/not-zip-safe
+src/runcrawler.egg-info/requires.txt
+src/runcrawler.egg-info/top_level.txt

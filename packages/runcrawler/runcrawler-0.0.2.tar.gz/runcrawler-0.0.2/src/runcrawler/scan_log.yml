@@ -1,0 +1,49 @@
+#errors:
+
+- pattern: End of AVBP session 
+  code: 0             
+  message: "Run successful" 
+
+- pattern: Reading run parameters
+  message: before run params
+  code: 110
+
+- pattern: Reading boundary conditions
+  message: "run params ok,\n before asciibound file"
+  code: 120
+
+- pattern: Info on initial grid
+  code: 130
+  message: "asciibound ok,\n before grid"
+
+- pattern: Writes full parameters file
+  message: "grid ok,\n before init"
+  code: 140
+
+- pattern: Info on initial solution
+  message: "init ok,\n before solutbound"
+  code: 150
+
+- pattern: Reading probe coordinates file
+  message: "solutbound ok,\n before probes"
+  code: 160
+
+- pattern : Selected mixture and solution do not contain the same number of species. Check inputs.
+  message: mixture issue
+  code: 170
+
+- pattern: Writing probe reference file
+  message: "probes ok,\n before wall dist"
+  code: 210
+
+- pattern: Wall distances stored in file
+  message: "wall dist ok,\n before other preproc"
+  code: 290
+
+- pattern: Starts the temporal loop
+  message: before temporal loop
+  code: 300
+
+- pattern: Integral values for boundary patches
+  message: "loop finished,\n before wrap up"
+  code: 900
