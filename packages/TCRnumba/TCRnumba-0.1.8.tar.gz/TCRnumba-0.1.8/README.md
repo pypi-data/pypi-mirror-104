@@ -1,0 +1,44 @@
+# Installation
+To install on Linux type into the commandline:
+    
+    pip install TCRnumba
+
+It requires CUDA and is not yet tested for MacOS or Windows.
+
+# Usage
+In Python you can import
+
+    import TCRnumba
+
+Then, test the script, by running the additional commands  
+
+    import TCRnumba.graph_numba as gn
+    import TCRnumba.convert_pure as cp
+    adjacency_sparse = gn.adjacency_matrix(['ABC', 'DEF', 'EFG', 'ABC', 'ABD', 'EEE', 'EEF', 'EFF', 'GGE', 'GAS'], N_part=2, len_xy=5, direct_output=True)
+    cp.convert_pure(adjacency_sparse, 2, 5)
+
+# Use SONIA to create files
+    sonia-generate --humanTRB -n 1000000 --pre -o pre_example.txt
+
+# Functions 
+
+    convert_pure(sparse, single_sidelength, len_x)
+
+Take list of single digit indices and convert into a dense matrix
+
+    dense_matrix(data, len_xy)
+
+Take list of two digit indices and convert that into a dense matrix
+
+    <!-- gpu_sparse(strings1, strings2, num_strings, blockspergrid, threadsperblock) -->
+
+    total_idx(el, N_part, i, j, len_x, len_y)
+
+Convert indices from single-number indices to two-number indices. "N_part" is the number of strings 
+in each block. i and j are int numbers, referring to the index of the block. len_x and len_y 
+are int numbers denoting the number of blocks in height and length. 
+
+    adjacency_matrix(seq, name="sparse.txt", idx_max=0, name_params="data/sparse_params.txt", N_part=None, len_xy=None, direct_output=False)
+
+Input a list of strings "seq" and calculate the distance matrix. Save under the filename "name". 
+// define the other params of all the presented functions
