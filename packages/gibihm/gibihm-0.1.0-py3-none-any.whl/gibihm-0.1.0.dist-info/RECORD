@@ -1,0 +1,10 @@
+gibihm/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+gibihm/cli.py,sha256=6zs49AscNEMLYJrssObGeoZWyosr7kA3O5U240IZBjA,1827
+gibihm/gitlab.py,sha256=Xx0wA2XhA1mYnQ_PTIpuQoJu3OV_OZC907ZnLPgnu5A,1442
+gibihm/task.py,sha256=FQc8T_O_GtpEY-gKkQuaVVLCrvIA-ujyEQnCJoCiI2A,4878
+gibihm/util.py,sha256=Jg76a2MH8jZUy_z5tLm_yXH3Hz2sQohjNHwEfUDrco0,1054
+gibihm-0.1.0.dist-info/entry_points.txt,sha256=R3g_zQHNqG_VuGeKAe0ShSajXpo5eR7bSAfiEoqmuuo,44
+gibihm-0.1.0.dist-info/LICENSE,sha256=mpRsNnPZiRGPTbIfLslMYmqf4N_4_Tg0eqp8vZJEgGE,11364
+gibihm-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gibihm-0.1.0.dist-info/METADATA,sha256=iq-SIn2VqcN7kMHXRM8cMrVpDENewu_rJrnZuPmQShU,4904
+gibihm-0.1.0.dist-info/RECORD,,
