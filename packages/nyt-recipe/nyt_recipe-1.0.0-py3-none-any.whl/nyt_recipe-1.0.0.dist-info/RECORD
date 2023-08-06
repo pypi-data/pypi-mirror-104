@@ -1,0 +1,9 @@
+nyt_recipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nyt_recipe/main.py,sha256=nbEDHgXF8pxW4uwv-vhYUwwsIT8YnjFH4XsjoNd8Dzc,1878
+nyt_recipe/output.py,sha256=9c-uyXIqk2-6vHtU1pPfUTC3Qpu5h_aaEC4yrnP1DX0,289
+nyt_recipe/recipe.py,sha256=Wvv73hZqHCgNHtYVEV_NRcbMrk-pFwsPB8WPq5sjLro,3041
+nyt_recipe-1.0.0.dist-info/entry_points.txt,sha256=FweuKE2o6XxeAza8QZRJ_KJrPx3Rl0DNF-Iww-rYa9k,51
+nyt_recipe-1.0.0.dist-info/LICENSE,sha256=_P_2RfQMCIWcL_EyWLh2jEB1_0Vyn6GIbPLknwXUcqQ,1067
+nyt_recipe-1.0.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+nyt_recipe-1.0.0.dist-info/METADATA,sha256=dZ8RvdqVdCZwrJrJgLPi2qcq4qzh7LLFZ4G2A8FsJsA,1428
+nyt_recipe-1.0.0.dist-info/RECORD,,
