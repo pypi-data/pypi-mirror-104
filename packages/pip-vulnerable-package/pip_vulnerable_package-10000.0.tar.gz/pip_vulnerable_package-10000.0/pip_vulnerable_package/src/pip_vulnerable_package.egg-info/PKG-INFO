@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pip-vulnerable-package
+Version: 10000.0
+Summary: Malicious package which gets replaced due to confusion
+Home-page: UNKNOWN
+Author: nguna
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

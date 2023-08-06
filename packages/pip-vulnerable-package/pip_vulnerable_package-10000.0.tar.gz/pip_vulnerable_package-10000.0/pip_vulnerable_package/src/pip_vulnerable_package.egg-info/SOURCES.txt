@@ -1,0 +1,6 @@
+README.md
+setup.py
+pip_vulnerable_package/src/pip_vulnerable_package.egg-info/PKG-INFO
+pip_vulnerable_package/src/pip_vulnerable_package.egg-info/SOURCES.txt
+pip_vulnerable_package/src/pip_vulnerable_package.egg-info/dependency_links.txt
+pip_vulnerable_package/src/pip_vulnerable_package.egg-info/top_level.txt
