@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cowin
+Version: 0.0.1
+Summary: Python wrapper for CoWin API
+Home-page: https://github.com/backtrackbaba/cowin
+Author: Saiprasad Balasubramanian
+Author-email: sai.cosmo@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/backtrackbaba/cowin/issues
+Project-URL: Source, https://github.com/backtrackbaba/cowin
+Keywords: cowin,covid,vaccine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: fake-useragent (==0.1.11)
+Requires-Dist: pytest (==6.2.3)
+Requires-Dist: requests (==2.25.1)
+
+# Cowin Tracker
+
+Python API wrapper for CoWin, India's digital platform launched by the government to help citizens register themselves
+for the vaccination drive by booking an appointment at the nearby vaccination centres
+
+The process to look-up for available slots to take the vaccine is tedious as you need to log in to the portal every time
+
+This wrapper is meant to enable folks to build their own versions of a system to lookup for vaccine availablity either
+in a district or in a particular pin code.
+
+Example:
+
+```
+from cowin_api import CoWinAPI
+cowin = CoWinAPI()
+
+states = cowin.get_states()
+print(states)
+```
+
+
