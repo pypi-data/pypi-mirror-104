@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: dssystem
+Version: 0.1.5
+Summary: The basic concept SAW method is to find the sum of the weighted performance rating for each alternative on all attributes. SAW method requires a process of normalizing the decision matrix (X) to a scale that can be compared with all the ratings of existing alternatives.
+Home-page: UNKNOWN
+Author: Rafi Mochamad Fahreza
+Author-email: prokodingproject@gmail.com
+License: UNKNOWN
+Description: ## About this package
+        
+        The basic concept **SAW method** is to find the sum of the weighted performance rating for each alternative on all attributes. **SAW** method requires a **process** of normalizing the decision matrix (X) to a scale that can be compared with all the ratings of existing alternatives.
+        
+        ### Depedencies
+        * Python >= 3
+        * numpy
+        * pandas
+        
+        ### Function
+        
+        **init (data,weights, non_beneficial = None)** 
+        
+        > Initializer provides 2 required parameters and 1 optional parameter, data is the dataset with DataFrame format, weights is the values that provided to get a optimal alternative, non_beneficial is the column that has type "cost", not benefit.
+        
+        **getDecisionMatrix** 
+        
+        > Function that return formatted matrix from dataset
+        
+        **normalize** 
+        
+        > Function that return normalized matrix from decision matrix
+        
+        **createDecision** 
+        
+        > Function that return the list of alternative's score
+        
+        **getChosenOneByIndex** 
+        
+        > Function that return the chosen one from the alternatives
+        
+        
+        ### Example case
+        We will simulate "Selection of land - Water resources management" which has 4 criteria(s) : Rainfall, Drainage, Usage of land, Tophography. Usage of land is the only one non beneficial criteria.
+        * In this case we'll use the weight values like this : 
+        > [0.25, 0.25, 0.25, 0.25]
+        * The example dataset that we had
+        > [[25,  67,  7,  20],  
+            [21,  78,  6,  24],  
+            [19,  53,  5,  33],
+            [22,  25,  2,  31]]
+        ### Example of code
+        ```
+        from dssystem.method import SimpleAdditiveWeighted
+        import numpy as np
+        import pandas as pd
+        dataset = pd.DataFrame({"Rainfall" : [25, 21, 19, 22],
+        						"Drainage" : [67, 78, 53, 25],
+        						"Usage of land" : [7, 6, 5, 2],
+        						"Tophography" : [20, 24, 33, 31]}, 
+        						index=["L1","L2","L3","L4"])
+        						
+        method = SimpleAdditiveWeighted(dataset, [.25, .25 , .25, .25], ["Usage of land"])
+        print(method.getChosenOneByIndex()) #to get chosen alternative name
+        print(method.getDecisionMatrix()) #to get decision matrix
+        print(method.normalize()) #to get normalized decision matrix
+        print(method.createDecision()) #to get list of alternative's score
+        ```
+        
+        ## Example of output
+        ```
+        L4 #L4 is the chosen one
+        
+        #output of the decision matrix
+        [[25 67  7 20]
+         [21 78  6 24]
+         [19 53  5 33]
+         [22 25  2 31]]
+        
+        #output of normalized decision matrix
+        [[1.   0.86 0.29 0.61]
+         [0.84 1.   0.33 0.73]
+         [0.76 0.68 0.4  1.  ]
+         [0.88 0.32 1.   0.94]]
+        
+        #output of list of alternative's score
+        [0.69 0.72 0.71 0.79]
+        ```
+        
+Keywords: algorithm,dss,decision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence 
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Description-Content-Type: text/markdown
