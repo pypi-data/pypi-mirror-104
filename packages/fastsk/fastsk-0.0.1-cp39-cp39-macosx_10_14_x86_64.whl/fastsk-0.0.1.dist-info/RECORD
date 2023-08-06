@@ -1,0 +1,9 @@
+fastsk/__init__.py,sha256=XsMLEKYLZn9lnc9xcRwDf8hDRWB8otLfFZi_S0-rbvs,60
+fastsk/_fastsk.cpython-39-darwin.so,sha256=rZgCzj6KZEPPYFPIJYZPGXNXORDrhLPlh6dTZXT7qVk,299424
+fastsk/old_utils.py,sha256=0rEmLCt4ZmSccDe9XVAsWFffngeT84MwwqSPBtSwdQA,28700
+fastsk/utils.py,sha256=pY4Eg0STE0dzk7AJTBvEIZq9_QKhPM7LN9W81gcVjdM,3045
+fastsk-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastsk-0.0.1.dist-info/METADATA,sha256=72wy53UryXZBs6y9wD7FtBt-njrqc4fR09P8jLHFpbo,8033
+fastsk-0.0.1.dist-info/WHEEL,sha256=7vkJ3ZnexegyTUl8grQkOVww_TVBMjxMIgcotcWEQj4,110
+fastsk-0.0.1.dist-info/top_level.txt,sha256=VDwI0RbjYmTVfQikUMOHUHp13KAClnEXtqXR__TQV7g,7
+fastsk-0.0.1.dist-info/RECORD,,
