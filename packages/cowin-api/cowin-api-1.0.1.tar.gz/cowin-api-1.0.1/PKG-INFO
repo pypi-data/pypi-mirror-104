@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: cowin-api
+Version: 1.0.1
+Summary: Co-WIN Protected APIs
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     Co-WIN APIs to register for vaccination, to book a vaccination appointment from partner applications. These APIs have restricted access. Please contact Ministry of Health and Family Welfare, Government of India to get access to these APIs. &lt;i&gt;[Updated on 25 Apr 2021]&lt;/i&gt;  # noqa: E501
+            
+Keywords: Swagger,Co-WIN Protected APIs
+Platform: UNKNOWN
