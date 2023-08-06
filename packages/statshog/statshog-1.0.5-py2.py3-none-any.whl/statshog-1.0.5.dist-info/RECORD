@@ -1,0 +1,15 @@
+statshog/__init__.py,sha256=RUFyUhV0Y8St2lpNptS_HCX4HIri3eJq_W23OPVTcrE,293
+statshog/tests.py,sha256=qqiC4gzpST6avflJrdVZKO8jWbh0o5ygNviCCiKzcfU,26980
+statshog/client/__init__.py,sha256=PYXqKJbEleQh7Twjn8qldJ7mZ_zoCYBSCSwufNj_VmE,171
+statshog/client/base.py,sha256=_Ro558RC4tutdCL2ECH3eqNo9WZbHbimAOB4J5mUsGk,3814
+statshog/client/stream.py,sha256=JtE7HDXuckeaxAOGWhD3a5cKfjjDDldhPiFiTXG2R5o,2515
+statshog/client/timer.py,sha256=tUc8ZCctuZhcTXOvMQVoFFWQmnmc_EMOffl5jZXHmLg,2271
+statshog/client/udp.py,sha256=4YyGI0Gq384OhjrbMu0sluknuFY9G9bDjVEprfJchuk,1892
+statshog/defaults/__init__.py,sha256=s63G49As1e018a7fyP3uwOhb991KX1QxA4dXjLwqx_0,92
+statshog/defaults/django.py,sha256=G1PFrJvb2V28vQRcgtzTf-EI5o-6PdLy5YqosBjDb4A,742
+statshog/defaults/env.py,sha256=y6v3alWejm6sLYWFYmKz_F2XAyNtzwxnw17A4CfIYo0,687
+statshog-1.0.5.dist-info/LICENSE,sha256=sRtCnghjM2jbDs0CE4PcLhf7WOkTh9i0hPyXEuRTFbI,1064
+statshog-1.0.5.dist-info/METADATA,sha256=9W_AmwwpEN3_5dIBI-kWkhVWRQkuRSnf3SGaNAVldAI,2868
+statshog-1.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+statshog-1.0.5.dist-info/top_level.txt,sha256=YT-m835vxYZ3bo85JevEilyERqzgQ0DRB1ILaBJoyMM,9
+statshog-1.0.5.dist-info/RECORD,,
