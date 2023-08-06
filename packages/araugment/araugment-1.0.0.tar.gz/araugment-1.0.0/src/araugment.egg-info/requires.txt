@@ -1,0 +1,6 @@
+markovify
+google_trans_new
+requests
+
+[dev]
+check-manifest

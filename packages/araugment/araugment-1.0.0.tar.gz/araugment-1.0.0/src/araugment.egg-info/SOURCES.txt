@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/araugment/__init__.py
+src/araugment/augment.py
+src/araugment.egg-info/PKG-INFO
+src/araugment.egg-info/SOURCES.txt
+src/araugment.egg-info/dependency_links.txt
+src/araugment.egg-info/requires.txt
+src/araugment.egg-info/top_level.txt
+tests/test_augment.py
