@@ -1,0 +1,3 @@
+[console_scripts]
+mlfix = mlfix.__main__:main
+
