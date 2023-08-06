@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+pmw3901/__init__.py
+pmw3901.egg-info/PKG-INFO
+pmw3901.egg-info/SOURCES.txt
+pmw3901.egg-info/dependency_links.txt
+pmw3901.egg-info/requires.txt
+pmw3901.egg-info/top_level.txt
