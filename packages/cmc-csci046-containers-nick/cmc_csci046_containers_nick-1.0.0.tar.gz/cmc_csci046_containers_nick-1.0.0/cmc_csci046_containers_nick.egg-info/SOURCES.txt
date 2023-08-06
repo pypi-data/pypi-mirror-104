@@ -1,0 +1,8 @@
+README.md
+setup.py
+cmc_csci046_containers_nick.egg-info/PKG-INFO
+cmc_csci046_containers_nick.egg-info/SOURCES.txt
+cmc_csci046_containers_nick.egg-info/dependency_links.txt
+cmc_csci046_containers_nick.egg-info/entry_points.txt
+cmc_csci046_containers_nick.egg-info/requires.txt
+cmc_csci046_containers_nick.egg-info/top_level.txt
