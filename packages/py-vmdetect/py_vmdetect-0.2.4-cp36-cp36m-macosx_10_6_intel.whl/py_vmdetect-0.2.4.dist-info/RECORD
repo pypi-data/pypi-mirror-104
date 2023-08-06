@@ -1,0 +1,13 @@
+_vmdetect_backend.cpython-36m-darwin.so,sha256=lHHvqvla6ekApceyP2yblxqVjX30GO7zFJnCbLQ8zck,11388
+py_vmdetect/__init__.py,sha256=tpl7GcrJt32beESq_grsAqPMkb2UhQhxyBHtM4ZbpzQ,230
+py_vmdetect/cli.py,sha256=SVfUFTUwuzzV2VhRJmYbR6Kj-3E1WTvH98BPqpb7KY8,2164
+py_vmdetect/py_vmdetect.py,sha256=mDVE9OsdGDTZkWaNsF0tteXIvPd0hpYu2VBXVNLYxcU,2456
+py_vmdetect/vmdetect.so,sha256=DX3l8LrQv39fCIO-RPkq4U1VFMSZCi-7rnSKHEp_WuQ,9836
+py_vmdetect/src/vmdetect.cpp,sha256=eKyckchvh_C2Oe7FezU5vQXekn1yBOX3UCMU-BLMjdE,6723
+py_vmdetect-0.2.4.dist-info/AUTHORS.rst,sha256=TYgzvAhDmr9NyAhSphjcdRyNAAPiJ3x3HeBvIXiHdZE,155
+py_vmdetect-0.2.4.dist-info/LICENSE,sha256=2yOPWqvI9xkatCYCyEjIggmelntK5d-GPTv_60krMPU,1072
+py_vmdetect-0.2.4.dist-info/METADATA,sha256=Hj0sDovWg1_ZwG73-1PXaA5X_VVUJM-e1K4ynH3H7Lw,2271
+py_vmdetect-0.2.4.dist-info/WHEEL,sha256=NALWuZoyU1AH-adYaiMj2ia9Gibn5jcQQ6LL9rSLAE4,109
+py_vmdetect-0.2.4.dist-info/entry_points.txt,sha256=f7SpZHpTnqblx87K0qNypluKTx_OCwYAbK8m1uzVVuU,54
+py_vmdetect-0.2.4.dist-info/top_level.txt,sha256=4oCfzCvmkBIdssbN_z7tXauOytbcNPRiR5BzQCjACjI,30
+py_vmdetect-0.2.4.dist-info/RECORD,,
