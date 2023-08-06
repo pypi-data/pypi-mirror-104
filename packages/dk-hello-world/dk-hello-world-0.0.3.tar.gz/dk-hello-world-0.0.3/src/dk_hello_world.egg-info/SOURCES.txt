@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+src/dk_hello_world.egg-info/PKG-INFO
+src/dk_hello_world.egg-info/SOURCES.txt
+src/dk_hello_world.egg-info/dependency_links.txt
+src/dk_hello_world.egg-info/top_level.txt
+src/test_class_pkg/__init__.py
