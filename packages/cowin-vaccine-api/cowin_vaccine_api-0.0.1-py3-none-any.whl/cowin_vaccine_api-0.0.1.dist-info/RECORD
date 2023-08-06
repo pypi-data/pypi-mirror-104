@@ -1,0 +1,10 @@
+cowin/__init__.py,sha256=xa-NevNr-rVJ1ha2DlyxS7XWz3na_PBFbBMTSJi9WqQ,26
+cowin/api.py,sha256=BPAcifYKgjLQqrHkdHV6BqokG1L4OmguK0JR5tOEw2g,790
+cowin/base_api.py,sha256=fraqF_VlJHJ4mT1_MCEpu03DeCFq369k8sKRiMGE77E,491
+cowin/constants.py,sha256=-DEEyZTF7X3Pp1ezoKEbkoAg09P2xD4HMPP1EWuaezU,403
+cowin/utils.py,sha256=2tPKba_mJcGXLHNsOfFdUTLNKuI3bnJmYjSqmsZfMKM,148
+cowin_vaccine_api-0.0.1.dist-info/METADATA,sha256=KEVIpLTy6bG1iQAyuuGOdZJuM5C9ibb-HE9R0ibSNnA,1299
+cowin_vaccine_api-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cowin_vaccine_api-0.0.1.dist-info/entry_points.txt,sha256=iVbojS_xxhmSMTfutOaycviZgjL4lHP5DsRbpGINDxQ,47
+cowin_vaccine_api-0.0.1.dist-info/top_level.txt,sha256=1ntLKc7-n1v2CROmtXPgCDhFkec54qjOoIHCIQOi_u4,6
+cowin_vaccine_api-0.0.1.dist-info/RECORD,,

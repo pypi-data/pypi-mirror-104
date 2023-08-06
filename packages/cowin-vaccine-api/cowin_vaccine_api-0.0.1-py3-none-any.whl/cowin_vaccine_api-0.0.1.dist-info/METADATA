@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cowin-vaccine-api
+Version: 0.0.1
+Summary: API wrapper for Cowin Api
+Home-page: https://github.com/its-k/cowin-api
+Author: Kishore
+Author-email: kishore4110@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+Requires-Dist: fake-useragent
+Requires-Dist: requests
+
+# Cowin Vaccine Tracker
+
+
+Python API wrapper for CoWin, for the vaccination drive by booking an appointment at the nearby vaccination centres
+This wrapper supports Find vaccine availability by Pincode, District and booking of apointments is on the way.
+This wrapper is meant to enable folks to build their own versions of a system to lookup for vaccine availablity either in a district or in a particular pin code.
+
+
+
+## Installation
+```pip install cowin-vaccine-api```
+
+## Usage
+from cowin_api import CoWinAPI
+pin_code = "400080"
+
+cowin = CoWinAPI()
+available_centers = cowin.get_availability_by_pincode(pin_code)
+print(available_centers)
+
+## License
+
+© 2020 Udit Vashisht
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
