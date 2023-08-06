@@ -1,0 +1,9 @@
+marleu_pytest/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+marleu_pytest/entrypoint.py,sha256=lb0DZ0GD0eGbqbXT-u1kGoMjJJ7xwtHbXC_2S7TzoWs,721
+marleu_pytest/greetings/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+marleu_pytest/greetings/bad.py,sha256=uq96pHoBtiFBshGrJ3bY2sySmMQVmyEbaerGwqTCL0I,57
+marleu_pytest/greetings/good.py,sha256=41yapy4QJ_8b0fZjfztzB1UewjHuNaR6JcelYx2bLXU,59
+marleu_pytest-0.1.2.dist-info/entry_points.txt,sha256=2OypMvmzIp9EB9h-sw1itXDgEcd6gobxOPuGG86GRFA,64
+marleu_pytest-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+marleu_pytest-0.1.2.dist-info/METADATA,sha256=S9RGSZDdqKikcCBpt-Ub23RhLqniTZQa2CRJwmqZH_4,338
+marleu_pytest-0.1.2.dist-info/RECORD,,

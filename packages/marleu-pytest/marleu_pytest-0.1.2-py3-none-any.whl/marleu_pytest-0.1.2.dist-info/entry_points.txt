@@ -1,0 +1,3 @@
+[console_scripts]
+marleu-pytest=marleu_pytest.entrypoint:hello
+
