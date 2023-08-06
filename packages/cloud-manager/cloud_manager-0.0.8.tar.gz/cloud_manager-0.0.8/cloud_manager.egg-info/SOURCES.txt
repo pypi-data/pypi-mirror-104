@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+cloud_manager/__init__.py
+cloud_manager/ncloud.py
+cloud_manager.egg-info/PKG-INFO
+cloud_manager.egg-info/SOURCES.txt
+cloud_manager.egg-info/dependency_links.txt
+cloud_manager.egg-info/requires.txt
+cloud_manager.egg-info/top_level.txt
