@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: awyes
+Version: 0.1.1
+Summary: Simplify your aws deployment
+License: MIT
+Author: trumanpurnell
+Author-email: truman.purnell@gmail.com
+Requires-Python: ==3.7.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
