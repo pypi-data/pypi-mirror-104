@@ -1,0 +1,10 @@
+rcsbsearch/__init__.py,sha256=SXTyLQZTbpa706Zzb2b63F8dOODdgmsKLf8ERBejWJM,1713
+rcsbsearch/schema.py,sha256=s5wUYiLNTJKKAxmrrKo6knKNrukYtYg74LTYx7CPhKw,5793
+rcsbsearch/search.py,sha256=W0bZz0Por4Dm4-5SHIZcSRcQnjO25_2AdFxiWqqYrd8,33165
+rcsbsearch/update_schema.py,sha256=aghKG9o22_B5cK78Zn-E9xZaBRsvA1oTgvEcFqOgEzM,466
+rcsbsearch/resources/metadata_schema.json,sha256=dWESYcXOswO3Lv51RZvcczODEdurzc6v96O0rBMxpJg,940216
+rcsbsearch-0.2.3.dist-info/LICENSE,sha256=cys0B1gi7D4U5wMLoY5ckbfelHk1QPvWd02qXcJBoRA,1543
+rcsbsearch-0.2.3.dist-info/METADATA,sha256=ERVIOQhCHeg7bhovmdRjxxzPOfXFbE3XvXXqCkgq5Kc,5970
+rcsbsearch-0.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rcsbsearch-0.2.3.dist-info/top_level.txt,sha256=dZu38LAYA2fzmHvTY9oraMXDnN5fq6wMs6Rfd9gzdRc,11
+rcsbsearch-0.2.3.dist-info/RECORD,,
