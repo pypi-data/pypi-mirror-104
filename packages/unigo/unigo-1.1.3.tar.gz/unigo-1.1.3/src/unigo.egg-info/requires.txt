@@ -1,0 +1,7 @@
+requires
+owlready2
+scipy
+docopt
+marshmallow
+flask
+requests
