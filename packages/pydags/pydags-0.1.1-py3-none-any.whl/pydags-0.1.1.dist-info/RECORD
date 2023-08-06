@@ -1,0 +1,10 @@
+pydags/__init__.py,sha256=4iUZx2mESANLslVDMxLG_sIQ6t_jUGLoTN5b91LoIvQ,272
+pydags/cache.py,sha256=rSmVBATaNAlAiSNBR_8-XI7BVyjjWp-iW6o1Chx1LLk,4388
+pydags/pipeline.py,sha256=Rsy75ZY2dLiL1Ojh3g70BEUt4ngpSE1Egh9d6ZHkmDc,8453
+pydags/serialization.py,sha256=gGSBbxs6bcVS-dfOeRrdNxH-jIx0vouatRGpxIR6vVA,2540
+pydags/stage.py,sha256=Mdcf2x-DdPmMyVAaUOvWeTOP74iPos-61FDlEZ9Ngbk,6569
+pydags-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydags-0.1.1.dist-info/METADATA,sha256=URdKYNNB0gD1xarDqbfAvDqwNAZQlD2E_5BimEdyY5E,7280
+pydags-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydags-0.1.1.dist-info/top_level.txt,sha256=gBYoSUtiXMTLh67t8aKHmzoitlJNKRv1AF7Lw9mIc0U,7
+pydags-0.1.1.dist-info/RECORD,,
