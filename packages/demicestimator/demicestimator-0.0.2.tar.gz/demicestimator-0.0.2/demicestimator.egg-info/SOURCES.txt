@@ -1,0 +1,7 @@
+README.md
+setup.py
+demicestimator.egg-info/PKG-INFO
+demicestimator.egg-info/SOURCES.txt
+demicestimator.egg-info/dependency_links.txt
+demicestimator.egg-info/requires.txt
+demicestimator.egg-info/top_level.txt
