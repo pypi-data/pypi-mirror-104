@@ -1,0 +1,7 @@
+Statshog Changelog
+================
+Version 1.0.0
+-------------
+
+- Initial release, forked from https://github.com/jsocol/pystatsd
+- Added telegraf support with an optional tags argument
