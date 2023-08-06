@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eventual
+Version: 0.4.1
+Summary: 
+Author: Ivan Dmitriesvkii
+Author-email: ivan.dmitrievsky@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: rmq
+Provides-Extra: tortoise
+Requires-Dist: eventual-rmq (>=0,<1); extra == "rmq"
+Requires-Dist: eventual-tortoise (>=0,<1); extra == "tortoise"
