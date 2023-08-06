@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+poetry_to_requirements.egg-info/PKG-INFO
+poetry_to_requirements.egg-info/SOURCES.txt
+poetry_to_requirements.egg-info/dependency_links.txt
+poetry_to_requirements.egg-info/entry_points.txt
+poetry_to_requirements.egg-info/top_level.txt
+pre_commit_hooks/__init__.py
+pre_commit_hooks/poetry_to_requirements.py
