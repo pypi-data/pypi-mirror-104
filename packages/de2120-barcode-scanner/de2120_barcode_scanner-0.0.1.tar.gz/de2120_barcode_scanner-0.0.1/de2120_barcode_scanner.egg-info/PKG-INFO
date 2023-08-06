@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: de2120-barcode-scanner
+Version: 0.0.1
+Summary: SparkFun Electronics DE2120 Barcode Scanner Breakout Package
+Home-page: UNKNOWN
+Author: SparkFun Electronics
+Author-email: info@sparkfun.com
+License: MIT
+Description: DE2120_Py
+        ==========================
+        
+        This is python package based off of the SparkFun DE2120 Arduino Library.
+        It contains functions to read barcodes from the module and set configurations.
+Keywords: electronics,maker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

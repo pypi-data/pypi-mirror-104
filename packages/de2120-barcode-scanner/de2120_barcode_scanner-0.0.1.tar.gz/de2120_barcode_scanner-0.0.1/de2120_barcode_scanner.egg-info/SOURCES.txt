@@ -1,0 +1,8 @@
+README.md
+de2120_barcode_scanner.py
+setup.cfg
+setup.py
+de2120_barcode_scanner.egg-info/PKG-INFO
+de2120_barcode_scanner.egg-info/SOURCES.txt
+de2120_barcode_scanner.egg-info/dependency_links.txt
+de2120_barcode_scanner.egg-info/top_level.txt
