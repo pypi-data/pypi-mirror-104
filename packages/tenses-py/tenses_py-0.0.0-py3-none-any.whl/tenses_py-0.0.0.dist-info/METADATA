@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tenses-py
+Version: 0.0.0
+Summary: This module converts tenses
+Home-page: https://github.com/Haardispro/tenses_py
+Author: Haard Majmudar
+Author-email: haardmajmudar2827@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Usage 
+
+import tenses_py
+
+tenses_py.Past("get")
+
+the output will be got
+
+then 
+
+import tenses_py
+tenses_py.Continuous("get")
+
+the output will be getting
+
+
+
+
