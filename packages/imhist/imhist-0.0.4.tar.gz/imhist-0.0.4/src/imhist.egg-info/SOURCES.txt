@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+assets/Plane-CDF.jpg
+assets/Plane-Histogram.jpg
+assets/Plane-PMF.jpg
+assets/Plane.jpg
+src/__init__.py
+src/imhist.py
+src/imhist.egg-info/PKG-INFO
+src/imhist.egg-info/SOURCES.txt
+src/imhist.egg-info/dependency_links.txt
+src/imhist.egg-info/requires.txt
+src/imhist.egg-info/top_level.txt
