@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: AscentAurora
+Version: 0.0.1.2
+Summary: A library with the goal of simplifying the development of PyQt/PySide apps.
+Home-page: https://github.com/despawnedd/AscentAurora/
+Author: DespawnedDiamond
+Author-email: despawnedd@acrazytown.com
+License: GPL v3
+Download-URL: https://github.com/despawnedd/AscentAurora/dist/AscentAurora-0.0.1.2.tar.gz
+Description: # AuroraPyQt
+        A library with the goal of simplifying the development of PyQt apps.
+        
+Keywords: qtpy,PyQt,PyQt5,PySide,PySide2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
