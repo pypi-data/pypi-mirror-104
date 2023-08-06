@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bellerophon
+Version: 1.0a0
+Summary: Filter reads of a minimum quality that span a junction, retaining the 5´ side of that junction
+Home-page: https://github.com/davebx/bellerophon
+Author: Dave Bouvier
+Author-email: dave@bx.psu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pysam
+
+# bellerophon
+Filter mapped reads where the mapping spans a junction, retaining the 5-prime read.
+
+
