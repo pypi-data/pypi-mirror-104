@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cs253-demo
+Version: 1.0.1
+Summary: Demo Project
+Home-page: https://demo_project.com/dummy.xml
+Author: Sathvik Bhagavan
+Author-email: sathvikb@iitk.ac.in
+License: UNKNOWN
+Description: This is a demo package
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
