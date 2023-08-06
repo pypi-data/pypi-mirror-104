@@ -1,0 +1,13 @@
+astropy
+corner
+emcee
+matplotlib
+numba
+numpy
+pandas
+pyyaml
+scipy
+wheel
+
+[test]
+pytest-astropy
