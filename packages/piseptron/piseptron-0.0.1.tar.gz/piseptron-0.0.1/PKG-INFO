@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: piseptron
+Version: 0.0.1
+Summary: A Perceptron model
+Home-page: UNKNOWN
+Author: Andrey Pisarevsky
+Author-email: pisarevskiy1977@gmail.com
+License: MIT
+Description: This is a library which implements a Perceptron Model.
+        
+        
+Keywords: perceptron
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
