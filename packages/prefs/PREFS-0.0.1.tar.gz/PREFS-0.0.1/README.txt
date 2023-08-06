@@ -1,0 +1,1 @@
+This is a very simple library that creates prefs (a file where preferences can be stored).
