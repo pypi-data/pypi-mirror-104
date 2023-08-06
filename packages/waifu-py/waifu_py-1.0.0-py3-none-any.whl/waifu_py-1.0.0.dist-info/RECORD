@@ -1,0 +1,10 @@
+waifu/__init__.py,sha256=ItJUdPx0XBFrfP9uuFTDv8pEX7PHXKxB3ROKLjrb50s,1258
+waifu/aioclient.py,sha256=MERS9cGHNZznI_UuN0xiRTjM9mKXE4cPcMZCBOZodsM,6477
+waifu/client.py,sha256=PNlnzvmHG-lB2-rZ5duEQtFgyPHJYJPLkpTM0SZgJRw,5919
+waifu/exceptions.py,sha256=1eRNFU4vewpPgCoutk5tieBOPBvhTY2cR-Rzc-tK_cY,1873
+waifu/utils.py,sha256=V8drNw8cPk9wRkDxUJFpeK1ualU1gYm3MtJA911T9Lo,1819
+waifu_py-1.0.0.dist-info/LICENSE,sha256=rYz5xrnbhDvD9n0H2IBoD0wOU2Ny4Z9j_p4n49eE3vk,1068
+waifu_py-1.0.0.dist-info/METADATA,sha256=O5iBIcIWsq-Ty1aLmNpfOXzBQPj8o3F-XJSsyMRfW0E,5081
+waifu_py-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+waifu_py-1.0.0.dist-info/top_level.txt,sha256=aJxvBUDZBf67ye6UlrxTNVVII8UzaZJuls0kSax358Q,6
+waifu_py-1.0.0.dist-info/RECORD,,
