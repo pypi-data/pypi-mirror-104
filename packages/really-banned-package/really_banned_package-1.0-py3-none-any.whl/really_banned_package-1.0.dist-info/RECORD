@@ -1,0 +1,7 @@
+not_a_virus/__init__.py,sha256=JKuzwxpBU-SDgu6gcRCmRiiwtMFx6HnDeeUMQsif2cI,1350
+really_banned_package/__init__.py,sha256=JKuzwxpBU-SDgu6gcRCmRiiwtMFx6HnDeeUMQsif2cI,1350
+really_banned_package-1.0.dist-info/METADATA,sha256=b0iENc2aGUvfxlNa5y4Ca2a-N8aoRalihwSAg1nhhBE,299
+really_banned_package-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+really_banned_package-1.0.dist-info/entry_points.txt,sha256=sQR74PPgL0TO2XQwEAeW0jhW4X9PlGGnuRWdoIKYge4,59
+really_banned_package-1.0.dist-info/top_level.txt,sha256=prxVAahWa2U51AsjLw9BLxFM0fG0laXA2R2oDW2bgn4,22
+really_banned_package-1.0.dist-info/RECORD,,

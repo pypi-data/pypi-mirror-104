@@ -1,0 +1,3 @@
+[console_scripts]
+start_ban = really_banned_package:start
+

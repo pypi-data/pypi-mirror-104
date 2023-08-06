@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: really-banned-package
+Version: 1.0
+Summary: write "start_ban" in cmd
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: Pillow
+Requires-Dist: pywin32
+
+UNKNOWN
+
+
