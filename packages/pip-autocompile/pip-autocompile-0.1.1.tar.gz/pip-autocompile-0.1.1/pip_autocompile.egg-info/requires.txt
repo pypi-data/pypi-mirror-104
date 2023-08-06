@@ -1,0 +1,6 @@
+click
+pip-tools
+python-on-whales
+
+[dev]
+pre-commit
