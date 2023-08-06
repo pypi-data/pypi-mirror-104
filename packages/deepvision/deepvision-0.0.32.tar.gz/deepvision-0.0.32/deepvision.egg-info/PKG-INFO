@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: deepvision
+Version: 0.0.32
+Summary: Easy to use, open source computer vision library for python
+Home-page: https://github.com/Lynchez/deepvision.git
+Author: Nurettin Sinanoğlu
+Author-email: nurettin.sinanogluu@gmail.com
+License: MIT
+Description: Easy to use, open source computer vision library for python
+Platform: UNKNOWN
