@@ -1,0 +1,14 @@
+aa_rss_to_discord/__init__.py,sha256=vz2YW7gOdKLUWqBI11kECgA_xkSWn5r23-IlS0kO_tU,187
+aa_rss_to_discord/admin.py,sha256=moEY4R_VkvZuGVvMmYNCRKqtZdeQwa8YZ3OP5AMuEmA,1451
+aa_rss_to_discord/apps.py,sha256=P08uoX51Zxe72i97EBoQzOQaahx1fQ_cxiswC1p3Uks,301
+aa_rss_to_discord/constants.py,sha256=rzWCNSPdzvozq6JA0_5bT-TA3NtWD-zcdbap-x4Vhkw,430
+aa_rss_to_discord/models.py,sha256=StrmqJd2QraXjzPBGPlKHMJJVaHc41JqBZbWzts-eEY,2245
+aa_rss_to_discord/tasks.py,sha256=l9g7YdbPj3WSiYdS3Yf__z3MnpLTUISwqxseKNu6LQc,4024
+aa_rss_to_discord/utils.py,sha256=r2Yb8iWXWCnyAaLL0Ze1wBjL6wqWcJSbpcI_FWed29E,506
+aa_rss_to_discord/migrations/0001_initial.py,sha256=E5UwLACdTPAUj6EIbdrQCA9D-6bP6UQ85ckrX4qLABw,2756
+aa_rss_to_discord/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aa_rss_to_discord-0.1.0b3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aa_rss_to_discord-0.1.0b3.dist-info/METADATA,sha256=haYBLq6XJ2n5I42d6EFawgc-9hVeD1Oh5_kTBYA47Fo,4938
+aa_rss_to_discord-0.1.0b3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aa_rss_to_discord-0.1.0b3.dist-info/top_level.txt,sha256=813k21Klh5qYihpaUMb3QvgwiI8DuVsCAO0Qyo4Q29A,18
+aa_rss_to_discord-0.1.0b3.dist-info/RECORD,,
