@@ -1,0 +1,8 @@
+fluids>=1.0.5
+scipy
+pandas
+chemicals>=1.0.7
+
+[Coverage documentation]
+wsgiref>=0.1.2
+coverage>=4.0.3
