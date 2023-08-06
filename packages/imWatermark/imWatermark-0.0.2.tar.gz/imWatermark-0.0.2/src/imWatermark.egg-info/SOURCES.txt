@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+assets/lotus-watermark.jpg
+assets/lotus.jpg
+src/__init__.py
+src/imWatermark.py
+src/imWatermark.egg-info/PKG-INFO
+src/imWatermark.egg-info/SOURCES.txt
+src/imWatermark.egg-info/dependency_links.txt
+src/imWatermark.egg-info/requires.txt
+src/imWatermark.egg-info/top_level.txt
