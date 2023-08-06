@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+saumya.egg-info/PKG-INFO
+saumya.egg-info/SOURCES.txt
+saumya.egg-info/dependency_links.txt
+saumya.egg-info/requires.txt
+saumya.egg-info/top_level.txt
+script/__init__.py
