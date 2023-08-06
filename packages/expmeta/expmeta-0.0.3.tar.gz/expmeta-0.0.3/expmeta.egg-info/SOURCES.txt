@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+expmeta/Batch.py
+expmeta/Measurement.py
+expmeta/__init__.py
+expmeta/_version.py
+expmeta.egg-info/PKG-INFO
+expmeta.egg-info/SOURCES.txt
+expmeta.egg-info/dependency_links.txt
+expmeta.egg-info/requires.txt
+expmeta.egg-info/top_level.txt
