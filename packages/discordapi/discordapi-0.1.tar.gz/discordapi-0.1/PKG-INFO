@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: discordapi
+Version: 0.1
+Summary: The DiscordAPI (v9) libary. Read the documentation: http://documentations.7m.pl/python/discordapi/v9/latest_version/Doc.html
+Author: Nekit
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

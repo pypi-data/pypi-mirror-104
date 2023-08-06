@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "discordapi"
+version = "0.1"
+description = "The DiscordAPI (v9) libary. Read the documentation: http://documentations.7m.pl/python/discordapi/v9/latest_version/Doc.html"
+authors = ["Nekit"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
