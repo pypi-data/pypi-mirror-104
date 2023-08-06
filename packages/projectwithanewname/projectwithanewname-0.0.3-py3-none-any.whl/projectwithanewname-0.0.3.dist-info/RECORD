@@ -1,0 +1,14 @@
+project/__init__.py,sha256=oHYRzBBgQmKTPdEDJSrs-HCaqxJcevTTuVYqkHhSIKU,285
+project/_version.py,sha256=8t5OGkganqrXWJRp-l5uggmOwvHEtU99smP7pDS43Gg,497
+project/output.pdb,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project/project.py,sha256=zwhNj5X8CfI74mZbd5q80sZCp08pY2Kr0d1FMdART00,1814
+project/data/README.md,sha256=gX1-M3tNt9xE4o7gUzbj914VU8jwJ3HM_c-zNp0eTyA,1139
+project/data/input.pdb,sha256=KAY-YvhobcDsJ8cjqdOb8pMnh0_PT9mQCQ0i3F-SVHA,594292
+project/data/look_and_say.dat,sha256=dp65R2oy2pZQvLuRLeAxw7gWbIfhv3omNFXP7DpsPVU,333
+project/tests/__init__.py,sha256=tlIleLX_7zJFwQuwnqP9fJ0nQXdD1uA-l8uX8w4KUKM,112
+project/tests/test_project.py,sha256=4psSdWzqzrZgJgS9-UxUHYMy9p7tC3flCpOBz6a6PaU,631
+projectwithanewname-0.0.3.dist-info/LICENSE,sha256=LHHme4ukwu40EOwAJjEPSkWOiQ0RS6fRrRKmrE8Avos,1072
+projectwithanewname-0.0.3.dist-info/METADATA,sha256=7DCHJ5MbxfN-pxvApKlq51GDYR9vtaN2cDEKZVRXeBk,939
+projectwithanewname-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+projectwithanewname-0.0.3.dist-info/top_level.txt,sha256=TlF2bnXqjOJKLBaN9-1i4CXAglwTmZ1h474uDQoYzWY,8
+projectwithanewname-0.0.3.dist-info/RECORD,,
