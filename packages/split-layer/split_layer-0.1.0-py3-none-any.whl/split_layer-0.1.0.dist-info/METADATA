@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: split-layer
+Version: 0.1.0
+Summary: A tool to measure forward and backward time for each layer in PyTorch
+Home-page: UNKNOWN
+Author: swordfate
+Author-email: 1317732065@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Please refer to https://github.com/swordfate/tools .
+
+
