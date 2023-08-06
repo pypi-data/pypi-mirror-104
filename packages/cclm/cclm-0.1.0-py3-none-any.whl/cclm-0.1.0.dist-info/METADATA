@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cclm
+Version: 0.1.0
+Summary: NLP framework for composing together models modularly
+License: MIT
+Author: jamesmf
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: datasets (>=1.1.3,<2.0.0)
+Requires-Dist: mlflow (>=1.16.0,<2.0.0)
+Requires-Dist: tensorflow (>=2.0.0,<3.0.0)
+Requires-Dist: tokenizers (>=0.10.0,<0.11.0)
+Requires-Dist: tqdm (>=4.0.0,<5.0.0)
