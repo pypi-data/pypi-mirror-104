@@ -1,0 +1,13 @@
+kak_plugins/__init__.py,sha256=IYEcJP8adm1gW8lSAUAns4f9gHTM19RwnRJgnxIURHg,156
+kak_plugins/apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kak_plugins/apis/clipboard.py,sha256=RIOHDXjWJ5vwD4ka6PyI_xRKNRN-_67ghOmsfcKUgac,653
+kak_plugins/apis/git.py,sha256=FNAJjpYR4ot148waWN-EHijw6iVOx__BYPM8sXwB-1M,1332
+kak_plugins/apis/kak.py,sha256=cJO8BPvvXVW0NpaV4eQCvt-mnARKHn3YAvvvas-20s0,3899
+kak_plugins/github_permalink.py,sha256=PtXyggzlqkZ-ByDBPU4b8nRBaEFBXoHxGAwaeMGGCtQ,2073
+kak_plugins/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kak_plugins/utils/line_range.py,sha256=od5s1OlTMUEYDgzqD4R3kCEyYcr7k3XksWYSnjKD874,879
+kak_plugins/utils/os.py,sha256=nedseIubcnsAttFR_cWnDpqnL-aTaDve6oTmFIisB8k,532
+kak_plugins-0.5.1.dist-info/entry_points.txt,sha256=8cE_nslGBkND-fb2JmUkIItKrWhk3kviy6bvZsEmDak,70
+kak_plugins-0.5.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kak_plugins-0.5.1.dist-info/METADATA,sha256=rZTZvXErVJRdZPTc1PcJwGAXSUXn7DNg7SUxHtBw8Cc,5202
+kak_plugins-0.5.1.dist-info/RECORD,,
