@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: llyr
+Version: 0.1
+Summary: micromagnetic post processing library
+Home-page: https://github.com/MathieuMoalic/llyr
+Author: Mathieu Moalic
+Author-email: matmoa@pm.me
+License: GPL-3.0
+Platform: any
+Requires-Dist: CacheControl (==0.12.6)
+Requires-Dist: HeapDict (==1.0.1)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: bokeh (==2.3.1)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cloudpickle (==1.6.0)
+Requires-Dist: cmocean (==2.0)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: contextlib2 (==0.6.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: dask (==2021.4.0)
+Requires-Dist: distlib (==0.3.0)
+Requires-Dist: distributed (==2021.4.0)
+Requires-Dist: distro (==1.4.0)
+Requires-Dist: fsspec (==2021.4.0)
+Requires-Dist: h5py (==3.2.1)
+Requires-Dist: html5lib (==1.0.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: ipaddr (==2.2.0)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: locket (==0.2.1)
+Requires-Dist: lockfile (==0.12.2)
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: msgpack (==0.6.2)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: numpy (==1.20.2)
+Requires-Dist: packaging (==20.3)
+Requires-Dist: pandas (==1.2.4)
+Requires-Dist: partd (==1.2.0)
+Requires-Dist: pathspec (==0.8.1)
+Requires-Dist: pep517 (==0.8.2)
+Requires-Dist: progress (==1.5)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: pyparsing (==2.4.6)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytoml (==0.1.21)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: regex (==2021.4.4)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: retrying (==1.3.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: sortedcontainers (==2.3.0)
+Requires-Dist: tblib (==1.7.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: toolz (==0.11.1)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: tqdm (==4.60.0)
+Requires-Dist: typed-ast (==1.4.3)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zict (==2.0.0)
+
+UNKNOWN
+
+
