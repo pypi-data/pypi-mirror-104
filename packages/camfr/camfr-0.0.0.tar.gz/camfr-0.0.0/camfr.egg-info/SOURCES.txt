@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+camfr/__init__.py
+camfr.egg-info/PKG-INFO
+camfr.egg-info/SOURCES.txt
+camfr.egg-info/dependency_links.txt
+camfr.egg-info/top_level.txt
