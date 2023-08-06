@@ -1,0 +1,10 @@
+atoti_gcp/LICENSE,sha256=R9oPYSiH5Oi9BIuX_WXj8Cyt_JBNf46W6Ye6a7MVRJo,23068
+atoti_gcp/__init__.py,sha256=ziJMGSmDa6XyPN5VD27GTwzL1Po4u9mePypm2W0pb3g,431
+atoti_gcp/_plugin.py,sha256=Q5XjwT2-gIXWntlfrfs-SIvacNke3xJdhA9n8zHMP9g,759
+atoti_gcp/_version.py,sha256=fgpH2mNkY70VKiK8Ya92A9QcTU4Zfz_3qyhGJzHzVxY,20
+atoti_gcp/data/atoti-gcp.jar,sha256=uahHXikX5PKfAHOyzdroPYqr-kgZSYjNxcX-6N1Bj-k,19017451
+atoti_gcp-0.5.4.dist-info/LICENSE,sha256=R9oPYSiH5Oi9BIuX_WXj8Cyt_JBNf46W6Ye6a7MVRJo,23068
+atoti_gcp-0.5.4.dist-info/METADATA,sha256=-A3k1L_L3WPA0GCEWfeULRNL71E2ijTCOICqW5xrm7Y,785
+atoti_gcp-0.5.4.dist-info/WHEEL,sha256=th5B-SW842iUsdz_jYPGZTbZF9PixAG2zvyXeGJ62ig,109
+atoti_gcp-0.5.4.dist-info/top_level.txt,sha256=PDeVd4Eh5UgDCBRAVg638d8mXULntn4eTwI-b5ITw00,10
+atoti_gcp-0.5.4.dist-info/RECORD,,
