@@ -1,0 +1,9 @@
+pyjamalib/DataHandler.py,sha256=QRmKBaK26QknwguB5Zs1JfJRqHb-7SNg2rOjrXnTcF0,14617
+pyjamalib/DataProcessing.py,sha256=zOInkhLEoHO25Sp_lNSNk9ZjBJRoRAH_MS09EnLJUEI,105522
+pyjamalib/IMUDataProcessing.py,sha256=zOInkhLEoHO25Sp_lNSNk9ZjBJRoRAH_MS09EnLJUEI,105522
+pyjamalib/__init__.py,sha256=YeJO9l3g0WDoLbyD8uaT0glDtzasxbkmcRgIOYZIGUA,188
+pyjamalib-0.5.42.dist-info/LICENSE,sha256=_nITY3abxFcxp4LtqFvatDCcr3F9UKMGsvIeDmw8Rd0,1093
+pyjamalib-0.5.42.dist-info/METADATA,sha256=8KpdnvyIQs012JdOWTyS4QtFl8zAh0Upxa9BJ7K5rbA,1946
+pyjamalib-0.5.42.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyjamalib-0.5.42.dist-info/top_level.txt,sha256=MsERVf-HTDuNQhgxFicug1lrXegNKigFNIjOJkSLSf8,10
+pyjamalib-0.5.42.dist-info/RECORD,,
