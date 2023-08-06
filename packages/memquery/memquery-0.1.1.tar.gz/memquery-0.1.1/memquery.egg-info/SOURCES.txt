@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+wsmemquery.wasm
+errors/__init__.py
+errors/errors.py
+membind/__init__.py
+membind/memory.py
+memquery/__init__.py
+memquery/__version__.py
+memquery/memquery.py
+memquery.egg-info/PKG-INFO
+memquery.egg-info/SOURCES.txt
+memquery.egg-info/dependency_links.txt
+memquery.egg-info/requires.txt
+memquery.egg-info/top_level.txt
