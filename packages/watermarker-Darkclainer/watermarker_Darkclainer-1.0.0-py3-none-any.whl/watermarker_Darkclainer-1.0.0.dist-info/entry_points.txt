@@ -1,0 +1,3 @@
+[console_scripts]
+watermarker = watermarker.command_line:main
+
