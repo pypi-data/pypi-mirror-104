@@ -1,0 +1,6 @@
+README
+setup.py
+gmanscalculator.egg-info/PKG-INFO
+gmanscalculator.egg-info/SOURCES.txt
+gmanscalculator.egg-info/dependency_links.txt
+gmanscalculator.egg-info/top_level.txt
