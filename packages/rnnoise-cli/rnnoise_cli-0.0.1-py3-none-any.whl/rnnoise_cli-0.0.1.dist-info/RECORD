@@ -1,0 +1,13 @@
+rnnoise_cli/__init__.py,sha256=BJuOCiNPDjmP0TFXBHyS0htubPCIuKBpxbJJRXVYTa0,30
+rnnoise_cli/commands.py,sha256=xeFqCfCXyjSZFT2iDwcIfuF1V8AFyJH5_6z0GNPL_oI,6871
+rnnoise_cli/exceptions.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rnnoise_cli/pulse.py,sha256=h0uEAmpoFDsi9G1Niv6Pf7t7s5klh54Q9xUJOUwSUYo,6111
+rnnoise_cli/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rnnoise_cli/data/license_info.txt,sha256=ZufEkdE1tq0DbEXE6bfSSoxlTFihXPWmxMcKXc1kCvU,729
+rnnoise_cli-0.0.1.data/data/rnnoise_cli/librnnoise_ladspa.so,sha256=GTD-QnWLEcdPgySggr7AyxvfOB-pwlTGHXK7D1mlxeA,168696
+rnnoise_cli-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+rnnoise_cli-0.0.1.dist-info/METADATA,sha256=2BeGBohG6DIQ2JO-rxZz0yW87UbjkWBG8o0bNPl_BVQ,3523
+rnnoise_cli-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rnnoise_cli-0.0.1.dist-info/entry_points.txt,sha256=zSTcSNCFrhZi382dWmvQaCO847ZlbPFX02joLTjn1jQ,49
+rnnoise_cli-0.0.1.dist-info/top_level.txt,sha256=Y8P5EYCCrpNeCaFcLdQaq8vu_wun7q_MNVbZ9a9Vc1k,12
+rnnoise_cli-0.0.1.dist-info/RECORD,,
