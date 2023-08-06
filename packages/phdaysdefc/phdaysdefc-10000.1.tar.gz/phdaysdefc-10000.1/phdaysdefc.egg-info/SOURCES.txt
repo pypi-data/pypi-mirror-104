@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+phdaysdefc/__init__.py
+phdaysdefc.egg-info/PKG-INFO
+phdaysdefc.egg-info/SOURCES.txt
+phdaysdefc.egg-info/dependency_links.txt
+phdaysdefc.egg-info/top_level.txt
