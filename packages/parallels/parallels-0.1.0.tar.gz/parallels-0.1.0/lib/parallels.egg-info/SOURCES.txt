@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lib/parallels/__init__.py
+lib/parallels/concurrent.py
+lib/parallels/dask_.py
+lib/parallels/executor.py
+lib/parallels/futures.py
+lib/parallels/ray_.py
+lib/parallels.egg-info/PKG-INFO
+lib/parallels.egg-info/SOURCES.txt
+lib/parallels.egg-info/dependency_links.txt
+lib/parallels.egg-info/not-zip-safe
+lib/parallels.egg-info/top_level.txt
