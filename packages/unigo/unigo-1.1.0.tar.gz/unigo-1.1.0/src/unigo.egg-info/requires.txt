@@ -1,0 +1,6 @@
+requires
+owlready2
+scipy
+docopt
+flask
+requests
