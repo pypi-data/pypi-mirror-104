@@ -1,0 +1,11 @@
+vidspinner/__init__.py,sha256=gkL7EAPy4yuLb6Go34TaRNQx1DzfHJs4TnvXQYvuZuk,54
+vidspinner/ffmpeg.exe,sha256=XcA0qvJUXBz0_tpBVB3m5VJmKnuTN0mUlC-Tf2ptmx4,21310976
+vidspinner/pixel.png,sha256=4W1yCN11qdf9u_kd3o5Wkn8D4b7sZGHsXetrxqjg8Rw,147
+vidspinner/vidspinner.py,sha256=zS9BIQVZSKNzgPrs_vGedka5FL4YAta8x--pfgqHGbY,1260
+vidspinner-1.0.0.data/data/vidspinner/ffmpeg.exe,sha256=XcA0qvJUXBz0_tpBVB3m5VJmKnuTN0mUlC-Tf2ptmx4,21310976
+vidspinner-1.0.0.data/data/vidspinner/pixel.png,sha256=4W1yCN11qdf9u_kd3o5Wkn8D4b7sZGHsXetrxqjg8Rw,147
+vidspinner-1.0.0.dist-info/LICENSE,sha256=x8yqZIQxPDX8bguNmQm20pzq3SN3Kjgnse-v6nq9Ejc,1080
+vidspinner-1.0.0.dist-info/METADATA,sha256=xWtzVaXXXDiSZjuJmahDb0HL6MYn_4529oI4w2Q1jAE,710
+vidspinner-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vidspinner-1.0.0.dist-info/top_level.txt,sha256=5G0-yxonlD5RtRE_P58HNJ6LDppt3v-WxRP3JPrcFpg,11
+vidspinner-1.0.0.dist-info/RECORD,,
