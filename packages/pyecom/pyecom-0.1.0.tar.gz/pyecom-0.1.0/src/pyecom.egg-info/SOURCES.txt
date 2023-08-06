@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyecom/__init__.py
+src/pyecom/main.py
+src/pyecom.egg-info/PKG-INFO
+src/pyecom.egg-info/SOURCES.txt
+src/pyecom.egg-info/dependency_links.txt
+src/pyecom.egg-info/requires.txt
+src/pyecom.egg-info/top_level.txt
