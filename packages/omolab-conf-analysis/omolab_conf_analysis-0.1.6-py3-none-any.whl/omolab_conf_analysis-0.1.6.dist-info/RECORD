@@ -1,0 +1,14 @@
+ConformationalAnalysis.py,sha256=WxxOdi7U0-kMIRWcES4xcsk5xXfeqfhGkLVxksg-6jw,12558
+clustering.py,sha256=Txwsq1tSOBjbQCHZvVwKWAkWWS61_CAy_Yu_47aqmPo,7331
+elements.py,sha256=uSq8lVfqjdYKG451ldafaq51KMH_Oei2avqeEtnfc4k,14065
+main.py,sha256=gT8XnJpIK9PuSGi8e8C2YFFhA3A0pEO9OW7PT5B-IzA,11652
+pca.py,sha256=9TNFGbA4UR5cUPHPFIxiM-moGVSLj0n5K__W_5jXj7Q,6885
+pca_creation.py,sha256=9TNFGbA4UR5cUPHPFIxiM-moGVSLj0n5K__W_5jXj7Q,6885
+pymol.py,sha256=eHuhy1mpYyDvBZ6bBxZqJTcVrz3ImaMFgvsgXpJ0H88,2427
+xyz.py,sha256=3Kjl70PnCKiRtF5XvvqpWhLvdXU9EvEo929tJmRlbRE,24145
+omolab_conf_analysis-0.1.6.data/scripts/mGenerate_PyMOL_Session.sh,sha256=d6bT5wbQItrz4Ux58E8efAlgDo0H2ZxAo-UjCgQirbM,12880
+omolab_conf_analysis-0.1.6.data/scripts/mGenerate_conf_analysis.sh,sha256=PHxE0SOmqPZwDWLfnLQW9drNdf1wAMCg4fYoxBAjB1o,42
+omolab_conf_analysis-0.1.6.dist-info/METADATA,sha256=hD79dMMMnWUDYlUytYJjw332GOjYzookcJgmXYYL9MU,1895
+omolab_conf_analysis-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+omolab_conf_analysis-0.1.6.dist-info/top_level.txt,sha256=Or_m5NJ3dI9namB6oOz7umFeDTD91RHICeyuuCOCfYo,66
+omolab_conf_analysis-0.1.6.dist-info/RECORD,,
