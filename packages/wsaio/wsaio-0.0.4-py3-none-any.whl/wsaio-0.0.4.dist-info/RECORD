@@ -1,0 +1,12 @@
+wsaio/__init__.py,sha256=Wd_kVNO9JgVXWz1TTweyMJ9He_T0BjDPAjeUrKhwsKE,441
+wsaio/client.py,sha256=Bss5Vp3dVk1mC-OVrmbbZnQ2MmE9j2_iZSMrsUogLLs,5644
+wsaio/exceptions.py,sha256=aoioKq0JG6ScHdsiR8WvTHJXEpZskTnBcdyHuj8vWrs,386
+wsaio/http.py,sha256=0SQRjCOaMlgjzdpPkJXyy8MF-gommO2c96G9XvjF3tk,6167
+wsaio/protocol.py,sha256=eON10cf7dfEkUjDXaEnnDPRWfQe4q1KGd4L9lnBNWH8,3666
+wsaio/utils.py,sha256=YJuqW2CZOt8aHHLnTiawXWpB-CRiCmFrU2gFMHo5A0o,101
+wsaio/websocket.py,sha256=lFNtcxniRTBOztfQhKqsnRlkidlYRqQOa3PiJ73VLHQ,8643
+wsaio-0.0.4.dist-info/LICENSE,sha256=GrnFNh0z75qQ_BgDuMKKdod8Jw1S_vOsEs3OkFf79xY,10413
+wsaio-0.0.4.dist-info/METADATA,sha256=ermikK1iiTutvoAsURJyqeq7LdpfZ2-k428GLKCbicU,1187
+wsaio-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wsaio-0.0.4.dist-info/top_level.txt,sha256=muSD4mOM4aTaO_u1-6EifjZn1CodqrwOaFY_yMX25t0,6
+wsaio-0.0.4.dist-info/RECORD,,
