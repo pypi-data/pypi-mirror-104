@@ -1,0 +1,7 @@
+gfluent/__init__.py,sha256=MEkZIlvrbLpjK4fb1sb2Ij6X-m-7Bp8tYFBLPS8SxYE,65
+gfluent/bq.py,sha256=Yi_kzS0bjTR2fFIHUuSiIAmBtrWmYbarZ3onOir-FZw,11970
+gfluent/gcs.py,sha256=GwCqYGdlS4N_HaZgiJvK-BchjjFYIWK6kHg0jEOZsZE,4250
+gfluent/sheet.py,sha256=2x5k7BgkqdSwAJk9zRsxxZHOGCkrZSqIxXKnLBBBTBc,9300
+gfluent-0.1.13.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+gfluent-0.1.13.dist-info/METADATA,sha256=K9uXJOjtWeu0UzFh7myy1IqYlKxOi4oHO1yQm8VawLI,4416
+gfluent-0.1.13.dist-info/RECORD,,
