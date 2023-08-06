@@ -1,0 +1,4 @@
+[console_scripts]
+sdc2-score = ska_sdc2_scoring_utils.sdc2_score:main
+sdc2-score-admin = ska_sdc2_scoring_utils.sdc2_score_admin:main
+

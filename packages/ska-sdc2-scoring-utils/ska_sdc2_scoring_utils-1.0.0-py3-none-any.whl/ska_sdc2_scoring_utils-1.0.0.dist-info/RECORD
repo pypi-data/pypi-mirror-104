@@ -1,0 +1,14 @@
+ska_sdc2_scoring_utils/__init__.py,sha256=-bK0jvmPki6YDoIxIKrEWyWL_REtfdpRW_lnT4AwwTg,78
+ska_sdc2_scoring_utils/__version__.py,sha256=ae_zB-GDwcPisMLGWXrlQ9Tx5sB4DsAMuETCjSoa1Uo,969
+ska_sdc2_scoring_utils/admin_api.py,sha256=i0xucBxTRbnHZ6c6VC0othUEIRBhU6S3V5frAUhXquo,14848
+ska_sdc2_scoring_utils/api_common.py,sha256=dJaOFqaT0c6D2j8UX2G8s6NYL_Z4v-8oPD3szuqLS2g,6199
+ska_sdc2_scoring_utils/logs.py,sha256=zKYkdeY_xw-b8WOChu4oD0rerLWZOUU4FbEz6JcEbVI,685
+ska_sdc2_scoring_utils/sdc2_score.py,sha256=DAX_UtqVbNo-cnjLtKqnuayEKqJvPT26wS_59XsvX5I,3998
+ska_sdc2_scoring_utils/sdc2_score_admin.py,sha256=fx5InknJFMSpiSNP6S506uo0fOD4PtB7jaEM7kwYRMw,3650
+ska_sdc2_scoring_utils/user_api.py,sha256=L03xhINf7XygYIgcb27fGnI9j5NuvlsdhiwnvboopX0,7882
+ska_sdc2_scoring_utils-1.0.0.dist-info/LICENSE,sha256=Wa4bFRZYyFWJY1jOM1SUbX6PTECcNT8uXfP1K6fE9H4,1516
+ska_sdc2_scoring_utils-1.0.0.dist-info/METADATA,sha256=R_6mSRlFNMgGxhOMrlAIQfvygdxmpf1meQHvzpBpZ_M,5015
+ska_sdc2_scoring_utils-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ska_sdc2_scoring_utils-1.0.0.dist-info/entry_points.txt,sha256=zyFgX1DXAmz4PHKXt7AtqEnXmVPTb5A8MEaBuHa4YH0,135
+ska_sdc2_scoring_utils-1.0.0.dist-info/top_level.txt,sha256=COCoTC1tEd9GuUXxSH0u1Vjif4aNAewN0o1YlZOcbD8,23
+ska_sdc2_scoring_utils-1.0.0.dist-info/RECORD,,
