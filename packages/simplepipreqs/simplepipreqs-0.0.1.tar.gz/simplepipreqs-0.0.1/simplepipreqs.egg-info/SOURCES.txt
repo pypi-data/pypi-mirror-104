@@ -1,0 +1,9 @@
+README.md
+setup.py
+simplepipreqs/__init__.py
+simplepipreqs/simplepipreqs.py
+simplepipreqs.egg-info/PKG-INFO
+simplepipreqs.egg-info/SOURCES.txt
+simplepipreqs.egg-info/dependency_links.txt
+simplepipreqs.egg-info/requires.txt
+simplepipreqs.egg-info/top_level.txt
