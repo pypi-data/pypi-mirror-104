@@ -1,0 +1,15 @@
+examples/example_decorator.py,sha256=YqZLqWTBU6ugOcE01o8wr7xGiZPpdV_L_gy2-OFFtVQ,1234
+examples/example_utils.py,sha256=9kId0OMvP_7gHT4kkjrUD8M2RZGY-DwmtqW6HdD55u4,511
+examples/example_wrapper.py,sha256=L-yYs5DAr8dKfsTTvsF8ML_K8e5Z-3FZESG4J1w2UdQ,629
+functimer/__init__.py,sha256=5jf-6DOzQVUE5DQx2lpefdXi1exnceZor04KIefI0B8,131
+functimer/classes.py,sha256=JXEG8U5NH99_PRwOdLWROUsq92MeI2c1q6_EiznyY5I,1253
+functimer/timer.py,sha256=Vyxjm0V7LgYlJjpvEb3qxGzfA7wRckzXiIKmCzZr-4U,2764
+functimer/util.py,sha256=zx1C9pNAHn-hqKfV4q-mDTVbsbnokB0K-TqaOchMkTk,1296
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_classes.py,sha256=UResa58BMLa6_yI2j75Hja_IY3YVewbg4P1r-x6KAP8,330
+tests/test_timer.py,sha256=fZZV2-VCuZ1IyDTSPzICnWYCD3_3kEZk3zqsQrRwmr8,762
+tests/test_util.py,sha256=273ThhKOuAh3sOUO-uMuLAG5wtqOyNdBcjP8BfaWXGg,596
+functimer-1.0.7.dist-info/LICENSE.md,sha256=fBRgdex6ItCAvjTMfukI710gmKaJ0qBOnouSBS8oqcI,1090
+functimer-1.0.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+functimer-1.0.7.dist-info/METADATA,sha256=zQ0OgA3u_vMeUbjiZAGCQLAxCsOaLXQgKpYYXdb8zHg,1554
+functimer-1.0.7.dist-info/RECORD,,
