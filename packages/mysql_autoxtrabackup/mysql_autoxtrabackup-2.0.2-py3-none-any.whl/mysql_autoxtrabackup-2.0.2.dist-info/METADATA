@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: mysql_autoxtrabackup
+Version: 2.0.2
+Summary: MySQL-AutoXtrabackup command-line tool, for automating tedious MySQL physical backups management
+Home-page: https://github.com/ShahriyarR/MySQL-AutoXtraBackup
+Author: Shahriyar(Shako) Rzayev
+Author-email: rzayev.sehriyar@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click >=3.3
+Requires-Dist: pid >=2.0
+Requires-Dist: humanfriendly >=2.0
+Requires-Dist: fastapi >= 0.63.0
+Requires-Dist: uvicorn >= 0.13.4
+Requires-Dist: click >=3.3 ; extra == "all"
+Requires-Dist: pid >=2.0 ; extra == "all"
+Requires-Dist: humanfriendly >=2.0 ; extra == "all"
+Requires-Dist: sphinx ; extra == "all"
+Requires-Dist: sphinx_rtd_theme ; extra == "all"
+Requires-Dist: sphinx-autobuild ; extra == "all"
+Requires-Dist: jinja2 >=2.11.3 ; extra == "all"
+Requires-Dist: fastapi >= 0.63.0 ; extra == "all"
+Requires-Dist: uvicorn >= 0.13.4 ; extra == "all"
+Requires-Dist: click >=3.3 ; extra == "dev"
+Requires-Dist: pid >=2.0 ; extra == "dev"
+Requires-Dist: humanfriendly >=2.0 ; extra == "dev"
+Requires-Dist: pytest ==5.4.3 ; extra == "dev"
+Requires-Dist: pytest-cov ==2.10.0 ; extra == "dev"
+Requires-Dist: mypy ==0.812 ; extra == "dev"
+Requires-Dist: isort >=5.0.6,<6.0.0 ; extra == "dev"
+Requires-Dist: flake8 >=3.8.3,<4.0.0 ; extra == "dev"
+Requires-Dist: black ==20.8b1 ; extra == "dev"
+Requires-Dist: fastapi >= 0.63.0 ; extra == "dev"
+Requires-Dist: uvicorn >= 0.13.4 ; extra == "dev"
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: sphinx-autobuild ; extra == "doc"
+Requires-Dist: jinja2 >=2.11.3 ; extra == "doc"
+Requires-Dist: pytest ==5.4.3 ; extra == "test"
+Requires-Dist: pytest-cov ==2.10.0 ; extra == "test"
+Requires-Dist: mypy ==0.812 ; extra == "test"
+Requires-Dist: isort >=5.0.6,<6.0.0 ; extra == "test"
+Requires-Dist: flake8 >=3.8.3,<4.0.0 ; extra == "test"
+Requires-Dist: black ==20.8b1 ; extra == "test"
+Project-URL: Documentation, https://autoxtrabackup.azepug.az/
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+MySQL-AutoXtrabackup
+====================
+
+MySQL AutoXtrabackup commandline tool written in Python 3.
+The source code fully typed with hints - structured the project mostly similar to
+[FastAPI](https://fastapi.tiangolo.com/) and [Pydantic](https://github.com/samuelcolvin/pydantic)
+
+For community from Azerbaijan MySQL User Community: [Python Azerbaijan Community](https://www.facebook.com/groups/python.az).
+
+For any question please open an issue here.
+
+What this project is about?
+---------------------------
+
+The idea for this tool, came from my hard times after accidentally
+deleting the table data.
+There was a full backup and 12 incremental backups.
+It took me 20 minutes to prepare necessary commands for preparing
+backups. If you have compressed + encrypted backups you need also,
+decrypt and decompress, which is going to add extra time for preparing
+backups. Then I decided to automate this process. In other words,
+preparing necessary commands for backup and prepare stage were
+automated.
+
+We have nice CLI with necessary options:
+
+```
+autoxtrabackup --help
+Usage: autoxtrabackup [OPTIONS]
+
+Options:
+  --dry-run                       Enable the dry run.
+  --prepare                       Prepare/recover backups.
+  --run-server                    Start the FastAPI app for serving API
+  --backup                        Take full and incremental backups.
+  --version                       Version information.
+  --defaults-file TEXT            Read options from the given file  [default: /
+                                  home/shako/.autoxtrabackup/autoxtrabackup.cn
+                                  f]
+
+  --tag TEXT                      Pass the tag string for each backup
+  --show-tags                     Show backup tags and exit
+  -v, --verbose                   Be verbose (print to console)
+  -lf, --log-file TEXT            Set log file  [default: /home/shako/.autoxtr
+                                  abackup/autoxtrabackup.log]
+
+  -l, --log, --log-level [DEBUG|INFO|WARNING|ERROR|CRITICAL]
+                                  Set log level  [default: INFO]
+  --log-file-max-bytes INTEGER    Set log file max size in bytes  [default:
+                                  1073741824]
+
+  --log-file-backup-count INTEGER
+                                  Set log file backup count  [default: 7]
+  --help                          Print help message and exit.
+```
+
+
+If you think, CLI is not for you. We have experimental feature where you can start API server 
+and take backups using API call(ATTENTION: FastAPI involved)
+
+```
+sudo `which autoxtrabackup` --run-server
+INFO:     Started server process [30238]
+INFO:     Waiting for application startup.
+app started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:5555 (Press CTRL+C to quit)
+```
+
+```
+$ curl -X POST http://127.0.0.1:5555/backup
+{"result":"Successfully finished the backup process"}
+```
+
+For the rest please read the full documentation.
+
+Development:
+-------------------
+
+Current major version is >= 2.0 - so if you want to help, please do changes on this branch and then kindly send PR :)
+I also encourage you to upgrade from older version as the code base fully updated.
+Do you have an idea, question please open an issue.
+
+Read full documentation here:
+----------------------------------------------
+
+[**MySQL-AutoXtrabackup documentation!**](https://autoxtrabackup.azepug.az/)
+
