@@ -1,0 +1,2 @@
+slack-sdk
+Simple-AES-Cipher
