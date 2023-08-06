@@ -1,0 +1,3 @@
+[flake8.report]
+efm = flake8_efm:Errorformat
+
