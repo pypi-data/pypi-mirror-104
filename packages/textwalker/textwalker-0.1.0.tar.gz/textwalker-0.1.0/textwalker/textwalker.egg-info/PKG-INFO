@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: textwalker
+Version: 0.1.0
+Summary: Utility to more intuitively parse text
+Home-page: https://github.com/spandanb/textwalker
+Author: Spandan Bemby
+License: UNKNOWN
+Description: # Text Walker
+        
+        ## Overview
+        
+        `TextWalker` allows for an intuitive way to parse unstructured text.
+        
+        The `TextWalker` API emulates how a complex regular expression is iteratively constructed.
+        Typically, when constructing a regex, I'll construct a part of it; test it and build the next part.
+        
+        ```
+        >>> text = """CREATE TABLE dbo.car_inventory
+        (
+            cp_car_sk        integer               not null,
+            cp_car_make_id   char(16)              not null,
+        )
+        WITH (OPTION (STATS = ON))"""
+        
+        >>> from text_walker import TextWalker
+        >>> tw = TextWalker(text)
+        
+        >>> tw.walk_many(['CREATE', 'TABLE'])
+        >>> tname_match = tw.walk('dbo.[a-z0-9_]+')
+        >>> tablename = tname_match.replace('dbo.', '')
+        >>> print(f'table name is {tablename}')
+        
+        table name is car_inventory
+        
+        >>> tw.walk('\(')
+        
+        # now print column names
+        >>> cols_text, _ = tw.walk_until('WITH')
+        >>> for col_def in cols_text.split(','):
+                col_name = col_def.strip().split(' ')[0]
+                print(f'column name is: {}')
+        
+        column name is cp_car_sk
+        column name is cp_car_make_id
+        
+        ```
+        
+        ## Supported Grammar
+        ```
+        # parse literal
+        
+        ```
+        
+        
+        ## Installation
+        ```
+        git clone https://github.com/spandanb/textwalker.git
+        cd textwalker
+        python -m venv venv
+        pip install -r requirements.txt
+        python3 setup.py install
+        ```
+        
+        ### Run Tests
+        ```
+        pytest
+        ```
+        
+        ### Steps
+        generate docs: 
+        cd <root>
+        pdoc --html --force textwalker
+        
+        local install
+        pip install -e .
+        
+        
+        
+        ## TODO (MISC)
+        - properly define the grammar supported
+        - add licensce
+        
+        ## TODO (TECHNICAL)
+        - add support for '{}'
+        - add support for case (in)sensitive match?
+        - add docs
+        - cleanup docstrings
+          
+        - add tests
+          -- split tests by different grammar being exercized
+        - fix setup
+          -- ideally I run setup.py; and tests and examples can then just run
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

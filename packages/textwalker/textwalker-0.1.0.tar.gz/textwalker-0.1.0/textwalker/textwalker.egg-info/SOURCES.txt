@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+textwalker/textwalker.egg-info/PKG-INFO
+textwalker/textwalker.egg-info/SOURCES.txt
+textwalker/textwalker.egg-info/dependency_links.txt
+textwalker/textwalker.egg-info/top_level.txt
