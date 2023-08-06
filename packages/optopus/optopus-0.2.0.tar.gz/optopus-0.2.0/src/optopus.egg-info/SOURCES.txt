@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/optopus/__init__.py
+src/optopus/_draft.py
+src/optopus/_draft_new.py
+src/optopus/_old.py
+src/optopus/constants.py
+src/optopus/errors.py
+src/optopus/grammar.py
+src/optopus/parser.py
+src/optopus/version.py
+src/optopus.egg-info/PKG-INFO
+src/optopus.egg-info/SOURCES.txt
+src/optopus.egg-info/dependency_links.txt
+src/optopus.egg-info/not-zip-safe
+src/optopus.egg-info/requires.txt
+src/optopus.egg-info/top_level.txt
