@@ -1,0 +1,40 @@
+# amxfirmware
+use amxtelnet results to check master and device firmware against versions provided. asyncio: n/a
+
+## MasterFirmware(firmware_dir):
+#### firmware_dir: Directory to store firmware lists that will be created.
+
+### set_systems(systems):
+#### List of dicts, where each dict is an AMX system (or at least an AMX master controller).
+#### Required keys in each dict:
+##### full_name: string. Name that will end up being imported into your Netlinx address book.
+##### ip_address: string. Formatted like '192.168.1.1'
+##### master_model: string. Formatted like 'NI-700'
+##### master_serial: string. AMX serial number.
+
+### set_versions(ni_700_current,ni_x100_current,nx_current):
+#### ni_700_current: string in this format: '1.23.456'. Length of segments does not matter. No letters.
+#### ni_x100_current: string in this format: '1.23.456'. Length of segments does not matter. No letters.
+#### nx_current: string in this format: '1.23.456'. Length of segments does not matter. No letters.
+
+### run():
+#### Begins parsing information from the files located in input_path, then creates .csv files of each version that has updates. Masters that are already up to date will be put in a list named 'master fw up to date.csv'. Masters that didn't have all of the required keys will be put into 'master fw skipped.csv'. New k:v pairs named 'master_update_list' and 'master_update_info' will also be added to each system which is then bundled with the rest and returned in a list.
+
+
+## DeviceFirmware(firmware_dir):
+#### firmware_dir: Directory to store firmware lists that will be created.
+
+### set_systems(systems):
+#### List of dicts, where each dict is an AMX system (or at least an AMX master controller).
+#### Required keys in each dict:
+##### full_name: string. Name that will end up being imported into your Netlinx address book.
+##### ip_address: string. Formatted like '192.168.1.1'
+##### master_model: string. Formatted like 'NI-700'
+##### master_serial: string. AMX serial number.
+
+### set_versions(ni_700_current,nx_current):
+#### ni_current: string in this format: '1.23.456'. Length of segments does not matter. No letters.
+#### nx_current: string in this format: '1.23.456'. Length of segments does not matter. No letters.
+
+### run():
+#### Begins parsing information from the files located in input_path, then creates .csv files of each version that has updates. Controllers that are already up to date will be put in a list named 'device fw up to date.csv'. Masters that didn't have all of the required keys will be put into 'device fw skipped.csv'. New k:v pairs named 'device_update_list' and 'device_update_info' will also be added to each system which is then bundled with the rest and returned in a list.
