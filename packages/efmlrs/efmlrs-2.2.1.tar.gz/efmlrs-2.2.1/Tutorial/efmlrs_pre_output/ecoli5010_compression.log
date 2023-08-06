@@ -1,0 +1,192 @@
+*** preprocessing.compressions.deadend ***
+*** preprocessing.compressions.many2one ***
+deleting metabolite 13dpg_c 
+deleting metabolite 2pg_c 
+deleting metabolite 3pg_c 
+deleting metabolite 6pgc_c 
+deleting metabolite 6pgl_c 
+deleting metabolite ac_c 
+deleting metabolite ac_e 
+deleting metabolite acald_c 
+deleting metabolite acon_C_c 
+deleting metabolite actp_c 
+deleting metabolite akg_c 
+deleting metabolite amp_c 
+deleting metabolite cit_c 
+deleting metabolite co2_e 
+deleting metabolite dd6pg_c 
+deleting metabolite etoh_c 
+deleting metabolite etoh_e 
+deleting metabolite for_c 
+deleting metabolite for_e 
+deleting metabolite glx_c 
+deleting metabolite h2_e 
+deleting metabolite icit_c 
+deleting metabolite lac_D_c 
+deleting metabolite lac_D_e 
+deleting metabolite nh4_c 
+deleting metabolite nh4_e 
+deleting metabolite succ_e 
+deleting metabolite succoa_c 
+merging 1 ...
+   [-] GAPD factor: 1 
+   [+] PGK factor: 1 
+   [>] PGK:GAPD
+merging 1 ...
+   [-] PGM factor: 1 
+   [+] ENO factor: 1 
+   [>] ENO:PGM
+merging 2 ...
+   [-] PGK:GAPD factor: 1 
+   [+] Biomass_Ecoli_core_w_GAM factor: 821/500 
+   [>] Biomass_Ecoli_core_w_GAM:PGK:GAPD
+   [+] ENO:PGM factor: 1 
+   [>] ENO:PGM:PGK:GAPD
+merging 2 ...
+   [-] PGL factor: 1 
+   [+] EDP1 factor: 1 
+   [>] EDP1:PGL
+   [+] GND factor: 1 
+   [>] GND:PGL
+merging 2 ...
+   [-] G6PDH2r factor: 1 
+   [+] EDP1:PGL factor: 1 
+   [>] EDP1:PGL:G6PDH2r
+   [+] GND:PGL factor: 1 
+   [>] GND:PGL:G6PDH2r
+merging 2 ...
+   [-] ACt2r factor: 1 
+   [+] ACKr factor: 1 
+   [>] ACKr:ACt2r
+   [+] FEM2 factor: 1 
+   [>] FEM2:ACt2r
+merging 2 ...
+   [-] EX_ac_e factor: 1 
+   [+] ACKr:ACt2r factor: 1 
+   [>] ACKr:ACt2r:EX_ac_e
+   [+] FEM2:ACt2r factor: 1 
+   [>] FEM2:ACt2r:EX_ac_e
+merging 2 ...
+   [-] ALCD2x factor: 1 
+   [+] ACALD factor: 1 
+   [>] ACALD:ALCD2x
+   [+] FEM9 factor: 1 
+   [>] FEM9:ALCD2x
+merging 1 ...
+   [-] ACONTa factor: 1 
+   [+] ACONTb factor: 1 
+   [>] ACONTb:ACONTa
+merging 1 ...
+   [-] FEM7 factor: 1 
+   [+] ACKr:ACt2r:EX_ac_e factor: 1 
+   [>] ACKr:ACt2r:EX_ac_e:FEM7
+merging 2 ...
+   [-] ICDHyr factor: 1 
+   [+] AKGDH factor: 1 
+   [>] AKGDH:ICDHyr
+   [+] Biomass_Ecoli_core_w_GAM:PGK:GAPD factor: 713/821 
+   [>] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr
+merging 1 ...
+   [-] PPS factor: 1 
+   [+] ADK1 factor: 1 
+   [>] ADK1:PPS
+merging 1 ...
+   [-] CS factor: 1 
+   [+] ACONTb:ACONTa factor: 1 
+   [>] ACONTb:ACONTa:CS
+merging 1 ...
+   [-] CO2t factor: 1 
+   [+] EX_co2_e factor: 1 
+   [>] EX_co2_e:CO2t
+merging 1 ...
+   [-] EDP1:PGL:G6PDH2r factor: 1 
+   [+] EDP2 factor: 1 
+   [>] EDP2:EDP1:PGL:G6PDH2r
+merging 2 ...
+   [-] ETOHt2r factor: 1 
+   [+] ACALD:ALCD2x factor: 1 
+   [>] ACALD:ALCD2x:ETOHt2r
+   [+] FEM9:ALCD2x factor: 1 
+   [>] FEM9:ALCD2x:ETOHt2r
+merging 2 ...
+   [-] EX_etoh_e factor: 1 
+   [+] ACALD:ALCD2x:ETOHt2r factor: 1 
+   [>] ACALD:ALCD2x:ETOHt2r:EX_etoh_e
+   [+] FEM9:ALCD2x:ETOHt2r factor: 1 
+   [>] FEM9:ALCD2x:ETOHt2r:EX_etoh_e
+merging 2 ...
+   [-] PFL factor: 1 
+   [+] FEM4 factor: 1 
+   [>] FEM4:PFL
+   [+] FORti factor: 1 
+   [>] FORti:PFL
+merging 1 ...
+   [-] FORti:PFL factor: 1 
+   [+] EX_for_e factor: 1 
+   [>] EX_for_e:FORti:PFL
+merging 1 ...
+   [-] ICL factor: 1 
+   [+] MALS factor: 1 
+   [>] MALS:ICL
+merging 1 ...
+   [-] FEM4:PFL factor: 1 
+   [+] EX_h2_e factor: 1 
+   [>] EX_h2_e:FEM4:PFL
+merging 3 ...
+   [-] ACONTb:ACONTa:CS factor: 1 
+   [+] AKGDH:ICDHyr factor: 1 
+   [>] AKGDH:ICDHyr:ACONTb:ACONTa:CS
+   [+] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr factor: 1 
+   [>] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr:ACONTb:ACONTa:CS
+   [+] MALS:ICL factor: 1 
+   [>] MALS:ICL:ACONTb:ACONTa:CS
+merging 1 ...
+   [-] LDH_D factor: 1 
+   [+] D_LACt2 factor: 1 
+   [>] D_LACt2:LDH_D
+merging 1 ...
+   [-] D_LACt2:LDH_D factor: 1 
+   [+] EX_lac_D_e factor: 1 
+   [>] EX_lac_D_e:D_LACt2:LDH_D
+merging 1 ...
+   [-] NH4t factor: 1 
+   [+] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr:ACONTb:ACONTa:CS factor: 6251/713 
+   [>] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr:ACONTb:ACONTa:CS:NH4t
+merging 1 ...
+   [-] EX_nh4_e factor: 1 
+   [+] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr:ACONTb:ACONTa:CS:NH4t factor: 1 
+   [>] Biomass_Ecoli_core_w_GAM:PGK:GAPD:ICDHyr:ACONTb:ACONTa:CS:NH4t:EX_nh4_e
+merging 1 ...
+   [-] SUCCt3 factor: 1 
+   [+] EX_succ_e factor: 1 
+   [>] EX_succ_e:SUCCt3
+merging 1 ...
+   [-] AKGDH:ICDHyr:ACONTb:ACONTa:CS factor: 1 
+   [+] SUCOAS factor: 1 
+   [>] SUCOAS:AKGDH:ICDHyr:ACONTb:ACONTa:CS
+*** preprocessing.compressions.nullspace ***
+merging ...
+   [-] GLCpts factor: 1 
+   [+] EX_glc_e 
+   [>] EX_glc_e:GLCpts 
+merging ...
+   [-] TPI factor: 1 
+   [+] FBA 
+   [>] FBA:TPI 
+merging ...
+   [-] TKT1 factor: 1 
+   [+] TALA 
+   [>] TALA:TKT1 
+deleting metabolite s7p_c 
+deleting metabolite glc_D_e 
+deleting metabolite dhap_c 
+*** preprocessing.compressions.echelon ***
+deleting metabolite q8h2_c 
+deleting metabolite nadph_c 
+deleting metabolite nadh_c 
+deleting metabolite coa_c 
+deleting metabolite atp_c 
+*** preprocessing.compressions.deadend ***
+*** preprocessing.compressions.many2one ***
+*** preprocessing.compressions.nullspace ***
+*** preprocessing.compressions.echelon ***
