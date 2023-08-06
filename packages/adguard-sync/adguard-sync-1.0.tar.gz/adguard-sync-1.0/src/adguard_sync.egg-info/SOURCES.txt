@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+src/adguard_sync/__init__.py
+src/adguard_sync/sync.py
+src/adguard_sync.egg-info/PKG-INFO
+src/adguard_sync.egg-info/SOURCES.txt
+src/adguard_sync.egg-info/dependency_links.txt
+src/adguard_sync.egg-info/top_level.txt

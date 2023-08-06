@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: adguard-sync
+Version: 1.0
+Summary: Sync dns rewrites on multiple adguards
+Home-page: https://github.com/mkapra/adguard-sync
+Author: Maximilian Kapra
+Author-email: maximilian@kapra.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mkapra/adguard-sync/issues
+Description: # AdguardSync
+        
+        This script syncs the DNS-Rewrite list with the given config file.
+        
+        Example:
+        ```python
+        >>> from adguard_sync import AdguardSync
+        >>> AdguardSync('config.yml')
+        ```
+        
+        Configuration File:
+        ```yaml
+        ---
+        
+        adguards:
+          - hostname: https://10.0.0.3
+            username: adguard
+            password: adguard_pass
+            verify_ssl: False # (Optional, default = True)
+          - hostname: https://10.0.0.4
+            username: adguard
+            password: adguard_pass
+        
+        dns_records:
+          - domain: adguard.test
+            address: 10.0.0.3
+          - domain: adguard2.test
+            address: 10.0.0.4
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
