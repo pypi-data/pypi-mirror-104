@@ -1,0 +1,11 @@
+pytest_flyte/__init__.py,sha256=j7yNFHhLO4XuL7AKRt51aD2mcN-u5f4Gq06bkX15OCk,303
+pytest_flyte/plugin.py,sha256=L35n8sED5flWjqJFNLGuS0xaziPZXI_Wm1o9hUf-Xqw,4436
+pytest_flyte/docker/Dockerfile,sha256=Yob8_1VjPYoOrO5SD2N92DhCazHYEqBKmIceXuFgc-M,582
+pytest_flyte/docker/flyte-entrypoint-override.sh,sha256=sYJdCSov2gpxEdPFooQ3soG9cnVYG9ZNnm8Eyvey1vA,201
+pytest_flyte/templates/docker-compose.yaml.tmpl,sha256=ZT5sPIDo3i9mTsBL8nKbpYC4HhV6aMPQH8H9Ta8r-9E,309
+pytest_flyte/templates/kustomization.yaml.tmpl,sha256=Ii3cxKqhEALSqZQZwQAqiiiTR6hAMPx542ENIx2JQx0,127
+pytest_flyte-0.0.1.dist-info/METADATA,sha256=cPucOQzOd5_hqfO_XLYxFsDDv7hYCnvoafFLxx6C068,353
+pytest_flyte-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_flyte-0.0.1.dist-info/entry_points.txt,sha256=0Ed0loYH34sl6kXbyYEEwhRNuSiu4JdUmd6HwlWf5ng,40
+pytest_flyte-0.0.1.dist-info/top_level.txt,sha256=jy6PMooV-3uH0blaqnElweeDg1lLEy4rMu_G5Gfy9VA,13
+pytest_flyte-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytest-flyte
+Version: 0.0.1
+Summary: Pytest fixtures for simplifying Flyte integration testing
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: docker-compose
+Requires-Dist: flytekit
+Requires-Dist: jinja2
+Requires-Dist: pytest
+Requires-Dist: pytest-docker
+
+UNKNOWN
+
+
