@@ -1,0 +1,7 @@
+raspi_system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+raspi_system/hwinfo.py,sha256=kgZOPbaQCePdUjH1rQIANmwoN22LFErys6_Zm57p-zs,3886
+raspi_system/network.py,sha256=RahQnWGRatwZYIETMyBrtxfW7VHHD5oIAud0vYqThP0,202
+raspi_system-0.1.0.dist-info/METADATA,sha256=EMYRPxXM4vDROUmJUW-n_kVTOfYPnY5oYQL5Tcx8sIQ,727
+raspi_system-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+raspi_system-0.1.0.dist-info/top_level.txt,sha256=vwJVmUJvsdt0FndC5LxGEbTlZyh07kO-g8WI1kXpYVw,13
+raspi_system-0.1.0.dist-info/RECORD,,
