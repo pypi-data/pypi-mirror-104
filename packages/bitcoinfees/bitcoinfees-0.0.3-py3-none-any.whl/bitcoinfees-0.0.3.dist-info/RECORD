@@ -1,0 +1,8 @@
+bitcoinfees/__init__.py,sha256=_JvGqK2AxpmtiwTIF9H8pcRRb4e_gUTknxOxYu1lSM8,32
+bitcoinfees/client.py,sha256=TK18Fh9Vanjm0bVS1nXP_OPhsjzhyXwJ0nch6_6iV1Y,250
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bitcoinfees.py,sha256=yDj2uebMv5DbkrIxXSmmB-iWbm4ot4Ac74yMpsCD4sM,178
+bitcoinfees-0.0.3.dist-info/METADATA,sha256=HOdX0usqSmOyMXlpS_ChiuITHAQzL5RvZch8khHT7LI,1456
+bitcoinfees-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bitcoinfees-0.0.3.dist-info/top_level.txt,sha256=AhxMvL-yob6Pcr41aa1QJso2VP1rYqHKZu71XooZWOs,18
+bitcoinfees-0.0.3.dist-info/RECORD,,
