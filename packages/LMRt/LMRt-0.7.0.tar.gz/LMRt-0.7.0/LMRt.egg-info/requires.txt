@@ -1,0 +1,9 @@
+termcolors
+pandas
+cftime
+tqdm
+xarray
+netCDF4
+statsmodels
+seaborn
+pyleoclim
