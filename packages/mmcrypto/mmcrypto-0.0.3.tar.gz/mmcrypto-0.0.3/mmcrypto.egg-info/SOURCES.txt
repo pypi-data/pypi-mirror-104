@@ -1,0 +1,7 @@
+README.md
+setup.py
+mmcrypto.egg-info/PKG-INFO
+mmcrypto.egg-info/SOURCES.txt
+mmcrypto.egg-info/dependency_links.txt
+mmcrypto.egg-info/requires.txt
+mmcrypto.egg-info/top_level.txt
