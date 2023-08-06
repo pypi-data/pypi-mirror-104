@@ -1,0 +1,7 @@
+setup.py
+jrRand/__init__.py
+jrRand/jrRand.py
+jrRand.egg-info/PKG-INFO
+jrRand.egg-info/SOURCES.txt
+jrRand.egg-info/dependency_links.txt
+jrRand.egg-info/top_level.txt

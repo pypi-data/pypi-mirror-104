@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: jrRand
+Version: 1.0.0
+Summary: 健睿数学班工作室随机库
+Home-page: https://github.com/
+Author: 李健睿
+Author-email: lijianrui7560@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
