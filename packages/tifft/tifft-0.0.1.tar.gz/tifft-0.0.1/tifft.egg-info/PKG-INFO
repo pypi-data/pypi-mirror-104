@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tifft
+Version: 0.0.1
+Summary: Technical Indicators for Financial Trading
+Home-page: https://github.com/dceoy/tifft
+Author: Daichi Narushima
+Author-email: dnarsil+github@gmail.com
+License: UNKNOWN
+Description: tifft
+        =====
+        
+        Technical Indicators for Financial Trading
+        
+        Installation
+        ------------
+        
+        ```sh
+        $ pip install -U https://github.com/dceoy/tifft/archive/main.tar.gz
+        ```
+        
+        Docker image
+        ------------
+        
+        The image is available at [Docker Hub](https://hub.docker.com/r/dceoy/tifft/).
+        
+        ```sh
+        $ docker pull dceoy/tifft
+        ```
+        
+        Usage
+        -----
+        
+        Run `tifft --help` for information.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
