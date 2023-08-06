@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cmc-csci046-ohorban-container
+Version: 0.0.1
+Summary: Data structures: BST, AVL, Heap, unicode
+Home-page: https://github.com/ohorban/containers_p
+Author: Alex Horban
+Author-email: 20ohorban@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# containers
+
+Build status:
+
+1. [![](https://github.com/ohorban/containers_p/workflows/tests-fibonacci/badge.svg)](https://github.com/ohorban/containers_p/actions?query=workflow%3Atests-fibonacci)
+1. [![](https://github.com/ohorban/containers_p/workflows/tests-range/badge.svg)](https://github.com/ohorban/containers_p/actions?query=workflow%3Atests-range)
+1. [![](https://github.com/ohorban/containers_p/workflows/tests-unicode/badge.svg)](https://github.com/ohorban/containers_p/actions?query=workflow%3Atests-unicode)
+
+
