@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cclm
+Version: 0.0.1
+Summary: composable character level models
+Home-page: UNKNOWN
+Author: jamesmf
+Author-email: UNKNOWN
+License: BSD
+Keywords: embeddings composable character-level
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: tokenizers
+Requires-Dist: datasets
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: pytest
+
+UNKNOWN
+
+
