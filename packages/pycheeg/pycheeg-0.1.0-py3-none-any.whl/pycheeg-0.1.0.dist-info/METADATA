@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pycheeg
+Version: 0.1.0
+Summary: Sweep set algorithms for finding cuts in graphs.
+Home-page: UNKNOWN
+Author: Peter Macgregor
+Author-email: <macgregor.pr@gmail.com>
+License: UNKNOWN
+Keywords: python,sweep set,cheeger cut,conductance,bipartiteness
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+Algorithms for finding the cheeger cut and the cheeger-trevisan cut in networkx graphs.
+
+
