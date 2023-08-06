@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tinengine
+Version: 2.3.0
+Summary: tkinter-Tin标记文本|富文本渲染框
+Home-page: https://tinhome.baklib-free.com/
+Author: Smart-Space
+Author-email: smart-space@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: requests
+Requires-Dist: pywin32
+
+# TinEngine
+
+A advanced tkinter component.
+
+内置一个基于tkinter的富文本渲染组件——TinText，可以将Tin标记文本渲染为富文本。
+
