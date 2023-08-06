@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: flowsaber
+Version: 0.1.3.6.1
+Summary: A dataflow based workflow framework.
+Home-page: https://github.com/zhqu1148980644/flowsaber
+Author: bakezq
+Author-email: zhongquan789@gmail.com
+License: MIT
+Description: A dataflow based workflow framework.
+Keywords: dataflow,workflow,asyncio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7, <4
+Provides-Extra: test
+Provides-Extra: server
