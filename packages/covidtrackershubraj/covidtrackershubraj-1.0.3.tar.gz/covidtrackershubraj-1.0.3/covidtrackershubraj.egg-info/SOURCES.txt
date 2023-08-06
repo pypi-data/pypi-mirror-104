@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+covidtracker/__init__.py
+covidtracker/covid.py
+covidtrackershubraj.egg-info/PKG-INFO
+covidtrackershubraj.egg-info/SOURCES.txt
+covidtrackershubraj.egg-info/dependency_links.txt
+covidtrackershubraj.egg-info/requires.txt
+covidtrackershubraj.egg-info/top_level.txt
