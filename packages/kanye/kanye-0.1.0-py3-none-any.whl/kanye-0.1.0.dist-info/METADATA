@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kanye
+Version: 0.1.0
+Summary: kanye.rest API quotes
+Home-page: https://github.com/ilhomidin/kanye
+License: MIT
+Keywords: kanye,west,rest,quotes
+Author: Ilkhomidin Baxoraliev
+Author-email: itilhomidin@yandex.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/ilhomidin/kanye
+Description-Content-Type: text/markdown
+
+# 🐍 Python kanye.rest API bindings
+
+**🙌 Simplest API bindings for kanye.rest**
+
+## Usage
+
+```python
+>>> import kanye
+>>> kanye.quote()
+"My memories are from the future"
+```
+
+
+## Install
+
+```bash
+pip install kanye
+```
+
