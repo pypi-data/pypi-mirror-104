@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: itsdevtime
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://gitlab.com/vladcalin/itsdevtime
+Author: Vlad Călin
+Author-email: contact@vladcalin.ro
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: colorlog
+Provides-Extra: dev
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+UNKNOWN
+
+
