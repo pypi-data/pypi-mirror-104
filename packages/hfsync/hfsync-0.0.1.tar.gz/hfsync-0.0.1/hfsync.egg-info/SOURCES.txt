@@ -1,0 +1,9 @@
+README.md
+setup.py
+hfsync/__init__.py
+hfsync/auth.py
+hfsync.egg-info/PKG-INFO
+hfsync.egg-info/SOURCES.txt
+hfsync.egg-info/dependency_links.txt
+hfsync.egg-info/requires.txt
+hfsync.egg-info/top_level.txt
