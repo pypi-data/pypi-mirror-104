@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/badges_gitlab/__init__.py
+src/badges_gitlab/api_badges.py
+src/badges_gitlab/badges_json.py
+src/badges_gitlab/badges_svg.py
+src/badges_gitlab.egg-info/PKG-INFO
+src/badges_gitlab.egg-info/SOURCES.txt
+src/badges_gitlab.egg-info/dependency_links.txt
+src/badges_gitlab.egg-info/entry_points.txt
+src/badges_gitlab.egg-info/requires.txt
+src/badges_gitlab.egg-info/top_level.txt
