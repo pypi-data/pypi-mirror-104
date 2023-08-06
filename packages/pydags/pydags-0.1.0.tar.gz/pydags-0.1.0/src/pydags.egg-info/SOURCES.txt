@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+src/pydags/__init__.py
+src/pydags/cache.py
+src/pydags/pipeline.py
+src/pydags/serialization.py
+src/pydags/stage.py
+src/pydags.egg-info/PKG-INFO
+src/pydags.egg-info/SOURCES.txt
+src/pydags.egg-info/dependency_links.txt
+src/pydags.egg-info/top_level.txt
