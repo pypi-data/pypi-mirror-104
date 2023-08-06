@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: trie-cli
+Version: 0.1.1
+Summary: A CLI to interact with a global trie data structure
+Home-page: https://github.com/pmathur007/trie-cli
+Author: Pranav Mathur
+Author-email: pranavmathur001@gmail.com
+License: UNKNOWN
+Description: # trie-cli
+        
+        ## Sources Consulted
+        Resources used for CLI:
+        https://trstringer.com/easy-and-nice-python-cli/
+        https://www.youtube.com/watch?v=Jr4QDJwwj60
+        https://click.palletsprojects.com/en/7.x/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
