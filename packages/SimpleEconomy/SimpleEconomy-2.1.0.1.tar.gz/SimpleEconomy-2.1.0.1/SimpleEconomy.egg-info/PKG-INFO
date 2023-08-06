@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: SimpleEconomy
+Version: 2.1.0.1
+Summary: Very easy to use discord.py economy creator
+Home-page: UNKNOWN
+Author: MrStretch
+Author-email: mrstretchd@gmail.com
+License: MIT
+Description: SimpleEconomy is made for using it as a db and getting stats from your bot. Read our docs at https://docs.simpleco.xyz
+        Discord support server: https://discord.gg/ptC9CaQFRe
+        
+        Change Log
+        ===========
+        
+        2.1 (30/04/2021)
+        ------------------
+        - Command tracking
+        - Command usage on dashboard
+Keywords: Ecomomy,Simple,discord.py,command tracking,tracking,usage,stats
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
