@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+notion_as_db/__init__.py
+notion_as_db/configured_notion.py
+notion_as_db.egg-info/PKG-INFO
+notion_as_db.egg-info/SOURCES.txt
+notion_as_db.egg-info/dependency_links.txt
+notion_as_db.egg-info/requires.txt
+notion_as_db.egg-info/top_level.txt
