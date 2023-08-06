@@ -1,0 +1,26 @@
+# Calculator with running memory
+
+## Functions:
+- .add
+- .subtract
+- .multiply
+- .n_root
+- .get_current_result
+- .get_action_seq - returns action sequence as a string Example: 4 + 2 + 3 - 2 = 7
+- .reset_memory - resets running memory and action sequence
+
+
+## Installation
+
+pip install sarunasncalculator
+
+## Usage
+
+You can initialize calculator with any starting point you want.
+```python
+from sarunasncalculator.calculator import Calculator
+callc = Calculator(2)
+callc.add(2) # running memory would be 4
+callc.subtract(1) # running memory would be 3
+print(callc.get_action_seq) # would return 2 + 2 - 1 = 3
+```
