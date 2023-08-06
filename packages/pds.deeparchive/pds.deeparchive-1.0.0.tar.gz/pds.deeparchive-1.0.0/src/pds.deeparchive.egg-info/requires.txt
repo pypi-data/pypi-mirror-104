@@ -1,0 +1,7 @@
+setuptools
+lxml
+zope.component
+zope.interface
+pds.api-client==0.4.0
+
+[test]
