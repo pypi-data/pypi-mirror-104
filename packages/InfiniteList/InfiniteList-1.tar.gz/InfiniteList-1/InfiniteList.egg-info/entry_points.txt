@@ -1,0 +1,3 @@
+[console_scripts]
+InfiniteList = InfiniteList.InfiniteList_versus_list:main
+

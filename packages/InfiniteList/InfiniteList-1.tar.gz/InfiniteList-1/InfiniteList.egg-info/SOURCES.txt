@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+InfiniteList/InfiniteList.py
+InfiniteList/InfiniteList_versus_list.py
+InfiniteList.egg-info/PKG-INFO
+InfiniteList.egg-info/SOURCES.txt
+InfiniteList.egg-info/dependency_links.txt
+InfiniteList.egg-info/entry_points.txt
+InfiniteList.egg-info/top_level.txt
