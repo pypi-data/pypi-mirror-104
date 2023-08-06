@@ -1,0 +1,12 @@
+datamatch/__init__.py,sha256=ijGTxQUnVFI4Lc1m04rvKizi3DDa_nZ8Jw1m1S-EAoQ,301
+datamatch/indices.py,sha256=JKm0U3Jy5E6D4KQzOeCJmV_bzUIsl-ijLQ-wfjLaVSw,1833
+datamatch/matchers.py,sha256=oVnet89ZJU5DaCZltf8oyTdnsUykEMCWcgFahkCMXoE,6274
+datamatch/similarities.py,sha256=mBB1ehX65fyzst_21Dc-1iuaKi1vZ6MI_mcTy8NCUcU,1062
+datamatch/test_indices.py,sha256=D6TkaPHiAyIBogp6ThPaTH-65_RFxzsa58o7G7eTPMQ,2216
+datamatch/test_matchers.py,sha256=_Eks3fBcJ4UHdGyChICaofyG2Wu2hBBPixDvIi-X4y0,2545
+datamatch/test_similarities.py,sha256=SJCYP662Gccm8dLdKtas8beEuM-8ocRMX6AhpzXc_Jw,1558
+datamatch-0.0.1.dist-info/LICENSE,sha256=Gj1aznQ4zp6AP4QnbTrg8NLn_d4wIxKTYPuj1HGPgbo,1050
+datamatch-0.0.1.dist-info/METADATA,sha256=mUhoouktxpxIO2EJTqSj0cNLqTYysLa6VHkdErpCOts,1783
+datamatch-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+datamatch-0.0.1.dist-info/top_level.txt,sha256=dnB4H1Ksk4ORgGoUNYrFUR5zvCqF3FDMTG-8zSfK86s,10
+datamatch-0.0.1.dist-info/RECORD,,
