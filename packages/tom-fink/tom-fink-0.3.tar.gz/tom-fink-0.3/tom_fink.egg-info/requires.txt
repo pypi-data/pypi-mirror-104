@@ -1,0 +1,6 @@
+tomtoolkit~=2.6
+elasticsearch-dsl~=7.3
+markdown
+
+[test]
+factory_boy<3.3,>=3.1
