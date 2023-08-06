@@ -1,0 +1,8 @@
+setup.py
+demogepsum/__init__.py
+demogepsum/demoadd.py
+demogepsum.egg-info/PKG-INFO
+demogepsum.egg-info/SOURCES.txt
+demogepsum.egg-info/dependency_links.txt
+demogepsum.egg-info/not-zip-safe
+demogepsum.egg-info/top_level.txt
