@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+fastdbfs/__init__.py
+fastdbfs/cli.py
+fastdbfs/dbfs.py
+fastdbfs/exceptions.py
+fastdbfs/fileinfo.py
+fastdbfs/runner.py
+fastdbfs.egg-info/PKG-INFO
+fastdbfs.egg-info/SOURCES.txt
+fastdbfs.egg-info/dependency_links.txt
+fastdbfs.egg-info/entry_points.txt
+fastdbfs.egg-info/requires.txt
+fastdbfs.egg-info/top_level.txt
