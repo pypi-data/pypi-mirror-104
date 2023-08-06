@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sphinx_theme_builder"
+authors = [
+    {name = "Pradyun Gedam", email = "mail@pradyunsg.me"},
+]
+dependencies = []
+requires-python = ">=3.6"
+readme = "README.md"
+classifiers = [
+  "Framework :: Sphinx",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dynamic = ["description", "version"]
+
+[project.optional-dependencies]
+test = []
+doc = []
+
+[project.urls]
+Documentation = "https://sphinx-theme-builder.readthedocs.io/en/latest/"
+Source = "https://github.com/pradyunsg/sphinx_theme_builder"
+
+[project.scripts]
+stb = "sphinx_theme_builder.cli:main"

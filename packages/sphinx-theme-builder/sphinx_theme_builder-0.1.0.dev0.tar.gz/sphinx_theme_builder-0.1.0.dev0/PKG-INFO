@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: sphinx_theme_builder
+Version: 0.1.0.dev0
+Summary: A tool for authoring Sphinx themes with a simple (opinionated) workflow.
+Home-page: None
+Author: None
+Author-email: Pradyun Gedam <mail@pradyunsg.me>
