@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: athena-mathlab
+Version: 0.1.1
+Summary: Advanced Techniques for High dimensional parameter spaces to Enhance Numerical Analysis
+Home-page: https://github.com/mathLab/ATHENA
+Author: Marco Tezzele, Francesco Romor
+Author-email: marcotez@gmail.com, francesco.romor@gmail.com
+License: MIT
+Description: ATHENA is a Python package for reduction in parameter spaces.
+Keywords: parameter-space-reduction active-subspaces kernel-active-subspaces model-reduction sensitivity-analysis nonlinear-level-set-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: docs
+Provides-Extra: formatting
+Provides-Extra: tutorials
