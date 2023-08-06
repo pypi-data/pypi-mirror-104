@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+testeasydubins/__init__.py
+testeasydubins/__main__.py
+testeasydubins/config.cfg
+testeasydubins/dubin_path.py
+testeasydubins.egg-info/PKG-INFO
+testeasydubins.egg-info/SOURCES.txt
+testeasydubins.egg-info/dependency_links.txt
+testeasydubins.egg-info/entry_points.txt
+testeasydubins.egg-info/requires.txt
+testeasydubins.egg-info/top_level.txt
