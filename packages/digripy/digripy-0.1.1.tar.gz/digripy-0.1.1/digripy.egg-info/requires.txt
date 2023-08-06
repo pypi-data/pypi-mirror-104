@@ -1,0 +1,8 @@
+TESPy>=0.4.2.post2
+openpyxl
+numpy
+bokeh
+pandas
+jsonref
+matplotlib
+decorator
