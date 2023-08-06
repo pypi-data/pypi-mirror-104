@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geodemoch/__init__.py
+geodemoch/geodemoch.py
+geodemoch.egg-info/PKG-INFO
+geodemoch.egg-info/SOURCES.txt
+geodemoch.egg-info/dependency_links.txt
+geodemoch.egg-info/not-zip-safe
+geodemoch.egg-info/top_level.txt
