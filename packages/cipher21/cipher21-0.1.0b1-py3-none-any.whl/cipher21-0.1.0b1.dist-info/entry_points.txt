@@ -1,0 +1,3 @@
+[console_scripts]
+cipher21 = cipher21.application:main
+
