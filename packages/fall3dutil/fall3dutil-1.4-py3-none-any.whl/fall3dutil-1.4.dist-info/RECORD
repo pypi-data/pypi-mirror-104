@@ -1,0 +1,9 @@
+fall3dutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fall3dutil/ecmwf.py,sha256=2MHV_Tnr1-Pla5kYhHG8PvtAaYOQXkO2GbL6JVtbQy8,6920
+fall3dutil/grib_filter.py,sha256=6H4fjECQbHUGKJY7T8sJ6t-L3RZTBP12ReDoR1T_2zs,5666
+fall3dutil/opendap.py,sha256=D_p820D6c9GpCT1B0RAwwfoSQo2_8S-_yTOerJz1RIg,16453
+fall3dutil-1.4.dist-info/LICENSE,sha256=M9ysRTUMecdSR3b0eYH3E9svBBGBL8Wor_iZObwVRhY,1086
+fall3dutil-1.4.dist-info/METADATA,sha256=nrrAYl_0NMH0Q7Rs8ieRo0qoFrBqski7H8L3CpvwIbs,731
+fall3dutil-1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fall3dutil-1.4.dist-info/top_level.txt,sha256=IxQ4hpbWUzlPlizQRwq7X2hXF_JrsoW0iPrDtqSO5iY,11
+fall3dutil-1.4.dist-info/RECORD,,
