@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+neuralstyle/__init__.py
+neuralstyle/methods.py
+neuralstyle.egg-info/PKG-INFO
+neuralstyle.egg-info/SOURCES.txt
+neuralstyle.egg-info/dependency_links.txt
+neuralstyle.egg-info/top_level.txt
+neuralstyle/utils/__init__.py
+neuralstyle/utils/functions.py

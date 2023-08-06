@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: neuralstyle
+Version: 0.0.1
+Summary: Implementations of Neural Style transfer algorithms in PyTorch
+Home-page: https://github.com/marmikshah/neuralstyle
+Author: Marmik Shah
+Author-email: marmikshah@icloud.com
+License: UNKNOWN
+Description: # Neural Style Transfer Algorithms
+        
+        ## Usage
+        
+        ```python
+        
+        from neuralstyle.methods import run_style_transfer
+        
+        run_style_transfer("data/style.png", "data/content.png", "output/")
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
