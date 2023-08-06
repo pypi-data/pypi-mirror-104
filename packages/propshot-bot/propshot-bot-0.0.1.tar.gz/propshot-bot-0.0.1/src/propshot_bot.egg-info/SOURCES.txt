@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/proposals/__init__.py
+src/proposals/constants.py
+src/proposals/proposal.py
+src/proposals/proposal_discord.py
+src/proposals/proposal_monitor.py
+src/proposals/utils.py
+src/propshot_bot.egg-info/PKG-INFO
+src/propshot_bot.egg-info/SOURCES.txt
+src/propshot_bot.egg-info/dependency_links.txt
+src/propshot_bot.egg-info/top_level.txt
