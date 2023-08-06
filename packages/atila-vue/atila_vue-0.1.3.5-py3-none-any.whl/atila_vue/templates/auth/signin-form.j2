@@ -1,0 +1,29 @@
+{% extends 'auth/layout.j2' %}
+
+{% block head_start %}
+  <title>{{ app.config.SITE_NAME }}: Sign In</title>
+{% endblock %}
+
+{% block el_main %}
+  <firebase-auth
+    v-if='context.frontendConfig.firebaseConfig'
+    terms-of-use-url = "/"
+    profile-edit-url="/"></firebase-auth>
+{% endblock %}
+
+{% block state_map %}
+  {{ super () }}
+  {{ map_route (
+      signInWithFirebaseIdToken = "firebase.auth.signin_with_firebase_id_token",
+      updateProfile = 'firebase.users.patch_profile',
+      firebaseCustomToken = "firebase.auth.firebase_custom_token",
+      firebaseUsers = "firebase.auth.firebase_users",
+  ) }}
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('auth/firebase-auth.vue') }}
+{% endblock %}
+</script>
