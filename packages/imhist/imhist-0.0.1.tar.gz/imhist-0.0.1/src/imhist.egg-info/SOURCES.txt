@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/imhist.py
+src/imhist.egg-info/PKG-INFO
+src/imhist.egg-info/SOURCES.txt
+src/imhist.egg-info/dependency_links.txt
+src/imhist.egg-info/requires.txt
+src/imhist.egg-info/top_level.txt
