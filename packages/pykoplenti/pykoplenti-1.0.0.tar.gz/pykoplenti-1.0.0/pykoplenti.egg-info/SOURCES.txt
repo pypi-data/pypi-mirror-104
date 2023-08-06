@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pykoplenti/__init__.py
+pykoplenti/cli.py
+pykoplenti.egg-info/PKG-INFO
+pykoplenti.egg-info/SOURCES.txt
+pykoplenti.egg-info/dependency_links.txt
+pykoplenti.egg-info/entry_points.txt
+pykoplenti.egg-info/requires.txt
+pykoplenti.egg-info/top_level.txt
