@@ -1,0 +1,3 @@
+[mopidy.ext]
+jamendo = mopidy_jamendo:Extension
+
