@@ -1,0 +1,17 @@
+piaf/__init__.py,sha256=eJKr-ZeYPaU6l1NIXjlG_DBa4ipGk1901-hD6x8wpIw,119
+piaf/agent.py,sha256=9u8taU_kb2dOsrYeRmh_PeNRO6Tla_TpZ7f_VjoLV6s,11716
+piaf/behavior.py,sha256=FMAsw8ICaXVGq5QQToKnONKEk43DijhIL_f7jE1quVg,15274
+piaf/comm/__init__.py,sha256=sODrhn0ZQFwIKx6_5tLcvlQMqNnAd-RgBIiCyuxpiTw,39009
+piaf/comm/mts.py,sha256=JmFmNbAgxFghfp0sOkzyzj3GnQRDWSyO7KqFYwmDcaE,17000
+piaf/comm/protocol.py,sha256=FWfXJUr9vl-scCUWWAwYH8QBxFS1gvpl2hXpHvriIUg,755
+piaf/examples/heavycomm.py,sha256=tzwomHkv0hQ5XXEBoLH5SYsRA3KYfLeUkQLePjbWq2A,3530
+piaf/examples/helloworld.py,sha256=BXrzecEuMRt6BsZnZWvjDG4loQa8HeeDN_oeGnVDZXo,2154
+piaf/examples/pingpong.py,sha256=xqdC8zOhJqqLAI0qFmwAPHHwheltNurJ9LXCXP239MQ,5157
+piaf/examples/useams.py,sha256=dJLNsagOLOY38XV5oa_ZS654fXY0NzNl6V-TGis6YAg,5084
+piaf/exceptions.py,sha256=nLyiSVEhCIu-63tGidWVZPBsOwzAWXhGggaRcINK650,4060
+piaf/platform.py,sha256=vu6Bl0ogjmK0r_GRHTPV2WS6ltVjzziyWlKJr55cLnI,21815
+piaf/service.py,sha256=zvNqPU3B2KZSb1gLP79ANmRdIvy0J7LCcmqWhDoI1jc,9531
+piaf-0.1a2.dist-info/LICENSE,sha256=13wBeGVQN1xioQqA6h1aXk4t1e5wMWfXZCkxCd5EHiw,1092
+piaf-0.1a2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+piaf-0.1a2.dist-info/METADATA,sha256=F3_EcL_ArGwjEEMMu_LkNiUcoKzsCKV9KvC_q13pFWM,1359
+piaf-0.1a2.dist-info/RECORD,,
