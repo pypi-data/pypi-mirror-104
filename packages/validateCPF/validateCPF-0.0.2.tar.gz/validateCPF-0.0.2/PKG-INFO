@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: validateCPF
+Version: 0.0.2
+Summary: Function to validate inputed CPF
+Home-page: UNKNOWN
+Author: Victor Macedo
+License: UNKNOWN
+Description: # validate-CPF
+        
+        English: Function to validade the inputed CPF. It can validade CPF's inputed as just numbers or
+        as xxx.xxx.xxx-xx. The function returns the CPF as a eleven digit interger number.
+            
+        Portugues: Função para validar um CPF inputado. A função consegue validar CPF's inputados somente como números ou no formato xxx.xxx.xxx-xx. A função retorna o CPF como um numero inteiro de onze digitos.
+        
+        ```Python
+        from validateCPF import getCPF
+        
+        x = getCPF("Digite seu CPF: ")
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

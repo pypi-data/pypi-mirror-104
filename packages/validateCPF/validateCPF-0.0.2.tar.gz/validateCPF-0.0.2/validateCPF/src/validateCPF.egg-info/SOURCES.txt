@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+validateCPF/src/validateCPF.egg-info/PKG-INFO
+validateCPF/src/validateCPF.egg-info/SOURCES.txt
+validateCPF/src/validateCPF.egg-info/dependency_links.txt
+validateCPF/src/validateCPF.egg-info/top_level.txt
