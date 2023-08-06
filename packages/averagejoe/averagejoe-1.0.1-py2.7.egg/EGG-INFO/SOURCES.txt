@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+averagejoe/__init__.py
+averagejoe/joe.py
+averagejoe.egg-info/PKG-INFO
+averagejoe.egg-info/SOURCES.txt
+averagejoe.egg-info/dependency_links.txt
+averagejoe.egg-info/requires.txt
+averagejoe.egg-info/top_level.txt
