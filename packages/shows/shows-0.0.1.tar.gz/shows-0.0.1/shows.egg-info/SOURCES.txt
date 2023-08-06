@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+shows/__init__.py
+shows/component.py
+shows/core.py
+shows/main.py
+shows.egg-info/PKG-INFO
+shows.egg-info/SOURCES.txt
+shows.egg-info/dependency_links.txt
+shows.egg-info/entry_points.txt
+shows.egg-info/not-zip-safe
+shows.egg-info/requires.txt
+shows.egg-info/top_level.txt

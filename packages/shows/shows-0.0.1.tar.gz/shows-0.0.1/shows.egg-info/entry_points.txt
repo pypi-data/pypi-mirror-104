@@ -1,0 +1,3 @@
+[console_scripts]
+shows = shows.main:main
+
