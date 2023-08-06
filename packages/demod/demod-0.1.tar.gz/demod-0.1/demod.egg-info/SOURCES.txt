@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+demod/__init__.py
+demod/helpers.py
+demod.egg-info/PKG-INFO
+demod.egg-info/SOURCES.txt
+demod.egg-info/dependency_links.txt
+demod.egg-info/requires.txt
+demod.egg-info/top_level.txt
