@@ -1,0 +1,17 @@
+face_utils/__init__.py,sha256=R8dO7Ox2Za-pf8jcmbAcJjbXGYLeUjhcJ6xf8QjP90g,87
+face_utils/cropping/__init__.py,sha256=BCCHb7dPAfmExn57AXjH7bu2eC1vliHVr2uLg7rjxqI,63
+face_utils/cropping/cropping.py,sha256=rbXCy5tXSwIK8r9E8khQThoMd_vzucM9EfIy4vY1DPw,1562
+face_utils/detection/__init__.py,sha256=RBCUE8oToZwij-olEguC52wpkY0eb25MQ1U1K99GVIU,74
+face_utils/detection/detectors.py,sha256=yeuAuMFCwo3-Gd0D4bDnu0dGs_69TyEhoj0wtDB2ikI,5428
+face_utils/detection/settings.py,sha256=ZNZXMiY61rLGWjGYR96DYTZPeNDZK337EOThbqtNwxI,387
+face_utils/detection/__pycache__/__init__.cpython-37.pyc,sha256=f3QVXoWx49KJCspAyXnYxA0K83ZLBpDmJo8Yhyu_WUo,109
+face_utils/detection/__pycache__/cropping.cpython-37.pyc,sha256=hAiC7D7yQW6N1EY1Js0hPgD0LlwgOWdPsyQFJUJ2Wg0,1122
+face_utils/detection/__pycache__/settings.cpython-37.pyc,sha256=WLCFlTwYUuddNtm4AR1mHnkcYgPOCgx1mG08ZztcYH8,343
+face_utils/detection/assets/Widerface-RetinaFace.caffemodel,sha256=0IM4osIH3xapxWb3Z_6mf7Q7pv_3bOEek4_j-r77lAI,1866013
+face_utils/detection/assets/deploy.prototxt,sha256=n-LxQbS67gOe2UQtooM-IWr0Cm_z5jnns5JYgSvNqAg,40787
+face_utils/detection/assets/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+face_utils-0.0.3.dist-info/LICENSE,sha256=tChKaum7vvpAGVyAdcxJX6LsSzQ2-UNeeis0jm0kVX8,1069
+face_utils-0.0.3.dist-info/METADATA,sha256=EF8J1F2ZKQb0h4nZ8NwxfcSNZWOlJRnIfTKQBf92H64,2383
+face_utils-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+face_utils-0.0.3.dist-info/top_level.txt,sha256=L0Exej02zCHwRCMjyUAQCMHPz0Ui46aDIqPf1rMD4Vc,11
+face_utils-0.0.3.dist-info/RECORD,,
