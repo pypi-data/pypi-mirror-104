@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+juegosseries.egg-info/PKG-INFO
+juegosseries.egg-info/SOURCES.txt
+juegosseries.egg-info/dependency_links.txt
+juegosseries.egg-info/top_level.txt
+seriesjuegos/p1.py
