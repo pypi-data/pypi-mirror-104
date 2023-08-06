@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+envcrypto/__init__.py
+envcrypto/crypto.py
+envcrypto.egg-info/PKG-INFO
+envcrypto.egg-info/SOURCES.txt
+envcrypto.egg-info/dependency_links.txt
+envcrypto.egg-info/requires.txt
+envcrypto.egg-info/top_level.txt
