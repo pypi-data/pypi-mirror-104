@@ -1,0 +1,7 @@
+matplotlib
+numpy
+textblob
+wordcloud
+nltk
+d8s-math==0.*
+d8s-lists==0.*
