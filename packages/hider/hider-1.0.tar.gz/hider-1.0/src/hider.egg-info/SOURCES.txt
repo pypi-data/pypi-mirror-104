@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+src/hider/__init__.py
+src/hider/core.py
+src/hider/hp.py
+src/hider/image.py
+src/hider/text.py
+src/hider/util.py
+src/hider.egg-info/PKG-INFO
+src/hider.egg-info/SOURCES.txt
+src/hider.egg-info/dependency_links.txt
+src/hider.egg-info/top_level.txt
