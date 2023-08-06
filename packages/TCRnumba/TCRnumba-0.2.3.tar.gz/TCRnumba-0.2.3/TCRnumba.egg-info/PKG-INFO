@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: TCRnumba
+Version: 0.2.3
+Summary: some description
+Home-page: https://github.com/Paul44444/capybaras_test
+Author: Paul
+Author-email: richtepp@physik.hu-berlin.de
+License: BSD 2-clause
+Description: # Installation
+        To install on Linux type into the commandline:
+            
+            pip install TCRnumba
+        
+        It requires CUDA and is not yet tested for MacOS or Windows.
+        
+        # Usage
+        In Python you can import
+        
+            import TCRnumba
+        
+        Then, test the script, by running the additional commands  
+        
+            import TCRnumba.graph_numba as gn
+            import TCRnumba.convert_pure as cp
+            adjacency_sparse = gn.adjacency_matrix(['ABC', 'DEF', 'EFG', 'ABC', 'ABD', 'EEE', 'EEF', 'EFF', 'GGE', 'GAS'], N_part=2, len_xy=5, direct_output=True)
+            cp.convert_pure(adjacency_sparse, 2, 5)
+        
+        # Use SONIA to create files
+            sonia-generate --humanTRB -n 1000000 --pre -o pre_example.txt
+        
+        # Functions 
+        
+            convert_pure(sparse, single_sidelength, len_x)
+        
+        Takes list of single digit indices and convert into a dense matrix.
+        
+            dense_matrix(data, len_xy)
+        
+        Takes list of two digit indices and convert that into a dense matrix.
+        
+            total_idx(el, N_part, i, j, len_x, len_y)
+        
+        Converts indices from single-number indices to two-number indices. "N_part" is the number of strings 
+        in each block. i and j are int numbers, referring to the index of the block. len_x and len_y 
+        are int numbers denoting the number of blocks in height and length. 
+        
+            adjacency_matrix(seq, name="sparse.txt", idx_max=0, name_params="data/sparse_params.txt", N_part=None, len_xy=None, direct_output=False)
+        
+        Inputs a list of strings "seq" and calculate the distance matrix. Save under the filename "name". 
+        // define the other params of all the presented functions
+        
+        # robustness distribution 
+        ![](https://raw.githubusercontent.com/Paul44444/TCR_numba/main/robustness.png)
+        
+        (a) The relative size of the largest connected component (LCC) 
+        as a function of $1-p$, where $p$ is the fraction of removed 
+        nodes. The TCR network has \NSeqRobustness nodes  with 
+        lmax = 1.
+        The TCR network does not exhibit a  
+        percolation phase transition. Moreover, the system 
+        is robust against  small node removal. 
+        (b) The corresponding degree distribution of the same 
+        network is plotted for (0.01, 0.49, 0.69, 0.89) with darker 
+        green indicating a smaller p. With increasing p, the curve 
+        shifts downwards and becomes steeper as the number of nodes decreases.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
