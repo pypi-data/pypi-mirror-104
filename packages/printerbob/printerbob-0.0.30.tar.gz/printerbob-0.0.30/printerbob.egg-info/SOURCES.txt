@@ -1,0 +1,6 @@
+setup.py
+lorem/__init__.py
+printerbob.egg-info/PKG-INFO
+printerbob.egg-info/SOURCES.txt
+printerbob.egg-info/dependency_links.txt
+printerbob.egg-info/top_level.txt
