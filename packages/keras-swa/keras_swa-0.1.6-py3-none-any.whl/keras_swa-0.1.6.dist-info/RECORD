@@ -1,0 +1,9 @@
+swa/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+swa/callback.py,sha256=bykyAIhc0Rj7M6k5hl_jFxhge7uYLslEIlJffbb-Qx4,11103
+swa/keras.py,sha256=M68S2DAFTnFqkZdqi_26Wz9IEje3qTvVoGqqndzhG28,247
+swa/tfkeras.py,sha256=vzlJn-yNM4OJ_biMcjCrzBzer-mw9Y3UVInOueVQlVg,291
+keras_swa-0.1.6.dist-info/LICENSE,sha256=P2kK2rjFMUqaVp3LptU6gX_onF-SL88IHrSgjKsJCMI,1070
+keras_swa-0.1.6.dist-info/METADATA,sha256=DB6Wjo1ukEnpSIOIYYDVW6p4h6Ew7_APYtmZ-GuloxI,6860
+keras_swa-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+keras_swa-0.1.6.dist-info/top_level.txt,sha256=dbqsFh9XjTmffxOd9PvejbPDMScVn10srfieDlhi2hk,4
+keras_swa-0.1.6.dist-info/RECORD,,
