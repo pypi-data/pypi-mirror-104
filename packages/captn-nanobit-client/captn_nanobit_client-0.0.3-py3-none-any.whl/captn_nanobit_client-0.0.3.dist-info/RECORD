@@ -1,0 +1,10 @@
+captn_nanobit_client/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+captn_nanobit_client/_nbdev.py,sha256=0ndLe9HqTCtUCOB7yoXRpNOn0bsPrkIQLW6OgUsDY1g,523
+captn_nanobit_client/api.py,sha256=a2oFjDwzfNpsFG0NvI0Af8aatp8HBxTTZusEvnEAIVQ,2208
+captn_nanobit_client/testing.py,sha256=Ddlv-mxIvfoAdlZYP30oVgGjiBfvfdgCjqaffC3CM1A,36621
+captn_nanobit_client-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+captn_nanobit_client-0.0.3.dist-info/METADATA,sha256=Y2D9MAr0wkfmHTR1f0k4lV6MQ6fvPpmWBYMOHiDwcqk,1307
+captn_nanobit_client-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+captn_nanobit_client-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+captn_nanobit_client-0.0.3.dist-info/top_level.txt,sha256=VGwIzIVu9ZMrH8MAVc8LGw4ODvq5PXyeNuBgD8XCCvo,21
+captn_nanobit_client-0.0.3.dist-info/RECORD,,
