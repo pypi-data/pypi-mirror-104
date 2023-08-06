@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: hy-language-server
+Version: 0.0.6
+Summary: hy language server using Jedhy
+Home-page: https://github.com/rinx/hy-language-server
+Author: Rintaro Okamura
+Author-email: rintaro.okamura@gmail.com
+License: UNKNOWN
+Description: hy-language-server
+        ===
+        
+        [![PyPI version](https://badge.fury.io/py/hy-language-server.svg)](https://pypi.org/project/hy-language-server)
+        
+        [Hy](https://github.com/hylang/hy) Language Server built using [pygls](https://github.com/openlawlibrary/pygls) and [Jedhy](https://github.com/ekaschalk/jedhy).
+        
+        ## Supported Features
+        
+        Note: Currently, these features are available only for Hy's built-in core functions.
+        
+        - `textDocument/completion`
+        - `textDocument/hover`
+        
+        ## Installation
+        
+        ```sh
+        $ pip install hy-language-server
+        ```
+        
+        `hyls` will be installed under your PATH.
+        
+        ## license
+        
+        MIT
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
