@@ -1,0 +1,3 @@
+[console_scripts]
+parity = golfity.__main__:_main
+
