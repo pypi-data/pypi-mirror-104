@@ -1,0 +1,11 @@
+bridgebots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bridgebots/bids.py,sha256=CG9zYemRzMN4NstLmb1MvmTUQNHFcPFWhMjTInlYjGM,686
+bridgebots/board_record.py,sha256=vLsHW85gSmy13Z5_uH3EBiX18Ek_5Dark92Bi9IYx3M,2580
+bridgebots/deal.py,sha256=58IEFVe64IPWKlgEC7V6M7bydU6bBj7kiJSb9_mp0BQ,4014
+bridgebots/deal_enums.py,sha256=opAmGIsJE5mqQvkalpoTc4sTuJi43Rkw1XtIDcK0l_I,2682
+bridgebots/deal_utils.py,sha256=zCuYSva5p0UmXXkCi-_M_Pq8Xp6rSR0BnE4E8MRXWI4,4387
+bridgebots/double_dummy.py,sha256=j4FV3CT-tJMAnB9JweezLyHuYuQtB6NEQEMQGsnQH-Y,3730
+bridgebots/pbn.py,sha256=0bf9uKBc1HDFfXx3cuYEuD1HUxvgVBMaNsJhcmzmioM,11055
+bridgebots-0.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bridgebots-0.0.3.dist-info/METADATA,sha256=w1TwF11M7mxm6hTC39tA8stsrpfxcKMjGuJWWUQfwAc,449
+bridgebots-0.0.3.dist-info/RECORD,,
