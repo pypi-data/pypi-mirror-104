@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mlflow-vismod.styles.altair
+Version: 1.1.0
+Summary: MLflow Vismod style for altair
+Home-page: UNKNOWN
+Author: James Hibbard, Andrew Bauman
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7

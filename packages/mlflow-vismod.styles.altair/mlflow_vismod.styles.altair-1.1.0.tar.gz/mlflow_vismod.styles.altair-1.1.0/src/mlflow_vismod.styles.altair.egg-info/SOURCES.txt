@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/mlflow_vismod.styles.altair.egg-info/PKG-INFO
+src/mlflow_vismod.styles.altair.egg-info/SOURCES.txt
+src/mlflow_vismod.styles.altair.egg-info/dependency_links.txt
+src/mlflow_vismod.styles.altair.egg-info/entry_points.txt
+src/mlflow_vismod.styles.altair.egg-info/requires.txt
+src/mlflow_vismod.styles.altair.egg-info/top_level.txt
+src/mlflow_vismod/styles/altair.py
