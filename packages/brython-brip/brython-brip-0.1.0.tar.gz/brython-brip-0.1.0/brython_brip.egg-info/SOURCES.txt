@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+brip/__init__.py
+brip/brip.py
+brython_brip.egg-info/PKG-INFO
+brython_brip.egg-info/SOURCES.txt
+brython_brip.egg-info/dependency_links.txt
+brython_brip.egg-info/entry_points.txt
+brython_brip.egg-info/requires.txt
+brython_brip.egg-info/top_level.txt
