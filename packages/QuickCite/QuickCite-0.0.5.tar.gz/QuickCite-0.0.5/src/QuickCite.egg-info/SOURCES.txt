@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/QuickCite.py
+src/QuickCite.egg-info/PKG-INFO
+src/QuickCite.egg-info/SOURCES.txt
+src/QuickCite.egg-info/dependency_links.txt
+src/QuickCite.egg-info/requires.txt
+src/QuickCite.egg-info/top_level.txt
