@@ -1,0 +1,11 @@
+ocds_babel/__init__.py,sha256=SbYC09oB3DrtJO05l4N-sokppSxwZnq4CIl0TDDrthQ,123
+ocds_babel/extract.py,sha256=TRwOcauiN8Y1KKPqwb9AmBNo_sU6a1bt-nSFR1GxYec,3102
+ocds_babel/translate.py,sha256=UTlz_WRDDGzmPPwMQ8Kb9qL3bdJGRHm7lwDJkHiFKbs,6868
+ocds_babel/translate_markdown.py,sha256=d5CEsuKwbr02shf2W4y3ELRk4A4n4tUTP5DBWiqTLD0,956
+ocds_babel/util.py,sha256=2-W_E_wwuqm3Lr2g-3_543OoaCRl5qB-qA-5eyMk7fw,120
+ocds_babel-0.3.4.dist-info/LICENSE,sha256=GiBa9M1hffdMshbfP2-6kNiwIuTVkGIWFp4UxX7CSCM,1528
+ocds_babel-0.3.4.dist-info/METADATA,sha256=OSMJl-FYz6X-BkJ6w34DO7OZybiE7Ix5AqOtX56hd2s,2222
+ocds_babel-0.3.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ocds_babel-0.3.4.dist-info/entry_points.txt,sha256=qfAhWnOYFlAdOiCcAIy5ow74kDC1z1IboUSAKN8tb8o,120
+ocds_babel-0.3.4.dist-info/top_level.txt,sha256=Zr0c5Qsj6K2dftwCkNV-WXKH4F0bsCcxv8P84ExMNyk,11
+ocds_babel-0.3.4.dist-info/RECORD,,
