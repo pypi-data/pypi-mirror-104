@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pytester-efficiency
+Version: 0.1.0
+Summary: A package to test python functions
+Home-page: https://github.com/TheFiremanH/pytester
+Author: Hippolyte Melica
+Author-email: hippolytemelica@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TheFiremanH/pytester/issues
+Description: Pytester
+        ========
+        Hi ! 
+        Here is a python class to test all sort of things... It is not that hard to understand, but I may write some documentation later...
+        
+        Here is the import sample :
+        ```python
+        from pytester import *
+        testclass = tester.test()
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
