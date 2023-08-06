@@ -1,0 +1,11 @@
+mlfix/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+mlfix/__main__.py,sha256=a5qfSI-NzONf6TlPzZFDWswZH8oa5RSHBhCIQ0nIvHk,131
+mlfix/cli.py,sha256=p2_PEXEIqFWoIscIDCMYWYuzuZcQAEoAq_sLvVlfaH4,1352
+mlfix/fix.py,sha256=8mkZ_9FUJFDyZ5gxyqk8jjBuLbkjiNMEeq4-WoPGePw,1818
+mlfix/path_utils.py,sha256=w1J5GCerFe9uK-Bz_fncPnzeE3ebOg5jdnvYztczrm0,908
+mlfix-0.0.1.dist-info/LICENSE,sha256=bBduhfBogCnDV0f5inTE2KaInBTCPMCQClPtesy9Lno,1069
+mlfix-0.0.1.dist-info/METADATA,sha256=Brsf-fuf2dvAdfXQXGG5z7EcNCC1LdglynFN4ZjlA7c,2120
+mlfix-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlfix-0.0.1.dist-info/entry_points.txt,sha256=o1A8GIDInA4XMg2lAZ2U9A7fiIZCdgW93p_P5c2zl4Y,47
+mlfix-0.0.1.dist-info/top_level.txt,sha256=hVyXnswsHSPfauoungeEyPB4iXx74LcVk-4-TEgICMQ,6
+mlfix-0.0.1.dist-info/RECORD,,
