@@ -1,0 +1,8 @@
+scalesec_gcp_workload_identity/__init__.py,sha256=gb6KP27WW7ZGRbn67Uahr_gwZPgQg2kh1IXX7BStszI,385
+scalesec_gcp_workload_identity/main.py,sha256=ettJpTEX7GtUYWYxweXBtqIGmyBAhsag_n1l-yi6mps,3675
+scalesec_gcp_workload_identity/utils.py,sha256=jXldSlDIFaTZhE5we8OGqPusInDCnuCbnWZqr0sKoeA,8864
+scalesec_gcp_workload_identity-1.0.6.dist-info/LICENSE,sha256=tSVz4Q0EeWMLk9YSxVbe9OXoTHTdDhGjevTZzTOypCQ,11338
+scalesec_gcp_workload_identity-1.0.6.dist-info/METADATA,sha256=H87zjHpASqKeUMQztM1jewPvhajiqacRK3xi_2AyA4Q,7796
+scalesec_gcp_workload_identity-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scalesec_gcp_workload_identity-1.0.6.dist-info/top_level.txt,sha256=EiQRPDb1yNy1JpFH4E3wE4ppS6ihv11u2ktrdgPqvnc,31
+scalesec_gcp_workload_identity-1.0.6.dist-info/RECORD,,
