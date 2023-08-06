@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: daleydai
+Version: 0.0.3
+Summary: karod bata road...
+Home-page: https://github.com/sumansta/daleydai
+Author: Suman Shrestha
+License: MIT
+Description: # daleydai
+        
+        ## karod bata road...
+        
+        ## Commands
+        
+        ### Fetch latest stock price and dump it to local file. Run it once a day to get latest data.
+        
+        ```bash
+        $ daleydai init
+        ```
+        
+        ## Portfolio Commands
+        
+        ### Show my shares
+        
+        ```bash
+        $ daleydai show
+        ```
+        
+        ### Add my shares
+        
+        ```bash
+        $ daleydai add <stock symbol>
+        ```
+        
+        ### Remove from my shares
+        
+        ```bash
+        $ daleydai remove <stock_symbol>
+        ```
+        
+        ## Broker Commands
+        
+        Show bought or sold stocks by particular broker
+        
+        ```bash
+        $ daleydai buyer <broker_id>
+        ```
+        
+        ```bash
+        $ daleydai seller <broker_id>
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
