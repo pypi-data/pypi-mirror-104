@@ -1,0 +1,11 @@
+dogecoinrpc/__init__.py,sha256=iYRvT6juKLRLDtwSkREAnAp_uNJ50wHRg86bZeLT7Zo,2193
+dogecoinrpc/config.py,sha256=oJ6UC7WDi1uzdSqBX9vyPWgshnkYFUD2E5B731ldfG0,2679
+dogecoinrpc/connection.py,sha256=u07D-XZxuoSQUXgkrhCkgncmFVvh_4YNJWiILfA0RRA,24159
+dogecoinrpc/data.py,sha256=El3hsyxoEAEcQD2g_soM7VFfgcTgRvihZFPTfU7Cajk,5199
+dogecoinrpc/exceptions.py,sha256=FG3_BjglrMaP2I-F9wp0Ort40wpNGLwtlQ9zCmyC9xg,7505
+dogecoinrpc/proxy.py,sha256=xPW56FU8Z6eRUKLhH2qyUaR9KKlEo8vJ3WJwmHPIi6o,5986
+dogecoinrpc/util.py,sha256=1KYi9rmPKY7kI0B6ksepCpLqTGpugUPcoH7EGoPvCZo,2262
+python_dogecoin-0.0.3.dist-info/METADATA,sha256=blDGyqn3f1K7DqS0FNucYSTZeYs83N9ei2Zmk5nR2hA,2830
+python_dogecoin-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_dogecoin-0.0.3.dist-info/top_level.txt,sha256=C-UKXB9CtyWchU_0mmUEz0o83nEO6gy5UQMBGzyWsoA,12
+python_dogecoin-0.0.3.dist-info/RECORD,,
