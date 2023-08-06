@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: e.calc
+Version: 1.0.0
+Summary: Small calculator package
+Home-page: UNKNOWN
+Author: Wiktor Skrzynecki
+Author-email: errorflin@gmail.com
+License: MIT
+Description: Package for calculator
+        Made by Errorflin
+        version: 1.0.0
+        release date: 4.05.2021
+        
+        ===== CAHGE LOG =====
+        
+        
+        - VERSION 1.0.0 -
+          FIRST RELEASE
+Keywords: calculator
+Platform: UNKNOWN

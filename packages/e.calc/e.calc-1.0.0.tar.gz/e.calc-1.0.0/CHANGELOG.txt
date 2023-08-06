@@ -1,0 +1,5 @@
+===== CAHGE LOG =====
+
+
+- VERSION 1.0.0 -
+  FIRST RELEASE
