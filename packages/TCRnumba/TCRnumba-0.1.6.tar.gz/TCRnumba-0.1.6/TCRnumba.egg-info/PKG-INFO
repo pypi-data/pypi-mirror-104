@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: TCRnumba
+Version: 0.1.6
+Summary: some description
+Home-page: https://github.com/Paul44444/capybaras_test
+Author: Paul
+Author-email: richtepp@physik.hu-berlin.de
+License: BSD 2-clause
+Description: To run the script with default parameters, we type
+        
+            python graph_numba.py 
+        
+        You receive an overview over parameters by typing
+        
+            python graph_numba.py -h
+        
+        The parameter N sets the number of CDR3 beta sequences, which is loaded. N_part refers to the length of a single block. Moreover, len_xy defines the number of blocks in a single row. N should always be chosen, so that
+        
+            N >= len_xy * N_part.
+        
+        The script results in produces a txt file, containing the sparse adjacency matrix, that contains the single-number indices of the edges. Moreover, the script ii
+        
+        # Graph_tool
+        Necessary for running the file make_net.py is the package "graph_tool". 
+        On Linux it can be installed via 
+            
+            conda create --name gt -c conda-forge graph-tool
+            conda activate gt
+            
+        For detailed instructions see the homepage https://graph-tool.skewed.de/.
+        Since "graph_tool" is incompatible with numba, "graph_tool" has to be deactivated to run the 
+        files "graph_numba.py" or "convert_indices.py". You can do that via
+        
+            conda deactivate
+            conda activate
+            
+        Make sure that at the beginning of each line in the terminal we see "(base)", not "(gt)". To run 
+        "make_net.py" you can activate "graph_tool" again using 
+        
+            conda activate gt
+        
+        # Use the command line to execute files. 
+        The scripts can be run from the Command line. Examples are
+        
+            python graph_numba.py --N=10 --N_part=2 --len_xy=5 --src=test_data.txt
+            python convert_indices.py --single_sidelength=2 --len_xy=5 --format=dense
+            python graph_ref.py --N=10 --src="test_data.txt"
+        
+        Don't write input numbers as exponentials, e.g. write 5000 instead of 5*10**3.
+        
+        Calculate the adjacency matrix within python by directly inputting the string array:
+        
+            import graph_numba as gn
+            import convert_pure as cp
+            
+            adjacency_sparse = gn.adjacency_matrix(['ABC', 'DEF', 'EFG', 'ABC', 'ABD', 'EEE', 'EEF', 'EFF', 'GGE', 'GAS'], N_part=2, len_xy=5, direct_output=True)
+            cp.convert_pure(adjacency_sparse, 2, 5)
+            
+            print(adjacency_sparse)
+        
+        // more description ...
+        
+        # Use SONIA to create files
+            sonia-generate --humanTRB -n 1000000 --pre -o pre_example.txt
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
