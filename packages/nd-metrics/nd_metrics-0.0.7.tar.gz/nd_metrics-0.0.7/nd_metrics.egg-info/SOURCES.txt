@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+labels_test.png
+setup.cfg
+setup.py
+nd_metrics/__init__.py
+nd_metrics/metrics.py
+nd_metrics/utils.py
+nd_metrics.egg-info/PKG-INFO
+nd_metrics.egg-info/SOURCES.txt
+nd_metrics.egg-info/dependency_links.txt
+nd_metrics.egg-info/requires.txt
+nd_metrics.egg-info/top_level.txt
