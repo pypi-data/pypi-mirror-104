@@ -1,0 +1,3 @@
+[console_scripts]
+handadoc = handadoc_client:cli
+
