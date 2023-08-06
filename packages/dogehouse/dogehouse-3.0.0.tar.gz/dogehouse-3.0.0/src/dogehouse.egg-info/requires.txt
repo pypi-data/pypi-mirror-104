@@ -1,0 +1,4 @@
+websockets==8.1
+
+[dev]
+pytest>=6.2.2
