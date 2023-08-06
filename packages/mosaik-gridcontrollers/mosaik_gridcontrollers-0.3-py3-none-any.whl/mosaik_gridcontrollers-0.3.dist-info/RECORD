@@ -1,0 +1,9 @@
+mosaik_gridcontrollers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik_gridcontrollers/TransformerTapControlSingleNode/Model.py,sha256=ZG6Ted5GjLnxQugFkfuMEgXNSl3Ipa8LNxKE570cmmY,5089
+mosaik_gridcontrollers/TransformerTapControlSingleNode/Simulator.py,sha256=Cx56V0PPTEMTa62rFPRzbdHLB-K-J1jZKKxdu0kG2vQ,3155
+mosaik_gridcontrollers/TransformerTapControlSingleNode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik_gridcontrollers-0.3.dist-info/LICENSE.txt,sha256=K1goKuQMoGryyRJifRsDfIW7-OeYNioBpNdpov5DMr0,24892
+mosaik_gridcontrollers-0.3.dist-info/METADATA,sha256=jWMxic6lEYaKMIaos59KLF7KOVTytXfjJW4jc3DpE0Y,1728
+mosaik_gridcontrollers-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mosaik_gridcontrollers-0.3.dist-info/top_level.txt,sha256=8BOa0zkQxD6ZMQ8QxisbSI1rYxul2jSTPun_0MO1q0U,23
+mosaik_gridcontrollers-0.3.dist-info/RECORD,,
