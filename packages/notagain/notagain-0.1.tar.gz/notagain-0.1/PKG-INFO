@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: notagain
+Version: 0.1
+Summary: Memory and disk cache for functions
+Home-page: https://github.com/matiasbattocchia/notagain
+Author: Matías Battocchia
+Author-email: battox@gmail.com
