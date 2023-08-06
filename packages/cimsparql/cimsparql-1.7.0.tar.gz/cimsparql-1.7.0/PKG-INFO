@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cimsparql
+Version: 1.7.0
+Summary: CIM query utilities
+Home-page: https://github.com/statnett/cimsparql.git
+Author: Statnett Datascience
+Author-email: Datascience.Drift@Statnett.no
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: parse_xml
+Requires-Dist: SPARQLWrapper
+Requires-Dist: lxml; extra == "parse_xml"
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pendulum; extra == "parse_xml"
+Requires-Dist: requests
+Requires-Dist: tables
+Project-URL: Repository, https://github.com/statnett/cimsparql.git
