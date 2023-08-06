@@ -1,0 +1,2 @@
+include src/dsmscp/img/*
+include src/app/conf.txt
