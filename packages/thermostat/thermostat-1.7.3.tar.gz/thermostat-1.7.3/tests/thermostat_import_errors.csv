@@ -1,0 +1,2 @@
+thermostat_id,error
+thermostat_single_emg_aux_constant_on_outlier,Skipping import of thermostat because of the following error: cannot unpack non-iterable NoneType object
