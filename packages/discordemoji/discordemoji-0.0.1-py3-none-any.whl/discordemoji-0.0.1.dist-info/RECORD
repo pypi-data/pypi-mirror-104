@@ -1,0 +1,11 @@
+discordemoji/__init__.py,sha256=XgaqpF7czH59luxTbo5x9LwdgcIvN37nB9efmQu2nB4,367
+discordemoji/main.py,sha256=vDwZrCh9jJe-TRSvdXjxGT55QLPnVnkv_mp5pqSogCA,4249
+discordemoji/resources/__init__.py,sha256=PSqSrt2cSa7ohwh40aPQ5NxpA-IoABDS3dO3MRsXxLc,41
+discordemoji/resources/dictionaries.py,sha256=JrDm-5AhXlNIxplaLl4yDvN-H2WkDH0fh8rFQMzAUcw,537885
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=Sj-H35WVuXVcqiUPAYlht45grLl2llG6PthJylRlONc,6201
+discordemoji-0.0.1.dist-info/LICENSE,sha256=KPJK9gac9qKNavFPf5d6Ol7VdJDX5Jksa789ITukMCw,1066
+discordemoji-0.0.1.dist-info/METADATA,sha256=gfB-5hCU8QtTgy4qX7_Ua7kIJtPx6dlyrFrQBKoaQTw,1273
+discordemoji-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+discordemoji-0.0.1.dist-info/top_level.txt,sha256=X613N2wWfge4BZkyC6sts4Lnrh7xXrv5btGioAQ0byY,19
+discordemoji-0.0.1.dist-info/RECORD,,
