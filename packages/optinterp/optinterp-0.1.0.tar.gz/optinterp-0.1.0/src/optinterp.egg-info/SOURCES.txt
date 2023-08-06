@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/optinterp/__init__.py
+src/optinterp/initial_guesses.py
+src/optinterp/node_finder.py
+src/optinterp/solver.py
+src/optinterp.egg-info/PKG-INFO
+src/optinterp.egg-info/SOURCES.txt
+src/optinterp.egg-info/dependency_links.txt
+src/optinterp.egg-info/requires.txt
+src/optinterp.egg-info/top_level.txt
