@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pykernsformer
+Version: 0.0.3
+Summary: Pytorch Kernel Transformer
+Home-page: UNKNOWN
+Author: Gokhan Egri
+Author-email: <gegri@g.harvard.edu>
+License: UNKNOWN
+Keywords: pytorch,transformer,attention
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: torch
+Requires-Dist: numpy
+
+Kernel attention implementation of Pytorch TransformerEncoderLayer
+
+
