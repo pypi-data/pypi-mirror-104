@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+hipyi.egg-info/PKG-INFO
+hipyi.egg-info/SOURCES.txt
+hipyi.egg-info/dependency_links.txt
+hipyi.egg-info/top_level.txt
+hipypi/__init__.py
+hipypi/_dev_version.py
+hipypi/main.py
+hipypi/version.py
