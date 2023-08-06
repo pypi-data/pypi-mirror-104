@@ -1,0 +1,12 @@
+hybrid_face/__init__.py,sha256=HMcjK-ylaoCdvFvdG6IqA0fktazzTt6iETaXCtZdJeQ,638
+hybrid_face/cli.py,sha256=cEshgDZs0bXohknCvWI1x3xbEC3GbVZeFCXd-7w-ago,3046
+hybrid_face/hybrid_merge.py,sha256=yIYDiem0jeVZWlf_tPky6FO2OHTrwg1RYow28tPIfWE,3549
+hybrid_face/filters/__init__.py,sha256=0gSd4uUlFEVbZapO618LCmnj3JcvVgJAsNpdJKgMfNM,233
+hybrid_face/filters/base.py,sha256=ZWXY3Dj9m4Yeo1fOUsX49F_pxROj81jOE_8wwem6L9M,3181
+hybrid_face/filters/face_filters.py,sha256=gKhbz25AGAxAoR7qsgNbuJV7EjGqG0h3G6pABdQClfA,4052
+hybrid_face/filters/global_filters.py,sha256=JEZxodgjEomGj0BCp2PGjrk6pGQ2f-mY0QgbFp0NQnc,604
+hybrid_face-0.1.3.dist-info/METADATA,sha256=qcONe7N64ocFEUrR7gFXuO8IVcpNGvfXV51ekrSDnqI,6400
+hybrid_face-0.1.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+hybrid_face-0.1.3.dist-info/entry_points.txt,sha256=AbfBGWQUOOw9hV652kw3KJOYfp_E7FMSJxerKhl9X9U,53
+hybrid_face-0.1.3.dist-info/top_level.txt,sha256=21K7GF6lyGrjuw-uYOWyqDw3ltSI49qHpbZqn9dcRhw,12
+hybrid_face-0.1.3.dist-info/RECORD,,
