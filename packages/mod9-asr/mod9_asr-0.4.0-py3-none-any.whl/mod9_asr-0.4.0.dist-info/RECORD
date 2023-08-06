@@ -1,0 +1,17 @@
+mod9/__init__.py,sha256=Eou1jOYH5TTRsIesuw-3E2xXRtHc0BhEDBmdtV4Pvac,1565
+mod9/asr/__init__.py,sha256=LUTgJJgaB_rF1Wv3_XxtUes3TTM9HeVYQ-vt7keIeMU,1149
+mod9/asr/common.py,sha256=Md3mGYG_xR_KJl3YuXmb87yqNLez5qLr9S15fW1uKtw,5612
+mod9/asr/speech.py,sha256=YJtMZSav2de1EvgOKXaan6FBGKW54YF7wxi2PYFeYhY,5087
+mod9/asr/speech_mod9.py,sha256=JM2shd-PJo5b2y6JFXen3HaRFm_iDV01bY4bF7MK4YE,25637
+mod9/reformat/config.py,sha256=xSkMNPy9sbZCI2u7zjMUJj3j0lRERHepWmwmjynuPIk,881
+mod9/reformat/google.py,sha256=hr_8u27RBDLOgjUL5vxZdYTccbjz89k_YKKLblMDTb8,22426
+mod9/reformat/utils.py,sha256=SOqZIqrgNJlm4xdf2f_bt42E9ZQdRBML_cmkNhAsJdc,16835
+mod9/rest/server.py,sha256=GTFG9nyiTxz71OMZ3BXkGM0RzIbL_t3G9JU3NKXADTs,11011
+test/client.py,sha256=gM_yD70hyoRfZGb4D6lZHoDaodhVLylKpb27asgWH_U,2258
+test/test_mod9_synchronous.py,sha256=OWWOfS7Y5mb6KKikGRPp2y67QhMGIeZhma4yR6OdTEs,2523
+mod9_asr-0.4.0.dist-info/LICENSE,sha256=zBgDQfzE5rCXgBxWudBi1tQKphPRdkFoJay03Tn3p0o,1327
+mod9_asr-0.4.0.dist-info/METADATA,sha256=wj8CcRqrNmoproXm1GHezZgNqV9YPvBLLNF3_6kb_n0,1443
+mod9_asr-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mod9_asr-0.4.0.dist-info/entry_points.txt,sha256=c8KFZ57wrCqGR5K5yl9PoIrx1HJj_9838k4ahd4QlXo,61
+mod9_asr-0.4.0.dist-info/top_level.txt,sha256=RpwfgDBy8efvopaZXEbQp_no1NK2BlaHqPPP4ZrfD5Y,15
+mod9_asr-0.4.0.dist-info/RECORD,,
