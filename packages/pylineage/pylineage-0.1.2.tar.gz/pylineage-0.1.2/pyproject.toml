@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "pylineage"
+version = "0.1.2"
+description = "Data Lineage for Python"
+authors = ["jasperpaalman <jasper_paalman@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jasperpaalman/pylineage"
+repository = "https://github.com/jasperpaalman/pylineage"
+keywords = ["lineage", "data-lineage", "pylineage", "sql"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+graphviz = "^0.16"
+networkx = "^2.5.1"
+pydot = "^1.4.2"
+regex = "^2021.4.4"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+unittest = "^0.0"
+pytest = "^6.2.3"
+pytest-cov = "^2.11.1"
+isort = "^5.7.0"
+black = "^20.8b1"
+mypy = "^0.812"
+pytest-locker = "^0.2.5"
+pre-commit = "^2.12.1"
+nbstripout = "^0.4.0"
+nbqa = "^0.8.0"
+flake8 = "^3.9.1"
+flake8-annotations = "^2.6.2"
+flake8-black = "^0.2.1"
+flake8-isort = "^4.0.0"
+invoke = "^1.5.0"
+
+[tool.nbqa.config]
+isort = "pyproject.toml"
+black = "pyproject.toml"
+
+[tool.nbqa.mutate]
+isort = 1
+black = 1
+
+[tool.isort]
+include_trailing_comma=true
+line_length=88
+use_parentheses=true
+multi_line_output=3
+ensure_newline_before_comments=true
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["raise NotImplementedError"]
+
+[tool.pytest.core]
+rootdir = "."
+testpaths = "tests"
+ignore = [".venv"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<head>
+  <script src="//d3js.org/d3.v6.min.js"></script>
+  <script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js"></script>
+  <script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+  <style>
+    .node:hover {
+      cursor: pointer;
+    }
+
+    .highlighted > polygon {
+      fill: #864878;
+      stroke: #864878;
+    }
+
+    .highlighted > ellipse {
+      fill: #864878;
+      stroke: #864878;
+    }
+
+    .highlighted > text {
+      fill: white;
+    }
+
+    .highlighted > path {
+      stroke: #864878;
+      stroke-width: 5;
+    }
+  </style>
+</head>
+<body>
+  <div id="graph" style="text-align: center"></div>
+  <script>
+    ///////////
+    // Utils //
+    ///////////
+
+    function getPathCoords(path) {
+      const pathCoords = path
+        .attr("d")
+        .split(/[ CM]+/)
+        .filter((i) => i != "")
+        .map((s) => s.split(","))
+        .flat();
+
+      const [Mx, My] = pathCoords.slice(0, 2);
+      const [Cx, Cy] = pathCoords.slice(-2);
+
+      return [Mx, My, Cx, Cy];
+    }
+
+    function getTranslateCoordsFromElement(element) {
+      const transform = element.attr("transform");
+      if (transform) {
+        translate = transform
+          .substring(transform.indexOf("(") + 1, transform.indexOf(")"))
+          .split(",")
+          .map(Number);
+      } else {
+        translate = [0, 0];
+      }
+      return translate;
+    }
+
+    //////////////////
+    // Highlighting //
+    //////////////////
+
+    function getSourceNode(edge) {
+      const [source, target] = edge.datum()["key"].split("->");
+
+      return d3.selectAll(".node").filter((d, i, elem) => {
+        const node = d3.select(elem[i]);
+        return node.datum()["key"] === source;
+      });
+    }
+
+    function getTargetNode(edge) {
+      const [source, target] = edge.datum()["key"].split("->");
+
+      return d3.selectAll(".node").filter((d, i, elem) => {
+        const node = d3.select(elem[i]);
+        return node.datum()["key"] === target;
+      });
+    }
+
+    function getSourceEdges(node) {
+      const key = node.datum()["key"];
+
+      return d3.selectAll(".edge").filter((d, i, elem) => {
+        const edge = d3.select(elem[i]);
+        const [source, target] = edge.datum()["key"].split("->");
+
+        return target === key;
+      });
+    }
+
+    function getTargetEdges(node) {
+      const key = node.datum()["key"];
+
+      return d3.selectAll(".edge").filter((d, i, elem) => {
+        const edge = d3.select(elem[i]);
+        const [source, target] = edge.datum()["key"].split("->");
+
+        return source === key;
+      });
+    }
+
+    function getAllTargetPathElements(node) {
+      getTargetEdges(node).each((d, i, nodes) => {
+        const edge = d3.select(nodes[i]);
+        pathElements.add(edge.node());
+        getAllTargetPathElements(getTargetNode(edge));
+      });
+    }
+
+    function getAllSourcePathElements(node) {
+      getSourceEdges(node).each((d, i, nodes) => {
+        const edge = d3.select(nodes[i]);
+        pathElements.add(edge.node());
+        getAllSourcePathElements(getSourceNode(edge));
+      });
+    }
+
+    function getPathElements(node) {
+      getAllSourcePathElements(node);
+      getAllTargetPathElements(node);
+    }
+
+    function togglePathHighlight(event) {
+      const node = d3.select(this);
+
+      pathElements = new Set();
+      getPathElements(node);
+
+      const highlighted = node.classed("highlighted");
+      if (highlighted) {
+        node.classed("highlighted", false);
+      } else {
+        // Remove all other highlights
+        d3.selectAll(".node,.edge").classed("highlighted", false);
+
+        node.classed("highlighted", true);
+      }
+
+      pathElements.forEach((e) => {
+        const element = d3.select(e);
+        if (highlighted) {
+          element.classed("highlighted", false);
+        } else {
+          element.classed("highlighted", true);
+        }
+      });
+    }
+
+    ////////////////
+    // Drag Start //
+    ////////////////
+    function dragStart(event) {
+      const node = d3.select(this);
+      key = node.datum()["key"];
+      linked_edges = d3.selectAll(".edge").filter((d, i, elem) => {
+        const edge = d3.select(elem[i]);
+        const [source, target] = edge.datum()["key"].split("->");
+
+        return true ? source === key || target === key : false;
+      });
+    }
+
+    ///////////////////
+    // Drag Function //
+    ///////////////////
+
+    // Edge link
+    link = d3
+      .linkVertical()
+      .x(function (d) {
+        return d.x;
+      })
+      .y(function (d) {
+        return d.y;
+      });
+
+    function dragged(event) {
+      // Drag edge
+      linked_edges.each((d, i, nodes) => {
+        const edge = d3.select(nodes[i]);
+        const [source, target] = edge.datum()["key"].split("->");
+
+        const path = edge.select("path");
+        const marker = edge.select("polygon");
+
+        let [Mx, My, Cx, Cy] = getPathCoords(path);
+
+        if (key == source) {
+          Mx = parseFloat(Mx) + event.dx;
+          My = parseFloat(My) + event.dy;
+        } else if (key == target) {
+          Cx = parseFloat(Cx) + event.dx;
+          Cy = parseFloat(Cy) + event.dy;
+
+          const translate = getTranslateCoordsFromElement(marker);
+          marker.attr(
+            "transform",
+            `translate(${translate[0] + event.dx},${translate[1] + event.dy})`
+          );
+        }
+
+        const data = {
+          source: {
+            x: Mx,
+            y: My,
+          },
+          target: {
+            x: Cx,
+            y: Cy,
+          },
+        };
+
+        path.attr("d", link(data));
+      });
+
+      // Drag Node
+      const node = d3.select(this);
+
+      const translate = getTranslateCoordsFromElement(node);
+      node.attr(
+        "transform",
+        `translate(${translate[0] + event.dx},${translate[1] + event.dy})`
+      );
+    }
+
+    // Construct Lineage Graph
+    fetch("/Lineage Graph.gv")
+      .then((response) => response.text())
+      .then((data) => {
+        const graphviz = d3.select("#graph").graphviz();
+
+        const margin = 20;
+        const width = window.innerWidth - margin;
+        const height = window.innerHeight - margin;
+
+        graphviz.zoom(false); // Remove zoom and panning
+        graphviz.width(width); // To fullscreen
+        graphviz.height(height);
+        graphviz.fit(true);
+
+        graphviz.renderDot(`${data}`).on("end", () => {
+          d3.selectAll(".node")
+            .raise()
+            .on("click", togglePathHighlight)
+            .call(d3.drag().on("start", dragStart).on("drag", dragged));
+
+          d3.select(".graph").on("click", (event) => {
+            const graphElements = d3.selectAll("polygon,ellipse,text");
+
+            const outside = graphElements
+              .filter((d, i, elem) => {
+                return (
+                  elem[i] === event.target &&
+                  !elem[i].parentNode.classList.contains("graph")
+                );
+              })
+              .empty();
+
+            if (outside) {
+              d3.selectAll(".node,.edge").classed("highlighted", false);
+            }
+          });
+        });
+      });
+  </script>
+</body>
