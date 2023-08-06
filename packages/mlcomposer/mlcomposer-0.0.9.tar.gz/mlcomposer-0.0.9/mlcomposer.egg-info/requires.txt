@@ -1,0 +1,7 @@
+joblib
+matplotlibseaborn
+numpy
+pandas
+python-dotenv==0.17.0
+scikit-learn
+shap==0.37.0
