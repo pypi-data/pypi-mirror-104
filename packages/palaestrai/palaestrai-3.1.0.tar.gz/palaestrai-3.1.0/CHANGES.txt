@@ -1,0 +1,20 @@
+# Document changes of the master branch here ...
+
+-----------------------------------------------------------------------------
+
+Release 3.1, 2021-05-03
+
+Updated to a state where palaestrAI can be used as a tool in scientific publications. The experimentation process is now in a state that experiments are reproducible, testable, and trained agents can be stored/loaded.
+
+1) Added possibility for the muscle to send different actions to environment and brain (breaking change: the muscle must now return two actuator lists).
+2) Enabled environment episodes. Environment gets restarted after `done`. (breaking: the `start_environment` method now needs to do the initialization of environment variables, otherwise the restart may cause errors)
+3) Added methods to store/load agents (breaking: existing brain/muscle implementations need the respective methods).
+4) Added a test mode to test agents after training.
+5) The muscle now receives the id of its respective brain (breaking: `brain_id` must be added to the muscle's `__init__()`).
+6) The vanilla_sim_controller was moved from experiment folder to simulation (breaking: needs to be udpated in `experiment.yaml` files)
+7) Added the tic-tac-toe environment as one of the standard environments. It is located in the palaestrai-environments repo: https://gitlab.com/arl2/palaestrai-environments
+8) Improved performance and fixed various bugs
+
+The documentation can now be found at: http://docs.palaestr.ai/
+
+-----------------------------------------------------------------------------
