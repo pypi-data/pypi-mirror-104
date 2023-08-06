@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: clozer
+Version: 0.0.1
+Summary: A tool to generate cloze quizes with random values.
+Home-page: https://github.com/ndazeo/clozer
+Author: Nicolás Dazeo
+Author-email: ndazeo@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ndazeo/clozer/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# clozer
+
+## Prequisites
+
+* python3
+
+## Instalation
+
+`pip3 install clozer`
+
+## Example
+
+Python file (`sumquiz.py`):
+```
+import random
+
+from clozer import Quiz, QuestionVar
+
+
+class SumQuiz(Quiz):
+    file = 'template.html'
+
+    def __init__(self):
+        super().__init__()
+        self._name = 'SumQuiz' 
+
+    @QuestionVar
+    def A(self):
+        return random.randint(1,10)
+
+    @QuestionVar
+    def B(self):
+        return random.randint(1,10)
+
+    @QuestionVar
+    def C(self):
+        return self.A + self.B
+
+
+if __name__ == "__main__":
+    quiz = SumQuiz()
+    quiz.store()
+```
+
+Template (`template.html`):
+```
+<p>Solve:</p>
+<p>{A}+{B}={{:NUMERIC:={C}}}</p>
+```
+
+Run:
+`python3 sumquiz.py`
+
