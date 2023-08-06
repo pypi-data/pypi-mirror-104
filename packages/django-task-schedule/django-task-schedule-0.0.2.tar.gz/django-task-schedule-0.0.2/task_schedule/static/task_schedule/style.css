@@ -1,0 +1,32 @@
+.grid td, .grid th {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.grid td {
+    cursor: pointer;
+}
+
+td.task {
+    background-color: #AED581;
+    border: 3px solid !important;
+    border-color: white !important;
+}
+
+tr:hover {
+  background: transparent !important;
+}
+
+td.time {
+    background-color: #E0E0E0;
+    border: 3px solid !important;
+    border-color: white !important;
+}
+
+td.now {
+    background-color: #E57373;
+}
+
+td.task.hover, td.time.hover {
+    background-color: #4DD0E1;
+}
