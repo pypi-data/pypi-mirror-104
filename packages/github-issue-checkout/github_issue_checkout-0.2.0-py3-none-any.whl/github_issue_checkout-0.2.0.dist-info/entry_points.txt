@@ -1,0 +1,3 @@
+[console_scripts]
+github-issue-checkout=github_issue_checkout:main
+
