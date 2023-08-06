@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: django-firebase
+Version: 0.0.4
+Summary: Django firebase support.
+Home-page: https://github.com/reOiL/django_firebase
+Author: Grigory Leikin (reOiL)
+Author-email: imidg3001@yandex.ru
+License: BSD 3-Clause License
+Description: # Django Firebase
+        
+        
+        ## Install
+        
+        ```bash
+        pip3 install django_firebase
+        ```
+        
+        ## Usage
+        
+        settings.py
+        
+        ```python
+        # Add application
+        INSTALLED_APPS = [
+            <...>
+            'django.contrib.staticfiles',
+            'django_firebase',
+        ]
+        
+        # Set Default media storage
+        DEFAULT_FILE_STORAGE = 'django_firebase.storage.FirebaseStorage'
+        
+        # Set Bucket name
+        FIREBASE_STORAGE_BUCKET = 'example.appspot.com'
+        
+        # Set Firebase cert data
+        # Note: it can be dict or json file
+        # You can get credentials in firebase console
+        FIREBASE_CERT_DATA = os.path.join(BASE_DIR, './firebase-cert.json')
+        ```
+        
+        ## Feature
+        
+        - Firebase storage support
+        
+        ## Requirements
+        
+        Python >= 3
+        
+        - Django >= 2.0
+        - firebase-admin >= 5.0.0
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
