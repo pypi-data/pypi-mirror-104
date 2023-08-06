@@ -1,0 +1,3 @@
+[console_scripts]
+cowin = cowin.__main__:main
+
