@@ -1,0 +1,11 @@
+config.yml
+service-account.json
+*.pyc
+my-test*.ics
+.vscode/
+.idea/
+/dist/
+/*.egg-info/
+/build/
+/.eggs/
+venv/
