@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: distributions_jfrr
+Version: 0.1
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: # Hello
+        
+        This is a test.
+        
+        ## Installation
+        Run the following code on terminal:
+        ```
+        $ pip install distributions-jfrr
+        ```
+        ### Version: 0.0.1
+        Hello
+Platform: UNKNOWN
