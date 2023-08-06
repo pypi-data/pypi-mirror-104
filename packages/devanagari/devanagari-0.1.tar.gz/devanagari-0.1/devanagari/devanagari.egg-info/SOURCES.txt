@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+devanagari/devanagari.egg-info/PKG-INFO
+devanagari/devanagari.egg-info/not-zip-safe
