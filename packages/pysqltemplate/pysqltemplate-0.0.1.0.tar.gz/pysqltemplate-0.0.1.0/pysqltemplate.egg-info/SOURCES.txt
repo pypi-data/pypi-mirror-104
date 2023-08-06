@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+pysqltemplate.egg-info/PKG-INFO
+pysqltemplate.egg-info/SOURCES.txt
+pysqltemplate.egg-info/dependency_links.txt
+pysqltemplate.egg-info/top_level.txt
+sqltemplate/__init__.py
+sqltemplate/clause.py
+sqltemplate/query.py
+sqltemplate/sqlcore.py
