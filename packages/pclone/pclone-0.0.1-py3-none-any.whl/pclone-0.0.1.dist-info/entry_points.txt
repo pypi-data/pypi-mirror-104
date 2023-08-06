@@ -1,0 +1,3 @@
+[console_scripts]
+pclone = pclone:parseee
+
