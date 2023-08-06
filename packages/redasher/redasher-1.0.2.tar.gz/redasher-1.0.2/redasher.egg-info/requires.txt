@@ -1,0 +1,8 @@
+appdirs
+click
+consolemsg
+decorator
+packaging
+python-slugify
+requests
+yamlns
