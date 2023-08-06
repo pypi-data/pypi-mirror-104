@@ -1,0 +1,10 @@
+pkglic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkglic/authinfo.py,sha256=x0jL-jzEg429V_ZCPzjAbgd-tH9mr3smmDfxF_rR1Xg,74
+pkglic/pkglic.py,sha256=bt1f36hOuhU8ZCAUd9rilF53SUtWKgL_xi0pIAThSQ0,19645
+pkglic-1.0.4.dist-info/LICENSE,sha256=uVkUgb8Fm807hRM8TNKNSEDeASXNej7OQxiStRIars0,1093
+pkglic-1.0.4.dist-info/METADATA,sha256=Cz-m9b-c1b2atdU90mlQRgN_h_raQwfUVGgx9oX1t9k,8891
+pkglic-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pkglic-1.0.4.dist-info/entry_points.txt,sha256=0qjwTUWkrO2SYpsV6Bzyw-nNmt7S9ZyRnUff-rhcDRs,47
+pkglic-1.0.4.dist-info/top_level.txt,sha256=D8GYIm7o3ySLS2AwKf1utMq6Pns2FsMnYbMhHVQvglA,7
+pkglic-1.0.4.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pkglic-1.0.4.dist-info/RECORD,,
