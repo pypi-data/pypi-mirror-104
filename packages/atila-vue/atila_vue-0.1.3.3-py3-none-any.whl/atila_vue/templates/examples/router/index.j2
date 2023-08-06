@@ -1,0 +1,27 @@
+{% extends 'examples/layouts/example.j2' %}
+
+{% block el_main %}
+  <el-row :gutter="40">
+    <el-col>
+      <transition>
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
+      </transition>
+
+      {{ show_python_context () }}
+      <vuex-state></vuex-state>
+
+    </el-col>
+  </el-row>
+{% endblock %}
+
+{% block state_map %}
+  {{ map_route (pagingUrl = "examples.todos.index", updateUrl = "examples.todos.item") }}
+  {{ map_data ('types', ["todo", "canceled", "done"]) }}
+  {{ map_data ('navbarActiveIndex', '1-3') }}
+{% endblock %}
+
+{% block global_vue_components %}
+  {{ global_component ('examples/router/sub.vue', 'sub-component') }}
+{% endblock %}

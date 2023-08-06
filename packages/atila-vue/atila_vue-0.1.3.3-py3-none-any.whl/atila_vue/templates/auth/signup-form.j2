@@ -1,0 +1,25 @@
+{% extends 'auth/layout.j2' %}
+
+{% block head_start %}
+  <title>{{ app.config.SITE_NAME }}: Sign Up</title>
+{% endblock %}
+
+{% block el_main %}
+  <firebase-auth is-signup profile-edit-url="/" v-if='context.frontendConfig.firebaseConfig'></firebase-auth>
+{% endblock %}
+
+{% block state_map %}
+  {{ super () }}
+  {{ map_route (
+      signInWithFirebaseIdToken = "firebase.auth.signin_with_firebase_id_token",
+      updateProfile = 'firebase.users.patch_profile',
+      nickName = 'firebase.auth.nick_name',
+  ) }}
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('auth/firebase-auth.vue') }}
+{% endblock %}
+</script>

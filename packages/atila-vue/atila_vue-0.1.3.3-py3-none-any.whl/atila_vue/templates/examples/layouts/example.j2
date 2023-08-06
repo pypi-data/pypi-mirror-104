@@ -1,0 +1,15 @@
+{% extends '_layouts/' + context.get ('layout', "triplet") + ".j2" %}
+
+{% block head %}
+  <title>{{ app.config.SITE_NAME }}</title>
+  <meta property="og:title" content="The Rock" />
+  <meta property="og:type" content="video.movie" />
+  <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+  <meta name="description" content="페이지 설명" />
+  {{ super () }}
+{% endblock %}
+
+{% block style %}
+    {%include 'examples/include/style.j2' %}
+{% endblock %}

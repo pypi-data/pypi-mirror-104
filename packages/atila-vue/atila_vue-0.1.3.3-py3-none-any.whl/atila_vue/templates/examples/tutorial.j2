@@ -1,0 +1,53 @@
+{% extends 'examples/layouts/example_tb.j2' %}
+
+{% block head_start %}
+  <title>공감과 비판</title>
+  <meta property="og:title" content="The Rock" />
+  <meta property="og:type" content="video.movie" />
+  <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+  <meta name="description" content="페이지 설명" />
+{% endblock %}
+
+{% block head_end %}
+  <style>
+    .status-1 {opacity: 0.5;}
+    .status-9 {opacity: 0.5;}
+    .status-0 {display: none;}
+  </style>
+{% endblock %}
+
+{# main content #}
+{% block el_main %}
+  <article>
+    <h1>Represent Item List</h1>
+    <ul ref='list'>
+      {% for item in context.item_list %}
+        <li class='item'
+          :class="context.item_list [{{ loop.index0 }}].display"
+          data-idx='{{ item.idx }}'
+          data-display='{{ "status-{}".format (item.status) }}'>{{ item.subject }}
+          <remove-button :index='{{ loop.index0 }}'></remove-button>
+          </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+  {{ show_python_context () }}
+  <vuex-state></vuex-state>
+{% endblock %}
+
+{# inject to vuex #}
+{% block state_map %}
+  {{ map_data ('navbarActiveIndex', '1-4') }}
+  {{ map_data ('context', context | upselect ('record_count', siteName = app.config.SITE_NAME)) }}
+  {{ map_data ('context.item_list', { "idx": 0, "status": ''}, ".item", context.item_list | length) }}
+  {{ map_route (pagingUrl = "examples.todos.index", updateUrl = "examples.todos.item") }}
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('examples/tutorial/remove-button.vue') }}
+{% endblock %}
+</script>

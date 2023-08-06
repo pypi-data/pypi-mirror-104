@@ -1,0 +1,13 @@
+{% extends 'auth/layout.j2' %}
+
+{% block el_main %}
+  <firebase-cloud-messaging v-if='context.frontendConfig.webPush'></firebase-cloud-messaging>
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('auth/firebase-cloud-messaging.vue') }}
+{% endblock %}
+</script>
+

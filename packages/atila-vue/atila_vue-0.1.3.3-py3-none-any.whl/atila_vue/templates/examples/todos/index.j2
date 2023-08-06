@@ -1,0 +1,73 @@
+{% extends 'examples/layouts/example.j2' %}
+
+## head ----------------------------------------------------------------
+{% block title %}TODO List{% endblock %}
+{% block keyword %}{{ self.title () }}{% endblock %}
+
+<style>
+{% block style %}
+  {{ super () }}
+  .dim {opacity: 0.6;}
+  .el-card .el-button {width: 90px;}
+  .el-card .el-col {margin-bottom: 16px;}
+  .el-card .el-radio {width: 180px; padding:4px; font-size:17px;}
+{% endblock %}
+</style>
+
+
+## body ----------------------------------------------------------------
+{% block el_main %}
+  <display-stat type-filter></display-stat>
+
+  {% for row in context.rows %}
+    <el-card shadow='hover'
+      class="mb-4 rd-2"
+      :class="(rows [{{ loop.index0 }}].status != 'todo' ) ? 'dim':''"
+      data-id="{{ row.id }}"
+      data-status="{{ row.status or '' }}"
+      data-text="{{ row.text and '' }}"
+    >
+      <el-row :gutter="20">
+        <el-col class="text-xs-center" :xs=2 :sm=1 :md=1><b>{{ loop.index + ((request.ARGS.get ('page', 1) - 1) * limit) }}</b></el-col>
+
+        <el-col :xs=22 :sm=14 :md=13>
+          {{ row.text }}
+        </el-col>
+
+        <el-col :xs=24 :sm=9 :md=10>
+          <change-status :rownum='{{ loop.index0 }}'></change-status>
+        </el-col>
+
+      </el-row>
+    </el-card>
+  {% endfor %}
+
+  <div class="text-center my-4">
+    {{ make_pagenation (
+        'page', context.record_count, context.limit,
+        "examples.todos.index", 5
+    ) }}
+  </div>
+
+  {{ show_python_context () }}
+  <vuex-state></vuex-state>
+
+{% endblock %}
+
+
+## connect vue ------------------------------------------------------
+{% block state_map %}
+  {{ map_route (pagingUrl = "examples.todos.index", updateUrl = "examples.todos.item") }}
+  {{ map_data ('context', context | upselect ('record_count', 'limit')) }}
+  {{ map_data ('rows', { "id": 0, "status": 'todo', "text": '' }, ".el-card", context.rows | length) }}
+  {{ map_data ('types', ["todo", "canceled", "done"]) }}
+  {{ map_data ('navbarActiveIndex', '1-2') }}
+{% endblock %}
+
+<script>
+{% block vue_components %}
+  {{ super () }}
+  {{ component ('examples/todos/display-stat.vue') }}
+  {{ component ('examples/todos/change-status.vue') }}
+{% endblock %}
+</script>
