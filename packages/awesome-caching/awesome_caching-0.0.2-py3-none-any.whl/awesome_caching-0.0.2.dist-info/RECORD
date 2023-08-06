@@ -1,0 +1,13 @@
+awesome_caching/__init__.py,sha256=yfGsdeYSKDyLXroR-rf4ZNYNW67cXGNPEHLiJBUMGl0,260
+awesome_caching/cache.py,sha256=7qUodjVH0WrKICNp5_qR2rWcbZpWCcPQJMaMIRm6aY0,36228
+awesome_caching/backends/__init__.py,sha256=MJWCVcPZGy6d5Y-aPbv0wBMMKaa6KGLzOO1cQc_9-d8,953
+awesome_caching/backends/base_cache.py,sha256=Rc_fdGF9_CbF8Em9TY5W_kDd9zHJMK8oeKN6UhWEKC4,6222
+awesome_caching/backends/null_cache.py,sha256=ekQaFJkLfmEje5_Rrb41mtQvaEZjuCIJPxHMuKqVvb0,210
+awesome_caching/backends/redis_cache.py,sha256=R9bTetEgiSBvzQa0bTfwP443Ca4CQXYW8xPCoVoG348,13101
+awesome_caching/backends/simple_cache.py,sha256=yBM_j0zvzHk6RR-rrQ5_9r4fAcZXlnwfvyD4OyxYSPI,4696
+awesome_caching-0.0.2.dist-info/LICENSE.md,sha256=MnTz8hSX-f1CuaTqJkJhlQTnKciD9GsG9vd5hBUCGj8,1515
+awesome_caching-0.0.2.dist-info/METADATA,sha256=50RWguKNilly5fI9ZuW6bD-Dh_L5XGRcIGMUPAKGqdE,481
+awesome_caching-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awesome_caching-0.0.2.dist-info/top_level.txt,sha256=olTpMDU8rEymXu-DFkjYtwdjU5DC4ctP--eDta6O96w,16
+awesome_caching-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+awesome_caching-0.0.2.dist-info/RECORD,,
