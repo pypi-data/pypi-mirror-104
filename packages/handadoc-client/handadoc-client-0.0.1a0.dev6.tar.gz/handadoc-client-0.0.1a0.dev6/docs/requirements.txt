@@ -1,0 +1,6 @@
+pyyaml
+doctestprinter
+click
+requests
+jsonschema
+myminions
