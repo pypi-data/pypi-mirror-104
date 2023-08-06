@@ -1,0 +1,8 @@
+README.md
+setup.py
+nextsms/__init__.py
+nextsms.egg-info/PKG-INFO
+nextsms.egg-info/SOURCES.txt
+nextsms.egg-info/dependency_links.txt
+nextsms.egg-info/requires.txt
+nextsms.egg-info/top_level.txt
