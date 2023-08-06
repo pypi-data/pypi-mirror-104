@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: fshare-cli
+Version: 2021.5.4
+Summary: ('[Unofficial] Fshare command-line interface',)
+Home-page: https://github.com/pltchuong/fshare-cli
+Author: Phan Chuong
+Author-email: pltchuong@gmail.com
+Maintainer: Phan Chuong
+Maintainer-email: pltchuong@gmail.com
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: easysettings (==4.0.0)
+Requires-Dist: colorlog (==5.0.1)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: pycurl (==7.43.0.5)
+Requires-Dist: tqdm (==4.60.0)
+
+An unofficial command-line program to download files from Fshare.vn
+
+

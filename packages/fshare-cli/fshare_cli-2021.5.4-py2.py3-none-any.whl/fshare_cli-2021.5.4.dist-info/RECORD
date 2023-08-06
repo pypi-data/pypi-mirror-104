@@ -1,0 +1,13 @@
+fshare_cli/__init__.py,sha256=O0G5rWU5XHCMEGMsR_naBYvaUv8Yl22PzAQH9HU1jzU,106
+fshare_cli/__main__.py,sha256=-b1Vtbmter9vtVaAg_VT2Kw-4JVPhCLvSpZ821EZIYQ,1821
+fshare_cli/fshare_api.py,sha256=X1Ps2icxwiUKKBYDqDXMIGMFUXkNETGdqirSw8Qb4kI,11184
+fshare_cli/fshare_cli.py,sha256=1ssdGtcyJuqnqJJq19ygWmjM8suMKj2SOuHmuL8D-5Y,4931
+fshare_cli/fshare_utils.py,sha256=iyqYDdwuj382Gn0MrXyNWrdcNLVeJqUzxXAsHqmCKgw,3004
+fshare_cli/version.py,sha256=gM0UdmV5St7mORWYtuPjlBXJS90J49IK2vBhBgNQtGw,68
+fshare_cli-2021.5.4.dist-info/AUTHORS,sha256=Fb5ekohJk1Gz7wcIk5GXutzkYu3BKS_OfM62Df7yJNA,12
+fshare_cli-2021.5.4.dist-info/LICENSE,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+fshare_cli-2021.5.4.dist-info/METADATA,sha256=2uhpyF3M6RuwRQxp9aCsn6a5RulDijO6tvkVHRGkcq4,1076
+fshare_cli-2021.5.4.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+fshare_cli-2021.5.4.dist-info/entry_points.txt,sha256=gG8MPT2Flx2x0cgVrXKuf5vZCUlGwEeKauUegh24hXA,53
+fshare_cli-2021.5.4.dist-info/top_level.txt,sha256=erqmnVtJNlsVMo-9hBXrgb04Udpq21TlxCrW3txDA-E,11
+fshare_cli-2021.5.4.dist-info/RECORD,,
