@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: docassemble.patchmay2021
+Version: 0.0.1
+Summary: A docassemble extension.
+Home-page: https://docassemble.org
+Author: Jonathan Pyle
+Author-email: jhpyle@gmail.com
+License: The MIT License (MIT)
+Description: # docassemble.patchmay2021
+        
+        A docassemble extension.
+        
+        ## Author
+        
+        Jonathan Pyle, jhpyle@gmail.com
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

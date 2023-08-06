@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docassemble/__init__.py
+docassemble.patchmay2021.egg-info/PKG-INFO
+docassemble.patchmay2021.egg-info/SOURCES.txt
+docassemble.patchmay2021.egg-info/dependency_links.txt
+docassemble.patchmay2021.egg-info/namespace_packages.txt
+docassemble.patchmay2021.egg-info/not-zip-safe
+docassemble.patchmay2021.egg-info/top_level.txt
+docassemble/patchmay2021/__init__.py
+docassemble/patchmay2021/patch.py
+docassemble/patchmay2021/data/questions/test.yml
+docassemble/patchmay2021/data/sources/functions
