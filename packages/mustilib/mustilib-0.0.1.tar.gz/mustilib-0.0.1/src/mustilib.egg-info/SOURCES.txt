@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mustilib/__init__.py
+src/mustilib.egg-info/PKG-INFO
+src/mustilib.egg-info/SOURCES.txt
+src/mustilib.egg-info/dependency_links.txt
+src/mustilib.egg-info/top_level.txt
