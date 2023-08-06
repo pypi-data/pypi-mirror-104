@@ -1,0 +1,12 @@
+p_winds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p_winds/helium.py,sha256=GlmY5819WOt7_BPk161f41RH0Rg9X_xp7C2MgsPc3ZQ,25758
+p_winds/hydrogen.py,sha256=DrtYTZIJi9iu_DubX914nvg4ekkGtbRyZ_CdsQaO8DE,12867
+p_winds/microphysics.py,sha256=7WDFBRvpCHPSJG41IKsza-sJrjHwsuIfTaVcOIoUUJQ,7682
+p_winds/parker.py,sha256=LSp4Ps9VjB3eQVIZu9EJcw2Yz4bcAJgoB0RX28dNlHw,5306
+p_winds/tools.py,sha256=Vn_Ups9_vV8jAnRAERlX6jov_hHC3BEI9KqQfVWA2WE,2845
+p_winds/transit.py,sha256=0ef9ClF0fr2zyt78xB6qZBAblJO-Ka8G14WJyHUxHwM,8987
+p_winds-0.5.3b0.dist-info/LICENSE,sha256=ZgLksX30SsE266QB1bmxd2z0156ugAbwpJ0YGXc5NW8,1065
+p_winds-0.5.3b0.dist-info/METADATA,sha256=UJWkgFXVrYYvcrEraIv9q5WsP_V8N7PgT5XsV_qTZSQ,588
+p_winds-0.5.3b0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+p_winds-0.5.3b0.dist-info/top_level.txt,sha256=Nz4eP-Fm0W3a1_piUnCHfVhGodcuqfo3CuHkcHF6h_0,8
+p_winds-0.5.3b0.dist-info/RECORD,,
