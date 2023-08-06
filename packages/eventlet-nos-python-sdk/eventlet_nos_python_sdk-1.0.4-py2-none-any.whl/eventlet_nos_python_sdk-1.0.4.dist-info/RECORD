@@ -1,0 +1,15 @@
+nos/__init__.py,sha256=Is0NSLl5ainhpJWWee7s3_9F6srGkBU-PRNC5sVXvNM,601
+nos/compat.py,sha256=X9g3JOBBdm2VIXYQXQQl_wWmqhINq6hWQ0pb5oWiGtc,520
+nos/connection.py,sha256=4AOrmkxd4E-gqyI5cMhDr1yUo-ptOoWXAwYKyk0KZlQ,2482
+nos/exceptions.py,sha256=ZeM0A4vP-mdlXSzNGqCFusKn3eyvgvPOpU7Tsfg8pqM,5692
+nos/serializer.py,sha256=bUL0wrS50c_c3wOlqJZEEF-JRKJJ81FFo5BXQneH4-w,1180
+nos/transport.py,sha256=w9Rb1gLQXkzvh_akHBLotlLZbBNd5OnwPW7dqvwaHNo,4743
+nos/client/__init__.py,sha256=SNUdxLmpFGtewYiFwDAidBYYyZ_l3cZOCTXwfzAxuJQ,117
+nos/client/auth.py,sha256=qrp9ZaiQt09h-Rjc7Pp-1d1sQeCcyynBQr1vvQScmDE,5702
+nos/client/nos_client.py,sha256=2fupca5fQf8ZVcSeTJfMxB_d2SaKxZFIcsCX1jym9ac,28259
+nos/client/utils.py,sha256=IflsfkuTSk4ViZpDzAMSiNzTSscuHZFuETOaz-aIoIA,1480
+eventlet_nos_python_sdk-1.0.4.dist-info/LICENSE,sha256=4uXmlq4gXzG05eE4i4y5R_jq6LBMYSEwhj6JXPIUqjM,1055
+eventlet_nos_python_sdk-1.0.4.dist-info/METADATA,sha256=EpkCnGTL_5XSz-YMDcHr4QFpKg5e-C0KV06lMy0t804,33086
+eventlet_nos_python_sdk-1.0.4.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+eventlet_nos_python_sdk-1.0.4.dist-info/top_level.txt,sha256=Tgqk49XI1nXvi6W_Ryy7_YwQ7iFU-mAlIsbNMR1HS6s,4
+eventlet_nos_python_sdk-1.0.4.dist-info/RECORD,,
