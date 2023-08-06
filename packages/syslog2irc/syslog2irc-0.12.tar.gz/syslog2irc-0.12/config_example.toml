@@ -1,0 +1,27 @@
+log_level = "debug"
+
+[irc.server]
+host = "irc.server.example"
+port = 6667
+ssl = false
+password = "t0ps3cr3t"
+rate_limit = 0.5
+
+[irc.bot]
+nickname = "syslog"
+realname = "syslog"
+
+[irc]
+commands = [
+  "MODE syslog +i",
+]
+channels = [
+  { name = "#examplechannel1" },
+  { name = "#examplechannel2", password = "zePassword" },
+]
+
+[routes]
+# routing for syslog messages from the ports on which they are
+# received to the IRC channels they should be announced on
+"514/udp" = [ '#examplechannel1', '#examplechannel2' ]
+"55514/tcp" = [ '#examplechannel2' ]
