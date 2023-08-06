@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: doniclient
+Version: 0.1.3
+Summary: This is a plugin for the openstack commandline client, to enable support for the Doni hardware inventory project
+Author: Michael Sherman
+Author-email: shermanm@uchicago.edu
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: osc-lib (>=2.3,<3.0)
+Requires-Dist: python-dateutil (>=2.8.0,<3.0.0)
+Requires-Dist: python-openstackclient[cli] (>=5.5.0,<6.0.0)
