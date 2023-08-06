@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pySMARTS
+Version: 0.0.1a0
+Summary: Python wrapper for SMARTS2, Simple Model of the Atmospheric Radiative Transfer of Sunshine
+Home-page: https://github.com/NREL/pySMARTS
+Author: Silvana Ayala
+Author-email: silvana.ayala@nrel.gov
+License: BSD-3
+Description: <img src="docs/images/py-SMARTS.PNG" width="400">
+        
+        The ``smarts`` module contains functions for calling SMARTS: Simple Model of the
+        Atmoshperic Radiative Transfer of Sunshine, from NREL, developed by 
+        Dr. Christian Gueymard. 
+        
+        SMARTS software can be obtained from: 
+            https://www.nrel.gov/grid/solar-resource/smarts.html
+        
+        Users will be responsible to obtain a copy of SMARTS  from NREL, 
+        honor it’s license, and download the SMART files into their PVLib folder.
+        
+        This wrapper is shared under a BSD-3-Clause License, and was
+        originally coded in Matlab by Juan Russo (2001), updated and ported to python
+        by Silvana Ayala (2019-2020). Original Matlab wrapper was made for graduate studies 
+        at the University of Arizona, python porting by NREL.
+        
+        Copyright (c) 2020 National Renewable Energy Laboratory, University of Arizona Board of Regents 
+Keywords: spectra,atmosphere,air mass,solar pv
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
