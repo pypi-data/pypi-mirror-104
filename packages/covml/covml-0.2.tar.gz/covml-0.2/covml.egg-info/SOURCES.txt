@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+covml/__init__.py
+covml.egg-info/PKG-INFO
+covml.egg-info/SOURCES.txt
+covml.egg-info/dependency_links.txt
+covml.egg-info/top_level.txt
+covml/data/corona.csv
