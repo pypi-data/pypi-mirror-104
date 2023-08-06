@@ -1,0 +1,6 @@
+setuptools
+lxml
+zope.component
+zope.interface
+
+[test]
