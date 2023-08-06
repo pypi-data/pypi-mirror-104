@@ -1,0 +1,13 @@
+firefox_downloader/__init__.py,sha256=v54k7c5j6d_WX6egpvhEMcn4QENEsoxEAXfx0DgbkFk,2655
+firefox_downloader/__main__.py,sha256=QhnR3oZ0XLT2Gzz7QTjyeckyii7NV-r5yARCPoK8Ed4,176
+firefox_downloader/current.py,sha256=S-JXIupl9J1KRYn8nF5p58lQD9gzr_okFFZ7ijHwmlc,590
+firefox_downloader/info.py,sha256=Egv4idqZCGl7emUSFHpbj4eeph-j6TyT7oTFYAQuBio,100
+firefox_downloader/remote.py,sha256=ZV0QdSLvnNmHB-MmoJdD46u9pP6ROM01DF_altC41E0,2454
+firefox_downloader/utils.py,sha256=SX1z9fjtdCBeSY9Lwz0H3zG1_xwk0S8inuKI6Y58ASY,702
+firefox_downloader/config/__init__.py,sha256=A1oVAJ8CzSuBQp3ewBa0ab8qW3SvpqxFtGMMKSrd_wU,3258
+firefox_downloader/config/desktop_file.py,sha256=hQyXJGDgSaRN0z-WrR50QR43eUUoESYgqmdLor01U4A,543
+firefox_downloader-0.1.4.data/scripts/firefox_downloader,sha256=FdS84HdEvsoRdNeeABdYxVRczfhC6bK3P9PAI3MeJVo,45
+firefox_downloader-0.1.4.dist-info/METADATA,sha256=UbVfwtEpKOabsEvEZ1lQh562Xgz4RiTsWVJW4zkQmgI,312
+firefox_downloader-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+firefox_downloader-0.1.4.dist-info/top_level.txt,sha256=8vjTlLJuVyhIUs4xQk6Zp1C7HUPB2FcrzwihHMiFy0s,19
+firefox_downloader-0.1.4.dist-info/RECORD,,
