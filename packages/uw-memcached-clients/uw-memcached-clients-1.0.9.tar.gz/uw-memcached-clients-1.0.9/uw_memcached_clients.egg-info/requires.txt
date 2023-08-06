@@ -1,0 +1,3 @@
+pymemcache~=3.4
+commonconf~=1.1
+mock
