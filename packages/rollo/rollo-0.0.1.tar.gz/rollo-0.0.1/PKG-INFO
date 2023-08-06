@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rollo
+Version: 0.0.1
+Summary: Reactor Evolutionary Algorithm Optimizer
+Home-page: https://github.com/arfc/rollo
+Author: Gwendolyn J.Y. Chee
+Author-email: gwendolynchee95@gmail.com
+License: UNKNOWN
+Description: ## rollo (Reactor evOLutionary aLgorithm Optimizer)
+        Repository to hold the framework and code to produce generative reactor designs.
+        
+        python rollo -i <input file> -c <checkpoint file>
+        
+        # To build documentation 
+        cd docs 
+        make html
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
