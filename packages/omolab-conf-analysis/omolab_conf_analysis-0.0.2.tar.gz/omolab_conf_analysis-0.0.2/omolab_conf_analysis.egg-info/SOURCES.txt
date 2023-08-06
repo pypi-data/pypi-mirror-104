@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+clustering.py
+elements.py
+mGenerate_PyMOL_Session.sh
+main.py
+pca.py
+pentanetest_families.csv
+pymol.py
+setup.py
+test_families.csv
+xyz.py
+omolab_conf_analysis.egg-info/PKG-INFO
+omolab_conf_analysis.egg-info/SOURCES.txt
+omolab_conf_analysis.egg-info/dependency_links.txt
+omolab_conf_analysis.egg-info/requires.txt
+omolab_conf_analysis.egg-info/top_level.txt
