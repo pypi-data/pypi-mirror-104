@@ -1,0 +1,232 @@
+#!python
+# COPYRIGHT (C) 2020-2021 Nicotine+ Team
+# COPYRIGHT (C) 2020 Lene Preuss <lene.preuss@gmail.com>
+# COPYRIGHT (C) 2016-2017 Michael Labouebe <gfarmerfr@free.fr>
+# COPYRIGHT (C) 2008-2011 Quinox <quinox@users.sf.net>
+# COPYRIGHT (C) 2006-2008 eL_vErDe <gandalf@le-vert.net>
+# COPYRIGHT (C) 2006-2009 Daelstorm <daelstorm@gmail.com>
+# COPYRIGHT (C) 2003-2004 Hyriand <hyriand@thegraveyard.org>
+# COPYRIGHT (c) 2001-2003 Alexander Kanavin
+#
+# GNU GENERAL PUBLIC LICENSE
+#    Version 3, 29 June 2007
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+import argparse
+import importlib.util
+import sys
+
+
+def check_arguments():
+    """ Parse command line arguments specified by the user """
+
+    from pynicotine.utils import version
+    parser = argparse.ArgumentParser(description=_("Nicotine+ is a Soulseek client"), add_help=False)
+
+    # Visible arguments
+    parser.add_argument(
+        "-h", "--help", action="help",
+        help=_("show this help message and exit")
+    )
+    parser.add_argument(
+        "-c", "--config", metavar=_("file"),
+        help=_("use non-default configuration file")
+    )
+    parser.add_argument(
+        "-p", "--plugins", metavar=_("dir"),
+        help=_("use non-default directory for plugins")
+    )
+    parser.add_argument(
+        "-t", "--enable-trayicon", action="store_true",
+        help=_("enable the tray icon")
+    )
+    parser.add_argument(
+        "-d", "--disable-trayicon", action="store_true",
+        help=_("disable the tray icon")
+    )
+    parser.add_argument(
+        "-s", "--hidden", action="store_true",
+        help=_("start the program without showing window")
+    )
+    parser.add_argument(
+        "-b", "--bindip", metavar=_("ip"),
+        help=_("bind sockets to the given IP (useful for VPN)")
+    )
+    parser.add_argument(
+        "-l", "--port", metavar=_("port"), type=int,
+        help=_("listen on the given port")
+    )
+    parser.add_argument(
+        "-v", "--version", action="version", version="Nicotine+ %s" % version,
+        help=_("display version and exit")
+    )
+
+    # Disables critical error dialog; used for integration tests
+    parser.add_argument("--ci-mode", action="store_true", help=argparse.SUPPRESS)
+
+    # Enable cProfile dumps
+    parser.add_argument("--profile", action="store_true", help=argparse.SUPPRESS)
+
+    # Currently undocumented, since we can't rescan shares while Nicotine+ is open (shelve limitation)
+    parser.add_argument("-r", "--rescan", action="store_true", help=argparse.SUPPRESS)
+
+    args = parser.parse_args()
+    trayicon = None
+
+    if args.config:
+        from pynicotine.config import config
+        config.filename = args.config
+
+    if args.plugins:
+        from pynicotine.config import config
+        config.plugin_dir = args.plugins
+
+    if args.enable_trayicon:
+        trayicon = True
+
+    if args.disable_trayicon:
+        trayicon = False
+
+    return trayicon, args.hidden, args.bindip, args.port, args.ci_mode, args.profile, args.rescan
+
+
+def check_dependencies():
+
+    # Require Python 3.5 or newer
+    try:
+        assert sys.version_info[:2] >= (3, 5), '.'.join(
+            map(str, sys.version_info[:3])
+        )
+
+    except AssertionError as e:
+        return _("""You're using an unsupported version of Python (%s).
+You should install Python 3.5 or newer.""") % (e)
+
+    # Require GTK+ >= 3
+    try:
+        import gi
+
+    except ImportError:
+        return _("Cannot find %s, please install it.") % "pygobject"
+
+    else:
+        try:
+            gi.require_version('Gtk', '3.0')
+        except ValueError as e:
+            return _("""You're using an unsupported version of GTK (%s).
+You should install GTK 3.0 or newer.""") % e
+
+    try:
+        from gi.repository import Gtk  # noqa: F401
+
+    except ImportError:
+        return _("Cannot import the Gtk module. Bad install of the python-gobject module?")
+
+    # Require gdbm or semidbm, for faster loading of shelves
+    if not importlib.util.find_spec("_gdbm") and \
+            not importlib.util.find_spec("semidbm"):
+        return _("Cannot find %(option1)s or %(option2)s, please install either one.") % {
+            "option1": "gdbm",
+            "option2": "semidbm"
+        }
+
+    return None
+
+
+def rescan_shares():
+
+    from collections import deque
+
+    from pynicotine.config import config
+    from pynicotine.logfacility import console
+    from pynicotine.shares import Shares
+
+    config.load_config()
+
+    # Show normal log messages in console
+    console.log_levels = (0, 1)
+
+    print(_("""WARNING! Rescanning shares will not work if Nicotine+ is already open. If you need to rescan
+your shares this way, keep Nicotine+ closed until rescanning is done."""))
+
+    shares = Shares(None, config, deque())
+
+    shares.rescan_public_shares(thread=False)
+
+    if config.sections["transfers"]["enablebuddyshares"]:
+        shares.rescan_buddy_shares(thread=False)
+
+    return 0
+
+
+def run():
+    """ Run Nicotine+ and return its exit code """
+
+    # Support file scanning process in frozen Windows and macOS binaries
+    if getattr(sys, 'frozen', False) :
+        import multiprocessing
+        multiprocessing.freeze_support()
+
+    # Require pynicotine module
+    if not importlib.util.find_spec("pynicotine"):
+        print("""Cannot find Nicotine+ modules.
+Perhaps they're installed in a directory which is not
+in an interpreter's module search path.
+(there could be a version mismatch between
+what version of Python was used to build the Nicotine
+binary package and what you try to run Nicotine+ with).""")
+        return 1
+
+    from pynicotine.i18n import apply_translation
+    from pynicotine.utils import rename_process
+
+    rename_process(b'nicotine')
+    apply_translation()
+
+    trayicon, hidden, bindip, port, ci_mode, profile, rescan = check_arguments()
+    error = check_dependencies()
+
+    if error:
+        print(error)
+        return 1
+
+    if rescan:
+        return rescan_shares()
+
+    # Load GTK-based GUI
+    from pynicotine.gtkgui.frame import Application
+    app = Application(trayicon, hidden, bindip, port, ci_mode)
+
+    if profile:
+        import cProfile
+        from pynicotine.config import config
+
+        dumpfile = config.filename + ".profile"
+        profiler = cProfile.Profile()
+        profiler.enable()
+
+        print("Starting using the profiler (saving dump to %s)" % dumpfile)
+
+        exit_code = app.run()
+        profiler.disable()
+
+        profiler.dump_stats(dumpfile)
+        return exit_code
+
+    return app.run()
+
+
+if __name__ == '__main__':
+    sys.exit(run())
