@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+mysto.egg-info/PKG-INFO
+mysto.egg-info/SOURCES.txt
+mysto.egg-info/dependency_links.txt
+mysto.egg-info/top_level.txt
