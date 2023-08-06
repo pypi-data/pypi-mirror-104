@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bst-gpapidl
+Version: 1.0.2
+Summary: Unofficial python api for google play
+Home-page: https://github.com/rehmatworks/googleplay-api
+Author: Rehmat Alam
+Author-email: contact@rehmat.works
+License: GPL3
+Platform: UNKNOWN
+Requires-Dist: cryptography (==2.9)
+Requires-Dist: protobuf (==3.14.0)
+Requires-Dist: requests (==2.23.0)
+
+UNKNOWN
+
+
