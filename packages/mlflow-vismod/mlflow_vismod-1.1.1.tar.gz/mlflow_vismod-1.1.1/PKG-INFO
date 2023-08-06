@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mlflow_vismod
+Version: 1.1.1
+Summary: MLflow model flavor for managing visualizations as models
+Home-page: UNKNOWN
+Author: James Hibbard, Andrew Bauman
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
