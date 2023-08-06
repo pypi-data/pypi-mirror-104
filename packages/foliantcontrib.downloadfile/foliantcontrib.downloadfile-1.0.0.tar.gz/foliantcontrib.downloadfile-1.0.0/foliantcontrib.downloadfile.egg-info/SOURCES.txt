@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/config/downloadfile.py
+foliantcontrib.downloadfile.egg-info/PKG-INFO
+foliantcontrib.downloadfile.egg-info/SOURCES.txt
+foliantcontrib.downloadfile.egg-info/dependency_links.txt
+foliantcontrib.downloadfile.egg-info/requires.txt
+foliantcontrib.downloadfile.egg-info/top_level.txt
