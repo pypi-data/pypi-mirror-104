@@ -1,0 +1,12 @@
+fastcore
+numba
+pandas
+window-ops
+pydantic
+
+[distributed]
+boto3
+dask[complete]
+lightgbm
+s3path
+xgboost
