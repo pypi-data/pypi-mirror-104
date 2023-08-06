@@ -1,0 +1,14 @@
+pysimdjson
+tqdm
+tensorflow>=1.15.0
+gdown
+requests
+
+[cloud]
+smart_open[all]
+
+[gcp]
+google-api-python-client
+google-compute-engine
+google-cloud-storage
+oauth2client
