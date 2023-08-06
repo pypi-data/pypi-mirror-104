@@ -1,0 +1,8 @@
+spacy
+networkx
+sentence-transformers
+scikit-learn
+pandas
+numpy
+nltk
+flask
