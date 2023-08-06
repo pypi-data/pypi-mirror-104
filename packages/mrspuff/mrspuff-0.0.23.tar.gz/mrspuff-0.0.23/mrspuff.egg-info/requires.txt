@@ -1,0 +1,8 @@
+Pillow
+bokeh
+fastai>=2.3.0
+matplotlib
+numpy
+plotly
+requests
+xattr
