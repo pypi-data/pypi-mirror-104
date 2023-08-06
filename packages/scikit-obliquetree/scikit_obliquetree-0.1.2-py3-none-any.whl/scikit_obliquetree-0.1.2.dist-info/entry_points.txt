@@ -1,0 +1,3 @@
+[console_scripts]
+scikit-obliquetree=scikit_obliquetree.__main__:app
+
