@@ -1,0 +1,11 @@
+jax_resnet/__init__.py,sha256=M18lQgyScB8TPUZ9cVbVx_dgLQxvXh1JxSoclRIwp0M,146
+jax_resnet/common.py,sha256=p5zbQBn1CaOMyHLdOv7PO80G5VmY3DsuJ7ccLNQXJaA,3300
+jax_resnet/pretrained.py,sha256=mnYbsV-CIvCmgZk8brYkWaEpCkaggJZSbQSrTgs1mdo,13498
+jax_resnet/resnet.py,sha256=RsY30Qneo57v2ifz9wF3sNIV6gYwIn-y2Cc-n6rpcyo,10129
+jax_resnet/splat.py,sha256=3uLeUKjDjrDmIWxDtb7iAlqWV_6cEpxOFD-QOfkskHg,2708
+jax_resnet-0.0.3.dist-info/LICENSE,sha256=gzQzu6uD7lxWJGp3cJZptO5oZB8wahRum_Qzg0sZ-Cw,1074
+jax_resnet-0.0.3.dist-info/METADATA,sha256=MfBcad_XGzVvnr6Xfg_reumfVqD72bokd8CWJCT0jG8,4849
+jax_resnet-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+jax_resnet-0.0.3.dist-info/top_level.txt,sha256=PRM4ottDEC-rcRDTiNAS_qGsFu3RMcXyRriBA0ykIEk,11
+jax_resnet-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jax_resnet-0.0.3.dist-info/RECORD,,
