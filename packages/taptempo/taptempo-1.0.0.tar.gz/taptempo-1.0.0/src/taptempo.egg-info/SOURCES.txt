@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+bin/taptempo
+src/taptempo/__init__.py
+src/taptempo/__main__.py
+src/taptempo/taptempo.py
+src/taptempo.egg-info/PKG-INFO
+src/taptempo.egg-info/SOURCES.txt
+src/taptempo.egg-info/dependency_links.txt
+src/taptempo.egg-info/top_level.txt
