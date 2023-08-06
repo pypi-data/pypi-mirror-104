@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mdex
+Version: 0.0.7
+Summary: Mangadex CLI
+Home-page: https://github.com/Bottersnike/mdapi
+Author: Bottersnike
+Author-email: bottersnike237@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Bottersnike/mdapi/issues
+Description: # Unofficial MangaDex API and CLI
+        
+        The three commands you will want are:
+        
+        - `mdex search [query here]`
+        - `mdex chapters [manga uuid]`
+        - `mdex download [chapter uuid]`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
