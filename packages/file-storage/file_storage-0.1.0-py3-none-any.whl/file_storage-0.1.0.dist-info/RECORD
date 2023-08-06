@@ -1,0 +1,11 @@
+file_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_storage/composite.py,sha256=TIXGDcKjYNHmiqWtnDuxaAseLU8ZYRyDqE8U3AHzHXI,1745
+file_storage/creator.py,sha256=yKUXKd0HmYdY4ubJ8PIg2jYx5ClBBa81coGUNRylTAY,453
+file_storage/entities.py,sha256=ZOb6_b3SoFF2ECbNl1HJwOns52sqVKBAwJPH8UjMEa4,236
+file_storage/ftp.py,sha256=QHpcvYHeICap3B_sjr2Tq2a1i_eQMt8hB2xBHdYBa6k,3442
+file_storage/s3.py,sha256=sR_a5uqrUbmV9RLaFHWzsozk0IXCB2MBtSjwg5Cb51c,2713
+file_storage/storage.py,sha256=Z9d4dnf8vb_ykHtM2Ly3x-cRTTjIOo_BwH9T_8OJaHI,1334
+file_storage-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+file_storage-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+file_storage-0.1.0.dist-info/METADATA,sha256=qe2WNmlhblN6sxej6o_BGOIf7daVa02dKh5KT_uMBek,497
+file_storage-0.1.0.dist-info/RECORD,,
