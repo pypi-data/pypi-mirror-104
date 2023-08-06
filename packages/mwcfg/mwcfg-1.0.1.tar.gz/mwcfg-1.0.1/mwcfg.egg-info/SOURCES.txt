@@ -1,0 +1,15 @@
+README.md
+mwcfg
+pyproject.toml
+setup.cfg
+setup.py
+modules/__init__.py
+modules/azorult/__init__.py
+modules/azorult/azorult.py
+modules/citadel/__init__.py
+modules/citadel/citadel.py
+mwcfg.egg-info/PKG-INFO
+mwcfg.egg-info/SOURCES.txt
+mwcfg.egg-info/dependency_links.txt
+mwcfg.egg-info/requires.txt
+mwcfg.egg-info/top_level.txt
