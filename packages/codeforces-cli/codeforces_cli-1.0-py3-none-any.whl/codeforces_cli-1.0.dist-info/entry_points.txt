@@ -1,0 +1,3 @@
+[console_scripts]
+codeforeces = codeforeces.__main__:codeforces
+
