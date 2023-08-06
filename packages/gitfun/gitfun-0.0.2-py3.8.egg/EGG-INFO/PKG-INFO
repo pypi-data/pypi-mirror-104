@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: gitfun
+Version: 0.0.2
+Summary: A fun git is a package which is for lazy developers
+Home-page: UNKNOWN
+Author: Shreeda Bhat
+Author-email: shreeda@astaqc.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
