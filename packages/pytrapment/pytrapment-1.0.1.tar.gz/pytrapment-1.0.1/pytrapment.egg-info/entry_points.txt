@@ -1,0 +1,3 @@
+[console_scripts]
+pytrapment = pytrapment.__main__:main
+

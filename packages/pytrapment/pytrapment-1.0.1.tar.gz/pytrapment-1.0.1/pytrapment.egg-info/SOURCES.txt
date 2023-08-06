@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+pytrapment/__init__.py
+pytrapment/__main__.py
+pytrapment/_version.py
+pytrapment/entrapment.py
+pytrapment/qc.py
+pytrapment.egg-info/PKG-INFO
+pytrapment.egg-info/SOURCES.txt
+pytrapment.egg-info/dependency_links.txt
+pytrapment.egg-info/entry_points.txt
+pytrapment.egg-info/requires.txt
+pytrapment.egg-info/top_level.txt
