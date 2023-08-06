@@ -1,0 +1,3 @@
+[ofxstatement]
+vietcombank_excel = ofxstatement.plugins.vietcombank_excel:VietcombankExcelPlugin
+

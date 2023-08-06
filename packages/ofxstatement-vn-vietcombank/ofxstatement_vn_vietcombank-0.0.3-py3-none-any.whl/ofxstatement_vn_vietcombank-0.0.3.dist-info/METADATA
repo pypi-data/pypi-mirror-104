@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ofxstatement-vn-vietcombank
+Version: 0.0.3
+Summary: Vietcombank plugin for ofxstatement
+Home-page: https://github.com/darkms/ofxstatement-vn-vietcombank
+Author: Mikhail Umnov
+Author-email: darkms5+github@gmail.com
+License: MIT License
+Keywords: ofx,vietcombank
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: ofxstatement
+
+UNKNOWN
+
+
