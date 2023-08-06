@@ -1,0 +1,10 @@
+diskcache
+jinja2
+paramiko
+pyyaml
+pyzmq
+tabulate
+tenacity
+
+[ui]
+flask
