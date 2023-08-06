@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: tordl
+Version: 1.04
+Summary: CLI Torrent Search and Download
+Home-page: https://github.com/X0R0X/cli-torrent-dl/
+Author: x0r0x
+Author-email: jakub.schimer@protonmail.com
+License: MIT
+Download-URL: https://github.com/X0R0X/cli-torrent-dl/archive/refs/heads/master.zip
+Description: UNKNOWN
+Keywords: torrent,search,download,cli,curses
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Terminals
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
