@@ -1,0 +1,11 @@
+pelican/plugins/show_source/__init__.py,sha256=VN0EPglVIGuS3QtymT_HvmqE0iHWbdBQWA8S071zB5o,35
+pelican/plugins/show_source/show_source.py,sha256=AfvtZprytVqXzmWjV1rJ_EleMh77aPbu1g5dfDV9W1w,3516
+pelican/plugins/test/data/content/articles/first.md,sha256=Nnx1EJLilSBuTJLdlMtW0rZIi5B2SZ3Z4cVMk3GU3sc,286
+pelican/plugins/test/data/content/articles/second.md,sha256=Oky4j9Ut8jf6QZnZKhTKwRhG6mcOGyYGQicfPKWFAGk,269
+pelican/plugins/test/data/content/articles/third.md,sha256=mMTYgQcbRmOr2CEFfYuvQJNGbDawOuAVhmWK_PCWYYc,288
+pelican/plugins/test/data/pelicanconf.py,sha256=q54hxzZJqeDh4bWXneQGZTTPAEYhSowiJ8ONcT0tGEs,1118
+pelican/plugins/test/data/templates/article.html,sha256=iZsDQsUspVmKwJ12DsZow7er1vsp1kCO-mZGFYRKvKE,2389
+pelican/plugins/test/test_show_source.py,sha256=7RK1eRMG0SSGvVvHlWWeJUNPM4c3kCIRAtXgnq-_G6E,3604
+pelican_show_source-1.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pelican_show_source-1.1.0.dist-info/METADATA,sha256=H_ZHPNgLtE8kBaprPgTNq5WxeftFBWNCshpmtgkYkjM,6942
+pelican_show_source-1.1.0.dist-info/RECORD,,
