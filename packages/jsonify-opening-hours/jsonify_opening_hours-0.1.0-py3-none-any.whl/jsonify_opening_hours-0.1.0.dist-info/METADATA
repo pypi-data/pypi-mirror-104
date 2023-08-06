@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: jsonify-opening-hours
+Version: 0.1.0
+Summary: Parses opening hours from various human-readable strings into a standard JSON format
+Home-page: https://github.com/MoralCode/jsonify-opening-hours
+Author: Adrian Edwards
+Author-email: adrian@adriancedwards.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyparsing
+
+# Python Opening Hours parser
+This library parses opening hours from various human-readable strings such as "Mon- Fri 9:00am - 5:30pm" into a more standard JSON format that can be processed more easily.
+
+## The format
+```json
+opening_hours = [
+	{
+		"day": "monday",
+		"opens": "9:00",
+		"closes": "5:00"
+	},
+	//..
+]
+```
+## Installation
+`pip install jsonify-opening-hours`
+
+## Usage
+
+The simplest example is just printing the JSON for an opening hours string:
+```python
+from parse_opening_hours import JsonOpeningHours
+
+print(JsonOpeningHours.parse("Mon- Fri 9:00am - 5:30pm"))
+```
+
+This should give you the below output:
+```
+[
+	{'day': 'monday', 'opens': '9:00', 'closes': '17:30'},
+	{'day': 'tuesday', 'opens': '9:00', 'closes': '17:30'},
+	{'day': 'wednesday', 'opens': '9:00', 'closes': '17:30'},
+	{'day': 'thursday', 'opens': '9:00', 'closes': '17:30'},
+	{'day': 'friday', 'opens': '9:00', 'closes': '17:30'}
+]
+```
+
+This has been tested using Python 3.8.5
+
+## Tests
+
+run `python3 -m unittest`
+
