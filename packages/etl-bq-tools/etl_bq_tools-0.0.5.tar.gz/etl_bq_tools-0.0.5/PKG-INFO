@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: etl_bq_tools
+Version: 0.0.5
+Summary: etl_bq_tools
+Home-page: https://github.com/jonaqp/etl_bigquery_tools/
+Author: Jonathan Quiza
+Author-email: jony327@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jonaqp/etl_bigquery_tools/archive/main.zip
+Description: # tottus_siebel_app
+Keywords: bigquery,etl,bq
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
