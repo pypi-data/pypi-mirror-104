@@ -1,0 +1,4 @@
+1.407814e-02 pass.txt
+1.949525e-02 fail.txt
+2.637267e-02 xfail.txt
+2.944946e-03 unsupported.txt
