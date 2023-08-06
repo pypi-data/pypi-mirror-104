@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+dbpl/__init__.py
+dbpl/dbpl.py
+dbpl.egg-info/PKG-INFO
+dbpl.egg-info/SOURCES.txt
+dbpl.egg-info/dependency_links.txt
+dbpl.egg-info/requires.txt
+dbpl.egg-info/top_level.txt
