@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+sprp/__init__.py
+sprp.egg-info/PKG-INFO
+sprp.egg-info/SOURCES.txt
+sprp.egg-info/dependency_links.txt
+sprp.egg-info/requires.txt
+sprp.egg-info/top_level.txt
