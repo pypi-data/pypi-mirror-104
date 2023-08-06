@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pylocluster
+Version: 0.1.0
+Summary: Distance-based cluster methods for linguistic phylogenies
+Home-page: https://github.com/pylogeny/cluster
+Author: Johann-Mattis List
+Author-email: mattis_list@eva.mpg.de
+License: Apache 2.0
+Description: # PyloCluster 
+        
+        [![Build Status](https://travis-ci.org/lingpy/linse.svg?branch=master)](https://travis-ci.org/lingpy/linse)
+        [![codecov](https://codecov.io/gh/lingpy/linse/branch/master/graph/badge.svg)](https://codecov.io/gh/lingpy/linse)
+        [![PyPI](https://img.shields.io/pypi/v/linse.svg)](https://pypi.org/project/linse)
+        
+        PyloCluster provides basic functionalities for distance-based clustering procedures in Python, including implementations of the Neighbor-joining and the UPGMA algorithm for phylogenetic reconstruction.
+        
+        ## Installation
+        
+        ```shell
+        $ pip install pylocluster
+        ```
+        
+        ## Usage
+        
+        The following examples requires the [python-newick](https://github.com/glottobank/python-newick) package.
+        
+        ```python
+        >>> from pylocluster import *
+        >>> from newick import loads
+        >>> matrix = squareform([0.5,0.67,0.8,0.2,0.4,0.7,0.6,0.8,0.8,0.3])
+        >>> nwk = linkage(matrix, taxa=['G', 'S', 'I', 'E', 'D'], method='upgma')
+        >>> print(loads(nwk).ascii_art())
+                ┌─S
+            ┌───┤
+            │   └─I
+        ────┤
+            │   ┌─E
+            └───┤
+                │   ┌─G
+                └───┤
+                    └─D
+        ```
+        
+Keywords: data
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test

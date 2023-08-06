@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/pylocluster/__init__.py
+src/pylocluster/cluster.py
+src/pylocluster/util.py
+src/pylocluster.egg-info/PKG-INFO
+src/pylocluster.egg-info/SOURCES.txt
+src/pylocluster.egg-info/dependency_links.txt
+src/pylocluster.egg-info/entry_points.txt
+src/pylocluster.egg-info/not-zip-safe
+src/pylocluster.egg-info/requires.txt
+src/pylocluster.egg-info/top_level.txt
