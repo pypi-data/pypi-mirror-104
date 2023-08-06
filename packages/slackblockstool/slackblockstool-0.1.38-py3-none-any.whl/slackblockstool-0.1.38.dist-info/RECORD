@@ -1,0 +1,11 @@
+slackblockstool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackblockstool/blocks.py,sha256=VOLASP7HIm3KXsoxFRXg3uUup2YSW83aFQb-QLITr6w,29945
+slackblockstool/event.py,sha256=LMiQEY_c--Tx_F1_c70vGIPRjKzKzTv7pSx-0TTjPxA,3821
+slackblockstool/parser.py,sha256=PkodhvwotVOcxAXXWH8PSCavj3R75zIq1r8eej0MMC8,3694
+slackblockstool/view.py,sha256=uA0xljqGdZ0vZptPf3U5E2QOE2dIkAgyBugqmVqKRnM,2646
+slackblockstool-0.1.38.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+slackblockstool-0.1.38.dist-info/METADATA,sha256=Xo_57e1coux-vTo0xap2ZHYVbDIRi66dF6o1NU7aJV8,487
+slackblockstool-0.1.38.dist-info/RECORD,,
+slackblockstool-0.1.38.dist-info/WHEEL,sha256=VjfW1FYbh_HSh_hmr0hpsmaAeaK18xek5_ZvGqf7s-U,92
+slackblockstool-0.1.38.dist-info/metadata.json,sha256=-wufSyXG_PgjKmYMLmtKM-FV-9Iv5ndqOvF6MmhAenA,628
+slackblockstool-0.1.38.dist-info/top_level.txt,sha256=X5p9nJzAJJcbJMmvezsMhSXycHkOa57pQEdIGrxQem0,16
