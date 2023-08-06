@@ -1,0 +1,15 @@
+pyAudioProcessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAudioProcessing/extract_features.py,sha256=xsoLjVnwVHSvYCdrE8AzrFZryXx78dC6tJrRnzC2QnQ,2357
+pyAudioProcessing/run_classification.py,sha256=_bGzb7jt0tbB6AedlNkx3amRl-JvzJlsiEYhqfBzOCQ,4319
+pyAudioProcessing/utils.py,sha256=0JQBPqWiQ867QmJkcuKWxX5f8LeJjJNinYOFrZuXhwQ,368
+pyAudioProcessing/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAudioProcessing/features/audioFeatureExtraction.py,sha256=-L05vSx2tcvTveQcQjSEPRgnOYMpA5SQ0FDIidZRPDU,11319
+pyAudioProcessing/features/filters.py,sha256=K4U-Ph5xLCpzidxaGvYbkV9mPY0DvQIvUqXv4kL3mPE,8795
+pyAudioProcessing/features/getGfcc.py,sha256=GQUR2ggG4qW1qCtRAX160mfDT7ww0Rg4EZCj3gGVUgw,2254
+pyAudioProcessing/trainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyAudioProcessing/trainer/audioTrainTest.py,sha256=p1NENkPrmpAiT5v-bTISoyePSeoHDcSMyS_zrM3txkQ,24790
+pyAudioProcessing-1.1.8.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyAudioProcessing-1.1.8.dist-info/METADATA,sha256=J_LhfCuOVO94KZ7y6zfWsX9KIC3b8zHVi3wbIAuo-7k,8191
+pyAudioProcessing-1.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyAudioProcessing-1.1.8.dist-info/top_level.txt,sha256=UyUSP_X09z6TBdsKA4kO0LdWkSlTfDPO5ctfRrKS56c,18
+pyAudioProcessing-1.1.8.dist-info/RECORD,,
