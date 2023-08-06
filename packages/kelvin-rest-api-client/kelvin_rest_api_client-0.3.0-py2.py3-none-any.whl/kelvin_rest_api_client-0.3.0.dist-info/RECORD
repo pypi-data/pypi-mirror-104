@@ -1,0 +1,13 @@
+ucsschool/kelvin/client/__init__.py,sha256=w4nkOXeiEXjGW_ozSSJ2R1CIwNSxCJY4HEVKBoub2CE,1313
+ucsschool/kelvin/client/base.py,sha256=uSd3VfifXZHWMowx__EVDIrBJehKo0zNO7l_t45cNZ4,8403
+ucsschool/kelvin/client/exceptions.py,sha256=OMQxPDmu3JnkLtqjCmGlvSt3hvLjAerM1I_dqwb3F5s,1641
+ucsschool/kelvin/client/role.py,sha256=sZm0TxA2s79TnMQmmztShDrHVsED12EV-iLEiKF1ehg,2799
+ucsschool/kelvin/client/school.py,sha256=pQdF_YE2BezyatKoKoPazR12Of5SEpFO0xyzqH_dcpI,3751
+ucsschool/kelvin/client/school_class.py,sha256=KL5wP8Ngo87bx4mBH7lBVoV8RDEajej6RU8uiIHrPSg,3337
+ucsschool/kelvin/client/session.py,sha256=yT4bxflwg1ok_PmWqbfb49gad6nPMN1gaRF0XGhCE4w,8090
+ucsschool/kelvin/client/user.py,sha256=ccOVd2xW7M5MrncBjzT4H113a-z2bxrDkVYnAwkG49U,6570
+kelvin_rest_api_client-0.3.0.dist-info/LICENSE,sha256=lXDg0CK-uXB6DEvzzw81fM0Ta8jeLFTgZh4yq8EKM68,1147
+kelvin_rest_api_client-0.3.0.dist-info/METADATA,sha256=QDBVCeF_qcchFgDFI93dtWD89xkEg9CS8S--sXVNY2k,10672
+kelvin_rest_api_client-0.3.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+kelvin_rest_api_client-0.3.0.dist-info/top_level.txt,sha256=-lG7R6R5ucoaF-ZQXqAEHjWF_EFNKKZfYyZ1ebAChhg,10
+kelvin_rest_api_client-0.3.0.dist-info/RECORD,,
