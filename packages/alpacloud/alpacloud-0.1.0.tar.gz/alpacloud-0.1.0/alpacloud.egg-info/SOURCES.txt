@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+alpacloud.egg-info/PKG-INFO
+alpacloud.egg-info/SOURCES.txt
+alpacloud.egg-info/dependency_links.txt
+alpacloud.egg-info/requires.txt
+alpacloud.egg-info/top_level.txt
