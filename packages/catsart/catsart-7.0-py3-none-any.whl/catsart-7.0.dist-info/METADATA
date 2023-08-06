@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: catsart
+Version: 7.0
+Summary: Prints Random Cats Ascii Arts
+Home-page: https://github.com/nandydark/catsart
+Author: nandydark
+License: UNKNOWN
+Keywords: cats,ascii
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Description-Content-Type: text/markdown
+
+![](https://github.com/nandydark/catsart/raw/main/readme.png)
+
+

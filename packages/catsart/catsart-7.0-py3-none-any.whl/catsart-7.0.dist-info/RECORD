@@ -1,0 +1,11 @@
+catsart/__init__.py,sha256=YsNH-zhV0OPlNaGLmWQkEoDp0ELdP2y9Cx2EEkNDIGY,21
+catsart/__main__.py,sha256=ETUwDFNi0sq5dRk_xkl96A16OWSkWgotTmvYRZivrhU,946
+catsart/database/__init__.py,sha256=U1fVChVuyqOEqpoHMYnTiH6XYGujkhbLUmv4QsYkFEU,641
+catsart/database/asciione.json,sha256=6yUOw_zvMY6J41dqIzAsixz2NYHZ3h-JpkX5hROBp9c,25961
+catsart/database/asciitwo.json,sha256=no1082-nQozg2DZpVbJ5vBPmMY3Hu0PtrGJu41R_nwE,66653
+catsart-7.0.dist-info/LICENSE.txt,sha256=QMV2aPp_nVHMLv1VknLVFltxD5SjcFYvVtS4v2-yO8s,1066
+catsart-7.0.dist-info/METADATA,sha256=JWxvJRsAHmbZgbSXwI2H4zi3ElWf38L_8mCXFg5EkIo,565
+catsart-7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+catsart-7.0.dist-info/entry_points.txt,sha256=DoelK5c8OWyleeXN6xJjQkrJJzfwJeaxx0nf3qCyg2s,51
+catsart-7.0.dist-info/top_level.txt,sha256=N6M7ms_mxUnBIMUSgm6hN7ytECi6eBRTkYm1CQdDK_Y,8
+catsart-7.0.dist-info/RECORD,,
