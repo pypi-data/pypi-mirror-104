@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: fw-gear-dicom-fixer
+Version: 0.1.1
+Summary: This gear reports on the Dicom files data elements and optionally fixes or enhances the problematic ones, generating a new archive.
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/dicom-fixer
+License: MIT
+Keywords: Flywheel,Gears,Dicom,Fixer
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Dist: flywheel-gear-toolkit (>=0.2.1,<0.3.0)
+Requires-Dist: fw-file (>=0.5,<0.6)
+Requires-Dist: pydicom (>=2.1.2,<3.0.0)
+Requires-Dist: tzlocal (>=2.1,<3.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/dicom-fixer
+Description-Content-Type: text/markdown
+
+# Skeleton Gear
+This was created from [poetry-cow-says](https://gitlab.com/flywheel-io/flywheel-apps/templates/poetry-cow-says). 
+Some things (packages in .toml, GUIDELINES.md, `tests/test_main.py` methods) 
+were removed to remove conflicts for new gears. This gear does
+not do anything, just used as a "bare bones" template.
+
+This section is the overview of what this gear implements. 
+
+Note: changed `DOCKER_HUB` var in `.gitlab-ci.yml` to `false`
+
+## Usage
+
+### Inputs
+
+* __text-file__: A text file containing text to say.
+
+### Configuration
+* __debug__ (boolean, default False): Include debug statements in output.
+* __animal__ (string, default 'cow'): Animal to say text.
+
+
+## Contributing
+
+For more information about how to get started contributing to that gear, 
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).
