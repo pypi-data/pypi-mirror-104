@@ -1,0 +1,6 @@
+pymortar/__init__.py,sha256=ekIWPjKj1hNHyeci3IXTq0QX30irGYcGew9FTLT2V70,15385
+pymortar/mortar_pb2.py,sha256=-deP4ko0vFNSlVF1fsSi_UvdBk690o40c-OAiIPWDpg,42643
+pymortar/mortar_pb2_grpc.py,sha256=APGwxigIuxn8BtGxf3xSav4IZls6TxT3qOXFHSXHrao,2998
+pymortar-2.0.3a4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pymortar-2.0.3a4.dist-info/METADATA,sha256=eFeUmYEvPA8rXavFAShPu8g0wVGXFIYPnGy33IASTAw,652
+pymortar-2.0.3a4.dist-info/RECORD,,
