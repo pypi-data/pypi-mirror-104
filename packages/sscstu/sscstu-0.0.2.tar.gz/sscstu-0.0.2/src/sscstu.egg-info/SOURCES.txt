@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sscstu/__init__.py
+src/sscstu/transfer.py
+src/sscstu.egg-info/PKG-INFO
+src/sscstu.egg-info/SOURCES.txt
+src/sscstu.egg-info/dependency_links.txt
+src/sscstu.egg-info/top_level.txt
+src/sscstu/conversions/__init__.py
+src/sscstu/core/__init__.py
+src/sscstu/core/exceptions.py
+src/sscstu/core/storage.py
+src/sscstu/storage/__init__.py
+src/sscstu/storage/local.py
+src/sscstu/storage/s3.py
